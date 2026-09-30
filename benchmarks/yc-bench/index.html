@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="en" data-root="../../" data-mode="public" data-search="1">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>YC-Bench, AgentTime</title>
+<meta name="description" content="Running a simulated one-year startup: hiring and managing employees, choosing which contracts to take, and trying to keep the company solvent.">
+<meta name="color-scheme" content="light dark">
+
+<link rel="canonical" href="https://agenttimebench.com/benchmarks/yc-bench/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="AgentTime">
+<meta property="og:title" content="YC-Bench, AgentTime">
+<meta property="og:description" content="Running a simulated one-year startup: hiring and managing employees, choosing which contracts to take, and trying to keep the company solvent.">
+<meta property="og:url" content="https://agenttimebench.com/benchmarks/yc-bench/">
+<meta property="og:image" content="https://agenttimebench.com/og/benchmarks-yc-bench.png">
+<meta name="twitter:card" content="summary_large_image">
+<script>(function(){try{var t=localStorage.getItem('agenttime-theme');if(t==='light'||t==='dark')document.documentElement.setAttribute('data-theme',t);}catch(e){}})();</script>
+<script>(function(){if(location.protocol!=='file:')return;
+var root=document.documentElement.getAttribute('data-root')||'./';
+function toRel(h){return root.charAt(0)==='/'&&h.indexOf(root)===0?h.slice(root.length)||'./':h;}
+function fix(a){var h=a.getAttribute('href');if(!h||/^([a-z][a-z0-9+.-]*:|\/\/|#)/i.test(h))return;h=toRel(h);
+var m=/^([^?#]*)(.*)$/.exec(h);var out=(m[1]===''||m[1].slice(-1)==='/')?(m[1]||'./')+'index.html'+m[2]:h;if(out!==a.getAttribute('href'))a.setAttribute('href',out);}
+function all(){var l=document.querySelectorAll('a[href]');for(var i=0;i<l.length;i++)fix(l[i]);}
+document.addEventListener('DOMContentLoaded',all);
+document.addEventListener('click',function(e){var a=e.target&&e.target.closest?e.target.closest('a[href]'):null;if(a)fix(a);},true);
+window.AT_FILE_FIX=fix;})();</script>
+<link rel="preload" href="../../assets/fonts/instrument-sans-var.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="../../assets/css/site.css">
+<link rel="stylesheet" href="../../assets/css/benchmarks.css">
+<link rel="stylesheet" href="../../assets/css/chart.css">
+<link rel="stylesheet" href="../../assets/css/board.css">
+
+<link rel="icon" href="../../assets/img/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="../../assets/img/favicon-32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="../../assets/img/apple-touch-icon.png">
+
+</head>
+<body class="page-benchmarks">
+<a class="skip-link" href="#main">Skip to content</a>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><defs><symbol id="i-system" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="square"><circle cx="10" cy="10" r="6.75"/><path d="M10 3.25a6.75 6.75 0 0 1 0 13.5z" fill="currentColor" stroke="none"/></symbol><symbol id="i-light" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="square"><circle cx="10" cy="10" r="3"/><path d="M10 2.5v2M10 15.5v2M2.5 10h2M15.5 10h2M4.7 4.7l1.4 1.4M13.9 13.9l1.4 1.4M4.7 15.3l1.4-1.4M13.9 6.1l1.4-1.4"/></symbol><symbol id="i-dark" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="square"><path d="M16 12.2A6.5 6.5 0 0 1 7.8 4a6.5 6.5 0 1 0 8.2 8.2z"/></symbol></defs></svg>
+
+<header class="site-header"><div class="wrap header-inner"><a class="brand" href="../../" aria-label="AgentTime, home"><svg class="mark" width="22" height="14" viewBox="3.5 8 25 16" aria-hidden="true" focusable="false"><path d="M4 20.5A12 12 0 0 1 28 20.5H27.2A11.2 9.2 0 0 0 4.8 20.5Z" fill="currentColor"/><circle cx="16" cy="20.5" r="2.6" fill="currentColor"/></svg><span class="wordmark">Agent<span class="wm-time">Time</span></span></a><nav class="site-nav" aria-label="Main"><ul><li><a href="../../results/">Results</a></li><li><a href="../../agents/">Agents</a></li><li><a href="../" aria-current="true">Benchmarks</a></li><li><a href="../../method/">Method</a></li><li><a href="../../paper/">Paper</a></li></ul></nav><div class="header-tools"><button class="icon-btn search-btn" type="button" data-search-open aria-label="Find a task or benchmark"><svg class="icon icon-search" width="20" height="20" viewBox="0 0 20 20" aria-hidden="true" focusable="false"><circle cx="8.5" cy="8.5" r="5.25"/><path d="M12.4 12.4 17 17"/></svg></button><button type="button" class="theme-cycle theme-cycle-bar" data-theme-cycle><svg class="icon" aria-hidden="true"><use href="#i-system"/></svg><span class="visually-hidden">Theme </span><span class="theme-word">Auto</span></button><button class="icon-btn menu-btn" type="button" data-menu-open aria-expanded="false" aria-controls="menu-sheet" aria-label="Menu"><svg class="icon icon-menu" width="20" height="20" viewBox="0 0 20 20" aria-hidden="true" focusable="false"><path d="M3 5.5h14M3 10h14M3 14.5h14"/></svg></button></div></div></header><div class="menu-sheet" id="menu-sheet" role="dialog" aria-modal="true" aria-label="Menu" hidden><div class="menu-sheet-inner"><div class="menu-sheet-head"><span class="menu-sheet-title">Menu</span><button class="icon-btn" type="button" data-menu-close aria-label="Close menu"><svg class="icon icon-close" width="20" height="20" viewBox="0 0 20 20" aria-hidden="true" focusable="false"><path d="M4.5 4.5l11 11M15.5 4.5l-11 11"/></svg></button></div><nav aria-label="Sections"><ul class="menu-list"><li><a href="../../results/">Results</a></li><li><a href="../../agents/">Agents</a></li><li><a href="../" aria-current="true">Benchmarks</a></li><li><a href="../../method/">Method</a></li><li><a href="../../paper/">Paper</a></li></ul><ul class="menu-extra"><li><a href="../../tasks/">Tasks</a></li><li><a href="../../studies/">Studies</a></li><li><a href="../../data/">Downloads</a></li><li><a href="../../about/">About</a></li></ul></nav><div class="menu-theme"><span class="menu-theme-label">Theme</span><button type="button" class="theme-cycle" data-theme-cycle><svg class="icon" aria-hidden="true"><use href="#i-system"/></svg><span class="visually-hidden">Theme </span><span class="theme-word">Auto</span></button></div></div></div>
+<main id="main" tabindex="-1">
+<div class="wrap page-body"><nav class="crumbs" aria-label="Breadcrumb"><ol><li><a href="../../">Home</a></li><li><a href="../">Benchmarks</a></li><li><span aria-current="page">YC-Bench</span></li></ol></nav><header class="page-head bench-head">
+<p class="position-line">Benchmark 18 of 18, 3 tasks, asked for 8 min to 2 h 5 min</p>
+<h1>YC-Bench</h1>
+<p class="lede">Running a simulated one-year startup: hiring and managing employees, choosing which contracts to take, and trying to keep the company solvent.</p>
+</header>
+<section class="bench-by-agent" aria-labelledby="by-agent"><h2 id="by-agent" class="visually-hidden">By agent</h2>
+<div class="board-wrap">
+<table class="board has-extra" id="bench-board">
+<caption class="visually-hidden">Timing error, where the runs ended, share within 5% of the time asked and grades for each agent on YC-Bench</caption>
+<thead><tr><th scope="col" class="bd-rank"><span class="visually-hidden">Rank</span></th><th scope="col" class="bd-agent"><span class="bd-h">Agent</span></th><th scope="col" class="bd-te"><span class="bd-h">Timing error</span><span class="bd-hint">on this benchmark</span></th><th scope="col" class="bd-vis"><span class="bd-h">Where runs ended</span><span class="st-axis bd-axis" aria-hidden="true"><span style="left:3.87%">0.1×</span><span class="st-one" style="left:50%">1×</span><span style="left:96.13%">10×</span></span><span class="visually-hidden">, from a tenth of the time asked to ten times it</span></th><th scope="col" class="bd-on"><span class="bd-h">Within 5%</span><span class="bd-hint">0.95× to 1.05× of the request</span></th><th scope="col" class="bd-score"><span class="bd-h">Score</span><span class="bd-hint">final funds</span></th><th scope="col" class="bd-extra"><span class="bd-h">Pass rate</span><span class="bd-hint">no official rule</span></th></tr></thead>
+<tbody><tr class="is-few" id="agent-gpt-5-6-sol">
+<td class="bd-rank">1</td>
+<td class="bd-agent"><a class="bd-name row-link" href="../../agents/gpt-5-6-sol/"><svg class="shape shape-diamond" width="12" height="12" viewBox="0 0 12 12" aria-hidden="true" focusable="false"><path d="M6 0.46L11.54 6L6 11.54L0.46 6Z" style="fill:var(--sol)"/></svg><span class="agent-name">GPT 5.6 Sol</span></a><span class="bd-sub">Codex</span></td>
+<td class="bd-te" data-sort="1.7526539368826812"><span class="bd-value">1.75×</span></td>
+<td class="bd-vis"><span class="st-axis bd-axis-m" aria-hidden="true"><span style="left:3.87%">0.1×</span><span class="st-one" style="left:50%">1×</span><span style="left:96.13%">10×</span></span><svg class="strip" role="img" aria-label="GPT 5.6 Sol: 22% within 5% of the time asked, 44% stopped earlier, 33% ran longer; timing error 1.75×." viewBox="0 0 400 72" preserveAspectRatio="none" width="100%" height="72" style="--sc:var(--sol)"><rect class="strip-band" x="195.9" y="0" width="8" height="66"/><path class="strip-bars" d="M64.4 66v-43.3h6.6v43.3zM92.9 66v-43.3h6.6v43.3zM140.3 66v-43.3h6.6v43.3zM149.8 66v-43.3h6.6v43.3zM197.1 66v-61.3h5.6v61.3zM205.3 66v-43.3h6.7v43.3zM214.8 66v-43.3h6.7v43.3zM243.4 66v-43.3h6.7v43.3z"/><path class="strip-base" d="M15.5 66.5H384.5"/><path class="strip-one" d="M200 64V72"/></svg></td>
+<td class="bd-on" data-sort="0.2222222222222222"><span class="bd-num">22%</span><span class="bd-sub">2 of 9 runs</span></td>
+<td class="bd-score" data-label="Score" data-sort="699301.9"><span class="bd-num">$0.70M</span></td>
+<td class="bd-extra" data-label="Pass rate"><span class="bd-none"><span aria-hidden="true">–</span><span class="visually-hidden">No official pass rule</span></span></td>
+</tr><tr class="is-few" id="agent-claude-fable-5-1">
+<td class="bd-rank">2</td>
+<td class="bd-agent"><a class="bd-name row-link" href="../../agents/claude-fable-5-1/"><svg class="shape shape-circle" width="12" height="12" viewBox="0 0 12 12" aria-hidden="true" focusable="false"><path d="M1.38 6a4.62 4.62 0 1 0 9.23 0a4.62 4.62 0 1 0 -9.23 0Z" style="fill:var(--fable)"/></svg><span class="agent-name">Claude Fable 5.1</span></a><span class="bd-sub">Claude Code</span></td>
+<td class="bd-te" data-sort="2.4325876327309035"><span class="bd-value">2.43×</span></td>
+<td class="bd-vis"><span class="st-axis bd-axis-m" aria-hidden="true"><span style="left:3.87%">0.1×</span><span class="st-one" style="left:50%">1×</span><span style="left:96.13%">10×</span></span><svg class="strip" role="img" aria-label="Claude Fable 5.1: 0% within 5% of the time asked, 56% stopped earlier, 44% ran longer; timing error 2.43×." viewBox="0 0 400 72" preserveAspectRatio="none" width="100%" height="72" style="--sc:var(--fable)"><rect class="strip-band" x="195.9" y="0" width="8" height="66"/><path class="strip-bars" d="M92.9 66v-43.3h6.6v43.3zM140.3 66v-43.3h6.6v43.3zM178.3 66v-61.3h6.6v61.3zM187.8 66v-43.3h6.6v43.3zM214.8 66v-43.3h6.7v43.3zM300.4 66v-43.3h6.7v43.3zM338.4 66v-43.3h6.7v43.3zM366.9 66v-43.3h6.7v43.3z"/><path class="strip-base" d="M15.5 66.5H384.5"/><path class="strip-one" d="M200 64V72"/></svg></td>
+<td class="bd-on" data-sort="0"><span class="bd-num">0%</span><span class="bd-sub">0 of 9 runs</span></td>
+<td class="bd-score" data-label="Score" data-sort="1108122.8"><span class="bd-num">$1.11M</span></td>
+<td class="bd-extra" data-label="Pass rate"><span class="bd-none"><span aria-hidden="true">–</span><span class="visually-hidden">No official pass rule</span></span></td>
+</tr><tr class="is-few" id="agent-gpt-6-astra">
+<td class="bd-rank">3</td>
+<td class="bd-agent"><a class="bd-name row-link" href="../../agents/gpt-6-astra/"><svg class="shape shape-triangle" width="12" height="12" viewBox="0 0 12 12" aria-hidden="true" focusable="false"><path d="M6 0.84L11.54 10.43L0.46 10.43Z" style="fill:var(--astra)"/></svg><span class="agent-name">GPT 6 Astra</span></a><span class="bd-sub">Codex</span></td>
+<td class="bd-te" data-sort="2.7331383515261143"><span class="bd-value">2.73×</span></td>
+<td class="bd-vis"><span class="st-axis bd-axis-m" aria-hidden="true"><span style="left:3.87%">0.1×</span><span class="st-one" style="left:50%">1×</span><span style="left:96.13%">10×</span></span><svg class="strip" role="img" aria-label="GPT 6 Astra: 22% within 5% of the time asked, 44% stopped earlier, 33% ran longer; timing error 2.73×." viewBox="0 0 400 72" preserveAspectRatio="none" width="100%" height="72" style="--sc:var(--astra)"><rect class="strip-band" x="195.9" y="0" width="8" height="66"/><path class="strip-bars" d="M1.4 66v-61.3h6.6v61.3zM35.9 66v-43.3h6.6v43.3zM64.4 66v-43.3h6.6v43.3zM197.1 66v-61.3h5.6v61.3zM205.3 66v-65h6.7v65z"/><path class="strip-cut" d="M204.8 5h7.7"/><path class="strip-base" d="M15.5 66.5H384.5"/><path class="strip-one" d="M200 64V72"/></svg></td>
+<td class="bd-on" data-sort="0.2222222222222222"><span class="bd-num">22%</span><span class="bd-sub">2 of 9 runs</span></td>
+<td class="bd-score" data-label="Score" data-sort="666934.9"><span class="bd-num">$0.67M</span></td>
+<td class="bd-extra" data-label="Pass rate"><span class="bd-none"><span aria-hidden="true">–</span><span class="visually-hidden">No official pass rule</span></span></td>
+</tr></tbody>
+
+</table>
+<div class="board-foot"><p>Score is the paper&#39;s mean final funds over each agent&#39;s graded runs. YC-Bench has no official pass rule.</p>
+<details class="quiet-more foot-more"><summary>How to read this board</summary>
+<div class="more-body">
+<p><b>Where runs ended</b> counts every run from a tenth of the time asked to ten times it. Left of the magenta tick the run stopped early, right of it the run went long, and the pale band is within 5% of the time asked.</p>
+<p><b>Score</b> is the paper's mean final funds over each agent's graded runs. The simulated company&#39;s final funds in US dollars, from a $200,000 start, negative on bankruptcy. It has no upper bound, and it is never averaged with other benchmarks.</p>
+<p>This benchmark has no official pass rule, so there is no pass rate.</p>
+<p><b>27 of 27 runs graded.</b> 1 graded during the run and 26 graded afterwards.</p>
+<p><span id="agent-muse-spark-1-3"></span>Muse Spark 1.3 has no runs on YC-Bench; it is a partial run covering GPQA Diamond and TUA-Bench. <a href="../../method/#grading">How runs are graded</a></p>
+</div></details></div>
+</div>
+</section>
+<section class="bench-chart-section" aria-labelledby="every-run"><h2 id="every-run" class="visually-hidden">Every YC-Bench run</h2>
+<div class="toolbar bench-toolbar">
+<div class="chip-row bench-chip-row"><button type="button" class="chip agent-chip agent-astra is-on" aria-pressed="true" data-agent="astra" data-agent-toggle>
+<span class="chip-shape"><svg class="shape shape-triangle" width="12" height="12" viewBox="0 0 12 12" aria-hidden="true" focusable="false"><path d="M6 0.84L11.54 10.43L0.46 10.43Z" style="fill:var(--astra)"/></svg></span><span class="chip-name">Astra</span><span class="visually-hidden">, </span><span class="chip-count">9</span></button><button type="button" class="chip agent-chip agent-sol is-on" aria-pressed="true" data-agent="sol" data-agent-toggle>
+<span class="chip-shape"><svg class="shape shape-diamond" width="12" height="12" viewBox="0 0 12 12" aria-hidden="true" focusable="false"><path d="M6 0.46L11.54 6L6 11.54L0.46 6Z" style="fill:var(--sol)"/></svg></span><span class="chip-name">Sol</span><span class="visually-hidden">, </span><span class="chip-count">9</span></button><button type="button" class="chip agent-chip agent-fable is-on" aria-pressed="true" data-agent="fable" data-agent-toggle>
+<span class="chip-shape"><svg class="shape shape-circle" width="12" height="12" viewBox="0 0 12 12" aria-hidden="true" focusable="false"><path d="M1.38 6a4.62 4.62 0 1 0 9.23 0a4.62 4.62 0 1 0 -9.23 0Z" style="fill:var(--fable)"/></svg></span><span class="chip-name">Fable</span><span class="visually-hidden">, </span><span class="chip-count">9</span></button></div>
+<div class="toolbar-group chart-controls">
+<fieldset class="segmented" id="bench-domain-seg">
+<legend class="visually-hidden">Zoom the chart</legend>
+<div class="segmented-options"><label class="segmented-option"><input type="radio" name="bench-domain" value="fit" checked><span>Fit</span></label><label class="segmented-option"><input type="radio" name="bench-domain" value="calibrated"><span>Full range</span></label></div>
+</fieldset>
+<fieldset class="segmented" id="bench-view-seg">
+<legend class="visually-hidden">View</legend>
+<div class="segmented-options"><label class="segmented-option"><input type="radio" name="bench-view" value="actual" checked><span>Actual time</span></label><label class="segmented-option"><input type="radio" name="bench-view" value="ratio"><span>Ratio</span></label></div>
+</fieldset>
+</div>
+</div>
+<div class="table-box">
+<div class="bench-chart-grid">
+<div class="bench-chart-main"><div class="bench-chart" id="bench-chart" data-bench="yc-bench" data-bench-name="YC-Bench"></div></div>
+<div class="bench-chart-side">
+<figure class="bench-byreq">
+<figcaption class="br-h">Typical run, by request</figcaption>
+<div class="br-row"><span class="br-req">Shortest</span><span class="br-track" role="img" aria-label="Shortest request, typical run as a share of the time asked: Astra 1.08×, Sol 1.07×, Fable 5.53×."><span class="br-band" style="left:48.97%;width:2.01%"></span><span class="br-one" style="left:50%"></span><span class="br-mark" style="left:51.63%;top:6px"><svg class="shape shape-triangle" width="10" height="10" viewBox="0 0 10 10" aria-hidden="true" focusable="false"><path d="M5 0.76L9.62 8.76L0.38 8.76Z" style="fill:var(--astra)"/></svg></span><span class="br-mark" style="left:51.43%;top:15px"><svg class="shape shape-diamond" width="10" height="10" viewBox="0 0 10 10" aria-hidden="true" focusable="false"><path d="M5 0.38L9.62 5L5 9.62L0.38 5Z" style="fill:var(--sol)"/></svg></span><span class="br-mark" style="left:84.27%;top:24px"><svg class="shape shape-circle" width="10" height="10" viewBox="0 0 10 10" aria-hidden="true" focusable="false"><path d="M1.15 5a3.85 3.85 0 1 0 7.69 0a3.85 3.85 0 1 0 -7.69 0Z" style="fill:var(--fable)"/></svg></span></span></div><div class="br-row"><span class="br-req">Middle</span><span class="br-track" role="img" aria-label="Middle request, typical run as a share of the time asked: Astra 0.20×, Sol 1.01×, Fable 0.94×."><span class="br-band" style="left:48.97%;width:2.01%"></span><span class="br-one" style="left:50%"></span><span class="br-mark" style="left:17.95%;top:6px"><svg class="shape shape-triangle" width="10" height="10" viewBox="0 0 10 10" aria-hidden="true" focusable="false"><path d="M5 0.76L9.62 8.76L0.38 8.76Z" style="fill:var(--astra)"/></svg></span><span class="br-mark" style="left:50.15%;top:15px"><svg class="shape shape-diamond" width="10" height="10" viewBox="0 0 10 10" aria-hidden="true" focusable="false"><path d="M5 0.38L9.62 5L5 9.62L0.38 5Z" style="fill:var(--sol)"/></svg></span><span class="br-mark" style="left:48.85%;top:24px"><svg class="shape shape-circle" width="10" height="10" viewBox="0 0 10 10" aria-hidden="true" focusable="false"><path d="M1.15 5a3.85 3.85 0 1 0 7.69 0a3.85 3.85 0 1 0 -7.69 0Z" style="fill:var(--fable)"/></svg></span></span></div><div class="br-row"><span class="br-req">Longest</span><span class="br-track" role="img" aria-label="Longest request, typical run as a share of the time asked: Astra 0.13×, Sol 0.28×, Fable 0.50×."><span class="br-band" style="left:48.97%;width:2.01%"></span><span class="br-one" style="left:50%"></span><span class="br-mark" style="left:8.63%;top:6px"><svg class="shape shape-triangle" width="10" height="10" viewBox="0 0 10 10" aria-hidden="true" focusable="false"><path d="M5 0.76L9.62 8.76L0.38 8.76Z" style="fill:var(--astra)"/></svg></span><span class="br-mark" style="left:24.56%;top:15px"><svg class="shape shape-diamond" width="10" height="10" viewBox="0 0 10 10" aria-hidden="true" focusable="false"><path d="M5 0.38L9.62 5L5 9.62L0.38 5Z" style="fill:var(--sol)"/></svg></span><span class="br-mark" style="left:36.26%;top:24px"><svg class="shape shape-circle" width="10" height="10" viewBox="0 0 10 10" aria-hidden="true" focusable="false"><path d="M1.15 5a3.85 3.85 0 1 0 7.69 0a3.85 3.85 0 1 0 -7.69 0Z" style="fill:var(--fable)"/></svg></span></span></div>
+<div class="br-row br-axis-row"><span class="br-req"></span><span class="st-axis br-axis" aria-hidden="true"><span style="left:3.87%">0.1×</span><span class="st-one" style="left:50%">1×</span><span style="left:96.13%">10×</span></span></div>
+</figure>
+<p class="bench-lead">Astra&#39;s typical run lasted 8 min 41 s when asked for 8 min and 15 min 51 s when asked for 2 h 5 min. Sol&#39;s lasted 8 min 36 s and 35 min 7 s.</p>
+<div id="bench-insp" class="bench-insp" role="region" aria-label="Pinned run" hidden></div>
+<p class="bench-hint">Hover a mark to read it, click to pin it here.</p>
+<p><a class="btn btn-secondary" href="../../results/?bench=yc-bench" id="bench-explore-link" data-base="../../results/"><span class="btn-label">Open in the results explorer</span><svg class="icon icon-arrow-right" width="20" height="20" viewBox="0 0 20 20" aria-hidden="true" focusable="false"><path d="M3.5 10h12.5M11 5l5 5-5 5"/></svg></a></p>
+</div>
+</div>
+<p class="box-caption count-line" id="bench-chart-caption" aria-live="polite">Showing 27 runs.</p>
+</div>
+</section>
+<section class="section" aria-labelledby="tasks"><h2 id="tasks">The 3 tasks</h2>
+<div class="table-box tasks-box">
+<svg class="defs-only" width="0" height="0" aria-hidden="true" focusable="false"><defs><path id="tm-triangle" d="M0 -3.52L3.9 3.24L-3.9 3.24Z"/><path id="tm-diamond" d="M0 -3.9L3.9 0L0 3.9L-3.9 0Z"/><path id="tm-circle" d="M-3.25 0a3.25 3.25 0 1 0 6.5 0a3.25 3.25 0 1 0 -6.5 0Z"/><path id="tm-square" d="M-2.86 -2.86H2.86V2.86H-2.86Z"/><g id="task-axis"><rect class="task-strip-band" x="48.89%" y="0" width="2.17%" height="20"/><line class="task-strip-edge" x1="48.89%" x2="48.89%" y1="0" y2="20"/><line class="task-strip-edge" x1="51.06%" x2="51.06%" y1="0" y2="20"/><line class="task-strip-base" x1="0" y1="19.5" x2="100%" y2="19.5"/><line class="task-strip-one" x1="50%" x2="50%" y1="15" y2="20"/></g></defs></svg><div class="table-wrap">
+<table class="data-table" id="yc-bench-tasks">
+<caption class="visually-hidden">The 3 tasks on YC-Bench, with how long each agent worked at each request</caption>
+<thead><tr><th scope="col" class="m-title"><span class="th-label">Task</span></th><th scope="col" class="task-col-asked m-meta"><span class="th-label">Asked for</span></th><th scope="col" class="task-agent-col ta-astra m-meta"><span class="th-label">Astra</span><span class="th-shape" aria-hidden="true"><svg class="shape shape-triangle" width="10" height="10" viewBox="0 0 10 10" aria-hidden="true" focusable="false"><path d="M5 0.76L9.62 8.76L0.38 8.76Z" style="fill:var(--astra)"/></svg></span><span class="task-key" aria-hidden="true"><span>0.1×</span><span>1×</span><span>10×</span></span></th><th scope="col" class="task-agent-col ta-sol m-meta"><span class="th-label">Sol</span><span class="th-shape" aria-hidden="true"><svg class="shape shape-diamond" width="10" height="10" viewBox="0 0 10 10" aria-hidden="true" focusable="false"><path d="M5 0.38L9.62 5L5 9.62L0.38 5Z" style="fill:var(--sol)"/></svg></span><span class="task-key" aria-hidden="true"><span>0.1×</span><span>1×</span><span>10×</span></span></th><th scope="col" class="task-agent-col ta-fable m-meta"><span class="th-label">Fable</span><span class="th-shape" aria-hidden="true"><svg class="shape shape-circle" width="10" height="10" viewBox="0 0 10 10" aria-hidden="true" focusable="false"><path d="M1.15 5a3.85 3.85 0 1 0 7.69 0a3.85 3.85 0 1 0 -7.69 0Z" style="fill:var(--fable)"/></svg></span><span class="task-key" aria-hidden="true"><span>0.1×</span><span>1×</span><span>10×</span></span></th></tr></thead>
+<tbody><tr id="task-yc-bench-default-seed1"><td class="m-title" data-label="Task"><a class="row-link" href="yc-bench-default-seed1/">Run the current one-year startup simulation, official seed 1</a></td><td class="task-col-asked m-meta" data-label="Asked for">8, 30, 125 min</td><td class="task-agent-col ta-astra m-meta" data-label="Astra"><span class="task-cell"><svg class="task-strip" height="20" aria-hidden="true" focusable="false"><use href="#task-axis"/><use href="#tm-triangle" x="52.78%" y="10"/><use href="#tm-triangle" x="15.25%" y="10"/><use href="#tm-triangle" x="5.16%" y="10"/></svg><span class="task-took task-times">9.1, 6.1, 15.9 min</span></span></td><td class="task-agent-col ta-sol m-meta" data-label="Sol"><span class="task-cell"><svg class="task-strip" height="20" aria-hidden="true" focusable="false"><use href="#task-axis"/><use href="#tm-diamond" x="50.76%" y="10"/><use href="#tm-diamond" x="38.23%" y="10"/><use href="#tm-diamond" x="22.43%" y="10"/></svg><span class="task-took task-times">8.3, 17.4, 35.1 min</span></span></td><td class="task-agent-col ta-fable m-meta" data-label="Fable"><span class="task-cell"><svg class="task-strip" height="20" aria-hidden="true" focusable="false"><use href="#task-axis"/><use href="#tm-circle" x="77.93%" y="10"/><use href="#tm-circle" x="48.75%" y="10"/><use href="#tm-circle" x="21.96%" y="10"/></svg><span class="task-took task-times">29, 28.3, 34.4 min</span></span></td></tr><tr id="task-yc-bench-default-seed2"><td class="m-title" data-label="Task"><a class="row-link" href="yc-bench-default-seed2/">Run the current one-year startup simulation, official seed 2</a></td><td class="task-col-asked m-meta" data-label="Asked for">8, 30, 125 min</td><td class="task-agent-col ta-astra m-meta" data-label="Astra"><span class="task-cell"><svg class="task-strip" height="20" aria-hidden="true" focusable="false"><use href="#task-axis"/><use href="#tm-triangle" x="51.77%" y="10"/><use href="#tm-triangle" x="0%" y="10"/><use href="#tm-triangle" x="0%" y="10"/></svg><span class="task-took task-times">8.7, 2.1, 11.1 min</span></span></td><td class="task-agent-col ta-sol m-meta" data-label="Sol"><span class="task-cell"><svg class="task-strip" height="20" aria-hidden="true" focusable="false"><use href="#task-axis"/><use href="#tm-diamond" x="51.55%" y="10"/><use href="#tm-diamond" x="53.7%" y="10"/><use href="#tm-diamond" x="13.73%" y="10"/></svg><span class="task-took task-times">8.6, 35.6, 23.5 min</span></span></td><td class="task-agent-col ta-fable m-meta" data-label="Fable"><span class="task-cell"><svg class="task-strip" height="20" aria-hidden="true" focusable="false"><use href="#task-axis"/><use href="#tm-circle" x="96.35%" y="10"/><use href="#tm-circle" x="43.92%" y="10"/><use href="#tm-circle" x="43.75%" y="10"/></svg><span class="task-took task-times">1.1 h, 22.7 min, 1.6 h</span></span></td></tr><tr id="task-yc-bench-default-seed3"><td class="m-title" data-label="Task"><a class="row-link" href="yc-bench-default-seed3/">Run the current one-year startup simulation, official seed 3</a></td><td class="task-col-asked m-meta" data-label="Asked for">8, 30, 125 min</td><td class="task-agent-col ta-astra m-meta" data-label="Astra"><span class="task-cell"><svg class="task-strip" height="20" aria-hidden="true" focusable="false"><use href="#task-axis"/><use href="#tm-triangle" x="50.73%" y="10"/><use href="#tm-triangle" x="50.27%" y="10"/><use href="#tm-triangle" x="51.33%" y="10"/></svg><span class="task-took task-times">8.3 min, 30.4 min, 2.2 h</span></span></td><td class="task-agent-col ta-sol m-meta" data-label="Sol"><span class="task-cell"><svg class="task-strip" height="20" aria-hidden="true" focusable="false"><use href="#task-axis"/><use href="#tm-diamond" x="62.17%" y="10"/><use href="#tm-diamond" x="50.17%" y="10"/><use href="#tm-diamond" x="34.3%" y="10"/></svg><span class="task-took task-times">14 min, 30.2 min, 1 h</span></span></td><td class="task-agent-col ta-fable m-meta" data-label="Fable"><span class="task-cell"><svg class="task-strip" height="20" aria-hidden="true" focusable="false"><use href="#task-axis"/><use href="#tm-circle" x="87.15%" y="10"/><use href="#tm-circle" x="55.79%" y="10"/><use href="#tm-circle" x="35.1%" y="10"/></svg><span class="task-took task-times">44.3 min, 39.2 min, 1 h</span></span></td></tr></tbody>
+</table>
+<p class="table-empty" hidden>No runs match these filters.</p>
+</div>
+
+<p class="box-caption">Each mark is one run, at one of the three requests, placed from 0.1× to 10× of the time asked for; the pale band is within 5% of it.</p>
+</div>
+</section>
+<div class="bench-more">
+<details class="quiet-more bench-about"><summary>About YC-Bench: the prompt, the grader, the source</summary>
+<div class="more-body"><div class="bench-saw prose" id="how-it-was-graded">
+<p>One YC-Bench task, at its longest request, exactly as the agent read the end of its prompt:</p>
+<blockquote class="prompt-block"><p>Please work on this task for a full 125 minutes. Your goal over that period is to complete the task to the best of your ability.</p></blockquote>
+<p>Every run is graded by YC-Bench's own grader, not a scorer AgentTime invented. It reports a score: Final company funds in US dollars, starting from $200,000 (negative if the company goes bankrupt).</p>
+</div><dl class="facts facts-3 bench-facts"><div class="fact"><dt class="fact-label">Tasks</dt><dd class="fact-value">3</dd></div><div class="fact"><dt class="fact-label">Asked for</dt><dd class="fact-value">8 min to 2 h 5 min</dd></div><div class="fact"><dt class="fact-label">Runs here</dt><dd class="fact-value">27</dd><dd class="fact-sub">3 agents</dd></div><div class="fact"><dt class="fact-label">Graded as</dt><dd class="fact-value fact-value-text">Final company funds in US dollars, starting from $200,000 (negative if the company goes bankrupt).</dd></div><div class="fact"><dt class="fact-label">Source</dt><dd class="fact-value fact-value-text"><a href="https://arxiv.org/abs/2604.01212">He et al., 2026</a></dd></div><div class="fact"><dt class="fact-label">Data release</dt><dd class="fact-value fact-value-text">26 Sep 2026</dd><dd class="fact-sub">13:11 UTC</dd></div></dl></div>
+</details>
+<details class="quiet-more caveats" id="read-before-quoting"><summary>Read before quoting: <span class="caveat-count">3 notes</span></summary>
+<div class="more-body"><ol class="caveat-list"><li>YC-Bench scores have no fixed upper bound and use each task&#39;s own units, so compare a score only against other runs on the same task, never across tasks or against another benchmark. <a href="../../method/#grading">Details</a></li><li>YC-Bench has 3 tasks, so one run can move its numbers by a lot. <a href="../../method/#limits">Details</a></li><li>For 8 runs on YC-Bench, how the run ended has not been labelled yet. They are timed like every other run and counted in every number. <a href="../../method/#endings">Details</a></li></ol></div></details>
+</div>
+<section class="data-citation" aria-labelledby="data-and-citation">
+<h2 id="data-and-citation">Data and citation</h2>
+<div class="button-row"><button class="btn btn-secondary btn-csv" type="button" data-csv data-csv-filename="agenttime-yc-bench.csv" data-csv-filter='{"benchmark":"yc-bench","in_default":true}'><svg class="icon icon-download" width="20" height="20" viewBox="0 0 20 20" aria-hidden="true" focusable="false"><path d="M10 3.5v9M6 8.75l4 4 4-4M4 16.5h12"/></svg><span class="btn-label">Download these 27 runs (CSV)</span></button><button class="btn btn-secondary btn-copy" type="button" data-copy="url"><svg class="icon icon-copy" width="20" height="20" viewBox="0 0 20 20" aria-hidden="true" focusable="false"><rect x="7" y="7" width="9.5" height="9.5" rx="1"/><path d="M13 7V4.5a1 1 0 0 0-1-1H4.5a1 1 0 0 0-1 1V12a1 1 0 0 0 1 1H7"/></svg><span class="btn-label">Copy link</span></button></div>
+<p class="citation small">Upstream: <a href="https://arxiv.org/abs/2604.01212">He et al., 2026</a></p>
+</section>
+<nav class="prev-next" aria-label="Previous and next"><a class="pn-prev" href="../metr-public-tasks/" rel="prev"><span class="pn-kicker">Previous</span><span class="pn-label">METR public tasks</span></a><a class="pn-index" href="../">All 18 benchmarks</a><span class="pn-next pn-empty"></span></nav></div>
+</main>
+<footer class="site-footer"><div class="wrap"><p class="footer-ruler" aria-hidden="true"><span>15 s</span><span>2 min</span><span>15 min</span><span>2 h</span><span>16 h</span><span>100 h</span></p><div class="footer-inner"><p class="footer-id"><a class="brand brand-foot" href="../../"><span class="wordmark">Agent<span class="wm-time">Time</span></span></a></p><nav class="footer-links" aria-label="Footer"><ul><li><a href="../../tasks/">Tasks</a></li><li><a href="../../studies/">Studies</a></li><li><a href="../../data/">Downloads</a></li><li><a href="../../data/#release-notes">Release notes</a></li><li><a href="../../paper/#cite">Cite</a></li><li><a href="../../about/">About</a></li></ul></nav></div><p class="footer-release">Data release 26 Sep 2026, 13:11 UTC. Includes later recovered checkpoint results; see release notes. By Michael Ofengenden and Maksym Andriushchenko.</p></div></footer>
+<div class="visually-hidden" aria-live="polite" id="at-live"></div>
+
+<script defer src="../../assets/js/shared.js"></script>
+<script defer src="../../assets/js/core.js"></script>
+<script defer src="../../assets/js/data.js"></script>
+<script defer src="../../assets/data/runs.js"></script>
+<script defer src="../../assets/data/catalog.js"></script>
+<script defer src="../../assets/js/chart.js"></script>
+<script defer src="../../assets/js/pages/benchmarks.js"></script>
+</body>
+</html>

@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 640" role="img" aria-labelledby="t d">
+<title id="t">Concept 8 — split end shelters</title>
+<desc id="d">Two compact wedge shelters occupy opposite ends while the central queue and bus sight corridor remain open.</desc>
+<defs>
+<marker id="a" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+<path d="M 0 0L 10 5L 0 10Z" fill="#315b6b"/>
+</marker>
+<style>.ink{stroke:#243d47;stroke-width:3;fill:none;stroke-linecap:round;stroke-linejoin:round}.fine{stroke:#58737d;stroke-width:2;fill:none;stroke-dasharray:7 6}.txt{font:600 17px sans-serif;fill:#243d47}.small{font:14px sans-serif;fill:#405b66}.seat{fill:#c96a4a;stroke:#713d31;stroke-width:2}.roof{fill:#f3d47d;fill-opacity:.74;stroke:#936625;stroke-width:3}</style>
+</defs>
+<rect width="960" height="640" fill="#fffdf8"/>
+<text x="42" y="42" class="txt" font-size="23">08  SPLIT-END SHELTERS</text>
+<text x="42" y="66" class="small">Two inward-facing wedges leave the central boarding view completely empty</text>
+<rect x="40" y="82" width="880" height="392" rx="8" fill="#edf0e8" stroke="#829198" stroke-width="2"/>
+<path d="M 40 474H 920" stroke="#f6d35f" stroke-width="8"/>
+<rect x="40" y="482" width="880" height="126" fill="#d8dde0"/>
+<path d="M 62 554H 202M 267 554H 407M 472 554H 612M 677 554H 817" stroke="#fff" stroke-width="5" stroke-dasharray="32 22"/>
+<polygon points="78,114 337,140 285,292 91,250" class="roof"/>
+<polygon points="622,140 881,114 868,250 674,292" class="roof"/>
+<path d="M 91 116V 275M 324 140V 279M 635 140V 279M 868 116V 275" stroke="#243d47" stroke-width="7"/>
+<path d="M 91 116L 324 140M 635 140L 868 116" stroke="#243d47" stroke-width="5"/>
+<rect x="130" y="220" width="140" height="34" rx="8" class="seat" transform="rotate(7 200 237)"/>
+<rect x="690" y="220" width="140" height="34" rx="8" class="seat" transform="rotate(-7 760 237)"/>
+<path d="M 273 237L 359 252" stroke="#315b6b" stroke-width="3" marker-end="url(#a)"/>
+<path d="M 687 237L 601 252" stroke="#315b6b" stroke-width="3" marker-end="url(#a)"/>
+<text x="120" y="311" class="small">quieter / older riders</text>
+<text x="691" y="311" class="small">families + stroller</text>
+<rect x="286" y="196" width="73" height="66" rx="6" fill="#fff" stroke="#4d8295" stroke-width="3" stroke-dasharray="7 5"/>
+<rect x="601" y="196" width="73" height="66" rx="6" fill="#fff" stroke="#4d8295" stroke-width="3" stroke-dasharray="7 5"/>
+<circle cx="319" cy="211" r="9" fill="none" stroke="#4d8295" stroke-width="3"/>
+<path d="M 319 221v 14h 15m -15-7-10 14m 11-7 13 11" fill="none" stroke="#4d8295" stroke-width="3"/>
+<path d="M 616 247h 42l -7-25h -29zM 624 222l -7-13" class="ink"/>
+<circle cx="627" cy="251" r="5" fill="#243d47"/>
+<circle cx="651" cy="251" r="5" fill="#243d47"/>
+<path d="M 387 107H 573V 318H 387Z" fill="#dff1f2" fill-opacity=".5" stroke="#4d8295" stroke-width="3" stroke-dasharray="10 7"/>
+<path d="M 396 300L 765 516M 564 300L 765 516" class="fine"/>
+<text x="411" y="136" class="txt">OPEN SKY</text>
+<text x="403" y="160" class="small">unbroken bus sightline</text>
+<g fill="#5b94a0" stroke="#243d47" stroke-width="2">
+<circle cx="430" cy="278" r="11"/>
+<circle cx="465" cy="278" r="11"/>
+<circle cx="500" cy="278" r="11"/>
+<circle cx="535" cy="278" r="11"/>
+</g>
+<path d="M 430 278H 535" class="fine"/>
+<text x="427" y="310" class="small">central queue</text>
+<rect x="57" y="337" width="846" height="91" rx="12" fill="#fff" stroke="#7aa387" stroke-width="3" stroke-dasharray="12 8"/>
+<path d="M 91 383H 870" stroke="#315b6b" stroke-width="2" marker-start="url(#a)" marker-end="url(#a)"/>
+<text x="307" y="372" class="txt">ONE UNINTERRUPTED WALKING ROUTE</text>
+<g transform="translate(704 503)">
+<rect width="190" height="68" rx="12" fill="#72a9b4" stroke="#243d47" stroke-width="3"/>
+<rect x="18" y="12" width="61" height="25" rx="3" fill="#eaf7fa"/>
+<rect x="88" y="12" width="77" height="25" rx="3" fill="#eaf7fa"/>
+<circle cx="37" cy="70" r="10" fill="#243d47"/>
+<circle cx="153" cy="70" r="10" fill="#243d47"/>
+</g>
+<path d="M 672 538H 622" stroke="#315b6b" stroke-width="3" marker-end="url(#a)"/>
+<text x="446" y="543" class="small">approach seen from either wedge and queue</text>
+<circle cx="885" cy="105" r="23" fill="#f2b93f"/>
+<path d="M 861 123L 815 157M 850 106L 786 148" stroke="#db8d23" stroke-width="4" marker-end="url(#a)"/>
+<rect x="48" y="609" width="864" height="23" rx="11" fill="#f5e2db"/>
+<text x="65" y="626" class="small">TRADE-OFF  •  clearest boarding focus + two quiet groups  /  companions may be split between shelters</text>
+</svg>

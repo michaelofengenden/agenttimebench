@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 640" role="img" aria-labelledby="t d">
+<title id="t">Concept 7 — repairable modular pergola</title>
+<desc id="d">Three timber frames use replaceable woven shade cassettes and movable seats in separate bays.</desc>
+<defs>
+<marker id="a" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+<path d="M 0 0L 10 5L 0 10Z" fill="#315b6b"/>
+</marker>
+<pattern id="reed" width="14" height="14" patternUnits="userSpaceOnUse">
+<path d="M 0 2H 14M 0 7H 14M 0 12H 14" stroke="#9f7538" stroke-width="3"/>
+</pattern>
+<style>.ink{stroke:#263e48;stroke-width:3;fill:none;stroke-linecap:round;stroke-linejoin:round}.fine{stroke:#59737d;stroke-width:2;fill:none;stroke-dasharray:7 6}.txt{font:600 17px sans-serif;fill:#263e48}.small{font:14px sans-serif;fill:#405b66}.frame{fill:#efd896;stroke:#79552d;stroke-width:5}.seat{fill:#c96a4a;stroke:#713d31;stroke-width:2}</style>
+</defs>
+<rect width="960" height="640" fill="#fffdf8"/>
+<text x="42" y="42" class="txt" font-size="23">07  REPAIR-BY-BAY PERGOLA</text>
+<text x="42" y="66" class="small">Standard timber frames + replaceable woven cassettes; no powered parts</text>
+<rect x="40" y="82" width="880" height="392" rx="8" fill="#edf0e8" stroke="#829198" stroke-width="2"/>
+<path d="M 40 474H 920" stroke="#f6d35f" stroke-width="8"/>
+<rect x="40" y="482" width="880" height="126" fill="#d8dde0"/>
+<path d="M 61 554H 201M 266 554H 406M 471 554H 611M 676 554H 816" stroke="#fff" stroke-width="5" stroke-dasharray="32 22"/>
+<g>
+<rect x="82" y="113" width="246" height="159" rx="3" class="frame"/>
+<rect x="357" y="113" width="246" height="159" rx="3" class="frame"/>
+<rect x="632" y="113" width="246" height="159" rx="3" class="frame"/>
+<rect x="96" y="127" width="218" height="131" fill="url(#reed)" opacity=".75"/>
+<rect x="371" y="127" width="218" height="131" fill="url(#reed)" opacity=".75"/>
+<rect x="646" y="127" width="218" height="131" fill="url(#reed)" opacity=".75"/>
+<path d="M 82 113V 295M 328 113V 295M 357 113V 295M 603 113V 295M 632 113V 295M 878 113V 295" stroke="#79552d" stroke-width="8"/>
+</g>
+<path d="M 678 126L 838 96L 864 171L 704 201Z" fill="#f5e3af" stroke="#9f7538" stroke-width="3"/>
+<path d="M 693 129L 833 103M 698 143L 838 117M 703 157L 843 131M 708 171L 848 145M 713 185L 853 159" stroke="#9f7538" stroke-width="3"/>
+<path d="M 764 95V 76" stroke="#315b6b" stroke-width="3" marker-end="url(#a)"/>
+<text x="668" y="69" class="small">one cassette lifts out</text>
+<g class="seat">
+<rect x="117" y="222" width="157" height="31" rx="7"/>
+<rect x="391" y="216" width="72" height="31" rx="12"/>
+<rect x="494" y="216" width="72" height="31" rx="12"/>
+</g>
+<rect x="653" y="215" width="82" height="57" rx="6" fill="#fff" stroke="#4d8295" stroke-width="3" stroke-dasharray="7 5"/>
+<path d="M 757 226h 90M 757 242h 90M 757 258h 90" stroke="#c96a4a" stroke-width="9" stroke-linecap="round"/>
+<text x="125" y="316" class="small">older riders: backed bench</text>
+<text x="385" y="316" class="small">loose companion seats</text>
+<text x="661" y="316" class="small">chair bay + leaning rails</text>
+<rect x="57" y="341" width="846" height="88" rx="10" fill="#fff" stroke="#7aa387" stroke-width="3" stroke-dasharray="12 8"/>
+<path d="M 91 385H 870" stroke="#315b6b" stroke-width="2" marker-start="url(#a)" marker-end="url(#a)"/>
+<text x="321" y="375" class="txt">STRAIGHT CLEAR PROMENADE</text>
+<g stroke="#315b6b" fill="none" stroke-width="3">
+<path d="M 343 445h 52M 419 445h 52M 495 445h 52"/>
+</g>
+<g fill="#315b6b">
+<circle cx="343" cy="445" r="5"/>
+<circle cx="395" cy="445" r="5"/>
+<circle cx="419" cy="445" r="5"/>
+<circle cx="471" cy="445" r="5"/>
+<circle cx="495" cy="445" r="5"/>
+<circle cx="547" cy="445" r="5"/>
+</g>
+<text x="566" y="450" class="small">painted queue bays align to modules</text>
+<g transform="translate(67 504)">
+<path d="M 0 77H 324" class="ink"/>
+<path d="M 31 21H 287" stroke="#79552d" stroke-width="8"/>
+<path d="M 31 21V 77M 287 21V 77" stroke="#79552d" stroke-width="8"/>
+<path d="M 48 32H 270" stroke="#9f7538" stroke-width="4" stroke-dasharray="9 5"/>
+<path d="M 84 64h 147" stroke="#c96a4a" stroke-width="11"/>
+<text x="339" y="44" class="small">SECTION: simple dry joints + local materials</text>
+</g>
+<g transform="translate(751 505)">
+<rect width="144" height="66" rx="12" fill="#72a9b4" stroke="#263e48" stroke-width="3"/>
+<rect x="16" y="11" width="44" height="24" rx="3" fill="#eaf7fa"/>
+<rect x="68" y="11" width="58" height="24" rx="3" fill="#eaf7fa"/>
+<circle cx="30" cy="68" r="10" fill="#263e48"/>
+<circle cx="115" cy="68" r="10" fill="#263e48"/>
+</g>
+<circle cx="884" cy="103" r="23" fill="#f2b93f"/>
+<path d="M 860 121L 813 158" stroke="#db8d23" stroke-width="4" marker-end="url(#a)"/>
+<rect x="48" y="609" width="864" height="23" rx="11" fill="#f5e2db"/>
+<text x="65" y="626" class="small">TRADE-OFF  •  cheap parts and easy local repair  /  dappled shade; cassettes need replacement</text>
+</svg>

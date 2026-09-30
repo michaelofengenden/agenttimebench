@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 640">
+<rect width="900" height="640" fill="#fbf7ef"/>
+<g font-family="Arial, sans-serif" fill="#20252b">
+<text x="42" y="48" font-size="25" font-weight="700">01 — ACCORDION SPINE</text>
+<text x="42" y="75" font-size="14" fill="#58616b">squeeze thin • fan open one-handed • stitched-in tactile tabs</text>
+</g>
+<g stroke="#20252b" stroke-width="4" fill="none" stroke-linejoin="round" stroke-linecap="round">
+<path d="M 52 185 Q 52 122 112 116 L 184 116 Q 218 117 220 151 L 220 370 Q 217 403 184 406 L 111 406 Q 52 399 52 340Z" fill="#e6dcc8"/>
+<path d="M 73 139 L 73 384 M 93 126 L 93 396 M 114 120 L 114 401"/>
+<path d="M 145 114 L 145 407"/>
+<path d="M 175 116 L 175 406"/>
+<path d="M 217 190 Q 253 229 217 268" stroke="#ef6a55"/>
+<path d="M 203 180 L 230 180 L 230 197" stroke="#ef6a55"/>
+<path d="M 94 116 Q 95 84 135 84 Q 174 84 177 116" stroke-width="9"/>
+<path d="M 388 467 Q 326 358 338 197 L 413 142 L 451 476Z" fill="#f1c667"/>
+<path d="M 451 476 L 413 142 Q 461 116 513 130 L 535 454Z" fill="#f9e4a9"/>
+<path d="M 535 454 L 513 130 Q 565 117 615 151 L 616 424Z" fill="#aed9d0"/>
+<path d="M 616 424 L 615 151 Q 670 149 713 195 L 694 397Z" fill="#b8c7e8"/>
+<path d="M 694 397 L 713 195 Q 763 211 790 263 L 755 383Z" fill="#eab0aa"/>
+<path d="M 388 467 Q 561 518 755 383" stroke-width="8"/>
+<path d="M 374 227 C 399 193 438 206 425 237 C 412 267 370 257 373 228Z" stroke="#6b4a2e"/>
+<path d="M 391 258 Q 388 306 409 332"/>
+<rect x="401" y="331" width="17" height="28" rx="3" fill="#fff"/>
+<rect x="454" y="178" width="69" height="134" rx="4" fill="#fff"/>
+<path d="M 466 178 L 466 312 M 481 204 L 510 204 M 481 225 L 510 225 M 481 246 L 510 246"/>
+<path d="M 547 182 Q 573 169 596 187 L 591 325 Q 569 339 548 323Z" fill="#fff" opacity=".8"/>
+<path d="M 571 190 L 571 314" stroke="#285d8f" stroke-width="10"/>
+<path d="M 566 190 L 576 190 L 571 172Z" fill="#285d8f"/>
+<circle cx="654" cy="230" r="21"/>
+<path d="M 669 245 L 688 264 L 682 270 L 692 280 L 684 288 L 655 258"/>
+<path d="M 633 292 Q 654 272 675 292 L 670 343 L 637 343Z" fill="#fff" opacity=".8"/>
+<path d="M 715 279 L 773 294 L 755 367 L 697 352Z" fill="#fff"/>
+<path d="M 723 302 L 759 312" stroke="#ef6a55" stroke-width="7"/>
+<path d="M 729 327 Q 743 317 756 332" stroke="#ef6a55" stroke-width="3"/>
+<path d="M 405 143 l -10 -27 l 22 -7 l 11 26" fill="#f1c667"/>
+<path d="M 507 130 l 0 -31 q 13 -13 26 0 l 0 33" fill="#f9e4a9"/>
+<path d="M 608 151 l 12 -28 l 22 10 l -12 25" fill="#aed9d0"/>
+<path d="M 706 196 l 24 -21 l 17 18 l -23 20" fill="#b8c7e8"/>
+<path d="M 777 269 l 28 -5 l 4 23 l -28 5" fill="#eab0aa"/>
+<path d="M 283 407 C 284 266 266 187 239 154" stroke="#ef6a55" stroke-dasharray="8 9"/>
+<path d="M 246 181 L 239 154 L 266 165" stroke="#ef6a55"/>
+</g>
+<g font-family="Arial, sans-serif" fill="#20252b">
+<text x="62" y="446" font-size="15" font-weight="700">CLOSED: 28 mm</text>
+<text x="62" y="468" font-size="13">edge-grip handle transfers all items</text>
+<text x="334" y="537" font-size="15" font-weight="700">PINCH SPINE → POCKETS FAN APART</text>
+<text x="338" y="565" font-size="13">1 ridge = cable</text>
+<text x="472" y="565" font-size="13">2 bumps = notes</text>
+<text x="613" y="565" font-size="13">triangle = card</text>
+</g>
+<g transform="translate(341 588)" fill="#20252b">
+<circle cx="0" cy="0" r="4"/>
+<circle cx="12" cy="0" r="4"/>
+<circle cx="24" cy="0" r="4"/>
+</g>
+</svg>

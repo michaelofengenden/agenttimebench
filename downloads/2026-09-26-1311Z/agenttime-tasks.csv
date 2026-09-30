@@ -1,0 +1,224 @@
+release_id,benchmark,task,task_raw_id,title,retired,shortest_seconds,shortest_words,middle_seconds,middle_words,longest_seconds,longest_words
+2026-09-26-1311Z,assistantbench,task-1,validation:0,AssistantBench validation task 1,false,75,1.25 minutes,300,5 minutes,1200,20 minutes
+2026-09-26-1311Z,assistantbench,task-2,validation:1,AssistantBench validation task 2,false,75,1.25 minutes,300,5 minutes,1200,20 minutes
+2026-09-26-1311Z,assistantbench,task-3,validation:2,AssistantBench validation task 3,false,75,1.25 minutes,300,5 minutes,1200,20 minutes
+2026-09-26-1311Z,assistantbench,task-4,validation:3,AssistantBench validation task 4,false,75,1.25 minutes,300,5 minutes,1200,20 minutes
+2026-09-26-1311Z,assistantbench,task-5,validation:4,AssistantBench validation task 5,false,75,1.25 minutes,300,5 minutes,1200,20 minutes
+2026-09-26-1311Z,assistantbench,task-6,validation:5,AssistantBench validation task 6,false,75,1.25 minutes,300,5 minutes,1200,20 minutes
+2026-09-26-1311Z,assistantbench,task-7,validation:6,AssistantBench validation task 7,false,75,1.25 minutes,300,5 minutes,1200,20 minutes
+2026-09-26-1311Z,assistantbench,task-8,validation:9,AssistantBench validation task 8,false,75,1.25 minutes,300,5 minutes,1200,20 minutes
+2026-09-26-1311Z,assistantbench,task-9,validation:13,AssistantBench validation task 9,false,75,1.25 minutes,300,5 minutes,1200,20 minutes
+2026-09-26-1311Z,assistantbench,task-10,validation:15,AssistantBench validation task 10,false,75,1.25 minutes,300,5 minutes,1200,20 minutes
+2026-09-26-1311Z,assistantbench,task-11,validation:22,AssistantBench validation task 11,false,75,1.25 minutes,300,5 minutes,1200,20 minutes
+2026-09-26-1311Z,assistantbench,task-12,validation:25,AssistantBench validation task 12,false,75,1.25 minutes,300,5 minutes,1200,20 minutes
+2026-09-26-1311Z,assistantbench,task-13,validation:26,AssistantBench validation task 13,false,75,1.25 minutes,300,5 minutes,1200,20 minutes
+2026-09-26-1311Z,assistantbench,task-14,validation:27,AssistantBench validation task 14,false,75,1.25 minutes,300,5 minutes,1200,20 minutes
+2026-09-26-1311Z,assistantbench,task-15,validation:28,AssistantBench validation task 15,false,75,1.25 minutes,300,5 minutes,1200,20 minutes
+2026-09-26-1311Z,assistantbench,task-16,validation:29,AssistantBench validation task 16,false,75,1.25 minutes,300,5 minutes,1200,20 minutes
+2026-09-26-1311Z,assistantbench,task-17,validation:31,AssistantBench validation task 17,false,75,1.25 minutes,300,5 minutes,1200,20 minutes
+2026-09-26-1311Z,assistantbench,task-18,validation:32,AssistantBench validation task 18,false,75,1.25 minutes,300,5 minutes,1200,20 minutes
+2026-09-26-1311Z,gpqa-diamond,question-1,recuyeuT5rQ6qDt8F,GPQA Diamond closed-book question 1 (Chemistry),false,75,1.25 minutes,300,5 minutes,1200,20 minutes
+2026-09-26-1311Z,gpqa-diamond,question-2,rec7C06XOB2h298ue,GPQA Diamond closed-book question 2 (Chemistry),false,75,1.25 minutes,300,5 minutes,1200,20 minutes
+2026-09-26-1311Z,gpqa-diamond,question-3,recOkA2zsy4GSMD9R,GPQA Diamond closed-book question 3 (Chemistry),false,75,1.25 minutes,300,5 minutes,1200,20 minutes
+2026-09-26-1311Z,gpqa-diamond,question-4,recZ13cwgDQf9jRd9,GPQA Diamond closed-book question 4 (Chemistry),false,75,1.25 minutes,300,5 minutes,1200,20 minutes
+2026-09-26-1311Z,gpqa-diamond,question-5,recJJcOHhFeSaRpl4,GPQA Diamond closed-book question 5 (Chemistry),false,75,1.25 minutes,300,5 minutes,1200,20 minutes
+2026-09-26-1311Z,gpqa-diamond,question-6,rec5rjeLsEq5Fg7Oj,GPQA Diamond closed-book question 6 (Chemistry),false,75,1.25 minutes,300,5 minutes,1200,20 minutes
+2026-09-26-1311Z,gpqa-diamond,question-7,recFaL6j8UMhutXrc,GPQA Diamond closed-book question 7 (Chemistry),false,75,1.25 minutes,300,5 minutes,1200,20 minutes
+2026-09-26-1311Z,gpqa-diamond,question-8,reca44yABeO2fx7UB,GPQA Diamond closed-book question 8 (Chemistry),false,75,1.25 minutes,300,5 minutes,1200,20 minutes
+2026-09-26-1311Z,gpqa-diamond,question-9,rec2fsnzUuvNtUYK8,GPQA Diamond closed-book question 9 (Chemistry),false,75,1.25 minutes,300,5 minutes,1200,20 minutes
+2026-09-26-1311Z,gpqa-diamond,question-10,receo3UUzRvWCqyfA,GPQA Diamond closed-book question 10 (Chemistry),false,75,1.25 minutes,300,5 minutes,1200,20 minutes
+2026-09-26-1311Z,gpqa-diamond,question-11,rec8nshandHARTkrg,GPQA Diamond closed-book question 11 (Chemistry),false,75,1.25 minutes,300,5 minutes,1200,20 minutes
+2026-09-26-1311Z,gpqa-diamond,question-12,recVEXvhYxAhELVqB,GPQA Diamond closed-book question 12 (Chemistry),false,75,1.25 minutes,300,5 minutes,1200,20 minutes
+2026-09-26-1311Z,gpqa-diamond,question-13,recK9F5aqdaybl8bb,GPQA Diamond closed-book question 13 (Chemistry),false,75,1.25 minutes,300,5 minutes,1200,20 minutes
+2026-09-26-1311Z,gpqa-diamond,question-14,recAAJoHMW45Lv5je,GPQA Diamond closed-book question 14 (Chemistry),false,75,1.25 minutes,300,5 minutes,1200,20 minutes
+2026-09-26-1311Z,gpqa-diamond,question-15,recKv4hFyNpViUXnL,GPQA Diamond closed-book question 15 (Physics),false,75,1.25 minutes,300,5 minutes,1200,20 minutes
+2026-09-26-1311Z,gpqa-diamond,question-16,recGFKDUd8qgz81Zl,GPQA Diamond closed-book question 16 (Physics),false,75,1.25 minutes,300,5 minutes,1200,20 minutes
+2026-09-26-1311Z,gpqa-diamond,question-17,rec0yTRmO1o1xCA6H,GPQA Diamond closed-book question 17 (Physics),false,75,1.25 minutes,300,5 minutes,1200,20 minutes
+2026-09-26-1311Z,gpqa-diamond,question-18,recV1nqYQvpII94oC,GPQA Diamond closed-book question 18 (Physics),false,75,1.25 minutes,300,5 minutes,1200,20 minutes
+2026-09-26-1311Z,gpqa-diamond,question-19,recPL4ZPpVYxgMu57,GPQA Diamond closed-book question 19 (Physics),false,75,1.25 minutes,300,5 minutes,1200,20 minutes
+2026-09-26-1311Z,gpqa-diamond,question-20,recpki12iG9RUGrz9,GPQA Diamond closed-book question 20 (Physics),false,75,1.25 minutes,300,5 minutes,1200,20 minutes
+2026-09-26-1311Z,gpqa-diamond,question-21,reczjcMtrB1YGS2fO,GPQA Diamond closed-book question 21 (Physics),false,75,1.25 minutes,300,5 minutes,1200,20 minutes
+2026-09-26-1311Z,gpqa-diamond,question-22,recnjViFrqlZNL3fY,GPQA Diamond closed-book question 22 (Physics),false,75,1.25 minutes,300,5 minutes,1200,20 minutes
+2026-09-26-1311Z,gpqa-diamond,question-23,rec5eA17Qr1ucNLUf,GPQA Diamond closed-book question 23 (Physics),false,75,1.25 minutes,300,5 minutes,1200,20 minutes
+2026-09-26-1311Z,gpqa-diamond,question-24,recPzW1WqRnPs57D6,GPQA Diamond closed-book question 24 (Physics),false,75,1.25 minutes,300,5 minutes,1200,20 minutes
+2026-09-26-1311Z,gpqa-diamond,question-25,recIj8lR4tuDgrHou,GPQA Diamond closed-book question 25 (Physics),false,75,1.25 minutes,300,5 minutes,1200,20 minutes
+2026-09-26-1311Z,gpqa-diamond,question-26,rec8y3ZrBOcLgNEkE,GPQA Diamond closed-book question 26 (Physics),false,75,1.25 minutes,300,5 minutes,1200,20 minutes
+2026-09-26-1311Z,gpqa-diamond,question-27,rec260hNUCEj109Dj,GPQA Diamond closed-book question 27 (Physics),false,75,1.25 minutes,300,5 minutes,1200,20 minutes
+2026-09-26-1311Z,gpqa-diamond,question-28,recS48OsU6kVadBPW,GPQA Diamond closed-book question 28 (Physics),false,75,1.25 minutes,300,5 minutes,1200,20 minutes
+2026-09-26-1311Z,humanitys-last-exam,item-1,6724a047d917564737255345,Humanity's Last Exam item 1,false,75,1.25 minutes,300,5 minutes,1200,20 minutes
+2026-09-26-1311Z,humanitys-last-exam,item-2,6716afcdb8bcd4d88c34cd1d,Humanity's Last Exam item 2,false,75,1.25 minutes,300,5 minutes,1200,20 minutes
+2026-09-26-1311Z,humanitys-last-exam,item-3,6724f79792419e4380b5686a,Humanity's Last Exam item 3,false,75,1.25 minutes,300,5 minutes,1200,20 minutes
+2026-09-26-1311Z,humanitys-last-exam,item-4,67191b3025b51504c14dd870,Humanity's Last Exam item 4,false,75,1.25 minutes,300,5 minutes,1200,20 minutes
+2026-09-26-1311Z,humanitys-last-exam,item-5,66ffaae1068d942d32104650,Humanity's Last Exam item 5,false,75,1.25 minutes,300,5 minutes,1200,20 minutes
+2026-09-26-1311Z,humanitys-last-exam,item-6,670e92583011a5b80bfb6c60,Humanity's Last Exam item 6,false,75,1.25 minutes,300,5 minutes,1200,20 minutes
+2026-09-26-1311Z,humanitys-last-exam,item-7,66fcf48f6da31bbbe3d17e72,Humanity's Last Exam item 7,false,75,1.25 minutes,300,5 minutes,1200,20 minutes
+2026-09-26-1311Z,humanitys-last-exam,item-8,67169906187dc7ac4a7ae1a8,Humanity's Last Exam item 8,false,75,1.25 minutes,300,5 minutes,1200,20 minutes
+2026-09-26-1311Z,humanitys-last-exam,item-9,673818e39b3842b34824240d,Humanity's Last Exam item 9,false,75,1.25 minutes,300,5 minutes,1200,20 minutes
+2026-09-26-1311Z,humanitys-last-exam,item-10,67225b0a9e5897be2aec5257,Humanity's Last Exam item 10,false,75,1.25 minutes,300,5 minutes,1200,20 minutes
+2026-09-26-1311Z,humanitys-last-exam,item-11,677da0a433769e54d305f23c,Humanity's Last Exam item 11,false,75,1.25 minutes,300,5 minutes,1200,20 minutes
+2026-09-26-1311Z,humanitys-last-exam,item-12,671567cd87cd585dc9f613db,Humanity's Last Exam item 12,false,75,1.25 minutes,300,5 minutes,1200,20 minutes
+2026-09-26-1311Z,humanitys-last-exam,item-13,67249d57d91756473725533a,Humanity's Last Exam item 13,false,75,1.25 minutes,300,5 minutes,1200,20 minutes
+2026-09-26-1311Z,humanitys-last-exam,item-14,66eb894e6feeaea27b557782,Humanity's Last Exam item 14,false,75,1.25 minutes,300,5 minutes,1200,20 minutes
+2026-09-26-1311Z,humanitys-last-exam,item-15,6717dd24e8666ff79cdd82b0,Humanity's Last Exam item 15,false,75,1.25 minutes,300,5 minutes,1200,20 minutes
+2026-09-26-1311Z,humanitys-last-exam,item-16,671ef4bd6edc2afd6995897b,Humanity's Last Exam item 16,false,75,1.25 minutes,300,5 minutes,1200,20 minutes
+2026-09-26-1311Z,humanitys-last-exam,item-17,671eeb53c1a668a6c81e5993,Humanity's Last Exam item 17,false,75,1.25 minutes,300,5 minutes,1200,20 minutes
+2026-09-26-1311Z,humanitys-last-exam,item-18,66eaa401c7a3252f0f3fe535,Humanity's Last Exam item 18,false,75,1.25 minutes,300,5 minutes,1200,20 minutes
+2026-09-26-1311Z,humanitys-last-exam,item-19,670edc9dbddc0cfe673272c8,Humanity's Last Exam item 19,false,75,1.25 minutes,300,5 minutes,1200,20 minutes
+2026-09-26-1311Z,humanitys-last-exam,item-20,67364d570965d02f400bb6d2,Humanity's Last Exam item 20,false,75,1.25 minutes,300,5 minutes,1200,20 minutes
+2026-09-26-1311Z,humanitys-last-exam,item-21,66e9b2899cf8fcf41599246f,Humanity's Last Exam item 21,false,75,1.25 minutes,300,5 minutes,1200,20 minutes
+2026-09-26-1311Z,humanitys-last-exam,item-22,670fb58f2ca6bea76e9354a7,Humanity's Last Exam item 22,false,75,1.25 minutes,300,5 minutes,1200,20 minutes
+2026-09-26-1311Z,humanitys-last-exam,item-23,674761ffca5b554156dc9037,Humanity's Last Exam item 23,false,75,1.25 minutes,300,5 minutes,1200,20 minutes
+2026-09-26-1311Z,humanitys-last-exam,item-24,6721ad631648dda151c2a7ec,Humanity's Last Exam item 24,false,75,1.25 minutes,300,5 minutes,1200,20 minutes
+2026-09-26-1311Z,humanitys-last-exam,item-retired,671bc0c855449c636f4bbd36,Humanity's Last Exam question (retired 25 Sep 2026),true,75,1.25 minutes,300,5 minutes,1200,20 minutes
+2026-09-26-1311Z,osworld,001,001,Defense schedule,false,900,15 minutes,3600,60 minutes,15000,250 minutes
+2026-09-26-1311Z,osworld,010,010,Reimbursement package,false,900,15 minutes,3600,60 minutes,15000,250 minutes
+2026-09-26-1311Z,osworld,029,029,Local event booking QA,false,900,15 minutes,3600,60 minutes,15000,250 minutes
+2026-09-26-1311Z,osworld,038,038,CRM leads,false,900,15 minutes,3600,60 minutes,15000,250 minutes
+2026-09-26-1311Z,osworld,043,043,Twenty recurring meetings,false,900,15 minutes,3600,60 minutes,15000,250 minutes
+2026-09-26-1311Z,osworld,046,046,"Invoices, photos, and email",false,900,15 minutes,3600,60 minutes,15000,250 minutes
+2026-09-26-1311Z,osworld,051,051,GIMP composite,false,900,15 minutes,3600,60 minutes,15000,250 minutes
+2026-09-26-1311Z,osworld,059,059,GeoGebra vase and volume,false,900,15 minutes,3600,60 minutes,15000,250 minutes
+2026-09-26-1311Z,osworld,067,067,MuseScore transcription,false,900,15 minutes,3600,60 minutes,15000,250 minutes
+2026-09-26-1311Z,osworld,083,083,"Zotero, Obsidian, and BibTeX",false,900,15 minutes,3600,60 minutes,15000,250 minutes
+2026-09-26-1311Z,osworld,084,084,JSFX and REAPER render,false,900,15 minutes,3600,60 minutes,15000,250 minutes
+2026-09-26-1311Z,osworld,085,085,Radio bumper,false,900,15 minutes,3600,60 minutes,15000,250 minutes
+2026-09-26-1311Z,osworld,088,088,"Calc macros, contracts, and emails",false,900,15 minutes,3600,60 minutes,15000,250 minutes
+2026-09-26-1311Z,osworld,092,092,Blender logo and Impress,false,900,15 minutes,3600,60 minutes,15000,250 minutes
+2026-09-26-1311Z,osworld,103,103,FreeCAD bracket,false,900,15 minutes,3600,60 minutes,15000,250 minutes
+2026-09-26-1311Z,osworld,108,108,KiCad schematic and PCB,false,900,15 minutes,3600,60 minutes,15000,250 minutes
+2026-09-26-1311Z,pptarena,17,17,Coordinated category boards,false,90,1.5 minutes,360,6 minutes,1500,25 minutes
+2026-09-26-1311Z,pptarena,67,67,Accessibility and master cleanup,false,90,1.5 minutes,360,6 minutes,1500,25 minutes
+2026-09-26-1311Z,pptarena,68,68,Swimlane process diagram,false,90,1.5 minutes,360,6 minutes,1500,25 minutes
+2026-09-26-1311Z,pptarena,75,75,Grid and baseline rhythm,false,90,1.5 minutes,360,6 minutes,1500,25 minutes
+2026-09-26-1311Z,pptarena,80,80,Theme and backgrounds across 28 slides,false,90,1.5 minutes,360,6 minutes,1500,25 minutes
+2026-09-26-1311Z,pptarena,85,85,Arabic translation and layout,false,90,1.5 minutes,360,6 minutes,1500,25 minutes
+2026-09-26-1311Z,pptarena,89,89,Animal Research poster,false,90,1.5 minutes,360,6 minutes,1500,25 minutes
+2026-09-26-1311Z,pptarena,93,93,Copernicus climate multi-edit cascade,false,90,1.5 minutes,360,6 minutes,1500,25 minutes
+2026-09-26-1311Z,pptarena,97,97,LaTeX to editable Office Math,false,90,1.5 minutes,360,6 minutes,1500,25 minutes
+2026-09-26-1311Z,pptarena,100,100,Animation and bullet sequencing,false,90,1.5 minutes,360,6 minutes,1500,25 minutes
+2026-09-26-1311Z,paperbench,bridging-data-gaps,bridging-data-gaps,Bridging Data Gaps,false,750,12.5 minutes,3000,50 minutes,12000,200 minutes
+2026-09-26-1311Z,paperbench,fre,fre,FRE,false,600,10 minutes,2400,40 minutes,9000,150 minutes
+2026-09-26-1311Z,paperbench,bam,bam,BAM,false,300,5 minutes,1200,20 minutes,4800,80 minutes
+2026-09-26-1311Z,programbench,cweill-gotests,cweill__gotests.2a672c5,cweill/gotests,false,750,12.5 minutes,3000,50 minutes,12000,200 minutes
+2026-09-26-1311Z,programbench,noborus-trdsql,noborus__trdsql.d8c5ff6,noborus/trdsql,false,750,12.5 minutes,3000,50 minutes,12000,200 minutes
+2026-09-26-1311Z,programbench,rcoh-angle-grinder,rcoh__angle-grinder.9c2fc88,rcoh/angle-grinder,false,900,15 minutes,3600,60 minutes,15000,250 minutes
+2026-09-26-1311Z,programbench,nuta-nsh,nuta__nsh.bdd0702,nuta/nsh,false,750,12.5 minutes,3000,50 minutes,12000,200 minutes
+2026-09-26-1311Z,programbench,mookid-diffr,mookid__diffr.2152742,mookid/diffr,false,900,15 minutes,3600,60 minutes,15000,250 minutes
+2026-09-26-1311Z,programbench,ninja-build-ninja,ninja-build__ninja.cc60300,ninja-build/ninja,false,600,10 minutes,2400,40 minutes,12000,200 minutes
+2026-09-26-1311Z,programbench,luajit-luajit,luajit__luajit.a553b3d,luajit/luajit,false,750,12.5 minutes,3000,50 minutes,12000,200 minutes
+2026-09-26-1311Z,programbench,stathissideris-ditaa,stathissideris__ditaa.f2286c4,stathissideris/ditaa,false,480,8 minutes,1800,30 minutes,7500,125 minutes
+2026-09-26-1311Z,programbench,facebook-zstd,facebook__zstd.1168da0,facebook/zstd,false,600,10 minutes,2400,40 minutes,9000,150 minutes
+2026-09-26-1311Z,programbench,parcel-bundler-lightningcss,parcel-bundler__lightningcss.aa2ed1e,parcel-bundler/lightningcss,false,750,12.5 minutes,3000,50 minutes,12000,200 minutes
+2026-09-26-1311Z,programbench,lfos-calcurse,lfos__calcurse.49180d5,lfos/calcurse,false,1500,25 minutes,6000,100 minutes,24000,400 minutes
+2026-09-26-1311Z,programbench,kaushiksrini-parqeye,kaushiksrini__parqeye.8072121,kaushiksrini/parqeye,false,1800,30 minutes,7500,125 minutes,30000,500 minutes
+2026-09-26-1311Z,programbench,o2sh-onefetch,o2sh__onefetch.e5958ce,o2sh/onefetch,false,900,15 minutes,3600,60 minutes,15000,250 minutes
+2026-09-26-1311Z,programbench,tomarrell-wrapcheck,tomarrell__wrapcheck.c058da1,tomarrell/wrapcheck,false,900,15 minutes,3600,60 minutes,15000,250 minutes
+2026-09-26-1311Z,sakana-ale-bench,ahc007,ahc007,AtCoder Heuristic Contest 7,false,600,10 minutes,2400,40 minutes,9000,150 minutes
+2026-09-26-1311Z,sakana-ale-bench,ahc008,ahc008,AtCoder Heuristic Contest 8,false,900,15 minutes,3600,60 minutes,15000,250 minutes
+2026-09-26-1311Z,sakana-ale-bench,ahc009,ahc009,AtCoder Heuristic Contest 9,false,600,10 minutes,2400,40 minutes,9000,150 minutes
+2026-09-26-1311Z,sakana-ale-bench,ahc011,ahc011,AtCoder Heuristic Contest 11,false,750,12.5 minutes,3000,50 minutes,12000,200 minutes
+2026-09-26-1311Z,sakana-ale-bench,future-contest-2022-qual,future-contest-2022-qual,Future Contest 2022 Qual,false,900,15 minutes,3600,60 minutes,15000,250 minutes
+2026-09-26-1311Z,sakana-ale-bench,ahc016,ahc016,AtCoder Heuristic Contest 16,false,600,10 minutes,2400,40 minutes,9000,150 minutes
+2026-09-26-1311Z,sakana-ale-bench,ahc026,ahc026,AtCoder Heuristic Contest 26,false,600,10 minutes,2400,40 minutes,9000,150 minutes
+2026-09-26-1311Z,sakana-ale-bench,ahc031,ahc031,AtCoder Heuristic Contest 31,false,600,10 minutes,2400,40 minutes,9000,150 minutes
+2026-09-26-1311Z,sakana-ale-bench,ahc039,ahc039,AtCoder Heuristic Contest 39,false,600,10 minutes,2400,40 minutes,9000,150 minutes
+2026-09-26-1311Z,sakana-ale-bench,ahc046,ahc046,AtCoder Heuristic Contest 46,false,600,10 minutes,2400,40 minutes,9000,150 minutes
+2026-09-26-1311Z,tua-bench,074-apa-references-review,074-apa-references-review,APA references review,false,150,2.5 minutes,600,10 minutes,2400,40 minutes
+2026-09-26-1311Z,tua-bench,096-first-author-table,096-first-author-table,First-author table,false,150,2.5 minutes,600,10 minutes,2400,40 minutes
+2026-09-26-1311Z,tua-bench,102-daily-email-report,102-daily-email-report,Daily email report,false,90,1.5 minutes,360,6 minutes,1500,25 minutes
+2026-09-26-1311Z,tua-bench,094-author-homepage-bookmarks,094-author-homepage-bookmarks,Author homepage bookmarks,false,150,2.5 minutes,600,10 minutes,2400,40 minutes
+2026-09-26-1311Z,tua-bench,100-name-mountain-photos,100-name-mountain-photos,Name mountain photos,false,90,1.5 minutes,360,6 minutes,1500,25 minutes
+2026-09-26-1311Z,tua-bench,093-merge-txt-document,093-merge-txt-document,Merge text document,false,75,1.25 minutes,300,5 minutes,1200,20 minutes
+2026-09-26-1311Z,tua-bench,004-place-heater-for-sensors,004-place-heater-for-sensors,Place heater for sensors,false,240,4 minutes,900,15 minutes,3600,60 minutes
+2026-09-26-1311Z,tua-bench,005-optimize-cold-plate,005-optimize-cold-plate,Optimize cold plate,false,360,6 minutes,1500,25 minutes,6000,100 minutes
+2026-09-26-1311Z,tua-bench,006-extract-gym-auditorium,006-extract-gym-auditorium,Extract gym auditorium,false,75,1.25 minutes,300,5 minutes,1200,20 minutes
+2026-09-26-1311Z,tua-bench,011-epw-parquet-check,011-epw-parquet-check,EPW parquet check,false,90,1.5 minutes,360,6 minutes,1500,25 minutes
+2026-09-26-1311Z,tua-bench,079-fix-mp3-metadata,079-fix-mp3-metadata,Fix MP3 metadata,false,75,1.25 minutes,300,5 minutes,1200,20 minutes
+2026-09-26-1311Z,tua-bench,088-extract-presenter-photos,088-extract-presenter-photos,Extract presenter photos,false,150,2.5 minutes,600,10 minutes,2400,40 minutes
+2026-09-26-1311Z,wildclawbench,01-productivity-flow-task-3-bibtex,01_Productivity_Flow_task_3_bibtex,"Recover arXiv titles, figure counts, and BibTeX from 21 local PDFs",false,150,2.5 minutes,600,10 minutes,2400,40 minutes
+2026-09-26-1311Z,wildclawbench,01-productivity-flow-task-6-calendar-scheduling,01_Productivity_Flow_task_6_calendar_scheduling,Optimize 30 calendar events plus 15 meeting requests under constraints,false,60,1 minute,240,4 minutes,900,15 minutes
+2026-09-26-1311Z,wildclawbench,02-code-intelligence-task-11-resume-homepage-zh,02_Code_Intelligence_task_11_resume_homepage_zh,Build a Chinese academic homepage from a resume and visual reference,false,90,1.5 minutes,360,6 minutes,1500,25 minutes
+2026-09-26-1311Z,wildclawbench,02-code-intelligence-task-8-link-a-pix-color-zh,02_Code_Intelligence_task_8_link_a_pix_color_zh,"Solve and render a color Link-a-Pix puzzle, then identify the scene",false,120,2 minutes,480,8 minutes,1800,30 minutes
+2026-09-26-1311Z,wildclawbench,03-social-interaction-task-1-meeting-negotiation,03_Social_Interaction_task_1_meeting_negotiation,"Negotiate a 90-minute meeting across email, calendar, time zones, and a decoy",false,60,1 minute,240,4 minutes,1200,20 minutes
+2026-09-26-1311Z,wildclawbench,03-social-interaction-task-5-chat-escalation-routing,03_Social_Interaction_task_5_chat_escalation_routing,"Triage support messages, investigate hidden context, route issues, and draft replies",false,60,1 minute,240,4 minutes,900,15 minutes
+2026-09-26-1311Z,wildclawbench,04-search-retrieval-task-1-google-scholar-search,04_Search_Retrieval_task_1_google_scholar_search,Find a shortest coauthorship chain between two scholars,false,120,2 minutes,480,8 minutes,2400,40 minutes
+2026-09-26-1311Z,wildclawbench,04-search-retrieval-task-7-location-search,04_Search_Retrieval_task_7_location_search,"Geolocate a street image and return country, city, and coordinates",false,75,1.25 minutes,300,5 minutes,1200,20 minutes
+2026-09-26-1311Z,wildclawbench,05-creative-synthesis-task-1-match-report,05_Creative_Synthesis_task_1_match_report,Create a first-half football report with correctly aligned video clips,false,120,2 minutes,480,8 minutes,1800,30 minutes
+2026-09-26-1311Z,wildclawbench,05-creative-synthesis-task-2-goal-highlights,05_Creative_Synthesis_task_2_goal_highlights,Cut all three first-half Ferran Torres goals into a sub-30-second reel,false,150,2.5 minutes,600,10 minutes,2400,40 minutes
+2026-09-26-1311Z,agents-last-exam,business-finance-bpmn-supply-disruption-l3,business_finance/bpmn_supply_disruption_l3,Redesign and validate a Flowable supply-disruption workflow,false,480,8 minutes,1800,30 minutes,7500,125 minutes
+2026-09-26-1311Z,agents-last-exam,business-finance-odoo,business_finance/odoo,Complete an end-to-end Odoo supply-chain workflow,false,300,5 minutes,1200,20 minutes,4800,80 minutes
+2026-09-26-1311Z,agents-last-exam,business-finance-sec-10k-financial-parsing,business_finance/sec_10k_financial_parsing,Parse a fixed 100-filing SEC 10-K corpus,false,600,10 minutes,2400,40 minutes,9000,150 minutes
+2026-09-26-1311Z,agents-last-exam,business-finance-legal-ma-consistency-audit-01,business_finance/legal_ma_consistency_audit_01,Audit four Chinese M&A filings for inconsistencies,false,600,10 minutes,2400,40 minutes,9000,150 minutes
+2026-09-26-1311Z,agents-last-exam,education-info-moodle-gradebook-closeout-reconciliation,education_info/moodle_gradebook_closeout_reconciliation,Repair a Moodle backup and rebuild registrar exports,false,300,5 minutes,1200,20 minutes,4800,80 minutes
+2026-09-26-1311Z,agents-last-exam,education-info-marc-remediation-folio-overlay,education_info/marc_remediation_folio_overlay,Remediate MARC records and prepare a FOLIO overlay,false,300,5 minutes,1200,20 minutes,4800,80 minutes
+2026-09-26-1311Z,agents-last-exam,computing-math-data-pipeline-etl-instance-1,computing_math/data_pipeline_etl_instance_1,Build a clean retail SQLite warehouse from messy inputs,false,300,5 minutes,1200,20 minutes,4800,80 minutes
+2026-09-26-1311Z,agents-last-exam,engineering-pcb-layout-kicad-1,engineering/pcb_layout_kicad_1,Route a KiCad PCB from the staged schematic,false,600,10 minutes,2400,40 minutes,9000,150 minutes
+2026-09-26-1311Z,agents-last-exam,engineering-sumo-urban-am-peak-calibration,engineering/sumo_urban_am_peak_calibration,Repair and calibrate an urban SUMO traffic simulation,false,300,5 minutes,1200,20 minutes,4800,80 minutes
+2026-09-26-1311Z,agents-last-exam,physical-sciences-hst-acs-wfc-visit-reduction,physical_sciences/hst_acs_wfc_visit_reduction,Build a reusable HST ACS/WFC visit-reduction pipeline,false,300,5 minutes,1200,20 minutes,4800,80 minutes
+2026-09-26-1311Z,agents-last-exam,visual-media-compress-3dgs-scene-ply,visual_media/compress_3dgs_scene_ply,Compress a 3D Gaussian Splatting scene without losing quality,false,240,4 minutes,900,15 minutes,3600,60 minutes
+2026-09-26-1311Z,agents-last-exam,transport-safety-capacitated-vehicle-routing-problems,transport_safety/capacitated_vehicle_routing_problems,Find near-best-known routes for three CVRP instances,false,240,4 minutes,900,15 minutes,3600,60 minutes
+2026-09-26-1311Z,appworld,988af8e-1,988af8e_1,"Execute every task in a camping project across shopping, expenses, payments, invitations, and task closeout",false,150,2.5 minutes,600,10 minutes,2400,40 minutes
+2026-09-26-1311Z,appworld,a1d3dfd-1,a1d3dfd_1,Export every playlist song to a CSV and email the backup,false,150,2.5 minutes,600,10 minutes,2400,40 minutes
+2026-09-26-1311Z,appworld,3fcc458-1,3fcc458_1,Reconcile an emailed road-trip song list with a Spotify playlist and download it,false,120,2 minutes,480,8 minutes,1800,30 minutes
+2026-09-26-1311Z,appworld,8d42650-1,8d42650_1,Turn this year’s emailed electricity bills into monthly Splitwise expenses,false,120,2 minutes,480,8 minutes,1800,30 minutes
+2026-09-26-1311Z,appworld,f86d850-1,f86d850_1,"Buy a requested item, forward its receipt, and recover the cost through Venmo",false,120,2 minutes,480,8 minutes,1800,30 minutes
+2026-09-26-1311Z,appworld,9a16324-1,9a16324_1,"Collect artist recommendations from email and text conversations, then follow them",false,120,2 minutes,480,8 minutes,1800,30 minutes
+2026-09-26-1311Z,appworld,1b988ac-1,1b988ac_1,Rebuild and send a drafted recommendation email from the user’s Spotify history,false,120,2 minutes,480,8 minutes,1800,30 minutes
+2026-09-26-1311Z,appworld,f6f2e67-1,f6f2e67_1,Merge two photo collections into a ZIP and send it to both parents,false,150,2.5 minutes,600,10 minutes,2400,40 minutes
+2026-09-26-1311Z,appworld,f3a6713-1,f3a6713_1,Reconcile a camping checklist with commitments and buy the remaining supplies,false,120,2 minutes,480,8 minutes,1800,30 minutes
+2026-09-26-1311Z,appworld,36705ae-1,36705ae_1,"Collect every cable bill, normalize filenames, ZIP them, and reply to the request",false,150,2.5 minutes,600,10 minutes,2400,40 minutes
+2026-09-26-1311Z,appworld,a676f2a-1,a676f2a_1,Calculate and send individualized lunch-cost requests with shared tip and delivery,false,90,1.5 minutes,360,6 minutes,1500,25 minutes
+2026-09-26-1311Z,appworld,18670a5-1,18670a5_1,Turn a note-based meeting schedule into correctly timed reminder emails,false,90,1.5 minutes,360,6 minutes,1500,25 minutes
+2026-09-26-1311Z,appworld,e70b117-1,e70b117_1,Build scheduled speaker reminders from an email schedule and file template,false,120,2 minutes,480,8 minutes,1800,30 minutes
+2026-09-26-1311Z,appworld,33e202d-1,33e202d_1,Build a recruiting CSV and archive each candidate’s attachments,false,90,1.5 minutes,360,6 minutes,1500,25 minutes
+2026-09-26-1311Z,appworld,a97e35d-1,a97e35d_1,Send individualized acceptance or rejection replies using local decision templates,false,150,2.5 minutes,600,10 minutes,2400,40 minutes
+2026-09-26-1311Z,appworld,bde252e-1,bde252e_1,Repack tonight’s Todoist plan around the available work schedule,false,120,2 minutes,480,8 minutes,1800,30 minutes
+2026-09-26-1311Z,appworld,986aa4e-1,986aa4e_1,Apply collaborator feedback to a shared road-trip playlist and close the task,false,120,2 minutes,480,8 minutes,1800,30 minutes
+2026-09-26-1311Z,appworld,83a7951-1,83a7951_1,Reconcile Venmo payments into Splitwise with attached receipts,false,90,1.5 minutes,360,6 minutes,1500,25 minutes
+2026-09-26-1311Z,core-bench,capsule-3821950,capsule-3821950,Reproduce a rockshelter chronology and archaeological materials analysis,false,600,10 minutes,2400,40 minutes,9000,150 minutes
+2026-09-26-1311Z,core-bench,capsule-9832712,capsule-9832712,Reproduce article and script-availability results across linguistics,false,480,8 minutes,1800,30 minutes,7500,125 minutes
+2026-09-26-1311Z,core-bench,capsule-5136217,capsule-5136217,Rebuild the figures for selective exposure to partisan online news,false,300,5 minutes,1200,20 minutes,4800,80 minutes
+2026-09-26-1311Z,core-bench,capsule-3449234,capsule-3449234,Run and render CNN short-term temperature forecasting results,false,240,4 minutes,900,15 minutes,3600,60 minutes
+2026-09-26-1311Z,core-bench,capsule-9026204,capsule-9026204,Execute the fibrous-media notebook and reproduce its pore-size result,false,480,8 minutes,1800,30 minutes,7500,125 minutes
+2026-09-26-1311Z,core-bench,capsule-2151475,capsule-2151475,Reproduce journal and university ranking figures,false,360,6 minutes,1500,25 minutes,6000,100 minutes
+2026-09-26-1311Z,core-bench,capsule-0571975,capsule-0571975,Run a continuous-time intelligent-reflecting-surface propagation model,false,240,4 minutes,900,15 minutes,3600,60 minutes
+2026-09-26-1311Z,core-bench,capsule-8185407,capsule-8185407,Reproduce a 20 mm transducer-array characterization,false,240,4 minutes,900,15 minutes,3600,60 minutes
+2026-09-26-1311Z,core-bench,capsule-3990498,capsule-3990498,Run a quantum measurement and tomography toolbox,false,240,4 minutes,900,15 minutes,3600,60 minutes
+2026-09-26-1311Z,core-bench,capsule-8353473,capsule-8353473,Execute relative-entropy causal-influence notebooks in parallel,false,240,4 minutes,900,15 minutes,3600,60 minutes
+2026-09-26-1311Z,core-bench,capsule-7350043,capsule-7350043,Train and evaluate end-to-end neural-network feature selection on MNIST,false,750,12.5 minutes,3000,50 minutes,12000,200 minutes
+2026-09-26-1311Z,core-bench,capsule-5172670,capsule-5172670,Run product-review sentiment mining and reproduce its metrics,false,150,2.5 minutes,600,10 minutes,2400,40 minutes
+2026-09-26-1311Z,deepswe,opa-template-string-reconstruction,opa-template-string-reconstruction,Reconstruct template strings in OPA partial-evaluation output,false,600,10 minutes,2400,40 minutes,9000,150 minutes
+2026-09-26-1311Z,deepswe,prometheus-typed-label-sorting,prometheus-typed-label-sorting,Fix PromQL label sorting across typed and untyped values,false,300,5 minutes,1200,20 minutes,4800,80 minutes
+2026-09-26-1311Z,deepswe,tengo-callable-instance-isolation,tengo-callable-instance-isolation,Fix isolated Go-side calls for Tengo callables and closures,false,300,5 minutes,1200,20 minutes,4800,80 minutes
+2026-09-26-1311Z,deepswe,dateutil-rfc5545-timezone-interop,dateutil-rfc5545-timezone-interop,Add RFC 5545 timezone interoperability to dateutil recurrence parsing,false,240,4 minutes,900,15 minutes,3600,60 minutes
+2026-09-26-1311Z,deepswe,ipython-session-bundle-replay,ipython-session-bundle-replay,Add session bundle recording and replay to IPython,false,240,4 minutes,900,15 minutes,3600,60 minutes
+2026-09-26-1311Z,deepswe,python-statemachine-state-data-scoping,python-statemachine-state-data-scoping,Add scoped state data to state-machine callbacks and history,false,300,5 minutes,1200,20 minutes,4800,80 minutes
+2026-09-26-1311Z,deepswe,oxvg-structural-selector-preservation,oxvg-structural-selector-preservation,Preserve structure needed by stylesheet selectors in OXVG,false,480,8 minutes,1800,30 minutes,7500,125 minutes
+2026-09-26-1311Z,deepswe,boa-hierarchical-evaluation-cancellation,boa-hierarchical-evaluation-cancellation,Add hierarchical evaluation cancellation to Boa,false,480,8 minutes,1800,30 minutes,7500,125 minutes
+2026-09-26-1311Z,deepswe,vitest-duration-sharding,vitest-duration-sharding,Add duration-aware sharding to Vitest,false,300,5 minutes,1200,20 minutes,4800,80 minutes
+2026-09-26-1311Z,deepswe,arktype-json-schema-refs-dependencies,arktype-json-schema-refs-dependencies,Add JSON Schema references and dependency keywords to ArkType,false,300,5 minutes,1200,20 minutes,4800,80 minutes
+2026-09-26-1311Z,deepswe,effect-sse-httpapi-streaming,effect-sse-httpapi-streaming,Add server-sent-event streaming endpoints to Effect HttpApi,false,480,8 minutes,1800,30 minutes,7500,125 minutes
+2026-09-26-1311Z,deepswe,katex-multicolumn-array-spans,katex-multicolumn-array-spans,Add multicolumn spans to KaTeX array-like environments,false,240,4 minutes,900,15 minutes,3600,60 minutes
+2026-09-26-1311Z,terminal-bench,batched-eval-parity,batched-eval-parity,Repair batched LLM evaluation so it matches single-example semantics,false,480,8 minutes,1800,30 minutes,7500,125 minutes
+2026-09-26-1311Z,terminal-bench,biped-contact-dynamics,biped-contact-dynamics,"Generate physically valid walking, jumping, and running trajectories",false,1200,20 minutes,4800,80 minutes,18000,300 minutes
+2026-09-26-1311Z,terminal-bench,cad-model,cad-model,Reconstruct a 3D corner tie from a 2D schematic,false,300,5 minutes,1200,20 minutes,4800,80 minutes
+2026-09-26-1311Z,terminal-bench,fin-saccr-rwa,fin-saccr-rwa,"Recalculate SA-CCR exposure, RWA, capital, and workbook evidence",false,240,4 minutes,900,15 minutes,3600,60 minutes
+2026-09-26-1311Z,terminal-bench,heat-pump-warranty,heat-pump-warranty,Resolve a 20-claim heat-pump warranty exception queue,false,240,4 minutes,900,15 minutes,3600,60 minutes
+2026-09-26-1311Z,terminal-bench,intrastat-meldung,intrastat-meldung,Complete a German month-end Intrastat filing across services,false,240,4 minutes,900,15 minutes,3600,60 minutes
+2026-09-26-1311Z,terminal-bench,lake-temp-glm,lake-temp-glm,Train a lake-temperature profile model from sparse observations,false,1800,30 minutes,7500,125 minutes,30000,500 minutes
+2026-09-26-1311Z,terminal-bench,nextjs-performance,nextjs-performance,Remove latency across a multi-route Next.js warehouse app,false,480,8 minutes,1800,30 minutes,7500,125 minutes
+2026-09-26-1311Z,terminal-bench,payments-pipeline-fix,payments-pipeline-fix,Make a Kafka payments worker recover quickly without losing notifications,false,1200,20 minutes,4800,80 minutes,18000,300 minutes
+2026-09-26-1311Z,terminal-bench,pretrain-shard-corruption,pretrain-shard-corruption,Repair corrupted pretraining shards and reproduce the intended checkpoint,false,1200,20 minutes,4800,80 minutes,18000,300 minutes
+2026-09-26-1311Z,terminal-bench,production-planning,production-planning,Build and apply a five-day ERP/MES/WMS production plan,false,300,5 minutes,1200,20 minutes,4800,80 minutes
+2026-09-26-1311Z,terminal-bench,react-lead-form,react-lead-form,Repair a React lead form and its auditable CRM submission pipeline,false,360,6 minutes,1500,25 minutes,6000,100 minutes
+2026-09-26-1311Z,terminal-bench,retro-console-soc,retro-console-soc,Implement a synthesizable 8-bit retro console system-on-chip,false,900,15 minutes,3600,60 minutes,15000,250 minutes
+2026-09-26-1311Z,terminal-bench,risk-scorer-replay,risk-scorer-replay,Rebuild a retired production risk scorer from black-box behavior,false,360,6 minutes,1500,25 minutes,6000,100 minutes
+2026-09-26-1311Z,terminal-bench,sound-change-cascade,sound-change-cascade,Recover an ordered cascade of historical sound changes,false,480,8 minutes,1800,30 minutes,7500,125 minutes
+2026-09-26-1311Z,terminal-bench,vba-userform-port,vba-userform-port,"Port an Excel/VBA service-desk app to React, FastAPI, and SQLite",false,600,10 minutes,2400,40 minutes,9000,150 minutes
+2026-09-26-1311Z,posttrainbench,qwen3-1-7b-base-humaneval,qwen3-1.7b-base__humaneval,Post-train Qwen3-1.7B-Base for HumanEval,false,7200,2 hours,28800,8 hours,108000,30 hours
+2026-09-26-1311Z,posttrainbench,qwen3-1-7b-base-gsm8k,qwen3-1.7b-base__gsm8k,Post-train Qwen3-1.7B-Base for GSM8K,false,7200,2 hours,28800,8 hours,108000,30 hours
+2026-09-26-1311Z,metr-public-tasks,cowthello-main,cowthello/main,Build an efficient AI for the novel Cowthello board game,false,7200,2 hours,28800,8 hours,108000,30 hours
+2026-09-26-1311Z,metr-public-tasks,complex-payments-payment-logic-only,complex_payments/payment_logic_only,Implement duplicate-payment detection across currencies and time zones,false,14400,4 hours,54000,15 hours,216000,60 hours
+2026-09-26-1311Z,yc-bench,yc-bench-default-seed1,yc-bench.default.seed1,"Run the current one-year startup simulation, official seed 1",false,480,8 minutes,1800,30 minutes,7500,125 minutes
+2026-09-26-1311Z,yc-bench,yc-bench-default-seed2,yc-bench.default.seed2,"Run the current one-year startup simulation, official seed 2",false,480,8 minutes,1800,30 minutes,7500,125 minutes
+2026-09-26-1311Z,yc-bench,yc-bench-default-seed3,yc-bench.default.seed3,"Run the current one-year startup simulation, official seed 3",false,480,8 minutes,1800,30 minutes,7500,125 minutes

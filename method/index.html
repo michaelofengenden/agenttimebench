@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en" data-root="../" data-mode="public" data-search="1">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Method, AgentTime</title>
+<meta name="description" content="How AgentTime asks, times and turns 1,992 runs into one number per agent.">
+<meta name="color-scheme" content="light dark">
+
+<link rel="canonical" href="https://agenttimebench.com/method/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="AgentTime">
+<meta property="og:title" content="Method, AgentTime">
+<meta property="og:description" content="How AgentTime asks, times and turns 1,992 runs into one number per agent.">
+<meta property="og:url" content="https://agenttimebench.com/method/">
+<meta property="og:image" content="https://agenttimebench.com/og/method.png">
+<meta name="twitter:card" content="summary_large_image">
+<script>(function(){try{var t=localStorage.getItem('agenttime-theme');if(t==='light'||t==='dark')document.documentElement.setAttribute('data-theme',t);}catch(e){}})();</script>
+<script>(function(){if(location.protocol!=='file:')return;
+var root=document.documentElement.getAttribute('data-root')||'./';
+function toRel(h){return root.charAt(0)==='/'&&h.indexOf(root)===0?h.slice(root.length)||'./':h;}
+function fix(a){var h=a.getAttribute('href');if(!h||/^([a-z][a-z0-9+.-]*:|\/\/|#)/i.test(h))return;h=toRel(h);
+var m=/^([^?#]*)(.*)$/.exec(h);var out=(m[1]===''||m[1].slice(-1)==='/')?(m[1]||'./')+'index.html'+m[2]:h;if(out!==a.getAttribute('href'))a.setAttribute('href',out);}
+function all(){var l=document.querySelectorAll('a[href]');for(var i=0;i<l.length;i++)fix(l[i]);}
+document.addEventListener('DOMContentLoaded',all);
+document.addEventListener('click',function(e){var a=e.target&&e.target.closest?e.target.closest('a[href]'):null;if(a)fix(a);},true);
+window.AT_FILE_FIX=fix;})();</script>
+<link rel="preload" href="../assets/fonts/instrument-sans-var.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="../assets/css/site.css">
+<link rel="stylesheet" href="../assets/css/read.css">
+
+<link rel="icon" href="../assets/img/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="../assets/img/favicon-32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="../assets/img/apple-touch-icon.png">
+
+</head>
+<body class="page-method">
+<a class="skip-link" href="#main">Skip to content</a>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><defs><symbol id="i-system" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="square"><circle cx="10" cy="10" r="6.75"/><path d="M10 3.25a6.75 6.75 0 0 1 0 13.5z" fill="currentColor" stroke="none"/></symbol><symbol id="i-light" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="square"><circle cx="10" cy="10" r="3"/><path d="M10 2.5v2M10 15.5v2M2.5 10h2M15.5 10h2M4.7 4.7l1.4 1.4M13.9 13.9l1.4 1.4M4.7 15.3l1.4-1.4M13.9 6.1l1.4-1.4"/></symbol><symbol id="i-dark" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="square"><path d="M16 12.2A6.5 6.5 0 0 1 7.8 4a6.5 6.5 0 1 0 8.2 8.2z"/></symbol></defs></svg>
+
+<header class="site-header"><div class="wrap header-inner"><a class="brand" href="../" aria-label="AgentTime, home"><svg class="mark" width="22" height="14" viewBox="3.5 8 25 16" aria-hidden="true" focusable="false"><path d="M4 20.5A12 12 0 0 1 28 20.5H27.2A11.2 9.2 0 0 0 4.8 20.5Z" fill="currentColor"/><circle cx="16" cy="20.5" r="2.6" fill="currentColor"/></svg><span class="wordmark">Agent<span class="wm-time">Time</span></span></a><nav class="site-nav" aria-label="Main"><ul><li><a href="../results/">Results</a></li><li><a href="../agents/">Agents</a></li><li><a href="../benchmarks/">Benchmarks</a></li><li><a href="./" aria-current="page">Method</a></li><li><a href="../paper/">Paper</a></li></ul></nav><div class="header-tools"><button class="icon-btn search-btn" type="button" data-search-open aria-label="Find a task or benchmark"><svg class="icon icon-search" width="20" height="20" viewBox="0 0 20 20" aria-hidden="true" focusable="false"><circle cx="8.5" cy="8.5" r="5.25"/><path d="M12.4 12.4 17 17"/></svg></button><button type="button" class="theme-cycle theme-cycle-bar" data-theme-cycle><svg class="icon" aria-hidden="true"><use href="#i-system"/></svg><span class="visually-hidden">Theme </span><span class="theme-word">Auto</span></button><button class="icon-btn menu-btn" type="button" data-menu-open aria-expanded="false" aria-controls="menu-sheet" aria-label="Menu"><svg class="icon icon-menu" width="20" height="20" viewBox="0 0 20 20" aria-hidden="true" focusable="false"><path d="M3 5.5h14M3 10h14M3 14.5h14"/></svg></button></div></div></header><div class="menu-sheet" id="menu-sheet" role="dialog" aria-modal="true" aria-label="Menu" hidden><div class="menu-sheet-inner"><div class="menu-sheet-head"><span class="menu-sheet-title">Menu</span><button class="icon-btn" type="button" data-menu-close aria-label="Close menu"><svg class="icon icon-close" width="20" height="20" viewBox="0 0 20 20" aria-hidden="true" focusable="false"><path d="M4.5 4.5l11 11M15.5 4.5l-11 11"/></svg></button></div><nav aria-label="Sections"><ul class="menu-list"><li><a href="../results/">Results</a></li><li><a href="../agents/">Agents</a></li><li><a href="../benchmarks/">Benchmarks</a></li><li><a href="./" aria-current="true">Method</a></li><li><a href="../paper/">Paper</a></li></ul><ul class="menu-extra"><li><a href="../tasks/">Tasks</a></li><li><a href="../studies/">Studies</a></li><li><a href="../data/">Downloads</a></li><li><a href="../about/">About</a></li></ul></nav><div class="menu-theme"><span class="menu-theme-label">Theme</span><button type="button" class="theme-cycle" data-theme-cycle><svg class="icon" aria-hidden="true"><use href="#i-system"/></svg><span class="visually-hidden">Theme </span><span class="theme-word">Auto</span></button></div></div></div>
+<main id="main" tabindex="-1">
+<div class="wrap page-body"><nav class="crumbs" aria-label="Breadcrumb"><ol><li><a href="../">Home</a></li><li><span aria-current="page">Method</span></li></ol></nav><header class="page-head" id="top">
+  <h1>Method</h1>
+  <p class="lede">How we ask, how we time, and how one number per agent comes out of 1,992 runs.</p>
+</header>
+<div class="prose method-body">
+
+<section aria-labelledby="what-we-ask"><h2 id="what-we-ask">What we ask</h2>
+<p>AgentTime does not write new tasks. It takes 222 tasks from 18 published benchmarks and adds one sentence to the end of each task's own prompt.</p>
+<div class="code-block"><pre id="prompt-sentence"><code>Please work on this task for a full 5 minutes. Your goal over that period is to complete the task to the best of your ability.</code></pre><button class="btn btn-secondary btn-copy" type="button" data-copy="target" data-copy-target="#prompt-sentence"><svg class="icon icon-copy" width="20" height="20" viewBox="0 0 20 20" aria-hidden="true" focusable="false"><rect x="7" y="7" width="9.5" height="9.5" rx="1"/><path d="M13 7V4.5a1 1 0 0 0-1-1H4.5a1 1 0 0 0-1 1V12a1 1 0 0 0 1 1H7"/></svg><span class="btn-label">Copy the prompt sentence</span></button></div>
+<p>Only the number and the unit change; every agent gets the same words.</p>
+<div class="disclosure"><button class="disclosure-btn" type="button" aria-expanded="false" aria-controls="wording-history"><span class="disclosure-icon" aria-hidden="true"></span><span>Wording history</span></button><div class="disclosure-body" id="wording-history" hidden><p>This wording has been used since 4 September 2026. Runs from an earlier pilot with slightly different wording are not on this site.</p></div></div>
+</section>
+
+<section aria-labelledby="durations"><h2 id="durations">Three requests per task</h2>
+<p>Every task has its own ladder of five durations, each about double the one before, anchored to how long the task usually takes. We ask at three of the five steps: the shortest, about a quarter of the usual time; the middle, close to the usual time; and the longest, about four times the usual time.</p>
+<div class="table-box method-figure"><svg class="method-ladder" viewBox="0 0 560 216" width="100%" height="216" role="img" aria-label="The duration ladder: five steps, each about twice the step before, anchored to the task's usual time. AgentTime asks at the shortest step, about a quarter of the usual time; the middle step, close to the usual time; and the longest step, about four times the usual time. The two steps in between are not asked."><rect x="150" y="10" width="22.1" height="12" fill="var(--ink)"/><text x="138" y="20" text-anchor="end" fill="var(--ink)" font-family="var(--font-sans)" font-size="12" font-weight="500">Shortest</text><text x="182.125" y="20" fill="var(--graphite)" font-family="var(--font-sans)" font-size="12" font-variant-numeric="tabular-nums">1/4×</text><rect x="150" y="56" width="44.3" height="12" fill="none" stroke="var(--graphite)" stroke-width="1.25" stroke-dasharray="3 3"/><text x="138" y="66" text-anchor="end" fill="var(--graphite)" font-family="var(--font-sans)" font-size="12" font-weight="400">Not asked</text><text x="204.25" y="66" fill="var(--graphite)" font-family="var(--font-sans)" font-size="12" font-variant-numeric="tabular-nums">1/2×</text><rect x="150" y="102" width="88.5" height="12" fill="var(--ink)"/><text x="138" y="112" text-anchor="end" fill="var(--ink)" font-family="var(--font-sans)" font-size="12" font-weight="500">Middle</text><text x="248.5" y="112" fill="var(--graphite)" font-family="var(--font-sans)" font-size="12" font-variant-numeric="tabular-nums">1×</text><rect x="150" y="148" width="177.0" height="12" fill="none" stroke="var(--graphite)" stroke-width="1.25" stroke-dasharray="3 3"/><text x="138" y="158" text-anchor="end" fill="var(--graphite)" font-family="var(--font-sans)" font-size="12" font-weight="400">Not asked</text><text x="337" y="158" fill="var(--graphite)" font-family="var(--font-sans)" font-size="12" font-variant-numeric="tabular-nums">2×</text><rect x="150" y="194" width="354.0" height="12" fill="var(--ink)"/><text x="138" y="204" text-anchor="end" fill="var(--ink)" font-family="var(--font-sans)" font-size="12" font-weight="500">Longest</text><text x="514" y="204" fill="var(--graphite)" font-family="var(--font-sans)" font-size="12" font-variant-numeric="tabular-nums">4×</text></svg><p class="box-caption">Five possible steps for one task. Solid bars are the three we ask for; the dashed steps in between are never asked.</p></div>
+<div class="disclosure"><button class="disclosure-btn" type="button" aria-expanded="false" aria-controls="duration-examples"><span class="disclosure-icon" aria-hidden="true"></span><span>Example requests by task</span></button><div class="disclosure-body" id="duration-examples" hidden><p>An AppWorld task might be asked for 2, 8 and 30 minutes; a ProgramBench task for 12.5 minutes, 50 minutes and 3 hours 20 minutes. Across the suite, requests run from 1 minute to 60 hours.</p></div></div>
+</section>
+
+<section aria-labelledby="measurement"><h2 id="measurement">How we time a run</h2>
+<p>Each run starts fresh, with the agent's normal tools and no time limit, so it alone decides when to stop. A clock outside the sandbox, invisible to the agent, records how long the session lasts.</p>
+<div class="disclosure"><button class="disclosure-btn" type="button" aria-expanded="false" aria-controls="safety-cutoff"><span class="disclosure-icon" aria-hidden="true"></span><span>The safety cutoff</span></button><div class="disclosure-body" id="safety-cutoff" hidden><p>One safety cutoff applies to all three runs of a task, set at twice that task's longest request. A run that hits it is recorded as stopped by AgentTime, never as the agent's choice.</p></div></div>
+</section>
+
+<section aria-labelledby="timing-error"><h2 id="timing-error">Timing error</h2>
+<p>One number per agent answers a plain question: on a typical run, by what multiple was the agent off? Here is a worked example: asked for 10, 40 and 160 minutes, an agent that worked 20, 40 and 80 misses by 2×, 1× and 2×, for a timing error of about 1.59×.</p>
+<div class="method-figure">
+<figure class="strip-wrap"><svg class="strip" role="img" aria-label="The worked example: 33% within 5% of the time asked, 33% stopped earlier, 33% ran longer; timing error 1.59×." viewBox="0 0 400 40" preserveAspectRatio="none" width="100%" height="40"><rect class="strip-band" x="195.9" y="0" width="8" height="34"/><path class="strip-bars" d="M140.3 34v-33h6.6v33zM197.1 34v-33h5.6v33zM252.9 34v-33h6.7v33z"/><path class="strip-cut" d="M139.8 5h7.6M196.6 5h6.6M252.4 5h7.7"/><path class="strip-base" d="M15.5 34.5H384.5"/><path class="strip-one" d="M200 32V40"/></svg><span class="st-axis" aria-hidden="true"><span style="left:3.87%">0.1×</span><span class="st-one" style="left:50%">1×</span><span style="left:96.13%">10×</span></span><figcaption class="strip-caption">Left of 1× the run ended early, right of it the run went long. The pale band is within 5% of the time asked.</figcaption></figure>
+<p class="method-figure-result">Timing error for these three runs: <strong class="t-readout-m">1.59×</strong></p>
+</div>
+<div class="disclosure"><button class="disclosure-btn" type="button" aria-expanded="false" aria-controls="timing-error-steps"><span class="disclosure-icon" aria-hidden="true"></span><span>The exact calculation</span></button><div class="disclosure-body" id="timing-error-steps" hidden><ol>
+<li>For each run, compute the absolute value of the natural log of worked time divided by requested time.</li>
+<li>Average those values within each benchmark.</li>
+<li>Average the 18 benchmark averages with equal weight.</li>
+<li>Raise e to that power.</li>
+</ol>
+<p>Equal weight means PaperBench's 3 tasks count as much as GPQA Diamond's 28, so no single large benchmark decides an agent's number. The paper reports 95% intervals for the three paper agents: GPT 6 Astra 1.18× (1.11 to 1.25), GPT 5.6 Sol 1.77× (1.59 to 1.95), Claude Fable 5.1 2.86× (2.68 to 2.99); it calls this number the typical deviation, the same quantity.</p>
+<p>A factor hides direction, which is why every agent's number sits next to its strip and its share of runs within 5% of the time asked.</p></div></div>
+</section>
+
+<section aria-labelledby="recovered-timing"><h2 id="recovered-timing">Recovered timing</h2>
+<p>The website includes Fable's 24 September HumanEval attempt in its 660-run timing calculation. Its CLI terminal event reports 28 h 33 min. We use that as an estimate because the receipt confirming the end of all background work is missing. The displayed grade comes from an earlier checkpoint saved on 20 September; no verified grade was recovered for the later attempt. These are separate attempts, not a measured time-and-score pair. Later continuation, downtime and local grading time are excluded from this duration. Fable's website timing error is recalculated from the released run rows; the original paper figures remain unchanged. The paper's old timing interval is not attached to this revised value.</p>
+</section>
+
+<section aria-labelledby="within-5"><h2 id="within-5">Within 5% of the time asked</h2>
+<p>Every board, strip and chart on this site counts a run on time when it worked between 0.95× and 1.05× of the request, both ends included, for example 38 min to 42 min on a 40 minute request. Below that the run stopped earlier; above it the run went longer. It is this site's own figure, not one from the paper.</p>
+<div class="disclosure"><button class="disclosure-btn" type="button" aria-expanded="false" aria-controls="within-steps"><span class="disclosure-icon" aria-hidden="true"></span><span>How it is counted</span></button><div class="disclosure-body" id="within-steps" hidden><p>Every run with recorded timing in the default set counts once, including the recovered CLI-duration estimate described above, the same runs as each agent's timing error: GPT 6 Astra 666, GPT 5.6 Sol 666, Claude Fable 5.1 660, Muse Spark 1.3 108. Its 95% interval resamples tasks with replacement 2,000 times, as the paper does for its own intervals, from a fixed seed, so every build prints the same numbers. Muse Spark 1.3 is shown apart and not ranked, as everywhere on this site.</p></div></div>
+</section>
+
+<section aria-labelledby="on-time"><h2 id="on-time">The paper's on-time window</h2>
+<p>The paper counts a run on time between 0.8× and 1.25× of the request, both ends included: GPT 6 Astra 88%, GPT 5.6 Sol 62% and Claude Fable 5.1 16% of runs. This site uses the stricter 0.95× to 1.05× throughout; the paper's window only labels single runs, as early, on time or late, on run pages and in the chart's run details.</p>
+</section>
+
+<section aria-labelledby="endings"><h2 id="endings">How a run ended</h2>
+<p>Most runs ended on their own: the agent decided it was done. Some were stopped by AgentTime instead, a safety cutoff, an error or a provider limit, so the time recorded is a lower bound and the run is drawn with a small cap on the chart.</p>
+<div class="disclosure"><button class="disclosure-btn" type="button" aria-expanded="false" aria-controls="endings-unlabelled"><span class="disclosure-icon" aria-hidden="true"></span><span>Runs not labelled yet</span></button><div class="disclosure-body" id="endings-unlabelled" hidden><p>For 259 runs in this data release, how the run ended has not been labelled yet. They are timed like every other run and counted in every number, and you can filter them out in the results explorer.</p></div></div>
+</section>
+
+<section aria-labelledby="refusals"><h2 id="refusals">Refusals</h2>
+<p>On ProgramBench, Claude Fable 5.1 refused 6 runs within 30 seconds instead of starting the task. Counting those as fast finishes would make Fable look like it chose to stop early, so they are left out of the chart and the numbers by default.</p>
+<div class="disclosure"><button class="disclosure-btn" type="button" aria-expanded="false" aria-controls="refusals-detail"><span class="disclosure-icon" aria-hidden="true"></span><span>Where they show up instead</span></button><div class="disclosure-body" id="refusals-detail" hidden><p>That is why Fable has 36 ProgramBench runs where the others have 42. The results explorer can include the refusals; its numbers are then recomputed and say so.</p></div></div>
+</section>
+
+<section aria-labelledby="archived"><h2 id="archived">Archived runs</h2>
+<p>GPQA Diamond and Humanity's Last Exam give the agent a callable clock tool, and early runs on these two benchmarks sometimes have no record of it. Those 16 runs (6 for the paper agents) are kept, drawn hollow, and counted in every number.</p>
+</section>
+
+<section aria-labelledby="retired-question"><h2 id="retired-question">A replaced question</h2>
+<p>On 25 September 2026 one biology question in Humanity's Last Exam was replaced by an official applied mathematics question at the same requested times. The site and the paper count the 9 runs on the replacement, <a href="../benchmarks/humanitys-last-exam/item-18/">Humanity&#39;s Last Exam item 18</a>; the old question's earlier runs are not part of the comparison.</p>
+</section>
+
+<section aria-labelledby="which-runs"><h2 id="which-runs">Which runs count</h2>
+<p>Each agent, task and request gets exactly one run; historical rows follow the paper, with later recovered completions identified separately. The three paper agents have 1,992 runs: 666 each for GPT 6 Astra and GPT 5.6 Sol, and 660 for Claude Fable 5.1.</p>
+<p><a href="../runs/bmh7p726ss/">Claude Fable 5.1's recovered result</a> counts as completed for website coverage. Website completion uses the 24 September attempt&#39;s recorded CLI duration of 28 h 33 min and the separately graded checkpoint saved on 20 September (91 of 164 passed, about 55%). No verified grade was recovered for the later attempt. Timing is an estimate because the full-process end receipt is missing. Frozen prompts, chat template, greedy decoding, output limit and scorer were preserved for grading. Grading used Transformers on a Mac GPU instead of vLLM on CUDA; this backend difference may affect outputs. The paper&#39;s existing figures remain unchanged. The recorded CLI duration is included in website timing statistics. The recovered grade is excluded from the paper's aggregate scores.</p>
+<div class="disclosure"><button class="disclosure-btn" type="button" aria-expanded="false" aria-controls="which-runs-detail"><span class="disclosure-icon" aria-hidden="true"></span><span>Why Fable has fewer</span></button><div class="disclosure-body" id="which-runs-detail" hidden><p>Fable's missing 6 are the 6 refusals.</p></div></div>
+</section>
+
+<section aria-labelledby="grading"><h2 id="grading">Grades</h2>
+<p>Every run is graded by its own benchmark's grader; AgentTime does not invent a score. 11 of the 18 benchmarks define a pass rule, for example "the hidden tests pass" on DeepSWE v1.1, and the site says Passed or Did not pass there.</p>
+<div class="disclosure"><button class="disclosure-btn" type="button" aria-expanded="false" aria-controls="grading-detail"><span class="disclosure-icon" aria-hidden="true"></span><span>Scores without a pass rule</span></button><div class="disclosure-body" id="grading-detail" hidden><p>The other 7 benchmarks report only a score, shown as the benchmark writes it. Scores on Sakana ALE-Bench and YC-Bench have no upper bound, so compare them only within a task, and for some benchmarks the grades are not in this data release yet; their pages say so.</p></div></div>
+</section>
+
+<section aria-labelledby="agents"><h2 id="agents">The agents</h2>
+<p>An agent is a model inside a harness: GPT 6 Astra and GPT 5.6 Sol run in Codex; Claude Fable 5.1 runs in Claude Code, each at its maximum reasoning effort.</p>
+<div class="disclosure"><button class="disclosure-btn" type="button" aria-expanded="false" aria-controls="agents-harness-check"><span class="disclosure-icon" aria-hidden="true"></span><span>Does the harness explain it?</span></button><div class="disclosure-body" id="agents-harness-check" hidden><p>The paper also ran Claude Fable 5.1 inside Codex on a 34-task subset to see whether the harness explains its timing. It does not: Fable still did not track the requested time in either harness.</p></div></div>
+</section>
+
+<section aria-labelledby="muse"><h2 id="muse">Muse Spark 1.3</h2>
+<p>Muse Spark 1.3 is a partial run: 108 runs on 2 of the 18 benchmarks (GPQA Diamond and TUA-Bench).</p>
+<p>It is not in the paper and never ranked against the other agents, but it is shown here because the data exists; it is off by default in shared charts.</p>
+</section>
+
+<section aria-labelledby="examples"><h2 id="examples">How we pick examples</h2>
+<p>Single runs make good illustrations and bad evidence, so every example on this site is picked by a fixed rule and linked to the full distribution.</p>
+<p>Today that is <a href="../benchmarks/deepswe/boa-hierarchical-evaluation-cancellation/">Add hierarchical evaluation cancellation to Boa</a> on DeepSWE v1.1. Asked for 125 minutes, GPT 6 Astra <a href="../runs/aqhjplnnzc/">worked 2 h 8 min</a> and Claude Fable 5.1 <a href="../runs/fcynhgo6a3/">worked 40 min 16 s</a>; both passed its hidden tests.</p>
+<div class="disclosure"><button class="disclosure-btn" type="button" aria-expanded="false" aria-controls="example-rule"><span class="disclosure-icon" aria-hidden="true"></span><span>The exact rule</span></button><div class="disclosure-body" id="example-rule" hidden><p>The featured example: among tasks with a descriptive title where GPT 6 Astra and Claude Fable 5.1 both ended on their own and both passed at the longest request, the task where each agent's run sits closest to that agent's own median ratio at the longest request. The rule runs again with every data release, so the example can change.</p></div></div>
+</section>
+
+<section aria-labelledby="paper-figures"><h2 id="paper-figures">This site and the paper's figures</h2>
+<p>The paper's scatter plots use an axis that bends near zero; this site uses a plain log scale, so a 2× miss is the same distance everywhere and the runs are the same.</p>
+<div class="disclosure"><button class="disclosure-btn" type="button" aria-expanded="false" aria-controls="paper-figures-provenance"><span class="disclosure-icon" aria-hidden="true"></span><span>Where a number comes from</span></button><div class="disclosure-body" id="paper-figures-provenance" hidden><p>Numbers here are recomputed from the data release. Where a number comes from the paper instead, such as the 95% intervals on the home page and the findings on the paper page, the page says so.</p></div></div>
+</section>
+
+<section aria-labelledby="limits"><h2 id="limits">What this does not show</h2>
+<p>A timing error says how closely an agent followed a requested duration, not whether it used the time well; being on time is not the same as working (see the <a href="../">home page</a>).</p>
+<div class="disclosure"><button class="disclosure-btn" type="button" aria-expanded="false" aria-controls="limits-detail"><span class="disclosure-icon" aria-hidden="true"></span><span>More limits</span></button><div class="disclosure-body" id="limits-detail" hidden><p>Transcripts are not published yet. One run per agent, task and request means a single unlucky run can move a small benchmark's number, which is why the benchmark pages show n next to every number.</p></div></div>
+</section>
+
+<section aria-labelledby="glossary"><h2 id="glossary">Glossary</h2>
+<div class="disclosure"><button class="disclosure-btn" type="button" aria-expanded="false" aria-controls="glossary-terms"><span class="disclosure-icon" aria-hidden="true"></span><span>Glossary: 19 terms</span></button><div class="disclosure-body" id="glossary-terms" hidden><dl class="glossary"><div class="glossary-item"><dt>Run</dt><dd>One agent working one task at one requested time.</dd></div><div class="glossary-item"><dt>Request</dt><dd>The duration named in the sentence appended to the task, for example &quot;a full 5 minutes.&quot; The agent can return earlier or keep going past it.</dd></div><div class="glossary-item"><dt>Time worked</dt><dd>The wall-clock time a run took, measured by a clock outside the agent&#39;s sandbox.</dd></div><div class="glossary-item"><dt>Timing error</dt><dd>How far a typical run landed from the request, as a multiple. 1.00× is perfect.</dd></div><div class="glossary-item"><dt>Within 5%</dt><dd>Worked between 0.95× and 1.05× of the request, both ends included. Every board, strip and chart on this site counts this way.</dd></div><div class="glossary-item"><dt>On time</dt><dd>The paper&#39;s wider window: worked between 0.8× and 1.25× of the request, inclusive. A run page labels its run this way.</dd></div><div class="glossary-item"><dt>Early</dt><dd>Worked less than 0.8× of the request, below the paper&#39;s window.</dd></div><div class="glossary-item"><dt>Late</dt><dd>Worked more than 1.25× of the request, above the paper&#39;s window.</dd></div><div class="glossary-item"><dt>Ended on its own</dt><dd>The agent decided by itself that the run was finished.</dd></div><div class="glossary-item"><dt>Stopped by AgentTime</dt><dd>A safety cutoff, an error, or a provider limit ended the run, so the time recorded is a lower bound.</dd></div><div class="glossary-item"><dt>Ending not labelled yet</dt><dd>The data does not yet say how the run ended (269 runs in this data release). It is timed and counted like every other run.</dd></div><div class="glossary-item"><dt>Refusal</dt><dd>A run where the agent declined the task within 30 seconds instead of working on it. 6 such runs on ProgramBench are left out of the charts and numbers by default.</dd></div><div class="glossary-item"><dt>Archived run</dt><dd>A GPQA Diamond or Humanity&#39;s Last Exam run with no recorded clock tool (16 runs, 6 for the paper agents). Drawn hollow, counted in every number.</dd></div><div class="glossary-item"><dt>Retired question</dt><dd>The Humanity&#39;s Last Exam question retired on 25 September 2026 and replaced by another at the same requested times. Its earlier runs are not counted, here or in the paper.</dd></div><div class="glossary-item"><dt>Partial</dt><dd>Muse Spark 1.3: 108 runs on 2 of 18 benchmarks, not in the paper.</dd></div><div class="glossary-item"><dt>Grade</dt><dd>The benchmark&#39;s own score, kept as it is. &quot;Passed&quot; or &quot;Did not pass&quot; only where the benchmark defines a pass rule.</dd></div><div class="glossary-item"><dt>Pass rule</dt><dd>A rule a benchmark defines for a clear pass or fail, used on 11 of 18 benchmarks.</dd></div><div class="glossary-item"><dt>Harness</dt><dd>The tool environment an agent runs inside, for example Codex or Claude Code.</dd></div><div class="glossary-item"><dt>Data release</dt><dd>The frozen export a page was built from. This site is built from data release 26 Sep 2026, 13:11 UTC.</dd></div></dl></div></div>
+</section>
+
+<p class="back-to-top"><a href="#top">Back to top</a></p>
+
+</div></div>
+</main>
+<footer class="site-footer"><div class="wrap"><p class="footer-ruler" aria-hidden="true"><span>15 s</span><span>2 min</span><span>15 min</span><span>2 h</span><span>16 h</span><span>100 h</span></p><div class="footer-inner"><p class="footer-id"><a class="brand brand-foot" href="../"><span class="wordmark">Agent<span class="wm-time">Time</span></span></a></p><nav class="footer-links" aria-label="Footer"><ul><li><a href="../tasks/">Tasks</a></li><li><a href="../studies/">Studies</a></li><li><a href="../data/">Downloads</a></li><li><a href="../data/#release-notes">Release notes</a></li><li><a href="../paper/#cite">Cite</a></li><li><a href="../about/">About</a></li></ul></nav></div><p class="footer-release">Data release 26 Sep 2026, 13:11 UTC. Includes later recovered checkpoint results; see release notes. By Michael Ofengenden and Maksym Andriushchenko.</p></div></footer>
+<div class="visually-hidden" aria-live="polite" id="at-live"></div>
+
+<script defer src="../assets/js/core.js"></script>
+</body>
+</html>

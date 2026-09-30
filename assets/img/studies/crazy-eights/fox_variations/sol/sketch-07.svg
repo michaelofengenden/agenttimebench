@@ -1,0 +1,127 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800">
+<defs>
+<linearGradient id="sky" x2="0" y2="1">
+<stop stop-color="#708fb0"/>
+<stop offset="1" stop-color="#efbc7c"/>
+</linearGradient>
+<linearGradient id="land" x2=".8" y2="1">
+<stop stop-color="#3a5541"/>
+<stop offset="1" stop-color="#172d28"/>
+</linearGradient>
+<linearGradient id="bark" x2="1">
+<stop stop-color="#24191b"/>
+<stop offset=".4" stop-color="#79533d"/>
+<stop offset=".72" stop-color="#493029"/>
+<stop offset="1" stop-color="#21171a"/>
+</linearGradient>
+<linearGradient id="fur" x2="1" y2=".7">
+<stop stop-color="#ffae4c"/>
+<stop offset=".35" stop-color="#df5925"/>
+<stop offset=".74" stop-color="#a72e21"/>
+<stop offset="1" stop-color="#611f22"/>
+</linearGradient>
+<linearGradient id="cream" x2="1" y2="1">
+<stop stop-color="#fff0c9"/>
+<stop offset="1" stop-color="#eab27a"/>
+</linearGradient>
+<linearGradient id="wood" x2="1" y2="1">
+<stop stop-color="#ffc35a"/>
+<stop offset=".35" stop-color="#b94b18"/>
+<stop offset=".74" stop-color="#6f1e0e"/>
+<stop offset="1" stop-color="#d77b24"/>
+</linearGradient>
+<radialGradient id="glow">
+<stop stop-color="#ffe2a0" stop-opacity=".9"/>
+<stop offset="1" stop-color="#ffe2a0" stop-opacity="0"/>
+</radialGradient>
+<radialGradient id="sh">
+<stop stop-color="#0d1517" stop-opacity=".55"/>
+<stop offset="1" stop-color="#0d1517" stop-opacity="0"/>
+</radialGradient>
+<pattern id="grass" width="31" height="25" patternUnits="userSpaceOnUse">
+<path d="M 4 25q 2-17 5-23M 13 25q -1-12 5-20M 22 25q 5-15 8-18" fill="none" stroke="#a3b76a" stroke-width="2" opacity=".3"/>
+</pattern>
+<g id="fl">
+<ellipse cy="-12" ry="15" rx="9" fill="#fff2f4" stroke="#e6a1b5"/>
+<ellipse cy="-12" ry="15" rx="9" transform="rotate(72)" fill="#ffdbe7" stroke="#e6a1b5"/>
+<ellipse cy="-12" ry="15" rx="9" transform="rotate(144)" fill="#fff5f5" stroke="#e6a1b5"/>
+<ellipse cy="-12" ry="15" rx="9" transform="rotate(216)" fill="#f7c5d6" stroke="#e6a1b5"/>
+<ellipse cy="-12" ry="15" rx="9" transform="rotate(288)" fill="#ffe8ee" stroke="#e6a1b5"/>
+<circle r="5" fill="#dfa42a"/>
+<circle r="2" fill="#794822"/>
+</g>
+<g id="vio">
+<path d="M -114-5q -16-15-27 0q 9 15 27 10l 13 5l 4-20Z" fill="#71301d" stroke="#321512" stroke-width="3"/>
+<circle cx="-136" cy="-9" r="4" fill="#251515"/>
+<circle cx="-132" cy="10" r="4" fill="#251515"/>
+<path d="M -112-6L -30-11l 1 23l -83-6Z" fill="#873819" stroke="#391611" stroke-width="3"/>
+<path d="M -29-41Q -7-60 30-51Q 49-38 30-12Q 55-4 45 24Q 27 45-6 35Q -29 27-17 3Q -42-18-29-41Z" fill="url(#wood)" stroke="#49170e" stroke-width="4"/>
+<path d="M -24-34Q 0-52 24-34M -7 29Q 17 39 38 16" fill="none" stroke="#ffd47e" stroke-width="3" opacity=".65"/>
+<path d="M -13-18q -13 11-2 23m 38-27q 13 9 2 23" fill="none" stroke="#391813" stroke-width="3"/>
+<path d="M -7-3Q 5-9 18-2L 16 7Q 5 3-5 7Z" fill="#e8bd73" stroke="#66411d" stroke-width="2"/>
+<path d="M -111-2L 28-5M -111 2L 29 1" stroke="#f7e8bf"/>
+<path d="M 18 23q 10 2 17-6l 6 8q -12 12-26 7Z" fill="#2d1918"/>
+</g>
+<g id="bow">
+<path d="M -132 0Q 0-7 132 1" fill="none" stroke="#482219" stroke-width="5" stroke-linecap="round"/>
+<path d="M -127 6Q 0 0 126 7" fill="none" stroke="#f4e8cf" stroke-width="2"/>
+<path d="M -137-4l 15 2l -2 12l -15-2Z" fill="#281718"/>
+<circle cx="130" cy="2" r="4" fill="#e2b66d"/>
+</g>
+</defs>
+<rect width="1200" height="800" fill="url(#sky)"/>
+<circle cx="565" cy="280" r="195" fill="url(#glow)"/>
+<circle cx="565" cy="280" r="55" fill="#ffe8a5"/>
+<path d="M 0 446L 155 310L 279 414L 444 254L 617 427L 784 276L 1016 438L 1200 330V 800H 0Z" fill="#758491" opacity=".75"/>
+<path d="M 0 518L 218 395L 390 523L 593 384L 814 515L 1021 402L 1200 492V 800H 0Z" fill="#455d59"/>
+<path d="M 0 611Q 216 537 404 591T 790 565T 1200 585V 800H 0Z" fill="url(#land)"/>
+<path d="M 0 102Q 215 130 362 245M 89 0Q 191 119 208 208M 1200 89Q 1008 116 875 234M 1100 0Q 1022 106 998 177" fill="none" stroke="#49322e" stroke-width="35" stroke-linecap="round"/>
+<use href="#fl" transform="translate(44 112) scale(0.85) rotate(5)"/>
+<use href="#fl" transform="translate(112 126) scale(1.15) rotate(-11)"/>
+<use href="#fl" transform="translate(185 153) scale(0.72) rotate(21)"/>
+<use href="#fl" transform="translate(249 188) scale(1.05) rotate(-16)"/>
+<use href="#fl" transform="translate(321 228) scale(0.7) rotate(9)"/>
+<use href="#fl" transform="translate(1151 103) scale(1.2) rotate(8)"/>
+<use href="#fl" transform="translate(1079 122) scale(0.75) rotate(-13)"/>
+<use href="#fl" transform="translate(1012 156) scale(1.08) rotate(18)"/>
+<use href="#fl" transform="translate(942 194) scale(0.7) rotate(-6)"/>
+<use href="#fl" transform="translate(886 227) scale(1.05) rotate(12)"/>
+<rect y="520" width="1200" height="280" fill="url(#grass)" opacity=".36"/>
+<ellipse cx="590" cy="699.5" rx="238.5" ry="55.800000000000004" fill="url(#sh)"/>
+<g transform="translate(590 533) rotate(1) scale(0.9)">
+<g stroke="#f5ead2" stroke-width="2" opacity=".45">
+<path d="M -25-30l 25 11M 3-42l 25 11M 39-36l 25 11M -42 50l 24 8M 58 56l 22-8"/>
+</g>
+<path d="M 43 105Q 187 55 286 148Q 196 207 77 168Z" fill="url(#fur)" stroke="#5c211e" stroke-width="6"/>
+<path d="M -270 164Q -215 171-171 134Q -193 178-234 190Z" fill="#fff0cf" opacity=".95"/>
+<path d="M -42 1Q 14-54 92-17Q 148 32 143 153L 98 220H -62Q -94 76-42 1Z" fill="url(#fur)" stroke="#60211d" stroke-width="6"/>
+<path d="M -42 17Q 15-30 80 0L 64 156L -32 160Z" fill="#b94126" opacity=".65"/>
+<path d="M -29 139Q -74 184-76 231Q -37 254 7 226L 23 155M 74 147Q 116 184 125 227Q 92 254 47 231L 32 159" fill="url(#fur)" stroke="#59201d" stroke-width="6"/>
+<path d="M -74 228q 37 17 77-3M 48 229q 38 17 74-4" fill="none" stroke="#21191b" stroke-width="9"/>
+<path d="M -20-92Q 4-151 65-164Q 124-160 155-111L 139-36Q 97 8 34-12Q -17-28-34-64Z" fill="url(#fur)" stroke="#5d211e" stroke-width="6"/>
+<path d="M 1-132l -10-99q 60 29 84 72M 96-159l 72-61q 2 72-35 109" fill="url(#fur)" stroke="#5d211e" stroke-width="6"/>
+<path d="M 8-158l -7-52q 33 20 49 56M 118-158l 43-45q 0 43-22 64" fill="#392326"/>
+<path d="M -18-88q -57-3-87 38q 39 35 94 10Z" fill="#ffe5bb" stroke="#7b3023" stroke-width="4"/>
+<ellipse cx="-106" cy="-49" rx="14" ry="10" fill="#201517"/>
+<circle cx="-110" cy="-53" r="3" fill="#fff"/>
+<path d="M -7-40q 39 43 89 14Q 64 22 14 8Z" fill="#ffefd0"/>
+<path d="M 13-99q 16-11 32 1M 87-103q 15-9 29 2" fill="none" stroke="#291718" stroke-width="5"/>
+<ellipse cx="32" cy="-97" rx="5" ry="7" fill="#171315"/>
+<ellipse cx="104" cy="-101" rx="5" ry="7" fill="#171315"/>
+<path d="M 20-143l 18 13M 63-151l 17 15M 105-139l 16 13M -37 2l 24 7M 126-20l 26-11" stroke="#ffc176" stroke-width="4" stroke-linecap="round" opacity=".75"/>
+<use href="#vio" transform="translate(22 26) rotate(-7) scale(1.14)"/>
+<path d="M 0 58Q -62 39-101 8q -14-18 4-32q 19-4 32 15L 18 35Z" fill="url(#fur)" stroke="#60231c" stroke-width="6"/>
+<ellipse cx="-95" cy="-16" rx="14" ry="17" fill="#322123"/>
+<path d="M 83 55q 50-27 77-73q 10-20 29-10q 15 13 1 31L 111 84Z" fill="url(#fur)" stroke="#60231c" stroke-width="6"/>
+<ellipse cx="183" cy="-18" rx="14" ry="17" fill="#322123"/>
+<use href="#bow" transform="translate(88 17) rotate(-47) scale(1.18)"/>
+</g>
+<g opacity=".85">
+<use href="#fl" transform="translate(90 704) scale(0.36) rotate(12)"/>
+<use href="#fl" transform="translate(211 749) scale(0.28) rotate(-17)"/>
+<use href="#fl" transform="translate(389 716) scale(0.32) rotate(21)"/>
+<use href="#fl" transform="translate(812 708) scale(0.3) rotate(-9)"/>
+<use href="#fl" transform="translate(955 680) scale(0.4) rotate(17)"/>
+<use href="#fl" transform="translate(1082 746) scale(0.3) rotate(-23)"/>
+</g>
+</svg>

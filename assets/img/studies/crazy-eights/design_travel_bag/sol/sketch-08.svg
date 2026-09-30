@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 640">
+<rect width="900" height="640" fill="#faf7ef"/>
+<g font-family="Arial,sans-serif" fill="#1e262b">
+<text x="42" y="48" font-size="25" font-weight="700">08 — ADAPTIVE WOVEN SKIN</text>
+<text x="42" y="74" font-size="14" fill="#5c666c">crossed bands become pockets only where an item is pushed through</text>
+</g>
+<g stroke="#1e262b" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+<path d="M 61 146 Q 61 126 81 126 H 344 Q 364 126 364 146 V 482 Q 364 502 344 502 H 81 Q 61 502 61 482Z" fill="#eee5d6"/>
+<path d="M 82 151 L 343 347 M 82 222 L 343 418 M 82 293 L 335 482 M 90 482 L 343 293 M 82 418 L 343 222 M 82 347 L 343 151" fill="none" stroke="#b8d9d1" stroke-width="18"/>
+<path d="M 82 151 L 343 347 M 82 222 L 343 418 M 82 293 L 335 482 M 90 482 L 343 293 M 82 418 L 343 222 M 82 347 L 343 151" fill="none" stroke="#1e262b" stroke-width="2" stroke-dasharray="8 9"/>
+<path d="M 50 523 H 374" fill="none" stroke="#e46e59"/>
+<path d="M 62 513 l -12 10 l 12 10 M 362 513 l 12-10 l -12-10" fill="none" stroke="#e46e59"/>
+<path d="M 110 551 H 317" fill="none" stroke-width="8"/>
+<path d="M 110 543 v 16 M 317 543 v 16" fill="none"/>
+<path d="M 161 126 Q 162 84 212 84 Q 262 84 263 126" fill="none" stroke-width="12"/>
+<path d="M 479 145 Q 479 125 499 125 H 802 Q 822 125 822 145 V 487 Q 822 507 802 507 H 499 Q 479 507 479 487Z" fill="#eee5d6"/>
+<path d="M 500 151 L 801 352 M 500 225 L 801 426 M 500 299 L 789 491 M 511 491 L 801 299 M 500 426 L 801 225 M 500 352 L 801 151" fill="none" stroke="#b8d9d1" stroke-width="18"/>
+<path d="M 500 151 L 801 352 M 500 225 L 801 426 M 500 299 L 789 491 M 511 491 L 801 299 M 500 426 L 801 225 M 500 352 L 801 151" fill="none" stroke="#1e262b" stroke-width="2" stroke-dasharray="8 9"/>
+<rect x="577" y="192" width="145" height="205" rx="5" fill="#fff"/>
+<path d="M 592 220 h 112 M 592 245 h 112 M 592 270 h 82 M 592 192 v 205" fill="none" stroke-width="2"/>
+<path d="M 500 225 L 801 426 M 500 426 L 801 225" fill="none" stroke="#b8d9d1" stroke-width="20"/>
+<path d="M 500 225 L 801 426 M 500 426 L 801 225" fill="none" stroke="#1e262b" stroke-width="2" stroke-dasharray="8 9"/>
+<path d="M 507 203 C 507 164 570 164 570 203 C 570 243 507 243 507 203Z" fill="#fff" stroke="#76533b"/>
+<path d="M 539 241 v 37" fill="none" stroke="#76533b"/>
+<rect x="531" y="274" width="17" height="25" fill="#fff"/>
+<path d="M 548 445 L 704 425" stroke="#315e91" stroke-width="13"/>
+<path d="M 704 418 l 2 14 l 23-11Z" fill="#315e91"/>
+<path d="M 500 352 L 705 489" fill="none" stroke="#b8d9d1" stroke-width="20"/>
+<path d="M 500 352 L 705 489" fill="none" stroke="#1e262b" stroke-width="2" stroke-dasharray="8 9"/>
+<rect x="733" y="163" width="78" height="107" rx="7" fill="#e7a29a"/>
+<rect x="743" y="177" width="58" height="69" rx="5" fill="#fff"/>
+<path d="M 752 195 h 40 M 752 215 q 20-14 40 0" fill="none" stroke="#e46e59" stroke-width="3"/>
+<circle cx="759" cy="365" r="22" fill="#fff"/>
+<path d="M 775 381 l 31 31 l -8 8 l 9 9" fill="none"/>
+<path d="M 759 343 v -31" fill="none" stroke="#f2c969" stroke-width="10"/>
+<path d="M 846 291 Q 873 226 830 190" fill="none" stroke="#e46e59" stroke-dasharray="8 7"/>
+<path d="M 844 191 l -14-1 l 2 15" fill="none" stroke="#e46e59"/>
+<path d="M 479 178 h -24 M 479 194 h -24 M 479 210 h -24" fill="none" stroke-width="8"/>
+<circle cx="466" cy="292" r="7" fill="#1e262b"/>
+<circle cx="466" cy="317" r="7" fill="#1e262b"/>
+<path d="M 479 392 l -25 15 l 25 15" fill="#f2c969"/>
+<path d="M 386 270 C 424 270 430 265 458 237" fill="none" stroke="#e46e59" stroke-dasharray="8 7"/>
+<path d="M 440 242 l 18-5 l -4 18" fill="none" stroke="#e46e59"/>
+</g>
+<g font-family="Arial,sans-serif" fill="#1e262b">
+<text x="92" y="582" font-size="14" font-weight="700">EMPTY: 6 mm FLEXIBLE SHEET</text>
+<text x="92" y="604" font-size="13">nothing to detach, fasten, or lose</text>
+<text x="485" y="548" font-size="14" font-weight="700">LOADED: EACH CROSSING GRIPS A DIFFERENT SHAPE</text>
+<text x="485" y="573" font-size="13">rib / two beads / chevron mark cable, notes, and pen zones</text>
+<text x="485" y="598" font-size="13">card remains at exposed edge for one-handed queue access</text>
+</g>
+</svg>

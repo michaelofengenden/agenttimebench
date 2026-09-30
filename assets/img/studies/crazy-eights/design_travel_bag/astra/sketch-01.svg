@@ -1,0 +1,121 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="850" viewBox="0 0 1200 850">
+<defs>
+<style>text{font-family:Arial,Helvetica,sans-serif;fill:#263b47}.ink{fill:none;stroke:#263b47;stroke-width:3;stroke-linecap:round;stroke-linejoin:round}.thin{fill:none;stroke:#263b47;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round}.seam{fill:none;stroke:#697d83;stroke-width:1.5;stroke-dasharray:5 6}.blue{fill:#d5e5ed;stroke:#263b47;stroke-width:3;stroke-linejoin:round}.mint{fill:#d6e5d7;stroke:#263b47;stroke-width:3;stroke-linejoin:round}.sand{fill:#eddbb2;stroke:#263b47;stroke-width:3;stroke-linejoin:round}.coral{fill:#edc3ad;stroke:#263b47;stroke-width:3;stroke-linejoin:round}.paper{fill:#fffdf6;stroke:#263b47;stroke-width:3;stroke-linejoin:round}.arrow{fill:none;stroke:#ba684b;stroke-width:2.5;stroke-linecap:round;stroke-linejoin:round;marker-end:url(#a)}.label{font-size:18px;letter-spacing:.2px}.small{font-size:14px;letter-spacing:.4px}.num{font-size:13px;font-weight:bold;letter-spacing:2px}.note{font-size:16px;fill:#65767b}</style>
+<marker id="a" markerWidth="9" markerHeight="9" refX="7" refY="4" orient="auto">
+<path d="M 0 0L 8 4L 0 8" fill="none" stroke="#ba684b" stroke-width="1.7"/>
+</marker>
+<pattern id="mesh" width="13" height="13" patternUnits="userSpaceOnUse">
+<path d="M 0 0L 13 13M 13 0L 0 13" stroke="#829994" stroke-width=".6"/>
+</pattern>
+<symbol id="notebook" viewBox="0 0 150 200">
+<rect x="8" y="6" width="135" height="187" rx="7" fill="#f7f2e4" stroke="#263b47" stroke-width="3"/>
+<path d="M 22 7V 192M 31 26H 120M 31 32H 89M 129 10V 187" class="thin"/>
+<path d="M 13 26h 16m -16 22h 16m -16 22h 16m -16 22h 16m -16 22h 16m -16 22h 16m -16 22h 16m -16 22h 16" class="thin"/>
+<path d="M 103 7v 186" stroke="#ce9678" stroke-width="7"/>
+<path d="M 35 51h 48" class="thin"/>
+</symbol>
+<symbol id="card" viewBox="0 0 120 76">
+<rect x="3" y="3" width="114" height="70" rx="9" fill="#f5bd82" stroke="#263b47" stroke-width="3"/>
+<path d="M 5 23h 110" stroke="#263b47" stroke-width="10"/>
+<circle cx="21" cy="51" r="7" fill="none" stroke="#263b47" stroke-width="2"/>
+<path d="M 41 46h 50M 41 56h 32" class="thin"/>
+</symbol>
+<symbol id="keys" viewBox="0 0 100 140">
+<circle cx="49" cy="27" r="23" fill="none" stroke="#263b47" stroke-width="4"/>
+<path d="M 34 44l -15 58 8 4-3 13 12 4 6-10-5-5 13-57" fill="#e8c76b" stroke="#263b47" stroke-width="3"/>
+<path d="M 54 45l 16 67 10-2-1-12-8 1-2-11 8-3-11-44Z" fill="#d6d9d1" stroke="#263b47" stroke-width="3"/>
+<circle cx="61" cy="46" r="5" fill="#fffdf6"/>
+</symbol>
+<symbol id="cable" viewBox="0 0 160 130">
+<g fill="none" stroke="#263b47" stroke-width="4">
+<rect x="26" y="19" width="100" height="75" rx="35"/>
+<rect x="34" y="28" width="84" height="56" rx="27"/>
+<rect x="43" y="37" width="66" height="38" rx="18"/>
+<path d="M 29 55C 8 42 4 75 17 102h 27M 125 56c 26-10 32 32 19 46"/>
+</g>
+<rect x="63" y="17" width="23" height="83" rx="6" fill="#98b7ac" stroke="#263b47" stroke-width="2"/>
+<rect x="43" y="94" width="29" height="17" rx="3" fill="#f6f2e7" stroke="#263b47" stroke-width="3"/>
+<path d="M 72 99h 10v 7H 72M 135 103h 17v 18h -17z" class="paper"/>
+</symbol>
+<symbol id="pen" viewBox="0 0 30 200">
+<path d="M 9 22Q 15 8 21 22V 164L 15 191 9 164Z" fill="#d9e4e9" stroke="#263b47" stroke-width="3"/>
+<path d="M 10 31h 11M 10 155h 11M 20 35h 6v 62M 15 190v 5" class="thin"/>
+</symbol>
+</defs>
+<rect width="1200" height="850" fill="#faf7ef"/>
+<path d="M 42 104H 1158M 42 793H 1158" stroke="#d6d3c8" stroke-width="1.5"/>
+<text x="44" y="45" class="num" >CRAZY 8 / 01</text>
+<text x="44" y="83" class="" font-size="32" font-weight="bold">Roll &amp; reach</text>
+<text x="1156" y="48" class="num" text-anchor="end">TRAVEL / NO ELECTRONICS</text>
+<text x="44" y="823" class="note" >Soft wrap • empty bays roll away • card and tethered keys stay outside</text>
+<text x="80" y="153" class="num" >UNROLLED / EVERYTHING VISIBLE</text>
+<path d="M 94 244Q 80 202 127 193H 747Q 779 195 799 217L 847 291V 566Q 844 593 815 594H 116Q 87 591 87 565Z" class="sand" />
+<path d="M 104 252V 563Q 104 578 123 578H 811Q 831 578 832 561V 297L 786 230Q 775 211 748 211H 128Q 106 211 105 236" class="seam" />
+<path d="M 87 286H 799M 290 213V 587M 492 213V 587M 657 213V 587" class="seam" />
+<use href="#notebook" x="110" y="242" width="162" height="222" />
+<rect x="108" y="347" width="169" height="221" rx="13" class="blue" />
+<path d="M 108 347Q 191 372 277 347" class="ink" />
+<path d="M 173 370v 17" class="thin" />
+<path d="M 180 370v 17" class="thin" />
+<path d="M 187 370v 17" class="thin" />
+<path d="M 194 370v 17" class="thin" />
+<use href="#cable" x="307" y="262" width="166" height="135" />
+<rect x="310" y="373" width="165" height="194" rx="12" class="mint" />
+<rect x="320" y="385" width="145" height="168" rx="8" class="" fill="url(#mesh)" stroke="none"/>
+<path d="M 310 373Q 391 400 475 373" class="ink" />
+<path d="M 374 429l 8-12 8 12 8-12 8 12" class="ink" />
+<use href="#pen" x="508" y="253" width="39" height="290" />
+<path d="M 505 331h 41v 39h -41zM 505 461h 41v 36h -41z" class="coral" />
+<use href="#keys" x="558" y="341" width="85" height="127" />
+<path d="M 583 225c -57 25 20 52 13 115" class="ink" />
+<circle cx="583" cy="225" r="7" class="coral"/>
+<rect x="555" y="449" width="92" height="118" rx="12" class="coral" />
+<path d="M 567 465h 65" class="thin" />
+<circle cx="600" cy="496" r="9" class="ink"/>
+<circle cx="600" cy="496" r="3" class="thin"/>
+<use href="#card" x="681" y="335" width="138" height="90" />
+<path d="M 675 389H 824V 565H 675Z" class="blue" />
+<path d="M 675 389h 48q 23 35 45 0h 56" class="ink" />
+<circle cx="736" cy="458" r="2.5" class="ink"/>
+<circle cx="745" cy="458" r="2.5" class="ink"/>
+<circle cx="754" cy="458" r="2.5" class="ink"/>
+<path d="M 94 491H 60Q 43 491 43 507V 532Q 43 549 60 549H 93" class="sand" />
+<path d="M 824 477h 61v 60h -61" class="sand" />
+<text x="130" y="632" class="label" >NOTEBOOK</text>
+<text x="325" y="632" class="label" >CABLES</text>
+<text x="529" y="632" class="label" >PEN / KEYS</text>
+<text x="704" y="632" class="label" >TRANSIT</text>
+<path d="M 801 249C 859 239 885 277 888 319" class="arrow" />
+<text x="919" y="159" class="num" >QUEUE MODE</text>
+<path d="M 960 255Q 995 215 1092 258V 542Q 1040 583 958 540Z" class="sand" />
+<path d="M 960 255Q 1006 223 1075 253Q 1114 273 1089 285Q 1016 308 960 270" class="ink" />
+<path d="M 974 259Q 1022 239 1074 259Q 1091 269 1070 278Q 1023 288 986 268Q 1014 255 1054 267" class="thin" />
+<path d="M 959 329Q 1020 350 1093 331V 377Q 1013 393 959 373Z" class="coral" />
+<use href="#card" x="971" y="397" width="110" height="71" />
+<path d="M 963 440h 33q 15 23 29 0h 67v 96q -65 26-129-1Z" class="blue" />
+<circle cx="1007" cy="482" r="2.5" class="ink"/>
+<circle cx="1016" cy="482" r="2.5" class="ink"/>
+<circle cx="1025" cy="482" r="2.5" class="ink"/>
+<path d="M 1093 316c 47 0 42 85 3 100" class="ink" />
+<use href="#keys" x="1074" y="412" width="57" height="85" />
+<path d="M 1022 399v -50" class="arrow" />
+<text x="930" y="606" class="label" >Thumb card out</text>
+<text x="81" y="706" class="num" >TOUCH KEY</text>
+<path d="M 228 689v 17" class="thin" />
+<path d="M 235 689v 17" class="thin" />
+<path d="M 242 689v 17" class="thin" />
+<path d="M 249 689v 17" class="thin" />
+<text x="266" y="708" class="label" >book</text>
+<path d="M 352 703l 8-12 8 12 8-12 8 12" class="ink" />
+<text x="398" y="708" class="label" >cable</text>
+<circle cx="503" cy="697" r="9" class="ink"/>
+<circle cx="503" cy="697" r="3" class="thin"/>
+<text x="526" y="708" class="label" >keys</text>
+<circle cx="611" cy="697" r="2.5" class="ink"/>
+<circle cx="620" cy="697" r="2.5" class="ink"/>
+<circle cx="629" cy="697" r="2.5" class="ink"/>
+<text x="649" y="708" class="label" >card</text>
+<path d="M 907 668c 30-35 82-38 118-9" class="arrow" />
+<path d="M 934 719q 45-20 106 0v 32q -57 20-106 0Z" class="sand" />
+<text x="920" y="775" class="small" >Fewer items → tighter roll</text>
+</svg>

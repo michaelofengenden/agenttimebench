@@ -1,0 +1,138 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 800">
+<defs>
+<linearGradient id="wood" x2=".8" y2="1">
+<stop stop-color="#ead0a1"/>
+<stop offset="1" stop-color="#9d6b49"/>
+</linearGradient>
+<linearGradient id="paper" x2="1" y2="1">
+<stop stop-color="#fff5d8"/>
+<stop offset="1" stop-color="#c8b88f"/>
+</linearGradient>
+</defs>
+<path d="M 0 0H 1000V 800H 0Z" fill="url(#wood)"/>
+<path d="M 0 0Q 480 -44 1000 -19" fill="none" stroke="#855e44" opacity=".18"/>
+<path d="M 0 64Q 480 20 1000 45" fill="none" stroke="#855e44" opacity=".18"/>
+<path d="M 0 128Q 480 84 1000 109" fill="none" stroke="#855e44" opacity=".18"/>
+<path d="M 0 192Q 480 148 1000 173" fill="none" stroke="#855e44" opacity=".18"/>
+<path d="M 0 256Q 480 212 1000 237" fill="none" stroke="#855e44" opacity=".18"/>
+<path d="M 0 320Q 480 276 1000 301" fill="none" stroke="#855e44" opacity=".18"/>
+<path d="M 0 384Q 480 340 1000 365" fill="none" stroke="#855e44" opacity=".18"/>
+<path d="M 0 448Q 480 404 1000 429" fill="none" stroke="#855e44" opacity=".18"/>
+<path d="M 0 512Q 480 468 1000 493" fill="none" stroke="#855e44" opacity=".18"/>
+<path d="M 0 576Q 480 532 1000 557" fill="none" stroke="#855e44" opacity=".18"/>
+<path d="M 0 640Q 480 596 1000 621" fill="none" stroke="#855e44" opacity=".18"/>
+<path d="M 0 704Q 480 660 1000 685" fill="none" stroke="#855e44" opacity=".18"/>
+<path d="M 0 768Q 480 724 1000 749" fill="none" stroke="#855e44" opacity=".18"/>
+<path d="M 0 832Q 480 788 1000 813" fill="none" stroke="#855e44" opacity=".18"/>
+<path d="M 0 0H 440L 917 800H 616Z" fill="#fff4cd" opacity=".22"/>
+<path d="M 403 485L 939 644 805 738 211 615Z" fill="#725543" opacity=".3"/>
+<path d="M 144 572L 540 438 860 584 491 741Z" fill="#d6bf96"/>
+<path d="M 144 572L 464 621 860 584 491 741Z" fill="#eee0bb"/>
+<path d="M 144 572L 347 338 540 438 464 621Z" fill="#fff0cd"/>
+<path d="M 206 540L 525 394 833 552 514 697Z" fill="url(#paper)"/>
+<path d="M 206 540l 295 46 332-34M 501 586l 13 111" fill="none" stroke="#bdac86" stroke-width="2"/>
+<path d="M 214 544l 293 137 319-131-5 16-308 134Z" fill="#fff2d0"/>
+<path d="M 370 500l 142 42 28-15 -140-45Z" fill="#7f775e" opacity=".23"/>
+<path d="M 370 500v -120l 57 -20v 120Z" fill="#fff3d1"/>
+<path d="M 427 480v -120l 25 17v 120Z" fill="#c7bb96"/>
+<path d="M 370 380l 57 -20 25 17 -57 20Z" fill="#fff9e5"/>
+<path d="M 370 500l -14 11 47 19 49-14" fill="#e2d3ad"/>
+<path d="M 379 426v 10l 7-3v -10Z" fill="#8d9687"/>
+<path d="M 398 426v 10l 7-3v -10Z" fill="#8d9687"/>
+<path d="M 379 449v 10l 7-3v -10Z" fill="#8d9687"/>
+<path d="M 398 449v 10l 7-3v -10Z" fill="#8d9687"/>
+<path d="M 379 472v 10l 7-3v -10Z" fill="#8d9687"/>
+<path d="M 398 472v 10l 7-3v -10Z" fill="#8d9687"/>
+<path d="M 456 452l 129 42 28-15 -127-45Z" fill="#7f775e" opacity=".23"/>
+<path d="M 456 452v -177l 44 -20v 177Z" fill="#fff3d1"/>
+<path d="M 500 432v -177l 25 17v 177Z" fill="#c7bb96"/>
+<path d="M 456 275l 44 -20 25 17 -44 20Z" fill="#fff9e5"/>
+<path d="M 456 452l -14 11 47 19 36-14" fill="#e2d3ad"/>
+<path d="M 465 321v 10l 7-3v -10Z" fill="#8d9687"/>
+<path d="M 484 321v 10l 7-3v -10Z" fill="#8d9687"/>
+<path d="M 465 344v 10l 7-3v -10Z" fill="#8d9687"/>
+<path d="M 484 344v 10l 7-3v -10Z" fill="#8d9687"/>
+<path d="M 465 367v 10l 7-3v -10Z" fill="#8d9687"/>
+<path d="M 484 367v 10l 7-3v -10Z" fill="#8d9687"/>
+<path d="M 465 390v 10l 7-3v -10Z" fill="#8d9687"/>
+<path d="M 484 390v 10l 7-3v -10Z" fill="#8d9687"/>
+<path d="M 465 413v 10l 7-3v -10Z" fill="#8d9687"/>
+<path d="M 484 413v 10l 7-3v -10Z" fill="#8d9687"/>
+<path d="M 531 491l 141 42 28-15 -139-45Z" fill="#7f775e" opacity=".23"/>
+<path d="M 531 491v -232l 56 -20v 232Z" fill="#fff3d1"/>
+<path d="M 587 471v -232l 25 17v 232Z" fill="#c7bb96"/>
+<path d="M 531 259l 56 -20 25 17 -56 20Z" fill="#fff9e5"/>
+<path d="M 531 491l -14 11 47 19 48-14" fill="#e2d3ad"/>
+<path d="M 540 305v 10l 7-3v -10Z" fill="#8d9687"/>
+<path d="M 559 305v 10l 7-3v -10Z" fill="#8d9687"/>
+<path d="M 540 328v 10l 7-3v -10Z" fill="#8d9687"/>
+<path d="M 559 328v 10l 7-3v -10Z" fill="#8d9687"/>
+<path d="M 540 351v 10l 7-3v -10Z" fill="#8d9687"/>
+<path d="M 559 351v 10l 7-3v -10Z" fill="#8d9687"/>
+<path d="M 540 374v 10l 7-3v -10Z" fill="#8d9687"/>
+<path d="M 559 374v 10l 7-3v -10Z" fill="#8d9687"/>
+<path d="M 540 397v 10l 7-3v -10Z" fill="#8d9687"/>
+<path d="M 559 397v 10l 7-3v -10Z" fill="#8d9687"/>
+<path d="M 540 420v 10l 7-3v -10Z" fill="#8d9687"/>
+<path d="M 559 420v 10l 7-3v -10Z" fill="#8d9687"/>
+<path d="M 540 443v 10l 7-3v -10Z" fill="#8d9687"/>
+<path d="M 559 443v 10l 7-3v -10Z" fill="#8d9687"/>
+<path d="M 621 517l 131 42 28-15 -129-45Z" fill="#7f775e" opacity=".23"/>
+<path d="M 621 517v -136l 46 -20v 136Z" fill="#fff3d1"/>
+<path d="M 667 497v -136l 25 17v 136Z" fill="#c7bb96"/>
+<path d="M 621 381l 46 -20 25 17 -46 20Z" fill="#fff9e5"/>
+<path d="M 621 517l -14 11 47 19 38-14" fill="#e2d3ad"/>
+<path d="M 630 427v 10l 7-3v -10Z" fill="#8d9687"/>
+<path d="M 649 427v 10l 7-3v -10Z" fill="#8d9687"/>
+<path d="M 630 450v 10l 7-3v -10Z" fill="#8d9687"/>
+<path d="M 649 450v 10l 7-3v -10Z" fill="#8d9687"/>
+<path d="M 630 473v 10l 7-3v -10Z" fill="#8d9687"/>
+<path d="M 649 473v 10l 7-3v -10Z" fill="#8d9687"/>
+<path d="M 681 549l 123 42 28-15 -121-45Z" fill="#7f775e" opacity=".23"/>
+<path d="M 681 549v -93l 38 -20v 93Z" fill="#fff3d1"/>
+<path d="M 719 529v -93l 25 17v 93Z" fill="#c7bb96"/>
+<path d="M 681 456l 38 -20 25 17 -38 20Z" fill="#fff9e5"/>
+<path d="M 681 549l -14 11 47 19 30-14" fill="#e2d3ad"/>
+<path d="M 690 502v 10l 7-3v -10Z" fill="#8d9687"/>
+<path d="M 709 502v 10l 7-3v -10Z" fill="#8d9687"/>
+<path d="M 302 553l 134 42 28-15 -132-45Z" fill="#7f775e" opacity=".23"/>
+<path d="M 302 553v -74l 49 -20v 74Z" fill="#fff3d1"/>
+<path d="M 351 533v -74l 25 17v 74Z" fill="#c7bb96"/>
+<path d="M 302 479l 49 -20 25 17 -49 20Z" fill="#fff9e5"/>
+<path d="M 302 553l -14 11 47 19 41-14" fill="#e2d3ad"/>
+<path d="M 311 525v 10l 7-3v -10Z" fill="#8d9687"/>
+<path d="M 330 525v 10l 7-3v -10Z" fill="#8d9687"/>
+<path d="M 438 585l 131 42 28-15 -129-45Z" fill="#7f775e" opacity=".23"/>
+<path d="M 438 585v -119l 46 -20v 119Z" fill="#fff3d1"/>
+<path d="M 484 565v -119l 25 17v 119Z" fill="#c7bb96"/>
+<path d="M 438 466l 46 -20 25 17 -46 20Z" fill="#fff9e5"/>
+<path d="M 438 585l -14 11 47 19 38-14" fill="#e2d3ad"/>
+<path d="M 447 512v 10l 7-3v -10Z" fill="#8d9687"/>
+<path d="M 466 512v 10l 7-3v -10Z" fill="#8d9687"/>
+<path d="M 447 535v 10l 7-3v -10Z" fill="#8d9687"/>
+<path d="M 466 535v 10l 7-3v -10Z" fill="#8d9687"/>
+<path d="M 567 582l 127 42 28-15 -125-45Z" fill="#7f775e" opacity=".23"/>
+<path d="M 567 582v -114l 42 -20v 114Z" fill="#fff3d1"/>
+<path d="M 609 562v -114l 25 17v 114Z" fill="#c7bb96"/>
+<path d="M 567 468l 42 -20 25 17 -42 20Z" fill="#fff9e5"/>
+<path d="M 567 582l -14 11 47 19 34-14" fill="#e2d3ad"/>
+<path d="M 576 514v 10l 7-3v -10Z" fill="#8d9687"/>
+<path d="M 595 514v 10l 7-3v -10Z" fill="#8d9687"/>
+<path d="M 576 537v 10l 7-3v -10Z" fill="#8d9687"/>
+<path d="M 595 537v 10l 7-3v -10Z" fill="#8d9687"/>
+<path d="M 525 629l 111 42 28-15 -109-45Z" fill="#7f775e" opacity=".23"/>
+<path d="M 525 629v -56l 26 -20v 56Z" fill="#fff3d1"/>
+<path d="M 551 609v -56l 25 17v 56Z" fill="#c7bb96"/>
+<path d="M 525 573l 26 -20 25 17 -26 20Z" fill="#fff9e5"/>
+<path d="M 525 629l -14 11 47 19 18-14" fill="#e2d3ad"/>
+<path d="M 343 545L 608 440 642 458 376 569Z" fill="#f8edcd"/>
+<path d="M 376 569L 642 458v 17L 376 586Z" fill="#b5ad8a"/>
+<path d="M 405 568v 40l 16 8v -50M 551 507v 40l 14 6v -52" fill="#e0d4b0"/>
+<path d="M 353 539L 612 437M 371 557L 634 448" stroke="#fffbe6" stroke-width="4"/>
+<path d="M 746 216q 32-42 65-4l -18 97-60-7Z" fill="#d1ab79"/>
+<ellipse cx="778" cy="218" rx="36" ry="12" fill="#594a3d"/>
+<path d="M 811 227q 38-4 26 35l -34 9" fill="none" stroke="#bc9264" stroke-width="10"/>
+<path d="M 151 728l 185-78 5 9-184 79-19 3Z" fill="#3e6567"/>
+<path d="M 138 741l 20-3-5-10Z" fill="#ebc692"/>
+<path d="M 84 448q 67-5 43 43q -20 25-43 8q -17-20 10-30M 129 489l 99-60M 129 489l 114-14" fill="none" stroke="#9f815c" stroke-width="5"/>
+</svg>

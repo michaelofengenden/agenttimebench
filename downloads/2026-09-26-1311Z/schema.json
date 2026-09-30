@@ -1,0 +1,702 @@
+{
+  "release_id": "2026-09-26-1311Z",
+  "generated_at": "2026-09-30T13:27:41Z",
+  "description": "Field definitions for every file in this release.",
+  "files": {
+    "agenttime-runs.csv": {
+      "rows": 2106,
+      "format": "CSV, RFC 4180, comma separated, header row",
+      "columns": [
+        {
+          "key": "release_id",
+          "type": "string",
+          "description": "The data release this run belongs to."
+        },
+        {
+          "key": "run_id",
+          "type": "string",
+          "description": "Opaque id for one run: ten lowercase letters and digits."
+        },
+        {
+          "key": "agent",
+          "type": "string",
+          "description": "The agent’s id, for example claude-fable-5-1."
+        },
+        {
+          "key": "agent_name",
+          "type": "string",
+          "description": "The agent’s full name, for example Claude Fable 5.1."
+        },
+        {
+          "key": "harness",
+          "type": "string",
+          "description": "The coding harness the agent ran inside, for example Claude Code."
+        },
+        {
+          "key": "benchmark",
+          "type": "string",
+          "description": "The benchmark’s slug, for example deepswe."
+        },
+        {
+          "key": "benchmark_name",
+          "type": "string",
+          "description": "The benchmark’s name, for example DeepSWE."
+        },
+        {
+          "key": "task",
+          "type": "string",
+          "description": "The task’s slug, unique within its benchmark."
+        },
+        {
+          "key": "task_raw_id",
+          "type": "string",
+          "description": "The benchmark’s own id for the task."
+        },
+        {
+          "key": "task_title",
+          "type": "string",
+          "description": "The task’s title."
+        },
+        {
+          "key": "request",
+          "type": "string",
+          "description": "Which of the task’s three requests this run answers: shortest, middle or longest."
+        },
+        {
+          "key": "requested_seconds",
+          "type": "number",
+          "description": "How many seconds the appended sentence asked the agent to work."
+        },
+        {
+          "key": "worked_seconds",
+          "type": "number or empty",
+          "description": "Recorded elapsed seconds. Normally measured outside the sandbox; a recovered CLI-duration estimate is identified by timing_basis and timing_estimated. Empty when no duration is available."
+        },
+        {
+          "key": "ratio",
+          "type": "number or empty",
+          "description": "worked_seconds divided by requested_seconds, to four decimals. Empty when no duration is available."
+        },
+        {
+          "key": "verdict",
+          "type": "string or empty",
+          "description": "early, on_time or late. On time means the ratio is between 0.8 and 1.25, both included. Empty when no duration is available."
+        },
+        {
+          "key": "ending",
+          "type": "string",
+          "description": "How the run ended: own (the agent stopped by itself), harness (a safety cutoff, an error or a provider limit ended it), or unlabelled (not labelled yet)."
+        },
+        {
+          "key": "ending_detail",
+          "type": "string or empty",
+          "description": "When ending is harness: safety_cutoff, error or provider_limit. Empty otherwise."
+        },
+        {
+          "key": "archived",
+          "type": "boolean",
+          "description": "True when the run has no recorded clock tool call. Only possible on GPQA Diamond and Humanity’s Last Exam. Archived runs are still counted."
+        },
+        {
+          "key": "refusal_left_out",
+          "type": "boolean",
+          "description": "True for the six Claude Fable 5.1 ProgramBench runs that refused within 30 seconds. Left out of the default set."
+        },
+        {
+          "key": "retired_question",
+          "type": "boolean",
+          "description": "True for runs on the Humanity’s Last Exam question replaced on 25 September 2026."
+        },
+        {
+          "key": "clock_tool",
+          "type": "string",
+          "description": "provided, not_recorded or not_applicable. Only GPQA Diamond and Humanity’s Last Exam runs carry a value other than not_applicable."
+        },
+        {
+          "key": "grade_display",
+          "type": "string",
+          "description": "The benchmark’s own score, written out, or \"Not graded\"."
+        },
+        {
+          "key": "grade_value",
+          "type": "number or empty",
+          "description": "The score as one number, when it reduces to one. Empty otherwise."
+        },
+        {
+          "key": "passed",
+          "type": "boolean or empty",
+          "description": "True or false where the benchmark defines a pass rule. Empty where it does not, or where the run is not graded."
+        },
+        {
+          "key": "prompt_version",
+          "type": "string",
+          "description": "The wording version of the appended request sentence."
+        },
+        {
+          "key": "in_default",
+          "type": "boolean",
+          "description": "False only for the six left-out refusals. Timing statistics require recorded timing, including labelled recovered estimates; paper score aggregates retain the paper population."
+        },
+        {
+          "key": "completion_status",
+          "type": "string or empty",
+          "description": "completed for a separately admitted checkpoint result. Empty for historical rows."
+        },
+        {
+          "key": "completion_basis",
+          "type": "string or empty",
+          "description": "retained_checkpoint when a saved, graded checkpoint supplies the completed result."
+        },
+        {
+          "key": "checkpoint_date",
+          "type": "string or empty",
+          "description": "Date the admitted checkpoint was saved, not the date of a later attempt."
+        },
+        {
+          "key": "graded_at",
+          "type": "string or empty",
+          "description": "When the recovery evaluation completed, in UTC."
+        },
+        {
+          "key": "completion_note",
+          "type": "string or empty",
+          "description": "Public recovery provenance, timing limits and grading conditions."
+        },
+        {
+          "key": "grade_receipt_sha256",
+          "type": "string or empty",
+          "description": "SHA-256 of the retained grading receipt supporting this completion."
+        },
+        {
+          "key": "timing_basis",
+          "type": "string or empty",
+          "description": "native_cli_duration for elapsed time from the identified timing attempt’s CLI terminal event. The grade may come from a separate attempt."
+        },
+        {
+          "key": "timing_estimated",
+          "type": "boolean or empty",
+          "description": "True when a recovered CLI duration is included as an estimate because the full-process end receipt is absent."
+        },
+        {
+          "key": "timing_receipt_sha256",
+          "type": "string or empty",
+          "description": "SHA-256 of the separate receipt documenting the recovered timing evidence."
+        },
+        {
+          "key": "grade_attempt",
+          "type": "string or empty",
+          "description": "Public date and revision of the attempt that produced the graded checkpoint."
+        },
+        {
+          "key": "timing_attempt",
+          "type": "string or empty",
+          "description": "Public date and revision of the attempt supplying the elapsed time."
+        },
+        {
+          "key": "timing_same_attempt_as_grade",
+          "type": "boolean or empty",
+          "description": "False when the displayed time and grade come from separate attempts at the same task and time request. They must not be interpreted as a measured time-and-score pair."
+        },
+        {
+          "key": "timing_supersedes_receipt_sha256",
+          "type": "string or empty",
+          "description": "SHA-256 of a previous website timing receipt explicitly corrected by this admission."
+        }
+      ]
+    },
+    "agenttime-runs.json": {
+      "rows": 2106,
+      "format": "JSON object: release_id, generated_at, prompt_versions, count, and runs (an array of run objects)",
+      "fields": [
+        {
+          "key": "run_id",
+          "type": "string",
+          "description": "Opaque id for one run: ten lowercase letters and digits."
+        },
+        {
+          "key": "agent",
+          "type": "string",
+          "description": "The agent’s id, for example claude-fable-5-1."
+        },
+        {
+          "key": "agent_name",
+          "type": "string",
+          "description": "The agent’s full name, for example Claude Fable 5.1."
+        },
+        {
+          "key": "harness",
+          "type": "string",
+          "description": "The coding harness the agent ran inside, for example Claude Code."
+        },
+        {
+          "key": "benchmark",
+          "type": "string",
+          "description": "The benchmark’s slug, for example deepswe."
+        },
+        {
+          "key": "benchmark_name",
+          "type": "string",
+          "description": "The benchmark’s name, for example DeepSWE."
+        },
+        {
+          "key": "task",
+          "type": "string",
+          "description": "The task’s slug, unique within its benchmark."
+        },
+        {
+          "key": "task_raw_id",
+          "type": "string",
+          "description": "The benchmark’s own id for the task."
+        },
+        {
+          "key": "task_title",
+          "type": "string",
+          "description": "The task’s title."
+        },
+        {
+          "key": "request",
+          "type": "string",
+          "description": "Which of the task’s three requests this run answers: shortest, middle or longest."
+        },
+        {
+          "key": "requested_seconds",
+          "type": "number",
+          "description": "How many seconds the appended sentence asked the agent to work."
+        },
+        {
+          "key": "worked_seconds",
+          "type": "number or empty",
+          "description": "Recorded elapsed seconds. Normally measured outside the sandbox; a recovered CLI-duration estimate is identified by timing_basis and timing_estimated. Empty when no duration is available."
+        },
+        {
+          "key": "ratio",
+          "type": "number or empty",
+          "description": "worked_seconds divided by requested_seconds, to four decimals. Empty when no duration is available."
+        },
+        {
+          "key": "verdict",
+          "type": "string or empty",
+          "description": "early, on_time or late. On time means the ratio is between 0.8 and 1.25, both included. Empty when no duration is available."
+        },
+        {
+          "key": "ending",
+          "type": "string",
+          "description": "How the run ended: own (the agent stopped by itself), harness (a safety cutoff, an error or a provider limit ended it), or unlabelled (not labelled yet)."
+        },
+        {
+          "key": "ending_detail",
+          "type": "string or empty",
+          "description": "When ending is harness: safety_cutoff, error or provider_limit. Empty otherwise."
+        },
+        {
+          "key": "archived",
+          "type": "boolean",
+          "description": "True when the run has no recorded clock tool call. Only possible on GPQA Diamond and Humanity’s Last Exam. Archived runs are still counted."
+        },
+        {
+          "key": "refusal_left_out",
+          "type": "boolean",
+          "description": "True for the six Claude Fable 5.1 ProgramBench runs that refused within 30 seconds. Left out of the default set."
+        },
+        {
+          "key": "retired_question",
+          "type": "boolean",
+          "description": "True for runs on the Humanity’s Last Exam question replaced on 25 September 2026."
+        },
+        {
+          "key": "clock_tool",
+          "type": "string",
+          "description": "provided, not_recorded or not_applicable. Only GPQA Diamond and Humanity’s Last Exam runs carry a value other than not_applicable."
+        },
+        {
+          "key": "prompt_version",
+          "type": "string",
+          "description": "The wording version of the appended request sentence."
+        },
+        {
+          "key": "in_default",
+          "type": "boolean",
+          "description": "False only for the six left-out refusals. Timing statistics require recorded timing, including labelled recovered estimates; paper score aggregates retain the paper population."
+        },
+        {
+          "key": "completion",
+          "type": "object or absent",
+          "description": "For a recovered result: status, basis, checkpoint_date, grade_attempt, graded_at, correct, total, receipt_sha256 and note. Optional timing records seconds, basis, estimated, full_process_end_verified, receipt_sha256, attempt, same_attempt_as_grade and optional supersedes_receipt_sha256. A false same_attempt_as_grade identifies separate grade and timing sources. Timing fields are null when this evidence is absent."
+        },
+        {
+          "key": "grade.display",
+          "type": "string",
+          "description": "The benchmark’s own score, written out, or \"Not graded\"."
+        },
+        {
+          "key": "grade.value",
+          "type": "number or null",
+          "description": "The score as one number, when it reduces to one. Null otherwise."
+        },
+        {
+          "key": "grade.passed",
+          "type": "boolean or null",
+          "description": "True or false where the benchmark defines a pass rule. Null otherwise."
+        }
+      ]
+    },
+    "agenttime-tasks.csv": {
+      "rows": 223,
+      "format": "CSV, RFC 4180, comma separated, header row",
+      "columns": [
+        {
+          "key": "release_id",
+          "type": "string",
+          "description": "The data release this row belongs to."
+        },
+        {
+          "key": "benchmark",
+          "type": "string",
+          "description": "The benchmark’s slug."
+        },
+        {
+          "key": "task",
+          "type": "string",
+          "description": "The task’s slug, unique within its benchmark."
+        },
+        {
+          "key": "task_raw_id",
+          "type": "string",
+          "description": "The benchmark’s own id for the task."
+        },
+        {
+          "key": "title",
+          "type": "string",
+          "description": "The task’s title."
+        },
+        {
+          "key": "retired",
+          "type": "boolean",
+          "description": "True for the one Humanity’s Last Exam question replaced on 25 September 2026."
+        },
+        {
+          "key": "shortest_seconds",
+          "type": "number",
+          "description": "The task’s shortest request, in seconds."
+        },
+        {
+          "key": "shortest_words",
+          "type": "string",
+          "description": "The shortest request, in the words the prompt used, for example \"8 minutes\"."
+        },
+        {
+          "key": "middle_seconds",
+          "type": "number",
+          "description": "The task’s middle request, in seconds."
+        },
+        {
+          "key": "middle_words",
+          "type": "string",
+          "description": "The middle request, in words."
+        },
+        {
+          "key": "longest_seconds",
+          "type": "number",
+          "description": "The task’s longest request, in seconds."
+        },
+        {
+          "key": "longest_words",
+          "type": "string",
+          "description": "The longest request, in words."
+        }
+      ]
+    },
+    "agenttime-benchmarks.csv": {
+      "rows": 18,
+      "format": "CSV, RFC 4180, comma separated, header row",
+      "columns": [
+        {
+          "key": "release_id",
+          "type": "string",
+          "description": "The data release this row belongs to."
+        },
+        {
+          "key": "benchmark",
+          "type": "string",
+          "description": "The benchmark’s slug."
+        },
+        {
+          "key": "benchmark_name",
+          "type": "string",
+          "description": "The benchmark’s name."
+        },
+        {
+          "key": "task_count",
+          "type": "number",
+          "description": "How many tasks the benchmark contributes to the roster."
+        },
+        {
+          "key": "requests_min_seconds",
+          "type": "number",
+          "description": "The shortest request asked anywhere on this benchmark, in seconds."
+        },
+        {
+          "key": "requests_max_seconds",
+          "type": "number",
+          "description": "The longest request asked anywhere on this benchmark, in seconds."
+        },
+        {
+          "key": "requests_label",
+          "type": "string",
+          "description": "The requests range in words, for example \"1.5 to 40 min\"."
+        },
+        {
+          "key": "clock_tool",
+          "type": "boolean",
+          "description": "True on GPQA Diamond and Humanity’s Last Exam, the two benchmarks where the agent gets a callable clock."
+        },
+        {
+          "key": "pass_rule",
+          "type": "string or empty",
+          "description": "The rule a run must meet to count as passed. Empty on the seven benchmarks that report only a score."
+        },
+        {
+          "key": "source_citation",
+          "type": "string or empty",
+          "description": "The upstream benchmark’s citation. Empty for PPTArena for now."
+        },
+        {
+          "key": "source_url",
+          "type": "string or empty",
+          "description": "A link to the upstream benchmark. Empty for PPTArena for now."
+        },
+        {
+          "key": "runs_total",
+          "type": "number",
+          "description": "Public runs on this benchmark, every agent included."
+        },
+        {
+          "key": "graded_runs",
+          "type": "number",
+          "description": "Runs on this benchmark with a grade in this data release."
+        },
+        {
+          "key": "timing_error_astra",
+          "type": "number or empty",
+          "description": "GPT 6 Astra’s timing error on this benchmark. Empty where it has no runs here."
+        },
+        {
+          "key": "n_astra",
+          "type": "number or empty",
+          "description": "GPT 6 Astra’s run count on this benchmark. Empty where it has no runs here."
+        },
+        {
+          "key": "timing_n_astra",
+          "type": "number or empty",
+          "description": "GPT 6 Astra’s count of recorded durations used for timing statistics, including labelled recovered estimates."
+        },
+        {
+          "key": "timing_error_sol",
+          "type": "number or empty",
+          "description": "GPT 5.6 Sol’s timing error on this benchmark. Empty where it has no runs here."
+        },
+        {
+          "key": "n_sol",
+          "type": "number or empty",
+          "description": "GPT 5.6 Sol’s run count on this benchmark. Empty where it has no runs here."
+        },
+        {
+          "key": "timing_n_sol",
+          "type": "number or empty",
+          "description": "GPT 5.6 Sol’s count of recorded durations used for timing statistics, including labelled recovered estimates."
+        },
+        {
+          "key": "timing_error_fable",
+          "type": "number or empty",
+          "description": "Claude Fable 5.1’s timing error on this benchmark. Empty where it has no runs here."
+        },
+        {
+          "key": "n_fable",
+          "type": "number or empty",
+          "description": "Claude Fable 5.1’s run count on this benchmark. Empty where it has no runs here."
+        },
+        {
+          "key": "timing_n_fable",
+          "type": "number or empty",
+          "description": "Claude Fable 5.1’s count of recorded durations used for timing statistics, including labelled recovered estimates."
+        },
+        {
+          "key": "timing_error_muse",
+          "type": "number or empty",
+          "description": "Muse Spark 1.3’s timing error on this benchmark. Empty where it has no runs here."
+        },
+        {
+          "key": "n_muse",
+          "type": "number or empty",
+          "description": "Muse Spark 1.3’s run count on this benchmark. Empty where it has no runs here."
+        },
+        {
+          "key": "timing_n_muse",
+          "type": "number or empty",
+          "description": "Muse Spark 1.3’s count of recorded durations used for timing statistics, including labelled recovered estimates."
+        }
+      ]
+    },
+    "agenttime-agents.csv": {
+      "rows": 4,
+      "format": "CSV, RFC 4180, comma separated, header row",
+      "columns": [
+        {
+          "key": "release_id",
+          "type": "string",
+          "description": "The data release this row belongs to."
+        },
+        {
+          "key": "agent",
+          "type": "string",
+          "description": "The agent’s id."
+        },
+        {
+          "key": "agent_name",
+          "type": "string",
+          "description": "The agent’s full name."
+        },
+        {
+          "key": "short",
+          "type": "string",
+          "description": "The agent’s short key, used in query strings, for example fable."
+        },
+        {
+          "key": "harness",
+          "type": "string",
+          "description": "The coding harness the agent ran inside."
+        },
+        {
+          "key": "order",
+          "type": "number",
+          "description": "Fixed display order: 1 Astra, 2 Sol, 3 Fable, 4 Muse."
+        },
+        {
+          "key": "in_paper",
+          "type": "boolean",
+          "description": "True for the three agents the paper reports on."
+        },
+        {
+          "key": "partial",
+          "type": "boolean",
+          "description": "True when the agent has fewer than 18 benchmarks of runs (Muse Spark 1.3 only)."
+        },
+        {
+          "key": "rank",
+          "type": "number or empty",
+          "description": "The agent’s rank by timing error among the paper agents. Empty for a partial agent."
+        },
+        {
+          "key": "timing_error",
+          "type": "number",
+          "description": "The agent’s timing error over its default set of runs, full precision."
+        },
+        {
+          "key": "n",
+          "type": "number",
+          "description": "Runs in the agent’s default set (refusals left out)."
+        },
+        {
+          "key": "timing_n",
+          "type": "number",
+          "description": "Runs used for website timing statistics, including labelled recovered CLI-duration estimates."
+        },
+        {
+          "key": "timing_estimated_n",
+          "type": "number",
+          "description": "Runs included using a recovered CLI-duration estimate."
+        },
+        {
+          "key": "paper_timing_error",
+          "type": "number or empty",
+          "description": "The timing error the paper reports for this agent, to two decimals. Empty for Muse."
+        },
+        {
+          "key": "paper_ci95_low",
+          "type": "number or empty",
+          "description": "The low end of the paper’s 95% interval. Empty for Muse."
+        },
+        {
+          "key": "paper_ci95_high",
+          "type": "number or empty",
+          "description": "The high end of the paper’s 95% interval. Empty for Muse."
+        },
+        {
+          "key": "paper_on_time_pct",
+          "type": "number or empty",
+          "description": "The share of the paper’s runs that were on time, as a whole percentage. Empty for Muse."
+        },
+        {
+          "key": "early",
+          "type": "number",
+          "description": "Runs early (ratio below 0.8), default set."
+        },
+        {
+          "key": "on_time",
+          "type": "number",
+          "description": "Runs on time (ratio 0.8 to 1.25 inclusive), default set."
+        },
+        {
+          "key": "late",
+          "type": "number",
+          "description": "Runs late (ratio above 1.25), default set."
+        },
+        {
+          "key": "early_frac",
+          "type": "number",
+          "description": "early divided by n, four decimals."
+        },
+        {
+          "key": "on_time_frac",
+          "type": "number",
+          "description": "on_time divided by n, four decimals."
+        },
+        {
+          "key": "late_frac",
+          "type": "number",
+          "description": "late divided by n, four decimals."
+        },
+        {
+          "key": "ended_own",
+          "type": "number",
+          "description": "Runs that ended on their own."
+        },
+        {
+          "key": "stopped_by_harness",
+          "type": "number",
+          "description": "Runs stopped by AgentTime."
+        },
+        {
+          "key": "ending_unlabelled",
+          "type": "number",
+          "description": "Runs whose ending is not labelled yet."
+        },
+        {
+          "key": "archived",
+          "type": "number",
+          "description": "Archived runs (no recorded clock tool call)."
+        },
+        {
+          "key": "refusals_left_out",
+          "type": "number",
+          "description": "Runs left out as refusals (ProgramBench, Fable only)."
+        },
+        {
+          "key": "coverage_benchmarks",
+          "type": "number",
+          "description": "How many of the 18 benchmarks the agent has runs on."
+        },
+        {
+          "key": "coverage_runs",
+          "type": "number",
+          "description": "Public runs for this agent, every request included."
+        },
+        {
+          "key": "coverage_possible_runs",
+          "type": "number",
+          "description": "How many runs the agent would have if every task and request were filled."
+        }
+      ]
+    }
+  }
+}

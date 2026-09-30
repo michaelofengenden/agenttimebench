@@ -1,0 +1,139 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+<title id="title">The shared shade bridge</title>
+<desc id="desc">A shallow barrel canopy spans both waiting and walking: seats sit in a rear pocket.. Bus stop concept with perspective and accessible site plan.</desc>
+<defs>
+<marker id="arr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+<path d="M 1,1 L 9,5 L 1,9" fill="none" stroke="#5d9993" stroke-width="1.6"/>
+</marker>
+<pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse">
+<path d="M 0,8 L 8,0" stroke="#8ab6aa" stroke-width="1"/>
+</pattern>
+</defs>
+<rect x="0" y="0" width="1200" height="900" fill="#fbf8ef" stroke="none" stroke-width="2" />
+<text x="42" y="52" font-family="Arial, sans-serif" font-size="35" fill="#5d9993" font-weight="bold">07</text>
+<text x="109" y="50" font-family="Arial, sans-serif" font-size="30" fill="#273d40" font-weight="bold">The shared shade bridge</text>
+<text x="110" y="78" font-family="Arial, sans-serif" font-size="15" fill="#657773" >A shallow barrel canopy spans both waiting and walking: seats sit in a rear pocket.</text>
+<path d="M 40,100 L 1160,100" fill="none" stroke="#b9c4ba" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" />
+<text x="42" y="127" font-family="Arial, sans-serif" font-size="11" fill="#657773" letter-spacing="2">FORM + AFTERNOON SHADE</text>
+<text x="866" y="127" font-family="Arial, sans-serif" font-size="11" fill="#657773" letter-spacing="2">PASSIVE DETAIL</text>
+<path d="M 843,147 L 843,492" fill="none" stroke="#d6dbd0" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" />
+<polygon points="105.6,505.1 671.1,475.9 707.5,445.8 142.0,475.0" fill="#deded6" stroke="none" stroke-width="2" stroke-linejoin="round" />
+<polygon points="142.0,475.0 707.5,445.8 884.3,299.6 318.8,328.8" fill="#edece2" stroke="#bbc2b6" stroke-width="1" stroke-linejoin="round" />
+<polygon points="248.6,386.9 814.1,357.6 879.1,303.9 313.6,333.1" fill="#e0e9de" stroke="none" stroke-width="2" stroke-linejoin="round" />
+<path d="M 142.0,474.13 L 707.5,444.88" fill="none" stroke="#273d40" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M 248.60000000000002,385.98 L 814.1,356.73" fill="none" stroke="#9eb5a6" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="6 5"/>
+<path d="M 314.6,359.25 L 801.8,334.05" fill="none" stroke="#5d9993" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arr)"/>
+<text x="44" y="512" font-family="Arial, sans-serif" font-size="12" fill="#657773" letter-spacing="1">BUS / KERB EDGE</text>
+<circle cx="88" cy="180" r="20" fill="#f9d986" stroke="#d7a23a" stroke-width="2" />
+<path d="M 115.0,180.0 L 122.0,180.0" fill="none" stroke="#d7a23a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M 107.09188309203678,199.09188309203677 L 112.04163056034261,204.0416305603426" fill="none" stroke="#d7a23a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M 88.0,207.0 L 88.0,214.0" fill="none" stroke="#d7a23a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M 68.90811690796322,199.0918830920368 L 63.95836943965739,204.0416305603426" fill="none" stroke="#d7a23a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M 61.0,180.0 L 54.0,180.0" fill="none" stroke="#d7a23a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M 68.9081169079632,160.90811690796323 L 63.958369439657375,155.9583694396574" fill="none" stroke="#d7a23a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M 88.0,153.0 L 88.0,146.0" fill="none" stroke="#d7a23a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M 107.09188309203678,160.9081169079632 L 112.04163056034261,155.9583694396574" fill="none" stroke="#d7a23a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+<text x="43" y="143" font-family="Arial, sans-serif" font-size="11" fill="#a87826" >WEST SUN</text>
+<path d="M 114,202 L 213,262" fill="none" stroke="#d7a23a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arr)"/>
+<polygon points="142.0,474.1 707.5,444.9 884.3,298.7 318.8,327.9" fill="#edece2" stroke="#bbc2b6" stroke-width="1" stroke-linejoin="round" />
+<polygon points="209.6,417.4 775.1,388.1 840.1,334.4 274.6,363.6" fill="#e0e9de" stroke="none" stroke-width="2" stroke-linejoin="round" />
+<path d="M 252.1,388.09000000000003 L 791.5,360.18999999999994" fill="none" stroke="#5d9993" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arr)"/>
+<polygon points="241.2,463.0 630.0,442.8 792.6,307.1 405.5,327.1" fill="#c6ded5" stroke="none" stroke-width="2" stroke-linejoin="round" />
+<path d="M 420.01,346.945 L 420.01,307.795" fill="none" stroke="#273d40" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M 436.65,333.18499999999995 L 436.65,294.03499999999997" fill="none" stroke="#273d40" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M 543.55,340.555 L 543.55,301.40500000000003" fill="none" stroke="#273d40" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M 560.1899999999999,326.79499999999996 L 560.1899999999999,287.645" fill="none" stroke="#273d40" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+<polygon points="407.8,308.4 555.7,300.8 575.5,284.4 427.6,292.1" fill="#d6b17b" stroke="#273d40" stroke-width="2" stroke-linejoin="round" />
+<path d="M 414.07,302.395 L 561.97,294.745" fill="none" stroke="#9d784e" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M 420.83000000000004,296.805 L 568.73,289.15500000000003" fill="none" stroke="#9d784e" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" />
+<polygon points="427.1,285.6 575.0,277.9 575.0,244.8 427.1,252.5" fill="#e4c593" stroke="#273d40" stroke-width="2" stroke-linejoin="round" />
+<path d="M 427.07,269.025 L 574.97,261.375" fill="none" stroke="#9d784e" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M 411.31000000000006,307.375 L 411.31000000000006,290.84499999999997" fill="none" stroke="#273d40" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M 411.31000000000006,290.84499999999997 L 426.39,278.37499999999994" fill="none" stroke="#273d40" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M 552.25,300.08500000000004 L 552.25,283.555" fill="none" stroke="#273d40" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M 552.25,283.555 L 567.33,271.085" fill="none" stroke="#273d40" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+<circle cx="620.8000000000001" cy="315.34999999999997" r="19" fill="#fbf8ef" stroke="#273d40" stroke-width="2.5" />
+<circle cx="626.8000000000001" cy="250.34999999999997" r="7" fill="#fbf8ef" stroke="#273d40" stroke-width="2" />
+<path d="M 624.8000000000001,261.34999999999997 l 3,35 24,0 10,32 h 9 M 627.8000000000001,279.34999999999997 l 24,5 M 607.8000000000001,281.34999999999997 l 2,29 29,0" fill="none" stroke="#273d40" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+<circle cx="660.8000000000001" cy="330.34999999999997" r="5" fill="#fbf8ef" stroke="#273d40" stroke-width="2" />
+<circle cx="468.88" cy="255.57999999999998" r="8" fill="#fbf8ef" stroke="#273d40" stroke-width="2" />
+<path d="M 468.88,265.58 l -1,32 24,5 6,36 m -7,-37 -26,2 -5,31" fill="none" stroke="#273d40" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+<polygon points="232.1,461.9 239.0,461.5 239.0,248.4 232.1,248.7" fill="#dad5c6" stroke="#273d40" stroke-width="2" stroke-linejoin="round" />
+<path d="M 237.65,459.975 L 237.65,246.82500000000002" fill="none" stroke="#273d40" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+<circle cx="237.65" cy="459.975" r="5" fill="#fbf8ef" stroke="#273d40" stroke-width="1.5" />
+<polygon points="393.3,328.6 400.2,328.2 400.2,115.1 393.3,115.4" fill="#dad5c6" stroke="#273d40" stroke-width="2" stroke-linejoin="round" />
+<path d="M 398.85,326.675 L 398.85,113.525" fill="none" stroke="#273d40" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+<circle cx="398.85" cy="326.675" r="5" fill="#fbf8ef" stroke="#273d40" stroke-width="1.5" />
+<polygon points="736.9,310.8 743.9,310.4 743.9,97.3 736.9,97.7" fill="#dad5c6" stroke="#273d40" stroke-width="2" stroke-linejoin="round" />
+<path d="M 742.5,308.9 L 742.5,95.74999999999997" fill="none" stroke="#273d40" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+<circle cx="742.5" cy="308.9" r="5" fill="#fbf8ef" stroke="#273d40" stroke-width="1.5" />
+<polygon points="235.1,249.0 578.7,231.2 606.0,185.1 262.4,202.9" fill="#d7c9a8" stroke="#273d40" stroke-width="2" stroke-linejoin="round" />
+<polygon points="262.4,202.9 606.0,185.1 633.3,145.4 289.6,163.1" fill="#e8dec2" stroke="#273d40" stroke-width="2" stroke-linejoin="round" />
+<polygon points="289.6,163.1 633.3,145.4 660.6,116.5 316.9,134.3" fill="#d7c9a8" stroke="#273d40" stroke-width="2" stroke-linejoin="round" />
+<polygon points="316.9,134.3 660.6,116.5 687.9,100.2 344.2,118.0" fill="#e8dec2" stroke="#273d40" stroke-width="2" stroke-linejoin="round" />
+<polygon points="344.2,118.0 687.9,100.2 715.2,94.8 371.6,112.6" fill="#d7c9a8" stroke="#273d40" stroke-width="2" stroke-linejoin="round" />
+<polygon points="371.6,112.6 715.2,94.8 742.5,95.7 398.9,113.5" fill="#e8dec2" stroke="#273d40" stroke-width="2" stroke-linejoin="round" />
+<circle cx="336.09999999999997" cy="341.03" r="8" fill="#fbf8ef" stroke="#273d40" stroke-width="2" />
+<path d="M 336.09999999999997,351.03 l 0,51 m 0,-38 -16,28 m 16,-28 15,28 m -15,10 -12,35 m 12,-35 13,35" fill="none" stroke="#273d40" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+<circle cx="403.09" cy="337.565" r="8" fill="#fbf8ef" stroke="#273d40" stroke-width="2" />
+<path d="M 403.09,347.565 l 0,51 m 0,-38 -16,28 m 16,-28 15,28 m -15,10 -12,35 m 12,-35 13,35" fill="none" stroke="#273d40" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M 620.8000000000001,261.4 L 685.66,389.86" fill="none" stroke="#5d9993" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="6 5" marker-end="url(#arr)"/>
+<text x="582" y="468" font-family="Arial, sans-serif" font-size="12" fill="#5d9993" >view to arriving bus →</text>
+<path d="M 536.9100000000001,436.98499999999996 L 659.11,335.93499999999995" fill="none" stroke="#5d9993" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="6 5" marker-end="url(#arr)"/>
+<text x="334" y="149" font-family="Arial, sans-serif" font-size="14" fill="#273d40" >light curved roof / open sides</text>
+<path d="M 339,156 L 339,166 L 492,199" fill="none" stroke="#657773" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" />
+<circle cx="492" cy="199" r="2.5" fill="#5d9993" stroke="none" stroke-width="2" />
+<path d="M 869,390 L 1150,390" fill="none" stroke="#657773" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M 891,279 Q 1018,190 1142,279" fill="none" stroke="#273d40" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M 897,279 L 897,390" fill="none" stroke="#273d40" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M 1138,279 L 1138,390" fill="none" stroke="#273d40" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+<rect x="1079" y="347" width="45" height="8" fill="#d6b17b" stroke="#273d40" stroke-width="2" />
+<path d="M 1116,354 L 1116,390" fill="none" stroke="#273d40" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M 1125,347 L 1125,318" fill="none" stroke="#273d40" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M 955,368 L 1048,368" fill="none" stroke="#5d9993" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arr)"/>
+<text x="944" y="339" font-family="Arial, sans-serif" font-size="13" fill="#5d9993" >1.8 m clear</text>
+<text x="874" y="424" font-family="Arial, sans-serif" font-size="13" fill="#273d40" >Walking stays open below the roof.</text>
+<text x="874" y="447" font-family="Arial, sans-serif" font-size="12" fill="#657773" >No seats or posts in the through-route.</text>
+<text x="42" y="556" font-family="Arial, sans-serif" font-size="11" fill="#657773" letter-spacing="2">PLAN / SHARED PAVEMENT</text>
+<text x="838" y="556" font-family="Arial, sans-serif" font-size="10" fill="#657773" >DIAGRAMMATIC · VERIFY ON SITE</text>
+<rect x="70" y="584" width="1060" height="218" fill="#efede2" stroke="#b9c4ba" stroke-width="1" />
+<rect x="70" y="802" width="1060" height="37" fill="#deded6" stroke="none" stroke-width="2" />
+<path d="M 70,802 L 1130,802" fill="none" stroke="#273d40" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+<rect x="70" y="641.35" width="1060" height="78.75" fill="#e0e9de" stroke="none" stroke-width="2" />
+<path d="M 70,720.1 L 1130,720.1" fill="none" stroke="#5d9993" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="6 5"/>
+<path d="M 98,680.725 L 1087,680.725" fill="none" stroke="#5d9993" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arr)"/>
+<text x="359" y="671.725" font-family="Arial, sans-serif" font-size="14" fill="#5d9993" >KEEP CLEAR · continuous 1.8 m walking route</text>
+<text x="77" y="828" font-family="Arial, sans-serif" font-size="11" fill="#657773" >ROAD</text>
+<path d="M 1060,821 L 958,821" fill="none" stroke="#5d9993" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arr)"/>
+<text x="737" y="828" font-family="Arial, sans-serif" font-size="11" fill="#657773" >BUS APPROACH</text>
+<rect x="1050" y="806" width="66" height="24" fill="#fbf8ef" stroke="#273d40" stroke-width="1.5" rx="4"/>
+<rect x="1060" y="810" width="39" height="8" fill="#b5d5d0" stroke="#273d40" stroke-width="1" />
+<circle cx="1063" cy="832" r="3" fill="#273d40" stroke="none" stroke-width="2" />
+<circle cx="1103" cy="832" r="3" fill="#273d40" stroke="none" stroke-width="2" />
+<text x="74" y="575" font-family="Arial, sans-serif" font-size="10" fill="#657773" >BACK OF PAVEMENT</text>
+<text x="85" y="791" font-family="Arial, sans-serif" font-size="10" fill="#657773" >KERB</text>
+<rect x="237.25" y="590.95" width="612.25" height="198.45" fill="none" stroke="#5d9993" stroke-width="1.5" stroke-dasharray="7 4"/>
+<rect x="302.35" y="602.29" width="263.5" height="22.05" fill="#d6b17b" stroke="#273d40" stroke-width="1.5" />
+<path d="M 302.35,604.81 L 565.85,604.81" fill="none" stroke="#273d40" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M 310.1,624.34 L 310.1,602.29" fill="none" stroke="#273d40" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M 558.1,624.34 L 558.1,602.29" fill="none" stroke="#273d40" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+<circle cx="679.0" cy="624.3" r="12" fill="none" stroke="#5d9993" stroke-width="2.2" />
+<circle cx="680.0" cy="606.3" r="4" fill="#5d9993" stroke="none" stroke-width="2" />
+<path d="M 679.0,612.3 v 14 h 13 l 5,12 m -18,-14 h 12" fill="none" stroke="#5d9993" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+<circle cx="237.25" cy="786.25" r="4" fill="#273d40" stroke="none" stroke-width="2" />
+<circle cx="237.25" cy="590.95" r="4" fill="#273d40" stroke="none" stroke-width="2" />
+<circle cx="849.5" cy="590.95" r="4" fill="#273d40" stroke="none" stroke-width="2" />
+<circle cx="322.5" cy="768.61" r="6" fill="#fbf8ef" stroke="#273d40" stroke-width="1.3" />
+<path d="M 317.5,778.61 L 327.5,778.61" fill="none" stroke="#273d40" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" />
+<circle cx="434.1" cy="768.61" r="6" fill="#fbf8ef" stroke="#273d40" stroke-width="1.3" />
+<path d="M 429.1,778.61 L 439.1,778.61" fill="none" stroke="#273d40" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" />
+<circle cx="547.25" cy="768.61" r="6" fill="#fbf8ef" stroke="#273d40" stroke-width="1.3" />
+<path d="M 542.25,778.61 L 552.25,778.61" fill="none" stroke="#273d40" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M 679.0,626.86 L 1066.5,814.6" fill="none" stroke="#5d9993" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="6 5" marker-end="url(#arr)"/>
+<path d="M 778.2,628.75 L 778.2,794.44" fill="none" stroke="#5d9993" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="6 5" marker-end="url(#arr)"/>
+<text x="803.0" y="745.3" font-family="Arial, sans-serif" font-size="12" fill="#273d40" >boarding crossing</text>
+<text x="240.35" y="635.6800000000001" font-family="Arial, sans-serif" font-size="12" fill="#273d40" >rear seat recess</text>
+<path d="M 40,853 L 1160,853" fill="none" stroke="#b9c4ba" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" />
+<text x="43" y="879" font-family="Arial, sans-serif" font-size="12" fill="#5d9993" font-weight="bold" letter-spacing="1">TRADEOFF</text>
+<text x="143" y="879" font-family="Arial, sans-serif" font-size="15" fill="#273d40" >Shade benefits everyone, but seated passengers must cross pedestrian flow to board; the wider roof costs more.</text>
+</svg>

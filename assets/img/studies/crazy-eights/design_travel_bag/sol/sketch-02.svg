@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 640">
+<rect width="900" height="640" fill="#f7f7f4"/>
+<g font-family="Arial,sans-serif" fill="#182229">
+<text x="42" y="48" font-size="25" font-weight="700">02 — QUEUE-READY BOOK</text>
+<text x="42" y="74" font-size="14" fill="#59656b">frequent things live on the cover; private things open like a folio</text>
+</g>
+<g stroke="#182229" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+<path d="M 45 193 Q 52 126 124 126 H 281 Q 348 126 360 193 L 386 521 H 31Z" fill="#e7e2d8"/>
+<path d="M 118 126 Q 126 74 202 74 Q 279 74 288 126" fill="none" stroke-width="11"/>
+<path d="M 91 178 Q 91 157 112 157 H 314 V 445 Q 314 470 289 470 H 91Z" fill="#f3cd68"/>
+<path d="M 91 157 H 314 V 205 H 91" fill="#e87762"/>
+<path d="M 116 175 H 227 V 264 Q 170 284 116 264Z" fill="#fff"/>
+<rect x="131" y="185" width="82" height="59" rx="6" fill="#badbd6"/>
+<path d="M 149 206 h 31 M 149 220 h 46" fill="none" stroke-width="3"/>
+<path d="M 163 263 Q 170 243 178 263" fill="#f3cd68"/>
+<path d="M 240 171 H 295 V 270 Q 268 287 240 270Z" fill="#fff"/>
+<circle cx="267" cy="210" r="13" fill="none"/>
+<path d="M 278 220 l 14 14 l -7 7 l 8 8" fill="none"/>
+<path d="M 104 310 h 83 M 104 327 h 83 M 104 344 h 83" fill="none" stroke-width="8"/>
+<circle cx="267" cy="333" r="7" fill="#182229"/>
+<circle cx="288" cy="333" r="7" fill="#182229"/>
+<path d="M 322 220 q 36 20 0 41" fill="none" stroke="#e87762"/>
+<path d="M 333 212 l -11 8 l 12 9" fill="none" stroke="#e87762"/>
+<path d="M 499 169 Q 482 169 482 188 V 487 Q 482 506 501 506 H 642 V 169Z" fill="#f4ce68"/>
+<path d="M 642 169 H 799 Q 818 169 818 188 V 487 Q 818 506 799 506 H 642Z" fill="#c2d9d6"/>
+<path d="M 642 169 V 506" fill="none" stroke-width="9"/>
+<path d="M 510 212 H 617 V 442 H 510Z" fill="#fff"/>
+<rect x="526" y="232" width="76" height="145" rx="3" fill="#ebe4d7"/>
+<path d="M 540 259 h 45 M 540 281 h 45 M 540 303 h 45" fill="none" stroke-width="2"/>
+<path d="M 527 232 v 145" fill="none"/>
+<path d="M 620 210 H 662 V 458 H 620Z" fill="#f8f4e9"/>
+<path d="M 642 241 V 411" fill="none" stroke="#315e92" stroke-width="12"/>
+<path d="M 636 241 h 12 l -6-20Z" fill="#315e92"/>
+<path d="M 680 213 H 791 V 359 Q 738 384 680 359Z" fill="#fff"/>
+<path d="M 705 273 C 706 237 764 238 763 273 C 761 306 704 307 705 273Z" fill="none" stroke="#79583e"/>
+<path d="M 735 306 v 28" fill="none" stroke="#79583e"/>
+<rect x="728" y="330" width="15" height="21" fill="#fff"/>
+<path d="M 799 391 q 52 11 49 55 q -4 39-49 42Z" fill="#e87762"/>
+<path d="M 812 427 h 21 M 812 443 h 21" fill="none"/>
+<path d="M 425 324 C 435 224 452 190 475 177" fill="none" stroke="#e87762" stroke-dasharray="9 8"/>
+<path d="M 453 180 l 22-3 l -8 21" fill="none" stroke="#e87762"/>
+</g>
+<g font-family="Arial,sans-serif" fill="#182229">
+<text x="62" y="551" font-size="14" font-weight="700">REACH WITHOUT OPENING BAG</text>
+<text x="62" y="575" font-size="13">card + tethered keys face the aisle</text>
+<text x="505" y="550" font-size="14" font-weight="700">OPEN ONLY FOR CABLE + NOTES</text>
+<text x="505" y="575" font-size="13">raised stripes / dots identify the two cover pockets</text>
+</g>
+</svg>

@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 640">
+<defs>
+<marker id="a" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+<path d="M 1 1l 8 4-8 4z" fill="#293241"/>
+</marker>
+</defs>
+<rect width="960" height="640" fill="#fff9f2"/>
+<g fill="none" stroke="#293241" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+<path d="M 135 191q 0-62 62-62h 203q 62 0 62 62v 278q 0 62-62 62H 197q -62 0-62-62z" fill="#f3eadf"/>
+<path d="M 135 305h 327M 135 404h 327"/>
+<path d="M 156 326h 285v 57H 156z" fill="#ffb45b"/>
+<path d="M 163 189q 0-36 40-36h 192q 40 0 40 36v 91H 163z" fill="#d8e8bd"/>
+<path d="M 185 242q 22-35 44 0m 25 9q 23-36 46 0m 29-16q 21-31 43 0m 20 22q 18-27 36 0" stroke="#6d8e59" stroke-width="3"/>
+<path d="M 188 347q 29 22 58 0t 58 0 58 0 58 0" stroke="#c7643d" stroke-width="3"/>
+<circle cx="299" cy="305" r="43" fill="#fff9f2"/>
+<circle cx="299" cy="305" r="24" fill="#f57d63"/>
+<path d="M 299 281v 48M 275 305h 48"/>
+<path d="M 435 325h 49q 31 0 31 31t -31 31h -49z" fill="#ffd461"/>
+<path d="M 486 344v 24m -12-12h 24"/>
+<path d="M 177 142q 0-73 55-73h 136q 55 0 55 73" stroke="#6b61a8" stroke-width="18"/>
+<path d="M 194 122h 210" stroke="#fff9f2" stroke-width="4" stroke-dasharray="13 12"/>
+<path d="M 586 161q 0-32 32-32h 188q 32 0 32 32v 118H 586z" fill="#d8e8bd"/>
+<path d="M 586 329h 252v 77H 586z" fill="#ffb45b"/>
+<path d="M 617 293h 190l -21 24H 639z" fill="#f57d63"/>
+<circle cx="712" cy="305" r="17" fill="#fff9f2"/>
+<path d="M 712 271v -39" marker-end="url(#a)"/>
+<path d="M 712 340v 47" marker-end="url(#a)"/>
+<path d="M 542 474h 341v 120H 542z" stroke-dasharray="8 8" stroke-width="2.5"/>
+<path d="M 585 548c -9-32 0-54 20-61 18-6 26 10 22 29l -6 31" fill="#f2c7a9"/>
+<path d="M 622 515h 38v 42h -38" fill="#ffd461"/>
+<path d="M 678 532h 47" marker-end="url(#a)"/>
+<path d="M 746 506h 76v 55h -76z" fill="#d8e8bd"/>
+<path d="M 746 539h 76v 22h -76" fill="#ffb45b"/>
+<path d="M 782 493q 45 25 7 69" marker-end="url(#a)"/>
+<path d="M 135 563v 25m 327-25v 25M 145 579h 307" marker-start="url(#a)" marker-end="url(#a)" stroke-width="2"/>
+</g>
+<g font-family="Arial,sans-serif" fill="#293241">
+<text x="60" y="48" font-size="30" font-weight="700">03 / PRESS-TO-DRESS TOWER</text>
+<text x="61" y="78" font-size="16" letter-spacing="2">WET BAND BETWEEN TWO DRY-BOWL HALVES</text>
+<text x="211" y="216" font-size="14">DRY</text>
+<text x="207" y="365" font-size="14">WET</text>
+<text x="204" y="463" font-size="14">EMPTY MIX SPACE</text>
+<text x="476" y="310" font-size="14" font-weight="700">PRESS</text>
+<text x="476" y="331" font-size="13">opens cross-gate</text>
+<text x="594" y="111" font-size="14" font-weight="700">EXPLODED WASH VIEW</text>
+<text x="594" y="432" font-size="13">three broad pieces; gasket peels out</text>
+<text x="553" y="615" font-size="14">1 PRESS VALVE</text>
+<text x="683" y="615" font-size="14">2 SHAKE TOWER</text>
+<text x="298" y="607" text-anchor="middle" font-size="14">74 mm shelf width</text>
+<text x="65" y="555" font-size="13">stitched carry loop comes in bold patterns</text>
+</g>
+</svg>

@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 640">
+<rect width="900" height="640" fill="#fbf8f0"/>
+<g font-family="Arial,sans-serif" fill="#20242a">
+<text x="40" y="47" font-size="25" font-weight="700">03 — PULL-UP TOOL ROLL</text>
+<text x="40" y="74" font-size="14" fill="#5d646b">bag anchor stays put; one loop lifts a tiered rack into the hand</text>
+</g>
+<g stroke="#20242a" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+<path d="M 58 218 Q 64 153 128 151 H 324 Q 384 153 392 218 L 412 525 H 41Z" fill="#deddd8"/>
+<path d="M 132 151 Q 139 96 226 96 Q 310 96 320 151" fill="none" stroke-width="12"/>
+<path d="M 94 245 H 356 V 489 H 94Z" fill="#d0e2dd"/>
+<path d="M 119 270 H 332 V 476 H 119Z" fill="#fff9ec"/>
+<path d="M 119 322 H 332 M 119 374 H 332 M 119 426 H 332" fill="none"/>
+<path d="M 182 270 V 220 Q 182 195 207 195 H 246 Q 271 195 271 220 V 270" fill="none" stroke="#e56f58" stroke-width="11"/>
+<path d="M 226 185 V 103" fill="none" stroke="#e56f58" stroke-dasharray="10 9"/>
+<path d="M 214 126 l 12-23 l 12 23" fill="none" stroke="#e56f58"/>
+<path d="M 510 149 Q 510 125 534 125 H 795 Q 819 125 819 149 V 488 Q 819 511 795 511 H 534 Q 510 511 510 488Z" fill="#ece4d4"/>
+<path d="M 532 183 H 797 V 493 H 532Z" fill="#f0c96b"/>
+<path d="M 532 240 H 797 V 493 H 532Z" fill="#b7dcd3"/>
+<path d="M 532 309 H 797 V 493 H 532Z" fill="#b9cbea"/>
+<path d="M 532 389 H 797 V 493 H 532Z" fill="#e8aaa2"/>
+<rect x="556" y="143" width="100" height="159" rx="5" fill="#fff"/>
+<path d="M 570 171 h 69 M 570 194 h 69 M 570 217 h 48 M 571 143 v 159" fill="none" stroke-width="2"/>
+<path d="M 690 155 v 139" stroke="#2f6394" stroke-width="11"/>
+<path d="M 684 155 h 12 l -6-20Z" fill="#2f6394"/>
+<path d="M 564 279 C 573 248 626 251 627 282 C 628 313 574 315 564 279Z" fill="#fff"/>
+<path d="M 593 313 v 32" fill="none" stroke="#78553a"/>
+<rect x="585" y="341" width="16" height="24" fill="#fff"/>
+<circle cx="694" cy="281" r="17" fill="#fff"/>
+<path d="M 708 292 l 28 28 l -7 7 l 9 9" fill="none"/>
+<rect x="558" y="363" width="111" height="76" rx="7" fill="#fff"/>
+<path d="M 575 385 h 76" fill="none" stroke="#e56f58" stroke-width="8"/>
+<path d="M 583 411 q 25-20 50 0" fill="none" stroke="#e56f58" stroke-width="3"/>
+<path d="M 748 198 h 29" stroke-width="10"/>
+<circle cx="753" cy="264" r="6" fill="#20242a"/>
+<circle cx="775" cy="264" r="6" fill="#20242a"/>
+<path d="M 747 335 l 15-14 l 15 14 l -15 14Z" fill="#20242a"/>
+<path d="M 744 414 q 17-22 34 0 q -17 22-34 0Z" fill="#20242a"/>
+<path d="M 516 529 Q 662 572 811 529" fill="none" stroke="#e56f58" stroke-dasharray="8 7"/>
+<path d="M 525 516 l -9 13 l 16 5 M 802 516 l 9 13 l -16 5" fill="none" stroke="#e56f58"/>
+<path d="M 500 467 h -39 q -24 0-24-24 v -93" fill="none" stroke-width="11"/>
+<path d="M 431 349 h 13 l -7-19Z" fill="#20242a"/>
+</g>
+<g font-family="Arial,sans-serif" fill="#20242a">
+<text x="65" y="562" font-size="14" font-weight="700">PULL LOOP: EVERYTHING RISES ABOVE BAG LIP</text>
+<text x="510" y="583" font-size="13">Soft gussets collapse flat as pockets empty • anchor strap never detaches</text>
+</g>
+</svg>

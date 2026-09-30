@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="850" viewBox="0 0 1200 850">
+<defs>
+<style>text{font-family:Arial,Helvetica,sans-serif;fill:#263b47}.ink{fill:none;stroke:#263b47;stroke-width:3;stroke-linecap:round;stroke-linejoin:round}.thin{fill:none;stroke:#263b47;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round}.seam{fill:none;stroke:#697d83;stroke-width:1.5;stroke-dasharray:5 6}.blue{fill:#d5e5ed;stroke:#263b47;stroke-width:3;stroke-linejoin:round}.mint{fill:#d6e5d7;stroke:#263b47;stroke-width:3;stroke-linejoin:round}.sand{fill:#eddbb2;stroke:#263b47;stroke-width:3;stroke-linejoin:round}.coral{fill:#edc3ad;stroke:#263b47;stroke-width:3;stroke-linejoin:round}.paper{fill:#fffdf6;stroke:#263b47;stroke-width:3;stroke-linejoin:round}.arrow{fill:none;stroke:#ba684b;stroke-width:2.5;stroke-linecap:round;stroke-linejoin:round;marker-end:url(#a)}.label{font-size:18px;letter-spacing:.2px}.small{font-size:14px;letter-spacing:.4px}.num{font-size:13px;font-weight:bold;letter-spacing:2px}.note{font-size:16px;fill:#65767b}</style>
+<marker id="a" markerWidth="9" markerHeight="9" refX="7" refY="4" orient="auto">
+<path d="M 0 0L 8 4L 0 8" fill="none" stroke="#ba684b" stroke-width="1.7"/>
+</marker>
+<pattern id="mesh" width="13" height="13" patternUnits="userSpaceOnUse">
+<path d="M 0 0L 13 13M 13 0L 0 13" stroke="#829994" stroke-width=".6"/>
+</pattern>
+<symbol id="notebook" viewBox="0 0 150 200">
+<rect x="8" y="6" width="135" height="187" rx="7" fill="#f7f2e4" stroke="#263b47" stroke-width="3"/>
+<path d="M 22 7V 192M 31 26H 120M 31 32H 89M 129 10V 187" class="thin"/>
+<path d="M 13 26h 16m -16 22h 16m -16 22h 16m -16 22h 16m -16 22h 16m -16 22h 16m -16 22h 16m -16 22h 16" class="thin"/>
+<path d="M 103 7v 186" stroke="#ce9678" stroke-width="7"/>
+<path d="M 35 51h 48" class="thin"/>
+</symbol>
+<symbol id="card" viewBox="0 0 120 76">
+<rect x="3" y="3" width="114" height="70" rx="9" fill="#f5bd82" stroke="#263b47" stroke-width="3"/>
+<path d="M 5 23h 110" stroke="#263b47" stroke-width="10"/>
+<circle cx="21" cy="51" r="7" fill="none" stroke="#263b47" stroke-width="2"/>
+<path d="M 41 46h 50M 41 56h 32" class="thin"/>
+</symbol>
+<symbol id="keys" viewBox="0 0 100 140">
+<circle cx="49" cy="27" r="23" fill="none" stroke="#263b47" stroke-width="4"/>
+<path d="M 34 44l -15 58 8 4-3 13 12 4 6-10-5-5 13-57" fill="#e8c76b" stroke="#263b47" stroke-width="3"/>
+<path d="M 54 45l 16 67 10-2-1-12-8 1-2-11 8-3-11-44Z" fill="#d6d9d1" stroke="#263b47" stroke-width="3"/>
+<circle cx="61" cy="46" r="5" fill="#fffdf6"/>
+</symbol>
+<symbol id="cable" viewBox="0 0 160 130">
+<g fill="none" stroke="#263b47" stroke-width="4">
+<rect x="26" y="19" width="100" height="75" rx="35"/>
+<rect x="34" y="28" width="84" height="56" rx="27"/>
+<rect x="43" y="37" width="66" height="38" rx="18"/>
+<path d="M 29 55C 8 42 4 75 17 102h 27M 125 56c 26-10 32 32 19 46"/>
+</g>
+<rect x="63" y="17" width="23" height="83" rx="6" fill="#98b7ac" stroke="#263b47" stroke-width="2"/>
+<rect x="43" y="94" width="29" height="17" rx="3" fill="#f6f2e7" stroke="#263b47" stroke-width="3"/>
+<path d="M 72 99h 10v 7H 72M 135 103h 17v 18h -17z" class="paper"/>
+</symbol>
+<symbol id="pen" viewBox="0 0 30 200">
+<path d="M 9 22Q 15 8 21 22V 164L 15 191 9 164Z" fill="#d9e4e9" stroke="#263b47" stroke-width="3"/>
+<path d="M 10 31h 11M 10 155h 11M 20 35h 6v 62M 15 190v 5" class="thin"/>
+</symbol>
+</defs>
+<rect width="1200" height="850" fill="#faf7ef"/>
+<path d="M 42 104H 1158M 42 793H 1158" stroke="#d6d3c8" stroke-width="1.5"/>
+<text x="44" y="45" class="num" >CRAZY 8 / 06</text>
+<text x="44" y="83" class="" font-size="32" font-weight="bold">Stretch-grid carrier</text>
+<text x="1156" y="48" class="num" text-anchor="end">TRAVEL / NO ELECTRONICS</text>
+<text x="44" y="823" class="note" >Fixed elastic weave replaces bulky pockets • fold the empty part behind the kit</text>
+<text x="80" y="153" class="num" >OPEN GRID / RECONFIGURE WITHOUT LOOSE MODULES</text>
+<rect x="103" y="211" width="680" height="464" rx="28" class="mint" />
+<rect x="119" y="226" width="649" height="433" rx="18" class="seam" />
+<use href="#notebook" x="141" y="240" width="231" height="313" />
+<use href="#cable" x="394" y="249" width="211" height="174" />
+<use href="#pen" x="688" y="235" width="39" height="300" />
+<use href="#keys" x="436" y="461" width="108" height="162" />
+<use href="#card" x="596" y="501" width="154" height="100" />
+<path d="M 116 300Q 424 308 769 300v 27Q 426 334 116 327Z" class="sand" />
+<path d="M 128 308H 757" class="seam" />
+<path d="M 116 397Q 424 405 769 397v 27Q 426 431 116 424Z" class="sand" />
+<path d="M 128 405H 757" class="seam" />
+<path d="M 116 515Q 424 523 769 515v 27Q 426 549 116 542Z" class="sand" />
+<path d="M 128 523H 757" class="seam" />
+<path d="M 116 601Q 424 609 769 601v 27Q 426 635 116 628Z" class="sand" />
+<path d="M 128 609H 757" class="seam" />
+<path d="M 187 226Q 193 446 187 659h 25Q 220 446 212 226Z" class="blue" />
+<path d="M 337 226Q 343 446 337 659h 25Q 370 446 362 226Z" class="blue" />
+<path d="M 558 226Q 564 446 558 659h 25Q 591 446 583 226Z" class="blue" />
+<path d="M 677 226Q 683 446 677 659h 25Q 710 446 702 226Z" class="blue" />
+<rect x="574" y="552" width="181" height="80" rx="9" class="coral" />
+<path d="M 574 552h 55q 30 38 59 0h 67" class="ink" />
+<circle cx="641" cy="599" r="2.5" class="ink"/>
+<circle cx="650" cy="599" r="2.5" class="ink"/>
+<circle cx="659" cy="599" r="2.5" class="ink"/>
+<path d="M 520 427c 74 25 29 44-26 64" class="ink" />
+<circle cx="520" cy="427" r="6" class="coral"/>
+<path d="M 240 319v 17" class="thin" />
+<path d="M 247 319v 17" class="thin" />
+<path d="M 254 319v 17" class="thin" />
+<path d="M 261 319v 17" class="thin" />
+<path d="M 458 330l 8-12 8 12 8-12 8 12" class="ink" />
+<circle cx="481" cy="634" r="9" class="ink"/>
+<circle cx="481" cy="634" r="3" class="thin"/>
+<path d="M 701 445h 27m -27 9h 27" class="ink" />
+<path d="M 381 224V 659" class="seam" />
+<path d="M 382 226l -8 12m 8-12 8 12" class="thin" />
+<path d="M 310 209v -38q 0-32 40-32h 172q 40 0 40 32v 39" class="ink" />
+<path d="M 328 208v -33q 0-18 25-18h 166q 25 0 25 18v 33" class="ink" />
+<text x="131" y="727" class="small" >Stretch bands accommodate odd cable shapes.</text>
+<text x="457" y="753" class="small" >Card has a closed-bottom tunnel; keys have a sewn leash.</text>
+<text x="925" y="153" class="num" >LIGHT LOAD</text>
+<rect x="936" y="265" width="181" height="326" rx="21" class="mint" />
+<use href="#notebook" x="951" y="279" width="151" height="219" />
+<path d="M 937 340h 180v 30H 937ZM 937 449h 180v 29H 937Z" class="sand" />
+<path d="M 959 266v 325h 25V 266Z" class="blue" />
+<path d="M 1116 281l 30 18v 273l -30 18" class="seam" />
+<path d="M 1150 495q 28-69-5-118" class="arrow" />
+<text x="925" y="649" class="small" >Empty half folds behind</text>
+<text x="925" y="680" class="small" >No removed pockets to lose</text>
+</svg>

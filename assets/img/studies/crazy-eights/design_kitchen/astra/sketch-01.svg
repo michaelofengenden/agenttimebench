@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-labelledby="title desc">
+<title id="title">01 — Thumb-pop / the upright book</title>
+<desc id="desc">A stable narrow body, a spring hinge, and a completely removable wet cup.</desc>
+<defs>
+<marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+<path d="M 1 1 L 9 5 L 1 9" fill="none" stroke="#233c49" stroke-width="1.4"/>
+</marker>
+<pattern id="hatch" width="9" height="9" patternUnits="userSpaceOnUse">
+<path d="M 0 9L 9 0" stroke="#233c49" stroke-width="1" opacity=".2"/>
+</pattern>
+</defs>
+<style>text{font-family:Arial,sans-serif;fill:#233c49}.title{font-size:34px;font-weight:700;letter-spacing:-1px}.sub{font-size:16px}.label{font-size:18px}.small{font-size:14px}.number{font-size:15px;font-weight:700;letter-spacing:2px}.ink{fill:none;stroke:#233c49;stroke-width:3;stroke-linecap:round;stroke-linejoin:round}.fine{fill:none;stroke:#233c49;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round}.dash{fill:none;stroke:#233c49;stroke-width:2;stroke-dasharray:7 7}.arrow{fill:none;stroke:#233c49;stroke-width:2.5;stroke-linecap:round;marker-end:url(#arrow)}</style>
+<rect width="1200" height="800" fill="#faf8f1"/>
+<text x="42" y="44" class="number">CRAZY 8 / 01</text>
+<text x="42" y="87" class="title">Thumb-pop / the upright book</text>
+<text x="43" y="116" class="sub">A stable narrow body, a spring hinge, and a completely removable wet cup.</text>
+<path d="M 42 139H 1158 M 750 160V 745 M 42 602H 718" stroke="#233c49" stroke-width="1" opacity=".23"/>
+<path d="M 181 299L 265 238L 279 165L 590 165L 577 238L 492 299Z" fill="#e2e9e3" stroke="#233c49" stroke-width="3" stroke-linejoin="round" />
+<path d="M 207 278L 280 223L 289 183H 568L 558 225L 485 278Z" fill="#fffdf7" stroke="#233c49" stroke-width="3" stroke-linejoin="round" />
+<path d="M 210 283L 483 283" fill="none" class="fine" />
+<path d="M 181 328L 511 328L 511 496Q 346.0 512 181 496Z" fill="#e3e8e1" stroke="#233c49" stroke-width="3" stroke-linejoin="round" />
+<path d="M 511 328l 84 -60v 168l -84 60Z" fill="#cbd8d4" stroke="#233c49" stroke-width="3" stroke-linejoin="round" />
+<path d="M 181 328l 84 -60h 330l -84 60Z" fill="#fffdf7" stroke="#233c49" stroke-width="3" stroke-linejoin="round" />
+<path d="M 193 320l 72 -42h 303l -72 42Z" fill="none" class="fine" />
+<path d="M 199 319L 270 279H 385L 317 319Z" fill="#96cdd0" stroke="#233c49" stroke-width="3" stroke-linejoin="round" />
+<path d="M 331 319L 393 278H 574L 507 319Z" fill="#eed8a1" stroke="#233c49" stroke-width="3" stroke-linejoin="round" />
+<path d="M 357 294q 12 -16 25 -4q -4 17 -25 4Z" fill="#bdd095" stroke="#233c49" stroke-width="1" stroke-linejoin="round"/>
+<path d="M 395 294q 12 -16 25 -4q -4 17 -25 4Z" fill="#bdd095" stroke="#233c49" stroke-width="1" stroke-linejoin="round"/>
+<path d="M 433 294q 12 -16 25 -4q -4 17 -25 4Z" fill="#bdd095" stroke="#233c49" stroke-width="1" stroke-linejoin="round"/>
+<path d="M 471 294q 12 -16 25 -4q -4 17 -25 4Z" fill="#bdd095" stroke="#233c49" stroke-width="1" stroke-linejoin="round"/>
+<path d="M 327 321L 390 273" fill="none" class="ink" />
+<path d="M 91 252L 192 252L 211 213L 107 213Z" fill="#96cdd0" stroke="#233c49" stroke-width="3" stroke-linejoin="round" />
+<path d="M 91 252L 95 293L 184 293L 192 252Z" fill="#71b0b5" stroke="#233c49" stroke-width="3" stroke-linejoin="round" />
+<path d="M 192 252L 211 213V 254L 184 293Z" fill="#568f99" stroke="#233c49" stroke-width="3" stroke-linejoin="round" />
+<path d="M 87 249L 192 249L 215 211H 107Z" fill="#fffdf7" stroke="#233c49" stroke-width="3" stroke-linejoin="round" />
+<path d="M 97 243L 188 243L 205 218H 111Z" fill="#96cdd0" stroke="#233c49" stroke-width="3" stroke-linejoin="round" />
+<path d="M 114 302L 247 334" fill="none" class="dash" />
+<path d="M 169 212Q 180 170 223 157" fill="none" class="arrow" />
+<text x="47" y="188" class="small">Lift. Pour. Eat.</text>
+<rect x="318" y="382" width="63" height="39" rx="10" fill="#ef9659" stroke="#233c49" stroke-width="3"/>
+<path d="M 329 389V 409M 340 389V 409M 351 389V 409" fill="none" class="fine" />
+<path d="M 347 456V 427" fill="none" class="arrow" />
+<text x="253" y="478" class="small">PRESS WITH THUMB</text>
+<rect x="422" y="439" width="76" height="32" rx="7" fill="#ef9659" stroke="#233c49" stroke-width="3"/>
+<text x="434" y="462" class="small">MIA</text>
+<path d="M 189 506H 283M 423 506H 508" fill="none" class="ink" />
+<text x="62" y="554" class="small">Rubber feet hold the box still</text>
+<path d="M 280 548L 240 507" fill="none" class="fine" />
+<text x="396" y="555" class="small">Name + raised stripe code</text>
+<path d="M 520 539L 489 472" fill="none" class="fine" />
+<ellipse cx="790" cy="177" rx="14" ry="14" fill="#233c49" stroke="#233c49" stroke-width="0"/>
+<text x="786" y="182" fill="white" style="fill:white;font:bold 14px Arial">1</text>
+<text x="817" y="183" class="label">Press → lid stays open</text>
+<path d="M 821 277H 1044V 326H 821Z" fill="#e3e8e1" stroke="#233c49" stroke-width="3" stroke-linejoin="round" />
+<path d="M 821 277L 855 211H 1060L 1044 277Z" fill="#fffdf7" stroke="#233c49" stroke-width="3" stroke-linejoin="round" />
+<rect x="912" y="291" width="36" height="18" rx="4" fill="#ef9659" stroke="#233c49" stroke-width="3"/>
+<path d="M 931 350V 319" fill="none" class="arrow" />
+<path d="M 1080 290Q 1120 244 1076 211" fill="none" class="arrow" />
+<ellipse cx="790" cy="401" rx="14" ry="14" fill="#233c49" stroke="#233c49" stroke-width="0"/>
+<text x="786" y="406" fill="white" style="fill:white;font:bold 14px Arial">2</text>
+<text x="817" y="407" class="label">Peel cup seal; tip into dry side</text>
+<path d="M 843 486H 1100V 526H 843Z" fill="#eed8a1" stroke="#233c49" stroke-width="3" stroke-linejoin="round" />
+<path d="M 843 486L 881 459H 1138L 1100 486Z" fill="#fffdf7" stroke="#233c49" stroke-width="3" stroke-linejoin="round" />
+<path d="M 895 439L 943 404L 982 455L 935 489Z" fill="#96cdd0" stroke="#233c49" stroke-width="3" stroke-linejoin="round" />
+<path d="M 963 469Q 991 489 1032 478" fill="none" class="arrow" />
+<path d="M 892 421L 919 387L 960 407" fill="none" class="fine" />
+<ellipse cx="790" cy="598" rx="14" ry="14" fill="#233c49" stroke="#233c49" stroke-width="0"/>
+<text x="786" y="603" fill="white" style="fill:white;font:bold 14px Arial">3</text>
+<text x="817" y="604" class="label">Cup + gasket lift out for washing</text>
+<rect x="844" y="654" width="104" height="52" rx="8" fill="#96cdd0" stroke="#233c49" stroke-width="3"/>
+<path d="M 867 626H 967V 674" fill="none" class="dash" />
+<rect x="1003" y="638" width="104" height="50" rx="10" fill="none" stroke="#233c49" stroke-width="3"/>
+<text x="847" y="744" class="small">No hidden latch cavity</text>
+<text x="44" y="637" class="number">NARROW END FACES THE AISLE</text>
+<path d="M 55 674H 703V 745H 55Z" fill="none" class="fine" />
+<path d="M 55 736H 703" fill="none" class="ink" />
+<rect x="82" y="688" width="60" height="44" rx="5" fill="#e7e6dc" stroke="#233c49" stroke-width="1.5"/>
+<rect x="183" y="688" width="60" height="44" rx="5" fill="#e7e6dc" stroke="#233c49" stroke-width="1.5"/>
+<rect x="533" y="688" width="60" height="44" rx="5" fill="#e7e6dc" stroke="#233c49" stroke-width="1.5"/>
+<rect x="620" y="688" width="60" height="44" rx="5" fill="#e7e6dc" stroke="#233c49" stroke-width="1.5"/>
+<rect x="333" y="658" width="84" height="77" rx="7" fill="#ef9659" stroke="#233c49" stroke-width="3"/>
+<path d="M 344 671V 726M 406 671V 726" fill="none" class="fine" />
+<text x="350" y="701" class="small">MIA</text>
+<path d="M 333 756H 417" fill="none" class="fine" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+<text x="347" y="781" class="small">82 mm</text>
+</svg>

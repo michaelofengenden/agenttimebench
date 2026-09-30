@@ -1,0 +1,4 @@
+(function(){'use strict';var doc=document;function closeAll(except){var open=doc.querySelectorAll('.ce-sketch-btn.is-open');for(var i=0;i<open.length;i++){if(open[i]!==except){open[i].classList.remove('is-open');open[i].setAttribute('aria-expanded','false');}}}
+function init(){var buttons=doc.querySelectorAll('.ce-sketch-btn');if(!buttons.length)return;for(var i=0;i<buttons.length;i++){buttons[i].addEventListener('click',function(e){var btn=e.currentTarget;var willOpen=!btn.classList.contains('is-open');closeAll(willOpen?btn:null);btn.classList.toggle('is-open',willOpen);btn.setAttribute('aria-expanded',willOpen?'true':'false');});}
+doc.addEventListener('keydown',function(e){if(e.key==='Escape')closeAll(null);});}
+if(doc.readyState==='loading')doc.addEventListener('DOMContentLoaded',init);else init();})();

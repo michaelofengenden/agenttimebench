@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 640" role="img" aria-labelledby="t d">
+<title id="t">Concept 4 — folded V wing</title>
+<desc id="d">A butterfly roof drains to a central spine with seating fanned beneath its two wings.</desc>
+<defs>
+<marker id="a" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+<path d="M 0 0L 10 5L 0 10Z" fill="#315b6b"/>
+</marker>
+<style>.ink{stroke:#243d47;stroke-width:3;fill:none;stroke-linecap:round;stroke-linejoin:round}.fine{stroke:#57737d;stroke-width:2;fill:none;stroke-dasharray:7 6}.txt{font:600 17px sans-serif;fill:#243d47}.small{font:14px sans-serif;fill:#405b66}.seat{fill:#c96a4a;stroke:#713d31;stroke-width:2}</style>
+</defs>
+<rect width="960" height="640" fill="#fffdf8"/>
+<text x="42" y="42" class="txt" font-size="23">04  FOLDED “V” WING</text>
+<text x="42" y="66" class="small">A central gutter / post line; seats fan toward the bus approach</text>
+<rect x="40" y="82" width="880" height="392" rx="8" fill="#edf0e8" stroke="#829198" stroke-width="2"/>
+<path d="M 40 474H 920" stroke="#f6d35f" stroke-width="8"/>
+<rect x="40" y="482" width="880" height="126" fill="#d8dde0"/>
+<path d="M 64 554H 204M 269 554H 409M 474 554H 614M 679 554H 819" stroke="#fff" stroke-width="5" stroke-dasharray="32 22"/>
+<polygon points="91,124 480,168 480,278 106,235" fill="#f5d88a" stroke="#9a6a24" stroke-width="3"/>
+<polygon points="480,168 854,108 839,220 480,278" fill="#eac565" stroke="#9a6a24" stroke-width="3"/>
+<path d="M 480 169V 279" stroke="#243d47" stroke-width="8"/>
+<circle cx="480" cy="176" r="10" fill="#243d47"/>
+<circle cx="480" cy="264" r="10" fill="#243d47"/>
+<path d="M 480 175V 307" stroke="#4d8295" stroke-width="4" marker-end="url(#a)"/>
+<text x="494" y="303" class="small">rain to one soak strip</text>
+<g class="seat">
+<rect x="153" y="193" width="150" height="34" rx="8" transform="rotate(6 228 210)"/>
+<rect x="316" y="216" width="113" height="34" rx="8" transform="rotate(6 372 233)"/>
+<rect x="536" y="207" width="115" height="34" rx="8" transform="rotate(-9 593 224)"/>
+<rect x="679" y="174" width="111" height="34" rx="8" transform="rotate(-9 734 191)"/>
+</g>
+<rect x="507" y="246" width="93" height="62" rx="8" fill="#fff" stroke="#4d8295" stroke-width="3" stroke-dasharray="7 5"/>
+<circle cx="547" cy="261" r="10" fill="none" stroke="#4d8295" stroke-width="3"/>
+<path d="M 547 272v 14h 16m -16-7-11 15m 12-7 14 11" fill="none" stroke="#4d8295" stroke-width="3"/>
+<path d="M 228 215L 790 516M 372 234L 790 516M 593 225L 790 516M 734 191L 790 516" class="fine"/>
+<text x="681" y="340" class="small">everyone faces approach</text>
+<path d="M 70 335H 414Q 480 335 535 350H 891V 429H 70Z" fill="#fff" stroke="#7aa387" stroke-width="3" stroke-dasharray="12 8"/>
+<path d="M 100 384H 858" stroke="#315b6b" stroke-width="2" marker-start="url(#a)" marker-end="url(#a)"/>
+<text x="298" y="377" class="txt">CLEAR PROMENADE — NO FRONT POSTS</text>
+<g transform="translate(752 503)">
+<rect width="145" height="68" rx="12" fill="#72a9b4" stroke="#243d47" stroke-width="3"/>
+<rect x="16" y="12" width="44" height="24" rx="3" fill="#eaf7fa"/>
+<rect x="68" y="12" width="58" height="24" rx="3" fill="#eaf7fa"/>
+<circle cx="30" cy="70" r="10" fill="#243d47"/>
+<circle cx="116" cy="70" r="10" fill="#243d47"/>
+</g>
+<path d="M 704 537H 660" stroke="#315b6b" stroke-width="3" marker-end="url(#a)"/>
+<g transform="translate(72 505)">
+<path d="M 0 77H 292" class="ink"/>
+<path d="M 35 25L 145 48L 258 18" stroke="#9a6a24" stroke-width="7" fill="none"/>
+<path d="M 145 48V 77" stroke="#243d47" stroke-width="7"/>
+<path d="M 73 64h 57M 162 64h 58" stroke="#c96a4a" stroke-width="11"/>
+<path d="M 145 47v 16" stroke="#4d8295" stroke-width="3" marker-end="url(#a)"/>
+<text x="307" y="48" class="small">SECTION: broad shade, one central support</text>
+</g>
+<circle cx="885" cy="104" r="23" fill="#f2b93f"/>
+<path d="M 861 122L 813 161" stroke="#db8d23" stroke-width="4" marker-end="url(#a)"/>
+<rect x="48" y="609" width="864" height="23" rx="11" fill="#f5e2db"/>
+<text x="65" y="626" class="small">TRADE-OFF  •  broad rain shade + approach-facing seats  /  custom folded roof costs more to fabricate</text>
+</svg>

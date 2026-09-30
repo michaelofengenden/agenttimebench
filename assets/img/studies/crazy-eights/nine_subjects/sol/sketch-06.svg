@@ -1,0 +1,120 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 650" role="img" aria-label="Sea turtle exploring a colorful coral reef with small fish">
+<defs>
+<linearGradient id="sea" x2="0" y2="1">
+<stop stop-color="#1ab8c8"/>
+<stop offset=".48" stop-color="#08799d"/>
+<stop offset="1" stop-color="#063a68"/>
+</linearGradient>
+<linearGradient id="ray" x2=".4" y2="1">
+<stop stop-color="#d8fff1" stop-opacity=".46"/>
+<stop offset="1" stop-color="#8af4de" stop-opacity="0"/>
+</linearGradient>
+<radialGradient id="shell" cx=".35" cy=".25">
+<stop stop-color="#b9c66a"/>
+<stop offset=".55" stop-color="#647b3d"/>
+<stop offset="1" stop-color="#2f4e35"/>
+</radialGradient>
+<linearGradient id="skin" x2=".7" y2="1">
+<stop stop-color="#a7bd7a"/>
+<stop offset=".6" stop-color="#5f845d"/>
+<stop offset="1" stop-color="#315a51"/>
+</linearGradient>
+<linearGradient id="sand" x2="0" y2="1">
+<stop stop-color="#e8cb91"/>
+<stop offset="1" stop-color="#9a794f"/>
+</linearGradient>
+<pattern id="scales" width="32" height="28" patternUnits="userSpaceOnUse">
+<path d="M 0 14Q 8 2 16 14T 32 14M 0 14q 8 12 16 0t 16 0" fill="none" stroke="#294d46" stroke-width="2" opacity=".65"/>
+</pattern>
+</defs>
+<rect width="900" height="650" fill="url(#sea)"/>
+<path d="M 0 31q 65-24 129 0t 129 0 129 0 129 0 129 0 129 0 126 0" fill="none" stroke="#b9f7eb" stroke-width="13" opacity=".8"/>
+<path d="M 82 0l 154 0 148 527H 230zM 498 0h 92l -30 458H 376zM 744 0h 66l -89 427H 619z" fill="url(#ray)"/>
+<g fill="#d9fff4" opacity=".55">
+<circle cx="77" cy="123" r="7"/>
+<circle cx="97" cy="96" r="4"/>
+<circle cx="823" cy="183" r="8"/>
+<circle cx="803" cy="158" r="4"/>
+<circle cx="577" cy="101" r="5"/>
+<circle cx="551" cy="132" r="3"/>
+</g>
+<path d="M 0 487q 59-42 119-12 44-78 92-7 43-108 91-9 45-68 85 1 59-82 113 5 63-71 122 0 58-94 110-5 67-74 168 20v 170H 0z" fill="#145f65" opacity=".62"/>
+<path d="M 0 548q 127-51 255 0t 259 0q 195-74 386-2v 104H 0z" fill="url(#sand)"/>
+<path d="M 0 585q 114-31 227 1m 264 14q 96-31 190-5m 89-16q 58-20 120-1" fill="none" stroke="#f0dca7" stroke-width="8" opacity=".55"/>
+<g fill="#745f49" opacity=".55">
+<ellipse cx="58" cy="622" rx="22" ry="8"/>
+<ellipse cx="358" cy="602" rx="18" ry="7"/>
+<ellipse cx="745" cy="624" rx="26" ry="8"/>
+<circle cx="432" cy="631" r="6"/>
+<circle cx="615" cy="611" r="5"/>
+</g>
+<path d="M 86 566q -11-85 4-167m 0 78l -42-47m 42 9l 38-53m -42 86l -49-18m 95-41l 33-34" fill="none" stroke="#f06d69" stroke-width="19" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 52 583q -20-62-5-109m 4 53l -30-25m 28 2l 30-38" fill="none" stroke="#ff9b78" stroke-width="12" stroke-linecap="round"/>
+<g fill="#8e61bd" stroke="#4f3b85" stroke-width="4">
+<ellipse cx="160" cy="581" rx="37" ry="77"/>
+<ellipse cx="211" cy="575" rx="34" ry="63"/>
+<ellipse cx="132" cy="602" rx="33" ry="46"/>
+</g>
+<g fill="#caa2e3">
+<ellipse cx="151" cy="550" rx="9" ry="26"/>
+<ellipse cx="201" cy="551" rx="8" ry="23"/>
+<ellipse cx="124" cy="587" rx="8" ry="19"/>
+</g>
+<path d="M 767 590q 2-101-18-157m 17 90l 54-63m -56 27l -40-55m 46 103l 66-31m -75-39l 30-59" fill="none" stroke="#ee8c35" stroke-width="22" stroke-linecap="round"/>
+<path d="M 650 610q -18-67 8-116 29 51 8 116m 20 0q -6-82 29-119 14 67-10 119m -100 5q -28-61-5-97 31 48 24 97" fill="#51a764" stroke="#276c51" stroke-width="6"/>
+<path d="M 820 621q 1-69 41-93-3 48-21 93m -45 0q -8-60 26-87" fill="#7ecf7a" stroke="#2e795d" stroke-width="7"/>
+<g stroke="#193e5d" stroke-width="3">
+<g transform="translate(170 224)">
+<path d="M 0 0q 31-25 65 0-34 27-65 0z" fill="#ffd05b"/>
+<path d="M 2 0l -25-20v 40z" fill="#ed8b35"/>
+<circle cx="48" cy="-5" r="4" fill="#162a3a"/>
+</g>
+<g transform="translate(267 174) scale(.75)">
+<path d="M 0 0q 31-25 65 0-34 27-65 0z" fill="#f87b77"/>
+<path d="M 2 0l -25-20v 40z" fill="#9d63b1"/>
+<circle cx="48" cy="-5" r="4" fill="#162a3a"/>
+</g>
+<g transform="translate(682 239) rotate(8)">
+<path d="M 0 0q 31-25 65 0-34 27-65 0z" fill="#6ee1d0"/>
+<path d="M 2 0l -25-20v 40z" fill="#398da1"/>
+<circle cx="48" cy="-5" r="4" fill="#162a3a"/>
+</g>
+<g transform="translate(748 183) scale(.68)">
+<path d="M 0 0q 31-25 65 0-34 27-65 0z" fill="#ffd15e"/>
+<path d="M 2 0l -25-20v 40z" fill="#e78733"/>
+<circle cx="48" cy="-5" r="4" fill="#162a3a"/>
+</g>
+<g transform="translate(111 342) scale(.55)">
+<path d="M 0 0q 31-25 65 0-34 27-65 0z" fill="#f2a5c6"/>
+<path d="M 2 0l -25-20v 40z" fill="#8f65ac"/>
+<circle cx="48" cy="-5" r="4"/>
+</g>
+</g>
+<path d="M 384 400q -117 87-170 60-27-14 9-43 57-46 134-75z" fill="url(#skin)" stroke="#214c48" stroke-width="6"/>
+<path d="M 548 404q 78 75 141 59 39-11 3-43-54-49-119-78z" fill="url(#skin)" stroke="#214c48" stroke-width="6"/>
+<path d="M 374 390q -79 57-132 58m 319-59q 69 58 116 58" fill="none" stroke="#bad296" stroke-width="7" opacity=".45"/>
+<ellipse cx="463" cy="342" rx="177" ry="137" transform="rotate(-6 463 342)" fill="url(#shell)" stroke="#243f36" stroke-width="8"/>
+<ellipse cx="464" cy="340" rx="142" ry="108" transform="rotate(-6 464 340)" fill="none" stroke="#b2bd64" stroke-width="8" opacity=".75"/>
+<path d="M 423 235l -42 75 28 82 80 36 75-43 12-86-63-69z" fill="#718a48" stroke="#405b37" stroke-width="6"/>
+<path d="M 423 235l 66 38 24-43m -24 43l 75 26m -75-26v 83m 0 0l -80 36m 80-36l 75 29m -155 7l 15 59m 140-66l -12 56m -171-131l -64-1m 259-10l 54 5" fill="none" stroke="#c1c875" stroke-width="6" opacity=".72"/>
+<path d="M 360 254q -28 45-31 83m 194-115q 45 21 72 53m -237 145q 35 49 88 60m 68-7q 48-17 77-57" fill="none" stroke="#e1db8f" stroke-width="6" opacity=".4"/>
+<path d="M 375 350C 272 349 189 282 124 306c -28 10-13 39 21 63 72 50 139 62 226 52z" fill="url(#skin)" stroke="#214c48" stroke-width="7"/>
+<path d="M 555 344c 87-16 150-77 218-71 39 4 31 37 1 65-58 53-127 75-215 75z" fill="url(#skin)" stroke="#214c48" stroke-width="7"/>
+<path d="M 348 379q -112-6-189-50m 417 43q 103-18 181-78" fill="none" stroke="#c3d69a" stroke-width="8" opacity=".5"/>
+<path d="M 150 322q 45 49 107 64m 496-98q -43 48-103 73" fill="none" stroke="#294f47" stroke-width="4"/>
+<path d="M 575 317q 55-48 107-38l 68 52-45 91q -75 20-132-25z" fill="url(#skin)" stroke="#214c48" stroke-width="7"/>
+<ellipse cx="727" cy="352" rx="84" ry="69" transform="rotate(8 727 352)" fill="url(#skin)" stroke="#214c48" stroke-width="7"/>
+<path d="M 677 299q 25 49 85 37m -104 20q 39 52 104 47m -53-109q -3 29 26 44m -61 12q 27 9 14 44m 70-52q -18 23-4 50" fill="none" stroke="#315b50" stroke-width="5"/>
+<path d="M 653 284h 124v 130H 653z" fill="url(#scales)" opacity=".55"/>
+<ellipse cx="762" cy="339" rx="12" ry="15" fill="#14282b"/>
+<circle cx="758" cy="334" r="4" fill="white"/>
+<path d="M 790 368q -27 18-56 5" fill="none" stroke="#24413e" stroke-width="5" stroke-linecap="round"/>
+<path d="M 791 350q 15 4 28 0" stroke="#9cc396" stroke-width="4" stroke-linecap="round"/>
+<g fill="none" stroke="#b9f4e7" stroke-width="4" opacity=".8">
+<circle cx="817" cy="390" r="12"/>
+<circle cx="846" cy="355" r="8"/>
+<circle cx="824" cy="324" r="5"/>
+<circle cx="301" cy="269" r="9"/>
+<circle cx="279" cy="244" r="5"/>
+</g>
+</svg>

@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="850" viewBox="0 0 1200 850">
+<defs>
+<style>text{font-family:Arial,Helvetica,sans-serif;fill:#263b47}.ink{fill:none;stroke:#263b47;stroke-width:3;stroke-linecap:round;stroke-linejoin:round}.thin{fill:none;stroke:#263b47;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round}.seam{fill:none;stroke:#697d83;stroke-width:1.5;stroke-dasharray:5 6}.blue{fill:#d5e5ed;stroke:#263b47;stroke-width:3;stroke-linejoin:round}.mint{fill:#d6e5d7;stroke:#263b47;stroke-width:3;stroke-linejoin:round}.sand{fill:#eddbb2;stroke:#263b47;stroke-width:3;stroke-linejoin:round}.coral{fill:#edc3ad;stroke:#263b47;stroke-width:3;stroke-linejoin:round}.paper{fill:#fffdf6;stroke:#263b47;stroke-width:3;stroke-linejoin:round}.arrow{fill:none;stroke:#ba684b;stroke-width:2.5;stroke-linecap:round;stroke-linejoin:round;marker-end:url(#a)}.label{font-size:18px;letter-spacing:.2px}.small{font-size:14px;letter-spacing:.4px}.num{font-size:13px;font-weight:bold;letter-spacing:2px}.note{font-size:16px;fill:#65767b}</style>
+<marker id="a" markerWidth="9" markerHeight="9" refX="7" refY="4" orient="auto">
+<path d="M 0 0L 8 4L 0 8" fill="none" stroke="#ba684b" stroke-width="1.7"/>
+</marker>
+<pattern id="mesh" width="13" height="13" patternUnits="userSpaceOnUse">
+<path d="M 0 0L 13 13M 13 0L 0 13" stroke="#829994" stroke-width=".6"/>
+</pattern>
+<symbol id="notebook" viewBox="0 0 150 200">
+<rect x="8" y="6" width="135" height="187" rx="7" fill="#f7f2e4" stroke="#263b47" stroke-width="3"/>
+<path d="M 22 7V 192M 31 26H 120M 31 32H 89M 129 10V 187" class="thin"/>
+<path d="M 13 26h 16m -16 22h 16m -16 22h 16m -16 22h 16m -16 22h 16m -16 22h 16m -16 22h 16m -16 22h 16" class="thin"/>
+<path d="M 103 7v 186" stroke="#ce9678" stroke-width="7"/>
+<path d="M 35 51h 48" class="thin"/>
+</symbol>
+<symbol id="card" viewBox="0 0 120 76">
+<rect x="3" y="3" width="114" height="70" rx="9" fill="#f5bd82" stroke="#263b47" stroke-width="3"/>
+<path d="M 5 23h 110" stroke="#263b47" stroke-width="10"/>
+<circle cx="21" cy="51" r="7" fill="none" stroke="#263b47" stroke-width="2"/>
+<path d="M 41 46h 50M 41 56h 32" class="thin"/>
+</symbol>
+<symbol id="keys" viewBox="0 0 100 140">
+<circle cx="49" cy="27" r="23" fill="none" stroke="#263b47" stroke-width="4"/>
+<path d="M 34 44l -15 58 8 4-3 13 12 4 6-10-5-5 13-57" fill="#e8c76b" stroke="#263b47" stroke-width="3"/>
+<path d="M 54 45l 16 67 10-2-1-12-8 1-2-11 8-3-11-44Z" fill="#d6d9d1" stroke="#263b47" stroke-width="3"/>
+<circle cx="61" cy="46" r="5" fill="#fffdf6"/>
+</symbol>
+<symbol id="cable" viewBox="0 0 160 130">
+<g fill="none" stroke="#263b47" stroke-width="4">
+<rect x="26" y="19" width="100" height="75" rx="35"/>
+<rect x="34" y="28" width="84" height="56" rx="27"/>
+<rect x="43" y="37" width="66" height="38" rx="18"/>
+<path d="M 29 55C 8 42 4 75 17 102h 27M 125 56c 26-10 32 32 19 46"/>
+</g>
+<rect x="63" y="17" width="23" height="83" rx="6" fill="#98b7ac" stroke="#263b47" stroke-width="2"/>
+<rect x="43" y="94" width="29" height="17" rx="3" fill="#f6f2e7" stroke="#263b47" stroke-width="3"/>
+<path d="M 72 99h 10v 7H 72M 135 103h 17v 18h -17z" class="paper"/>
+</symbol>
+<symbol id="pen" viewBox="0 0 30 200">
+<path d="M 9 22Q 15 8 21 22V 164L 15 191 9 164Z" fill="#d9e4e9" stroke="#263b47" stroke-width="3"/>
+<path d="M 10 31h 11M 10 155h 11M 20 35h 6v 62M 15 190v 5" class="thin"/>
+</symbol>
+</defs>
+<rect width="1200" height="850" fill="#faf7ef"/>
+<path d="M 42 104H 1158M 42 793H 1158" stroke="#d6d3c8" stroke-width="1.5"/>
+<text x="44" y="45" class="num" >CRAZY 8 / 04</text>
+<text x="44" y="83" class="" font-size="32" font-weight="bold">Over-the-rim saddle</text>
+<text x="1156" y="48" class="num" text-anchor="end">TRAVEL / NO ELECTRONICS</text>
+<text x="44" y="823" class="note" >Two faces on one flexible bridge • quick things outside, deep things inside</text>
+<text x="83" y="151" class="num" >BAG SECTION / SADDLE IN PLACE</text>
+<path d="M 198 334L 875 335 833 694Q 517 754 234 688Z" class="" fill="#ebe7dc" stroke="#b4b5ac" stroke-width="3"/>
+<path d="M 327 345V 231C 327 106 692 102 692 232V 340" class="" fill="none" stroke="#b4b5ac" stroke-width="16"/>
+<path d="M 342 341V 235C 342 134 677 132 677 235V 337" class="thin" />
+<path d="M 407 341V 281Q 407 241 450 241H 577Q 620 241 620 281V 348" class="sand" />
+<path d="M 408 339V 653Q 511 690 619 651V 340" class="blue" />
+<use href="#notebook" x="426" y="367" width="165" height="218" />
+<path d="M 420 466h 190v 169q -100 30-190 1Z" class="mint" />
+<path d="M 492 494v 17" class="thin" />
+<path d="M 499 494v 17" class="thin" />
+<path d="M 506 494v 17" class="thin" />
+<path d="M 513 494v 17" class="thin" />
+<use href="#pen" x="581" y="355" width="28" height="190" />
+<use href="#cable" x="431" y="520" width="127" height="105" />
+<path d="M 422 584h 146v 58H 422Z" class="sand" />
+<path d="M 474 619l 8-12 8 12 8-12 8 12" class="ink" />
+<path d="M 223 354Q 212 320 254 312H 487Q 525 313 525 350V 613Q 389 657 238 617Z" class="coral" />
+<path d="M 257 319l 150-47h 158l -78 45" class="sand" />
+<path d="M 282 327l 141-42h 139" class="seam" />
+<use href="#card" x="280" y="358" width="180" height="118" />
+<path d="M 251 434h 76q 25 36 48 0h 125v 82q -123 25-249-2Z" class="blue" />
+<circle cx="353" cy="482" r="2.5" class="ink"/>
+<circle cx="362" cy="482" r="2.5" class="ink"/>
+<circle cx="371" cy="482" r="2.5" class="ink"/>
+<path d="M 276 532c -43-8-60 28-31 64" class="ink" />
+<use href="#keys" x="276" y="501" width="83" height="125" />
+<path d="M 278 574h 84v 39h -84Z" class="sand" />
+<circle cx="411" cy="566" r="9" class="ink"/>
+<circle cx="411" cy="566" r="3" class="thin"/>
+<path d="M 351 356v -90" class="arrow" />
+<text x="94" y="240" class="label" >One thumb at the rim</text>
+<path d="M 246 247l 44 42" class="thin" />
+<text x="672" y="478" class="label" >INSIDE</text>
+<path d="M 663 488l -48 34" class="thin" />
+<text x="101" y="575" class="label" >OUTSIDE</text>
+<path d="M 189 572l 45-19" class="thin" />
+<text x="922" y="153" class="num" >MOVE BAGS</text>
+<path d="M 971 269q -43-66 11-83h 87q 54 17 11 83" class="sand" />
+<path d="M 945 265h 163v 306l -80 42-83-42Z" class="coral" />
+<path d="M 1028 289v 324" class="ink" />
+<path d="M 960 376h 133v 35H 960Z" class="blue" />
+<path d="M 1024 178v -58" class="arrow" />
+<text x="925" y="653" class="small" >Lift bridge; fold faces in</text>
+<text x="925" y="682" class="small" >Sewn handle-wrap stays attached</text>
+<path d="M 442 273v -49h 91v 44" class="coral" />
+<path d="M 454 237h 66" class="thin" />
+<text x="276" y="758" class="small" >Flexible bridge grips the rim; no separate clips.</text>
+</svg>

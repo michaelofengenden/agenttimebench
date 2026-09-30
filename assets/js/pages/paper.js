@@ -1,0 +1,1 @@
+(function(){document.addEventListener('click',function(e){var pre=e.target.closest&&e.target.closest('.bibtex pre');if(!pre)return;var sel=window.getSelection&&window.getSelection();if(!sel)return;var range=document.createRange();range.selectNodeContents(pre);sel.removeAllRanges();sel.addRange(range);});})();

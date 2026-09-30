@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-labelledby="title desc">
+<title id="title">06 — Twist-to-dress / a gravity cassette</title>
+<desc id="desc">The wet ingredient lives above the meal. A quarter-turn aligns the ports only when wanted.</desc>
+<defs>
+<marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+<path d="M 1 1 L 9 5 L 1 9" fill="none" stroke="#233c49" stroke-width="1.4"/>
+</marker>
+<pattern id="hatch" width="9" height="9" patternUnits="userSpaceOnUse">
+<path d="M 0 9L 9 0" stroke="#233c49" stroke-width="1" opacity=".2"/>
+</pattern>
+</defs>
+<style>text{font-family:Arial,sans-serif;fill:#233c49}.title{font-size:34px;font-weight:700;letter-spacing:-1px}.sub{font-size:16px}.label{font-size:18px}.small{font-size:14px}.number{font-size:15px;font-weight:700;letter-spacing:2px}.ink{fill:none;stroke:#233c49;stroke-width:3;stroke-linecap:round;stroke-linejoin:round}.fine{fill:none;stroke:#233c49;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round}.dash{fill:none;stroke:#233c49;stroke-width:2;stroke-dasharray:7 7}.arrow{fill:none;stroke:#233c49;stroke-width:2.5;stroke-linecap:round;marker-end:url(#arrow)}</style>
+<rect width="1200" height="800" fill="#faf8f1"/>
+<text x="42" y="44" class="number">CRAZY 8 / 06</text>
+<text x="42" y="87" class="title">Twist-to-dress / a gravity cassette</text>
+<text x="43" y="116" class="sub">The wet ingredient lives above the meal. A quarter-turn aligns the ports only when wanted.</text>
+<path d="M 42 139H 1158 M 750 160V 745 M 42 602H 718" stroke="#233c49" stroke-width="1" opacity=".23"/>
+<path d="M 149 382H 513V 525Q 331.0 537 149 525Z" fill="#e3e8e1" stroke="#233c49" stroke-width="3" stroke-linejoin="round" />
+<path d="M 513 382l 103 -77v 143l -103 77Z" fill="#cbd8d4" stroke="#233c49" stroke-width="3" stroke-linejoin="round" />
+<path d="M 149 382l 103 -77h 364l -103 77Z" fill="#fffdf7" stroke="#233c49" stroke-width="3" stroke-linejoin="round" />
+<path d="M 165 372L 255 317H 592L 505 372Z" fill="#eed8a1" stroke="#233c49" stroke-width="3" stroke-linejoin="round" />
+<path d="M 229 344q 12 -16 25 -4q -4 17 -25 4Z" fill="#bdd095" stroke="#233c49" stroke-width="3" stroke-linejoin="round" />
+<path d="M 273 344q 12 -16 25 -4q -4 17 -25 4Z" fill="#bdd095" stroke="#233c49" stroke-width="3" stroke-linejoin="round" />
+<path d="M 317 344q 12 -16 25 -4q -4 17 -25 4Z" fill="#bdd095" stroke="#233c49" stroke-width="3" stroke-linejoin="round" />
+<path d="M 361 344q 12 -16 25 -4q -4 17 -25 4Z" fill="#bdd095" stroke="#233c49" stroke-width="3" stroke-linejoin="round" />
+<path d="M 405 344q 12 -16 25 -4q -4 17 -25 4Z" fill="#bdd095" stroke="#233c49" stroke-width="3" stroke-linejoin="round" />
+<path d="M 449 344q 12 -16 25 -4q -4 17 -25 4Z" fill="#bdd095" stroke="#233c49" stroke-width="3" stroke-linejoin="round" />
+<path d="M 146 293L 250 217H 618L 514 293V 325H 146Z" fill="#d4e4df" stroke="#233c49" stroke-width="3" stroke-linejoin="round" />
+<path d="M 514 293L 618 217V 249L 514 325Z" fill="#aac6c1" stroke="#233c49" stroke-width="3" stroke-linejoin="round" />
+<path d="M 160 282L 256 228H 599L 503 282Z" fill="#96cdd0" stroke="#233c49" stroke-width="3" stroke-linejoin="round" />
+<path d="M 174 276L 260 239H 582L 497 276Z" fill="#bfe1dc" stroke="#233c49" stroke-width="3" stroke-linejoin="round" />
+<path d="M 160 302H 501" class="fine" />
+<ellipse cx="378" cy="253" rx="85" ry="27" fill="#fffdf7" stroke="#233c49" stroke-width="3"/>
+<ellipse cx="378" cy="253" rx="68" ry="19" fill="#ef9659" stroke="#233c49" stroke-width="3"/>
+<path d="M 346 245L 398 238L 411 250L 359 260Z" fill="#233c49" stroke="#233c49" stroke-width="3" stroke-linejoin="round" />
+<path d="M 309 219Q 365 187 431 224" class="arrow" />
+<text x="463" y="201" class="number">¼ TURN</text>
+<path d="M 477 209L 438 230" class="fine" />
+<path d="M 279 324q -12 18 0 20q 12 -2 0 -20Z" fill="#96cdd0" stroke="#233c49" stroke-width="3" stroke-linejoin="round" />
+<path d="M 374 336q -12 18 0 20q 12 -2 0 -20Z" fill="#96cdd0" stroke="#233c49" stroke-width="3" stroke-linejoin="round" />
+<path d="M 476 326q -12 18 0 20q 12 -2 0 -20Z" fill="#96cdd0" stroke="#233c49" stroke-width="3" stroke-linejoin="round" />
+<path d="M 163 331V 370M 597 263V 310" class="dash" />
+<rect x="189" y="433" width="76" height="32" rx="7" fill="#ef9659" stroke="#233c49" stroke-width="3"/>
+<text x="201" y="456" class="small">MIA</text>
+<rect x="334" y="406" width="77" height="32" rx="7" fill="#ef9659" stroke="#233c49" stroke-width="3"/>
+<path d="M 348 416H 396" class="ink" />
+<path d="M 377 485V 443" class="arrow" />
+<text x="308" y="510" class="small">Thumb-open bowl latch</text>
+<text x="59" y="566" class="small">Wet cassette is sealed on all four sides</text>
+<path d="M 265 546L 242 302" class="fine" />
+<ellipse cx="790" cy="177" rx="14" ry="14" fill="#233c49" stroke="#233c49" stroke-width="0"/>
+<text x="786" y="182" style="fill:white;font:bold 14px Arial">1</text>
+<text x="817" y="183" class="label">LOCK: ports do not overlap</text>
+<ellipse cx="893" cy="276" rx="63" ry="45" fill="#96cdd0" stroke="#233c49" stroke-width="3"/>
+<ellipse cx="893" cy="276" rx="46" ry="33" fill="#fffdf7" stroke="#233c49" stroke-width="3"/>
+<rect x="866" y="253" width="19" height="40" rx="6" fill="#ef9659" stroke="#233c49" stroke-width="3"/>
+<rect x="899" y="253" width="19" height="40" rx="6" fill="#ef9659" stroke="#233c49" stroke-width="3"/>
+<ellipse cx="1051" cy="276" rx="63" ry="45" fill="#fffdf7" stroke="#233c49" stroke-width="3"/>
+<path d="M 1031 248H 1071V 264H 1031ZM 1031 284H 1071V 300H 1031Z" fill="#233c49" stroke="#233c49" stroke-width="3" stroke-linejoin="round" />
+<text x="851" y="343" class="small">Reservoir</text>
+<text x="1017" y="343" class="small">Shutter</text>
+<ellipse cx="790" cy="404" rx="14" ry="14" fill="#233c49" stroke="#233c49" stroke-width="0"/>
+<text x="786" y="409" style="fill:white;font:bold 14px Arial">2</text>
+<text x="817" y="410" class="label">TURN: dressing drops onto food</text>
+<path d="M 832 466H 1094V 487H 832Z" fill="#96cdd0" stroke="#233c49" stroke-width="3" stroke-linejoin="round" />
+<path d="M 832 496H 925M 951 496H 995M 1021 496H 1094" class="ink" />
+<path d="M 938 514q -9 15 0 18q 9 -3 0 -18Z" fill="#96cdd0" stroke="#233c49" stroke-width="3" stroke-linejoin="round" />
+<path d="M 1008 514q -9 15 0 18q 9 -3 0 -18Z" fill="#96cdd0" stroke="#233c49" stroke-width="3" stroke-linejoin="round" />
+<path d="M 839 550H 1090V 569H 839Z" fill="#eed8a1" stroke="#233c49" stroke-width="3" stroke-linejoin="round" />
+<path d="M 1117 460V 541" class="arrow" />
+<ellipse cx="790" cy="620" rx="14" ry="14" fill="#233c49" stroke="#233c49" stroke-width="0"/>
+<text x="786" y="625" style="fill:white;font:bold 14px Arial">3</text>
+<text x="817" y="626" class="label">Lift tab → disc + seal come free</text>
+<ellipse cx="881" cy="696" rx="57" ry="17" fill="#96cdd0" stroke="#233c49" stroke-width="3"/>
+<ellipse cx="1031" cy="696" rx="57" ry="17" fill="#fffdf7" stroke="#233c49" stroke-width="3"/>
+<path d="M 870 680L 884 661L 897 678Z" fill="#ef9659" stroke="#233c49" stroke-width="3" stroke-linejoin="round" />
+<path d="M 906 650H 1068" class="dash" />
+<text x="820" y="752" class="small">No spring or enclosed mechanism</text>
+<text x="44" y="637" class="number">NARROW END FACES THE AISLE</text>
+<path d="M 55 674H 703V 745H 55Z" class="fine" />
+<path d="M 55 736H 703" class="ink" />
+<rect x="82" y="688" width="60" height="44" rx="5" fill="#e7e6dc" stroke="#233c49" stroke-width="1.5"/>
+<rect x="183" y="688" width="60" height="44" rx="5" fill="#e7e6dc" stroke="#233c49" stroke-width="1.5"/>
+<rect x="533" y="688" width="60" height="44" rx="5" fill="#e7e6dc" stroke="#233c49" stroke-width="1.5"/>
+<rect x="620" y="688" width="60" height="44" rx="5" fill="#e7e6dc" stroke="#233c49" stroke-width="1.5"/>
+<rect x="333" y="658" width="84" height="77" rx="7" fill="#ef9659" stroke="#233c49" stroke-width="3"/>
+<path d="M 344 671V 726M 406 671V 726" class="fine" />
+<text x="350" y="701" class="small">MIA</text>
+<path d="M 333 756H 417" class="fine" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+<text x="347" y="781" class="small">80 mm</text>
+</svg>

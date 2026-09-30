@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 640">
+<defs>
+<marker id="a" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+<path d="M 1 1l 8 4-8 4z" fill="#26323c"/>
+</marker>
+</defs>
+<rect width="960" height="640" fill="#fffbf1"/>
+<g fill="none" stroke="#26323c" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+<path d="M 71 187l 59-53h 369l 58 53v 252l -58 53H 130l -59-53z" fill="#e8dfef"/>
+<path d="M 130 134v 358M 499 134v 358M 71 187h 486M 71 439h 486" stroke="#89739b"/>
+<path d="M 151 208h 326v 210H 151z" fill="#d5e9bb"/>
+<path d="M 313 225l 144 176H 313z" fill="#f39a68"/>
+<path d="M 337 257v 120h 91z" stroke="#b94f3d" stroke-width="3"/>
+<circle cx="389" cy="323" r="18" fill="#fff8e9"/>
+<path d="M 557 276h 68q 38 0 38 38t -38 38h -68z" fill="#ffda59"/>
+<circle cx="620" cy="314" r="20" fill="#fffbf1"/>
+<path d="M 666 314h 55" marker-end="url(#a)"/>
+<path d="M 692 202l 86-70 113 59-25 160-145 21z" fill="#d5e9bb"/>
+<path d="M 778 132l 15 91-72 149M 891 191l -98 32 73 128" stroke="#89739b"/>
+<path d="M 793 223l 73-24-17 102z" fill="#f39a68"/>
+<path d="M 842 222q -34 38-74 57" marker-end="url(#a)" stroke="#b94f3d"/>
+<path d="M 706 161q 55-77 119-53" marker-end="url(#a)"/>
+<rect x="92" y="531" width="772" height="76" rx="18" stroke-dasharray="8 8" stroke-width="2.5"/>
+<path d="M 125 551h 90v 36h -90z" fill="#e8dfef"/>
+<path d="M 247 569h 52" marker-end="url(#a)"/>
+<path d="M 329 551l 23-14h 58l 23 14-10 36h -84z" fill="#d5e9bb"/>
+<path d="M 464 569h 52" marker-end="url(#a)"/>
+<path d="M 551 545l 68 42h -68z" fill="#f39a68"/>
+<path d="M 630 569h 52" marker-end="url(#a)"/>
+<path d="M 716 549h 109v 38H 716z" fill="#d5e9bb"/>
+<path d="M 743 550q 27 16 54 0" stroke="#b94f3d"/>
+<circle cx="130" cy="187" r="9" fill="#ffda59"/>
+<circle cx="499" cy="187" r="9" fill="#ffda59"/>
+<circle cx="130" cy="439" r="9" fill="#ffda59"/>
+<circle cx="499" cy="439" r="9" fill="#ffda59"/>
+</g>
+<g font-family="Arial,sans-serif" fill="#26323c">
+<text x="57" y="53" font-size="30" font-weight="700">08 / PULL-OPEN PLATE</text>
+<text x="58" y="83" font-size="16" letter-spacing="2">A FLAT PACK BLOOMS INTO A MIXING BOWL</text>
+<text x="173" y="328" font-size="15">DRY BED</text>
+<text x="343" y="355" font-size="14">WET POD</text>
+<text x="577" y="263" font-size="14" font-weight="700">ONE-FINGER LOOP</text>
+<text x="577" y="283" font-size="13">pulls four linked walls outward</text>
+<text x="696" y="407" font-size="14">pod swings on yellow hinge, then pours</text>
+<text x="117" y="626" font-size="13">1 PULL FLAT PACK</text>
+<text x="328" y="626" font-size="13">2 WALLS LOCK</text>
+<text x="545" y="626" font-size="13">3 TIP POD</text>
+<text x="716" y="626" font-size="13">4 EAT FROM PLATE</text>
+<text x="77" y="116" font-size="13">contrasting corner shape is a replaceable name tile</text>
+</g>
+<path d="M 76 132l 30-25 24 27-30 25z" fill="#ef6664" stroke="#26323c" stroke-width="4"/>
+</svg>

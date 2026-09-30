@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-labelledby="title desc">
+<title id="title">04 — Lunch folio / open into a place setting</title>
+<desc id="desc">Two shallow leaves fold together. The wet leaf stays sealed until its corner spout is peeled.</desc>
+<defs>
+<marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+<path d="M 1 1 L 9 5 L 1 9" fill="none" stroke="#233c49" stroke-width="1.4"/>
+</marker>
+<pattern id="hatch" width="9" height="9" patternUnits="userSpaceOnUse">
+<path d="M 0 9L 9 0" stroke="#233c49" stroke-width="1" opacity=".2"/>
+</pattern>
+</defs>
+<style>text{font-family:Arial,sans-serif;fill:#233c49}.title{font-size:34px;font-weight:700;letter-spacing:-1px}.sub{font-size:16px}.label{font-size:18px}.small{font-size:14px}.number{font-size:15px;font-weight:700;letter-spacing:2px}.ink{fill:none;stroke:#233c49;stroke-width:3;stroke-linecap:round;stroke-linejoin:round}.fine{fill:none;stroke:#233c49;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round}.dash{fill:none;stroke:#233c49;stroke-width:2;stroke-dasharray:7 7}.arrow{fill:none;stroke:#233c49;stroke-width:2.5;stroke-linecap:round;marker-end:url(#arrow)}</style>
+<rect width="1200" height="800" fill="#faf8f1"/>
+<text x="42" y="44" class="number">CRAZY 8 / 04</text>
+<text x="42" y="87" class="title">Lunch folio / open into a place setting</text>
+<text x="43" y="116" class="sub">Two shallow leaves fold together. The wet leaf stays sealed until its corner spout is peeled.</text>
+<path d="M 42 139H 1158 M 750 160V 745 M 42 602H 718" stroke="#233c49" stroke-width="1" opacity=".23"/>
+<path d="M 106 365H 348V 433Q 227.0 445 106 433Z" fill="#e3e8e1" stroke="#233c49" stroke-width="3" stroke-linejoin="round" />
+<path d="M 348 365l 53 -105v 68l -53 105Z" fill="#cbd8d4" stroke="#233c49" stroke-width="3" stroke-linejoin="round" />
+<path d="M 106 365l 53 -105h 242l -53 105Z" fill="#fffdf7" stroke="#233c49" stroke-width="3" stroke-linejoin="round" />
+<path d="M 375 365H 617V 433Q 496.0 445 375 433Z" fill="#e3e8e1" stroke="#233c49" stroke-width="3" stroke-linejoin="round" />
+<path d="M 617 365l 53 -105v 68l -53 105Z" fill="#cbd8d4" stroke="#233c49" stroke-width="3" stroke-linejoin="round" />
+<path d="M 375 365l 53 -105h 242l -53 105Z" fill="#fffdf7" stroke="#233c49" stroke-width="3" stroke-linejoin="round" />
+<path d="M 118 354L 164 273H 382L 337 354Z" fill="#96cdd0" stroke="#233c49" stroke-width="3" stroke-linejoin="round" />
+<path d="M 131 339L 170 281H 369L 330 339Z" fill="#b9dfe0" stroke="#233c49" stroke-width="3" stroke-linejoin="round" />
+<path d="M 118 354L 165 272H 382L 337 354Z" class="dash" />
+<path d="M 387 354L 433 273H 650L 604 354Z" fill="#eed8a1" stroke="#233c49" stroke-width="3" stroke-linejoin="round" />
+<path d="M 434 299q 12 -16 25 -4q -4 17 -25 4Z" fill="#bdd095" stroke="#233c49" stroke-width="3" stroke-linejoin="round" />
+<path d="M 472 299q 12 -16 25 -4q -4 17 -25 4Z" fill="#bdd095" stroke="#233c49" stroke-width="3" stroke-linejoin="round" />
+<path d="M 510 299q 12 -16 25 -4q -4 17 -25 4Z" fill="#bdd095" stroke="#233c49" stroke-width="3" stroke-linejoin="round" />
+<path d="M 548 299q 12 -16 25 -4q -4 17 -25 4Z" fill="#bdd095" stroke="#233c49" stroke-width="3" stroke-linejoin="round" />
+<path d="M 446 323q 12 -16 25 -4q -4 17 -25 4Z" fill="#bdd095" stroke="#233c49" stroke-width="3" stroke-linejoin="round" />
+<path d="M 484 323q 12 -16 25 -4q -4 17 -25 4Z" fill="#bdd095" stroke="#233c49" stroke-width="3" stroke-linejoin="round" />
+<path d="M 522 323q 12 -16 25 -4q -4 17 -25 4Z" fill="#bdd095" stroke="#233c49" stroke-width="3" stroke-linejoin="round" />
+<path d="M 560 323q 12 -16 25 -4q -4 17 -25 4Z" fill="#bdd095" stroke="#233c49" stroke-width="3" stroke-linejoin="round" />
+<path d="M 349 355H 375V 382H 349ZM 376 291H 403V 315H 376Z" fill="#ef9659" stroke="#233c49" stroke-width="3" stroke-linejoin="round" />
+<path d="M 358 351L 409 253" class="fine" />
+<path d="M 311 353Q 317 319 348 321L 338 354Z" fill="#fffdf7" stroke="#233c49" stroke-width="3" stroke-linejoin="round" />
+<path d="M 332 329L 346 320L 361 330L 347 343Z" fill="#ef9659" stroke="#233c49" stroke-width="3" stroke-linejoin="round" />
+<path d="M 333 319Q 333 276 375 267" class="arrow" />
+<text x="54" y="212" class="small">WET / peel only this corner</text>
+<path d="M 241 220L 324 316" class="fine" />
+<rect x="580" y="386" width="34" height="35" rx="7" fill="#ef9659" stroke="#233c49" stroke-width="3"/>
+<path d="M 654 449L 614 409" class="arrow" />
+<text x="446" y="490" class="small">Thumb release on dry leaf</text>
+<path d="M 169 439L 117 476" class="fine" />
+<text x="65" y="497" class="small">Grippy spine / flat on counter</text>
+<rect x="179" y="389" width="76" height="32" rx="7" fill="#ef9659" stroke="#233c49" stroke-width="3"/>
+<text x="191" y="412" class="small">MIA</text>
+<path d="M 164 243Q 361 155 577 233" class="arrow" />
+<text x="300" y="181" class="number">FOLD TO CLOSE</text>
+<ellipse cx="790" cy="177" rx="14" ry="14" fill="#233c49" stroke="#233c49" stroke-width="0"/>
+<text x="786" y="182" style="fill:white;font:bold 14px Arial">1</text>
+<text x="817" y="183" class="label">Press → open like a book</text>
+<path d="M 842 270L 866 221H 1032L 1008 270Z" fill="#fffdf7" stroke="#233c49" stroke-width="3" stroke-linejoin="round" />
+<path d="M 842 270H 1008V 311H 842Z" fill="#cbd8d4" stroke="#233c49" stroke-width="3" stroke-linejoin="round" />
+<path d="M 1008 270L 1032 221V 262L 1008 311Z" fill="#acbfba" stroke="#233c49" stroke-width="3" stroke-linejoin="round" />
+<rect x="988" y="281" width="28" height="22" rx="5" fill="#ef9659" stroke="#233c49" stroke-width="3"/>
+<path d="M 1079 257Q 1121 211 1074 187" class="arrow" />
+<text x="822" y="351" class="small">Closed: 74 × 210 × 92 mm</text>
+<ellipse cx="790" cy="403" rx="14" ry="14" fill="#233c49" stroke="#233c49" stroke-width="0"/>
+<text x="786" y="408" style="fill:white;font:bold 14px Arial">2</text>
+<text x="817" y="409" class="label">Raise wet leaf to feed dry leaf</text>
+<path d="M 977 528H 1122L 1147 491H 1002Z" fill="#eed8a1" stroke="#233c49" stroke-width="3" stroke-linejoin="round" />
+<path d="M 977 528L 888 432L 915 398L 1002 491Z" fill="#96cdd0" stroke="#233c49" stroke-width="3" stroke-linejoin="round" />
+<path d="M 954 479L 977 467L 990 481L 978 496Z" fill="#fffdf7" stroke="#233c49" stroke-width="3" stroke-linejoin="round" />
+<path d="M 975 494Q 1004 517 1044 510" class="arrow" />
+<path d="M 845 491Q 846 434 884 416" class="arrow" />
+<ellipse cx="790" cy="614" rx="14" ry="14" fill="#233c49" stroke="#233c49" stroke-width="0"/>
+<text x="786" y="619" style="fill:white;font:bold 14px Arial">3</text>
+<text x="817" y="620" class="label">Pull seal; unclip the broad hinge</text>
+<path d="M 832 681H 934L 950 649H 849Z" fill="#96cdd0" stroke="#233c49" stroke-width="3" stroke-linejoin="round" />
+<path d="M 990 681H 1092L 1108 649H 1007Z" fill="#fffdf7" stroke="#233c49" stroke-width="3" stroke-linejoin="round" />
+<path d="M 953 670H 978" class="dash" />
+<path d="M 849 631H 950" class="dash" />
+<text x="822" y="751" class="small">Flat surfaces, no trapped seam</text>
+<text x="44" y="637" class="number">NARROW END FACES THE AISLE</text>
+<path d="M 55 674H 703V 745H 55Z" class="fine" />
+<path d="M 55 736H 703" class="ink" />
+<rect x="82" y="688" width="60" height="44" rx="5" fill="#e7e6dc" stroke="#233c49" stroke-width="1.5"/>
+<rect x="183" y="688" width="60" height="44" rx="5" fill="#e7e6dc" stroke="#233c49" stroke-width="1.5"/>
+<rect x="533" y="688" width="60" height="44" rx="5" fill="#e7e6dc" stroke="#233c49" stroke-width="1.5"/>
+<rect x="620" y="688" width="60" height="44" rx="5" fill="#e7e6dc" stroke="#233c49" stroke-width="1.5"/>
+<rect x="333" y="658" width="84" height="77" rx="7" fill="#ef9659" stroke="#233c49" stroke-width="3"/>
+<path d="M 344 671V 726M 406 671V 726" class="fine" />
+<text x="350" y="701" class="small">MIA</text>
+<path d="M 333 756H 417" class="fine" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+<text x="347" y="781" class="small">74 mm</text>
+</svg>

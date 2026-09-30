@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 640">
+<defs>
+<marker id="m" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+<path d="M 1 1l 8 4-8 4z" fill="#23313f"/>
+</marker>
+<pattern id="p" width="18" height="18" patternUnits="userSpaceOnUse">
+<path d="M 0 18L 18 0" stroke="#b8d5dd" stroke-width="5"/>
+</pattern>
+</defs>
+<rect width="960" height="640" fill="#f7fbfa"/>
+<g fill="none" stroke="#23313f" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+<path d="M 86 397L 218 155h 442l 151 242z" fill="#e3f0ef"/>
+<path d="M 86 397v 78h 725v -78M 218 155l 58 54h 435l 100 188M 276 209L 145 397" fill="#d2e8e6"/>
+<path d="M 145 397h 604" stroke-dasharray="10 9"/>
+<path d="M 187 377l 100-145h 373l 49 145z" fill="#cde6b3"/>
+<path d="M 262 333q 24-39 49 0m 29 18q 23-37 48 0m 35-38q 22-34 44 0m 34 38q 25-36 48 0m 25-34q 20-29 39 0" stroke="#638854" stroke-width="3"/>
+<path d="M 306 190l 31-58h 277l 53 58z" fill="#f6a65c"/>
+<path d="M 337 132l 20-23h 230l 27 23M 357 109v 67m 230-67v 67"/>
+<path d="M 375 139h 194" stroke="#bd6039" stroke-width="3"/>
+<circle cx="315" cy="154" r="28" fill="#fffaf0"/>
+<circle cx="315" cy="154" r="12"/>
+<path d="M 294 130q -47-52-85-16" marker-end="url(#m)"/>
+<path d="M 116 526l 57-37 77 37-57 47z" fill="#e3f0ef"/>
+<path d="M 193 573v 31m -77-78v 31l 77 47 57-37v -41"/>
+<path d="M 284 512l 36-52 50 0 41 52z" fill="#f6a65c"/>
+<path d="M 350 445v -65" marker-end="url(#m)"/>
+<rect x="675" y="56" width="224" height="245" rx="25" stroke-width="2.5" stroke-dasharray="8 8"/>
+<path d="M 711 235l 52-92 97 0 25 92z" fill="#cde6b3"/>
+<path d="M 742 95l 94 22-22 62-94-22z" fill="#f6a65c"/>
+<path d="M 775 165q 13 35 3 54" stroke="#bd6039" marker-end="url(#m)"/>
+<path d="M 706 95q 29-33 67-24" marker-end="url(#m)"/>
+<path d="M 67 503h 756" stroke="#9aa5aa" stroke-width="2"/>
+<path d="M 842 155v 320m -14-312l 14-8 14 8m -28 304l 14 8 14-8" stroke-width="2"/>
+<path d="M 276 209h 435" stroke="#20a7a0" stroke-width="8"/>
+</g>
+<g font-family="Arial,sans-serif" fill="#23313f">
+<text x="62" y="65" font-size="30" font-weight="700">02 / RIDGE WEDGE</text>
+<text x="63" y="94" font-size="16" letter-spacing="2">TRIANGLE PROFILE CLAIMS A TINY FOOTPRINT</text>
+<text x="390" y="438" text-anchor="middle" font-size="14">DRY INGREDIENT</text>
+<text x="468" y="151" text-anchor="middle" font-size="14" font-weight="700">WET RIDGE FLASK</text>
+<text x="111" y="116" font-size="14">hook one finger</text>
+<text x="111" y="136" font-size="14">and pull cap rail</text>
+<text x="693" y="84" font-size="14" font-weight="700">ROLL TO ASSEMBLE</text>
+<text x="700" y="270" font-size="13">ridge flask tips into open tray</text>
+<text x="335" y="363" font-size="13">removable teal gasket</text>
+<text x="278" y="555" font-size="14" font-weight="700">LIFT-OUT FLASK</text>
+<text x="278" y="578" font-size="13">all corners brush-free</text>
+<text x="866" y="325" font-size="14" transform="rotate(-90 866 325)">68 mm wide</text>
+<text x="86" y="623" font-size="14">patterned ridge + triangular end are recognizable by sight or touch</text>
+</g>
+<path d="M 607 548l 12 18 21-37 20 28 26-46" fill="none" stroke="#f06455" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="706" y="550" font-family="Arial,sans-serif" font-size="14" fill="#23313f">large zig-zag ID badge</text>
+</svg>
