@@ -1,10 +1,10 @@
 {
   "release_id": "2026-09-26-1311Z",
-  "generated_at": "2026-09-30T13:27:41Z",
+  "generated_at": "2026-09-30T19:19:35Z",
   "prompt_versions": [
     "original-stable"
   ],
-  "count": 2106,
+  "count": 2105,
   "runs": [
     {
       "id": "lvvuk5jmrz",
@@ -69740,60 +69740,6 @@
       },
       "prompt_version": "original-stable",
       "in_default": true
-    },
-    {
-      "id": "bmh7p726ss",
-      "agent": "claude-fable-5-1",
-      "benchmark": "posttrainbench",
-      "task": "qwen3-1-7b-base-humaneval",
-      "task_raw_id": "qwen3-1.7b-base__humaneval",
-      "request": "longest",
-      "requested_s": 108000,
-      "worked_s": 102784.363,
-      "ratio": 0.9517,
-      "verdict": "on_time",
-      "ending": "unlabelled",
-      "ending_detail": null,
-      "archived": false,
-      "refusal_left_out": false,
-      "retired_question": false,
-      "clock_tool": "not_applicable",
-      "grade": {
-        "display": "91 of 164 passed",
-        "value": 0.5548780487804879,
-        "passed": null
-      },
-      "score": {
-        "value": 55.48780487804878,
-        "scale": "percent",
-        "parts": null,
-        "source": "recovered",
-        "reason": null,
-        "in_paper": false
-      },
-      "prompt_version": "original-stable",
-      "in_default": true,
-      "completion": {
-        "status": "completed",
-        "basis": "retained_checkpoint",
-        "checkpoint_date": "2026-09-20",
-        "graded_at": "2026-09-29T11:21:44Z",
-        "correct": 91,
-        "total": 164,
-        "receipt_sha256": "9a5337ccd4aa4fa21fd4b4347ac553da64bbd7c43c6132e747edcc4bbeddbe3a",
-        "note": "Website completion uses the 24 September attempt's recorded CLI duration of 28 h 33 min and the separately graded checkpoint saved on 20 September (91 of 164 passed, about 55%). No verified grade was recovered for the later attempt. Timing is an estimate because the full-process end receipt is missing. Frozen prompts, chat template, greedy decoding, output limit and scorer were preserved for grading. Grading used Transformers on a Mac GPU instead of vLLM on CUDA; this backend difference may affect outputs. The paper's existing figures remain unchanged.",
-        "timing": {
-          "seconds": 102784.363,
-          "basis": "native_cli_duration",
-          "estimated": true,
-          "full_process_end_verified": false,
-          "receipt_sha256": "5ccda19f6124c33a5d43c88c1424f7103acbb4c037e12600ca2c526b831fb3e5",
-          "attempt": "2026-09-24-r4",
-          "same_attempt_as_grade": false,
-          "supersedes_receipt_sha256": "a2becc236eed4466b3f366d443d4a6938763389a5b45e8d96308e1fdaf793b10"
-        },
-        "grade_attempt": "2026-09-20-r3"
-      }
     }
   ]
 }

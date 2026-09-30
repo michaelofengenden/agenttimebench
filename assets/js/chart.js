@@ -53,7 +53,7 @@ if(kind.indexOf('c')>0){var yy=-0.6*s-3;x.beginPath();x.moveTo(-3,yy);x.lineTo(3
 if(kind.indexOf('s')>0){x.beginPath();x.moveTo(-0.8*s,0.8*s);x.lineTo(0.8*s,-0.8*s);x.strokeStyle=col.ink;x.lineWidth=1.5;x.stroke();}
 C.sp[sid]=c;return c;}
 function sprites(){var g=C.g,dpr=C.dpr,sk=dpr+'|'+g.ms;if(C.spKey!==sk||!C.col){C.sp={};C.spKey=sk;C.col=colors();}
-C.spr=C.vis.map(function(r){return sprite(key(r.agent),(r.archived?'h':'f')+(o.caps&&r.ending==='harness'?'c':'')+(r.refusal_left_out?'s':''),dpr,g.ms);});C.gspr=C.gh.map(function(r){return sprite(key(r.agent),'g',dpr,g.ms);});}
+C.spr=C.vis.map(function(r){return sprite(key(r.agent),'f'+(o.caps&&r.ending==='harness'?'c':'')+(r.refusal_left_out?'s':''),dpr,g.ms);});C.gspr=C.gh.map(function(r){return sprite(key(r.agent),'g',dpr,g.ms);});}
 function focusTask(){return C.pin?rk(C.pin):o.highlightTask||null;}
 function paint(yy,gyy){var g=C.g;if(!g)return;yy=yy||C.py;gyy=gyy||C.gy;var dpr=C.dpr,px=C.px,vis=C.vis,spr=C.spr,D=2*HALF;ctx.setTransform(dpr,0,0,dpr,0,0);ctx.clearRect(0,0,g.W,g.H);var ft=focusTask();ctx.globalAlpha=ft?0.2:1;for(var n=0,j;n<C.gh.length;n++){j=C.gord[n];ctx.drawImage(C.gspr[j],C.gx[j]-HALF,gyy[j]-HALF,D,D);}
 var late=[],ord=C.ord;for(var m0=0,i;m0<vis.length;m0++){i=ord[m0];if(ft&&rk(vis[i])===ft){late.push(i);continue;}

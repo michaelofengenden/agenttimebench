@@ -1,10 +1,10 @@
 {
   "release_id": "2026-09-26-1311Z",
-  "generated_at": "2026-09-30T13:27:41Z",
+  "generated_at": "2026-09-30T19:19:35Z",
   "description": "Field definitions for every file in this release.",
   "files": {
     "agenttime-runs.csv": {
-      "rows": 2106,
+      "rows": 2105,
       "format": "CSV, RFC 4180, comma separated, header row",
       "columns": [
         {
@@ -80,7 +80,12 @@
         {
           "key": "verdict",
           "type": "string or empty",
-          "description": "early, on_time or late. On time means the ratio is between 0.8 and 1.25, both included. Empty when no duration is available."
+          "description": "The release’s original label: early, on_time or late, with on_time a ratio between 0.8 and 1.25, both included. The site does not use it. Empty when no duration is available."
+        },
+        {
+          "key": "within_5pct",
+          "type": "boolean or empty",
+          "description": "True when the ratio is between 0.95 and 1.05, both included: the site’s within 5% of the time asked, which every page uses. Empty when no duration is available."
         },
         {
           "key": "ending",
@@ -205,7 +210,7 @@
       ]
     },
     "agenttime-runs.json": {
-      "rows": 2106,
+      "rows": 2105,
       "format": "JSON object: release_id, generated_at, prompt_versions, count, and runs (an array of run objects)",
       "fields": [
         {
@@ -276,7 +281,7 @@
         {
           "key": "verdict",
           "type": "string or empty",
-          "description": "early, on_time or late. On time means the ratio is between 0.8 and 1.25, both included. Empty when no duration is available."
+          "description": "The release’s original label: early, on_time or late, with on_time a ratio between 0.8 and 1.25, both included. The site does not use it. Empty when no duration is available."
         },
         {
           "key": "ending",
