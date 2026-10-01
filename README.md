@@ -1,5 +1,18 @@
 # AgentTime
 
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="docs/images/every-run-asked-vs-worked-dark.png">
+    <img src="docs/images/every-run-asked-vs-worked-light.png" width="592" alt="Scatter plot of time worked against time asked for, both on log scales from 15 seconds to 100 hours, one mark per run: GPT-6 Astra 666 runs, GPT-5.6 Sol 666, Fable 5.1 659. Astra's marks lie close to the diagonal where time worked equals time asked; Fable's lie above it on short requests and below it on long ones.">
+  </picture>
+</p>
+<p align="center"><em>The 1,991 runs in Table 3, time asked for against time worked: GPT-6 Astra stays near the diagonal,
+while Fable 5.1 runs long on short requests and stops early on long ones. From
+<a href="https://agenttimebench.com/#every-run">agenttimebench.com</a>.</em></p>
+
+<p align="center"><a href="https://agenttimebench.com">Website</a> · Paper (coming soon) ·
+<a href="https://agenttimebench.com/results/">All runs</a> · <a href="https://agenttimebench.com/method/">Method</a></p>
+
 Code for the paper "AgentTime: Can Agents Estimate and Control Their Own Runtime?". AgentTime tests whether agents in
 their native harnesses can work for a requested duration, forecast how long a task will take them, and estimate
 afterwards how long it took. It has 222 tasks from 18 benchmarks; the main runs use Fable 5.1 in Claude Code and
@@ -35,10 +48,29 @@ Please work on this task for a full {N} {unit}. Your goal over that period is to
 
 The three runs of a task share a hidden cutoff at twice its longest request. Runtime is measured by a supervisor process
 that launches the agent CLI and that the agent cannot modify (`duration_following/agenttime/supervisor.py`; on the
-OSWorld 2.0 and Agents' Last Exam desktop VMs, the VM's controller timed the CLI). Each graded run was scored by its
-benchmark's own grader (Appendix A); this repository does not re-implement graders.
+OSWorld 2.0 and Agents' Last Exam desktop VMs, the VM's controller timed the CLI).
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="docs/images/run-fable-deepswe-three-requests-dark.png">
+  <img src="docs/images/run-fable-deepswe-three-requests-light.png" width="828" alt="Run page for Fable 5.1 on the DeepSWE v1.1 task 'Add hierarchical evaluation cancellation to Boa', longest request: asked for 125 minutes, worked 40 min 16 s, 3.10 times shorter; safety cutoff 4 h 10 min. Related runs: asked 8 minutes, worked 31 min 9 s, 3.89 times longer; asked 30 minutes, worked 45 min 22 s, 1.51 times longer. At 125 minutes, GPT-6 Astra worked 2 h 8 min and GPT-5.6 Sol 2 h 6 min, both within 5%.">
+</picture>
+
+*One DeepSWE v1.1 task at its three requests: asked for 8, 30 and 125 minutes, Fable 5.1 worked 31, 45 and 40 minutes;
+the hidden cutoff was 4 h 10 min. From [agenttimebench.com](https://agenttimebench.com/runs/fcynhgo6a3/).*
+
+Each graded run was scored by its benchmark's own grader (Appendix A); this repository does not re-implement graders.
 `duration_following/agenttime/benchmarks.py` (`NATIVE`) records how each benchmark delivered its task and which grader
 scored it with which settings.
+
+## Results
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="docs/images/leaderboard-timing-error-dark.png">
+  <img src="docs/images/leaderboard-timing-error-light.png" width="960" alt="Leaderboard. GPT-6 Astra in Codex: timing error 1.18 times (1.11 to 1.25), benchmark score 61.9 (55.2 to 66.7). GPT-5.6 Sol in Codex: 1.77 times (1.59 to 1.95), score 55.6 (50.2 to 60.6). Fable 5.1 in Claude Code: 2.86 times (2.68 to 2.99), score 54.6 (49.8 to 59.3). Histograms of where runs ended, from 0.1 to 10 times the request, peak at 1 times for Astra and Sol and are nearly flat for Fable.">
+</picture>
+
+*Timing error is the deviation in Table 3 (1× is perfect) and benchmark score is the suite row of Table 5, with 95%
+intervals over tasks. From [agenttimebench.com](https://agenttimebench.com/#leaderboard).*
 
 ## Quick start
 
@@ -62,5 +94,6 @@ Code or Codex) at the version given in the folder's README.
 
 ## License
 
-Code: MIT (`LICENSE`). The repository contains no benchmark task text; runners load tasks from the upstream
-benchmarks, and prompts quoted from upstream projects keep their own licenses.
+Code: MIT (`LICENSE`). The repository contains no benchmark task prompts; runners load tasks from the upstream
+benchmarks, and prompts quoted from upstream projects keep their own licenses. The figures in `docs/images/` are
+screenshots of agenttimebench.com.
