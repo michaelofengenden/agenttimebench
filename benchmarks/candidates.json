@@ -1,0 +1,176 @@
+{
+  "schema_version": 1,
+  "status": "selected_candidates_not_qualified_roster",
+  "replacements": [
+    {
+      "family": "terminal",
+      "remove": "batched-eval-parity",
+      "add": "mp-checkpoint-consolidation"
+    },
+    {
+      "family": "terminal",
+      "remove": "nextjs-performance",
+      "add": "hof-topology-interpenetration"
+    },
+    {
+      "family": "deepswe",
+      "remove": "opa-template-string-reconstruction",
+      "add": "tomlkit-toml-table-converters"
+    }
+  ],
+  "programbench": {
+    "metadata_commit": "963063c9271cc40fa179977356782ea4582e0b0c",
+    "retained_v1": [
+      "cweill__gotests.2a672c5",
+      "nuta__nsh.bdd0702",
+      "mookid__diffr.2152742",
+      "ninja-build__ninja.cc60300",
+      "luajit__luajit.a553b3d",
+      "facebook__zstd.1168da0",
+      "lfos__calcurse.49180d5",
+      "tomarrell__wrapcheck.c058da1"
+    ],
+    "removed_v1": [
+      "noborus__trdsql.d8c5ff6",
+      "rcoh__angle-grinder.9c2fc88",
+      "stathissideris__ditaa.f2286c4",
+      "parcel-bundler__lightningcss.aa2ed1e",
+      "kaushiksrini__parqeye.8072121",
+      "o2sh__onefetch.e5958ce"
+    ],
+    "already_proposed_additions": [
+      "doxygen__doxygen.966d98e",
+      "johnkerl__miller.8d85b46",
+      "paradigmxyz__solar.5190d0e",
+      "typst__typst.88356d0"
+    ],
+    "new_additions": [
+      {
+        "id": "stranger6667__jsonschema.d52e881",
+        "repository": "Stranger6667/jsonschema",
+        "commit": "d52e88173e471d4b15404e18e4dbd815ba4b1540",
+        "language": "rs",
+        "difficulty": "hard",
+        "public_tests": 2932,
+        "best_public_score": 57.1,
+        "choice_id": "jsonschema",
+        "name": "JSONSchema",
+        "coverage": "Schema validation",
+        "reason": "Adds nested validation, references and error handling for structured data.",
+        "metadata_url": "https://github.com/facebookresearch/ProgramBench/blob/963063c9271cc40fa179977356782ea4582e0b0c/src/programbench/data/tasks/stranger6667__jsonschema.d52e881/task.yaml",
+        "task_url": "https://programbench.com/task/stranger6667__jsonschema.d52e881/",
+        "qualification_status": "pending",
+        "agenttime_v1_attempts": 0
+      },
+      {
+        "id": "rvben__rumdl.2d75c4d",
+        "repository": "rvben/rumdl",
+        "commit": "2d75c4d3569bd4061e4621c25e527f106ba65905",
+        "language": "rs",
+        "difficulty": "hard",
+        "public_tests": 3322,
+        "best_public_score": 64.7,
+        "choice_id": "rumdl",
+        "name": "rumdl",
+        "coverage": "Markdown linting and formatting",
+        "reason": "Adds interactions between document rules, diagnostics and formatting.",
+        "metadata_url": "https://github.com/facebookresearch/ProgramBench/blob/963063c9271cc40fa179977356782ea4582e0b0c/src/programbench/data/tasks/rvben__rumdl.2d75c4d/task.yaml",
+        "task_url": "https://programbench.com/task/rvben__rumdl.2d75c4d/",
+        "qualification_status": "pending",
+        "agenttime_v1_attempts": 0
+      },
+      {
+        "id": "jesseduffield__lazygit.1d0db51",
+        "repository": "jesseduffield/lazygit",
+        "commit": "1d0db51caf3d280a53f027ef049355fc9e0c57e8",
+        "language": "go",
+        "difficulty": "hard",
+        "public_tests": 855,
+        "best_public_score": 66.2,
+        "choice_id": "lazygit",
+        "name": "LazyGit",
+        "coverage": "Interactive Git workflows",
+        "reason": "Adds repository state and terminal-interface behavior.",
+        "metadata_url": "https://github.com/facebookresearch/ProgramBench/blob/963063c9271cc40fa179977356782ea4582e0b0c/src/programbench/data/tasks/jesseduffield__lazygit.1d0db51/task.yaml",
+        "task_url": "https://programbench.com/task/jesseduffield__lazygit.1d0db51/",
+        "qualification_status": "pending",
+        "agenttime_v1_attempts": 0
+      },
+      {
+        "id": "dandavison__delta.acd758f",
+        "repository": "dandavison/delta",
+        "commit": "acd758f7a08df6c2ac5542a2c5a4034c664a9ed8",
+        "language": "rs",
+        "difficulty": "hard",
+        "public_tests": 949,
+        "best_public_score": 66.5,
+        "choice_id": "delta",
+        "name": "Delta",
+        "coverage": "Diff rendering and syntax highlighting",
+        "reason": "Adds display-sensitive handling of source changes and terminal output.",
+        "metadata_url": "https://github.com/facebookresearch/ProgramBench/blob/963063c9271cc40fa179977356782ea4582e0b0c/src/programbench/data/tasks/dandavison__delta.acd758f/task.yaml",
+        "task_url": "https://programbench.com/task/dandavison__delta.acd758f/",
+        "qualification_status": "pending",
+        "agenttime_v1_attempts": 0
+      },
+      {
+        "id": "canop__broot.d6c798e",
+        "repository": "Canop/broot",
+        "commit": "d6c798edbd136dbe5b67566ad74a7daa97e8ae49",
+        "language": "rs",
+        "difficulty": "hard",
+        "public_tests": 538,
+        "best_public_score": 74.3,
+        "choice_id": "broot",
+        "name": "Broot",
+        "coverage": "Filesystem navigation and search",
+        "reason": "Adds directory traversal, search and terminal navigation.",
+        "metadata_url": "https://github.com/facebookresearch/ProgramBench/blob/963063c9271cc40fa179977356782ea4582e0b0c/src/programbench/data/tasks/canop__broot.d6c798e/task.yaml",
+        "task_url": "https://programbench.com/task/canop__broot.d6c798e/",
+        "qualification_status": "pending",
+        "agenttime_v1_attempts": 0
+      },
+      {
+        "id": "ariga__atlas.6d81150",
+        "repository": "ariga/atlas",
+        "commit": "6d81150f68d8477721af321ac3c70a4011ee2d64",
+        "language": "go",
+        "difficulty": "hard",
+        "public_tests": 1318,
+        "best_public_score": 82.5,
+        "choice_id": "atlas",
+        "name": "Atlas",
+        "coverage": "Database schemas and migrations",
+        "reason": "Adds database-schema behavior, broadening the existing tool and compiler sample.",
+        "metadata_url": "https://github.com/facebookresearch/ProgramBench/blob/963063c9271cc40fa179977356782ea4582e0b0c/src/programbench/data/tasks/ariga__atlas.6d81150/task.yaml",
+        "task_url": "https://programbench.com/task/ariga__atlas.6d81150/",
+        "qualification_status": "pending",
+        "agenttime_v1_attempts": 0
+      }
+    ],
+    "pilot_only": [
+      "ffmpeg__ffmpeg.360a402",
+      "php__php-src.c891263"
+    ],
+    "programbench_roster": [
+      "cweill__gotests.2a672c5",
+      "nuta__nsh.bdd0702",
+      "mookid__diffr.2152742",
+      "ninja-build__ninja.cc60300",
+      "luajit__luajit.a553b3d",
+      "facebook__zstd.1168da0",
+      "lfos__calcurse.49180d5",
+      "tomarrell__wrapcheck.c058da1",
+      "doxygen__doxygen.966d98e",
+      "johnkerl__miller.8d85b46",
+      "paradigmxyz__solar.5190d0e",
+      "typst__typst.88356d0",
+      "stranger6667__jsonschema.d52e881",
+      "rvben__rumdl.2d75c4d",
+      "jesseduffield__lazygit.1d0db51",
+      "dandavison__delta.acd758f",
+      "canop__broot.d6c798e",
+      "ariga__atlas.6d81150"
+    ]
+  }
+}

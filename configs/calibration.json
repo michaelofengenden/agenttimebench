@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "status": "collect_natural_first",
+  "average_seconds_by_task": {},
+  "source_observation_ids": [],
+  "minimum_comparable_agents_per_task": null,
+  "aggregation_candidate": "arithmetic_mean",
+  "weighting_policy": null,
+  "historical_natural_runs": "eligible_only_after_comparability_and_provenance_review",
+  "exclude": [
+    "duration_prompted",
+    "native_work_time_limit",
+    "externally_censored",
+    "invalid_timing",
+    "incomparable_task_or_environment"
+  ],
+  "score_filter": null,
+  "timed_calculation_revision": null,
+  "note": "No fixed M or timed durations. M is an observed natural runtime; choose the per-task average after enough comparable old and new natural runs. Record the input observations and calculation revision before any timed batch."
+}

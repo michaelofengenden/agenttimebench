@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "note": "Extensible planning registry. Entries do not establish provider access or launch readiness. Assign a new ID when the agent configuration changes.",
+  "agents": [
+    {
+      "id": "opus-5.5-max",
+      "name": "Claude Opus 5.5",
+      "model": "claude-opus-5-5",
+      "settings": {
+        "reasoning_effort": "max"
+      },
+      "route_candidate": "Claude Code / Harbor adapter",
+      "qualification_status": "pending",
+      "observed_model_revision": null,
+      "runner_version": null,
+      "tool_policy": null,
+      "subagent_policy": null
+    },
+    {
+      "id": "sol-6.1-max",
+      "name": "GPT-6.1 Sol",
+      "model": "gpt-6.1-sol",
+      "settings": {
+        "reasoning_effort": "max"
+      },
+      "route_candidate": "Codex / Harbor adapter",
+      "qualification_status": "pending",
+      "observed_model_revision": null,
+      "runner_version": null,
+      "tool_policy": null,
+      "subagent_policy": null
+    },
+    {
+      "id": "mimo-2.6-pro",
+      "name": "MiMo-V2.6-Pro",
+      "model": "mimo-v2.6-pro",
+      "settings": {
+        "reasoning_effort": null
+      },
+      "route_candidate": "MiMo API / Harbor-compatible adapter",
+      "qualification_status": "pending",
+      "observed_model_revision": null,
+      "runner_version": null,
+      "tool_policy": null,
+      "subagent_policy": null
+    }
+  ]
+}

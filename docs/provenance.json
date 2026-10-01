@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "recorded_on": "2026-09-30",
+  "note": "Read-only source references in the preserved v1 workspace. Original v2 working titles remain historical. No source file is modified or promoted to runtime qualification.",
+  "sources": [
+    {
+      "original_path": "/Users/michaelofengenden/Developer/AgentTimeExperiment/local-artifacts/v2-selected-plan-20260930/selected-plan.json",
+      "sha256": "247483afb4bbf98b5b9e71aa3622673d3e9ae8055914f375e1a636a7dd25aa29",
+      "bytes": 27723
+    },
+    {
+      "original_path": "/Users/michaelofengenden/Developer/AgentTimeExperiment/local-artifacts/v2-automation-plan-20260930/PLAN.md",
+      "sha256": "276502c84f5dc7f971a334eaeb4059b8920551f11dda3c409b99bec8288fce61",
+      "bytes": 37011
+    },
+    {
+      "original_path": "/Users/michaelofengenden/Developer/AgentTimeExperiment/local-artifacts/v2-automation-plan-20260930/LESSONS.md",
+      "sha256": "38c2dc49ddc8d5a3ee95e3809cb0f897903654455910ae0face9ee3424e497ea",
+      "bytes": 10681
+    },
+    {
+      "original_path": "/Users/michaelofengenden/Developer/AgentTimeExperiment/local-artifacts/v2-automation-plan-20260930/REVIEW.md",
+      "sha256": "a6fb2444e1e15089c8104fba1422549ec25dfb78d5ae8b38ee23de98229bc203",
+      "bytes": 7641
+    },
+    {
+      "original_path": "/Users/michaelofengenden/Developer/AgentTimeExperiment/local-artifacts/v2-automation-plan-20260930/local-source-pins.json",
+      "sha256": "25147bd0ee64bf7347f1c0fd7788d815407b90b58969767ad3aeb81c6fa2f5be",
+      "bytes": 3137
+    },
+    {
+      "original_path": "/Users/michaelofengenden/Developer/AgentTimeExperiment/local-artifacts/v2-automation-plan-20260930/harbor-source-pins.json",
+      "sha256": "656b41196821dce618f4dd2abf9c400d24c8c2dd33527ef5a6ad6f78aade33f7",
+      "bytes": 1270
+    },
+    {
+      "original_path": "/Users/michaelofengenden/Developer/AgentTimeExperiment/local-artifacts/v2-automation-plan-20260930/opus-rereview/review.md",
+      "sha256": "15548046cfc02f159293a6d05bc355994757e54a298c497f292d91e466e08539",
+      "bytes": 2283
+    },
+    {
+      "original_path": "/Users/michaelofengenden/Developer/AgentTimeExperiment/local-artifacts/v2-automation-plan-20260930/opus-rereview/receipt.json",
+      "sha256": "0feb39d54e18ffb2ad7941d4427245c5215aff585ca2793ab868a18b3a675e15",
+      "bytes": 915
+    }
+  ]
+}

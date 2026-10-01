@@ -1,0 +1,16 @@
+{
+  "scope": "Earlier architecture review, before the v1.1 rename and revised natural-runtime collection policy",
+  "model": "claude-opus-5-5",
+  "effort": "max",
+  "finished_at": "2026-09-30T13:48:40.702259+00:00",
+  "native_exit_code": 0,
+  "is_error": false,
+  "verdict": "APPROVE FOR BUILD PLANNING, subject to the Stage 1 protocol gates",
+  "does_not_establish": [
+    "native_runtime_qualification",
+    "current_scaffold_review",
+    "provider_capacity",
+    "launch_readiness"
+  ],
+  "original_receipt_sha256": "0feb39d54e18ffb2ad7941d4427245c5215aff585ca2793ab868a18b3a675e15"
+}

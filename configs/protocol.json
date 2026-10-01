@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "experiment": "AgentTime v1.1",
+  "arms": [
+    {
+      "id": "natural",
+      "natural_runtime_label": "M",
+      "duration_request": null,
+      "experiment_time_cap_seconds": null
+    },
+    {
+      "id": "short",
+      "factor_of_later_average": 0.25,
+      "duration_seconds": null
+    },
+    {
+      "id": "long",
+      "factor_of_later_average": 4,
+      "duration_seconds": null
+    }
+  ],
+  "sequence": "collect_natural_first_then_calculate_timed_requests",
+  "separate_timed_M": false,
+  "timed_prompt": "Please work on this task for a full {duration}. Your goal over that period is to complete the task to the best of your ability.",
+  "concurrency": {
+    "active_attempt_limit": 220,
+    "evaluated_agents_at_once": 1,
+    "capacity_qualified": false
+  },
+  "harbor_candidate": {
+    "version": "0.23.0",
+    "qualification_status": "pending",
+    "attempts_per_worker": 1,
+    "automatic_trial_retries": 0
+  },
+  "recovery": {
+    "preference": "continue_same_session_if_qualified",
+    "fresh_replacement_limit_per_agent_task_arm": 1,
+    "replacement_requires": [
+      "confirmed_external_infrastructure_failure",
+      "qualified_continuation_unavailable",
+      "original_proven_stopped",
+      "fresh_state_and_linked_new_attempt_id"
+    ],
+    "not_replacement_triggers": [
+      "wrong_answer",
+      "refusal",
+      "voluntary_finish",
+      "unknown_cause",
+      "agent_caused_resource_exhaustion",
+      "post_terminal_artifact_or_grade_loss"
+    ],
+    "continuation_clock": "preserve_elapsed_time_including_interruption",
+    "replacement_counting": "separate_from_nominal_study_slots",
+    "qualification_status": "pending"
+  }
+}
