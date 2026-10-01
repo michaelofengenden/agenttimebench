@@ -1,0 +1,31 @@
+model = "$model"
+model_provider = "$provider"
+model_reasoning_effort = "max"
+model_catalog_json = "/home/agent/.codex/$catalog"
+web_search = "disabled"
+project_doc_max_bytes = 0
+suppress_unstable_features_warning = true
+${developer_instructions}
+[agents]
+enabled = false
+
+[mcp_servers]
+
+[features]
+${disabled_features}skip_host_skill_discovery = true
+
+[projects."/workspace"]
+trust_level = "trusted"
+
+[tools.update_plan]
+enabled = false
+
+[tools.experimental_request_user_input]
+enabled = false
+
+[model_providers.$provider]
+name = "OpenRouter"
+base_url = "http://127.0.0.1:$port/v1"
+env_key = "OPENROUTER_API_KEY"
+wire_api = "responses"
+supports_websockets = false

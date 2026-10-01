@@ -1,0 +1,82 @@
+#!/usr/bin/env bash
+# pb — build & drive a NO-LEAKAGE ProgramBench arena for running an agent (e.g. Claude Code).
+#
+# Every task sandbox is sourced ONLY from the cleanroom image (`:task_cleanroom_v6`),
+# which contains the compiled binary + documentation with source stripped. It NEVER
+# reads programbench-tests/ or tests.json. That is the no-leakage guarantee, by construction.
+#
+# Subcommands:
+#   pb add <id>...            pull cleanroom image, extract docs into tasks/<id>/workspace, assert no source
+#   pb add-all                add ALL 200 tasks (ids from ../tasks.csv; skips present). HEAVY: ~150-220GB pull.
+#   pb probe <id> [args...]   run the ORIGINAL ./executable (observation only; network none). stdin is piped.
+#   pb build <id>             compile YOUR tasks/<id>/workspace/ solution in a fresh cleanroom image
+#   pb submit <id> [run]      package tasks/<id>/workspace -> runs/<run>/<id>/submission.tar.gz (for scoring)
+#   pb ls                     list arena tasks
+# Env: PB_FORCE=1 re-add an existing task; PB_SLIM=1 drop each image after extract (docs-only, bounded disk).
+set -euo pipefail
+ROOT="$(cd "$(dirname "$0")" && pwd)"; cd "$ROOT"
+TAG=task_cleanroom_v6
+img_of(){ echo "programbench/${1/__/_1776_}:$TAG"; }   # owner__repo.commit -> programbench/owner_1776_repo.commit:tag
+
+cmd="${1:-help}"; shift || true
+case "$cmd" in
+
+add)
+  for id in "$@"; do
+    if [ -d "tasks/$id/workspace" ] && [ -n "$(ls -A "tasks/$id/workspace" 2>/dev/null)" ] && [ -z "${PB_FORCE:-}" ]; then
+      echo "==> $id  (already present, skipping)"; continue
+    fi
+    img="$(img_of "$id")"
+    echo "==> $id  ($img)"
+    docker pull --platform linux/amd64 "$img" >/dev/null
+    rm -rf "tasks/$id"; mkdir -p "tasks/$id"
+    cid="$(docker create --platform linux/amd64 "$img" sh)"
+    docker export "$cid" | tar -xf - -C "tasks/$id" workspace 2>/dev/null || true
+    docker rm "$cid" >/dev/null
+    rm -f "tasks/$id/workspace/executable"          # NEVER keep the original binary in the editable tree
+    echo "$img" > "tasks/$id/IMAGE"
+    [ -n "${PB_SLIM:-}" ] && { docker rmi "$img" >/dev/null 2>&1 || true; }   # bounded-disk mode
+    leak="$(find "tasks/$id/workspace" -path '*/.git' -prune -o -type f \
+      \( -name '*.c' -o -name '*.h' -o -name '*.rs' -o -name '*.go' -o -name '*.cpp' \
+         -o -name '*.cc' -o -name '*.hpp' -o -name '*.java' -o -name '*.hs' -o -name '*.py' \) -print)"
+    if [ -n "$leak" ]; then echo "!! LEAKAGE: source found in extracted docs:"; echo "$leak"; exit 1; fi
+    echo "   docs: $(find "tasks/$id/workspace" -path '*/.git' -prune -o -type f -print | wc -l | tr -d ' ') file(s), source-free"
+  done
+  ;;
+
+add-all)
+  [ -f ../tasks.csv ] || { echo "../tasks.csv not found (run from arena/)"; exit 1; }
+  ids="$(tail -n +2 ../tasks.csv | cut -d, -f1)"
+  echo "add-all: $(echo "$ids" | wc -w | tr -d ' ') tasks from ../tasks.csv (skips ones already present)"
+  # shellcheck disable=SC2086
+  exec "$0" add $ids
+  ;;
+
+probe)
+  id="${1:?usage: pb probe <id> [args...]}"; shift || true
+  img="$(cat "tasks/$id/IMAGE")"
+  exec docker run --rm -i --network none --platform linux/amd64 -w /workspace "$img" ./executable "$@"
+  ;;
+
+build)
+  id="${1:?usage: pb build <id>}"; img="$(cat "tasks/$id/IMAGE")"
+  net=(--network none); [ -n "${PB_NET:-}" ] && net=()   # PB_NET=1 allows internet (real eval blocks it)
+  stage="$(mktemp -d)"
+  tar c -C "tasks/$id/workspace" --exclude=./.git --exclude=./executable . | tar x -C "$stage"
+  echo "==> building $id in $img (network: ${PB_NET:+on}${PB_NET:-none})"
+  docker run --rm "${net[@]}" --platform linux/amd64 -v "$stage":/workspace -w /workspace "$img" \
+    bash -lc '[ -x ./compile.sh ] || { echo "missing executable ./compile.sh"; exit 1; }; ./compile.sh && [ -f ./executable ] && echo PB_BUILD_OK'
+  rm -rf "$stage"
+  ;;
+
+submit)
+  id="${1:?usage: pb submit <id> [run_name]}"; run="${2:-claude_run}"
+  out="runs/$run/$id"; mkdir -p "$out"
+  tar czf "$out/submission.tar.gz" -C "tasks/$id/workspace" --exclude=./.git --exclude=./executable .
+  echo "wrote $out/submission.tar.gz  (score later: programbench eval runs/$run)"
+  ;;
+
+ls) find tasks -maxdepth 1 -mindepth 1 -type d 2>/dev/null | sed 's#tasks/#  #' || echo "  (none — run: ./pb add <id>)";;
+
+*) sed -n '2,17p' "$0";;
+esac

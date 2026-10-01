@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "agenttimebench"
+version = "0.1.0"
+description = "Code for the AgentTime experiments: duration following, forecasting and retrospective forks"
+readme = "README.md"
+license = "MIT"
+license-files = ["LICENSE"]
+authors = [{ name = "Michael Ofengenden" }, { name = "Maksym Andriushchenko" }]
+requires-python = ">=3.11"
+dependencies = []
+
+[project.optional-dependencies]
+analysis = ["numpy", "scipy", "matplotlib"]
+harbor = ["harbor==0.22.0"]
+test = ["pytest"]
+
+# Only the duration-following runner is a package; the other folders are run as scripts.
+[tool.setuptools]
+package-dir = { "agenttime" = "duration_following/agenttime" }
+packages = ["agenttime"]
+
+[tool.setuptools.package-data]
+agenttime = ["roster.json"]

@@ -1,1 +1,0 @@
-window.AT=window.AT||{};AT.shared=AT.shared||{};AT.shared["paper-setup"]=(function(){'use strict';const PAPER_SETUP=Object.freeze({reasoning_label:'max',reasoning_sentence:'each at its maximum reasoning effort',});return{PAPER_SETUP};})();

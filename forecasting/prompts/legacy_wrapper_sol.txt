@@ -1,0 +1,6 @@
+Complete the following task. Work carefully; you may compute or verify using the shell in your
+working directory. When finished, state your final answer on a line beginning "FINAL ANSWER:".
+
+--- TASK ---
+{task}
+--- END TASK ---

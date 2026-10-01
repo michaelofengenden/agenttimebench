@@ -1,0 +1,59 @@
+{
+  "draw": {
+    "seed": 20260730,
+    "size": 20,
+    "eligible_pool": "all ProgramBench tasks except singleton languages (hs, java), difficulty 'unrated', and three tasks with prior exposure (ggreer__the_silver_searcher.a61f178, sharkdp__hexyl.2e26437, tomnomnom__gron.88a6234)",
+    "strata": "language group {rs, go, c+cpp} x difficulty {easy, medium, hard}; proportional allocation with largest-remainder rounding; random.Random(seed).sample within each stratum",
+    "eligible_pool_size": 163,
+    "substitution": {
+      "out": "hairyhenderson__gomplate.05eb3aa",
+      "in": "kaushiksrini__parqeye.8072121",
+      "reason": "`pb add` found source files inside the task's documentation bundle; replaced by the first stageable task on the pre-drawn backup list"
+    }
+  },
+  "programbench_commit": "963063c9271cc40fa179977356782ea4582e0b0c",
+  "tasks": [
+    "antonmedv__walk.bf802ef",
+    "blacknon__hwatch.edfcb62",
+    "brocode__fblog.3b54330",
+    "ekzhang__bore.8e059cd",
+    "ismaelgv__rnr.fc0733b",
+    "jarun__nnn.cb2c535",
+    "kaushiksrini__parqeye.8072121",
+    "lfos__calcurse.49180d5",
+    "o2sh__onefetch.e5958ce",
+    "oppiliappan__statix.e9df54c",
+    "peco__peco.4e58dad",
+    "php__php-src.c891263",
+    "rbakbashev__elfcat.52f8cc7",
+    "sclevine__yj.8016400",
+    "shashwatah__jot.a92aad8",
+    "tarka__xcp.5e5b448",
+    "tomarrell__wrapcheck.c058da1",
+    "typst__typst.88356d0",
+    "xorg62__tty-clock.f2f847c",
+    "y2z__monolith.8702e66"
+  ],
+  "image_digests": {
+    "antonmedv__walk.bf802ef": "programbench/antonmedv_1776_walk.bf802ef@sha256:f48bd88717137a1c82485dc1282b3c74eeb49f88d991b4083427bbd9a08a6b90",
+    "blacknon__hwatch.edfcb62": "programbench/blacknon_1776_hwatch.edfcb62@sha256:224b93c2368e7410cd203ca95ac2a31f9ab93e492e71edf528c7ce1fabb15f53",
+    "brocode__fblog.3b54330": "programbench/brocode_1776_fblog.3b54330@sha256:f068a238663aeb246f30d6c0280e607634ff5897bfb6209e34aa1a834a7ee1b5",
+    "ekzhang__bore.8e059cd": "programbench/ekzhang_1776_bore.8e059cd@sha256:0f918fad5f631266409640d664b259f94e537b2c0350962fe3869d53848c40a7",
+    "ismaelgv__rnr.fc0733b": "programbench/ismaelgv_1776_rnr.fc0733b@sha256:f711e118f92a69b2ffe48c17ad94bb0f239531b6fe0a3ec06e0ebae13874b33c",
+    "jarun__nnn.cb2c535": "programbench/jarun_1776_nnn.cb2c535@sha256:6069819b0c8b3d1b0bad74ed0e82a932ca5c25aaaa8a4bdffe0232ac156f6809",
+    "kaushiksrini__parqeye.8072121": "programbench/kaushiksrini_1776_parqeye.8072121@sha256:ce2e843ff186c1eb7b65d6c67499d6f74e93cf520f88dd8775479bb6346b6e1d",
+    "lfos__calcurse.49180d5": "programbench/lfos_1776_calcurse.49180d5@sha256:26d810389a6d5b155bb6d6799beaee6a836ee8a52d29c9a5089793ac1d22c79d",
+    "o2sh__onefetch.e5958ce": "programbench/o2sh_1776_onefetch.e5958ce@sha256:9e6318b327df13ab6c182a00a87f773bf729d5578f81ce2c59ff48e0a45e5e04",
+    "oppiliappan__statix.e9df54c": "programbench/oppiliappan_1776_statix.e9df54c@sha256:ab8bc1607e853c98fb5d437b9929aa10f5dd6adcb61ac93e10d8ccb710682297",
+    "peco__peco.4e58dad": "programbench/peco_1776_peco.4e58dad@sha256:4bd71feda7f0e56824417cda6300d2c15dc1d3d0047f6dcfedc8d824241f0303",
+    "php__php-src.c891263": "programbench/php_1776_php-src.c891263@sha256:191d4ddd3ab58ea4bc09569af869c519c4be07ba7078d62bb8fcbe5284b9664d",
+    "rbakbashev__elfcat.52f8cc7": "programbench/rbakbashev_1776_elfcat.52f8cc7@sha256:74b4cd4e000b9b250b061fe9c9a94693cc388b446fa3bae9ae5f10df16194ddb",
+    "sclevine__yj.8016400": "programbench/sclevine_1776_yj.8016400@sha256:7c342d9dc3a7cdd540628f3be751625315a57c4d743a3d5324d368da00010c66",
+    "shashwatah__jot.a92aad8": "programbench/shashwatah_1776_jot.a92aad8@sha256:7893e3a9620234ccd4b22d0b304acbfab5f399626c2f3347baf299e85b46bef3",
+    "tarka__xcp.5e5b448": "programbench/tarka_1776_xcp.5e5b448@sha256:e2aeee0d664f349812710c72faafc60f21e5e33f901e5ad77306c9565c7fd49f",
+    "tomarrell__wrapcheck.c058da1": "programbench/tomarrell_1776_wrapcheck.c058da1@sha256:3a9b1a1dfeb5c488fb61a9b6e900448a9c6d3418aed365b41bd355f73dd506f8",
+    "typst__typst.88356d0": "programbench/typst_1776_typst.88356d0@sha256:8288f6d2f805d382018269d07db2bda74951ac936eb09bb43a0662443bca2a15",
+    "xorg62__tty-clock.f2f847c": "programbench/xorg62_1776_tty-clock.f2f847c@sha256:7c070e64a44e0b7dc2a032acf02159da43a0a4993a154b5fd98c4ab997726272",
+    "y2z__monolith.8702e66": "programbench/y2z_1776_monolith.8702e66@sha256:a02d458e956f5d787ba27e6dde0fcb2c60f7a0b020921cf39a3e96511b2df29e"
+  }
+}

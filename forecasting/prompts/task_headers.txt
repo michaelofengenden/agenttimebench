@@ -1,0 +1,114 @@
+# How each staged instruction file (task.txt) wraps the upstream task, by benchmark. {task} is the upstream task
+# text; other {fields} are filled per task. Each section runs from its "== " line to the next one.
+# METR public and ALE-Bench task text is cut at 6000 characters. AssistantBench validation:0 and validation:3 lack
+# the closing output-format note. Text matching the first six patterns of the last section was removed from the
+# staged files (except ProgramBench, YC-Bench, Agents Last Exam and OSWorld 2.0), and runs of three or more newlines
+# became two; the seventh pattern was applied to ALE-Bench only. The Frontier-Bench files keep their closing
+# "You have N seconds to complete this task." sentence (the no-request Harbor runs removed it from instruction.md:
+# run_harbor_sol.sh), and the PaperBench files keep "allotted time" and "maximum runtime".
+== Agents Last Exam
+Agents' Last Exam task (rdi-berkeley/agents-last-exam) [{task_id}] -- domain '{domain}', subdomain '{subdomain}'. A long-horizon, real-world professional workflow performed by an agent in a provisioned VM with staged input files under a task working directory; complete the task below end-to-end and write the required output files. This is the task card the agent receives.
+
+{task}
+== AppWorld
+AppWorld interactive multi-app task. Fulfill the following instruction using the provided app APIs.
+{task}
+== AssistantBench
+AssistantBench realistic open-web task (oriyor/assistantbench). Using a live web
+browser, find the answer to the question below. Output ONLY the answer; for a
+list give one item per line; for a number give the number.
+
+Question:
+{task}
+
+Output format: give ONLY the final answer. For a numeric answer, output a BARE number with
+no currency symbol ($), no thousands separators (commas), and no unit words — e.g. write
+769950 (not $769,950) and 3.5 (not 3.5 million). For a list, one item per line.
+== CORE-Bench
+CORE-Bench (computational reproducibility of scientific papers). Capsule {capsule_id} "{title}" -- field: {field}, language: {language}, level: {level} ({split} split). The capsule's code has already been executed and its outputs are provided in the capsule's `results` directory; you read those result files to answer the questions below and write report.json. You do not run or reproduce any code.
+
+{task}
+== DeepSWE
+DeepSWE software task (Pier/Harbor). Resolve the issue in the repository so the hidden fail-to-pass and pass-to-pass tests all pass.
+
+{task}
+== Frontier-Bench
+Frontier-Bench task (Harbor harness; successor to Terminal-Bench). Work in the provided terminal/container environment to accomplish the following, then leave it in the required end state:
+
+{task}
+== GPQA-Diamond
+{task}
+
+Work through the problem carefully, then give your final answer as a single letter (A, B, C, or D) on a line beginning "FINAL ANSWER:".
+== Humanity's Last Exam
+Humanity's Last Exam question. Answer the following.
+
+{task}
+== METR RE-Bench
+METR RE-Bench AI R&D task ({task_id}), run under the METR Task Standard in a provided compute environment (GPU/CLI, full agent scaffold). Open-ended research-engineering task: {summary}. Iterate on your solution, register attempts with the `score` action, and you are judged by the best score you achieve within the run. Full task instructions:
+
+{task}
+== METR public tasks
+METR public task (HCAST family '{family}', variant '{variant}'). Complete the task in the provided environment and submit.
+
+{task}
+== OSWorld 2.0
+OSWorld 2.0 desktop computer-use task on an Ubuntu desktop (apps: {apps}). Using mouse and keyboard, accomplish:
+
+{task}
+== PPTArena
+PPTArena PowerPoint-editing task (our own benchmark, arXiv 2512.03042). The agent works in a directory holding deck.pptx (a copy of the original deck, {original_deck}) plus INSTRUCTION.md; it must edit deck.pptx IN PLACE to satisfy the instruction below, then verify the file still opens as a valid PowerPoint.
+
+--- CLI task prompt (identical for every case) ---
+You are completing one case of the PPTArena benchmark (PowerPoint editing).
+Read INSTRUCTION.md in the current directory, then edit deck.pptx IN PLACE so that it satisfies the instruction.
+Rules:
+- Modify deck.pptx directly and keep the filename deck.pptx. You may use any tools or scripts you like (e.g. python-pptx, editing the OOXML inside the zip).
+- Apply the requested edit to the existing deck; do not build a new deck from scratch.
+- Preserve everything the instruction does not ask you to change (layout, styling, content).
+- Before finishing, verify deck.pptx is still a valid PowerPoint file that opens without repair.
+
+--- INSTRUCTION.md ---
+{task}
+== PaperBench
+PaperBench: replicate the following paper's results from scratch.
+
+PAPER
+---
+Title: {title}
+Authors: {authors}
+Reference: {reference}
+
+Abstract:
+{abstract}
+
+{task}
+== ProgramBench
+ProgramBench long-horizon task. Reconstruct the program '{program}' as an ORIGINAL reimplementation that matches its observable behavior. The reference source is stripped; a compiled binary + docs remain in the workspace. Your implementation must pass the project's hidden behavioral tests.
+
+Program description (README):
+{task}
+== Sakana ALE-Bench
+Sakana ALE-Bench (a heuristic optimization problem). Write a program that scores as high as possible on the objective defined below. Problem statement:
+
+{task}
+== TUA-Bench
+TUA-Bench task (terminal/GUI agent, Harbor). Work in the provided environment to accomplish the following, then leave it in the required end state:
+
+{task}
+== WildClawBench
+WildClawBench task "{title}" (category {category}, modality {modality}), run by a coding agent inside a Linux container; input under /tmp_workspace/, outputs to /tmp_workspace/results/. The agent receives exactly the following task instruction:
+
+{task}
+== YC-Bench
+YC-Bench year-long startup simulation (preset={preset}, seed={seed}). Operate a simulated startup via the CLI over a multi-turn episode: read world state, choose actions (hiring, product, fundraising, strategy), and advance the simulation to maximize the company's outcome. Submit actions each turn until the episode ends.
+
+{task}
+== Budget lines removed (Python regular expressions)
+\s*and a \d+-?\s*hour budget
+(?im)^\s*\d+\.\s*You have a maximum of \d+\s*hours?\..*$
+(?im)^.*You have a maximum of [\d,]+ active CPU seconds \(\d+\s*hours?\).*$
+(?im)^.*\bTime budget:\s*\d+\s*s?\s*\(\d+\s*min\)\.?
+(?im)^.*(save|checkpoint).{0,40}every ~?\d+\s*hours?.*$
+(?im)^.*within the contest window.*$
+(?im)^.*(time limit for the contest|contest.*?\bhours?\b|within the contest|after the contest (is )?over|contest (period|duration|window)).*$

@@ -1,0 +1,13 @@
+# How each staged AutomationBench task file wraps the upstream task, in the format of
+# ../../forecasting/prompts/task_headers.txt. Upstream: zapier/AutomationBench at commit
+# eda214109cf891ebe8102ca826b87fb98911e103. {task_id} is the example_id, {name} and {domain} are its task name and
+# domain, and {system_prompt} and {task} are the contents of its system and user messages.
+== AutomationBench
+Benchmark: AutomationBench (Zapier) — an agent-automation benchmark of realistic business workflows. The agent operates a set of SaaS-style tools (Gmail, Google Sheets, Slack, QuickBooks, Xero, etc.) against a simulated initial state to complete the task below. Task {task_id} ({name}), domain: {domain}. The agent receives the following system prompt and user request and must accomplish it end-to-end using tool calls.
+----------------------------------------------------------------------
+
+[SYSTEM]
+{system_prompt}
+
+[USER]
+{task}

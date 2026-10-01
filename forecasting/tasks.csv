@@ -1,0 +1,236 @@
+source,task_id,upstream_id
+Agents Last Exam,agriculture_env/crop_rotation_d02,
+Agents Last Exam,agriculture_env/ndvi_zonal_statistics_d02,
+Agents Last Exam,business_finance/ar_full_1500,
+Agents Last Exam,business_finance/ar_full_300,
+Agents Last Exam,business_finance/basel_operational_risk_bia_cn,
+Agents Last Exam,business_finance/bpmn_category_governance_restructuring_l3,
+Agents Last Exam,business_finance/bpmn_supply_disruption_l3,
+Agents Last Exam,business_finance/equity_research_summary,
+Agents Last Exam,business_finance/financial_stmt_reconstruction_aapl_fy2024,
+Agents Last Exam,business_finance/llm_ecosystem_privacy_audit_realdata_1,
+Agents Last Exam,business_finance/saas_onepager_brand_refresh_instance_1,
+Agents Last Exam,business_finance/sse_northbound_programmatic_trading_01,
+AppWorld,0d8a4ee_1,
+AppWorld,23cf851_1,
+AppWorld,37a8675_1,
+AppWorld,383cbac_1,
+AppWorld,396c5a2_1,
+AppWorld,3ab5b8b_1,
+AssistantBench,validation:0,b36ef2d8f2643b80e74a44ce3403f674ecb2aed7fd36afeaa289061a59feef92
+AssistantBench,validation:1,a9074997e698f912b9e751779ea19c1e92fa148404e90e0ae997acea3f9559b0
+AssistantBench,validation:10,291b53e665b4dd4365cde995042db4a6f6fecef3fe3a6f4482f23d61bd673918
+AssistantBench,validation:11,8fa42360185068216f2919935148d4e1ad28ddc18da0abd0f4bb0b6b6f84b127
+AssistantBench,validation:12,3af8028c2a59e28ca88baff0e6d91f2a9f170c5ef91003f1c8406755a2760ad4
+AssistantBench,validation:13,6b06d186921b8b390c65aebd0d16f09f60a47d2f1288ebe36953f734e84c0a3c
+AssistantBench,validation:14,9bdca8677af1e25cb7b0c7992dc62670c3e58e4afcd5ae60bcaa2483556bba00
+AssistantBench,validation:15,557e78eceec08ca8b0da5f9fdaca6e1c7ec6140a8ce600983ee716327dab005e
+AssistantBench,validation:2,2aa5dd83fbcd0dce9a3dd4592106e5b5edf738008d932e357d477bba80e59ccf
+AssistantBench,validation:3,2ddae3b7a208e3c25f14d82d7a1faaaa1832fbf950b4dac345e755c4c361f294
+AssistantBench,validation:4,797f7a5b65ca28b7e7156e7db1e9f117bd4a021de0cd512bfdbb0be897d89eab
+AssistantBench,validation:5,4e615af6f0348597b4133cc1ec5418bb3f35328e3d95e23a275027cee97b5e09
+AssistantBench,validation:6,c7afe00869f98cf363fd83677ac41757ed5e57f03eacc3d1304feb0a92084bd1
+AssistantBench,validation:7,57d9dc6935e8a40b02e7f8ec81768fe70e68a0c05f6866927c9fda38db38a486
+AssistantBench,validation:8,748899d9d70c09beb3bd48ac8a3658bdcfd2f9114fe6dc4c4b8d2f9541ef4607
+AssistantBench,validation:9,9e31099fffa6a3891c94934fd4fc2f3f522d51c1904ff3561f3a10e4bf245821
+CORE-Bench,capsule-0201225:easy,
+CORE-Bench,capsule-0220918:easy,
+CORE-Bench,capsule-0325493:easy,
+CORE-Bench,capsule-0504157:easy,
+CORE-Bench,capsule-0851068:easy,
+CORE-Bench,capsule-1108125:easy,
+CORE-Bench,capsule-1175539:easy,
+CORE-Bench,capsule-1624349:easy,
+CORE-Bench,capsule-1900704:easy,
+CORE-Bench,capsule-2804717:easy,
+CORE-Bench,capsule-4807644:easy,
+CORE-Bench,capsule-9022937:easy,
+DeepSWE,abs-module-cache-flags,
+DeepSWE,abs-stepped-slices,
+DeepSWE,actionlint-action-pinning-lint,
+DeepSWE,anko-default-function-arguments,
+DeepSWE,arcane-drift-detection-baselines,
+DeepSWE,dasel-html-document-format,
+DeepSWE,dateutil-rfc5545-timezone-interop,
+DeepSWE,happy-dom-abort-pending-body-reads,
+DeepSWE,opa-template-string-reconstruction,
+DeepSWE,oxvg-structural-selector-preservation,
+DeepSWE,prometheus-typed-label-sorting,
+DeepSWE,tengo-callable-instance-isolation,
+Frontier-Bench,atrx-vep-crispr,
+Frontier-Bench,ctr-optimization,
+Frontier-Bench,data-anonymization,
+Frontier-Bench,fix-uautomizer-soundness,
+Frontier-Bench,glycan-ms2-elucidation,
+Frontier-Bench,html-js-filter,
+Frontier-Bench,intrastat-meldung,
+Frontier-Bench,live-database-cutover,
+Frontier-Bench,medical-claims-processing,
+Frontier-Bench,music-harmony,
+Frontier-Bench,ontology-kg-querying,
+Frontier-Bench,risk-scorer-replay,
+Frontier-Bench,session-window-debug,
+Frontier-Bench,takens-embedding-lean,
+Frontier-Bench,wal-recovery-ordering,
+Frontier-Bench,wdm-design,
+GPQA-Diamond,q0000,fingertap/GPQA-Diamond@68be7564497676e07a77a042fdb587deb88c51c3:test:0
+GPQA-Diamond,q0001,fingertap/GPQA-Diamond@68be7564497676e07a77a042fdb587deb88c51c3:test:1
+GPQA-Diamond,q0002,fingertap/GPQA-Diamond@68be7564497676e07a77a042fdb587deb88c51c3:test:2
+GPQA-Diamond,q0003,fingertap/GPQA-Diamond@68be7564497676e07a77a042fdb587deb88c51c3:test:3
+GPQA-Diamond,q0004,fingertap/GPQA-Diamond@68be7564497676e07a77a042fdb587deb88c51c3:test:4
+GPQA-Diamond,q0005,fingertap/GPQA-Diamond@68be7564497676e07a77a042fdb587deb88c51c3:test:5
+GPQA-Diamond,q0006,fingertap/GPQA-Diamond@68be7564497676e07a77a042fdb587deb88c51c3:test:6
+GPQA-Diamond,q0007,fingertap/GPQA-Diamond@68be7564497676e07a77a042fdb587deb88c51c3:test:7
+GPQA-Diamond,q0008,fingertap/GPQA-Diamond@68be7564497676e07a77a042fdb587deb88c51c3:test:8
+GPQA-Diamond,q0009,fingertap/GPQA-Diamond@68be7564497676e07a77a042fdb587deb88c51c3:test:9
+GPQA-Diamond,q0010,fingertap/GPQA-Diamond@68be7564497676e07a77a042fdb587deb88c51c3:test:10
+GPQA-Diamond,q0011,fingertap/GPQA-Diamond@68be7564497676e07a77a042fdb587deb88c51c3:test:11
+GPQA-Diamond,q0012,fingertap/GPQA-Diamond@68be7564497676e07a77a042fdb587deb88c51c3:test:12
+GPQA-Diamond,q0013,fingertap/GPQA-Diamond@68be7564497676e07a77a042fdb587deb88c51c3:test:13
+GPQA-Diamond,q0014,fingertap/GPQA-Diamond@68be7564497676e07a77a042fdb587deb88c51c3:test:14
+GPQA-Diamond,q0015,fingertap/GPQA-Diamond@68be7564497676e07a77a042fdb587deb88c51c3:test:15
+GPQA-Diamond,q0016,fingertap/GPQA-Diamond@68be7564497676e07a77a042fdb587deb88c51c3:test:16
+GPQA-Diamond,q0017,fingertap/GPQA-Diamond@68be7564497676e07a77a042fdb587deb88c51c3:test:17
+GPQA-Diamond,q0018,fingertap/GPQA-Diamond@68be7564497676e07a77a042fdb587deb88c51c3:test:18
+GPQA-Diamond,q0019,fingertap/GPQA-Diamond@68be7564497676e07a77a042fdb587deb88c51c3:test:19
+GPQA-Diamond,q0020,fingertap/GPQA-Diamond@68be7564497676e07a77a042fdb587deb88c51c3:test:20
+GPQA-Diamond,q0021,fingertap/GPQA-Diamond@68be7564497676e07a77a042fdb587deb88c51c3:test:21
+GPQA-Diamond,q0022,fingertap/GPQA-Diamond@68be7564497676e07a77a042fdb587deb88c51c3:test:22
+GPQA-Diamond,q0023,fingertap/GPQA-Diamond@68be7564497676e07a77a042fdb587deb88c51c3:test:23
+GPQA-Diamond,q0024,fingertap/GPQA-Diamond@68be7564497676e07a77a042fdb587deb88c51c3:test:24
+GPQA-Diamond,q0025,fingertap/GPQA-Diamond@68be7564497676e07a77a042fdb587deb88c51c3:test:25
+GPQA-Diamond,q0026,fingertap/GPQA-Diamond@68be7564497676e07a77a042fdb587deb88c51c3:test:26
+GPQA-Diamond,q0027,fingertap/GPQA-Diamond@68be7564497676e07a77a042fdb587deb88c51c3:test:27
+GPQA-Diamond,q0028,fingertap/GPQA-Diamond@68be7564497676e07a77a042fdb587deb88c51c3:test:28
+GPQA-Diamond,q0029,fingertap/GPQA-Diamond@68be7564497676e07a77a042fdb587deb88c51c3:test:29
+GPQA-Diamond,q0030,fingertap/GPQA-Diamond@68be7564497676e07a77a042fdb587deb88c51c3:test:30
+GPQA-Diamond,q0031,fingertap/GPQA-Diamond@68be7564497676e07a77a042fdb587deb88c51c3:test:31
+GPQA-Diamond,q0032,fingertap/GPQA-Diamond@68be7564497676e07a77a042fdb587deb88c51c3:test:32
+GPQA-Diamond,q0033,fingertap/GPQA-Diamond@68be7564497676e07a77a042fdb587deb88c51c3:test:33
+GPQA-Diamond,q0034,fingertap/GPQA-Diamond@68be7564497676e07a77a042fdb587deb88c51c3:test:34
+GPQA-Diamond,q0035,fingertap/GPQA-Diamond@68be7564497676e07a77a042fdb587deb88c51c3:test:35
+GPQA-Diamond,q0036,fingertap/GPQA-Diamond@68be7564497676e07a77a042fdb587deb88c51c3:test:36
+GPQA-Diamond,q0037,fingertap/GPQA-Diamond@68be7564497676e07a77a042fdb587deb88c51c3:test:37
+GPQA-Diamond,q0038,fingertap/GPQA-Diamond@68be7564497676e07a77a042fdb587deb88c51c3:test:38
+GPQA-Diamond,q0039,fingertap/GPQA-Diamond@68be7564497676e07a77a042fdb587deb88c51c3:test:39
+GPQA-Diamond,q0040,fingertap/GPQA-Diamond@68be7564497676e07a77a042fdb587deb88c51c3:test:40
+GPQA-Diamond,q0041,fingertap/GPQA-Diamond@68be7564497676e07a77a042fdb587deb88c51c3:test:41
+GPQA-Diamond,q0042,fingertap/GPQA-Diamond@68be7564497676e07a77a042fdb587deb88c51c3:test:42
+GPQA-Diamond,q0043,fingertap/GPQA-Diamond@68be7564497676e07a77a042fdb587deb88c51c3:test:43
+GPQA-Diamond,q0044,fingertap/GPQA-Diamond@68be7564497676e07a77a042fdb587deb88c51c3:test:44
+GPQA-Diamond,q0045,fingertap/GPQA-Diamond@68be7564497676e07a77a042fdb587deb88c51c3:test:45
+GPQA-Diamond,q0046,fingertap/GPQA-Diamond@68be7564497676e07a77a042fdb587deb88c51c3:test:46
+GPQA-Diamond,q0047,fingertap/GPQA-Diamond@68be7564497676e07a77a042fdb587deb88c51c3:test:47
+GPQA-Diamond,q0048,fingertap/GPQA-Diamond@68be7564497676e07a77a042fdb587deb88c51c3:test:48
+GPQA-Diamond,q0049,fingertap/GPQA-Diamond@68be7564497676e07a77a042fdb587deb88c51c3:test:49
+GPQA-Diamond,q0050,fingertap/GPQA-Diamond@68be7564497676e07a77a042fdb587deb88c51c3:test:50
+GPQA-Diamond,q0051,fingertap/GPQA-Diamond@68be7564497676e07a77a042fdb587deb88c51c3:test:51
+GPQA-Diamond,q0052,fingertap/GPQA-Diamond@68be7564497676e07a77a042fdb587deb88c51c3:test:52
+GPQA-Diamond,q0053,fingertap/GPQA-Diamond@68be7564497676e07a77a042fdb587deb88c51c3:test:53
+GPQA-Diamond,q0054,fingertap/GPQA-Diamond@68be7564497676e07a77a042fdb587deb88c51c3:test:54
+GPQA-Diamond,q0055,fingertap/GPQA-Diamond@68be7564497676e07a77a042fdb587deb88c51c3:test:55
+GPQA-Diamond,q0056,fingertap/GPQA-Diamond@68be7564497676e07a77a042fdb587deb88c51c3:test:56
+GPQA-Diamond,q0057,fingertap/GPQA-Diamond@68be7564497676e07a77a042fdb587deb88c51c3:test:57
+GPQA-Diamond,q0058,fingertap/GPQA-Diamond@68be7564497676e07a77a042fdb587deb88c51c3:test:58
+GPQA-Diamond,q0059,fingertap/GPQA-Diamond@68be7564497676e07a77a042fdb587deb88c51c3:test:59
+Humanity's Last Exam,668825f80a642802bdfeadfa,
+Humanity's Last Exam,668828540a642802bdfeadfc,
+Humanity's Last Exam,669402b41dcb3d5a1ef9e951,
+Humanity's Last Exam,6696c3734c196f1af6a16fcb,
+Humanity's Last Exam,66b2c7c9795022550abb176b,
+Humanity's Last Exam,66b727d367968fa27f2dddda,
+Humanity's Last Exam,66b827b9b64deaedfbb997a2,
+Humanity's Last Exam,66ba5510db07a3a9151be0d2,
+Humanity's Last Exam,66c5c3eae30bdd4f1da62cfc,
+Humanity's Last Exam,66e4cdec11c64a7e4051b2d9,
+Humanity's Last Exam,66e70c75bbb9b1754c0869ce,
+Humanity's Last Exam,66e8784d70625d8c7700315a,
+Humanity's Last Exam,66e883265ab37f0a7da089be,
+Humanity's Last Exam,66e884515ab37f0a7da089bf,
+Humanity's Last Exam,66fc7aff818e0b579ee95856,
+Humanity's Last Exam,670f3cc6df04c6b73aa7b5df,
+Humanity's Last Exam,672eff1c72cfb81d78f82cdb,
+Humanity's Last Exam,673b6ca1a646afb63047219f,
+METR RE-Bench,ai_rd_fix_embedding/main,
+METR RE-Bench,ai_rd_restricted_mlm/main,
+METR RE-Bench,ai_rd_rust_codecontests_inference/main,
+METR RE-Bench,ai_rd_small_scaling_law/main,
+METR RE-Bench,ai_rd_triton_cumsum/main,
+METR public tasks,debug_small_libs__markdown,
+METR public tasks,esolang__broccoli_fibonacci,
+METR public tasks,hypothesis_testing__mystery_function_0,
+METR public tasks,hypothesis_testing__mystery_function_1,
+METR public tasks,make_web_server__,
+METR public tasks,password_check__7_scored,
+METR public tasks,sentiment_probe__easy,
+METR public tasks,sql_injection__userdata_flask,
+METR public tasks,symbolic_regression__level_1,
+OSWorld 2.0,001,030eeff7-b492-4218-b312-701ec99ee0cc
+OSWorld 2.0,002,06fe7178-4491-4589-810f-2e2bc9502122
+OSWorld 2.0,003,0d8b7de3-e8de-4d86-b9fd-dd2dce58a217
+OSWorld 2.0,004,12086550-11c0-466b-b367-1d9e75b3910e
+OSWorld 2.0,005,121ba48f-9e17-48ce-9bc6-a4fb17a7ebba
+OSWorld 2.0,006,1704f00f-79e6-43a7-961b-cedd3724d5fd
+OSWorld 2.0,007,2888b4e6-5b47-4b57-8bf5-c73827890774
+OSWorld 2.0,008,2ad9387a-65d8-4e33-ad5b-7580065a27ca
+PPTArena,case_007,
+PPTArena,case_016,
+PPTArena,case_017,
+PPTArena,case_024,
+PPTArena,case_044,
+PPTArena,case_073,
+PPTArena,case_075,
+PPTArena,case_096,
+PaperBench,adaptive-pruning,
+PaperBench,all-in-one,
+PaperBench,bam,
+PaperBench,bbox,
+PaperBench,bridging-data-gaps,
+PaperBench,fre,
+ProgramBench,arq5x__bedtools2.dd57059,
+ProgramBench,bellard__quickjs.d7ae12a,
+ProgramBench,cslarsen__jp2a.61d205f,
+ProgramBench,facebook__zstd.1168da0,
+ProgramBench,ggreer__the_silver_searcher.a61f178,
+ProgramBench,kisielk__errcheck.dacab89,
+ProgramBench,lfos__calcurse.49180d5,
+ProgramBench,lh3__seqtk.94e7070,
+ProgramBench,luajit__luajit.a553b3d,
+ProgramBench,mibk__dupl.1bf052b,
+ProgramBench,ninja-build__ninja.cc60300,
+ProgramBench,robertdavidgraham__masscan.b99d433,
+Sakana ALE-Bench,ahc001,
+Sakana ALE-Bench,ahc002,
+Sakana ALE-Bench,ahc003,
+Sakana ALE-Bench,ahc004,
+Sakana ALE-Bench,ahc005,
+Sakana ALE-Bench,ahc006,
+Sakana ALE-Bench,ahc007,
+Sakana ALE-Bench,ahc008,
+Sakana ALE-Bench,ahc011,
+Sakana ALE-Bench,ahc014,
+Sakana ALE-Bench,future-contest-2022-qual,
+Sakana ALE-Bench,toyota2023summer-final,
+TUA-Bench,000-count-nuclei,
+TUA-Bench,001-locate-nuclei-centers,
+TUA-Bench,002-count-enter-key-presses,
+TUA-Bench,003-rebuild-energy-model,
+TUA-Bench,004-place-heater-for-sensors,
+TUA-Bench,005-optimize-cold-plate,
+TUA-Bench,006-extract-gym-auditorium,
+TUA-Bench,007-reconstruct-prostate-obj,
+TUA-Bench,008-find-bird-chase-frames,
+TUA-Bench,011-epw-parquet-check,
+TUA-Bench,019-prostate-red-overlay,
+TUA-Bench,024-wa-osm-to-idf,
+TUA-Bench,033-prostate-volume-est,
+TUA-Bench,050-mri-png-slices,
+TUA-Bench,054-prostate-label-obj,
+TUA-Bench,114-nuclei-csv-open,
+WildClawBench,01_Productivity_Flow_task_3_bibtex,
+WildClawBench,01_Productivity_Flow_task_4_2022_conference_papers,
+WildClawBench,02_Code_Intelligence_task_11_resume_homepage_zh,
+WildClawBench,02_Code_Intelligence_task_1_sam3_inference,
+WildClawBench,04_Search_Retrieval_task_1_google_scholar_search,
+YC-Bench,yc-bench.default.seed1,
+YC-Bench,yc-bench.default.seed10,

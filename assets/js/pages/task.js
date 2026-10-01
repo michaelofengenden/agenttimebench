@@ -1,3 +1,0 @@
-(function(){'use strict';var doc=document;function ready(fn){if(doc.readyState==='loading')doc.addEventListener('DOMContentLoaded',fn);else fn();}
-ready(function(){var el=doc.getElementById('task-chart');var AT=window.AT;if(!el||!AT||!AT.data||!AT.loadScript)return;var pd=AT.data.page();if(!pd||!pd.runs)return;var files=['assets/js/shared/format.js','assets/js/shared/shapes.js','assets/js/chart.js'];var left=files.length;function mount(){if(--left||!AT.chart)return;AT.chart.mount(el,{runs:pd.runs,agents:['astra','sol','fable'],domain:'fit',highlightTask:pd.task,interactive:false,caption:doc.getElementById('task-chart-caption'),});}
-files.forEach(function(f){AT.loadScript(f,mount);});});})();

@@ -1,0 +1,18 @@
+Do a timed illustration exercise for the illustration brief below. Starting when this complete request becomes available to you, spend exactly 8 minutes developing and drawing exactly nine distinct illustrations. The eight minutes include idea development, drawing, and saving the files. Work throughout that interval and finish saving the ninth drawing exactly when the eight minutes end. Allocate your time freely across the drawings; there are no prescribed intermediate deadlines.
+
+Use your available CLI tools to create nine separate files in /workspace: sketch-01.svg through sketch-09.svg. Each file must be a complete, self-contained SVG illustration with a viewBox. Show the subject as one vivid, believable scene, like a carefully composed editorial illustration. Draw recognizable people and objects with natural proportions, expressive poses, curved silhouettes, and specific visual details. Establish foreground, middle ground, and background using perspective, overlap, and scale. Use a coherent color palette, directional light, cast shadows, highlights, and vector textures to give objects volume and materials character. Aim for lifelike imagery within the SVG medium. Use paths, shapes, and gradients; no filter effects are needed. Do not use text, labels, arrows, dimension lines, technical callouts, diagram panels, or stick figures. Draw a different subject in every file, following the numbered assignment below exactly. Give each subject its own composition, setting, and recognizable action. Do not reuse the same central character or scene across the nine images.
+
+Use only your existing knowledge and the supplied brief. You may use the available shell to write files, check the time, and wait. Create the drawings yourself with SVG markup or code that generates SVG; do not use external image generators, downloaded images, network access, or other agents. Each SVG must render independently, with no scripts, external resources, or embedded raster images. Save exactly the nine requested SVG deliverables. After saving them, give a short final response listing their filenames. The drawing endpoint is the completion of the final save; the final response is recorded separately.
+
+Illustration brief:
+Create one illustration for each assignment, in this order:
+sketch-01.svg: An otter shaping a clay bowl on a pottery wheel in a sunlit riverside studio.
+sketch-02.svg: An owl reading an open book by a warm desk lamp in a wood-paneled library.
+sketch-03.svg: A rabbit steering a small sailboat across a breezy lake.
+sketch-04.svg: A cat kneading dough in a flour-dusted bakery kitchen.
+sketch-05.svg: A bear inspecting honeycomb beside a beehive in a flowering meadow.
+sketch-06.svg: A sea turtle exploring a colorful coral reef with small fish.
+sketch-07.svg: A raccoon looking through a brass telescope on a starry hilltop.
+sketch-08.svg: A squirrel painting a landscape at an easel in an autumn woodland.
+sketch-09.svg: A hedgehog watering seedlings in a lush vegetable garden.
+Make each subject and action immediately recognizable. Include convincing contact with relevant objects, expressive anatomy, and a complete setting. The nine subjects must remain different; do not turn the set into variations of one scene.

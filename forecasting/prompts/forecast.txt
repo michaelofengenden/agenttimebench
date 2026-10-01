@@ -1,0 +1,6 @@
+How long will completing this task take you? Reply with MINUTES=<positive integer>.
+
+The task:
+"""
+{task}
+"""

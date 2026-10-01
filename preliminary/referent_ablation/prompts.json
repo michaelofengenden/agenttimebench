@@ -1,0 +1,30 @@
+{
+  "contract": "Reply with two lines: MINUTES=<positive number> (decimals are allowed), then REASON=<one short sentence explaining your estimate>.",
+  "fence_prefix": "\n\nThe task:\n\"\"\"\n",
+  "fence_suffix": "\n\"\"\"",
+  "arms": {
+    "you": "How long will it take you to complete this task? Reply with two lines: MINUTES=<positive number> (decimals are allowed), then REASON=<one short sentence explaining your estimate>.",
+    "human": "How long will it take a skilled human professional to complete this task? Reply with two lines: MINUTES=<positive number> (decimals are allowed), then REASON=<one short sentence explaining your estimate>.",
+    "frontier": "How long will it take a frontier AI agent to complete this task? Reply with two lines: MINUTES=<positive number> (decimals are allowed), then REASON=<one short sentence explaining your estimate>.",
+    "placebo": "How long will it take you to finish this task? Reply with two lines: MINUTES=<positive number> (decimals are allowed), then REASON=<one short sentence explaining your estimate>.",
+    "expert": "How long will it take a human expert to complete this task? Reply with two lines: MINUTES=<positive number> (decimals are allowed), then REASON=<one short sentence explaining your estimate>."
+  },
+  "referent_substrings": {
+    "you_vs_human": [
+      "you",
+      "a skilled human professional"
+    ],
+    "you_vs_frontier": [
+      "you",
+      "a frontier AI agent"
+    ],
+    "you_vs_placebo": [
+      "complete",
+      "finish"
+    ],
+    "professional_vs_expert": [
+      "a skilled human professional",
+      "a human expert"
+    ]
+  }
+}

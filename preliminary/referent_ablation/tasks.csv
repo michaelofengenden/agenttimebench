@@ -1,0 +1,233 @@
+source,task_id
+Agents Last Exam,agriculture_env/crop_rotation_d02
+Agents Last Exam,agriculture_env/ndvi_zonal_statistics_d02
+Agents Last Exam,business_finance/ar_full_1500
+Agents Last Exam,business_finance/ar_full_300
+Agents Last Exam,business_finance/basel_operational_risk_bia_cn
+Agents Last Exam,business_finance/bpmn_category_governance_restructuring_l3
+Agents Last Exam,business_finance/bpmn_supply_disruption_l3
+Agents Last Exam,business_finance/equity_research_summary
+Agents Last Exam,business_finance/financial_stmt_reconstruction_aapl_fy2024
+Agents Last Exam,business_finance/llm_ecosystem_privacy_audit_realdata_1
+Agents Last Exam,business_finance/saas_onepager_brand_refresh_instance_1
+Agents Last Exam,business_finance/sse_northbound_programmatic_trading_01
+AppWorld,0d8a4ee_1
+AppWorld,23cf851_1
+AppWorld,37a8675_1
+AppWorld,383cbac_1
+AppWorld,396c5a2_1
+AppWorld,3ab5b8b_1
+AutomationBench,4001
+AutomationBench,4002
+AutomationBench,4003
+AutomationBench,4004
+AutomationBench,4005
+AutomationBench,4006
+AutomationBench,4007
+AutomationBench,4008
+AutomationBench,4009
+AutomationBench,4010
+AutomationBench,4011
+AutomationBench,4012
+CORE-Bench,capsule-0201225:easy
+CORE-Bench,capsule-0220918:easy
+CORE-Bench,capsule-0325493:easy
+CORE-Bench,capsule-0504157:easy
+CORE-Bench,capsule-0851068:easy
+CORE-Bench,capsule-1108125:easy
+CORE-Bench,capsule-1175539:easy
+CORE-Bench,capsule-1624349:easy
+CORE-Bench,capsule-1900704:easy
+CORE-Bench,capsule-2804717:easy
+CORE-Bench,capsule-4807644:easy
+CORE-Bench,capsule-9022937:easy
+DeepSWE,abs-module-cache-flags
+DeepSWE,abs-stepped-slices
+DeepSWE,actionlint-action-pinning-lint
+DeepSWE,anko-default-function-arguments
+DeepSWE,arcane-drift-detection-baselines
+DeepSWE,dasel-html-document-format
+DeepSWE,dateutil-rfc5545-timezone-interop
+DeepSWE,happy-dom-abort-pending-body-reads
+DeepSWE,opa-template-string-reconstruction
+DeepSWE,oxvg-structural-selector-preservation
+DeepSWE,prometheus-typed-label-sorting
+DeepSWE,tengo-callable-instance-isolation
+Frontier-Bench,atrx-vep-crispr
+Frontier-Bench,ctr-optimization
+Frontier-Bench,data-anonymization
+Frontier-Bench,fix-uautomizer-soundness
+Frontier-Bench,glycan-ms2-elucidation
+Frontier-Bench,html-js-filter
+Frontier-Bench,intrastat-meldung
+Frontier-Bench,live-database-cutover
+Frontier-Bench,medical-claims-processing
+Frontier-Bench,music-harmony
+Frontier-Bench,ontology-kg-querying
+Frontier-Bench,risk-scorer-replay
+Frontier-Bench,session-window-debug
+Frontier-Bench,takens-embedding-lean
+Frontier-Bench,wal-recovery-ordering
+Frontier-Bench,wdm-design
+GPQA-Diamond,q0000
+GPQA-Diamond,q0001
+GPQA-Diamond,q0002
+GPQA-Diamond,q0003
+GPQA-Diamond,q0004
+GPQA-Diamond,q0005
+GPQA-Diamond,q0006
+GPQA-Diamond,q0007
+GPQA-Diamond,q0008
+GPQA-Diamond,q0009
+GPQA-Diamond,q0010
+GPQA-Diamond,q0011
+GPQA-Diamond,q0012
+GPQA-Diamond,q0013
+GPQA-Diamond,q0014
+GPQA-Diamond,q0015
+GPQA-Diamond,q0016
+GPQA-Diamond,q0017
+GPQA-Diamond,q0018
+GPQA-Diamond,q0019
+GPQA-Diamond,q0020
+GPQA-Diamond,q0021
+GPQA-Diamond,q0022
+GPQA-Diamond,q0023
+GPQA-Diamond,q0024
+GPQA-Diamond,q0025
+GPQA-Diamond,q0026
+GPQA-Diamond,q0027
+GPQA-Diamond,q0028
+GPQA-Diamond,q0029
+GPQA-Diamond,q0030
+GPQA-Diamond,q0031
+GPQA-Diamond,q0032
+GPQA-Diamond,q0033
+GPQA-Diamond,q0034
+GPQA-Diamond,q0035
+GPQA-Diamond,q0036
+GPQA-Diamond,q0037
+GPQA-Diamond,q0038
+GPQA-Diamond,q0039
+GPQA-Diamond,q0040
+GPQA-Diamond,q0041
+GPQA-Diamond,q0042
+GPQA-Diamond,q0043
+GPQA-Diamond,q0044
+GPQA-Diamond,q0045
+GPQA-Diamond,q0046
+GPQA-Diamond,q0047
+GPQA-Diamond,q0048
+GPQA-Diamond,q0049
+GPQA-Diamond,q0050
+GPQA-Diamond,q0051
+GPQA-Diamond,q0052
+GPQA-Diamond,q0053
+GPQA-Diamond,q0054
+GPQA-Diamond,q0055
+GPQA-Diamond,q0056
+GPQA-Diamond,q0057
+GPQA-Diamond,q0058
+GPQA-Diamond,q0059
+Humanity's Last Exam,668825f80a642802bdfeadfa
+Humanity's Last Exam,668828540a642802bdfeadfc
+Humanity's Last Exam,669402b41dcb3d5a1ef9e951
+Humanity's Last Exam,6696c3734c196f1af6a16fcb
+Humanity's Last Exam,66b2c7c9795022550abb176b
+Humanity's Last Exam,66b727d367968fa27f2dddda
+Humanity's Last Exam,66b827b9b64deaedfbb997a2
+Humanity's Last Exam,66ba5510db07a3a9151be0d2
+Humanity's Last Exam,66c5c3eae30bdd4f1da62cfc
+Humanity's Last Exam,66e4cdec11c64a7e4051b2d9
+Humanity's Last Exam,66e70c75bbb9b1754c0869ce
+Humanity's Last Exam,66e8784d70625d8c7700315a
+Humanity's Last Exam,66e883265ab37f0a7da089be
+Humanity's Last Exam,66e884515ab37f0a7da089bf
+Humanity's Last Exam,66fc7aff818e0b579ee95856
+Humanity's Last Exam,670f3cc6df04c6b73aa7b5df
+Humanity's Last Exam,672eff1c72cfb81d78f82cdb
+Humanity's Last Exam,673b6ca1a646afb63047219f
+METR RE-Bench,ai_rd_fix_embedding/main
+METR RE-Bench,ai_rd_nanogpt_chat_rl/main
+METR RE-Bench,ai_rd_rust_codecontests_inference/main
+METR RE-Bench,ai_rd_small_scaling_law/main
+METR RE-Bench,ai_rd_triton_cumsum/main
+METR public tasks,debug_small_libs__markdown
+METR public tasks,esolang__broccoli_fibonacci
+METR public tasks,hypothesis_testing__mystery_function_0
+METR public tasks,hypothesis_testing__mystery_function_1
+METR public tasks,make_web_server__
+METR public tasks,password_check__7_scored
+METR public tasks,sentiment_probe__easy
+METR public tasks,sql_injection__userdata_flask
+METR public tasks,symbolic_regression__level_1
+OSWorld 2.0,001
+OSWorld 2.0,002
+OSWorld 2.0,003
+OSWorld 2.0,004
+OSWorld 2.0,005
+OSWorld 2.0,006
+OSWorld 2.0,007
+OSWorld 2.0,008
+PPTArena,case_007
+PPTArena,case_016
+PPTArena,case_017
+PPTArena,case_024
+PPTArena,case_044
+PPTArena,case_073
+PPTArena,case_075
+PPTArena,case_096
+PaperBench,adaptive-pruning
+PaperBench,all-in-one
+PaperBench,bam
+PaperBench,bbox
+PaperBench,bridging-data-gaps
+PaperBench,fre
+ProgramBench,arq5x__bedtools2.dd57059
+ProgramBench,bellard__quickjs.d7ae12a
+ProgramBench,cslarsen__jp2a.61d205f
+ProgramBench,facebook__zstd.1168da0
+ProgramBench,ggreer__the_silver_searcher.a61f178
+ProgramBench,kisielk__errcheck.dacab89
+ProgramBench,lfos__calcurse.49180d5
+ProgramBench,lh3__seqtk.94e7070
+ProgramBench,luajit__luajit.a553b3d
+ProgramBench,mibk__dupl.1bf052b
+ProgramBench,ninja-build__ninja.cc60300
+ProgramBench,robertdavidgraham__masscan.b99d433
+Sakana ALE-Bench,ahc001
+Sakana ALE-Bench,ahc002
+Sakana ALE-Bench,ahc003
+Sakana ALE-Bench,ahc004
+Sakana ALE-Bench,ahc005
+Sakana ALE-Bench,ahc006
+Sakana ALE-Bench,ahc007
+Sakana ALE-Bench,ahc008
+Sakana ALE-Bench,ahc011
+Sakana ALE-Bench,ahc014
+Sakana ALE-Bench,future-contest-2022-qual
+Sakana ALE-Bench,toyota2023summer-final
+TUA-Bench,000-count-nuclei
+TUA-Bench,001-locate-nuclei-centers
+TUA-Bench,002-count-enter-key-presses
+TUA-Bench,003-rebuild-energy-model
+TUA-Bench,004-place-heater-for-sensors
+TUA-Bench,005-optimize-cold-plate
+TUA-Bench,006-extract-gym-auditorium
+TUA-Bench,007-reconstruct-prostate-obj
+TUA-Bench,008-find-bird-chase-frames
+TUA-Bench,011-epw-parquet-check
+TUA-Bench,019-prostate-red-overlay
+TUA-Bench,024-wa-osm-to-idf
+TUA-Bench,033-prostate-volume-est
+TUA-Bench,050-mri-png-slices
+TUA-Bench,054-prostate-label-obj
+TUA-Bench,114-nuclei-csv-open
+WildClawBench,01_Productivity_Flow_task_3_bibtex
+WildClawBench,01_Productivity_Flow_task_4_2022_conference_papers
+WildClawBench,02_Code_Intelligence_task_11_resume_homepage_zh
+WildClawBench,02_Code_Intelligence_task_1_sam3_inference
+WildClawBench,04_Search_Retrieval_task_1_google_scholar_search
+WildClawBench,05_Creative_Synthesis_task_11_video_en_to_zh_dub
+YC-Bench,yc-bench.default.seed1
+YC-Bench,yc-bench.default.seed10

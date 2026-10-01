@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.egg-info/
+build/
+dist/
+.venv/
+venv/
+node_modules/
+
+# Outputs written by the scripts
+figures/
+results/
+outputs/
+*.log
+
+# Credentials and local config
+.env
+.env.*
+*.env
+!.env.example
+auth.json
+.credentials.json
+.oauth_tokens*
+api-token
+api_key
+*.key
+*.pem
+id_rsa*
+id_ed25519*
+known_hosts*
+accounts*.json
+settings.local.json
+.claude/
+.codex*/
+
+.DS_Store
