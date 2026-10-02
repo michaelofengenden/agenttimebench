@@ -1,4 +1,4 @@
-"""duration_following: metric definitions and the analysis CLI on small synthetic inputs."""
+"""duration_following: metric definitions, the release converter and the analysis CLI on small synthetic inputs."""
 import csv
 import json
 import sys
@@ -7,7 +7,7 @@ from pathlib import Path
 import pytest
 
 HERE = Path(__file__).resolve().parents[1] / "duration_following"
-NAMES = ("metrics", "analyze", "figures")
+NAMES = ("metrics", "analyze", "figures", "from_release")
 
 
 def _load():
@@ -17,16 +17,17 @@ def _load():
     try:
         import analyze
         import figures
+        import from_release
         import metrics
     finally:
         sys.path.remove(str(HERE))
         for k in NAMES:
             sys.modules.pop(k, None)
         sys.modules.update(saved)
-    return metrics, analyze, figures
+    return metrics, analyze, figures, from_release
 
 
-M, A, F = _load()
+M, A, F, R = _load()
 FABLE, SOL, ASTRA = "claude-fable-5-1", "gpt-5.6-sol", "gpt-6-astra"
 SHORT = {FABLE: "fable", SOL: "sol", ASTRA: "astra"}
 
@@ -192,3 +193,85 @@ def test_figures_cli_writes_three_pdfs(inputs, tmp_path):
     assert pdfs == ["agenttime_duration_following_hero_equal_axes.pdf", "agenttime_duration_following_three_agents.pdf",
                     "duration_following_breakdown.pdf"]
     assert all((tmp_path / "figs" / p).stat().st_size > 1000 for p in pdfs)
+
+
+# ---- from the website's data release -----------------------------------------------------------------
+
+RELEASE_SLUG = {FABLE: "claude-fable-5-1", SOL: "gpt-5-6-sol", ASTRA: "gpt-6-astra"}
+
+
+def release_run(a, b, t, k, value, raw, source="native", parts=None, **kw):
+    """One run as in agenttime-runs.json, with the fields the converter reads."""
+    req = REQUESTS[k]
+    return {"id": f"{SHORT.get(a, a)}-{t}-{k}", "agent": RELEASE_SLUG.get(a, a), "benchmark": b, "task": f"task-{t}",
+            "task_raw_id": t, "request": k, "requested_s": req, "worked_s": req * FACTOR.get(a, FACTOR[SOL])[k],
+            "in_default": True, "grade": {"value": raw}, "score": {"value": value, "parts": parts, "source": source},
+            **kw}
+
+
+@pytest.fixture
+def release(tmp_path):
+    """A tiny agenttime-runs.json: 3 agents x 4 tasks x 3 requests, plus a fourth agent and a left-out refusal."""
+    runs = []
+    for a in (FABLE, SOL, ASTRA):
+        for i, k in enumerate(A.ARMS):
+            for t in ("q1", "q2"):
+                raw = 0 if (a, k) == (FABLE, "shortest") else 1
+                source = "no_output_zero" if (a, t, k) == (FABLE, "q2", "middle") else "native"
+                runs.append(release_run(a, "gpqa-diamond", t, k, 100 * raw, raw, source))
+            if (a, k) == (ASTRA, "middle"):   # not graded
+                runs.append(release_run(a, "pptarena", "7", k, None, None, None))
+            else:
+                parts = {"instruction_following": 2 + i, "visual_quality": 4}
+                runs.append(release_run(a, "pptarena", "7", k, 10 * (6 + i), None, parts=parts))
+            runs.append(release_run(a, "sakana-ale-bench", "ahc016", k, 1500 + 100 * i, 1000 * (i + 1)))
+    runs.append(release_run("muse-spark-1-3", "gpqa-diamond", "q1", "middle", 100, 1))
+    runs.append(release_run(FABLE, "programbench", "p1", "shortest", None, None, None, in_default=False))
+    path = tmp_path / "agenttime-runs.json"
+    path.write_text(json.dumps({"release_id": "test", "count": len(runs), "runs": runs}))
+    return str(path)
+
+
+def read_rows(path):
+    with open(path, newline="") as fh:
+        return list(csv.DictReader(fh))
+
+
+def test_from_release_maps_fields_and_follows_the_order_file(release, tmp_path):
+    order = tmp_path / "order.txt"   # RUNS: Fable's q2 before its q1; SCORES: PPTArena first
+    order.write_text("fable-q2-longest\nfable-q1-middle\nnot-a-run\n\nsol-7-middle\n")
+    R.main([release, str(tmp_path / "out"), "--order", str(order)])
+    runs, scores = read_rows(tmp_path / "out/runs.csv"), read_rows(tmp_path / "out/scores.csv")
+    assert len(runs) == len(scores) == 36 and {r["agent"] for r in runs} == {FABLE, SOL, ASTRA}
+    assert [r["run_id"] for r in runs[:7]] == ["fable-q2-shortest", "fable-q2-middle", "fable-q2-longest",
+                                               "fable-q1-shortest", "fable-q1-middle", "fable-q1-longest",
+                                               "fable-7-shortest"]   # then the rest in release order
+    assert [r["run_id"] for r in scores[:9]] == [f"{SHORT[a]}-7-{k}" for a in (FABLE, SOL, ASTRA) for k in A.ARMS]
+    row = {r["run_id"]: {**r, **s} for r in runs for s in scores if s["run_id"] == r["run_id"]}
+    assert {k: row["sol-ahc016-longest"][k] for k in ("agent", "benchmark", "task", "requested_s", "worked_s")} == {
+        "agent": SOL, "benchmark": "sakana-ale-bench", "task": "ahc016", "requested_s": "960", "worked_s": "960.0"}
+    assert (row["sol-ahc016-longest"]["score"], row["sol-ahc016-longest"]["score_raw"]) == ("1700", "3000")
+    assert float(row["fable-7-middle"]["score_raw"]) == pytest.approx(0.7)   # (IF + VQ) / 10
+    assert (row["astra-7-middle"]["score"], row["astra-7-middle"]["score_raw"]) == ("", "")
+    assert [r for r in row if row[r]["no_output"] == "true"] == ["fable-q2-middle"]
+
+
+def test_analyze_and_figures_run_without_labels(release, tmp_path, capsys):
+    R.main([release, str(tmp_path / "out")])   # the shipped release_order.txt lists none of these runs
+    runs, scores = str(tmp_path / "out/runs.csv"), str(tmp_path / "out/scores.csv")
+    A.main([runs, scores, "--json", str(tmp_path / "numbers.json")])
+    assert "Figure 3b: skipped, no LABELS file given" in capsys.readouterr().out
+    n = json.loads((tmp_path / "numbers.json").read_text())
+    assert n["transcripts"] is None and n["duration_following"][FABLE]["runs"] == 12
+    assert n["score_change"]["minimized_ale_tasks"] == [] and n["native_scores"]["suite_benchmarks"] == ["gpqa-diamond"]
+    assert n["native_scores"]["graded"]["no_output_by_benchmark"] == {"gpqa-diamond": 1}
+    F.main([runs, scores, "--out", str(tmp_path / "figs")])
+    assert "panel b skipped" in capsys.readouterr().out
+    assert len(list((tmp_path / "figs").glob("*.pdf"))) == 3
+
+
+def test_release_order_file_has_two_blocks_of_run_ids():
+    blocks = [b.split() for b in (HERE / "release_order.txt").read_text().split("\n\n")]
+    assert [len(b) for b in blocks] == [666, 208]   # each agent's 222 tasks; the suite's tasks
+    for b in blocks:
+        assert len(set(b)) == len(b) and all(len(i) == 10 and i.isalnum() and i == i.lower() for i in b)

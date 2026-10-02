@@ -30,6 +30,12 @@ instead of max, and Codex was launched with `codex exec` directly (the runner in
 Harbor. 14 Fable 5.1 runs (11 ProgramBench, 3 METR) were completed by Claude Opus 4.8 after a Fable refusal and count as
 "Fable 5.1 with fallbacks". Refused (6) and unfinished (1) Fable 5.1 runs are not counted (1,991 runs: 659, 666, 666).
 
-`python analyze.py RUNS SCORES LABELS` (inputs in its docstring) prints Table 3 (upper block), the Section 4.1 numbers,
+`analyze.py RUNS SCORES [LABELS]` (inputs in its docstring) prints Table 3 (upper block), the Section 4.1 numbers,
 the Figure 3 counts and Table 5 with its suite row; `figures.py` with the same arguments draws Figures 1-3. LABELS:
-Claude Opus 5.5 (Astra) and Claude Sonnet 5 (Sol, Fable) labelled condensed transcripts with `LABELING_RUBRIC.md`.
+Claude Opus 5.5 (Astra) and Claude Sonnet 5 (Sol, Fable) labelled condensed transcripts with `LABELING_RUBRIC.md`;
+the labels are not public, and without them Figure 3b is skipped.
+RUNS and SCORES come from the website's [data release](https://agenttimebench.com/downloads/2026-09-26-1311Z/):
+```
+curl -O https://agenttimebench.com/downloads/2026-09-26-1311Z/agenttime-runs.json
+python from_release.py agenttime-runs.json OUT/ && python analyze.py OUT/runs.csv OUT/scores.csv
+```

@@ -1,9 +1,10 @@
 """Render Figures 1, 2 and 3 of the paper as PDFs at their printed size.
 
-    python figures.py RUNS SCORES LABELS [--out DIR]   # inputs as in analyze.py; DIR defaults to figures/
+    python figures.py RUNS SCORES [LABELS] [--out DIR]   # inputs as in analyze.py; DIR defaults to figures/
 
 Both time axes use log(1 + t / 30 s): linear below about 30 s, logarithmic above, so equal durations lie on the
-diagonal. Shading spans 0.8 to 1.25 times the request and dotted lines mark tenfold deviations.
+diagonal. Shading spans 0.8 to 1.25 times the request and dotted lines mark tenfold deviations. Without LABELS,
+Figure 3 has no panel b.
 """
 import argparse
 import logging
@@ -151,26 +152,30 @@ def text_color(color):
     return "white" if 1.05 / (y + 0.05) >= (y + 0.05) / 0.0605 else "#0b0b0b"
 
 
-def figure3(runs, scores, labels):
-    """(a) when runs ended, (b) what filled the time, (c) whether 16x more time changed the score."""
+def figure3(runs, scores, labels=None):
+    """(a) when runs ended, (b) what filled the time (only with labels), (c) whether 16x more time changed the score."""
     gray = {"early": "#e2dfd8", "late": "#aaa69d"}
     fill = lambda m, role: gray[role] if role in gray else mix(POINT[m], {"key": 1.0, "mid": 0.55, "light": 0.28}[role])
-    b, c = A.transcripts(runs, labels), A.score_change(scores)
+    c = A.score_change(scores)
     stretch = A.details(runs, scores)["longest_over_shortest_request_median"]
     panels = [
         ("a", "When did the run end?", [("Early", "early"), ("On time", "key"), ("Late", "late")],
          {m: [M.shares([r for r in runs if r["agent"] == m])[i] for i in (1, 0, 2)] for m in A.AGENTS},
          {m: sum(r["agent"] == m for r in runs) for m in A.AGENTS}),
-        ("b", "What filled the time?",
-         [("Early", "early"), ("Working", "key"), ("Re-checked", "mid"), ("Slept", "light"), ("Late", "late")],
-         {m: [b[m]["counts"][k] / b[m]["n"] for k in ("early", "working", "rechecked", "slept", "late")] for m in A.AGENTS},
-         {m: b[m]["n"] for m in A.AGENTS}),
         ("c", f"Did {stretch:.0f}× more time help?", [("Lower", "late"), ("Same", "early"), ("Higher", "key")],
          {m: [c[m][k] / c[m]["tasks"] for k in ("lower", "same", "higher")] for m in A.AGENTS},
          {m: c[m]["tasks"] for m in A.AGENTS}),
     ]
-    width, labels_w, n_w, gap, bar_h, pitch = 396, 47, 14, 9, 10.5, 15
-    bar_ws, title_h, legend_h, top = (95, 111, 83), 10.5, 11, 2
+    if labels is not None:
+        b, groups = A.transcripts(runs, labels), ("early", "working", "rechecked", "slept", "late")
+        panels.insert(1, ("b", "What filled the time?",
+                          [("Early", "early"), ("Working", "key"), ("Re-checked", "mid"), ("Slept", "light"),
+                           ("Late", "late")],
+                          {m: [b[m]["counts"][k] / b[m]["n"] for k in groups] for m in A.AGENTS},
+                          {m: b[m]["n"] for m in A.AGENTS}))
+    labels_w, n_w, gap, bar_h, pitch = 47, 14, 9, 10.5, 15
+    bar_ws, title_h, legend_h, top = {"a": 95, "b": 111, "c": 83}, 10.5, 11, 2
+    width = labels_w + sum(bar_ws[p[0]] + n_w for p in panels) + gap * (len(panels) - 1)  # 396 with all three panels
     height = top + title_h + legend_h + pitch * 2 + bar_h + 1
     fig = plt.figure(figsize=(width / 72, height / 72))
     ax = fig.add_axes([0, 0, 1, 1])
@@ -185,7 +190,8 @@ def figure3(runs, scores, labels):
         ax.text(labels_w - 5, row_y[m] + bar_h / 2, NAME[m], ha="right", va="center_baseline", fontsize=7.4,
                 color=TREND[m])
     x0 = labels_w
-    for (letter, title, cats, shares, ns), bar_w in zip(panels, bar_ws):
+    for letter, title, cats, shares, ns in panels:
+        bar_w = bar_ws[letter]
         ax.text(x0, top, letter, ha="left", va="top", fontsize=7.6, fontweight="bold", color=INK)
         ax.text(x0 + 7.5, top, title, ha="left", va="top", fontsize=7.6, fontweight="bold", color=INK)
         lx, ly = x0, top + title_h + 1.5
@@ -220,12 +226,15 @@ def figure3(runs, scores, labels):
 
 def main(argv=None):
     ap = argparse.ArgumentParser(description=__doc__.splitlines()[0])
-    for name in ("runs", "scores", "labels"):
-        ap.add_argument(name, help=f"{name.upper()} csv, as in analyze.py")
+    ap.add_argument("runs", help="RUNS csv, as in analyze.py")
+    ap.add_argument("scores", help="SCORES csv, as in analyze.py")
+    ap.add_argument("labels", nargs="?", help="LABELS csv, as in analyze.py (optional)")
     ap.add_argument("--out", default="figures", help="output directory")
     args = ap.parse_args(argv)
     runs = A.load_runs(args.runs)
-    scores, labels = A.load_scores(args.scores, runs), A.load_labels(args.labels)
+    scores, labels = A.load_scores(args.scores, runs), A.load_labels(args.labels) if args.labels else None
+    if labels is None:
+        print("Figure 3: panel b skipped, no LABELS file given")
     setup()
     out = Path(args.out)
     out.mkdir(parents=True, exist_ok=True)

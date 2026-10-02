@@ -10,6 +10,8 @@ venv/
 node_modules/
 
 # Outputs written by the scripts
+agenttime-runs.json
+OUT/
 figures/
 results/
 outputs/

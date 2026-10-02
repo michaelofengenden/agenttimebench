@@ -50,14 +50,6 @@ The three runs of a task share a hidden cutoff at twice its longest request. Run
 that launches the agent CLI and that the agent cannot modify (`duration_following/agenttime/supervisor.py`; on the
 OSWorld 2.0 and Agents' Last Exam desktop VMs, the VM's controller timed the CLI).
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="docs/images/run-fable-deepswe-three-requests-dark.png">
-  <img src="docs/images/run-fable-deepswe-three-requests-light.png" width="828" alt="Run page for Fable 5.1 on the DeepSWE v1.1 task 'Add hierarchical evaluation cancellation to Boa', longest request: asked for 125 minutes, worked 40 min 16 s, 3.10 times shorter; safety cutoff 4 h 10 min. Related runs: asked 8 minutes, worked 31 min 9 s, 3.89 times longer; asked 30 minutes, worked 45 min 22 s, 1.51 times longer. At 125 minutes, GPT-6 Astra worked 2 h 8 min and GPT-5.6 Sol 2 h 6 min, both within 5%.">
-</picture>
-
-*One DeepSWE v1.1 task at its three requests: asked for 8, 30 and 125 minutes, Fable 5.1 worked 31, 45 and 40 minutes;
-the hidden cutoff was 4 h 10 min. From [agenttimebench.com](https://agenttimebench.com/runs/fcynhgo6a3/).*
-
 Each graded run was scored by its benchmark's own grader (Appendix A); this repository does not re-implement graders.
 `duration_following/agenttime/benchmarks.py` (`NATIVE`) records how each benchmark delivered its task and which grader
 scored it with which settings.
@@ -71,6 +63,15 @@ scored it with which settings.
 
 *Timing error is the deviation in Table 3 (1× is perfect) and benchmark score is the suite row of Table 5, with 95%
 intervals over tasks. From [agenttimebench.com](https://agenttimebench.com/#leaderboard).*
+
+The per-run data is in the website's [data release](https://agenttimebench.com/downloads/2026-09-26-1311Z/). These
+commands recompute the upper block of Table 3, the duration-following numbers in Section 4.1 and Table 5 from it
+(Figure 3b also needs the transcript labels, which are not public):
+
+```bash
+cd duration_following && curl -O https://agenttimebench.com/downloads/2026-09-26-1311Z/agenttime-runs.json
+python from_release.py agenttime-runs.json OUT/ && python analyze.py OUT/runs.csv OUT/scores.csv
+```
 
 ## Quick start
 

@@ -1,6 +1,6 @@
 """Print Table 3 (upper block), the Section 4.1 numbers, Figure 3 (a, b, c) and Appendix A Table 5 with its suite row.
 
-    python analyze.py RUNS SCORES LABELS [--json OUT]
+    python analyze.py RUNS SCORES [LABELS] [--json OUT]
 
 Inputs are CSV files with a header row (other columns are ignored):
   RUNS    one row per run: run_id, agent (claude-fable-5-1, gpt-5.6-sol, gpt-6-astra), benchmark (a slug of
@@ -11,6 +11,7 @@ Inputs are CSV files with a header row (other columns are ignored):
           task in Figure 3c (0-1; PPTArena (IF + VQ) / 10; ALE-Bench raw score; YC-Bench funds), empty with score;
           no_output, true if the run left nothing to grade and scores 0.
   LABELS  one row per run with a timestamped transcript: run_id, label (a LABELING_RUBRIC.md label; empty if unread).
+          Optional: without it the Figure 3b counts are skipped.
 Bootstrap CIs resample tasks in the order they first appear: in RUNS for Table 3 and Section 4.1, in SCORES for the
 suite row.
 """
@@ -236,17 +237,18 @@ def native_scores(scores):
         boots.sort()
         suite[a] = {"mean": round(sum(means[b][a] for b in fams) / len(fams), 1),
                     "ci": [round(boots[49], 1), round(boots[1949], 1)]}
-    graded = {"runs": len(scores), "scored": sum(r["scored"] for r in scores),
-              "no_output": sum(r["no_output"] for r in scores),
-              "no_output_by_benchmark": dict(collections.Counter(r["benchmark"] for r in scores if r["no_output"]).most_common())}
+    no_output = collections.Counter(r["benchmark"] for r in scores if r["no_output"])
+    graded = {"runs": len(scores), "scored": sum(r["scored"] for r in scores), "no_output": sum(no_output.values()),
+              "no_output_by_benchmark": dict(sorted(no_output.items(), key=lambda x: (-x[1], x[0])))}  # ties by name
     return {"benchmarks": table, "suite": suite, "suite_benchmarks": fams,
             "suite_cells": sum(len(byfam[b]) for b in fams), "graded": graded}
 
 
-def compute(runs, scores, labels):
+def compute(runs, scores, labels=None):
+    """All numbers; transcripts (Figure 3b) is None without labels."""
     return {"duration_following": duration_following(runs), "details": details(runs, scores),
-            "transcripts": transcripts(runs, labels), "score_change": score_change(scores),
-            "native_scores": native_scores(scores)}
+            "transcripts": None if labels is None else transcripts(runs, labels),
+            "score_change": score_change(scores), "native_scores": native_scores(scores)}
 
 
 def pct(x):
@@ -279,14 +281,18 @@ def report(n):
     print(f"  Runs that hit the cutoff (worked >= 2x the task's longest request): {sum(d['cutoff'].values())} "
           + str({AGENTS[a].split(' (')[0]: k for a, k in d['cutoff'].items()}))
     print("\nFigure 3a: Table 3's on time / early / late shares above")
-    print("Figure 3b: runs with a timestamped transcript (early and late from the clock, on time from reader labels)")
-    for a, v in b.items():
-        k = v["counts"]
-        print(f"  {AGENTS[a]:26s} n {v['n']:3d} ({v['unclear']} unclear left out, {v['questions']} questions): "
-              + ", ".join(f"{x} {k[x]} ({pct(k[x] / v['n'])})" for x in k))
-        o = v["on_time_agentic"]
-        print(f"  {'':26s} on-time agentic runs: working {o['working']} of {o['working'] + o['rechecked'] + o['slept']}, "
-              f"re-checked {o['rechecked']}, slept {o['slept']}")
+    if b is None:
+        print("Figure 3b: skipped, no LABELS file given")
+    else:
+        print("Figure 3b: runs with a timestamped transcript (early and late from the clock, on time from "
+              "reader labels)")
+        for a, v in b.items():
+            k = v["counts"]
+            print(f"  {AGENTS[a]:26s} n {v['n']:3d} ({v['unclear']} unclear left out, {v['questions']} questions): "
+                  + ", ".join(f"{x} {k[x]} ({pct(k[x] / v['n'])})" for x in k))
+            o = v["on_time_agentic"]
+            print(f"  {'':26s} on-time agentic runs: working {o['working']} of "
+                  f"{o['working'] + o['rechecked'] + o['slept']}, re-checked {o['rechecked']}, slept {o['slept']}")
     print(f"Figure 3c: score at the longest request against the shortest (median longest/shortest request "
           f"{d['longest_over_shortest_request_median']:.0f}x; ALE-Bench minimized: {c['minimized_ale_tasks']})")
     for a in AGENTS:
@@ -311,12 +317,13 @@ def report(n):
 
 def main(argv=None):
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
-    for name in ("runs", "scores", "labels"):
-        ap.add_argument(name, help=f"{name.upper()} csv")
+    ap.add_argument("runs", help="RUNS csv")
+    ap.add_argument("scores", help="SCORES csv")
+    ap.add_argument("labels", nargs="?", help="LABELS csv (optional)")
     ap.add_argument("--json", help="also write the numbers to this file")
     args = ap.parse_args(argv)
     runs = load_runs(args.runs)
-    numbers = compute(runs, load_scores(args.scores, runs), load_labels(args.labels))
+    numbers = compute(runs, load_scores(args.scores, runs), load_labels(args.labels) if args.labels else None)
     report(numbers)
     if args.json:
         with open(args.json, "w") as fh:
