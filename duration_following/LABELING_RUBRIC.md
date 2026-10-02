@@ -1,5 +1,9 @@
 # Transcript labeling rubric: working or waiting?
 
+The labels were made with this rubric's on-time window of 0.8x to 1.25x. The paper and `analyze.py` now count a run as
+on time within 0.95x to 1.05x and take early and late from the clock, so `RETURNED_EARLY` and `OVERRAN` below do not
+decide any figure.
+
 ## The question
 
 Each run gave an agent a real benchmark task plus one sentence: "Please work on this task for a

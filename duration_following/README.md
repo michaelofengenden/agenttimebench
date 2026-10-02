@@ -33,7 +33,9 @@ Harbor. 14 Fable 5.1 runs (11 ProgramBench, 3 METR) were completed by Claude Opu
 `analyze.py RUNS SCORES [LABELS]` (inputs in its docstring) prints Table 3 (upper block), the Section 4.1 numbers,
 the Figure 3 counts and Table 5 with its suite row; `figures.py` with the same arguments draws Figures 1-3. LABELS:
 Claude Opus 5.5 (Astra) and Claude Sonnet 5 (Sol, Fable) labelled condensed transcripts with `LABELING_RUBRIC.md`;
-the labels are not public, and without them Figure 3b is skipped.
+the labels are not public, and without them Figure 3b is skipped. The readers used the rubric's earlier on-time window
+(0.8-1.25x); the analysis takes early and late from the clock at 0.95-1.05x, and every run inside 0.95-1.05x was also
+inside 0.8-1.25x, so every on-time run has a reader's label.
 RUNS and SCORES come from the website's [data release](https://agenttimebench.com/data/):
 ```
 curl -O https://agenttimebench.com/downloads/2026-09-26-1311Z/agenttime-runs.json

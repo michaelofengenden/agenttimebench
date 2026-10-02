@@ -78,7 +78,8 @@ def test_definitions_and_text_numbers(result):
     assert q['fable_cc']['slope'] == pytest.approx(0) and q['fable_codex']['slope'] == pytest.approx(1)
     assert (q['fable_cc']['on_time'], q['fable_cc']['early'], q['fable_cc']['late']) == (0, 3, 6)
     assert a['astra_cc']['slope_ci'] == pytest.approx([1, 1]) and a['fable_cc']['runs'] == 6
-    assert (num['astra_cc']['cells'], num['astra_cc']['longer'], num['astra_cc_late']) == (14, 14, (0, 0))
+    # Astra in Claude Code runs 1.1 times its Codex runtime, late under the 5% window: 14 late, 4 on the shortest request
+    assert (num['astra_cc']['cells'], num['astra_cc']['longer'], num['astra_cc_late']) == (14, 14, (14, 4))
     assert num['astra_cc']['median_factor'] == pytest.approx(1.1)
     assert num['flagged'] == {'fable_codex': (0, 6), 'astra_cc': (1, 6)}
     assert num['fable_tb']['shortest_requests'] == [4.0] and num['fable_tb']['codex'] == pytest.approx((8, 8))
@@ -99,9 +100,10 @@ def test_latex(result):
     run = {'min': 1.0, 'req': 0.8, 'ending': 'own', 'check': ''}
     assert analyze.cell_text(dict(run, ending='refusal')) == '1.0 ' + GRAY % 'refused'
     assert analyze.cell_text(dict(run, ending='error')) == r'$\geq$1.0 ' + GRAY % 'error'
-    assert analyze.cell_text(dict(run, ending='cutoff')) == r'\textbf{1.0} ' + GRAY % r'1.25$\times$' + r'$^{\ddagger}$'
+    assert analyze.cell_text(dict(run, ending='cutoff')) == '1.0 ' + GRAY % r'1.25$\times$' + r'$^{\ddagger}$'  # late: not bold
+    assert analyze.cell_text(dict(run, req=1.0, ending='cutoff')) == r'\textbf{1.0} ' + GRAY % r'1.00$\times$' + r'$^{\ddagger}$'
     assert analyze.cell_text(dict(run, check='transcript')).endswith(r'$^{*}$')
-    assert (analyze.ratio_text(1.2504), analyze.ratio_text(1.1), analyze.ratio_text(12.3)) == ('1.250', '1.10', '12')
+    assert (analyze.ratio_text(1.0504), analyze.ratio_text(1.1), analyze.ratio_text(12.3)) == ('1.050', '1.10', '12')
     assert (analyze.minus(-0.001), analyze.minus(-0.12)) == ('0.00', '$-$0.12')
 
 

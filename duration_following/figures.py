@@ -3,7 +3,7 @@
     python figures.py RUNS SCORES [LABELS] [--out DIR]   # inputs as in analyze.py; DIR defaults to figures/
 
 Both time axes use log(1 + t / 30 s): linear below about 30 s, logarithmic above, so equal durations lie on the
-diagonal. Shading spans 0.8 to 1.25 times the request and dotted lines mark tenfold deviations. Without LABELS,
+diagonal. Shading spans 0.95 to 1.05 times the request (about as wide as the dashed line at this scale) and dotted lines mark tenfold deviations. Without LABELS,
 Figure 3 has no panel b.
 """
 import argparse

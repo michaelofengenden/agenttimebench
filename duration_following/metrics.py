@@ -1,7 +1,7 @@
 """Duration-following metrics used for Table 3, Section 4.1 and Figures 1-3.
 
 A run is a dict with benchmark, task, requested_s and worked_s. Its ratio is worked time over requested time.
-On time means 0.8 <= ratio <= 1.25 (both ends inclusive).
+On time means 0.95 <= ratio <= 1.05 (both ends inclusive): within 5% of the request, as on agenttimebench.com.
 """
 import collections
 import math
@@ -9,7 +9,7 @@ import random
 
 import numpy as np
 
-LO, HI = 0.8, 1.25
+LO, HI = 0.95, 1.05
 
 
 def ratio(r):

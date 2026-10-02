@@ -37,7 +37,7 @@ def run(b, t, req, worked, **kw):
 
 
 def test_on_time_band_is_inclusive():
-    rs = [run("x", "a", 100, 80), run("x", "b", 100, 125), run("x", "c", 100, 79.9), run("x", "d", 100, 125.1)]
+    rs = [run("x", "a", 100, 95), run("x", "b", 100, 105), run("x", "c", 100, 94.9), run("x", "d", 100, 105.1)]
     assert M.shares(rs) == (0.5, 0.25, 0.25)
 
 

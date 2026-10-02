@@ -203,7 +203,7 @@ def harness_swap_cells(runs, out):
                                                linestyle='none', transform=fig.transFigure))
         fig.text(kx + 6.0 / W, ky, name, ha='left', va='center', fontsize=6.3, color=BODY)
     fig.text(kx - 3.0 / W, (bottom + side - 6.0 - 10.5 * len(shapes) - 6.0) / H,
-             'Shading: 0.8–1.25$\\times$\nthe request\nDashed: same\nin both harnesses', ha='left', va='top',
+             'Shading: %g–%g$\\times$\nthe request\nDashed: same\nin both harnesses' % ON_TIME, ha='left', va='top',
              fontsize=5.8, color=MUTED, linespacing=1.1)
     fig.savefig(out / 'harness_swap_cells.pdf', dpi=400)
     plt.close(fig)

@@ -12,10 +12,10 @@ harness, a main run that did not end on its own; unlabelled, counted as own); fa
 agentic run failed after ending on its own, time kept; else empty); correct (1/0 for questions); output_tokens
 (Fable's question runs).
 
-On time is 0.8 to 1.25 times the request; deviation is exp(mean |ln(runtime/request)|) pooled over runs; slope is the
-mean of per-task log-log slopes over tasks with all three requests; brackets are 95% percentile intervals from 20,000
-resamples of tasks (numpy default_rng(20260925)). Refusals and errors are left out, and so is the same task and request
-in the model's other harness, so both harnesses of a model cover the same runs.
+On time is 0.95 to 1.05 times the request (both ends included); deviation is exp(mean |ln(runtime/request)|) pooled over
+runs; slope is the mean of per-task log-log slopes over tasks with all three requests; brackets are 95% percentile
+intervals from 20,000 resamples of tasks (numpy default_rng(20260925)). Refusals and errors are left out, and so is the
+same task and request in the model's other harness, so both harnesses of a model cover the same runs.
 """
 import argparse
 import csv
@@ -25,7 +25,7 @@ from pathlib import Path
 import numpy as np
 
 HERE = Path(__file__).resolve().parent
-ON_TIME = (0.8, 1.25)
+ON_TIME = (0.95, 1.05)
 DROP = ('refusal', 'error')
 SEED, RESAMPLES = 20260925, 20000
 SETUP = {('claude-fable-5-1', 'claude-code', 'campaign'): 'fable_cc',
@@ -178,7 +178,7 @@ def br(lo, hi):
 
 def ratio_text(r):
     on = ON_TIME[0] <= r <= ON_TIME[1]
-    for nd in (2, 3):                      # a third decimal where two would round onto the 0.8 or 1.25 bound
+    for nd in (2, 3):                      # a third decimal where two would round onto an ON_TIME bound
         s = ('%.0f' % r) if r >= 10 else ('%.' + str(nd) + 'f') % r
         if (ON_TIME[0] <= float(s) <= ON_TIME[1]) == on:
             return s
