@@ -34,7 +34,7 @@ Harbor. 14 Fable 5.1 runs (11 ProgramBench, 3 METR) were completed by Claude Opu
 the Figure 3 counts and Table 5 with its suite row; `figures.py` with the same arguments draws Figures 1-3. LABELS:
 Claude Opus 5.5 (Astra) and Claude Sonnet 5 (Sol, Fable) labelled condensed transcripts with `LABELING_RUBRIC.md`;
 the labels are not public, and without them Figure 3b is skipped.
-RUNS and SCORES come from the website's [data release](https://agenttimebench.com/downloads/2026-09-26-1311Z/):
+RUNS and SCORES come from the website's [data release](https://agenttimebench.com/data/):
 ```
 curl -O https://agenttimebench.com/downloads/2026-09-26-1311Z/agenttime-runs.json
 python from_release.py agenttime-runs.json OUT/ && python analyze.py OUT/runs.csv OUT/scores.csv

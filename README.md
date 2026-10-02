@@ -64,7 +64,7 @@ scored it with which settings.
 *Timing error is the deviation in Table 3 (1× is perfect) and benchmark score is the suite row of Table 5, with 95%
 intervals over tasks. From [agenttimebench.com](https://agenttimebench.com/#leaderboard).*
 
-The per-run data is in the website's [data release](https://agenttimebench.com/downloads/2026-09-26-1311Z/). These
+The per-run data is in the website's [data release](https://agenttimebench.com/data/). These
 commands recompute the upper block of Table 3, the duration-following numbers in Section 4.1 and Table 5 from it
 (Figure 3b also needs the transcript labels, which are not public):
 
@@ -97,4 +97,4 @@ Code or Codex) at the version given in the folder's README.
 
 Code: MIT (`LICENSE`). The repository contains no benchmark task prompts; runners load tasks from the upstream
 benchmarks, and prompts quoted from upstream projects keep their own licenses. The figures in `docs/images/` are
-screenshots of agenttimebench.com.
+screenshots of agenttimebench.com and, like the site's data and figures, are licensed CC BY 4.0.
