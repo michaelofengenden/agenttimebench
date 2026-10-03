@@ -4,14 +4,14 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>About, AgentTime</title>
-<meta name="description" content="What AgentTime is, why timing matters for agents you leave running, and answers to common questions.">
+<meta name="description" content="What AgentTime asks, who made it, and where its paper, code, data and transcripts are.">
 <meta name="color-scheme" content="light dark">
 
 <link rel="canonical" href="https://agenttimebench.com/about/">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="AgentTime">
 <meta property="og:title" content="About, AgentTime">
-<meta property="og:description" content="What AgentTime is, why timing matters for agents you leave running, and answers to common questions.">
+<meta property="og:description" content="What AgentTime asks, who made it, and where its paper, code, data and transcripts are.">
 <meta property="og:url" content="https://agenttimebench.com/about/">
 <meta property="og:image" content="https://agenttimebench.com/og/about.png">
 <meta name="twitter:card" content="summary_large_image">
@@ -42,25 +42,17 @@ window.AT_FILE_FIX=fix;})();</script>
 <main id="main" tabindex="-1">
 <div class="wrap page-body"><nav class="crumbs" aria-label="Breadcrumb"><ol><li><a href="../">Home</a></li><li><span aria-current="page">About</span></li></ol></nav><header class="page-head">
   <h1>About</h1>
-  <p class="lede">What AgentTime is, why timing matters, and who is behind it.</p>
+  <p class="lede">AgentTime asks whether AI agents can estimate and control their own runtime.</p>
 </header>
 
 <div class="prose">
-<p>AgentTime is a benchmark that asks one question: when you tell an AI agent to work on a task for a set time, does it? It adds one sentence to 222 tasks from 18 existing benchmarks asking the agent to work for a full requested duration, runs each task at three requested times, and measures with a clock outside the agent's sandbox how long the agent actually worked.</p>
-<p>This site is the public face of the AgentTime paper and its data. It is read only and built from a frozen data release: 2,099 runs in all, 1,991 of them from the three agents in the paper and 108 more from a fourth, partial agent.</p>
-
-<section aria-labelledby="why-timing"><h2 id="why-timing">Why timing matters</h2>
-<p>An agent you can watch is easy to stop. One you leave running for an hour, or a day, is not, so AgentTime asks the same tasks at requested times from a minute to days and checks whether the agent's actual time tracks the request.</p>
-</section>
-
-<section aria-labelledby="who-made-it"><h2 id="who-made-it">Who made it</h2>
-<p>AgentTime is by Michael Ofengenden and Maksym Andriushchenko.</p>
-</section>
-
-<section aria-labelledby="faq"><h2 id="faq">Frequently asked questions</h2>
-<ul class="ruled-list"><li><h3>What counts as on time?</h3><p>Within 5% of the time asked: 0.95× to 1.05× of the request, both ends included.</p></li><li><h3>Does finishing early mean the agent ignored the instruction?</h3><p>Not always. An early, natural stop is a real outcome and the paper records it. The question is how often it happens and how it depends on the request.</p></li><li><h3>Is going idle the same as cheating a monitor?</h3><p>No. Neither an early return nor an idle agent shows it is evading oversight; it shows the agent did not keep working for the full period.</p></li><li><h3>Why does the site show a fourth agent the paper does not discuss?</h3><p>Muse Spark 1.3 has partial data, 108 runs on 2 benchmarks. It is labelled partial and never ranked.</p></li><li><h3>Will transcripts and code be released?</h3><p>The paper says the authors plan to release benchmark code and transcripts. This page will link them when they exist.</p></li></ul>
-</section>
-
+<p>By Michael Ofengenden and Maksym Andriushchenko.</p>
+<ul>
+<li><a href="../paper/">Paper</a></li>
+<li><a href="https://github.com/michaelofengenden/agenttimebench">Code</a> on GitHub</li>
+<li><a href="../data/">Data</a>, every number on this site</li>
+<li><a href="https://huggingface.co/datasets/mofengenden/agenttime-transcripts">Transcripts</a> on Hugging Face</li>
+</ul>
 </div></div>
 </main>
 <footer class="site-footer"><div class="wrap"><p class="footer-ruler" aria-hidden="true"><span>15 s</span><span>2 min</span><span>15 min</span><span>2 h</span><span>16 h</span><span>100 h</span></p><div class="footer-inner"><p class="footer-id"><a class="brand brand-foot" href="../"><span class="wordmark">Agent<span class="wm-time">Time</span></span></a></p><nav class="footer-links" aria-label="Footer"><ul><li><a href="../results/">Results</a></li><li><a href="../agents/">Agents</a></li><li><a href="../tasks/">Tasks</a></li><li><a href="../studies/">Studies</a></li><li><a href="../data/">Downloads</a></li><li><a href="../data/#release-notes">Release notes</a></li><li><a href="./">About</a></li><li><a href="https://huggingface.co/datasets/mofengenden/agenttime-transcripts">Transcripts</a></li><li><a href="https://github.com/michaelofengenden/agenttimebench">Code</a></li></ul></nav></div><p class="footer-release">Data release 26 Sep 2026, 13:11 UTC. By Michael Ofengenden and Maksym Andriushchenko.</p></div></footer>
