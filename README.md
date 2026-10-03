@@ -11,7 +11,8 @@ while Fable 5.1 runs long on short requests and stops early on long ones. From
 <a href="https://agenttimebench.com/#every-run">agenttimebench.com</a>.</em></p>
 
 <p align="center"><a href="https://agenttimebench.com">Website</a> · Paper (coming soon) ·
-<a href="https://agenttimebench.com/results/">All runs</a> · <a href="https://agenttimebench.com/method/">Method</a></p>
+<a href="https://agenttimebench.com/results/">All runs</a> · <a href="https://agenttimebench.com/method/">Method</a> ·
+<a href="https://huggingface.co/datasets/mofengenden/agenttime-transcripts">Transcripts</a></p>
 
 Code for the paper "AgentTime: Can Agents Estimate and Control Their Own Runtime?". AgentTime tests whether agents in
 their native harnesses can work for a requested duration, forecast how long a task will take them, and estimate
@@ -72,6 +73,11 @@ commands recompute the upper block of Table 3, the duration-following numbers in
 cd duration_following && curl -O https://agenttimebench.com/downloads/2026-09-26-1311Z/agenttime-runs.json
 python from_release.py agenttime-runs.json OUT/ && python analyze.py OUT/runs.csv OUT/scores.csv
 ```
+
+The agent transcripts are a gated dataset on Hugging Face,
+[mofengenden/agenttime-transcripts](https://huggingface.co/datasets/mofengenden/agenttime-transcripts): 8,911
+transcripts from every study in the paper. 777 of the 1,991 duration-following runs have one, under the same `run_id`
+as in the data release.
 
 ## Quick start
 
