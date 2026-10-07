@@ -4,14 +4,14 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Paper, AgentTime</title>
-<meta name="description" content="The AgentTime paper is coming soon.">
+<meta name="description" content="AgentTime: Can Agents Estimate and Control Their Own Runtime?">
 <meta name="color-scheme" content="light dark">
 
 <link rel="canonical" href="https://agenttimebench.com/paper/">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="AgentTime">
 <meta property="og:title" content="Paper, AgentTime">
-<meta property="og:description" content="The AgentTime paper is coming soon.">
+<meta property="og:description" content="AgentTime: Can Agents Estimate and Control Their Own Runtime?">
 <meta property="og:url" content="https://agenttimebench.com/paper/">
 <meta property="og:image" content="https://agenttimebench.com/og/paper.png">
 <meta name="twitter:card" content="summary_large_image">
@@ -42,8 +42,16 @@ window.AT_FILE_FIX=fix;})();</script>
 <main id="main" tabindex="-1">
 <div class="wrap page-body"><nav class="crumbs" aria-label="Breadcrumb"><ol><li><a href="../">Home</a></li><li><span aria-current="page">Paper</span></li></ol></nav><header class="page-head">
   <h1>Paper</h1>
-  <p class="lede">The paper is coming soon.</p>
-</header></div>
+  <p class="lede">AgentTime: Can Agents Estimate and Control Their Own Runtime?</p>
+  <p>By Michael Ofengenden and Maksym Andriushchenko.</p>
+  <p><a class="btn btn-primary" href="agenttime.pdf"><svg class="icon icon-download" width="20" height="20" viewBox="0 0 20 20" aria-hidden="true" focusable="false"><path d="M10 3.5v9M6 8.75l4 4 4-4M4 16.5h12"/></svg><span class="btn-label">PDF, 30 pages</span></a></p>
+  <p class="small muted">The arXiv version will be linked here once it is posted.</p>
+</header>
+
+<section class="section" aria-labelledby="abstract">
+<h2 id="abstract">Abstract</h2>
+<div class="prose"><p>An essential control of AI agents is their ability to manage runtime. This ability requires a sense of time-awareness, to predict and estimate wall-clock time and to control their own actions. Prior work has focused on time-awareness, but duration-following and control in native agent harnesses remain unexplored. We present AgentTime, a benchmark for testing whether agents can work for a requested duration, predict their runtime, and estimate elapsed time afterward. It comprises 222 tasks from 18 sources spanning coding, computer use, agentic work, and automated research. Duration-following experiments append a single instruction specifying how long to work, with requests ranging from about a minute to multiple days. Accuracy on these instructions varies substantially: Fable 5.1 in Claude Code deviates from requested runtimes by a typical factor of 2.9×, compared with only 1.2× for GPT-6 Astra in Codex. However, matching the requested runtime does not, by itself, establish continued work on the task. Among 158 reviewed Astra runs with classifiable transcripts, 14 explicitly slept after appearing to finish. In forecasting experiments, predictions tend to overestimate natural runtimes. In retrospective experiments, removing temporal information more than doubles deviation for Sol and Astra and nearly doubles it for Fable. An agent&#39;s ability to complete a task does not guarantee that it can control its own time or work for the whole requested duration. For agents to run reliably, safely, and autonomously over long horizons, we require the evaluation of both.</p></div>
+</section></div>
 </main>
 <footer class="site-footer"><div class="wrap"><p class="footer-ruler" aria-hidden="true"><span>15 s</span><span>2 min</span><span>15 min</span><span>2 h</span><span>16 h</span><span>100 h</span></p><div class="footer-inner"><p class="footer-id"><a class="brand brand-foot" href="../"><span class="wordmark">Agent<span class="wm-time">Time</span></span></a></p><nav class="footer-links" aria-label="Footer"><ul><li><a href="../results/">Results</a></li><li><a href="../agents/">Agents</a></li><li><a href="../tasks/">Tasks</a></li><li><a href="../studies/">Studies</a></li><li><a href="../data/">Downloads</a></li><li><a href="../data/#release-notes">Release notes</a></li><li><a href="../about/">About</a></li><li><a href="https://huggingface.co/datasets/mofengenden/agenttime-transcripts">Transcripts</a></li><li><a href="https://github.com/michaelofengenden/agenttimebench">Code</a></li></ul></nav></div><p class="footer-release">Data release 26 Sep 2026, 13:11 UTC. By Michael Ofengenden and Maksym Andriushchenko.</p></div></footer>
 <div class="visually-hidden" aria-live="polite" id="at-live"></div>

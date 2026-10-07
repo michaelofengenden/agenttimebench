@@ -6,7 +6,7 @@ Benchmarks	benchmarks/	The 18 benchmarks and where agents drift.
 Tasks	tasks/	All 222 tasks and their exact sentence.
 Method	method/	How runs are timed and scored.
 Studies	studies/	Two smaller timing experiments.
-Paper	paper/	The paper, coming soon.
+Paper	paper/	The paper: PDF and abstract.
 Data	data/	Release files, checksums and downloads.`,a:`GPT 6 Astra	gpt-6-astra	Codex
 GPT 5.6 Sol	gpt-5-6-sol	Codex
 Claude Fable 5.1	claude-fable-5-1	Claude Code
