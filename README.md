@@ -10,7 +10,7 @@
 while Fable 5.1 runs long on short requests and stops early on long ones. From
 <a href="https://agenttimebench.com/#every-run">agenttimebench.com</a>.</em></p>
 
-<p align="center"><a href="https://agenttimebench.com">Website</a> · Paper (coming soon) ·
+<p align="center"><a href="https://agenttimebench.com">Website</a> · <a href="https://arxiv.org/abs/2610.09944">Paper</a> ·
 <a href="https://agenttimebench.com/results/">All runs</a> · <a href="https://agenttimebench.com/method/">Method</a> ·
 <a href="https://huggingface.co/datasets/mofengenden/agenttime-transcripts">Transcripts</a></p>
 
@@ -22,17 +22,17 @@ GPT-5.6 Sol and GPT-6 Astra in Codex.
 | Paper | Folder | Entry scripts |
 |---|---|---|
 | §3, Table 2 (the suite) | `duration_following/agenttime/` | `python -m agenttime suite` |
-| §4.1: Table 3 (upper block), Figures 1-3; Appendix A, Table 5 | `duration_following/` | `python -m agenttime`, `analyze.py`, `figures.py` |
+| §4.1: Table 3 (upper block), Figures 1-2; Appendix A, Table 5 | `duration_following/` | `python -m agenttime`, `analyze.py`, `figures.py` |
 | Appendix B: harness swap, Table 3 (lower block) | `duration_following/harness_swap/` | `run_question_cell.py`, `analyze.py`, `figures.py` |
 | §4.2: forecasting natural runtimes, Appendix C (earlier version*) | `forecasting/` | `forecast_fable.mjs`, `forecast_sol.sh`, `run_fable.mjs`, `run_sol.sh`, `run_harbor_sol.sh` |
-| §4.3: retrospective forks, Figure 5; Appendix D | `retrospective_forks/` | `run_all.py`, `analyze.py`, `figures.py` |
+| §4.3: retrospective forks, Figure 4; Appendix D | `retrospective_forks/` | `run_all.py`, `analyze.py`, `figures.py` |
 | Appendix E: same-turn forecasts, ranking baseline | `preliminary/programbench_same_turn/` | `run.sh`, `extract.py`, `analyze.py`, `figures.py` |
 | Appendix E: separate-turn forecasts | `preliminary/programbench_separate_turn/` | `execute.py`, `fork.py`, `analyze.py`, `figures.py` |
 | Appendix E: "Whose Prior Is It?" | `preliminary/referent_ablation/` | `run.py`, `code_reasons.mjs`, `analyze.py`, `figures.py` |
-| Appendix F: controlling wall-clock time | `preliminary/time_control/` | `python -m <study>.run`, `python -m <study>.analyze` |
+| Not in the paper: controlling wall-clock time (preliminary study) | `preliminary/time_control/` | `python -m <study>.run`, `python -m <study>.analyze` |
 
 \* `forecasting/` is the run code of the earlier version of the §4.2 study (Fable 5 and GPT-5.6 Sol on 235 tasks);
-it does not reproduce Figure 4 or Appendix C. The 222-task runs will be added.
+it does not reproduce Figure 3 or Appendix C. The 222-task runs will be added.
 
 Each folder's README gives the prompts, models, harness versions and commands, and which script prints which table or
 draws which figure. Per-run results are not included; each analysis script takes its input files as command-line
@@ -67,7 +67,7 @@ intervals over tasks. From [agenttimebench.com](https://agenttimebench.com/#lead
 
 The per-run data is in the website's [data release](https://agenttimebench.com/data/). These
 commands recompute the upper block of Table 3, the duration-following numbers in Section 4.1 and Table 5 from it
-(Figure 3b also needs the transcript labels, which are not public):
+(Figure 2b also needs the transcript labels, which are not public):
 
 ```bash
 cd duration_following && curl -O https://agenttimebench.com/downloads/2026-09-26-1311Z/agenttime-runs.json

@@ -2,7 +2,7 @@
 
 This is the code for the earlier version of the §4.2 experiment: Fable 5 in Claude Code and GPT-5.6 Sol in Codex, on
 235 tasks from 18 benchmarks (`tasks.csv`). Each agent forecast how long a task would take it and, separately, ran the
-task once without a requested duration. It does not reproduce Figure 4 or Appendix C; the 222-task runs will be added.
+task once without a requested duration. It does not reproduce Figure 3 or Appendix C; the 222-task runs will be added.
 In the forecast prompt, `{task}` is the staged instruction file (`task.txt` below; staging: `prompts/task_headers.txt`):
 
 ```

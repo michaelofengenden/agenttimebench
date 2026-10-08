@@ -1,4 +1,4 @@
-# Retrospective forks (Section 4.3, Figure 5, Appendix D)
+# Retrospective forks (Section 4.3, Figure 4, Appendix D)
 
 After a run has finished, the agent is asked how long it took. The 69 parents are duration-following runs by Fable 5.1,
 GPT-5.6 Sol and GPT-6 Astra on 23 tasks (10 CORE-Bench, 10 GPQA Diamond, 3 TUA-Bench), one requested duration per task
@@ -30,6 +30,6 @@ replays add `"reasoning": {"effort": "max"}`, `"max_tokens": 32768`, `"transform
 ```sh
 docker build -t agenttime-retro:1 docker/
 OPENROUTER_API_KEY=... python run_all.py --parents parents.csv --sessions DIR   # DIR/<run_id>/*.jsonl, not included
-python analyze.py parents.csv results/answers.csv           # Figure 5 numbers; input columns in its docstring
-python figures.py parents.csv results/answers.csv figures   # Figure 5: figures/retrospective_forks.pdf
+python analyze.py parents.csv results/answers.csv           # Figure 4 numbers; input columns in its docstring
+python figures.py parents.csv results/answers.csv figures   # Figure 4: figures/retrospective_forks.pdf
 ```

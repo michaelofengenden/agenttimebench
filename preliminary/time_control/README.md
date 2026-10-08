@@ -1,4 +1,4 @@
-# Controlling wall-clock time (Appendix F)
+# Controlling wall-clock time (preliminary study, not in the paper)
 
 Three studies of whether a model can place public text, scheduled output or a saved file at a requested elapsed time.
 
