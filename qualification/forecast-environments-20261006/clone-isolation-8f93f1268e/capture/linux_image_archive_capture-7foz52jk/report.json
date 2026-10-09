@@ -1,0 +1,31 @@
+{
+  "variant": "linux_image_archive_capture",
+  "case": "/tmp/forecast-capture/linux_image_archive_capture-7foz52jk",
+  "exit_code": 0,
+  "message_requests": 1,
+  "request_paths": [
+    "/v1/messages?beta=true"
+  ],
+  "tools": [],
+  "effort": {
+    "effort": "max"
+  },
+  "model": "claude-opus-5-5",
+  "version": "2.1.280",
+  "images_received": 1,
+  "image_bytes_identical": true,
+  "native_transcripts_saved": 1,
+  "raw_body_files": [
+    "04a90fc9-6424-42c4-9d3c-5505027c7c81.request.json",
+    "req_fake_001.response.json"
+  ],
+  "socket_listening_lines": [
+    "2026-10-06T11:56:41.200Z [INFO] [uds-messaging] Listening: /tmp/afq-jq33h_3z/xdg/cc-socks/32.sock"
+  ],
+  "result_subtype": "success",
+  "result_is_error": false,
+  "result_errors": null,
+  "stderr_tail": "",
+  "environment_note_present": true,
+  "token_budget_reminder_present": false
+}

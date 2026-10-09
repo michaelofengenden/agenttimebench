@@ -1,0 +1,40 @@
+{
+  "repository": "cais/hle-diamond",
+  "revision": "04eeb7efa7e3e4f83a00cbd5ce436a38fd5dda23",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 2504,
+      "sha256": "9e75dd981de037ec3769f24f790e126bc5a160b6871f510214e68dc70649aeeb",
+      "url": "https://huggingface.co/datasets/cais/hle-diamond/resolve/04eeb7efa7e3e4f83a00cbd5ce436a38fd5dda23/.gitattributes",
+      "git_oid": "bed0738c7eeb449bca98b5d2f33c89a1ee56349a",
+      "expected_lfs_sha256": null,
+      "release_sha256": null
+    },
+    {
+      "path": "README.md",
+      "bytes": 2192,
+      "sha256": "24fcf97f8e60718d8255fea2bf7f51efdcc0aa6ab92acc85f294d56a0aec3afa",
+      "url": "https://huggingface.co/datasets/cais/hle-diamond/resolve/04eeb7efa7e3e4f83a00cbd5ce436a38fd5dda23/README.md",
+      "git_oid": "b5f8f6c20f1d8a80664cf48f9b5dfd689476a35f",
+      "expected_lfs_sha256": null,
+      "release_sha256": null
+    },
+    {
+      "path": "data/test-00000-of-00001.parquet",
+      "bytes": 224204778,
+      "sha256": "2b3421909ac47580d8373d4e7e5a23f0f08365d2cfb54a13100ddfac4a961e87",
+      "url": "https://huggingface.co/datasets/cais/hle-diamond/resolve/04eeb7efa7e3e4f83a00cbd5ce436a38fd5dda23/data/test-00000-of-00001.parquet",
+      "git_oid": "bf0a97be106eedc8a4e629658612c29b89fcd4f4",
+      "expected_lfs_sha256": "2b3421909ac47580d8373d4e7e5a23f0f08365d2cfb54a13100ddfac4a961e87",
+      "release_sha256": null
+    }
+  ],
+  "checked_at_utc": "2026-10-02T12:31:24.271496+00:00",
+  "verification": "Git blob and LFS object SHA hashes checked.",
+  "data_scope": "Private evaluation preparation only. Do not expose questions, answers or rationales in published inventory files.",
+  "benchmark_runs": 0,
+  "source_path": "/Users/michaelofengenden/Developer/TimeResearch/AgentTime-v1.1/benchmarks/cache/gated-inputs-20261002/hle-diamond",
+  "origin_receipt_sha256": "93dfe20443fa8b1a9180a8a0019ec7fd9e931c971837245b9dcf97b184278aa3",
+  "imported_at_utc": "2026-10-02T12:32:52.785552+00:00"
+}

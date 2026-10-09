@@ -1,0 +1,6 @@
+{
+  "container_id": "f0344769810ee096321407d38474e236a8a773c6bf1081e0510d5403710ca41f",
+  "image": "sha256:245ec38fb91de703a186403531046260c171c82ca6511ae1fc2eeb18af43eb16",
+  "label": "synthetic-native-fork-ab464673671c",
+  "purpose": "synthetic_restore_only"
+}

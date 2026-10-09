@@ -1,0 +1,33 @@
+{
+  "platform": "Linux-6.12.76-linuxkit-x86_64-with-glibc2.36",
+  "architecture": "x86_64",
+  "python": "3.12.15",
+  "modules": {
+    "browsergym.core.env": {
+      "sha256": "867cc6efdfead356839fef8a26b492502b8b5e3d165d1b3c17d24aaeec268d63"
+    },
+    "browsergym.core.task": {
+      "sha256": "d88602de809c3b808c8adc5ca17d6d0d13a065109673e37326a0a75c5ab78e17"
+    },
+    "browsergym.core.action.highlevel": {
+      "sha256": "190444d28705255149dfd7e0a34deb527c5e6df2def925c2847f08bc41c3302b"
+    },
+    "browsergym.core.action.functions": {
+      "sha256": "9e6073e150b3a95ceddddf329feb451b760b6706891c43f6c0c426df44ee05a4"
+    }
+  },
+  "native_actions": [
+    "noop",
+    "scroll",
+    "fill",
+    "select_option",
+    "click",
+    "press",
+    "go_back",
+    "goto",
+    "send_msg_to_user"
+  ],
+  "browser_processes_remaining": [],
+  "model_calls": 0,
+  "study_inputs": 0
+}

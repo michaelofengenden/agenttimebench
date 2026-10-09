@@ -1,0 +1,6 @@
+{
+  "container_id": "03d7245fd26cf96228c120585e6e6e3aa168d629a412514f0ddf54d5110933cb",
+  "image": "sha256:245ec38fb91de703a186403531046260c171c82ca6511ae1fc2eeb18af43eb16",
+  "label": "synthetic-native-web-subagent-dee89e0ec89f",
+  "purpose": "synthetic_qualification_only"
+}

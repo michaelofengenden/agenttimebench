@@ -1,0 +1,109 @@
+{
+  "recorded_at_utc": "2026-10-02T12:27:30.150886+00:00",
+  "files": [
+    {
+      "path": "benchmarks/cache/public-metadata-20261002/browsecomp-repo.json",
+      "origin_path": "/private/tmp/agenttime-inventory-20261002/new-candidates/browsecomp-repo.json",
+      "sha256": "10a5c6b3da80be5e792e2247e4bb0b0096d3374fba9942328c89f52efee2632d",
+      "bytes": 17785
+    },
+    {
+      "path": "benchmarks/cache/public-metadata-20261002/browsecomp_eval.py",
+      "origin_path": "/private/tmp/agenttime-inventory-20261002/new-candidates/browsecomp_eval.py",
+      "sha256": "0bfb33cfdf5fa0e0d7da48068cc86c5a22acc755979be4a2b46f8a821cc44b74",
+      "bytes": 6576
+    },
+    {
+      "path": "benchmarks/cache/public-metadata-20261002/browse_comp_test_set.csv",
+      "origin_path": "/private/tmp/agenttime-inventory-20261002/new-candidates/browse_comp_test_set.csv",
+      "sha256": "7b24471cd5b3eb2a46830a14802b5c029ea62f488ff75a0f88af7923d1454abf",
+      "bytes": 1196283
+    },
+    {
+      "path": "benchmarks/cache/public-metadata-20261002/hle-diamond-api.json",
+      "origin_path": "/private/tmp/agenttime-inventory-20261002/new-candidates/hle-diamond-api.json",
+      "sha256": "cbfb5c7179f393b360bc4b01c9cf01acaaa6a722e3e2a4e3b73f6236f4e25ac7",
+      "bytes": 1964
+    },
+    {
+      "path": "benchmarks/cache/public-metadata-20261002/hle-diamond-card.html",
+      "origin_path": "/private/tmp/agenttime-inventory-20261002/new-candidates/hle-diamond-card.html",
+      "sha256": "24f1ada853cc7b594f1dd80235285bb97c4ba161b736012ff3b65eba605c19a7",
+      "bytes": 125133
+    },
+    {
+      "path": "benchmarks/cache/public-metadata-20261002/weirdml_tasks.html",
+      "origin_path": "/private/tmp/agenttime-inventory-20261002/new-candidates/weirdml_tasks.html",
+      "sha256": "6c25b9c9fa477d3949cf2fab4f6fa6483140e2f5e236d49ace6a302aff20f863",
+      "bytes": 26916
+    },
+    {
+      "path": "benchmarks/cache/public-metadata-20261002/weirdml.html",
+      "origin_path": "/private/tmp/agenttime-inventory-20261002/new-candidates/weirdml.html",
+      "sha256": "5c2fe91d0a374910b7ba818888c6c8333b5337f80dde0ce1acf54eca3b96f5ec",
+      "bytes": 8447
+    },
+    {
+      "path": "benchmarks/cache/public-metadata-20261002/weirdml-site-repo.json",
+      "origin_path": "/private/tmp/agenttime-inventory-20261002/new-candidates/weirdml-site-repo.json",
+      "sha256": "20cd581dc3a81b619add048045b22339ddbd8d6d296de8b428ef7276b87cf76d",
+      "bytes": 5351
+    },
+    {
+      "path": "benchmarks/cache/public-metadata-20261002/browsecomp_eval-pinned.py",
+      "origin_path": "/private/tmp/agenttime-inventory-20261002/new-candidates/browsecomp_eval-pinned.py",
+      "sha256": "0bfb33cfdf5fa0e0d7da48068cc86c5a22acc755979be4a2b46f8a821cc44b74",
+      "bytes": 6576
+    },
+    {
+      "path": "benchmarks/cache/public-metadata-20261002/hle-diamond-pinned-api.json",
+      "origin_path": "/private/tmp/agenttime-inventory-20261002/new-candidates/hle-diamond-pinned-api.json",
+      "sha256": "cbfb5c7179f393b360bc4b01c9cf01acaaa6a722e3e2a4e3b73f6236f4e25ac7",
+      "bytes": 1964
+    },
+    {
+      "path": "benchmarks/cache/public-metadata-20261002/weirdml-tree.json",
+      "origin_path": "/private/tmp/agenttime-inventory-20261002/new-candidates/weirdml-tree.json",
+      "sha256": "c6da9ef8291f7f83f52956de0c53532e280c3cbf379bfc1316c3339c6b77b056",
+      "bytes": 47268
+    },
+    {
+      "path": "benchmarks/cache/public-metadata-20261002/weirdml_v3.json",
+      "origin_path": "/private/tmp/agenttime-inventory-20261002/new-candidates/weirdml_v3.json",
+      "sha256": "ca8f2e117edbc4b195a4935532424c45e776f526aff7869e36e6b1da9d818fba",
+      "bytes": 384196
+    },
+    {
+      "path": "benchmarks/cache/public-metadata-20261002/weirdml_v3_results.json",
+      "origin_path": "/private/tmp/agenttime-inventory-20261002/new-candidates/weirdml_v3_results.json",
+      "sha256": "7c13332f090158ac7ca376d8e221c142a53c3977b09eea39c3c7ec4d2dc56298",
+      "bytes": 4181915
+    },
+    {
+      "path": "benchmarks/cache/public-metadata-20261002/weirdml-pinned.md",
+      "origin_path": "/private/tmp/agenttime-inventory-20261002/new-candidates/weirdml-pinned.md",
+      "sha256": "a058ea6bb4f4d615dba6d2c6a4b07d5f0aae68674bed2ead8744dd785bfbc3ba",
+      "bytes": 3458
+    },
+    {
+      "path": "benchmarks/cache/public-metadata-20261002/weirdml_tasks-pinned.md",
+      "origin_path": "/private/tmp/agenttime-inventory-20261002/new-candidates/weirdml_tasks-pinned.md",
+      "sha256": "4be0dcce6bcd934bd37ef6e0302aed5cb01948c9dfcab8852eb34a8b343886af",
+      "bytes": 22128
+    },
+    {
+      "path": "benchmarks/cache/public-metadata-20261002/weirdml_scoring-pinned.md",
+      "origin_path": "/private/tmp/agenttime-inventory-20261002/new-candidates/weirdml_scoring-pinned.md",
+      "sha256": "4bc665e4e6149ef9834f1e6ad64db1e7127947e017904913cedebc9b78c1fcf5",
+      "bytes": 5145
+    },
+    {
+      "path": "benchmarks/cache/public-metadata-20261002/weirdml-author-public-repos.json",
+      "origin_path": "/private/tmp/agenttime-inventory-20261002/new-candidates/weirdml-author-public-repos.json",
+      "sha256": "5e48160b676f00ddf296520905234d21d5d9aa3b414ab38719a0cf802f65adab",
+      "bytes": 90622
+    }
+  ],
+  "scope": "Private upstream metadata and BrowseComp encrypted dataset; no question answers are exposed in the review inventory.",
+  "runtime_validated": false
+}

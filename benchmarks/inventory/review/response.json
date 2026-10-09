@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "reviewer": "Claude Opus 5.5, requested max effort",
+  "original_verdict": "REVISE",
+  "scope": "Review of the explicitly approved packet only. No runnable-suite approval or benchmark execution.",
+  "response_status": "Inventory corrections verified. Every cached manifest entry passed content checks, all 220 slot identities are unchanged, 14 regression tests pass, and rebuilds agree apart from the build timestamp. Runtime qualification remains pending.",
+  "changes": [
+    {
+      "topic": "False source-presence claims",
+      "status": "implemented",
+      "response": "Every required reference must exist, match the manifest and contain real bytes. Directory membership is checked, symbolic-link targets must also be manifested, and pointer stubs are rejected."
+    },
+    {
+      "topic": "Task identity and source records",
+      "status": "implemented",
+      "response": "The 220 slot identities are frozen. CSV row and JSON record hashes are checked against parsed sources. The three banking choices now bind to the exact native task files."
+    },
+    {
+      "topic": "Reproducible inventory builds",
+      "status": "implemented",
+      "response": "Build inputs and executing scripts are hashed. A scratch script cannot falsely claim an installed generator. Metadata-only checks write a separate receipt."
+    },
+    {
+      "topic": "Selection provenance",
+      "status": "clarified",
+      "response": "The 116 earlier places came from proposals and version mapping. This is not evidence of personal approval of every ID. Six ProgramBench additions used public scores and coverage. The 104 new suggestions include eight non-runnable WeirdML keys."
+    },
+    {
+      "topic": "OSWorld and sample selection caveats",
+      "status": "existing evidence linked",
+      "response": "OS029 remains blocked pending native setup qualification or a user-approved substitution. Historical OS092 visual-grading omissions remain disclosed. Saved HLE, tau and WeirdML rankings were independently reproduced; no exact task choices changed."
+    },
+    {
+      "topic": "PINN and tau downloads",
+      "status": "review suggestion corrected",
+      "response": "PINN defines agent-generated experimental data, so no separate dataset should be supplied. Tau banking documents and configuration sources were already cached; runtime configuration remains to be chosen and qualified."
+    },
+    {
+      "topic": "Source and reference isolation",
+      "status": "preparation safeguard implemented; runtime work pending",
+      "response": "Inventory references default to preparation_only. The site is served without the private cache. Final agent packages still need explicit allowlists, leakage checks and separate verifier/simulator material."
+    },
+    {
+      "topic": "Upstream identities",
+      "status": "source-specific evidence retained",
+      "response": "The receipts distinguish official revisions or upstream hashes from locally observed hashes. A successful local manifest check does not imply that every asset has an independent upstream checksum."
+    },
+    {
+      "topic": "Native execution and scientific policy",
+      "status": "pending",
+      "response": "Environment builds, timers, natural prompts, grader controls, model routes, forecast isolation and any replacement choices remain separate gates. This work changes no runtime policy and launches no study runs."
+    }
+  ],
+  "followup_code_review": {
+    "codex_companion": "Failed with Invalid string length; it supplied no review.",
+    "independent_local_review": "Found unverified symbolic-link targets, inaccurate scratch-generator provenance, and dropped record validation through links. The corrections have matching regression cases; all 14 inventory tests pass.",
+    "opus_rereview": false
+  },
+  "evidence_audit": "../evidence/opus-evidence-audit.json",
+  "original_review": "opus-review.md",
+  "original_review_receipt": "opus-receipt.json",
+  "verification_receipt": "../verification.json",
+  "export_check_receipt": "export-checks.json",
+  "rebuild_check_receipt": "rebuild-checks.json"
+}

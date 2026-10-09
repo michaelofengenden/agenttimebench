@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "scope": "Current 212-slot rebuild and metadata-receipt isolation",
+  "semantic_sha256": {
+    "tasks": "c3a34bf6acb7e6f4b3d1499c706a0e216c9dab0001ec3126980cf8f5701beba0",
+    "recommendations": "cc1e3d9a84c4e0394115b2f761d1cd629067cf791a402b3fef7233b0ae64e9b1",
+    "index": "0d8e868669574d8ab6c7f40612cc42fba2b93664ca3d86a5f640760509e31b36",
+    "README": "6a38b4a35c66bfed693cd336ba2ea57a84662cb66960d8675f8a943aba3c6f5f"
+  },
+  "created_at_utc_is_only_ignored_value": true,
+  "full_verification_receipt_preserved": true
+}

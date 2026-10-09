@@ -1,0 +1,9 @@
+The subagent found and fetched the page without any redirect.
+
+- **Title:** Overview - Claude Code Docs
+- **URL:** https://code.claude.com/docs/en/overview
+
+The full title comes from the search result. The fetch returned the page's markdown without the HTML `<title>` tag, so the page itself only showed the heading "Overview". The subagent made 2 tool calls, which matches its report of one WebSearch and one WebFetch. Its summary of the page shows it read the content.
+
+Sources:
+- [Overview - Claude Code Docs](https://code.claude.com/docs/en/overview)

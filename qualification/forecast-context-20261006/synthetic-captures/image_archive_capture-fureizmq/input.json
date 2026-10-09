@@ -1,0 +1,20 @@
+{
+  "type": "user",
+  "message": {
+    "role": "user",
+    "content": [
+      {
+        "type": "text",
+        "text": "This is a synthetic qualification fixture, not a study task. How long would it take you to describe the attached image? Return minutes = N."
+      },
+      {
+        "type": "image",
+        "source": {
+          "type": "base64",
+          "media_type": "image/png",
+          "data": "iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAIAAAAiOjnJAAACc0lEQVR4nO3OAQkAMAzAsEmf893EoVAKEZCZveQ/fhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhCjB+K70Wh8dCcFAAAAAElFTkSuQmCC"
+        }
+      }
+    ]
+  }
+}

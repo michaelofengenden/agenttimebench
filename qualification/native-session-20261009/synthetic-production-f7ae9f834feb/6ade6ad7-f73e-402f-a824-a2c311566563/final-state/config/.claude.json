@@ -1,0 +1,12 @@
+{
+  "firstStartTime": "2026-10-09T15:41:19.714Z",
+  "firstStartVersion": "2.1.280",
+  "machineID": "4e527a12456de445b1f541d2c6d4d5783fdc9ddf9c68ddd5924ba8417192c35b",
+  "opusProMigrationComplete": true,
+  "sonnet1m45MigrationComplete": true,
+  "seenNotifications": {},
+  "hasResetAutoModeOptInForDefaultOffer": true,
+  "migrationVersion": 14,
+  "userID": "bee99a36b2ecd9bd2960996ed143360fdc6e374458f8d0fbba5b3ae47339b8c0",
+  "cachedExtraUsageDisabledReason": "group_zero_credit_limit"
+}

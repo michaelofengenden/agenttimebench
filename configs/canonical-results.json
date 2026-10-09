@@ -1,0 +1,78 @@
+{
+  "schema_version": 2,
+  "experiment": "AgentTime v1.1",
+  "scope": "controller_and_analysis_only_never_expose_to_task_agents",
+  "forecasts": [
+    {
+      "agent_id": "opus-5.5-max",
+      "model": "claude-opus-5-5",
+      "reasoning_effort": "max",
+      "status": "canonical_by_user_selected_suite_revision",
+      "selected_on": "2026-10-07",
+      "run_id": "canonical-opus-5.5-max-20261007",
+      "run_directory": "runs/canonical-opus-5.5-max-20261007",
+      "condition": "complete_input_described_target_linux_controller_v1",
+      "route": "claude_code_subscription",
+      "cli_version": "2.1.280",
+      "cli_sha256": "1e08503dbdf3c2cb0d706d32f3408277388d1c76ef108673e8fe42c1b322925b",
+      "files": {
+        "selection-manifest.json": {
+          "path": "runs/canonical-opus-5.5-max-20261007/selection-manifest.json",
+          "sha256": "9b6742cf27119f2fa8eb55f4cfde16b7a7ad615cc5109ddab0311f972c4bd7e4"
+        },
+        "estimates.csv": {
+          "path": "runs/canonical-opus-5.5-max-20261007/estimates.csv",
+          "sha256": "d409d7e3c6bf1a762dba29d4aee3cced11eae4d4337a07fc4811e6f4578cac0a"
+        },
+        "results-summary.json": {
+          "path": "runs/canonical-opus-5.5-max-20261007/results-summary.json",
+          "sha256": "7a03e8d842a9e93c06a9060dea8c0f99696eec3349c4895493fe74a159c2de56"
+        },
+        "final-audit.json": {
+          "path": "runs/canonical-opus-5.5-max-20261007/final-audit.json",
+          "sha256": "93fcac66f79afd54b33a97c0913ff6edcd396475d381b489cdd7e3077fbbe16f"
+        },
+        "retained-source-verification.json": {
+          "path": "runs/canonical-opus-5.5-max-20261007/retained-source-verification.json",
+          "sha256": "e4f9f877a869652370d95b5e6886da024c6333cffce1aa2cf09f376e4c2704a3"
+        },
+        "new-source-verification.json": {
+          "path": "runs/canonical-opus-5.5-max-20261007/new-source-verification.json",
+          "sha256": "f5cd0986353d17675782005b29394779dbe1882aaab3528a1ec1da736c89873c"
+        }
+      },
+      "task_count": 200,
+      "strict_format_count": 174,
+      "unique_numeric_estimate_with_extra_prose_count": 26,
+      "record_policy": "191 retained sessions plus nine fresh sessions; all original format flags retained. This directory is a selection view, not a new 200-call batch.",
+      "numeric_views": {
+        "strict_format": {
+          "field": "minutes",
+          "count": 174
+        },
+        "all_explicit_estimates": {
+          "fields": [
+            "minutes",
+            "ancillary_extracted_minutes"
+          ],
+          "count": 200,
+          "rule": "Use minutes when present, otherwise the separately audited ancillary value; retain the format flag."
+        }
+      },
+      "historical_run": "runs/forecast-opus-5.5-max-corrected-20261006",
+      "historical_disposition": "complete_200_attempt_source_batch_preserved;191_sessions_retained;9_superseded_for_this_suite_revision",
+      "natural_runtime_results": null,
+      "natural_route_qualified": false,
+      "forecasts_control_resources_order_deadlines_or_calibration": false,
+      "record_kind": "selection_across_two_immutable_source_runs",
+      "source_runs": [
+        "runs/forecast-opus-5.5-max-corrected-20261006",
+        "runs/forecast-opus-5.5-max-revision-20261007"
+      ]
+    }
+  ],
+  "superseded_registry": {
+    "path": "runs/canonical-opus-5.5-max-20261007/previous-registry.json",
+    "sha256": "bad3e368968174d2fab5d480411d3d75bb6234592efb20233dceb76f8c1f9b58"
+  }
+}

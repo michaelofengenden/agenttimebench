@@ -1,0 +1,31 @@
+{
+  "variant": "image_archive_capture",
+  "case": "/private/tmp/agenttime-forecast-context-probe-20261006-_67q7h_v/image_archive_capture-fureizmq",
+  "exit_code": 0,
+  "message_requests": 1,
+  "request_paths": [
+    "/v1/messages?beta=true"
+  ],
+  "tools": [],
+  "effort": {
+    "effort": "max"
+  },
+  "model": "claude-opus-5-5",
+  "version": "2.1.280",
+  "images_received": 1,
+  "image_bytes_identical": true,
+  "native_transcripts_saved": 1,
+  "raw_body_files": [
+    "req_fake_001.response.json",
+    "15f81c98-d0c7-43d3-ab71-0d543c34026f.request.json"
+  ],
+  "socket_listening_lines": [
+    "2026-10-06T11:31:30.450Z [INFO] [uds-messaging] Listening: /private/tmp/afq-q5enzmp2/xdg/cc-socks/55805.sock"
+  ],
+  "result_subtype": "success",
+  "result_is_error": false,
+  "result_errors": null,
+  "stderr_tail": "",
+  "environment_note_present": true,
+  "token_budget_reminder_present": false
+}

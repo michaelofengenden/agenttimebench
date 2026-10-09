@@ -1,0 +1,190 @@
+{
+  "schema_version": 1,
+  "suite_id": "agenttime-1.1-allocation-20260930",
+  "status": "selected_allocation_qualification_pending",
+  "families": [
+    {
+      "id": "terminal",
+      "name": "Terminal-Bench 4.0",
+      "count": 16,
+      "sector": "Engineering",
+      "coverage": "Broad terminal work",
+      "action": "Replace the two flagged tasks."
+    },
+    {
+      "id": "deepswe",
+      "name": "DeepSWE",
+      "count": 14,
+      "sector": "Engineering",
+      "coverage": "Repository fixes",
+      "action": "Replace OPA; select two additional hard tasks."
+    },
+    {
+      "id": "program",
+      "name": "ProgramBench",
+      "count": 18,
+      "sector": "Engineering",
+      "coverage": "Software reimplementation",
+      "action": "8 retained tasks + 10 Hard candidates."
+    },
+    {
+      "id": "osworld",
+      "name": "OSWorld 2.1",
+      "count": 18,
+      "sector": "Tools and apps",
+      "coverage": "Desktop work",
+      "action": "Use OSWorld 2.1; select two additions, verify the full task 092 evaluator, and qualify or replace task 029.",
+      "benchmark_release": "osworld-v2.1",
+      "source_repository": "https://github.com/xlang-ai/OSWorld-V2",
+      "resolved_code_commit": "3d778a3c9a34a079316f70df023b166700445792",
+      "upstream_manifest_url": "https://github.com/xlang-ai/OSWorld-V2/blob/3d778a3c9a34a079316f70df023b166700445792/benchmark_releases/osworld-v2.1.json",
+      "upstream_manifest_sha256": "978686683bdf9f946703c1d316cbbd29c0e3ea97396e48d940ee92c597806ecf"
+    },
+    {
+      "id": "appworld",
+      "name": "AppWorld",
+      "count": 14,
+      "sector": "Tools and apps",
+      "coverage": "Work across apps",
+      "action": "Reduce the sample while retaining app diversity."
+    },
+    {
+      "id": "pptarena",
+      "name": "PPTArena",
+      "count": 10,
+      "sector": "Tools and apps",
+      "coverage": "Presentation production",
+      "action": "Keep a fixed judging protocol."
+    },
+    {
+      "id": "ale",
+      "name": "Agents\u2019 Last Exam",
+      "count": 12,
+      "sector": "Reasoning",
+      "coverage": "Difficult exam and tool tasks",
+      "action": "Retain and qualify the task contracts."
+    },
+    {
+      "id": "tua",
+      "name": "TUA-Bench",
+      "count": 10,
+      "sector": "Tools and apps",
+      "coverage": "Tool use",
+      "action": "Choose the retained ten task IDs."
+    },
+    {
+      "id": "assistant",
+      "name": "AssistantBench",
+      "count": 8,
+      "sector": "Tools and apps",
+      "coverage": "Practical web research",
+      "action": "8 places selected; the qualification decision is still open."
+    },
+    {
+      "id": "browsecomp",
+      "name": "BrowseComp",
+      "count": 12,
+      "sector": "Tools and apps",
+      "coverage": "Difficult web research",
+      "action": "New family; select and audit all 12 task IDs."
+    },
+    {
+      "id": "tau",
+      "name": "\u03c4-bench, text",
+      "count": 12,
+      "sector": "Tools and apps",
+      "coverage": "Stateful service workflows",
+      "action": "New text-only family; select and audit all 12 task IDs."
+    },
+    {
+      "id": "core",
+      "name": "CORE-Bench Hard",
+      "count": 12,
+      "sector": "Research and ML",
+      "coverage": "Scientific reproducibility",
+      "action": "Keep Hard: 4 mainline + 8 out-of-distribution; audit still open."
+    },
+    {
+      "id": "paper",
+      "name": "PaperBench",
+      "count": 4,
+      "sector": "Research and ML",
+      "coverage": "Research implementation",
+      "action": "Add one task; remove competing work-duration wording."
+    },
+    {
+      "id": "posttrain",
+      "name": "PostTrainBench",
+      "count": 4,
+      "sector": "Research and ML",
+      "coverage": "Model training",
+      "action": "Prefer the v1.2 Harbor adapter and corrected grading; add two tasks and preserve the uncapped natural objective. Source and native qualification remain pending.",
+      "upstream_release_candidate": "1.2",
+      "release_assessment": "benchmarks/releases/posttrainbench-1.2/assessment.json"
+    },
+    {
+      "id": "weirdml",
+      "name": "WeirdML v3",
+      "count": 8,
+      "sector": "Research and ML",
+      "coverage": "Unusual ML problems",
+      "action": "New family; choose eight tasks from v3."
+    },
+    {
+      "id": "sakana",
+      "name": "Sakana ALE-Bench",
+      "count": 10,
+      "sector": "Research and ML",
+      "coverage": "Algorithm optimisation",
+      "action": "Keep ten; verify effective limits and compute quotas."
+    },
+    {
+      "id": "yc",
+      "name": "YC-Bench",
+      "count": 4,
+      "sector": "Business simulation",
+      "coverage": "Startup decisions",
+      "action": "Add one task; preserve the one-year or bankruptcy endpoint."
+    },
+    {
+      "id": "hle",
+      "name": "HLE Diamond",
+      "count": 20,
+      "sector": "Reasoning",
+      "coverage": "Hard closed-book questions",
+      "action": "Diamond: random 10 reasoning + 10 knowledge, with existing subject exclusions."
+    },
+    {
+      "id": "gpqa",
+      "name": "GPQA Diamond",
+      "count": 12,
+      "sector": "Reasoning",
+      "coverage": "Scientific question answering",
+      "action": "Keep 12 Diamond controls; select exact IDs."
+    },
+    {
+      "id": "wild",
+      "name": "WildClawBench",
+      "count": 0,
+      "sector": "Outside this mix",
+      "coverage": "Cybersecurity",
+      "action": "Hold outside the main study."
+    },
+    {
+      "id": "simpleqa",
+      "name": "SimpleQA Verified",
+      "count": 0,
+      "sector": "Outside this mix",
+      "coverage": "Short factuality checks",
+      "action": "Your selected count is zero."
+    },
+    {
+      "id": "metr",
+      "name": "METR public tasks",
+      "count": 2,
+      "sector": "Engineering",
+      "coverage": "Public long-task anchors",
+      "action": "Keep Payments and Cowthello; recalibrate on the new models."
+    }
+  ]
+}

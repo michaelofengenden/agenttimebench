@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "source_commit": "4a8e1061254004d9dac807054eed33fad7d1ff14",
+  "source_url": "https://github.com/zapier/AutomationBench",
+  "source_cache": "benchmarks/cache/automationbench-1.0.6-20261005/source",
+  "variant": "agenttime-automationbench-api-uncapped-v1",
+  "candidates": [
+    {
+      "task_id": "sales.cross_reference_validation",
+      "title": "Validate a new enterprise deal against CRM records and current policy",
+      "reason": "Resolve similarly named companies and duplicate contacts, apply current authorization rules, create the eligible CRM deal and record its audit trail. Selected for explicit requirements, reachable API operations and passing validity controls.",
+      "record_path": "benchmarks/cache/automationbench-1.0.6-20261005/selected/task.json",
+      "record_sha256": "ba925bf1f4c1bd7c11bfb9af88523b4083d413babd9184c223088fece367117a",
+      "review_notes": [
+        "Pinned public AutomationBench 1.0.6 with the native api toolset; this is not the private AutomationBench-AA evaluation.",
+        "Model-free API witness succeeds; the untouched initial state and fifteen incorrect variants fail. A valid alternative wording succeeds.",
+        "Across both audit passes, 28 task candidates received native API checks. This does not establish the quality of the remaining public catalog.",
+        "Natural-run adaptation removes both the roughly 50-turn instruction and the benchmark response cap. Exact source/adapted prompt hashes are recorded.",
+        "The standalone MCP bridge passed its model-free checks and independent code review. Native Codex/Claude sessions, timing boundaries, controller integration and full session restoration still need proof.",
+        "No defect was found in this scoped audit. It does not establish that the task or every API endpoint is free of defects."
+      ]
+    },
+    {
+      "task_id": "sales.negative_selection",
+      "title": "Enroll eligible directors under campaign compliance rules",
+      "reason": "Join contact and account records, follow parent-company restrictions, apply role exclusions and compliance holds, and enroll only eligible contacts. Selected after native API witnesses and targeted grading controls.",
+      "record_path": "benchmarks/cache/automationbench-expansion-20261005/selected/sales.negative_selection/task.json",
+      "record_sha256": "224c3bebbab63779e21aa7724f5374e10e421ce2d9130298ecf8f8329e148c34",
+      "review_notes": [
+        "Pinned public AutomationBench 1.0.6 with the native api toolset. Exact task data, source and adapted prompt hashes are saved.",
+        "20 incorrect-state controls are rejected. Valid alternative states and an alternate native tool sequence pass.",
+        "Independent replay through the private backend matches native grading; checkpoint restoration also matches in a fresh process with a different hash seed.",
+        "Natural runs remove the native turn instruction and response cap. Actual agent sessions, timing, production recovery and complete archives remain unqualified.",
+        "No defect was found within these checks. This is a sales/CRM sample, not comprehensive business-domain coverage; unrelated field edits are not comprehensively graded."
+      ]
+    },
+    {
+      "task_id": "sales.qualify_lead",
+      "title": "Apply current lead qualification rules and executive override",
+      "reason": "Retrieve the qualification policy, resolve policy precedence and a newer executive directive, classify all open leads and preserve the lead records. Selected after native API witnesses and targeted grading controls.",
+      "record_path": "benchmarks/cache/automationbench-expansion-20261005/selected/sales.qualify_lead/task.json",
+      "record_sha256": "e91513afb3419a8d29d46e21666ec1710a20e9bb498901f6d2fee283d9fb6373",
+      "review_notes": [
+        "Pinned public AutomationBench 1.0.6 with the native api toolset. Exact task data, source and adapted prompt hashes are saved.",
+        "17 incorrect-state controls are rejected. Valid alternative states and an alternate native tool sequence pass.",
+        "Independent replay through the private backend matches native grading; checkpoint restoration also matches in a fresh process with a different hash seed.",
+        "Natural runs remove the native turn instruction and response cap. Actual agent sessions, timing, production recovery and complete archives remain unqualified.",
+        "No defect was found within these checks. This is a sales/CRM sample, not comprehensive business-domain coverage; unrelated field edits are not comprehensively graded."
+      ]
+    }
+  ],
+  "active_in_suite": false,
+  "selection_status": "excluded_by_user",
+  "decision_date": "2026-10-05",
+  "removal_record": "benchmarks/inventory/evidence/selection-changes/2026-10-05-remove-automationbench.json",
+  "historical_records_note": "Candidate records below preserve the earlier recommendations and source evidence. They are not active task allocations."
+}

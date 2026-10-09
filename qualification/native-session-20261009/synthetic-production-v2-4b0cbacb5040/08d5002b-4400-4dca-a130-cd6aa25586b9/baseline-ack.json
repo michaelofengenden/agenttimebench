@@ -1,0 +1,13 @@
+{
+  "schema_version": "agenttime.natural-baseline-ack.v1",
+  "attempt_id": "08d5002b-4400-4dca-a130-cd6aa25586b9",
+  "identity_sha256": "2f0d5cebd3b89dcde71883e1f4c56233524027ce75b110b16a7591ae0215b511",
+  "session_id": "6f8733b3-dc44-4425-bd4f-cf62b0ed2ef8",
+  "contract_sha256": "389363c2479fa027620c26e0501fbd44deeb251249021e1dc5bd6876563053f5",
+  "input_sha256": "3530a98a4b7faf094f6a3d8eb30f2e9361deedab3020486970569342e98e89e4",
+  "inventory_sha256": "709d53339473131ee49c010c22c7a90063d6d402fae4c7dbf83a3eedd8d85e41",
+  "archive_manifest_sha256": "cadc6d30a73a8565273bc828020779f4a7a6dadca284b5ed1b69669ef106a4e6",
+  "archive_verified": true,
+  "independent_archive": true,
+  "archive_location": "/Users/michaelofengenden/Developer/TimeResearch/AgentTime-v1.1/qualification/native-session-20261009/synthetic-production-v2-4b0cbacb5040/08d5002b-4400-4dca-a130-cd6aa25586b9/initial-state"
+}

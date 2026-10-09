@@ -1,0 +1,10 @@
+{
+  "attribution": {
+    "commit": "",
+    "pr": ""
+  },
+  "autoMemoryEnabled": false,
+  "disableAllHooks": true,
+  "disableClaudeAiConnectors": true,
+  "includeGitInstructions": false
+}

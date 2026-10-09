@@ -1,0 +1,35 @@
+{
+  "cli_sha256": "1e08503dbdf3c2cb0d706d32f3408277388d1c76ef108673e8fe42c1b322925b",
+  "cli_version": "2.1.280",
+  "effort": "max",
+  "files": {
+    "goal.txt": "b09194413d730c78ec77ffffbfc7371f0ae2efada33ccf80a64db9e7ccafaebe",
+    "input.json": "ba161a213aaaf50bbb857e09066dd32833dffec393c0d6e1d7512d035f446165",
+    "mcp.json": "757729d5c19b82f0075e1574a921175cf5c71d7fd09c3d9d799b5c349e475116",
+    "settings.json": "17618ab94d0c2fa5917a3ffdacc21ca371ff8cfeb216693464cdc31618288328"
+  },
+  "model": "claude-opus-5-5[1m]",
+  "purpose": "synthetic_only",
+  "schema_version": "agenttime.synthetic-assistantbench-canary.v1",
+  "session_id": "42d75c69-181e-47ba-a779-d87c09d431f8",
+  "source_pins": {
+    "assistantbench_bridge.py": "9bb6ccdd1bd1b39301167c9a1e537be144478e0d19e5cefa319abe5d65f39742",
+    "claude_canary.py": "afd7a4faa991381f99071c6055bf559b99cd3efc9646fe14391bb16f596c4194",
+    "evidence.py": "b85a9ae618664d2829199e163db839378c38fc125b8c8bf88872c0daee4a693f",
+    "jsonio.py": "f624a642ed571b1721fb971cf160f75ec813f91e3c9f612ac74c245350bd9cad",
+    "synthetic.html": "21eae3f05351fde21560c009d5b368c38f43d61f79ebf373f96fcb07802b28be"
+  },
+  "study_inputs": 0,
+  "tools": [
+    "mcp__assistantbench__observe",
+    "mcp__assistantbench__noop",
+    "mcp__assistantbench__scroll",
+    "mcp__assistantbench__fill",
+    "mcp__assistantbench__select_option",
+    "mcp__assistantbench__click",
+    "mcp__assistantbench__press",
+    "mcp__assistantbench__go_back",
+    "mcp__assistantbench__goto",
+    "mcp__assistantbench__send_msg_to_user"
+  ]
+}

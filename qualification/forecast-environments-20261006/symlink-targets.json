@@ -1,0 +1,7 @@
+[
+  {
+    "original_path": "capture/linux_image_archive_capture-7foz52jk/latest",
+    "target": "/tmp/forecast-capture/linux_image_archive_capture-7foz52jk/debug.log",
+    "preservation": "target_recorded_without_recreating_link"
+  }
+]

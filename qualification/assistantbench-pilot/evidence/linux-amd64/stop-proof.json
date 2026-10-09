@@ -1,0 +1,9 @@
+{
+  "container_id": "e8eadf0b8fc548a0894acae151ce6a27fbd8f83043f8754e896ec96939179690",
+  "image": "sha256:148e5ecfdd7d47fb01785f1f7b06471ec72fe939881eae6a4cb8d4282f59259d",
+  "stopped": true,
+  "purpose": "model_free_synthetic_qualification",
+  "independent_local_receipts_preserved": true,
+  "model_calls": 0,
+  "study_inputs": 0
+}

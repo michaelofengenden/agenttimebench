@@ -1,0 +1,19 @@
+Traceback (most recent call last):
+  File "/Users/michaelofengenden/Developer/TimeResearch/AgentTime-v1.1/qualification/assistantbench-pilot/qualify.py", line 108, in <module>
+    main()
+  File "/Users/michaelofengenden/Developer/TimeResearch/AgentTime-v1.1/qualification/assistantbench-pilot/qualify.py", line 71, in main
+    submitted = public(first.call_tool('send_msg_to_user', {'text': 'Synthetic answer: blue.'}))
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/michaelofengenden/Developer/TimeResearch/AgentTime-v1.1/src/agenttime/assistantbench_bridge.py", line 196, in call_tool
+    observation, _reward, terminated, truncated, _info = self.backend.step(name, arguments)
+                                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/michaelofengenden/Developer/TimeResearch/AgentTime-v1.1/src/agenttime/assistantbench_bridge.py", line 296, in step
+    observation, reward, terminated, truncated, info = self.env.step(render_native_action(name, arguments))
+                                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/private/tmp/agenttime-assistantbench-pilot-20261009/venv/lib/python3.12/site-packages/browsergym/core/env.py", line 465, in step
+    return self.post_step(info)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/michaelofengenden/Developer/TimeResearch/AgentTime-v1.1/qualification/assistantbench-pilot/qualify.py", line 68, in require_seal_before_post_step
+    assert (args.output / 'first/final-answer.txt').is_file(), 'Native send_msg_to_user returned before the submission was sealed'
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: Native send_msg_to_user returned before the submission was sealed

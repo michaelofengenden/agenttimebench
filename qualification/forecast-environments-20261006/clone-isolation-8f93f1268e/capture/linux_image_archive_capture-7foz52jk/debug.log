@@ -1,0 +1,163 @@
+2026-10-06T11:56:40.693Z [DEBUG] MDM settings load completed in 11ms
+2026-10-06T11:56:40.816Z [DEBUG] Broken symlink or missing file encountered for settings.json at path: /etc/claude-code/managed-settings.json
+2026-10-06T11:56:40.817Z [DEBUG] CA certs: Config fallback - globalEnv keys: , settingsEnv keys: none
+2026-10-06T11:56:40.823Z [DEBUG] [init] configureGlobalMTLS starting
+2026-10-06T11:56:40.823Z [DEBUG] [init] configureGlobalMTLS complete
+2026-10-06T11:56:40.824Z [DEBUG] [init] configureGlobalAgents starting
+2026-10-06T11:56:40.824Z [DEBUG] CA certs: stores=bundled,system, extraCertsPath=undefined
+2026-10-06T11:56:40.824Z [DEBUG] CA certs: Loaded 121 bundled root certificates
+2026-10-06T11:56:40.855Z [DEBUG] CA certs: Dropped 2 expired certificate(s) from system store
+2026-10-06T11:56:40.855Z [DEBUG] CA certs: Loaded 144 system CA certificates
+2026-10-06T11:56:40.855Z [DEBUG] mTLS: Creating HTTPS agent with custom certificates
+2026-10-06T11:56:40.855Z [DEBUG] [init] configureGlobalAgents complete
+2026-10-06T11:56:40.883Z [DEBUG] Git remote URL: null
+2026-10-06T11:56:40.883Z [DEBUG] No git remote URL found
+2026-10-06T11:56:40.884Z [DEBUG] Error log sink initialized
+2026-10-06T11:56:40.885Z [DEBUG] Broken symlink or missing file encountered for settings.json at path: /tmp/afq-jq33h_3z/config/settings.json
+2026-10-06T11:56:40.894Z [ERROR] Failed to save config with lock: Error: ENOENT: no such file or directory, lstat '/tmp/afq-jq33h_3z/config/.claude.json'
+2026-10-06T11:56:40.899Z [DEBUG] Setting permissions for new file: 600
+2026-10-06T11:56:40.899Z [DEBUG] Writing to temp file: /tmp/afq-jq33h_3z/config/.claude.json.tmp.32.f936d1ba6973
+2026-10-06T11:56:40.902Z [DEBUG] Temp file written successfully, size: 84 bytes
+2026-10-06T11:56:40.902Z [DEBUG] Renaming /tmp/afq-jq33h_3z/config/.claude.json.tmp.32.f936d1ba6973 to /tmp/afq-jq33h_3z/config/.claude.json
+2026-10-06T11:56:40.903Z [DEBUG] File /tmp/afq-jq33h_3z/config/.claude.json written atomically
+2026-10-06T11:56:40.908Z [DEBUG] Preserving file permissions: 100600
+2026-10-06T11:56:40.908Z [DEBUG] Writing to temp file: /tmp/afq-jq33h_3z/config/.claude.json.tmp.32.6c283b5239b1
+2026-10-06T11:56:40.908Z [DEBUG] Applied original permissions to temp file
+2026-10-06T11:56:40.909Z [DEBUG] Temp file written successfully, size: 167 bytes
+2026-10-06T11:56:40.909Z [DEBUG] Renaming /tmp/afq-jq33h_3z/config/.claude.json.tmp.32.6c283b5239b1 to /tmp/afq-jq33h_3z/config/.claude.json
+2026-10-06T11:56:40.909Z [DEBUG] File /tmp/afq-jq33h_3z/config/.claude.json written atomically
+2026-10-06T11:56:40.911Z [DEBUG] Preserving file permissions: 100600
+2026-10-06T11:56:40.911Z [DEBUG] Writing to temp file: /tmp/afq-jq33h_3z/config/.claude.json.tmp.32.a869ad640abb
+2026-10-06T11:56:40.912Z [DEBUG] Applied original permissions to temp file
+2026-10-06T11:56:40.912Z [DEBUG] Temp file written successfully, size: 203 bytes
+2026-10-06T11:56:40.912Z [DEBUG] Renaming /tmp/afq-jq33h_3z/config/.claude.json.tmp.32.a869ad640abb to /tmp/afq-jq33h_3z/config/.claude.json
+2026-10-06T11:56:40.913Z [DEBUG] File /tmp/afq-jq33h_3z/config/.claude.json written atomically
+2026-10-06T11:56:40.913Z [DEBUG] Preserving file permissions: 100600
+2026-10-06T11:56:40.913Z [DEBUG] Writing to temp file: /tmp/afq-jq33h_3z/config/.claude.json.tmp.32.1e6d99f98d58
+2026-10-06T11:56:40.914Z [DEBUG] Applied original permissions to temp file
+2026-10-06T11:56:40.914Z [DEBUG] Temp file written successfully, size: 242 bytes
+2026-10-06T11:56:40.914Z [DEBUG] Renaming /tmp/afq-jq33h_3z/config/.claude.json.tmp.32.1e6d99f98d58 to /tmp/afq-jq33h_3z/config/.claude.json
+2026-10-06T11:56:40.914Z [DEBUG] File /tmp/afq-jq33h_3z/config/.claude.json written atomically
+2026-10-06T11:56:40.916Z [DEBUG] Preserving file permissions: 100600
+2026-10-06T11:56:40.916Z [DEBUG] Writing to temp file: /tmp/afq-jq33h_3z/config/.claude.json.tmp.32.9acddec30687
+2026-10-06T11:56:40.916Z [DEBUG] Applied original permissions to temp file
+2026-10-06T11:56:40.917Z [DEBUG] Temp file written successfully, size: 269 bytes
+2026-10-06T11:56:40.917Z [DEBUG] Renaming /tmp/afq-jq33h_3z/config/.claude.json.tmp.32.9acddec30687 to /tmp/afq-jq33h_3z/config/.claude.json
+2026-10-06T11:56:40.917Z [DEBUG] File /tmp/afq-jq33h_3z/config/.claude.json written atomically
+2026-10-06T11:56:40.917Z [DEBUG] Preserving file permissions: 100600
+2026-10-06T11:56:40.917Z [DEBUG] Writing to temp file: /tmp/afq-jq33h_3z/config/.claude.json.tmp.32.f58037e65b6c
+2026-10-06T11:56:40.918Z [DEBUG] Applied original permissions to temp file
+2026-10-06T11:56:40.918Z [DEBUG] Temp file written successfully, size: 317 bytes
+2026-10-06T11:56:40.918Z [DEBUG] Renaming /tmp/afq-jq33h_3z/config/.claude.json.tmp.32.f58037e65b6c to /tmp/afq-jq33h_3z/config/.claude.json
+2026-10-06T11:56:40.918Z [DEBUG] File /tmp/afq-jq33h_3z/config/.claude.json written atomically
+2026-10-06T11:56:40.919Z [DEBUG] Preserving file permissions: 100600
+2026-10-06T11:56:40.919Z [DEBUG] Writing to temp file: /tmp/afq-jq33h_3z/config/.claude.json.tmp.32.2ae1930739a7
+2026-10-06T11:56:40.919Z [DEBUG] Applied original permissions to temp file
+2026-10-06T11:56:40.920Z [DEBUG] Temp file written successfully, size: 343 bytes
+2026-10-06T11:56:40.920Z [DEBUG] Renaming /tmp/afq-jq33h_3z/config/.claude.json.tmp.32.2ae1930739a7 to /tmp/afq-jq33h_3z/config/.claude.json
+2026-10-06T11:56:40.920Z [DEBUG] File /tmp/afq-jq33h_3z/config/.claude.json written atomically
+2026-10-06T11:56:40.928Z [DEBUG] [Claude in Chrome] Disabled: OAuth token has no scope accepted by /api/oauth/validate (needs user:profile, user:office, or user:ccr_inference; env-var and setup-token sessions default to user:inference only)
+2026-10-06T11:56:40.930Z [DEBUG] [ToolSearch:optimistic] disabled: ANTHROPIC_BASE_URL=http://127.0.0.1:41617 is not a first-party Anthropic host. Set ENABLE_TOOL_SEARCH=true (or auto / auto:N) if your proxy forwards tool_reference blocks.
+2026-10-06T11:56:40.999Z [DEBUG] Broken symlink or missing file encountered for settings.json at path: /tmp/afq-jq33h_3z/work/.claude/settings.json
+2026-10-06T11:56:40.999Z [DEBUG] Broken symlink or missing file encountered for settings.json at path: /tmp/afq-jq33h_3z/work/.claude/settings.local.json
+2026-10-06T11:56:41.004Z [DEBUG] [STARTUP] Loading MCP configs...
+2026-10-06T11:56:41.004Z [DEBUG] [STARTUP] Running setup()...
+2026-10-06T11:56:41.041Z [DEBUG] installed_plugins.json doesn't exist, returning empty V2 object
+2026-10-06T11:56:41.041Z [DEBUG] Found 0 plugins (0 enabled, 0 disabled)
+2026-10-06T11:56:41.043Z [DEBUG] getPluginSkills: Processing 0 enabled plugins
+2026-10-06T11:56:41.043Z [DEBUG] Total plugin workflows loaded: 0
+2026-10-06T11:56:41.043Z [DEBUG] Total plugin commands loaded: 0
+2026-10-06T11:56:41.043Z [DEBUG] Total plugin skills loaded: 0 (0 duplicate/user-owned entries skipped)
+2026-10-06T11:56:41.044Z [DEBUG] Loading skills from: managed=/etc/claude-code/.claude/skills, user=/tmp/afq-jq33h_3z/config/skills, project=[]
+2026-10-06T11:56:41.045Z [DEBUG] Failed to stat directory /etc/claude-code/.claude/agents: ENOENT: no such file or directory, stat '/etc/claude-code/.claude/agents'
+2026-10-06T11:56:41.046Z [DEBUG] Total plugin agents loaded: 0
+2026-10-06T11:56:41.102Z [DEBUG] Failed to stat directory /etc/claude-code/.claude/commands: ENOENT: no such file or directory, stat '/etc/claude-code/.claude/commands'
+2026-10-06T11:56:41.106Z [DEBUG] Loaded 0 unique skills (0 unconditional, 0 conditional, managed: 0, user: 0, project: 0, additional: 0, legacy commands: 0)
+2026-10-06T11:56:41.190Z [DEBUG] Git remote URL: null
+2026-10-06T11:56:41.190Z [DEBUG] No git remote URL found
+2026-10-06T11:56:41.200Z [INFO] [uds-messaging] Listening: /tmp/afq-jq33h_3z/xdg/cc-socks/32.sock
+2026-10-06T11:56:41.201Z [INFO] [uds-messaging] Inject messages (auth line optional here): { echo '{"type":"auth","token":"[REDACTED]"$CLAUDE_CODE_MESSAGING_TOKEN"'"}'; echo '{"type":"user","message":{"role":"user","content":"hello"}}'; } | socat - UNIX-CONNECT:/tmp/afq-jq33h_3z/xdg/cc-socks/32.sock
+2026-10-06T11:56:41.208Z [INFO] [uds-messaging] Connect when the data is ready (e.g. out=$(cmd); printf '%s\n' "$out" | nc -N -U "$CLAUDE_CODE_MESSAGING_SOCKET" — or the socat form above): a connection that sends no complete line within 30000 ms is closed
+2026-10-06T11:56:41.210Z [DEBUG] Broken symlink or missing file encountered for settings.json at path: /etc/claude-code/managed-settings.json
+2026-10-06T11:56:41.213Z [DEBUG] Error log sink initialized
+2026-10-06T11:56:41.216Z [DEBUG] Broken symlink or missing file encountered for settings.json at path: /tmp/afq-jq33h_3z/work/.claude/settings.json
+2026-10-06T11:56:41.217Z [DEBUG] Broken symlink or missing file encountered for settings.json at path: /tmp/afq-jq33h_3z/config/settings.json
+2026-10-06T11:56:41.219Z [DEBUG] installed plugins' hooks modules not loaded: rollout flag (tengu_plugin_hooks_modules) is off, from the default (GrowthBook is off for this session: a third-party provider, or telemetry opted out); built-in plugins load regardless
+2026-10-06T11:56:41.219Z [DEBUG] sec-default@builtin not seated: installed plugins' hooks modules are off in this process
+2026-10-06T11:56:41.221Z [DEBUG] Registered 0 hooks from 0 plugins
+2026-10-06T11:56:41.222Z [DEBUG] [STARTUP] setup() completed in 218ms
+2026-10-06T11:56:41.223Z [DEBUG] Cleared mTLS configuration cache
+2026-10-06T11:56:41.223Z [DEBUG] Cleared proxy agent cache
+2026-10-06T11:56:41.223Z [DEBUG] mTLS: Creating HTTPS agent with custom certificates
+2026-10-06T11:56:41.242Z [DEBUG] Broken symlink or missing file encountered for settings.json at path: /tmp/afq-jq33h_3z/work/.claude/settings.local.json
+2026-10-06T11:56:41.243Z [DEBUG] [STARTUP] Loading commands and agents...
+2026-10-06T11:56:41.259Z [DEBUG] getSkills returning: 0 skill dir commands, 0 plugin skills, 40 bundled skills, 0 builtin plugin skills
+2026-10-06T11:56:41.290Z [DEBUG] [STARTUP] Commands and agents loaded in 46ms
+2026-10-06T11:56:41.298Z [DEBUG] [LSP MANAGER] initializeLspServerManager() called
+2026-10-06T11:56:41.298Z [DEBUG] [LSP MANAGER] Created manager instance, state=pending
+2026-10-06T11:56:41.298Z [DEBUG] [LSP MANAGER] Starting async initialization (generation 1)
+2026-10-06T11:56:41.298Z [DEBUG] Starting background startup prefetches
+2026-10-06T11:56:41.301Z [DEBUG] [Bootstrap] Skipped: Nonessential traffic disabled
+2026-10-06T11:56:41.301Z [DEBUG] [STARTUP] MCP configs resolved in 0ms (awaited at +297ms)
+2026-10-06T11:56:41.312Z [DEBUG] Total LSP servers loaded: 0
+2026-10-06T11:56:41.314Z [DEBUG] Cleared mTLS configuration cache
+2026-10-06T11:56:41.314Z [DEBUG] Cleared proxy agent cache
+2026-10-06T11:56:41.314Z [DEBUG] mTLS: Creating HTTPS agent with custom certificates
+2026-10-06T11:56:41.325Z [DEBUG] Skipping plugin hooks - allowManagedHooksOnly is enabled and no managed plugins
+2026-10-06T11:56:41.327Z [DEBUG] [LSP SERVER MANAGER] getAllLspServers returned 0 server(s)
+2026-10-06T11:56:41.327Z [DEBUG] LSP manager initialized with 0 servers
+2026-10-06T11:56:41.327Z [DEBUG] Initialized versioned plugins system with 0 plugins
+2026-10-06T11:56:41.329Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+2026-10-06T11:56:41.330Z [DEBUG] [MCP] --mcp-config servers running fully async (nonblocking)
+2026-10-06T11:56:41.330Z [DEBUG] [MCP] claude.ai connectors running fully async (nonblocking)
+2026-10-06T11:56:41.330Z [DEBUG] LSP server manager initialized successfully
+2026-10-06T11:56:41.330Z [DEBUG] LSP notification handlers registered successfully for all 0 server(s)
+2026-10-06T11:56:41.484Z [DEBUG] [auto-mode] verifyAutoModeGateAccess: enabledState=enabled disabledBySettings=false model=claude-opus-5-5 modelSupported=true disableFastModeBreakerFires=false carouselAvailable=true canEnterAuto=true
+2026-10-06T11:56:41.505Z [DEBUG] [servedCatalog] off (essential_traffic)
+2026-10-06T11:56:41.586Z [DEBUG] [Perfetto] initializePerfettoTracing called, env value: undefined
+2026-10-06T11:56:41.586Z [DEBUG] [3P telemetry] isTelemetryEnabled=false (CLAUDE_CODE_ENABLE_TELEMETRY=undefined)
+2026-10-06T11:56:41.600Z [DEBUG] Plugin autoupdate: command-source refresh disabled by tengu_plugin_command_source_refresh (still excluding command-sourced plugins from the regular pass)
+2026-10-06T11:56:41.605Z [DEBUG] Plugin autoupdate: skipped (auto-updater disabled)
+2026-10-06T11:56:41.781Z [DEBUG] [ScheduledTasks] scheduler start() — enabled=false, hasTasks=false
+2026-10-06T11:56:41.805Z [DEBUG] session.start: raised (surface none, not interactive)
+2026-10-06T11:56:41.806Z [DEBUG] [claudeai-mcp] Disabled via disableClaudeAiConnectors setting
+2026-10-06T11:56:41.812Z [DEBUG] installPluginsForHeadless: starting
+2026-10-06T11:56:41.818Z [DEBUG] installPluginsForHeadless: no marketplaces declared
+2026-10-06T11:56:41.827Z [DEBUG] [sessionRegistry] sweep declined by isRegistrySweepPermitted() — dead records are left in place (neither counted nor deleted)
+2026-10-06T11:56:41.882Z [DEBUG] Ripgrep first use test: PASSED (mode=embedded, path=/probe/claude)
+2026-10-06T11:56:41.883Z [DEBUG] "rg error (signal=undefined, code=2, stderr: rg: /tmp/afq-jq33h_3z/config/plugins/cache: IO error for operation on /tmp/afq-jq33h_3z/config/plugins/cache: No such file or directory (os error 2)\n), 0 results"
+2026-10-06T11:56:41.912Z [DEBUG] Preserving file permissions: 100600
+2026-10-06T11:56:41.912Z [DEBUG] Writing to temp file: /tmp/afq-jq33h_3z/config/.claude.json.tmp.32.38ca2cd6b5b2
+2026-10-06T11:56:41.917Z [DEBUG] Watching /tmp/afq-jq33h_3z/work for /tmp/afq-jq33h_3z/work/.claude to appear
+2026-10-06T11:56:41.917Z [DEBUG] Watching for changes in setting files /tmp/afq-jq33h_3z/config/settings.json...
+2026-10-06T11:56:41.923Z [DEBUG] Applied original permissions to temp file
+2026-10-06T11:56:41.983Z [DEBUG] Temp file written successfully, size: 423 bytes
+2026-10-06T11:56:41.983Z [DEBUG] Renaming /tmp/afq-jq33h_3z/config/.claude.json.tmp.32.38ca2cd6b5b2 to /tmp/afq-jq33h_3z/config/.claude.json
+2026-10-06T11:56:41.987Z [DEBUG] File /tmp/afq-jq33h_3z/config/.claude.json written atomically
+2026-10-06T11:56:41.995Z [DEBUG] Stored image 1 to /tmp/afq-jq33h_3z/tmp/claude-10001/-tmp-afq-jq33h-3z-work/574fe6ea-86d0-4744-bde4-49b74378c42a/images/1.png
+2026-10-06T11:56:42.004Z [DEBUG] Failed to stat directory /etc/claude-code/.claude/output-styles: ENOENT: no such file or directory, stat '/etc/claude-code/.claude/output-styles'
+2026-10-06T11:56:42.005Z [DEBUG] Total plugin output styles loaded: 0
+2026-10-06T11:56:42.008Z [WARN] [3P telemetry] Event dropped (no event logger initialized): user_prompt
+2026-10-06T11:56:42.085Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+2026-10-06T11:56:42.085Z [DEBUG] [session-notices] advertise=false mode=default flag=false(disabled) pollChannel=false remote=false remoteEnv=false nonInteractive=true
+2026-10-06T11:56:42.091Z [DEBUG] [engine] turn 1 start
+2026-10-06T11:56:42.099Z [DEBUG] autocompact: tokens=[REDACTED] level=ok effectiveWindow=180000
+2026-10-06T11:56:42.128Z [DEBUG] attribution header x-anthropic-billing-header: cc_version=2.1.280.6af; cc_entrypoint=sdk-cli;
+2026-10-06T11:56:42.129Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+2026-10-06T11:56:42.134Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+2026-10-06T11:56:42.195Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+2026-10-06T11:56:42.196Z [DEBUG] [API:timing] dispatching to firstParty model=claude-opus-5-5
+2026-10-06T11:56:42.204Z [DEBUG] [API REQUEST] /v1/messages source=sdk
+2026-10-06T11:56:42.414Z [DEBUG] [fs.watch probe] verdict: delivers
+2026-10-06T11:56:42.541Z [DEBUG] Stream started - received first chunk
+2026-10-06T11:56:42.541Z [DEBUG] [API:timing] first byte after 347ms
+2026-10-06T11:56:42.612Z [DEBUG] [engine] turn 1 end (turns=1 usage in=100 out=5 cost=$0.0005 api=471ms stop=end_turn resultLen=12)
+2026-10-06T11:56:42.612Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+2026-10-06T11:56:42.626Z [DEBUG] [uds-messaging] Shutting down
+2026-10-06T11:56:42.632Z [DEBUG] LSP server manager shut down successfully
+2026-10-06T11:56:42.640Z [DEBUG] Preserving file permissions: 100600
+2026-10-06T11:56:42.640Z [DEBUG] Writing to temp file: /tmp/afq-jq33h_3z/config/.claude.json.tmp.32.84bc36427863
+2026-10-06T11:56:42.641Z [DEBUG] Applied original permissions to temp file
+2026-10-06T11:56:42.643Z [DEBUG] Temp file written successfully, size: 465 bytes
+2026-10-06T11:56:42.643Z [DEBUG] Renaming /tmp/afq-jq33h_3z/config/.claude.json.tmp.32.84bc36427863 to /tmp/afq-jq33h_3z/config/.claude.json
+2026-10-06T11:56:42.644Z [DEBUG] File /tmp/afq-jq33h_3z/config/.claude.json written atomically

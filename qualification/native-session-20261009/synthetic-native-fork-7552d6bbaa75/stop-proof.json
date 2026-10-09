@@ -1,0 +1,6 @@
+{
+  "stopped": true,
+  "container_id": "c302594c2d7c425fdcd9d0886c60dfac4310f0b54ddc7ef7d0465265293ec8f8",
+  "reason": "model_free_preparation_failed_before_any_session",
+  "model_calls": 0
+}

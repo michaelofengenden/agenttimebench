@@ -1,0 +1,14 @@
+{
+  "container_running": false,
+  "external_verification": true,
+  "identity": {
+    "container_id": "61c87c45c34910e360c2b53482657514573d0d65a25030d372a066ea23935dd9",
+    "daemon_id": "9c0d75e9-2357-4913-aada-75e743da1e67",
+    "docker_endpoint": "unix:///var/run/docker.sock",
+    "host_id": "169539583",
+    "session_id": "a9c438cf-c675-4945-899f-30b4368d01d2",
+    "worker_id": "35578997-be0d-448d-9d80-e0e679f179c4"
+  },
+  "observed_at": "2026-10-09T15:59:45.562131+00:00",
+  "stop_verified": true
+}

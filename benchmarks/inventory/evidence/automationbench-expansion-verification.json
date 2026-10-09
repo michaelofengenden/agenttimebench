@@ -1,0 +1,14 @@
+{
+  "status": "passed_static_checks",
+  "unchanged_existing_slots": 201,
+  "added_slots": 2,
+  "suite_tasks": 203,
+  "automationbench_candidates": 3,
+  "held_native_candidates": 25,
+  "selected_negative_controls": 52,
+  "local_links_exist": true,
+  "inline_javascript_syntax_valid": true,
+  "private_state_keys_absent": true,
+  "browser_visual_check": "not performed; prior browser policy block respected",
+  "native_model_runs": 0
+}

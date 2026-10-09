@@ -1,0 +1,9 @@
+{
+  "census_empty": true,
+  "method": "linux_child_subreaper_waitpid_and_owned_census",
+  "owned_work_drained_monotonic_ns": 1364877261350,
+  "root_exit_code": 0,
+  "root_exit_monotonic_ns": 1364876651445,
+  "session_id": "a133e858-520c-4c3d-8722-3fefd81508a6",
+  "waitpid_echild": true
+}

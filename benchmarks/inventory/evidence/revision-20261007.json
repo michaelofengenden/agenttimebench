@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-07",
+  "selection_change": "selection-changes/2026-10-07-hetzner-runpod.json",
+  "selection_change_sha256": "9e97997721506386ee251e3d3864791576f60929522c8d1d46b55b0114053e1a",
+  "source_import_receipt": "benchmarks/cache/hetzner-runpod-20261007/import-receipt.json",
+  "source_import_receipt_sha256": "ebcea57852ba915019b33339590b16fe2a9a84d16a9246aec278daf8c4e66d10",
+  "approved_replacement_slots": [
+    "ale-13",
+    "ale-14",
+    "ale-15",
+    "core-13",
+    "core-14"
+  ],
+  "unchanged_task_identities": 195,
+  "historical_earlier_candidates": 100,
+  "remaining_earlier_candidates": 95,
+  "active_family_count": 18,
+  "active_task_count": 200,
+  "core_split": {
+    "mainline": 4,
+    "ood": 8
+  },
+  "runtime_qualified": false,
+  "admitted": false,
+  "summary": {
+    "selection_decision": "The 7 October revision keeps 200 tasks across 18 families. Five approved CPU-compatible replacements use fresh slots; the other 195 task identities are preserved. CORE retains four mainline and eight OOD capsules.",
+    "completed": [
+      "Three ALE public bundles and their verifier-only references are present at pinned revisions.",
+      "Two original CORE capsule archives and their protected native metadata are copied and independently hash-verified.",
+      "Each of the five user-approved replacements has a fresh slot, an explicit retired identity and a hash-linked selection receipt.",
+      "Molecular geometry retains a genuine 3D component alongside the existing Terminal-Bench CAD task; visual-media creation coverage changes."
+    ],
+    "remaining": [
+      "Qualify native environments, subject material separation, grader controls and uncapped natural endpoints before execution.",
+      "Provider allocation remains intended: 192 Hetzner CPU/desktop candidates and eight RunPod GPU research candidates, plus separate GPU grading.",
+      "PaperBench fresh reproduction uses the approved H100 80 GB, 16 CPU units, 128 GiB RAM and 400 GB storage contract; native RunPod reproduction remains unqualified.",
+      "Enforce Chisel read-only input and solve-time network restrictions in the native worker; its scorer alone does not provide these controls."
+    ],
+    "user_decisions": [
+      "The user approved the five replacements and the separate PaperBench reproduction contract on 7 October. Selection approval does not grant runtime qualification or scientific admission."
+    ],
+    "revision_heading": "Five approved replacements; 200 tasks retained"
+  }
+}

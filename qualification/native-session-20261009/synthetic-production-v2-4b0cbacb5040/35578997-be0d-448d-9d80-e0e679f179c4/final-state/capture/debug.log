@@ -1,0 +1,277 @@
+2026-10-09T15:57:25.668Z [DEBUG] MDM settings load completed in 1ms
+2026-10-09T15:57:25.687Z [DEBUG] Broken symlink or missing file encountered for settings.json at path: /etc/claude-code/managed-settings.json
+2026-10-09T15:57:25.688Z [DEBUG] CA certs: Config fallback - globalEnv keys: , settingsEnv keys: none
+2026-10-09T15:57:25.690Z [DEBUG] [init] configureGlobalMTLS starting
+2026-10-09T15:57:25.690Z [DEBUG] [init] configureGlobalMTLS complete
+2026-10-09T15:57:25.690Z [DEBUG] [init] configureGlobalAgents starting
+2026-10-09T15:57:25.690Z [DEBUG] CA certs: stores=bundled,system, extraCertsPath=undefined
+2026-10-09T15:57:25.691Z [DEBUG] CA certs: Loaded 121 bundled root certificates
+2026-10-09T15:57:25.700Z [DEBUG] CA certs: Dropped 1 expired certificate(s) from system store
+2026-10-09T15:57:25.700Z [DEBUG] CA certs: Loaded 149 system CA certificates
+2026-10-09T15:57:25.700Z [DEBUG] mTLS: Creating HTTPS agent with custom certificates
+2026-10-09T15:57:25.700Z [DEBUG] [init] configureGlobalAgents complete
+2026-10-09T15:57:25.702Z [DEBUG] Git remote URL: null
+2026-10-09T15:57:25.702Z [DEBUG] No git remote URL found
+2026-10-09T15:57:25.703Z [DEBUG] Error log sink initialized
+2026-10-09T15:57:25.703Z [DEBUG] Broken symlink or missing file encountered for settings.json at path: /tmp/at-native/config/settings.json
+2026-10-09T15:57:25.706Z [ERROR] Failed to save config with lock: Error: ENOENT: no such file or directory, lstat '/tmp/at-native/config/.claude.json'
+2026-10-09T15:57:25.706Z [DEBUG] Setting permissions for new file: 600
+2026-10-09T15:57:25.706Z [DEBUG] Writing to temp file: /tmp/at-native/config/.claude.json.tmp.20.01e111af56b6
+2026-10-09T15:57:25.707Z [DEBUG] Temp file written successfully, size: 84 bytes
+2026-10-09T15:57:25.707Z [DEBUG] Renaming /tmp/at-native/config/.claude.json.tmp.20.01e111af56b6 to /tmp/at-native/config/.claude.json
+2026-10-09T15:57:25.707Z [DEBUG] File /tmp/at-native/config/.claude.json written atomically
+2026-10-09T15:57:25.709Z [DEBUG] Preserving file permissions: 100600
+2026-10-09T15:57:25.709Z [DEBUG] Writing to temp file: /tmp/at-native/config/.claude.json.tmp.20.72facd9748ca
+2026-10-09T15:57:25.709Z [DEBUG] Applied original permissions to temp file
+2026-10-09T15:57:25.710Z [DEBUG] Temp file written successfully, size: 167 bytes
+2026-10-09T15:57:25.710Z [DEBUG] Renaming /tmp/at-native/config/.claude.json.tmp.20.72facd9748ca to /tmp/at-native/config/.claude.json
+2026-10-09T15:57:25.710Z [DEBUG] File /tmp/at-native/config/.claude.json written atomically
+2026-10-09T15:57:25.711Z [DEBUG] Preserving file permissions: 100600
+2026-10-09T15:57:25.711Z [DEBUG] Writing to temp file: /tmp/at-native/config/.claude.json.tmp.20.39bdc7ecdd1d
+2026-10-09T15:57:25.711Z [DEBUG] Applied original permissions to temp file
+2026-10-09T15:57:25.711Z [DEBUG] Temp file written successfully, size: 203 bytes
+2026-10-09T15:57:25.711Z [DEBUG] Renaming /tmp/at-native/config/.claude.json.tmp.20.39bdc7ecdd1d to /tmp/at-native/config/.claude.json
+2026-10-09T15:57:25.711Z [DEBUG] File /tmp/at-native/config/.claude.json written atomically
+2026-10-09T15:57:25.712Z [DEBUG] Preserving file permissions: 100600
+2026-10-09T15:57:25.712Z [DEBUG] Writing to temp file: /tmp/at-native/config/.claude.json.tmp.20.68d87a48962c
+2026-10-09T15:57:25.712Z [DEBUG] Applied original permissions to temp file
+2026-10-09T15:57:25.712Z [DEBUG] Temp file written successfully, size: 242 bytes
+2026-10-09T15:57:25.713Z [DEBUG] Renaming /tmp/at-native/config/.claude.json.tmp.20.68d87a48962c to /tmp/at-native/config/.claude.json
+2026-10-09T15:57:25.713Z [DEBUG] File /tmp/at-native/config/.claude.json written atomically
+2026-10-09T15:57:25.713Z [DEBUG] Preserving file permissions: 100600
+2026-10-09T15:57:25.713Z [DEBUG] Writing to temp file: /tmp/at-native/config/.claude.json.tmp.20.9e260b9b5f34
+2026-10-09T15:57:25.713Z [DEBUG] Applied original permissions to temp file
+2026-10-09T15:57:25.714Z [DEBUG] Temp file written successfully, size: 269 bytes
+2026-10-09T15:57:25.714Z [DEBUG] Renaming /tmp/at-native/config/.claude.json.tmp.20.9e260b9b5f34 to /tmp/at-native/config/.claude.json
+2026-10-09T15:57:25.714Z [DEBUG] File /tmp/at-native/config/.claude.json written atomically
+2026-10-09T15:57:25.715Z [DEBUG] Preserving file permissions: 100600
+2026-10-09T15:57:25.715Z [DEBUG] Writing to temp file: /tmp/at-native/config/.claude.json.tmp.20.db311724a9f7
+2026-10-09T15:57:25.715Z [DEBUG] Applied original permissions to temp file
+2026-10-09T15:57:25.715Z [DEBUG] Temp file written successfully, size: 317 bytes
+2026-10-09T15:57:25.715Z [DEBUG] Renaming /tmp/at-native/config/.claude.json.tmp.20.db311724a9f7 to /tmp/at-native/config/.claude.json
+2026-10-09T15:57:25.715Z [DEBUG] File /tmp/at-native/config/.claude.json written atomically
+2026-10-09T15:57:25.716Z [DEBUG] Preserving file permissions: 100600
+2026-10-09T15:57:25.716Z [DEBUG] Writing to temp file: /tmp/at-native/config/.claude.json.tmp.20.3717f09c2e2b
+2026-10-09T15:57:25.716Z [DEBUG] Applied original permissions to temp file
+2026-10-09T15:57:25.716Z [DEBUG] Temp file written successfully, size: 343 bytes
+2026-10-09T15:57:25.716Z [DEBUG] Renaming /tmp/at-native/config/.claude.json.tmp.20.3717f09c2e2b to /tmp/at-native/config/.claude.json
+2026-10-09T15:57:25.716Z [DEBUG] File /tmp/at-native/config/.claude.json written atomically
+2026-10-09T15:57:25.718Z [DEBUG] policyHelper: no helper configuration present at helper-pass time (remote managed settings eligible, no payload in cache); a payload landing later arms one only through a fetch cycle after preAction
+2026-10-09T15:57:25.722Z [DEBUG] [mcp-policy-cold-start] waiting on remote managed-settings load
+2026-10-09T15:57:25.731Z [DEBUG] installed_plugins.json doesn't exist, returning empty V2 object
+2026-10-09T15:57:25.732Z [DEBUG] Found 0 plugins (0 enabled, 0 disabled)
+2026-10-09T15:57:25.982Z [DEBUG] Policy limits: Fetched successfully
+2026-10-09T15:57:25.983Z [DEBUG] Policy limits: Saved to /tmp/at-native/config/policy-limits.json
+2026-10-09T15:57:25.984Z [DEBUG] Policy limits: Applied new restrictions successfully
+2026-10-09T15:57:26.039Z [DEBUG] Remote settings: Fetched successfully
+2026-10-09T15:57:26.040Z [DEBUG] Broken symlink or missing file encountered for settings.json at path: /etc/claude-code/managed-settings.json
+2026-10-09T15:57:26.041Z [DEBUG] Cleared proxy agent cache
+2026-10-09T15:57:26.041Z [DEBUG] Cleared CA certificates cache
+2026-10-09T15:57:26.041Z [DEBUG] Cleared mTLS configuration cache
+2026-10-09T15:57:26.041Z [DEBUG] CA certs: stores=bundled,system, extraCertsPath=undefined
+2026-10-09T15:57:26.041Z [DEBUG] CA certs: Loaded 121 bundled root certificates
+2026-10-09T15:57:26.043Z [DEBUG] CA certs: Dropped 1 expired certificate(s) from system store
+2026-10-09T15:57:26.043Z [DEBUG] CA certs: Loaded 149 system CA certificates
+2026-10-09T15:57:26.043Z [DEBUG] mTLS: Creating HTTPS agent with custom certificates
+2026-10-09T15:57:26.044Z [DEBUG] Remote settings: Saved to /tmp/at-native/config/remote-settings.json
+2026-10-09T15:57:26.044Z [DEBUG] Remote settings: Applied new settings successfully
+2026-10-09T15:57:26.044Z [DEBUG] Programmatic settings change notification for policySettings
+2026-10-09T15:57:26.045Z [DEBUG] Broken symlink or missing file encountered for settings.json at path: /etc/claude-code/managed-settings.json
+2026-10-09T15:57:26.046Z [DEBUG] [Claude in Chrome] Disabled: OAuth token has no scope accepted by /api/oauth/validate (needs user:profile, user:office, or user:ccr_inference; env-var and setup-token sessions default to user:inference only)
+2026-10-09T15:57:26.048Z [DEBUG] [ToolSearch:optimistic] mode=tst, ENABLE_TOOL_SEARCH=undefined, result=true
+2026-10-09T15:57:26.050Z [DEBUG] Broken symlink or missing file encountered for settings.json at path: /tmp/at-native/work/.claude/settings.json
+2026-10-09T15:57:26.050Z [DEBUG] [STARTUP] Loading MCP configs...
+2026-10-09T15:57:26.050Z [DEBUG] [STARTUP] Running setup()...
+2026-10-09T15:57:26.053Z [DEBUG] Broken symlink or missing file encountered for settings.json at path: /tmp/at-native/work/.claude/settings.local.json
+2026-10-09T15:57:26.054Z [DEBUG] getPluginSkills: Processing 0 enabled plugins
+2026-10-09T15:57:26.054Z [DEBUG] Total plugin workflows loaded: 0
+2026-10-09T15:57:26.055Z [DEBUG] Total plugin commands loaded: 0
+2026-10-09T15:57:26.055Z [DEBUG] Total plugin skills loaded: 0 (0 duplicate/user-owned entries skipped)
+2026-10-09T15:57:26.056Z [DEBUG] Loading skills from: managed=/etc/claude-code/.claude/skills, user=/tmp/at-native/config/skills, project=[]
+2026-10-09T15:57:26.056Z [DEBUG] Failed to stat directory /etc/claude-code/.claude/agents: ENOENT: no such file or directory, stat '/etc/claude-code/.claude/agents'
+2026-10-09T15:57:26.056Z [DEBUG] Total plugin agents loaded: 0
+2026-10-09T15:57:26.057Z [DEBUG] Failed to stat directory /etc/claude-code/.claude/commands: ENOENT: no such file or directory, stat '/etc/claude-code/.claude/commands'
+2026-10-09T15:57:26.057Z [DEBUG] Loaded 0 unique skills (0 unconditional, 0 conditional, managed: 0, user: 0, project: 0, additional: 0, legacy commands: 0)
+2026-10-09T15:57:26.059Z [DEBUG] Git remote URL: null
+2026-10-09T15:57:26.059Z [DEBUG] No git remote URL found
+2026-10-09T15:57:26.060Z [INFO] [uds-messaging] Listening: /tmp/at-native/xdg/cc-socks/20.sock
+2026-10-09T15:57:26.060Z [INFO] [uds-messaging] Inject messages (auth line optional here): { echo '{"type":"auth","token":"[REDACTED]"$CLAUDE_CODE_MESSAGING_TOKEN"'"}'; echo '{"type":"user","message":{"role":"user","content":"hello"}}'; } | socat - UNIX-CONNECT:/tmp/at-native/xdg/cc-socks/20.sock
+2026-10-09T15:57:26.060Z [INFO] [uds-messaging] Connect when the data is ready (e.g. out=$(cmd); printf '%s\n' "$out" | nc -N -U "$CLAUDE_CODE_MESSAGING_SOCKET" — or the socat form above): a connection that sends no complete line within 30000 ms is closed
+2026-10-09T15:57:26.061Z [DEBUG] Broken symlink or missing file encountered for settings.json at path: /etc/claude-code/managed-settings.json
+2026-10-09T15:57:26.062Z [DEBUG] Error log sink initialized
+2026-10-09T15:57:26.062Z [DEBUG] Broken symlink or missing file encountered for settings.json at path: /tmp/at-native/work/.claude/settings.json
+2026-10-09T15:57:26.063Z [DEBUG] Broken symlink or missing file encountered for settings.json at path: /tmp/at-native/config/settings.json
+2026-10-09T15:57:26.063Z [DEBUG] installed plugins' hooks modules not loaded: rollout flag (tengu_plugin_hooks_modules) is off, from the default (GrowthBook is off for this session: a third-party provider, or telemetry opted out); built-in plugins load regardless
+2026-10-09T15:57:26.063Z [DEBUG] sec-default@builtin not seated: installed plugins' hooks modules are off in this process
+2026-10-09T15:57:26.064Z [DEBUG] Registered 0 hooks from 0 plugins
+2026-10-09T15:57:26.064Z [DEBUG] [STARTUP] setup() completed in 14ms
+2026-10-09T15:57:26.064Z [DEBUG] Cleared mTLS configuration cache
+2026-10-09T15:57:26.064Z [DEBUG] Cleared proxy agent cache
+2026-10-09T15:57:26.064Z [DEBUG] mTLS: Creating HTTPS agent with custom certificates
+2026-10-09T15:57:26.069Z [DEBUG] Broken symlink or missing file encountered for settings.json at path: /tmp/at-native/work/.claude/settings.local.json
+2026-10-09T15:57:26.069Z [DEBUG] [STARTUP] Loading commands and agents...
+2026-10-09T15:57:26.072Z [DEBUG] getSkills returning: 0 skill dir commands, 0 plugin skills, 40 bundled skills, 0 builtin plugin skills
+2026-10-09T15:57:26.076Z [DEBUG] [STARTUP] Commands and agents loaded in 7ms
+2026-10-09T15:57:26.078Z [DEBUG] [LSP MANAGER] initializeLspServerManager() called
+2026-10-09T15:57:26.078Z [DEBUG] [LSP MANAGER] Created manager instance, state=pending
+2026-10-09T15:57:26.078Z [DEBUG] [LSP MANAGER] Starting async initialization (generation 1)
+2026-10-09T15:57:26.078Z [DEBUG] Starting background startup prefetches
+2026-10-09T15:57:26.078Z [DEBUG] [Bootstrap] Skipped: Nonessential traffic disabled
+2026-10-09T15:57:26.078Z [DEBUG] [STARTUP] MCP configs resolved in 0ms (awaited at +28ms)
+2026-10-09T15:57:26.080Z [DEBUG] Total LSP servers loaded: 0
+2026-10-09T15:57:26.081Z [DEBUG] Cleared mTLS configuration cache
+2026-10-09T15:57:26.081Z [DEBUG] Cleared proxy agent cache
+2026-10-09T15:57:26.081Z [DEBUG] mTLS: Creating HTTPS agent with custom certificates
+2026-10-09T15:57:26.081Z [DEBUG] [3P telemetry] Waiting for remote managed settings fetch before telemetry init
+2026-10-09T15:57:26.081Z [DEBUG] Skipping plugin hooks - allowManagedHooksOnly is enabled and no managed plugins
+2026-10-09T15:57:26.082Z [DEBUG] [LSP SERVER MANAGER] getAllLspServers returned 0 server(s)
+2026-10-09T15:57:26.082Z [DEBUG] LSP manager initialized with 0 servers
+2026-10-09T15:57:26.082Z [DEBUG] Initialized versioned plugins system with 0 plugins
+2026-10-09T15:57:26.082Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+2026-10-09T15:57:26.083Z [DEBUG] [MCP] --mcp-config servers running fully async (nonblocking)
+2026-10-09T15:57:26.083Z [DEBUG] [MCP] claude.ai connectors running fully async (nonblocking)
+2026-10-09T15:57:26.083Z [DEBUG] LSP server manager initialized successfully
+2026-10-09T15:57:26.083Z [DEBUG] LSP notification handlers registered successfully for all 0 server(s)
+2026-10-09T15:57:26.083Z [DEBUG] [3P telemetry] Remote managed settings fetch settled, initializing telemetry
+2026-10-09T15:57:26.083Z [DEBUG] Cleared mTLS configuration cache
+2026-10-09T15:57:26.083Z [DEBUG] Cleared proxy agent cache
+2026-10-09T15:57:26.083Z [DEBUG] mTLS: Creating HTTPS agent with custom certificates
+2026-10-09T15:57:26.085Z [DEBUG] [auto-mode] verifyAutoModeGateAccess: enabledState=enabled disabledBySettings=false model=claude-opus-5-5[1m] modelSupported=true disableFastModeBreakerFires=false carouselAvailable=true canEnterAuto=true
+2026-10-09T15:57:26.086Z [DEBUG] [servedCatalog] off (essential_traffic)
+2026-10-09T15:57:26.092Z [DEBUG] Plugin autoupdate: command-source refresh disabled by tengu_plugin_command_source_refresh (still excluding command-sourced plugins from the regular pass)
+2026-10-09T15:57:26.093Z [DEBUG] Settings changed from policySettings, updating app state
+2026-10-09T15:57:26.093Z [DEBUG] Broken symlink or missing file encountered for settings.json at path: /etc/claude-code/managed-settings.json
+2026-10-09T15:57:26.094Z [DEBUG] Replacing all allow rules for destination 'userSettings' with 0 rule(s): []
+2026-10-09T15:57:26.094Z [DEBUG] Replacing all deny rules for destination 'userSettings' with 0 rule(s): []
+2026-10-09T15:57:26.094Z [DEBUG] Replacing all ask rules for destination 'userSettings' with 0 rule(s): []
+2026-10-09T15:57:26.094Z [DEBUG] Replacing all allow rules for destination 'projectSettings' with 0 rule(s): []
+2026-10-09T15:57:26.094Z [DEBUG] Replacing all deny rules for destination 'projectSettings' with 0 rule(s): []
+2026-10-09T15:57:26.094Z [DEBUG] Replacing all ask rules for destination 'projectSettings' with 0 rule(s): []
+2026-10-09T15:57:26.094Z [DEBUG] Replacing all allow rules for destination 'localSettings' with 0 rule(s): []
+2026-10-09T15:57:26.094Z [DEBUG] Replacing all deny rules for destination 'localSettings' with 0 rule(s): []
+2026-10-09T15:57:26.094Z [DEBUG] Replacing all ask rules for destination 'localSettings' with 0 rule(s): []
+2026-10-09T15:57:26.094Z [DEBUG] Replacing all allow rules for destination 'flagSettings' with 0 rule(s): []
+2026-10-09T15:57:26.094Z [DEBUG] Replacing all deny rules for destination 'flagSettings' with 0 rule(s): []
+2026-10-09T15:57:26.094Z [DEBUG] Replacing all ask rules for destination 'flagSettings' with 0 rule(s): []
+2026-10-09T15:57:26.094Z [DEBUG] Replacing all allow rules for destination 'policySettings' with 0 rule(s): []
+2026-10-09T15:57:26.094Z [DEBUG] Replacing all deny rules for destination 'policySettings' with 0 rule(s): []
+2026-10-09T15:57:26.094Z [DEBUG] Replacing all ask rules for destination 'policySettings' with 0 rule(s): []
+2026-10-09T15:57:26.094Z [DEBUG] Broken symlink or missing file encountered for settings.json at path: /tmp/at-native/work/.claude/settings.json
+2026-10-09T15:57:26.096Z [DEBUG] Plugin autoupdate: skipped (auto-updater disabled)
+2026-10-09T15:57:26.102Z [DEBUG] Broken symlink or missing file encountered for settings.json at path: /tmp/at-native/config/settings.json
+2026-10-09T15:57:26.106Z [DEBUG] [ScheduledTasks] scheduler start() — enabled=false, hasTasks=false
+2026-10-09T15:57:26.107Z [DEBUG] [Perfetto] initializePerfettoTracing called, env value: undefined
+2026-10-09T15:57:26.107Z [DEBUG] [3P telemetry] isTelemetryEnabled=false (CLAUDE_CODE_ENABLE_TELEMETRY=undefined)
+2026-10-09T15:57:26.108Z [DEBUG] session.start: raised (surface none, not interactive)
+2026-10-09T15:57:26.108Z [DEBUG] [claudeai-mcp] Disabled via disableClaudeAiConnectors setting
+2026-10-09T15:57:26.109Z [DEBUG] installPluginsForHeadless: starting
+2026-10-09T15:57:26.110Z [DEBUG] installPluginsForHeadless: no marketplaces declared
+2026-10-09T15:57:26.111Z [DEBUG] [sessionRegistry] sweep declined by isRegistrySweepPermitted() — dead records are left in place (neither counted nor deleted)
+2026-10-09T15:57:26.111Z [DEBUG] Ripgrep first use test: PASSED (mode=embedded, path=/opt/agenttime/bin/claude)
+2026-10-09T15:57:26.111Z [DEBUG] "rg error (signal=undefined, code=2, stderr: rg: /tmp/at-native/config/plugins/cache: IO error for operation on /tmp/at-native/config/plugins/cache: No such file or directory (os error 2)\n), 0 results"
+2026-10-09T15:57:26.116Z [DEBUG] Failed to stat directory /etc/claude-code/.claude/output-styles: ENOENT: no such file or directory, stat '/etc/claude-code/.claude/output-styles'
+2026-10-09T15:57:26.116Z [DEBUG] Total plugin output styles loaded: 0
+2026-10-09T15:57:26.117Z [DEBUG] act_dont_rederive_arm_active source=growthbook
+2026-10-09T15:57:26.121Z [WARN] [3P telemetry] Event dropped (no event logger initialized): user_prompt
+2026-10-09T15:57:26.123Z [DEBUG] Watching /tmp/at-native/work for /tmp/at-native/work/.claude to appear
+2026-10-09T15:57:26.123Z [DEBUG] Watching for changes in setting files /tmp/at-native/config/settings.json...
+2026-10-09T15:57:26.123Z [DEBUG] Preserving file permissions: 100600
+2026-10-09T15:57:26.123Z [DEBUG] Writing to temp file: /tmp/at-native/config/.claude.json.tmp.20.13d25747fc09
+2026-10-09T15:57:26.126Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+2026-10-09T15:57:26.126Z [DEBUG] [session-notices] advertise=false mode=bypassPermissions flag=false(disabled) pollChannel=false remote=false remoteEnv=false nonInteractive=true
+2026-10-09T15:57:26.127Z [DEBUG] [engine] turn 1 start
+2026-10-09T15:57:26.131Z [DEBUG] autocompact: tokens=[REDACTED] level=ok effectiveWindow=980000
+2026-10-09T15:57:26.135Z [DEBUG] Tool search disabled: ToolSearchTool is not available (may have been disallowed via disallowedTools).
+2026-10-09T15:57:26.141Z [DEBUG] attribution header x-anthropic-billing-header: cc_version=2.1.280.2f1; cc_entrypoint=sdk-cli; cch=00000; cc_prompt_id=be097a09-9b58-47d0-8a75-22a861fb0634; cc_turn_origin=sdk;
+2026-10-09T15:57:26.142Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+2026-10-09T15:57:26.143Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+2026-10-09T15:57:26.145Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+2026-10-09T15:57:26.145Z [DEBUG] [API:timing] dispatching to firstParty model=claude-opus-5-5[1m]
+2026-10-09T15:57:26.146Z [DEBUG] [API REQUEST] /v1/messages x-client-request-id=1d7b8c2f-7e54-48aa-bdb0-80903d0b8751 source=sdk
+2026-10-09T15:57:26.147Z [DEBUG] Applied original permissions to temp file
+2026-10-09T15:57:26.148Z [DEBUG] Temp file written successfully, size: 423 bytes
+2026-10-09T15:57:26.148Z [DEBUG] Renaming /tmp/at-native/config/.claude.json.tmp.20.13d25747fc09 to /tmp/at-native/config/.claude.json
+2026-10-09T15:57:26.148Z [DEBUG] File /tmp/at-native/config/.claude.json written atomically
+2026-10-09T15:57:26.448Z [DEBUG] [fs.watch probe] verdict: delivers
+2026-10-09T15:57:26.918Z [DEBUG] Stream started - received first chunk
+2026-10-09T15:57:26.918Z [DEBUG] [API:timing] first byte after 773ms
+2026-10-09T15:57:31.093Z [DEBUG] Skipping retention cleanup: userSettings source is disabled (--setting-sources) and no enabled source provides cleanupPeriodDays.
+2026-10-09T15:57:33.590Z [INFO] [Stall] tool_dispatch_start tool=Agent toolUseId=toolu_01QT8UppnETkZNX76yY3s9KK permissionDecisionMs=0
+2026-10-09T15:57:33.598Z [DEBUG] autocompact: tokens=[REDACTED] level=ok effectiveWindow=980000
+2026-10-09T15:57:33.599Z [DEBUG] Tool search disabled: ToolSearchTool is not available (may have been disallowed via disallowedTools).
+2026-10-09T15:57:33.600Z [DEBUG] attribution header x-anthropic-billing-header: cc_version=2.1.280.654; cc_entrypoint=sdk-cli; cch=00000; cc_is_subagent=true; cc_prompt_id=be097a09-9b58-47d0-8a75-22a861fb0634;
+2026-10-09T15:57:33.601Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+2026-10-09T15:57:33.601Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+2026-10-09T15:57:33.606Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+2026-10-09T15:57:33.606Z [DEBUG] [API:timing] dispatching to firstParty model=claude-opus-5-5[1m]
+2026-10-09T15:57:33.606Z [DEBUG] [API REQUEST] /v1/messages x-client-request-id=8cfeebc0-65a6-42f5-9c2e-f1ec78919c31 source=agent:builtin:general-purpose
+2026-10-09T15:57:33.609Z [DEBUG] Preserving file permissions: 100600
+2026-10-09T15:57:33.609Z [DEBUG] Writing to temp file: /tmp/at-native/config/.claude.json.tmp.20.8b1e57533ec5
+2026-10-09T15:57:33.615Z [DEBUG] Applied original permissions to temp file
+2026-10-09T15:57:33.615Z [DEBUG] Temp file written successfully, size: 486 bytes
+2026-10-09T15:57:33.615Z [DEBUG] Renaming /tmp/at-native/config/.claude.json.tmp.20.8b1e57533ec5 to /tmp/at-native/config/.claude.json
+2026-10-09T15:57:33.616Z [DEBUG] File /tmp/at-native/config/.claude.json written atomically
+2026-10-09T15:57:34.361Z [DEBUG] Stream started - received first chunk
+2026-10-09T15:57:34.361Z [DEBUG] [API:timing] first byte after 755ms
+2026-10-09T15:57:35.519Z [INFO] [Stall] tool_dispatch_start tool=WebSearch toolUseId=toolu_01FDCBDzYecG2iFdmUUFWq58 permissionDecisionMs=0
+2026-10-09T15:57:35.520Z [DEBUG] attribution header x-anthropic-billing-header: cc_version=2.1.280.aee; cc_entrypoint=sdk-cli; cch=00000; cc_is_subagent=true; cc_prompt_id=be097a09-9b58-47d0-8a75-22a861fb0634;
+2026-10-09T15:57:35.520Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+2026-10-09T15:57:35.520Z [DEBUG] tool_choice {type:'tool', name:'web_search'} demoted to auto: extended thinking is active
+2026-10-09T15:57:35.520Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+2026-10-09T15:57:35.521Z [DEBUG] tool_choice {type:'tool', name:'web_search'} demoted to auto: extended thinking is active
+2026-10-09T15:57:35.521Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+2026-10-09T15:57:35.522Z [DEBUG] [API:timing] dispatching to firstParty model=claude-opus-5-5[1m]
+2026-10-09T15:57:35.522Z [DEBUG] [API REQUEST] /v1/messages x-client-request-id=1dc1ae81-3f13-4a63-8249-e5f25e963f0b source=web_search_tool
+2026-10-09T15:57:36.141Z [DEBUG] Stream started - received first chunk
+2026-10-09T15:57:36.141Z [DEBUG] [API:timing] first byte after 619ms
+2026-10-09T15:58:46.493Z [INFO] [Stall] tool_dispatch_end tool=WebSearch toolUseId=toolu_01FDCBDzYecG2iFdmUUFWq58 outcome=ok durationMs=70973
+2026-10-09T15:58:46.499Z [DEBUG] autocompact: tokens=[REDACTED] level=ok effectiveWindow=980000
+2026-10-09T15:58:46.500Z [DEBUG] Tool search disabled: ToolSearchTool is not available (may have been disallowed via disallowedTools).
+2026-10-09T15:58:46.502Z [DEBUG] attribution header x-anthropic-billing-header: cc_version=2.1.280.654; cc_entrypoint=sdk-cli; cch=00000; cc_is_subagent=true; cc_prev_req=req_011CfrwNcPgDiCEj2EFTjEEA; cc_prompt_id=be097a09-9b58-47d0-8a75-22a861fb0634;
+2026-10-09T15:58:46.502Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+2026-10-09T15:58:46.502Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+2026-10-09T15:58:46.503Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+2026-10-09T15:58:46.504Z [DEBUG] [API:timing] dispatching to firstParty model=claude-opus-5-5[1m]
+2026-10-09T15:58:46.504Z [DEBUG] [API REQUEST] /v1/messages x-client-request-id=6c63e974-81e6-44d4-9ba1-7a91748267ed source=agent:builtin:general-purpose
+2026-10-09T15:58:47.211Z [DEBUG] Stream started - received first chunk
+2026-10-09T15:58:47.211Z [DEBUG] [API:timing] first byte after 708ms
+2026-10-09T15:58:51.499Z [INFO] [Stall] tool_dispatch_start tool=WebFetch toolUseId=toolu_01LqsDrsZRUgQrCJjArHSRCA permissionDecisionMs=1
+2026-10-09T15:58:51.687Z [INFO] [Stall] tool_dispatch_end tool=WebFetch toolUseId=toolu_01LqsDrsZRUgQrCJjArHSRCA outcome=ok durationMs=188
+2026-10-09T15:58:51.690Z [DEBUG] autocompact: tokens=[REDACTED] level=ok effectiveWindow=980000
+2026-10-09T15:58:51.691Z [DEBUG] Tool search disabled: ToolSearchTool is not available (may have been disallowed via disallowedTools).
+2026-10-09T15:58:51.693Z [DEBUG] attribution header x-anthropic-billing-header: cc_version=2.1.280.654; cc_entrypoint=sdk-cli; cch=00000; cc_is_subagent=true; cc_prev_req=req_011CfrwTz44HMgFVPcLLQ5kM; cc_prompt_id=be097a09-9b58-47d0-8a75-22a861fb0634;
+2026-10-09T15:58:51.693Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+2026-10-09T15:58:51.693Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+2026-10-09T15:58:51.694Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+2026-10-09T15:58:51.695Z [DEBUG] [API:timing] dispatching to firstParty model=claude-opus-5-5[1m]
+2026-10-09T15:58:51.695Z [DEBUG] [API REQUEST] /v1/messages x-client-request-id=024b66a2-f754-4191-913f-8d4da3dddf3c source=agent:builtin:general-purpose
+2026-10-09T15:58:52.357Z [DEBUG] Stream started - received first chunk
+2026-10-09T15:58:52.357Z [DEBUG] [API:timing] first byte after 663ms
+2026-10-09T15:58:54.326Z [INFO] [Stall] tool_dispatch_start tool=WebFetch toolUseId=toolu_01A2FNpZi6GXR8Qzh9CykDVS permissionDecisionMs=1
+2026-10-09T15:58:54.703Z [INFO] [Stall] tool_dispatch_end tool=WebFetch toolUseId=toolu_01A2FNpZi6GXR8Qzh9CykDVS outcome=ok durationMs=378
+2026-10-09T15:58:54.707Z [DEBUG] autocompact: tokens=[REDACTED] level=ok effectiveWindow=980000
+2026-10-09T15:58:54.708Z [DEBUG] Tool search disabled: ToolSearchTool is not available (may have been disallowed via disallowedTools).
+2026-10-09T15:58:54.709Z [DEBUG] attribution header x-anthropic-billing-header: cc_version=2.1.280.654; cc_entrypoint=sdk-cli; cch=00000; cc_is_subagent=true; cc_prev_req=req_011CfrwUNKWJJpMGAFKLcqYM; cc_prompt_id=be097a09-9b58-47d0-8a75-22a861fb0634;
+2026-10-09T15:58:54.709Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+2026-10-09T15:58:54.709Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+2026-10-09T15:58:54.710Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+2026-10-09T15:58:54.711Z [DEBUG] [API:timing] dispatching to firstParty model=claude-opus-5-5[1m]
+2026-10-09T15:58:54.712Z [DEBUG] [API REQUEST] /v1/messages x-client-request-id=81484994-3d5c-4109-84b5-8a6c0f10fcb5 source=agent:builtin:general-purpose
+2026-10-09T15:58:55.344Z [DEBUG] Stream started - received first chunk
+2026-10-09T15:58:55.344Z [DEBUG] [API:timing] first byte after 634ms
+2026-10-09T15:59:27.075Z [INFO] [Stall] agent_completion agentId=a8dd557588ecc3361 agentType=general-purpose exitPath=completed durationMs=113481 turns=4 finalStopReason=end_turn lastChunkAgeMs=2 lastToolUseId=toolu_01A2FNpZi6GXR8Qzh9CykDVS lastToolResultSeen=toolu_01A2FNpZi6GXR8Qzh9CykDVS
+2026-10-09T15:59:27.095Z [INFO] [Stall] tool_dispatch_end tool=Agent toolUseId=toolu_01QT8UppnETkZNX76yY3s9KK outcome=ok durationMs=113505
+2026-10-09T15:59:27.099Z [DEBUG] autocompact: tokens=[REDACTED] level=ok effectiveWindow=980000
+2026-10-09T15:59:27.101Z [DEBUG] Tool search disabled: ToolSearchTool is not available (may have been disallowed via disallowedTools).
+2026-10-09T15:59:27.102Z [DEBUG] attribution header x-anthropic-billing-header: cc_version=2.1.280.2f1; cc_entrypoint=sdk-cli; cch=00000; cc_prev_req=req_011CfrwN4Y1svU6ydBGeRb4p; cc_prompt_id=be097a09-9b58-47d0-8a75-22a861fb0634; cc_turn_origin=sdk;
+2026-10-09T15:59:27.102Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+2026-10-09T15:59:27.103Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+2026-10-09T15:59:27.104Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+2026-10-09T15:59:27.104Z [DEBUG] [API:timing] dispatching to firstParty model=claude-opus-5-5[1m]
+2026-10-09T15:59:27.104Z [DEBUG] [API REQUEST] /v1/messages x-client-request-id=b3e510c5-6ff1-485d-858c-854f4f63e245 source=sdk
+2026-10-09T15:59:27.918Z [DEBUG] Stream started - received first chunk
+2026-10-09T15:59:27.918Z [DEBUG] [API:timing] first byte after 814ms
+2026-10-09T15:59:35.182Z [DEBUG] [engine] turn 1 end (turns=2 usage in=13019 out=14376 cost=$0.4341 api=128435ms stop=end_turn resultLen=967)
+2026-10-09T15:59:35.182Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+2026-10-09T15:59:35.186Z [DEBUG] [uds-messaging] Shutting down
+2026-10-09T15:59:35.187Z [DEBUG] LSP server manager shut down successfully

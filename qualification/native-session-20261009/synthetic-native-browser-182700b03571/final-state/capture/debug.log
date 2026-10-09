@@ -1,0 +1,182 @@
+2026-10-09T14:53:13.569Z [DEBUG] MDM settings load completed in 2ms
+2026-10-09T14:53:13.634Z [DEBUG] Broken symlink or missing file encountered for settings.json at path: /etc/claude-code/managed-settings.json
+2026-10-09T14:53:13.636Z [DEBUG] CA certs: Config fallback - globalEnv keys: , settingsEnv keys: none
+2026-10-09T14:53:13.646Z [DEBUG] [init] configureGlobalMTLS starting
+2026-10-09T14:53:13.646Z [DEBUG] [init] configureGlobalMTLS complete
+2026-10-09T14:53:13.646Z [DEBUG] [init] configureGlobalAgents starting
+2026-10-09T14:53:13.646Z [DEBUG] CA certs: stores=bundled,system, extraCertsPath=undefined
+2026-10-09T14:53:13.647Z [DEBUG] CA certs: Loaded 121 bundled root certificates
+2026-10-09T14:53:13.677Z [DEBUG] CA certs: Dropped 1 expired certificate(s) from system store
+2026-10-09T14:53:13.677Z [DEBUG] CA certs: Loaded 149 system CA certificates
+2026-10-09T14:53:13.677Z [DEBUG] mTLS: Creating HTTPS agent with custom certificates
+2026-10-09T14:53:13.677Z [DEBUG] [init] configureGlobalAgents complete
+2026-10-09T14:53:13.691Z [DEBUG] Git remote URL: null
+2026-10-09T14:53:13.691Z [DEBUG] No git remote URL found
+2026-10-09T14:53:13.692Z [DEBUG] Error log sink initialized
+2026-10-09T14:53:13.698Z [DEBUG] Broken symlink or missing file encountered for settings.json at path: /tmp/assistant-canary/config/settings.json
+2026-10-09T14:53:13.714Z [ERROR] Failed to save config with lock: Error: ENOENT: no such file or directory, lstat '/tmp/assistant-canary/config/.claude.json'
+2026-10-09T14:53:13.719Z [DEBUG] Setting permissions for new file: 600
+2026-10-09T14:53:13.719Z [DEBUG] Writing to temp file: /tmp/assistant-canary/config/.claude.json.tmp.20.7fdda6c53a87
+2026-10-09T14:53:13.726Z [DEBUG] Temp file written successfully, size: 84 bytes
+2026-10-09T14:53:13.726Z [DEBUG] Renaming /tmp/assistant-canary/config/.claude.json.tmp.20.7fdda6c53a87 to /tmp/assistant-canary/config/.claude.json
+2026-10-09T14:53:13.728Z [DEBUG] File /tmp/assistant-canary/config/.claude.json written atomically
+2026-10-09T14:53:13.740Z [DEBUG] Preserving file permissions: 100600
+2026-10-09T14:53:13.741Z [DEBUG] Writing to temp file: /tmp/assistant-canary/config/.claude.json.tmp.20.b4bc3826337f
+2026-10-09T14:53:13.742Z [DEBUG] Applied original permissions to temp file
+2026-10-09T14:53:13.744Z [DEBUG] Temp file written successfully, size: 167 bytes
+2026-10-09T14:53:13.744Z [DEBUG] Renaming /tmp/assistant-canary/config/.claude.json.tmp.20.b4bc3826337f to /tmp/assistant-canary/config/.claude.json
+2026-10-09T14:53:13.744Z [DEBUG] File /tmp/assistant-canary/config/.claude.json written atomically
+2026-10-09T14:53:13.747Z [DEBUG] Preserving file permissions: 100600
+2026-10-09T14:53:13.747Z [DEBUG] Writing to temp file: /tmp/assistant-canary/config/.claude.json.tmp.20.8807bffe1607
+2026-10-09T14:53:13.748Z [DEBUG] Applied original permissions to temp file
+2026-10-09T14:53:13.749Z [DEBUG] Temp file written successfully, size: 203 bytes
+2026-10-09T14:53:13.749Z [DEBUG] Renaming /tmp/assistant-canary/config/.claude.json.tmp.20.8807bffe1607 to /tmp/assistant-canary/config/.claude.json
+2026-10-09T14:53:13.749Z [DEBUG] File /tmp/assistant-canary/config/.claude.json written atomically
+2026-10-09T14:53:13.750Z [DEBUG] Preserving file permissions: 100600
+2026-10-09T14:53:13.750Z [DEBUG] Writing to temp file: /tmp/assistant-canary/config/.claude.json.tmp.20.440964ee7900
+2026-10-09T14:53:13.750Z [DEBUG] Applied original permissions to temp file
+2026-10-09T14:53:13.751Z [DEBUG] Temp file written successfully, size: 242 bytes
+2026-10-09T14:53:13.751Z [DEBUG] Renaming /tmp/assistant-canary/config/.claude.json.tmp.20.440964ee7900 to /tmp/assistant-canary/config/.claude.json
+2026-10-09T14:53:13.751Z [DEBUG] File /tmp/assistant-canary/config/.claude.json written atomically
+2026-10-09T14:53:13.752Z [DEBUG] Preserving file permissions: 100600
+2026-10-09T14:53:13.753Z [DEBUG] Writing to temp file: /tmp/assistant-canary/config/.claude.json.tmp.20.81f1ff826506
+2026-10-09T14:53:13.753Z [DEBUG] Applied original permissions to temp file
+2026-10-09T14:53:13.753Z [DEBUG] Temp file written successfully, size: 269 bytes
+2026-10-09T14:53:13.753Z [DEBUG] Renaming /tmp/assistant-canary/config/.claude.json.tmp.20.81f1ff826506 to /tmp/assistant-canary/config/.claude.json
+2026-10-09T14:53:13.754Z [DEBUG] File /tmp/assistant-canary/config/.claude.json written atomically
+2026-10-09T14:53:13.754Z [DEBUG] Preserving file permissions: 100600
+2026-10-09T14:53:13.754Z [DEBUG] Writing to temp file: /tmp/assistant-canary/config/.claude.json.tmp.20.6eb95bfb0019
+2026-10-09T14:53:13.754Z [DEBUG] Applied original permissions to temp file
+2026-10-09T14:53:13.755Z [DEBUG] Temp file written successfully, size: 317 bytes
+2026-10-09T14:53:13.755Z [DEBUG] Renaming /tmp/assistant-canary/config/.claude.json.tmp.20.6eb95bfb0019 to /tmp/assistant-canary/config/.claude.json
+2026-10-09T14:53:13.755Z [DEBUG] File /tmp/assistant-canary/config/.claude.json written atomically
+2026-10-09T14:53:13.756Z [DEBUG] Preserving file permissions: 100600
+2026-10-09T14:53:13.756Z [DEBUG] Writing to temp file: /tmp/assistant-canary/config/.claude.json.tmp.20.189a746625de
+2026-10-09T14:53:13.756Z [DEBUG] Applied original permissions to temp file
+2026-10-09T14:53:13.757Z [DEBUG] Temp file written successfully, size: 343 bytes
+2026-10-09T14:53:13.757Z [DEBUG] Renaming /tmp/assistant-canary/config/.claude.json.tmp.20.189a746625de to /tmp/assistant-canary/config/.claude.json
+2026-10-09T14:53:13.757Z [DEBUG] File /tmp/assistant-canary/config/.claude.json written atomically
+2026-10-09T14:53:13.760Z [DEBUG] policyHelper: no helper configuration present at helper-pass time (remote managed settings eligible, no payload in cache); a payload landing later arms one only through a fetch cycle after preAction
+2026-10-09T14:53:13.766Z [DEBUG] [mcp-policy-cold-start] waiting on remote managed-settings load
+2026-10-09T14:53:13.801Z [DEBUG] installed_plugins.json doesn't exist, returning empty V2 object
+2026-10-09T14:53:13.802Z [DEBUG] Found 0 plugins (0 enabled, 0 disabled)
+2026-10-09T14:53:14.124Z [DEBUG] Policy limits: Fetched successfully
+2026-10-09T14:53:14.129Z [DEBUG] Policy limits: Saved to /tmp/assistant-canary/config/policy-limits.json
+2026-10-09T14:53:14.130Z [DEBUG] Policy limits: Applied new restrictions successfully
+2026-10-09T14:53:14.172Z [DEBUG] Remote settings: Fetched successfully
+2026-10-09T14:53:14.178Z [DEBUG] Broken symlink or missing file encountered for settings.json at path: /etc/claude-code/managed-settings.json
+2026-10-09T14:53:14.179Z [DEBUG] Cleared proxy agent cache
+2026-10-09T14:53:14.179Z [DEBUG] Cleared CA certificates cache
+2026-10-09T14:53:14.179Z [DEBUG] Cleared mTLS configuration cache
+2026-10-09T14:53:14.179Z [DEBUG] CA certs: stores=bundled,system, extraCertsPath=undefined
+2026-10-09T14:53:14.179Z [DEBUG] CA certs: Loaded 121 bundled root certificates
+2026-10-09T14:53:14.181Z [DEBUG] CA certs: Dropped 1 expired certificate(s) from system store
+2026-10-09T14:53:14.181Z [DEBUG] CA certs: Loaded 149 system CA certificates
+2026-10-09T14:53:14.181Z [DEBUG] mTLS: Creating HTTPS agent with custom certificates
+2026-10-09T14:53:14.183Z [DEBUG] Remote settings: Saved to /tmp/assistant-canary/config/remote-settings.json
+2026-10-09T14:53:14.184Z [DEBUG] Remote settings: Applied new settings successfully
+2026-10-09T14:53:14.184Z [DEBUG] Programmatic settings change notification for policySettings
+2026-10-09T14:53:14.185Z [DEBUG] Broken symlink or missing file encountered for settings.json at path: /etc/claude-code/managed-settings.json
+2026-10-09T14:53:14.193Z [DEBUG] [Claude in Chrome] Disabled: OAuth token has no scope accepted by /api/oauth/validate (needs user:profile, user:office, or user:ccr_inference; env-var and setup-token sessions default to user:inference only)
+2026-10-09T14:53:14.196Z [DEBUG] [ToolSearch:optimistic] mode=standard, ENABLE_TOOL_SEARCH=false, result=false
+2026-10-09T14:53:14.200Z [DEBUG] Broken symlink or missing file encountered for settings.json at path: /tmp/assistant-canary/work/.claude/settings.json
+2026-10-09T14:53:14.200Z [DEBUG] [STARTUP] Loading MCP configs...
+2026-10-09T14:53:14.201Z [DEBUG] [STARTUP] Running setup()...
+2026-10-09T14:53:14.208Z [DEBUG] Broken symlink or missing file encountered for settings.json at path: /tmp/assistant-canary/work/.claude/settings.local.json
+2026-10-09T14:53:14.211Z [DEBUG] getPluginSkills: Processing 0 enabled plugins
+2026-10-09T14:53:14.211Z [DEBUG] Total plugin workflows loaded: 0
+2026-10-09T14:53:14.212Z [DEBUG] Total plugin commands loaded: 0
+2026-10-09T14:53:14.213Z [DEBUG] Total plugin skills loaded: 0 (0 duplicate/user-owned entries skipped)
+2026-10-09T14:53:14.215Z [DEBUG] Loading skills from: managed=/etc/claude-code/.claude/skills, user=/tmp/assistant-canary/config/skills, project=[]
+2026-10-09T14:53:14.216Z [DEBUG] Failed to stat directory /etc/claude-code/.claude/agents: ENOENT: no such file or directory, stat '/etc/claude-code/.claude/agents'
+2026-10-09T14:53:14.216Z [DEBUG] Total plugin agents loaded: 0
+2026-10-09T14:53:14.233Z [DEBUG] Failed to stat directory /etc/claude-code/.claude/commands: ENOENT: no such file or directory, stat '/etc/claude-code/.claude/commands'
+2026-10-09T14:53:14.234Z [DEBUG] Loaded 0 unique skills (0 unconditional, 0 conditional, managed: 0, user: 0, project: 0, additional: 0, legacy commands: 0)
+2026-10-09T14:53:14.247Z [DEBUG] Git remote URL: null
+2026-10-09T14:53:14.247Z [DEBUG] No git remote URL found
+2026-10-09T14:53:14.252Z [INFO] [uds-messaging] Listening: /tmp/assistant-canary/xdg/cc-socks/20.sock
+2026-10-09T14:53:14.252Z [INFO] [uds-messaging] Inject messages (auth line optional here): { echo '{"type":"auth","token":"[REDACTED]"$CLAUDE_CODE_MESSAGING_TOKEN"'"}'; echo '{"type":"user","message":{"role":"user","content":"hello"}}'; } | socat - UNIX-CONNECT:/tmp/assistant-canary/xdg/cc-socks/20.sock
+2026-10-09T14:53:14.259Z [INFO] [uds-messaging] Connect when the data is ready (e.g. out=$(cmd); printf '%s\n' "$out" | nc -N -U "$CLAUDE_CODE_MESSAGING_SOCKET" — or the socat form above): a connection that sends no complete line within 30000 ms is closed
+2026-10-09T14:53:14.261Z [DEBUG] Broken symlink or missing file encountered for settings.json at path: /etc/claude-code/managed-settings.json
+2026-10-09T14:53:14.262Z [DEBUG] Error log sink initialized
+2026-10-09T14:53:14.263Z [DEBUG] Broken symlink or missing file encountered for settings.json at path: /tmp/assistant-canary/work/.claude/settings.json
+2026-10-09T14:53:14.263Z [DEBUG] Broken symlink or missing file encountered for settings.json at path: /tmp/assistant-canary/config/settings.json
+2026-10-09T14:53:14.265Z [DEBUG] installed plugins' hooks modules not loaded: rollout flag (tengu_plugin_hooks_modules) is off, from the default (GrowthBook is off for this session: a third-party provider, or telemetry opted out); built-in plugins load regardless
+2026-10-09T14:53:14.265Z [DEBUG] sec-default@builtin not seated: installed plugins' hooks modules are off in this process
+2026-10-09T14:53:14.267Z [DEBUG] Registered 0 hooks from 0 plugins
+2026-10-09T14:53:14.267Z [DEBUG] [STARTUP] setup() completed in 66ms
+2026-10-09T14:53:14.268Z [DEBUG] Cleared mTLS configuration cache
+2026-10-09T14:53:14.268Z [DEBUG] Cleared proxy agent cache
+2026-10-09T14:53:14.268Z [DEBUG] mTLS: Creating HTTPS agent with custom certificates
+2026-10-09T14:53:14.283Z [DEBUG] Broken symlink or missing file encountered for settings.json at path: /tmp/assistant-canary/work/.claude/settings.local.json
+2026-10-09T14:53:14.284Z [DEBUG] [STARTUP] Loading commands and agents...
+2026-10-09T14:53:14.289Z [DEBUG] getSkills returning: 0 skill dir commands, 0 plugin skills, 40 bundled skills, 0 builtin plugin skills
+2026-10-09T14:53:14.303Z [DEBUG] [STARTUP] Commands and agents loaded in 19ms
+2026-10-09T14:53:14.306Z [DEBUG] [LSP MANAGER] initializeLspServerManager() called
+2026-10-09T14:53:14.306Z [DEBUG] [LSP MANAGER] Created manager instance, state=pending
+2026-10-09T14:53:14.306Z [DEBUG] [LSP MANAGER] Starting async initialization (generation 1)
+2026-10-09T14:53:14.306Z [DEBUG] [LSP MANAGER] Starting async initialization (generation 1)
+2026-10-09T14:53:14.306Z [DEBUG] Starting background startup prefetches
+2026-10-09T14:53:14.307Z [DEBUG] [Bootstrap] Skipped: Nonessential traffic disabled
+2026-10-09T14:53:14.307Z [DEBUG] [STARTUP] MCP configs resolved in 1ms (awaited at +107ms)
+2026-10-09T14:53:14.308Z [DEBUG] Total LSP servers loaded: 0
+2026-10-09T14:53:14.314Z [DEBUG] [LSP SERVER MANAGER] getAllLspServers returned 0 server(s)
+2026-10-09T14:53:14.314Z [DEBUG] LSP manager initialized with 0 servers
+2026-10-09T14:53:14.315Z [DEBUG] Cleared mTLS configuration cache
+2026-10-09T14:53:14.315Z [DEBUG] Cleared proxy agent cache
+2026-10-09T14:53:14.315Z [DEBUG] mTLS: Creating HTTPS agent with custom certificates
+2026-10-09T14:53:14.315Z [DEBUG] [3P telemetry] Waiting for remote managed settings fetch before telemetry init
+2026-10-09T14:53:14.315Z [DEBUG] Skipping plugin hooks - allowManagedHooksOnly is enabled and no managed plugins
+2026-10-09T14:53:14.317Z [DEBUG] LSP server manager initialized successfully
+2026-10-09T14:53:14.317Z [DEBUG] LSP notification handlers registered successfully for all 0 server(s)
+2026-10-09T14:53:14.317Z [DEBUG] Initialized versioned plugins system with 0 plugins
+2026-10-09T14:53:14.318Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+2026-10-09T14:53:14.319Z [DEBUG] [MCP] --mcp-config servers running fully async (nonblocking)
+2026-10-09T14:53:14.319Z [DEBUG] [MCP] claude.ai connectors running fully async (nonblocking)
+2026-10-09T14:53:14.319Z [DEBUG] [3P telemetry] Remote managed settings fetch settled, initializing telemetry
+2026-10-09T14:53:14.320Z [DEBUG] Cleared mTLS configuration cache
+2026-10-09T14:53:14.320Z [DEBUG] Cleared proxy agent cache
+2026-10-09T14:53:14.320Z [DEBUG] mTLS: Creating HTTPS agent with custom certificates
+2026-10-09T14:53:14.387Z [DEBUG] [auto-mode] verifyAutoModeGateAccess: enabledState=enabled disabledBySettings=false model=claude-opus-5-5[1m] modelSupported=true disableFastModeBreakerFires=false carouselAvailable=true canEnterAuto=true
+2026-10-09T14:53:14.405Z [DEBUG] [servedCatalog] off (essential_traffic)
+2026-10-09T14:53:14.429Z [DEBUG] Plugin autoupdate: command-source refresh disabled by tengu_plugin_command_source_refresh (still excluding command-sourced plugins from the regular pass)
+2026-10-09T14:53:14.430Z [DEBUG] Settings changed from policySettings, updating app state
+2026-10-09T14:53:14.431Z [DEBUG] Broken symlink or missing file encountered for settings.json at path: /etc/claude-code/managed-settings.json
+2026-10-09T14:53:14.435Z [DEBUG] Replacing all allow rules for destination 'userSettings' with 0 rule(s): []
+2026-10-09T14:53:14.435Z [DEBUG] Replacing all deny rules for destination 'userSettings' with 0 rule(s): []
+2026-10-09T14:53:14.435Z [DEBUG] Replacing all ask rules for destination 'userSettings' with 0 rule(s): []
+2026-10-09T14:53:14.435Z [DEBUG] Replacing all allow rules for destination 'projectSettings' with 0 rule(s): []
+2026-10-09T14:53:14.435Z [DEBUG] Replacing all deny rules for destination 'projectSettings' with 0 rule(s): []
+2026-10-09T14:53:14.435Z [DEBUG] Replacing all ask rules for destination 'projectSettings' with 0 rule(s): []
+2026-10-09T14:53:14.435Z [DEBUG] Replacing all allow rules for destination 'localSettings' with 0 rule(s): []
+2026-10-09T14:53:14.435Z [DEBUG] Replacing all deny rules for destination 'localSettings' with 0 rule(s): []
+2026-10-09T14:53:14.435Z [DEBUG] Replacing all ask rules for destination 'localSettings' with 0 rule(s): []
+2026-10-09T14:53:14.435Z [DEBUG] Replacing all allow rules for destination 'flagSettings' with 0 rule(s): []
+2026-10-09T14:53:14.435Z [DEBUG] Replacing all deny rules for destination 'flagSettings' with 0 rule(s): []
+2026-10-09T14:53:14.435Z [DEBUG] Replacing all ask rules for destination 'flagSettings' with 0 rule(s): []
+2026-10-09T14:53:14.435Z [DEBUG] Replacing all allow rules for destination 'policySettings' with 0 rule(s): []
+2026-10-09T14:53:14.435Z [DEBUG] Replacing all deny rules for destination 'policySettings' with 0 rule(s): []
+2026-10-09T14:53:14.435Z [DEBUG] Replacing all ask rules for destination 'policySettings' with 0 rule(s): []
+2026-10-09T14:53:14.435Z [DEBUG] Broken symlink or missing file encountered for settings.json at path: /tmp/assistant-canary/work/.claude/settings.json
+2026-10-09T14:53:14.438Z [DEBUG] Plugin autoupdate: skipped (auto-updater disabled)
+2026-10-09T14:53:14.467Z [DEBUG] Broken symlink or missing file encountered for settings.json at path: /tmp/assistant-canary/config/settings.json
+2026-10-09T14:53:14.478Z [DEBUG] [ScheduledTasks] scheduler start() — enabled=false, hasTasks=false
+2026-10-09T14:53:14.492Z [DEBUG] [Perfetto] initializePerfettoTracing called, env value: undefined
+2026-10-09T14:53:14.493Z [DEBUG] [3P telemetry] isTelemetryEnabled=false (CLAUDE_CODE_ENABLE_TELEMETRY=undefined)
+2026-10-09T14:53:14.493Z [DEBUG] session.start: raised (surface none, not interactive)
+2026-10-09T14:53:14.496Z [DEBUG] [claudeai-mcp] Disabled via disableClaudeAiConnectors setting
+2026-10-09T14:53:14.503Z [DEBUG] installPluginsForHeadless: starting
+2026-10-09T14:53:14.503Z [DEBUG] installPluginsForHeadless: no marketplaces declared
+2026-10-09T14:53:14.506Z [DEBUG] [sessionRegistry] sweep declined by isRegistrySweepPermitted() — dead records are left in place (neither counted nor deleted)
+2026-10-09T14:53:14.507Z [DEBUG] mcp runtime arm: v2 (source: default)
+2026-10-09T14:53:14.594Z [DEBUG] MCP server "assistantbench": Starting connection with timeout of 30000ms
+2026-10-09T14:53:14.638Z [DEBUG] Ripgrep first use test: PASSED (mode=embedded, path=/opt/canary/claude)
+2026-10-09T14:53:14.642Z [DEBUG] "rg error (signal=undefined, code=2, stderr: rg: /tmp/assistant-canary/config/plugins/cache: IO error for operation on /tmp/assistant-canary/config/plugins/cache: No such file or directory (os error 2)\n), 0 results"
+2026-10-09T14:53:14.657Z [DEBUG] Watching /tmp/assistant-canary/work for /tmp/assistant-canary/work/.claude to appear
+2026-10-09T14:53:14.657Z [DEBUG] Watching for changes in setting files /tmp/assistant-canary/config/settings.json...
+2026-10-09T14:53:14.659Z [DEBUG] Preserving file permissions: 100600
+2026-10-09T14:53:14.659Z [DEBUG] Writing to temp file: /tmp/assistant-canary/config/.claude.json.tmp.20.ae7d07d7830f
+2026-10-09T14:53:14.661Z [DEBUG] Applied original permissions to temp file
+2026-10-09T14:53:14.663Z [DEBUG] Temp file written successfully, size: 423 bytes
+2026-10-09T14:53:14.663Z [DEBUG] Renaming /tmp/assistant-canary/config/.claude.json.tmp.20.ae7d07d7830f to /tmp/assistant-canary/config/.claude.json
+2026-10-09T14:53:14.663Z [DEBUG] File /tmp/assistant-canary/config/.claude.json written atomically

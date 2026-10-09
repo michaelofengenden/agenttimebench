@@ -1,0 +1,57 @@
+{
+  "status": "passed_for_source_inventory",
+  "selection_change": "../evidence/selection-changes/2026-10-02-weirdml-removed.json",
+  "slot_count": 212,
+  "removed_slots": 8,
+  "retained_slot_identity_changes": 0,
+  "retained_rows_unchanged": 212,
+  "replacement_slots_added": 0,
+  "inventory_unit_tests_passed": 14,
+  "planner_unit_tests_passed": 14,
+  "nominal_runs_per_agent": 636,
+  "forecast_requests_per_agent": 212,
+  "full_cache_verification": {
+    "status": "passed_for_inventory_only",
+    "slots": 212,
+    "families": 19,
+    "unchanged_earlier_candidates": 100,
+    "drafts": 96,
+    "verified_files": 32627,
+    "verified_bytes": 27403279956,
+    "content_hashes_checked": true,
+    "present_component_references_checked": 2053,
+    "slot_identities_checked": true,
+    "runtime_qualified": 0,
+    "benchmark_runs": 0
+  },
+  "rebuild": {
+    "status": "passed",
+    "scope": "Current 212-slot rebuild and metadata-receipt isolation",
+    "semantic_sha256": {
+      "tasks": "c3a34bf6acb7e6f4b3d1499c706a0e216c9dab0001ec3126980cf8f5701beba0",
+      "recommendations": "cc1e3d9a84c4e0394115b2f761d1cd629067cf791a402b3fef7233b0ae64e9b1",
+      "index": "0d8e868669574d8ab6c7f40612cc42fba2b93664ca3d86a5f640760509e31b36",
+      "README": "6a38b4a35c66bfed693cd336ba2ea57a84662cb66960d8675f8a943aba3c6f5f"
+    },
+    "created_at_utc_is_only_ignored_value": true,
+    "full_verification_receipt_preserved": true
+  },
+  "export_check": {
+    "status": "passed_bounded_review_export_checks",
+    "artifacts": {
+      "tasks.json": "48a54fdf34a7170656c14089d5672c056328e45ea0c09ee601f3558223fac8fa",
+      "recommendations.json": "cc1e3d9a84c4e0394115b2f761d1cd629067cf791a402b3fef7233b0ae64e9b1",
+      "index.html": "e4f2a5da0a8eeeeeca147ce2eefe4a622465d9ce6667437fdf7cd0135af64a14",
+      "README.md": "6a38b4a35c66bfed693cd336ba2ea57a84662cb66960d8675f8a943aba3c6f5f"
+    },
+    "checks": [
+      "No raw question, answer, rationale or credential field names in JSON exports",
+      "No common credential-shaped values in the four review exports",
+      "No copied full BrowseComp private payload values"
+    ],
+    "browsecomp_payload_values_checked": 2735,
+    "limits": "This is not an exhaustive secret or answer detector and does not qualify future subject packages. The private cache remains separate from the served review directory."
+  },
+  "previous_checks": "history/before-weirdml-removal-20261002/final-checks.json",
+  "scope": "Source inventory and allocation only. No benchmark or model attempts were run; native qualification is unchanged."
+}

@@ -1,0 +1,19 @@
+test_complete_matching_file_is_accepted (test_inventory_evidence.InventoryEvidenceTests.test_complete_matching_file_is_accepted) ... ok
+test_component_hash_must_agree_with_verified_source_manifest (test_inventory_evidence.InventoryEvidenceTests.test_component_hash_must_agree_with_verified_source_manifest) ... ok
+test_csv_record_hash_must_match_the_parsed_row (test_inventory_evidence.InventoryEvidenceTests.test_csv_record_hash_must_match_the_parsed_row) ... ok
+test_directory_with_an_unmanifested_file_is_rejected (test_inventory_evidence.InventoryEvidenceTests.test_directory_with_an_unmanifested_file_is_rejected) ... ok
+test_pointer_stub_cannot_count_as_source_content (test_inventory_evidence.InventoryEvidenceTests.test_pointer_stub_cannot_count_as_source_content) ... ok
+test_present_component_rejects_empty_directory_as_evidence (test_inventory_evidence.InventoryEvidenceTests.test_present_component_rejects_empty_directory_as_evidence) ... ok
+test_present_component_rejects_one_missing_required_file (test_inventory_evidence.InventoryEvidenceTests.test_present_component_rejects_one_missing_required_file) ... ok
+test_record_id_must_resolve_to_the_expected_record (test_inventory_evidence.InventoryEvidenceTests.test_record_id_must_resolve_to_the_expected_record) ... ok
+test_reordering_must_not_change_slot_identity (test_inventory_evidence.InventoryEvidenceTests.test_reordering_must_not_change_slot_identity) ... ok
+test_symlink_preserves_record_validation (test_inventory_evidence.InventoryEvidenceTests.test_symlink_preserves_record_validation) ... ok
+test_symlink_target_must_be_manifested (test_inventory_evidence.InventoryEvidenceTests.test_symlink_target_must_be_manifested) ... ok
+test_symlink_to_pointer_stub_is_rejected (test_inventory_evidence.InventoryEvidenceTests.test_symlink_to_pointer_stub_is_rejected) ... ok
+test_symlink_to_verified_source_is_accepted (test_inventory_evidence.InventoryEvidenceTests.test_symlink_to_verified_source_is_accepted) ... ok
+test_unmanifested_file_cannot_be_present_evidence (test_inventory_evidence.InventoryEvidenceTests.test_unmanifested_file_cannot_be_present_evidence) ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 0.148s
+
+OK

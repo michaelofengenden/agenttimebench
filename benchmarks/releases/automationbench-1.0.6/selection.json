@@ -1,0 +1,217 @@
+{
+  "schema_version": 1,
+  "created_at_utc": "2026-10-05T09:22:48.871611+00:00",
+  "selection_authority": "User requested additional quality-audited AutomationBench candidates with no forced count. Exact IDs remain recommendations for review.",
+  "candidates": [
+    {
+      "schema_version": 1,
+      "task_id": "automationbench:sales.cross_reference_validation",
+      "benchmark": "AutomationBench",
+      "benchmark_version": "1.0.6",
+      "upstream_task_name": "sales.cross_reference_validation",
+      "domain": "sales",
+      "example_id": 514,
+      "title": "Validate a new enterprise deal against CRM records and current policy",
+      "summary": "Resolve similarly named companies and duplicate contacts, apply current authorization rules, create the eligible CRM deal and record its audit trail.",
+      "source_url": "https://github.com/zapier/AutomationBench/blob/4a8e1061254004d9dac807054eed33fad7d1ff14/automationbench/domains/sales/tasks.py#L1927",
+      "source_commit": "4a8e1061254004d9dac807054eed33fad7d1ff14",
+      "source_file": "automationbench/domains/sales/tasks.py",
+      "source_line": 1927,
+      "selection_status": "recommended_after_model_free_audit",
+      "task_quality_claim": "No defect found in the scoped tests; not certified flaw-free.",
+      "native_toolset": "api",
+      "native_tools": [
+        "api_search",
+        "api_fetch",
+        "base64_encode"
+      ],
+      "agenttime_variant": {
+        "variant": "agenttime-automationbench-api-uncapped-v1",
+        "source_messages_sha256": "761c80469a56b16e909be9126c27b3b12f5de02aaf59d6b38746cfa20378c4f1",
+        "adapted_messages_sha256": "d399003072c1ef9bdc9f33669b05ce81f7675d469349b187c03abe0675358e8e",
+        "delivered_text_sha256": "7a4bacbd59df2b21668675698890e8ea13d6b60656d9be1b438dae9b5bf6b58e",
+        "turn_limit": null,
+        "experiment_timeout_seconds": null,
+        "definition": "Remove exactly the native turn-budget clause, preserve other instructions, and use actual agent harnesses with the native API tools through MCP."
+      },
+      "readiness": {
+        "source_present": true,
+        "model_free_api_reachability": true,
+        "negative_controls_passed": 15,
+        "equivalent_valid_controls_passed": 1,
+        "noop_rejected": true,
+        "json_roundtrip_grading_equal_for_tested_cases": true,
+        "live_agent_harness_qualified": false,
+        "scientifically_admitted": false,
+        "fresh_process_backend_restore_grading_equal": true
+      },
+      "native_assertion_count": 11,
+      "api_witness": {
+        "fetch_calls": 16,
+        "search_calls": 6,
+        "native_completed": 1.0,
+        "native_noop_completed": 0.0
+      },
+      "contracts": {
+        "native_task_record_canonical_sha256": "96b77fefe4b6f7f1ef7040180e4c2a46af18ff01f968a569f5ed71df91c280e4",
+        "native_prompt_canonical_sha256": "761c80469a56b16e909be9126c27b3b12f5de02aaf59d6b38746cfa20378c4f1",
+        "native_initial_state_canonical_sha256": "bd5225d40584cfe25e0c9c4f0fe993c451674cff50acfb1d9f8e6e6ce8c21282",
+        "native_assertions_canonical_sha256": "c60d21d5be5a3f6022050925b32543f7ea7508f3a21073ff4d2aa8f05319ad03",
+        "native_zapier_allowlist_canonical_sha256": "81b39c9460126a5e0b80fa5ef8065dbdd2d515f4990dc3f10838485a59a2e044",
+        "source_py_and_lock_manifest_sha256": "4d7261b02293a4d15f0febb5b10b5bd897ca7550220d74dc708956ef0655c731"
+      },
+      "admission_requirements": [
+        "Freeze full initialized world before forecast and natural sessions.",
+        "Keep fixtures, assertions, private witness traces and grader data outside agent filesystem and tool responses.",
+        "Verify actual Codex/Claude Harbor MCP execution without a model-response cap.",
+        "Persist runtime-only state where applicable and qualify restart/fork; this selected task's tested grader results survive JSON-only roundtrip.",
+        "Use native strict completion and retain all per-assertion excluded/scored statuses."
+      ],
+      "limitations": [
+        "Outcome-based assertions do not prove the agent read each source or followed a particular reasoning process.",
+        "The initial audit tested seven candidates and the expansion tested 21 more. This is a scoped selection from the public catalog.",
+        "The API surface is a simulator; some unrelated or alternative endpoints remain defective. The selected witness uses only the verified routes."
+      ]
+    },
+    {
+      "schema_version": 1,
+      "task_id": "automationbench:sales.negative_selection",
+      "benchmark": "AutomationBench",
+      "benchmark_version": "1.0.6",
+      "upstream_task_name": "sales.negative_selection",
+      "domain": "sales",
+      "example_id": 503,
+      "title": "Enroll eligible directors under campaign compliance rules",
+      "summary": "Join contact and account records, follow parent-company restrictions, apply role exclusions and compliance holds, and enroll only eligible contacts.",
+      "source_commit": "4a8e1061254004d9dac807054eed33fad7d1ff14",
+      "source_file": "automationbench/domains/sales/tasks.py",
+      "source_line": 358,
+      "source_url": "https://github.com/zapier/AutomationBench/blob/4a8e1061254004d9dac807054eed33fad7d1ff14/automationbench/domains/sales/tasks.py#L358",
+      "selection_status": "recommended_after_model_free_audit",
+      "task_quality_claim": "No defect found in the scoped requirements and controls; not certified flaw-free.",
+      "native_toolset": "api",
+      "native_tools": [
+        "api_search",
+        "api_fetch",
+        "base64_encode"
+      ],
+      "native_assertion_count": 17,
+      "api_witness": {
+        "fetch_calls": 11,
+        "search_calls": 5,
+        "native_noop_completed": 0.0,
+        "native_completed": 1.0
+      },
+      "readiness": {
+        "source_present": true,
+        "model_free_api_reachability": true,
+        "negative_controls_passed": 20,
+        "equivalent_valid_state_controls_passed": 1,
+        "alternate_native_tool_sequence_passed": true,
+        "sidecar_restore_grading_equal": true,
+        "restore_scope": "Native same-process state and grading checks; root independently verifies fresh-process Backend restoration.",
+        "live_agent_harness_qualified": false,
+        "scientifically_admitted": false,
+        "fresh_process_backend_restore_grading_equal": true,
+        "noop_rejected": true
+      },
+      "contracts": {
+        "native_task_record_canonical_sha256": "8bcda667447f419193e716995600645e8bbce9dcfdd290ef9464ac88365c1abf",
+        "native_prompt_canonical_sha256": "001c390a5c6adc7a0d14573951a0ff5571e98aa444d44346b02bc35280d29680",
+        "native_initial_state_canonical_sha256": "fb9dd1438b03fd2cde58960c2d874e4670390c69af52272248ba5994a8d8d6a7",
+        "native_assertions_canonical_sha256": "aedefab877ec4d37bf5fe49f1265c842faaba1522e060452c47930f60d447412",
+        "native_task_contract_sha256": "0921940765e4180dd7c948bc64b2b2373a6c80605888a55811753d84d8178f03",
+        "cached_record_canonical_sha256": "224c3bebbab63779e21aa7724f5374e10e421ce2d9130298ecf8f8329e148c34"
+      },
+      "agenttime_variant": {
+        "variant": "agenttime-automationbench-api-uncapped-v1",
+        "source_messages_sha256": "001c390a5c6adc7a0d14573951a0ff5571e98aa444d44346b02bc35280d29680",
+        "adapted_messages_sha256": "3ebfff932036ba1048fd2669d853eca9ecde68ed36fbda0636b140d9500c4a5f",
+        "delivered_text_sha256": "af06e8e0b9a80d348cd5211e8f337fc3804c4f34fab37c4ec0294a8559855a1a",
+        "turn_limit": null,
+        "experiment_timeout_seconds": null,
+        "definition": "Remove exactly the native turn-budget clause and bypass the native capped response loop; preserve other instructions."
+      },
+      "limitations": [
+        "Grading observes resulting state, not reasoning or source-reading behavior.",
+        "Unrequested modifications to unrelated fields are not comprehensively checked by the native rubric.",
+        "Model-free witnesses and restore checks do not qualify an evaluated agent, timing, production recovery or session archives."
+      ],
+      "audit_evidence": "benchmarks/cache/automationbench-expansion-20261005/audit/sales-marketing/selection-evidence.private.json"
+    },
+    {
+      "schema_version": 1,
+      "task_id": "automationbench:sales.qualify_lead",
+      "benchmark": "AutomationBench",
+      "benchmark_version": "1.0.6",
+      "upstream_task_name": "sales.qualify_lead",
+      "domain": "sales",
+      "example_id": 5,
+      "title": "Apply current lead qualification rules and executive override",
+      "summary": "Retrieve the qualification policy, resolve policy precedence and a newer executive directive, classify all open leads and preserve the lead records.",
+      "source_commit": "4a8e1061254004d9dac807054eed33fad7d1ff14",
+      "source_file": "automationbench/domains/sales/tasks.py",
+      "source_line": 7859,
+      "source_url": "https://github.com/zapier/AutomationBench/blob/4a8e1061254004d9dac807054eed33fad7d1ff14/automationbench/domains/sales/tasks.py#L7859",
+      "selection_status": "recommended_after_model_free_audit",
+      "task_quality_claim": "No defect found in the scoped requirements and controls; not certified flaw-free.",
+      "native_toolset": "api",
+      "native_tools": [
+        "api_search",
+        "api_fetch",
+        "base64_encode"
+      ],
+      "native_assertion_count": 10,
+      "api_witness": {
+        "fetch_calls": 12,
+        "search_calls": 7,
+        "native_noop_completed": 0.0,
+        "native_completed": 1.0
+      },
+      "readiness": {
+        "source_present": true,
+        "model_free_api_reachability": true,
+        "negative_controls_passed": 17,
+        "equivalent_valid_state_controls_passed": 1,
+        "alternate_native_tool_sequence_passed": true,
+        "sidecar_restore_grading_equal": true,
+        "restore_scope": "Native same-process state and grading checks; root independently verifies fresh-process Backend restoration.",
+        "live_agent_harness_qualified": false,
+        "scientifically_admitted": false,
+        "fresh_process_backend_restore_grading_equal": true,
+        "noop_rejected": true
+      },
+      "contracts": {
+        "native_task_record_canonical_sha256": "0b403a4d707c27b6fc61271fb2e9c320a87678b80a276bfacc0d0df23ba3e72f",
+        "native_prompt_canonical_sha256": "4a4a38748127e83501070a992ac75303bd93385fe82c705ef62dce114c8c6e6f",
+        "native_initial_state_canonical_sha256": "73fc536aad48fb85fc58541ee38cca2514db6776050263032709fccff9377b7e",
+        "native_assertions_canonical_sha256": "beb953d007b60810cd8d7d8e4f772794d8088eb311528e3d748a087862b4ccc5",
+        "native_task_contract_sha256": "f88012bafaa5fe6fd03c5e9f03d08a12d8f937987ccdd20bc3aa726afa587ac3",
+        "cached_record_canonical_sha256": "e91513afb3419a8d29d46e21666ec1710a20e9bb498901f6d2fee283d9fb6373"
+      },
+      "agenttime_variant": {
+        "variant": "agenttime-automationbench-api-uncapped-v1",
+        "source_messages_sha256": "4a4a38748127e83501070a992ac75303bd93385fe82c705ef62dce114c8c6e6f",
+        "adapted_messages_sha256": "9a7d1460aad1b8591aa17414498f9469bd594e7fc24851d97b33fed8fd779955",
+        "delivered_text_sha256": "39dd21bf929e290d4035d7984f3b10daeb87a4d9d028fa1a2e6814f9a4e1e65f",
+        "turn_limit": null,
+        "experiment_timeout_seconds": null,
+        "definition": "Remove exactly the native turn-budget clause and bypass the native capped response loop; preserve other instructions."
+      },
+      "limitations": [
+        "Grading observes resulting state, not reasoning or source-reading behavior.",
+        "Unrequested modifications to unrelated fields are not comprehensively checked by the native rubric.",
+        "Model-free witnesses and restore checks do not qualify an evaluated agent, timing, production recovery or session archives."
+      ],
+      "audit_evidence": "benchmarks/cache/automationbench-expansion-20261005/audit/sales-marketing/selection-evidence.private.json"
+    }
+  ],
+  "study_launch_ready": false,
+  "updated_at_utc": "2026-10-05T11:22:33.353434+00:00",
+  "audit_summary": "benchmarks/inventory/evidence/automationbench-audit-summary.json",
+  "active_in_suite": false,
+  "selection_status": "excluded_by_user",
+  "decision_date": "2026-10-05",
+  "removal_record": "benchmarks/inventory/evidence/selection-changes/2026-10-05-remove-automationbench.json",
+  "historical_records_note": "Candidate records below preserve the earlier recommendations and source evidence. They are not active task allocations."
+}

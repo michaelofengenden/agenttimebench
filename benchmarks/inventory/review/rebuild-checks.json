@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "scope": "Current source-preparation rebuild and metadata-receipt isolation",
+  "semantic_sha256": {
+    "tasks.json": "1405eab89b4fa1dc628b543e1e3717ebdaefaee24555eb7977b4dc46ca36f2a9",
+    "recommendations.json": "a4537983281350aff85f2ef2dd728425ec3d9dc36c2a649ae75bdee460c08c8f",
+    "index.html": "be25d071f75dc03e2ee32191fccca0bb03e8ae4ce245018f005dff709ba191bd",
+    "README.md": "0bb6726765ed262b10c8afc3c27180429f563c39de8d09e9b565197b265c0d1a"
+  },
+  "created_at_utc_is_only_ignored_value": true,
+  "full_verification_receipt_preserved": true
+}

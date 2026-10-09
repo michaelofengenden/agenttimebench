@@ -1,0 +1,6 @@
+{
+  "container_id": "a5fd7ced172e4dc3da7e707c8c5c861f2a56b78c912d74f5a74ea75ef3b51fa1",
+  "image": "sha256:bc5e8675cdb8a8934817780b4285b2cb0819ab4fdbd6bd2bdf7cbb0d87aa2d8e",
+  "label": "synthetic-hetzner-fork-eec5e64fa2a3",
+  "purpose": "synthetic_restore_only"
+}

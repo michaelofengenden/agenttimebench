@@ -1,0 +1,1335 @@
+{
+  "repository": "xlangai/osworld_v2_tasks",
+  "revision": "0a1aadad95aa79b00b3783e717d865089ab06e26",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 2504,
+      "sha256": "9e75dd981de037ec3769f24f790e126bc5a160b6871f510214e68dc70649aeeb",
+      "url": "https://huggingface.co/datasets/xlangai/osworld_v2_tasks/resolve/0a1aadad95aa79b00b3783e717d865089ab06e26/.gitattributes",
+      "git_oid": "bed0738c7eeb449bca98b5d2f33c89a1ee56349a",
+      "expected_lfs_sha256": null,
+      "release_sha256": null
+    },
+    {
+      "path": "README.md",
+      "bytes": 793,
+      "sha256": "afddf2e2bd9cd823485dae66a3340b0660c6e884dd89a1029c42dec9403422f7",
+      "url": "https://huggingface.co/datasets/xlangai/osworld_v2_tasks/resolve/0a1aadad95aa79b00b3783e717d865089ab06e26/README.md",
+      "git_oid": "b74ca699757b8d44246491794aeba547f2507557",
+      "expected_lfs_sha256": null,
+      "release_sha256": null
+    },
+    {
+      "path": "implementation_notes/README.md",
+      "bytes": 605,
+      "sha256": "a04c180a00547b131fa07784eeae0cfde52394f4f14c330ba26eb3dd2ab6dfcd",
+      "url": "https://huggingface.co/datasets/xlangai/osworld_v2_tasks/resolve/0a1aadad95aa79b00b3783e717d865089ab06e26/implementation_notes/README.md",
+      "git_oid": "944721c882721364d25010b466828be822da7e6e",
+      "expected_lfs_sha256": null,
+      "release_sha256": null
+    },
+    {
+      "path": "implementation_notes/_template.md",
+      "bytes": 233,
+      "sha256": "845f61b459e887550d70712a6f71869e5114bccd992c82fb7bfa16725b6ad11d",
+      "url": "https://huggingface.co/datasets/xlangai/osworld_v2_tasks/resolve/0a1aadad95aa79b00b3783e717d865089ab06e26/implementation_notes/_template.md",
+      "git_oid": "92d2e6cd319ddc7dfc5a9cf0773cc07dd6f4ecb8",
+      "expected_lfs_sha256": null,
+      "release_sha256": null
+    },
+    {
+      "path": "implementation_notes/task_006.md",
+      "bytes": 337,
+      "sha256": "9c35d91e61bb9b93acb6fab64e77a600ec91c4e92145c62e49593d154d730c14",
+      "url": "https://huggingface.co/datasets/xlangai/osworld_v2_tasks/resolve/0a1aadad95aa79b00b3783e717d865089ab06e26/implementation_notes/task_006.md",
+      "git_oid": "471ebc58ef27f274f32adacdcf1ba892118be948",
+      "expected_lfs_sha256": null,
+      "release_sha256": null
+    },
+    {
+      "path": "implementation_notes/task_008.md",
+      "bytes": 1192,
+      "sha256": "b22018b7294a3faee47c5e11e63bcd528b1dd1472b0975f67d8d2e1082353cf5",
+      "url": "https://huggingface.co/datasets/xlangai/osworld_v2_tasks/resolve/0a1aadad95aa79b00b3783e717d865089ab06e26/implementation_notes/task_008.md",
+      "git_oid": "6c43222842ffe978adced0d4b8efe72782722b4b",
+      "expected_lfs_sha256": null,
+      "release_sha256": null
+    },
+    {
+      "path": "implementation_notes/task_014.md",
+      "bytes": 252,
+      "sha256": "e2a7ed280a554888cc739ca76d99570a5950235ed75abcf46bb6bcb88cbc8871",
+      "url": "https://huggingface.co/datasets/xlangai/osworld_v2_tasks/resolve/0a1aadad95aa79b00b3783e717d865089ab06e26/implementation_notes/task_014.md",
+      "git_oid": "ed624a68fbc3d5ad01fc2973c84dac0e00ff4d77",
+      "expected_lfs_sha256": null,
+      "release_sha256": null
+    },
+    {
+      "path": "implementation_notes/task_023.md",
+      "bytes": 377,
+      "sha256": "99d4ccddb746abcd984a594eaf1db55d43340f461156414142061837e3baa2ec",
+      "url": "https://huggingface.co/datasets/xlangai/osworld_v2_tasks/resolve/0a1aadad95aa79b00b3783e717d865089ab06e26/implementation_notes/task_023.md",
+      "git_oid": "e3fab9afaa4e6d770b2b1e900e896b4cb7637c59",
+      "expected_lfs_sha256": null,
+      "release_sha256": null
+    },
+    {
+      "path": "implementation_notes/task_024.md",
+      "bytes": 786,
+      "sha256": "9942df087c9fa5a59a8ea71730595fd423397767f1efd98d02792296f11d5ff0",
+      "url": "https://huggingface.co/datasets/xlangai/osworld_v2_tasks/resolve/0a1aadad95aa79b00b3783e717d865089ab06e26/implementation_notes/task_024.md",
+      "git_oid": "8bb6e81ab689b06d8d91b04beaf9e8822fa9fa8e",
+      "expected_lfs_sha256": null,
+      "release_sha256": null
+    },
+    {
+      "path": "implementation_notes/task_027.md",
+      "bytes": 237,
+      "sha256": "8223ce451b6431441c99fa9646321b2aa72425a53177f8987d6fafe7293c0d6f",
+      "url": "https://huggingface.co/datasets/xlangai/osworld_v2_tasks/resolve/0a1aadad95aa79b00b3783e717d865089ab06e26/implementation_notes/task_027.md",
+      "git_oid": "e357fe79a4392581358f29a4db673a01b378ada6",
+      "expected_lfs_sha256": null,
+      "release_sha256": null
+    },
+    {
+      "path": "implementation_notes/task_037.md",
+      "bytes": 155,
+      "sha256": "f010203fe6b6180e0d936cf76183f7c93fd783bd923905a9c47070325a3a1c93",
+      "url": "https://huggingface.co/datasets/xlangai/osworld_v2_tasks/resolve/0a1aadad95aa79b00b3783e717d865089ab06e26/implementation_notes/task_037.md",
+      "git_oid": "47d72b19fcd9d42043dd42f3f3ea039556bb7c2f",
+      "expected_lfs_sha256": null,
+      "release_sha256": null
+    },
+    {
+      "path": "implementation_notes/task_042.md",
+      "bytes": 129,
+      "sha256": "f00759858191d883b9aab2ea80b27a77167a5c8341ca56a72d1096f2e93387d7",
+      "url": "https://huggingface.co/datasets/xlangai/osworld_v2_tasks/resolve/0a1aadad95aa79b00b3783e717d865089ab06e26/implementation_notes/task_042.md",
+      "git_oid": "098c8fe831542ed8644da95554e898589c937d8e",
+      "expected_lfs_sha256": null,
+      "release_sha256": null
+    },
+    {
+      "path": "implementation_notes/task_050.md",
+      "bytes": 191,
+      "sha256": "255c11108f901bc259262d9cd07b2709c91f1f4c17a6c348ed5c320f3165ff6f",
+      "url": "https://huggingface.co/datasets/xlangai/osworld_v2_tasks/resolve/0a1aadad95aa79b00b3783e717d865089ab06e26/implementation_notes/task_050.md",
+      "git_oid": "bc465c5abb01c26194ab7ec72a30e57c0403e626",
+      "expected_lfs_sha256": null,
+      "release_sha256": null
+    },
+    {
+      "path": "implementation_notes/task_055.md",
+      "bytes": 214,
+      "sha256": "8827e376c6b65f0155ad5e26fe3066ac3c83851613e8f1f1deb08945f519c12f",
+      "url": "https://huggingface.co/datasets/xlangai/osworld_v2_tasks/resolve/0a1aadad95aa79b00b3783e717d865089ab06e26/implementation_notes/task_055.md",
+      "git_oid": "58c7932b08c95ce1902b962f3101c32f6b0036bd",
+      "expected_lfs_sha256": null,
+      "release_sha256": null
+    },
+    {
+      "path": "implementation_notes/task_056.md",
+      "bytes": 358,
+      "sha256": "2898a9485d5fd699e66508d30f2ab4e2cde9a704dec73e9658f9a5fb67856e47",
+      "url": "https://huggingface.co/datasets/xlangai/osworld_v2_tasks/resolve/0a1aadad95aa79b00b3783e717d865089ab06e26/implementation_notes/task_056.md",
+      "git_oid": "10700b088e6bc8e13aa3c5348380f75adea7ee17",
+      "expected_lfs_sha256": null,
+      "release_sha256": null
+    },
+    {
+      "path": "implementation_notes/task_057.md",
+      "bytes": 377,
+      "sha256": "898e795bbc1ba8e7ccecc20fca6302d950bff051dd1b308b92d2509c5485de1e",
+      "url": "https://huggingface.co/datasets/xlangai/osworld_v2_tasks/resolve/0a1aadad95aa79b00b3783e717d865089ab06e26/implementation_notes/task_057.md",
+      "git_oid": "e00434b75671a36cc5a2c023dcf63ef4a700922b",
+      "expected_lfs_sha256": null,
+      "release_sha256": null
+    },
+    {
+      "path": "implementation_notes/task_058.md",
+      "bytes": 365,
+      "sha256": "429f6aba1a318a949b9e7faa60b29ca7b7e39874af1f006d8fa55217db156cd0",
+      "url": "https://huggingface.co/datasets/xlangai/osworld_v2_tasks/resolve/0a1aadad95aa79b00b3783e717d865089ab06e26/implementation_notes/task_058.md",
+      "git_oid": "4237856afce0a1a676d2283a74a80e80622562a4",
+      "expected_lfs_sha256": null,
+      "release_sha256": null
+    },
+    {
+      "path": "implementation_notes/task_059.md",
+      "bytes": 696,
+      "sha256": "f3b5fd3c05b75c1aa280c1cf0928db08dd8f9439dc33b555ea73acd652601ace",
+      "url": "https://huggingface.co/datasets/xlangai/osworld_v2_tasks/resolve/0a1aadad95aa79b00b3783e717d865089ab06e26/implementation_notes/task_059.md",
+      "git_oid": "b3ffc3b1e4d155d8bfaec3db4b4c7bd69ef37f3e",
+      "expected_lfs_sha256": null,
+      "release_sha256": null
+    },
+    {
+      "path": "implementation_notes/task_060.md",
+      "bytes": 333,
+      "sha256": "33ba27ee5adcd761efabf0fa74794f23092ecbdd6f6c06521e539f35f9e87a92",
+      "url": "https://huggingface.co/datasets/xlangai/osworld_v2_tasks/resolve/0a1aadad95aa79b00b3783e717d865089ab06e26/implementation_notes/task_060.md",
+      "git_oid": "c7c3504a08bf37516cd0c5fc0eb9e6f9cf364ad6",
+      "expected_lfs_sha256": null,
+      "release_sha256": null
+    },
+    {
+      "path": "implementation_notes/task_063.md",
+      "bytes": 433,
+      "sha256": "c67c7a469985049612ce765c92b7464c60358fd52754016102f2d16495b79f99",
+      "url": "https://huggingface.co/datasets/xlangai/osworld_v2_tasks/resolve/0a1aadad95aa79b00b3783e717d865089ab06e26/implementation_notes/task_063.md",
+      "git_oid": "5b1200ceb61878e130309de551e20a4229acc274",
+      "expected_lfs_sha256": null,
+      "release_sha256": null
+    },
+    {
+      "path": "implementation_notes/task_064.md",
+      "bytes": 2361,
+      "sha256": "c69c90bad5d91ddce1303fca305dd095d2dbf7c1e19ff49564b7674909fede7e",
+      "url": "https://huggingface.co/datasets/xlangai/osworld_v2_tasks/resolve/0a1aadad95aa79b00b3783e717d865089ab06e26/implementation_notes/task_064.md",
+      "git_oid": "9897b4f084e3138ca93ad9f2997c350e83396737",
+      "expected_lfs_sha256": null,
+      "release_sha256": null
+    },
+    {
+      "path": "implementation_notes/task_065.md",
+      "bytes": 702,
+      "sha256": "93431d6d17e0f9fe845ad9fe720fb542c1d302eab33a9e33edcb58b50daae1a4",
+      "url": "https://huggingface.co/datasets/xlangai/osworld_v2_tasks/resolve/0a1aadad95aa79b00b3783e717d865089ab06e26/implementation_notes/task_065.md",
+      "git_oid": "fd2a37e1c65859505ccab28f311347d825cdd3b8",
+      "expected_lfs_sha256": null,
+      "release_sha256": null
+    },
+    {
+      "path": "implementation_notes/task_066.md",
+      "bytes": 531,
+      "sha256": "b707d4b863c63124b091064b36700f6bdb7d15cc8390f369c841f85c337f24ec",
+      "url": "https://huggingface.co/datasets/xlangai/osworld_v2_tasks/resolve/0a1aadad95aa79b00b3783e717d865089ab06e26/implementation_notes/task_066.md",
+      "git_oid": "e247283ed01eb6038e33dec6d811a225d1b47505",
+      "expected_lfs_sha256": null,
+      "release_sha256": null
+    },
+    {
+      "path": "implementation_notes/task_067.md",
+      "bytes": 133,
+      "sha256": "68e2ccf3c965e4430cd9514e080eb0d877448788fa8a0cf4d4b17ea52f2b6299",
+      "url": "https://huggingface.co/datasets/xlangai/osworld_v2_tasks/resolve/0a1aadad95aa79b00b3783e717d865089ab06e26/implementation_notes/task_067.md",
+      "git_oid": "b74ba5f0d102532e3f23d62f3b6b1c95f13783c7",
+      "expected_lfs_sha256": null,
+      "release_sha256": null
+    },
+    {
+      "path": "implementation_notes/task_071.md",
+      "bytes": 260,
+      "sha256": "42871777e26d80d53d81a5f601b4ef28e7a256deeddf5c12f5e0b83c6b1ccf16",
+      "url": "https://huggingface.co/datasets/xlangai/osworld_v2_tasks/resolve/0a1aadad95aa79b00b3783e717d865089ab06e26/implementation_notes/task_071.md",
+      "git_oid": "082f68f5d0cea9eeb8a01e57a20a41d4d0d8412e",
+      "expected_lfs_sha256": null,
+      "release_sha256": null
+    },
+    {
+      "path": "implementation_notes/task_076.md",
+      "bytes": 141,
+      "sha256": "83b4310df2700bd65f24f9660a11b527b5a79fd6527beb4994a4cac618489804",
+      "url": "https://huggingface.co/datasets/xlangai/osworld_v2_tasks/resolve/0a1aadad95aa79b00b3783e717d865089ab06e26/implementation_notes/task_076.md",
+      "git_oid": "e0d2de23f3cdf9463cef33ce24bd2ce96d22b133",
+      "expected_lfs_sha256": null,
+      "release_sha256": null
+    },
+    {
+      "path": "implementation_notes/task_077.md",
+      "bytes": 514,
+      "sha256": "5099fc24f8b2dcac0b745644f0bc7c5e13b136d7108f50c6438e24adbadb79f5",
+      "url": "https://huggingface.co/datasets/xlangai/osworld_v2_tasks/resolve/0a1aadad95aa79b00b3783e717d865089ab06e26/implementation_notes/task_077.md",
+      "git_oid": "e0faddc50b48b7b31ccaae4925faa82aec90bcaa",
+      "expected_lfs_sha256": null,
+      "release_sha256": null
+    },
+    {
+      "path": "implementation_notes/task_079.md",
+      "bytes": 628,
+      "sha256": "5e55b33fdf882d3f280c69194a0818e3f61a14874e6155e26174cd24db186249",
+      "url": "https://huggingface.co/datasets/xlangai/osworld_v2_tasks/resolve/0a1aadad95aa79b00b3783e717d865089ab06e26/implementation_notes/task_079.md",
+      "git_oid": "3f72e4fe8718f737fbb17ef3890c2ac184ea0af0",
+      "expected_lfs_sha256": null,
+      "release_sha256": null
+    },
+    {
+      "path": "implementation_notes/task_080.md",
+      "bytes": 405,
+      "sha256": "92a5e17a53de36297310a1ea9a4ba58bc6e54eeb9dc158d8a20bf4b5b475db23",
+      "url": "https://huggingface.co/datasets/xlangai/osworld_v2_tasks/resolve/0a1aadad95aa79b00b3783e717d865089ab06e26/implementation_notes/task_080.md",
+      "git_oid": "6115f3fa3e0231b14b543c32d646ddf9a2cea58d",
+      "expected_lfs_sha256": null,
+      "release_sha256": null
+    },
+    {
+      "path": "implementation_notes/task_086.md",
+      "bytes": 306,
+      "sha256": "3aefa0577bb3aea3c6ec0335759f85d49406f04deeaf30a9db68fbf181dc9b88",
+      "url": "https://huggingface.co/datasets/xlangai/osworld_v2_tasks/resolve/0a1aadad95aa79b00b3783e717d865089ab06e26/implementation_notes/task_086.md",
+      "git_oid": "904ad1aa4a9132ba566d7adf14b58457ff3b02ee",
+      "expected_lfs_sha256": null,
+      "release_sha256": null
+    },
+    {
+      "path": "implementation_notes/task_087.md",
+      "bytes": 580,
+      "sha256": "d1a16b37cf76884fb6e9af5953a6894a121b0948bf0ca2b167d4911acd785ed5",
+      "url": "https://huggingface.co/datasets/xlangai/osworld_v2_tasks/resolve/0a1aadad95aa79b00b3783e717d865089ab06e26/implementation_notes/task_087.md",
+      "git_oid": "8137cc6752f6ecd3e6040b03ee2863e4a018b4b9",
+      "expected_lfs_sha256": null,
+      "release_sha256": null
+    },
+    {
+      "path": "implementation_notes/task_090.md",
+      "bytes": 670,
+      "sha256": "e8982f50e725291cde8b0634e9aa5765e6047d18ba87d0512ad8b87d2476acfd",
+      "url": "https://huggingface.co/datasets/xlangai/osworld_v2_tasks/resolve/0a1aadad95aa79b00b3783e717d865089ab06e26/implementation_notes/task_090.md",
+      "git_oid": "cac83fd1df4450372e7ccd4727221ab02bcea414",
+      "expected_lfs_sha256": null,
+      "release_sha256": null
+    },
+    {
+      "path": "implementation_notes/task_091.md",
+      "bytes": 189,
+      "sha256": "bf6e5be86e5177a5d7e1f43f689cfea6e51d6ab83d9f9f50aef811e57eee65c7",
+      "url": "https://huggingface.co/datasets/xlangai/osworld_v2_tasks/resolve/0a1aadad95aa79b00b3783e717d865089ab06e26/implementation_notes/task_091.md",
+      "git_oid": "3d03f75573e86eec95929ce6b62bee1547db85fe",
+      "expected_lfs_sha256": null,
+      "release_sha256": null
+    },
+    {
+      "path": "implementation_notes/task_096.md",
+      "bytes": 747,
+      "sha256": "e474a445434ac51cd130594b02fd4933f2a94b5812d30b9b60c7c603ff702c52",
+      "url": "https://huggingface.co/datasets/xlangai/osworld_v2_tasks/resolve/0a1aadad95aa79b00b3783e717d865089ab06e26/implementation_notes/task_096.md",
+      "git_oid": "c8ed1deb8c605ee4d888f05fb0a13c9077d631dd",
+      "expected_lfs_sha256": null,
+      "release_sha256": null
+    },
+    {
+      "path": "implementation_notes/task_098.md",
+      "bytes": 393,
+      "sha256": "a6c205e0c019500a4e1fb6bb6fe5913719ecf90e20631fbc240f8f768e68efe5",
+      "url": "https://huggingface.co/datasets/xlangai/osworld_v2_tasks/resolve/0a1aadad95aa79b00b3783e717d865089ab06e26/implementation_notes/task_098.md",
+      "git_oid": "5c8af6bd67562aeb3f51e0bd7f49f6a3d342683b",
+      "expected_lfs_sha256": null,
+      "release_sha256": null
+    },
+    {
+      "path": "implementation_notes/task_100.md",
+      "bytes": 475,
+      "sha256": "b5574340bf64b8a601b5ca776648021f0da9a76e4df34a6c3e7efea6f576f441",
+      "url": "https://huggingface.co/datasets/xlangai/osworld_v2_tasks/resolve/0a1aadad95aa79b00b3783e717d865089ab06e26/implementation_notes/task_100.md",
+      "git_oid": "dc31ca92946f3e07d423623bed05cd6d59036957",
+      "expected_lfs_sha256": null,
+      "release_sha256": null
+    },
+    {
+      "path": "implementation_notes/task_107.md",
+      "bytes": 703,
+      "sha256": "7cfa41b6fe0ef6f1b2de38d64fdf29be5b8a1fa10fd35240434f503afa629f64",
+      "url": "https://huggingface.co/datasets/xlangai/osworld_v2_tasks/resolve/0a1aadad95aa79b00b3783e717d865089ab06e26/implementation_notes/task_107.md",
+      "git_oid": "4567d9ac3e212348fa30b226c978ab8950c76590",
+      "expected_lfs_sha256": null,
+      "release_sha256": null
+    },
+    {
+      "path": "implementation_notes/task_108.md",
+      "bytes": 871,
+      "sha256": "b0bc457c38f6e412350523386bc8db7e1e7f0156c5d17036206d68821d4cc291",
+      "url": "https://huggingface.co/datasets/xlangai/osworld_v2_tasks/resolve/0a1aadad95aa79b00b3783e717d865089ab06e26/implementation_notes/task_108.md",
+      "git_oid": "61f58311408ca2ccc392daf0f884a52afe1b2928",
+      "expected_lfs_sha256": null,
+      "release_sha256": null
+    },
+    {
+      "path": "manifests/task_hashes.json",
+      "bytes": 14508,
+      "sha256": "42f8f6f8939b8712997d5891456a575f8a2a5f53465e9e3e6747af5d6efd0915",
+      "url": "https://huggingface.co/datasets/xlangai/osworld_v2_tasks/resolve/0a1aadad95aa79b00b3783e717d865089ab06e26/manifests/task_hashes.json",
+      "git_oid": "c0d4640d456b5bc4cda4c73d269419aed1ab8861",
+      "expected_lfs_sha256": null,
+      "release_sha256": null
+    },
+    {
+      "path": "task_001.py",
+      "bytes": 8611,
+      "sha256": "9f8731d02aacb37f6eed0e6e4c7738758c3d7c9fb1b1fa83a9ea08751af19839",
+      "url": "https://huggingface.co/datasets/xlangai/osworld_v2_tasks/resolve/0a1aadad95aa79b00b3783e717d865089ab06e26/task_001.py",
+      "git_oid": "47b34355aa2a349df2b0f1aa5fe779ef4c0088f2",
+      "expected_lfs_sha256": null,
+      "release_sha256": "9f8731d02aacb37f6eed0e6e4c7738758c3d7c9fb1b1fa83a9ea08751af19839"
+    },
+    {
+      "path": "task_002.py",
+      "bytes": 14884,
+      "sha256": "76bbc483cea501ac8d949c949ff50c5ac006c01268a4891b7850f8af6925e055",
+      "url": "https://huggingface.co/datasets/xlangai/osworld_v2_tasks/resolve/0a1aadad95aa79b00b3783e717d865089ab06e26/task_002.py",
+      "git_oid": "277cd397da0f5b56ee9518092f3dc426459cf02c",
+      "expected_lfs_sha256": null,
+      "release_sha256": "76bbc483cea501ac8d949c949ff50c5ac006c01268a4891b7850f8af6925e055"
+    },
+    {
+      "path": "task_003.py",
+      "bytes": 17117,
+      "sha256": "0936ff7694f6ede9e0f1d51e02b590e711ff744e006d16e1b8465467160ccf18",
+      "url": "https://huggingface.co/datasets/xlangai/osworld_v2_tasks/resolve/0a1aadad95aa79b00b3783e717d865089ab06e26/task_003.py",
+      "git_oid": "f572b9751ce297267fb341000d350fc03bf4ff69",
+      "expected_lfs_sha256": null,
+      "release_sha256": "0936ff7694f6ede9e0f1d51e02b590e711ff744e006d16e1b8465467160ccf18"
+    },
+    {
+      "path": "task_004.py",
+      "bytes": 19694,
+      "sha256": "530323288472d107f08d81d7542e8e3919be2ca2c0706f40fd8bc1832426986a",
+      "url": "https://huggingface.co/datasets/xlangai/osworld_v2_tasks/resolve/0a1aadad95aa79b00b3783e717d865089ab06e26/task_004.py",
+      "git_oid": "064f97049377cf17305c1b464eec89dc06cdb50e",
+      "expected_lfs_sha256": null,
+      "release_sha256": "530323288472d107f08d81d7542e8e3919be2ca2c0706f40fd8bc1832426986a"
+    },
+    {
+      "path": "task_005.py",
+      "bytes": 13711,
+      "sha256": "fbfd7539759b2fa83b5f4f581310339fab7fb2f618eb8e526a97cca1a6f60fed",
+      "url": "https://huggingface.co/datasets/xlangai/osworld_v2_tasks/resolve/0a1aadad95aa79b00b3783e717d865089ab06e26/task_005.py",
+      "git_oid": "b7525b55cc83cb2418ef560a9ba1545afa7a9a71",
+      "expected_lfs_sha256": null,
+      "release_sha256": "fbfd7539759b2fa83b5f4f581310339fab7fb2f618eb8e526a97cca1a6f60fed"
+    },
+    {
+      "path": "task_006.py",
+      "bytes": 3467,
+      "sha256": "07322e1eecc80eb304ba8b6704f8d60afe8631013037d290a4c566409856ede2",
+      "url": "https://huggingface.co/datasets/xlangai/osworld_v2_tasks/resolve/0a1aadad95aa79b00b3783e717d865089ab06e26/task_006.py",
+      "git_oid": "6518c4b95768a14c4e35765f43b07930043d0abf",
+      "expected_lfs_sha256": null,
+      "release_sha256": "07322e1eecc80eb304ba8b6704f8d60afe8631013037d290a4c566409856ede2"
+    },
+    {
+      "path": "task_007.py",
+      "bytes": 9551,
+      "sha256": "e78413d7ef466ae4581a213cca39ef24f1ff93ba6a90576984a9af23e75ddd0f",
+      "url": "https://huggingface.co/datasets/xlangai/osworld_v2_tasks/resolve/0a1aadad95aa79b00b3783e717d865089ab06e26/task_007.py",
+      "git_oid": "466a41fe89c9b13736edaae9091d58b406391ed4",
+      "expected_lfs_sha256": null,
+      "release_sha256": "e78413d7ef466ae4581a213cca39ef24f1ff93ba6a90576984a9af23e75ddd0f"
+    },
+    {
+      "path": "task_008.py",
+      "bytes": 27859,
+      "sha256": "d5c40cffac02bdc7534bc5bb5bc07a9a386cc3454e60ae6f3592a395148ec279",
+      "url": "https://huggingface.co/datasets/xlangai/osworld_v2_tasks/resolve/0a1aadad95aa79b00b3783e717d865089ab06e26/task_008.py",
+      "git_oid": "e36f83a608fc1048333c17ffafc96c66e8405061",
+      "expected_lfs_sha256": null,
+      "release_sha256": "d5c40cffac02bdc7534bc5bb5bc07a9a386cc3454e60ae6f3592a395148ec279"
+    },
+    {
+      "path": "task_009.py",
+      "bytes": 21775,
+      "sha256": "7e8de7c5f9f1d0f6749daaa6251ca81f5b5da018ac2c5537319c3068b1b0be66",
+      "url": "https://huggingface.co/datasets/xlangai/osworld_v2_tasks/resolve/0a1aadad95aa79b00b3783e717d865089ab06e26/task_009.py",
+      "git_oid": "44b440f2f17d66d064c1d97e586847a21f83b261",
+      "expected_lfs_sha256": null,
+      "release_sha256": "7e8de7c5f9f1d0f6749daaa6251ca81f5b5da018ac2c5537319c3068b1b0be66"
+    },
+    {
+      "path": "task_010.py",
+      "bytes": 9157,
+      "sha256": "ab779f636a802dfe245ad954699f65e2792dee300404a1d7c2a38fd27f443ff6",
+      "url": "https://huggingface.co/datasets/xlangai/osworld_v2_tasks/resolve/0a1aadad95aa79b00b3783e717d865089ab06e26/task_010.py",
+      "git_oid": "56d17f5eff2002d16766ae8671b508c5381c1b5b",
+      "expected_lfs_sha256": null,
+      "release_sha256": "ab779f636a802dfe245ad954699f65e2792dee300404a1d7c2a38fd27f443ff6"
+    },
+    {
+      "path": "task_011.py",
+      "bytes": 20385,
+      "sha256": "d7874877ed80684cfa67d7a5e28e4543888739cee9ffecebd0768ada1a2c1b98",
+      "url": "https://huggingface.co/datasets/xlangai/osworld_v2_tasks/resolve/0a1aadad95aa79b00b3783e717d865089ab06e26/task_011.py",
+      "git_oid": "a463a201d1aa9540dfef238d20227d3e7f498b77",
+      "expected_lfs_sha256": null,
+      "release_sha256": "d7874877ed80684cfa67d7a5e28e4543888739cee9ffecebd0768ada1a2c1b98"
+    },
+    {
+      "path": "task_012.py",
+      "bytes": 7823,
+      "sha256": "82177297910f72b39830829883f880ee8f81ab244ff3baf8f213501cba45e217",
+      "url": "https://huggingface.co/datasets/xlangai/osworld_v2_tasks/resolve/0a1aadad95aa79b00b3783e717d865089ab06e26/task_012.py",
+      "git_oid": "3c8a1d26214c537a2b5a9e851afaa8915a65e975",
+      "expected_lfs_sha256": null,
+      "release_sha256": "82177297910f72b39830829883f880ee8f81ab244ff3baf8f213501cba45e217"
+    },
+    {
+      "path": "task_013.py",
+      "bytes": 6937,
+      "sha256": "75ea95a35b3cba2e98ad1e95dbaf883bcb1408f09201927a376804a62a94a1d6",
+      "url": "https://huggingface.co/datasets/xlangai/osworld_v2_tasks/resolve/0a1aadad95aa79b00b3783e717d865089ab06e26/task_013.py",
+      "git_oid": "1cf84617c03a46c73180b59086963ca520fe2620",
+      "expected_lfs_sha256": null,
+      "release_sha256": "75ea95a35b3cba2e98ad1e95dbaf883bcb1408f09201927a376804a62a94a1d6"
+    },
+    {
+      "path": "task_014.py",
+      "bytes": 10541,
+      "sha256": "73084d48899dbbb388d8747369ca0c3bd5fc338528cdff3045153a5f6698c4ff",
+      "url": "https://huggingface.co/datasets/xlangai/osworld_v2_tasks/resolve/0a1aadad95aa79b00b3783e717d865089ab06e26/task_014.py",
+      "git_oid": "23d70ccc38e1558b2a3c3aaa7cfd43fad279f4e5",
+      "expected_lfs_sha256": null,
+      "release_sha256": "73084d48899dbbb388d8747369ca0c3bd5fc338528cdff3045153a5f6698c4ff"
+    },
+    {
+      "path": "task_015.py",
+      "bytes": 9271,
+      "sha256": "a087369cc4ca4d4ea343afbc1a0e2aeea0f6fc47e3cf135051cf39f730bd7a84",
+      "url": "https://huggingface.co/datasets/xlangai/osworld_v2_tasks/resolve/0a1aadad95aa79b00b3783e717d865089ab06e26/task_015.py",
+      "git_oid": "ee197b07e400df20ff7174a5d796bf95022f0522",
+      "expected_lfs_sha256": null,
+      "release_sha256": "a087369cc4ca4d4ea343afbc1a0e2aeea0f6fc47e3cf135051cf39f730bd7a84"
+    },
+    {
+      "path": "task_016.py",
+      "bytes": 28445,
+      "sha256": "b5d4e3586bde64417d321316d3c47de42718ecf93a86787c3ed1ab06d16d37b3",
+      "url": "https://huggingface.co/datasets/xlangai/osworld_v2_tasks/resolve/0a1aadad95aa79b00b3783e717d865089ab06e26/task_016.py",
+      "git_oid": "1491a29a69d0492cf02b70ed4802b7b8e0d90952",
+      "expected_lfs_sha256": null,
+      "release_sha256": "b5d4e3586bde64417d321316d3c47de42718ecf93a86787c3ed1ab06d16d37b3"
+    },
+    {
+      "path": "task_017.py",
+      "bytes": 4776,
+      "sha256": "40108d7ec4ee19fea0c34a90fd635509284cf63bedc63ec20429a0edf85664ca",
+      "url": "https://huggingface.co/datasets/xlangai/osworld_v2_tasks/resolve/0a1aadad95aa79b00b3783e717d865089ab06e26/task_017.py",
+      "git_oid": "a648fa66f6e2fb7c9221093d5320e1cbe047edd3",
+      "expected_lfs_sha256": null,
+      "release_sha256": "40108d7ec4ee19fea0c34a90fd635509284cf63bedc63ec20429a0edf85664ca"
+    },
+    {
+      "path": "task_018.py",
+      "bytes": 9593,
+      "sha256": "85379daa0595831de97bc7e633276e7ecc57625f325784a7fd2b82b07e130a1a",
+      "url": "https://huggingface.co/datasets/xlangai/osworld_v2_tasks/resolve/0a1aadad95aa79b00b3783e717d865089ab06e26/task_018.py",
+      "git_oid": "825fd27c5892d87da486fda1914b128d0db6e1e0",
+      "expected_lfs_sha256": null,
+      "release_sha256": "85379daa0595831de97bc7e633276e7ecc57625f325784a7fd2b82b07e130a1a"
+    },
+    {
+      "path": "task_019.py",
+      "bytes": 31161,
+      "sha256": "c838a3ba1924e6b6b6ab96005e205f6f9374d3867aa9b1ab1e963b5d7ecffe50",
+      "url": "https://huggingface.co/datasets/xlangai/osworld_v2_tasks/resolve/0a1aadad95aa79b00b3783e717d865089ab06e26/task_019.py",
+      "git_oid": "cd10d54da4b3e6f1a231dfd65cf2eb7f463aed4a",
+      "expected_lfs_sha256": null,
+      "release_sha256": "c838a3ba1924e6b6b6ab96005e205f6f9374d3867aa9b1ab1e963b5d7ecffe50"
+    },
+    {
+      "path": "task_020.py",
+      "bytes": 5318,
+      "sha256": "e1618763140179f524feede02e70a19a18aee2c7f9082f810fcbb40859fc46e3",
+      "url": "https://huggingface.co/datasets/xlangai/osworld_v2_tasks/resolve/0a1aadad95aa79b00b3783e717d865089ab06e26/task_020.py",
+      "git_oid": "5a09ade73b8306b4c72a69dc877b8d5e3f9b4408",
+      "expected_lfs_sha256": null,
+      "release_sha256": "e1618763140179f524feede02e70a19a18aee2c7f9082f810fcbb40859fc46e3"
+    },
+    {
+      "path": "task_021.py",
+      "bytes": 11397,
+      "sha256": "365dc762fdc605eb575d923c34e3d1ee14784e986d0f46084f20ac7e8b4adb4f",
+      "url": "https://huggingface.co/datasets/xlangai/osworld_v2_tasks/resolve/0a1aadad95aa79b00b3783e717d865089ab06e26/task_021.py",
+      "git_oid": "a93148785842bc92062fc5a29aa1874643b0f44a",
+      "expected_lfs_sha256": null,
+      "release_sha256": "365dc762fdc605eb575d923c34e3d1ee14784e986d0f46084f20ac7e8b4adb4f"
+    },
+    {
+      "path": "task_022.py",
+      "bytes": 36523,
+      "sha256": "4ee7db1c15776f64e5cf520f89d5a4d15e64c0a236ec4e9b80f4c85ed3fac4b2",
+      "url": "https://huggingface.co/datasets/xlangai/osworld_v2_tasks/resolve/0a1aadad95aa79b00b3783e717d865089ab06e26/task_022.py",
+      "git_oid": "caa2816b6cbf369a38a37369e3f01285206742ea",
+      "expected_lfs_sha256": null,
+      "release_sha256": "4ee7db1c15776f64e5cf520f89d5a4d15e64c0a236ec4e9b80f4c85ed3fac4b2"
+    },
+    {
+      "path": "task_023.py",
+      "bytes": 6044,
+      "sha256": "3842fa9a799170a0b89e8e172c65404641d2e7664294945dd57268aaaf5816b9",
+      "url": "https://huggingface.co/datasets/xlangai/osworld_v2_tasks/resolve/0a1aadad95aa79b00b3783e717d865089ab06e26/task_023.py",
+      "git_oid": "b156b0ecc739dc798379c30debb8e13c6b51fe21",
+      "expected_lfs_sha256": null,
+      "release_sha256": "3842fa9a799170a0b89e8e172c65404641d2e7664294945dd57268aaaf5816b9"
+    },
+    {
+      "path": "task_024.py",
+      "bytes": 33915,
+      "sha256": "cad7e9543e057790eeb34d744058b3249a0505ab810606a9de269e338f3bca6d",
+      "url": "https://huggingface.co/datasets/xlangai/osworld_v2_tasks/resolve/0a1aadad95aa79b00b3783e717d865089ab06e26/task_024.py",
+      "git_oid": "505d5166e249e79a322177f1e6088a690323f3f4",
+      "expected_lfs_sha256": null,
+      "release_sha256": "cad7e9543e057790eeb34d744058b3249a0505ab810606a9de269e338f3bca6d"
+    },
+    {
+      "path": "task_025.py",
+      "bytes": 39447,
+      "sha256": "57b62cfb8e574a946e50e73530297a07ccde9e4a3233d8cc2a90785fb420fe32",
+      "url": "https://huggingface.co/datasets/xlangai/osworld_v2_tasks/resolve/0a1aadad95aa79b00b3783e717d865089ab06e26/task_025.py",
+      "git_oid": "813a14d6f75e72404a34b6ec17b6e900281c70c8",
+      "expected_lfs_sha256": null,
+      "release_sha256": "57b62cfb8e574a946e50e73530297a07ccde9e4a3233d8cc2a90785fb420fe32"
+    },
+    {
+      "path": "task_026.py",
+      "bytes": 17194,
+      "sha256": "19c8058687edf982df5e44b7d54d6de3dd8e2df4ea08716f7f1c3fafa283ae7e",
+      "url": "https://huggingface.co/datasets/xlangai/osworld_v2_tasks/resolve/0a1aadad95aa79b00b3783e717d865089ab06e26/task_026.py",
+      "git_oid": "a5797cd3f6caa08168acb6883e7ffc0b6a0e8b88",
+      "expected_lfs_sha256": null,
+      "release_sha256": "19c8058687edf982df5e44b7d54d6de3dd8e2df4ea08716f7f1c3fafa283ae7e"
+    },
+    {
+      "path": "task_027.py",
+      "bytes": 5769,
+      "sha256": "ee7316b313ebf8215082f5ae44242e46491eef6b610e71e68393ca94c41cc650",
+      "url": "https://huggingface.co/datasets/xlangai/osworld_v2_tasks/resolve/0a1aadad95aa79b00b3783e717d865089ab06e26/task_027.py",
+      "git_oid": "0b4bc42a4d0f0242dbd3a8a743e3157d6ec61f08",
+      "expected_lfs_sha256": null,
+      "release_sha256": "ee7316b313ebf8215082f5ae44242e46491eef6b610e71e68393ca94c41cc650"
+    },
+    {
+      "path": "task_028.py",
+      "bytes": 9063,
+      "sha256": "b1deacc7a2855cf73ed56cfc67b081aa821e5efaa98e24447762a7d0986354ca",
+      "url": "https://huggingface.co/datasets/xlangai/osworld_v2_tasks/resolve/0a1aadad95aa79b00b3783e717d865089ab06e26/task_028.py",
+      "git_oid": "474ff18cd11b0e834c84a79fabf3aab649ac5ce9",
+      "expected_lfs_sha256": null,
+      "release_sha256": "b1deacc7a2855cf73ed56cfc67b081aa821e5efaa98e24447762a7d0986354ca"
+    },
+    {
+      "path": "task_029.py",
+      "bytes": 5683,
+      "sha256": "70047c4722d56c1400ffdd633d5e68e5c0722c579fa0f991b660f5aa95e02566",
+      "url": "https://huggingface.co/datasets/xlangai/osworld_v2_tasks/resolve/0a1aadad95aa79b00b3783e717d865089ab06e26/task_029.py",
+      "git_oid": "36053b674a21e83895801cd692d1ee25dfb0e739",
+      "expected_lfs_sha256": null,
+      "release_sha256": "70047c4722d56c1400ffdd633d5e68e5c0722c579fa0f991b660f5aa95e02566"
+    },
+    {
+      "path": "task_030.py",
+      "bytes": 14187,
+      "sha256": "9124ebaf8e6d2b082281ae0390690909616900c6137c9f70a10a6bd9299f5243",
+      "url": "https://huggingface.co/datasets/xlangai/osworld_v2_tasks/resolve/0a1aadad95aa79b00b3783e717d865089ab06e26/task_030.py",
+      "git_oid": "debf4972f2d070103abe9cba6bad19f0b4678f81",
+      "expected_lfs_sha256": null,
+      "release_sha256": "9124ebaf8e6d2b082281ae0390690909616900c6137c9f70a10a6bd9299f5243"
+    },
+    {
+      "path": "task_031.py",
+      "bytes": 6438,
+      "sha256": "883db214a66bcf00016e3c25a1111c626afc4aca8586868c45faa392164b0ce1",
+      "url": "https://huggingface.co/datasets/xlangai/osworld_v2_tasks/resolve/0a1aadad95aa79b00b3783e717d865089ab06e26/task_031.py",
+      "git_oid": "c96380b2b9bc7c1e0bb191f744d627c807b1808a",
+      "expected_lfs_sha256": null,
+      "release_sha256": "883db214a66bcf00016e3c25a1111c626afc4aca8586868c45faa392164b0ce1"
+    },
+    {
+      "path": "task_032.py",
+      "bytes": 10423,
+      "sha256": "c100eb8d6d1707324cd02bbbecce25bcaf38312a664552419fea9ee96d8a3801",
+      "url": "https://huggingface.co/datasets/xlangai/osworld_v2_tasks/resolve/0a1aadad95aa79b00b3783e717d865089ab06e26/task_032.py",
+      "git_oid": "8a25500507576b5582eb9c39a474eb4fb5ae7eee",
+      "expected_lfs_sha256": null,
+      "release_sha256": "c100eb8d6d1707324cd02bbbecce25bcaf38312a664552419fea9ee96d8a3801"
+    },
+    {
+      "path": "task_033.py",
+      "bytes": 5569,
+      "sha256": "f8fb8f45cfc4de5e88160e85df1115cf04c5ca16c73eec900070f876fdea84c6",
+      "url": "https://huggingface.co/datasets/xlangai/osworld_v2_tasks/resolve/0a1aadad95aa79b00b3783e717d865089ab06e26/task_033.py",
+      "git_oid": "fa06bee9c3c8cd03426ae1307cb5d5995de44924",
+      "expected_lfs_sha256": null,
+      "release_sha256": "f8fb8f45cfc4de5e88160e85df1115cf04c5ca16c73eec900070f876fdea84c6"
+    },
+    {
+      "path": "task_034.py",
+      "bytes": 17034,
+      "sha256": "b7f178ecfcea978dc43ba0d8445d28ddff76727f41dae8c2f6136f8e60d587b4",
+      "url": "https://huggingface.co/datasets/xlangai/osworld_v2_tasks/resolve/0a1aadad95aa79b00b3783e717d865089ab06e26/task_034.py",
+      "git_oid": "84a723a00f45e5ec32e03052ad650076ae2a5cba",
+      "expected_lfs_sha256": null,
+      "release_sha256": "b7f178ecfcea978dc43ba0d8445d28ddff76727f41dae8c2f6136f8e60d587b4"
+    },
+    {
+      "path": "task_035.py",
+      "bytes": 17033,
+      "sha256": "fb5b5bf8b5185dad824bb5da4072b877c79ba41b1ac9554d4d9bf12880f47085",
+      "url": "https://huggingface.co/datasets/xlangai/osworld_v2_tasks/resolve/0a1aadad95aa79b00b3783e717d865089ab06e26/task_035.py",
+      "git_oid": "500063220dd7536c3ddd06816d692d311b94ef43",
+      "expected_lfs_sha256": null,
+      "release_sha256": "fb5b5bf8b5185dad824bb5da4072b877c79ba41b1ac9554d4d9bf12880f47085"
+    },
+    {
+      "path": "task_036.py",
+      "bytes": 46729,
+      "sha256": "ecb215d630458f45dcaecda637c00d50558f29776d1b9338c6497a16c29f8d49",
+      "url": "https://huggingface.co/datasets/xlangai/osworld_v2_tasks/resolve/0a1aadad95aa79b00b3783e717d865089ab06e26/task_036.py",
+      "git_oid": "6deeaf35b3ba1047336f80dd0c40fb5ec109bffc",
+      "expected_lfs_sha256": null,
+      "release_sha256": "ecb215d630458f45dcaecda637c00d50558f29776d1b9338c6497a16c29f8d49"
+    },
+    {
+      "path": "task_037.py",
+      "bytes": 25925,
+      "sha256": "63c6f72fac97de3e4bb7a940b9497d299bcb9d5a7c7b417dccb966667bdc7822",
+      "url": "https://huggingface.co/datasets/xlangai/osworld_v2_tasks/resolve/0a1aadad95aa79b00b3783e717d865089ab06e26/task_037.py",
+      "git_oid": "cb80f1017480958bfe9634834511c95042a7a928",
+      "expected_lfs_sha256": null,
+      "release_sha256": "63c6f72fac97de3e4bb7a940b9497d299bcb9d5a7c7b417dccb966667bdc7822"
+    },
+    {
+      "path": "task_038.py",
+      "bytes": 24716,
+      "sha256": "13f9dfcd20575f8fb4ef72157fd0e06bd21e98bf28c69140c98f6460ec418dca",
+      "url": "https://huggingface.co/datasets/xlangai/osworld_v2_tasks/resolve/0a1aadad95aa79b00b3783e717d865089ab06e26/task_038.py",
+      "git_oid": "60a60f7a085da3c48a16ee7eae82ce09e3e2b955",
+      "expected_lfs_sha256": null,
+      "release_sha256": "13f9dfcd20575f8fb4ef72157fd0e06bd21e98bf28c69140c98f6460ec418dca"
+    },
+    {
+      "path": "task_039.py",
+      "bytes": 68226,
+      "sha256": "6b254c68cb169fb3744a17c412492e5dcc0c6a5aaa92cc623af5bf2306ef45bc",
+      "url": "https://huggingface.co/datasets/xlangai/osworld_v2_tasks/resolve/0a1aadad95aa79b00b3783e717d865089ab06e26/task_039.py",
+      "git_oid": "865ebdf9899953a0f2ef1e8842169d15350037cf",
+      "expected_lfs_sha256": null,
+      "release_sha256": "6b254c68cb169fb3744a17c412492e5dcc0c6a5aaa92cc623af5bf2306ef45bc"
+    },
+    {
+      "path": "task_040.py",
+      "bytes": 44823,
+      "sha256": "4546776eb8c8150369e1c85b630eb7c7341cdb7544098039b4c3bf30c562c344",
+      "url": "https://huggingface.co/datasets/xlangai/osworld_v2_tasks/resolve/0a1aadad95aa79b00b3783e717d865089ab06e26/task_040.py",
+      "git_oid": "038df9db79124b2742da9b76e6f1496a1d2120b5",
+      "expected_lfs_sha256": null,
+      "release_sha256": "4546776eb8c8150369e1c85b630eb7c7341cdb7544098039b4c3bf30c562c344"
+    },
+    {
+      "path": "task_041.py",
+      "bytes": 29419,
+      "sha256": "0f3aca3e4a722cb4aa1f87bc345d896a80b5f2538e06cc44956e1f1f7cbc5c85",
+      "url": "https://huggingface.co/datasets/xlangai/osworld_v2_tasks/resolve/0a1aadad95aa79b00b3783e717d865089ab06e26/task_041.py",
+      "git_oid": "ace633c00741f0ae2b42ea96e0a3a30bc052eeb9",
+      "expected_lfs_sha256": null,
+      "release_sha256": "0f3aca3e4a722cb4aa1f87bc345d896a80b5f2538e06cc44956e1f1f7cbc5c85"
+    },
+    {
+      "path": "task_042.py",
+      "bytes": 29995,
+      "sha256": "f7e2f1cc9b8c63f7fec19b2895416979ed9f9c29794414b5d3f7e0a841cbb6de",
+      "url": "https://huggingface.co/datasets/xlangai/osworld_v2_tasks/resolve/0a1aadad95aa79b00b3783e717d865089ab06e26/task_042.py",
+      "git_oid": "51ad3553d29867303e1ecab8229f03c6333681a8",
+      "expected_lfs_sha256": null,
+      "release_sha256": "f7e2f1cc9b8c63f7fec19b2895416979ed9f9c29794414b5d3f7e0a841cbb6de"
+    },
+    {
+      "path": "task_043.py",
+      "bytes": 28570,
+      "sha256": "e2e5a4a3fec7477a93b3f1af6306d16689ba202cae29ab2393196f05d6a20bd7",
+      "url": "https://huggingface.co/datasets/xlangai/osworld_v2_tasks/resolve/0a1aadad95aa79b00b3783e717d865089ab06e26/task_043.py",
+      "git_oid": "06b2657716b92091668aed96d8bb3794d1c20076",
+      "expected_lfs_sha256": null,
+      "release_sha256": "e2e5a4a3fec7477a93b3f1af6306d16689ba202cae29ab2393196f05d6a20bd7"
+    },
+    {
+      "path": "task_044.py",
+      "bytes": 8007,
+      "sha256": "3ff702eb197aff0e4987537c7a98c40f50100f8c416371c9f0d424c6a3a860ad",
+      "url": "https://huggingface.co/datasets/xlangai/osworld_v2_tasks/resolve/0a1aadad95aa79b00b3783e717d865089ab06e26/task_044.py",
+      "git_oid": "2bb1b100265917c0a5e7f9e60ec1e64e431539ef",
+      "expected_lfs_sha256": null,
+      "release_sha256": "3ff702eb197aff0e4987537c7a98c40f50100f8c416371c9f0d424c6a3a860ad"
+    },
+    {
+      "path": "task_045.py",
+      "bytes": 20002,
+      "sha256": "ad35611a00b9c2ef518e1848c6f10fbd9f5b68a2014b33d9d1f9842adf9389a1",
+      "url": "https://huggingface.co/datasets/xlangai/osworld_v2_tasks/resolve/0a1aadad95aa79b00b3783e717d865089ab06e26/task_045.py",
+      "git_oid": "52e01a73cc74a587e71da22f9612521b4f018df8",
+      "expected_lfs_sha256": null,
+      "release_sha256": "ad35611a00b9c2ef518e1848c6f10fbd9f5b68a2014b33d9d1f9842adf9389a1"
+    },
+    {
+      "path": "task_046.py",
+      "bytes": 23214,
+      "sha256": "ffbdc073fa003069882add775ba06d35feef25ec85a2b8f72f51b00083041ac6",
+      "url": "https://huggingface.co/datasets/xlangai/osworld_v2_tasks/resolve/0a1aadad95aa79b00b3783e717d865089ab06e26/task_046.py",
+      "git_oid": "8df4acdf49087280f48b130918e2f9939114c114",
+      "expected_lfs_sha256": null,
+      "release_sha256": "ffbdc073fa003069882add775ba06d35feef25ec85a2b8f72f51b00083041ac6"
+    },
+    {
+      "path": "task_047.py",
+      "bytes": 6285,
+      "sha256": "1ee8fc87bc1cc9e9cbe9bafec0297c4d17cb1510d37005d2412ee36ca5e5d9a7",
+      "url": "https://huggingface.co/datasets/xlangai/osworld_v2_tasks/resolve/0a1aadad95aa79b00b3783e717d865089ab06e26/task_047.py",
+      "git_oid": "fb7a95324d538e9473a6ffa719b8c06cb88ca0b5",
+      "expected_lfs_sha256": null,
+      "release_sha256": "1ee8fc87bc1cc9e9cbe9bafec0297c4d17cb1510d37005d2412ee36ca5e5d9a7"
+    },
+    {
+      "path": "task_048.py",
+      "bytes": 50028,
+      "sha256": "7937f0626f40524cfb84ad9e19c6fcdbff75560edd6d23974be9bae5503a2f44",
+      "url": "https://huggingface.co/datasets/xlangai/osworld_v2_tasks/resolve/0a1aadad95aa79b00b3783e717d865089ab06e26/task_048.py",
+      "git_oid": "a2891630a052fa4c77c67c7cf548924d5b467883",
+      "expected_lfs_sha256": null,
+      "release_sha256": "7937f0626f40524cfb84ad9e19c6fcdbff75560edd6d23974be9bae5503a2f44"
+    },
+    {
+      "path": "task_049.py",
+      "bytes": 43754,
+      "sha256": "15b0af3e4394bf2179923ee86e4603ca8bf7696c0a3a71b215d9b22f1ebfb1cf",
+      "url": "https://huggingface.co/datasets/xlangai/osworld_v2_tasks/resolve/0a1aadad95aa79b00b3783e717d865089ab06e26/task_049.py",
+      "git_oid": "e0eabc3409119c44ff2940cbf356d6a410dcc680",
+      "expected_lfs_sha256": null,
+      "release_sha256": "15b0af3e4394bf2179923ee86e4603ca8bf7696c0a3a71b215d9b22f1ebfb1cf"
+    },
+    {
+      "path": "task_050.py",
+      "bytes": 53139,
+      "sha256": "f0256f6eefc47edc849b16c869125d281857e93a9161176ca3b501d4abb4fcbb",
+      "url": "https://huggingface.co/datasets/xlangai/osworld_v2_tasks/resolve/0a1aadad95aa79b00b3783e717d865089ab06e26/task_050.py",
+      "git_oid": "41f888601d823cf40ec21f84cc7412975c5ce525",
+      "expected_lfs_sha256": null,
+      "release_sha256": "f0256f6eefc47edc849b16c869125d281857e93a9161176ca3b501d4abb4fcbb"
+    },
+    {
+      "path": "task_051.py",
+      "bytes": 36325,
+      "sha256": "f4f74166a854ebf730e4a9f9124e641b3689a091b5ffc76966f801c5a8de61c5",
+      "url": "https://huggingface.co/datasets/xlangai/osworld_v2_tasks/resolve/0a1aadad95aa79b00b3783e717d865089ab06e26/task_051.py",
+      "git_oid": "e91f4a72be1da326cd415734a168f443d7fde79f",
+      "expected_lfs_sha256": null,
+      "release_sha256": "f4f74166a854ebf730e4a9f9124e641b3689a091b5ffc76966f801c5a8de61c5"
+    },
+    {
+      "path": "task_052.py",
+      "bytes": 3314,
+      "sha256": "88c139f58cbfa48c0d0a927e6e4f6c2cf474b97183fa38934e23bd3de8e0dda4",
+      "url": "https://huggingface.co/datasets/xlangai/osworld_v2_tasks/resolve/0a1aadad95aa79b00b3783e717d865089ab06e26/task_052.py",
+      "git_oid": "346a8036c1fef37c88be01880b19c7eca23e496e",
+      "expected_lfs_sha256": null,
+      "release_sha256": "88c139f58cbfa48c0d0a927e6e4f6c2cf474b97183fa38934e23bd3de8e0dda4"
+    },
+    {
+      "path": "task_053.py",
+      "bytes": 12585,
+      "sha256": "fae1b2dd895ddc16e5414e0481d531f9327e3d24106a698358dc0702968b9155",
+      "url": "https://huggingface.co/datasets/xlangai/osworld_v2_tasks/resolve/0a1aadad95aa79b00b3783e717d865089ab06e26/task_053.py",
+      "git_oid": "5ee186582528a3b741c7acfe7b0d7b2aebd672a0",
+      "expected_lfs_sha256": null,
+      "release_sha256": "fae1b2dd895ddc16e5414e0481d531f9327e3d24106a698358dc0702968b9155"
+    },
+    {
+      "path": "task_054.py",
+      "bytes": 18216,
+      "sha256": "ea6b636edb09b7ffd49b0c8b98d255bbd770e60cdb645eeb1627afde71ac7a56",
+      "url": "https://huggingface.co/datasets/xlangai/osworld_v2_tasks/resolve/0a1aadad95aa79b00b3783e717d865089ab06e26/task_054.py",
+      "git_oid": "0d7377ac6928aa09fd6802b34a58224cca1833bf",
+      "expected_lfs_sha256": null,
+      "release_sha256": "ea6b636edb09b7ffd49b0c8b98d255bbd770e60cdb645eeb1627afde71ac7a56"
+    },
+    {
+      "path": "task_055.py",
+      "bytes": 79051,
+      "sha256": "3f36be90da8b4f60125dc8c015fe0bf41c8227c9a6770f534a41eaff51408d94",
+      "url": "https://huggingface.co/datasets/xlangai/osworld_v2_tasks/resolve/0a1aadad95aa79b00b3783e717d865089ab06e26/task_055.py",
+      "git_oid": "5eac60e6b58ea52ddadf18b59a7c40f084318988",
+      "expected_lfs_sha256": null,
+      "release_sha256": "3f36be90da8b4f60125dc8c015fe0bf41c8227c9a6770f534a41eaff51408d94"
+    },
+    {
+      "path": "task_056.py",
+      "bytes": 43763,
+      "sha256": "639ec9dffb7b61ea6cf237feaf3e9a198fd95bdabbdfda79d3d20480a1e90bb6",
+      "url": "https://huggingface.co/datasets/xlangai/osworld_v2_tasks/resolve/0a1aadad95aa79b00b3783e717d865089ab06e26/task_056.py",
+      "git_oid": "f7c421be474cfc69c68947222d887c1434320926",
+      "expected_lfs_sha256": null,
+      "release_sha256": "639ec9dffb7b61ea6cf237feaf3e9a198fd95bdabbdfda79d3d20480a1e90bb6"
+    },
+    {
+      "path": "task_057.py",
+      "bytes": 56838,
+      "sha256": "76180f04847f3f9a1cea024dcff9c36fa2443bbbf7de96a6807f6d4b2b592b14",
+      "url": "https://huggingface.co/datasets/xlangai/osworld_v2_tasks/resolve/0a1aadad95aa79b00b3783e717d865089ab06e26/task_057.py",
+      "git_oid": "c00e30c756786ede623a66030f8e6846878092d0",
+      "expected_lfs_sha256": null,
+      "release_sha256": "76180f04847f3f9a1cea024dcff9c36fa2443bbbf7de96a6807f6d4b2b592b14"
+    },
+    {
+      "path": "task_058.py",
+      "bytes": 39739,
+      "sha256": "2bde2583474b6f03c88c4cc72e911b8d3959eed15fc5954e1089039c5cec4605",
+      "url": "https://huggingface.co/datasets/xlangai/osworld_v2_tasks/resolve/0a1aadad95aa79b00b3783e717d865089ab06e26/task_058.py",
+      "git_oid": "b2f59054b0930b582f1e9eb8967fc5e438d8f41c",
+      "expected_lfs_sha256": null,
+      "release_sha256": "2bde2583474b6f03c88c4cc72e911b8d3959eed15fc5954e1089039c5cec4605"
+    },
+    {
+      "path": "task_059.py",
+      "bytes": 33206,
+      "sha256": "209ae975acc044c654df3000d190222c1e5cae43195f1b17308d051d0aa6059d",
+      "url": "https://huggingface.co/datasets/xlangai/osworld_v2_tasks/resolve/0a1aadad95aa79b00b3783e717d865089ab06e26/task_059.py",
+      "git_oid": "2208650049f6d6e99461b6b521325509fc7de2e4",
+      "expected_lfs_sha256": null,
+      "release_sha256": "209ae975acc044c654df3000d190222c1e5cae43195f1b17308d051d0aa6059d"
+    },
+    {
+      "path": "task_060.py",
+      "bytes": 32461,
+      "sha256": "cf907d4f77efb2e37408f8b593281e07ced6eccd1a70576a09aaa4874b866f6d",
+      "url": "https://huggingface.co/datasets/xlangai/osworld_v2_tasks/resolve/0a1aadad95aa79b00b3783e717d865089ab06e26/task_060.py",
+      "git_oid": "8b0f7bd8d51942166b85d924d86d163d410edc69",
+      "expected_lfs_sha256": null,
+      "release_sha256": "cf907d4f77efb2e37408f8b593281e07ced6eccd1a70576a09aaa4874b866f6d"
+    },
+    {
+      "path": "task_061.py",
+      "bytes": 11438,
+      "sha256": "cb25da0250c4b2e29488032e4e9da6bee89ef8af3a4e06ddceea3b411b2425c1",
+      "url": "https://huggingface.co/datasets/xlangai/osworld_v2_tasks/resolve/0a1aadad95aa79b00b3783e717d865089ab06e26/task_061.py",
+      "git_oid": "bea828dbfc7eb8a4bd44763d9f5f6f3aedfc2f6c",
+      "expected_lfs_sha256": null,
+      "release_sha256": "cb25da0250c4b2e29488032e4e9da6bee89ef8af3a4e06ddceea3b411b2425c1"
+    },
+    {
+      "path": "task_062.py",
+      "bytes": 15518,
+      "sha256": "625db0a9b563e4302472e6c32da0041a401ef1be5ad77cce8dc7a5c681176afa",
+      "url": "https://huggingface.co/datasets/xlangai/osworld_v2_tasks/resolve/0a1aadad95aa79b00b3783e717d865089ab06e26/task_062.py",
+      "git_oid": "b2d5c0485221dadcdcb774ab2c8d33b5f4ada460",
+      "expected_lfs_sha256": null,
+      "release_sha256": "625db0a9b563e4302472e6c32da0041a401ef1be5ad77cce8dc7a5c681176afa"
+    },
+    {
+      "path": "task_063.py",
+      "bytes": 83810,
+      "sha256": "4601973152f60f92adad357c58492d125c5d84e3093a3d7e7f3addeadd21a601",
+      "url": "https://huggingface.co/datasets/xlangai/osworld_v2_tasks/resolve/0a1aadad95aa79b00b3783e717d865089ab06e26/task_063.py",
+      "git_oid": "849722fc6c340632699f307219f5bb514c6fbe31",
+      "expected_lfs_sha256": null,
+      "release_sha256": "4601973152f60f92adad357c58492d125c5d84e3093a3d7e7f3addeadd21a601"
+    },
+    {
+      "path": "task_064.py",
+      "bytes": 13208,
+      "sha256": "dd7fd9efcedaa2037cc6fde55719f4e54ba7d77a08022300a99013693061bb06",
+      "url": "https://huggingface.co/datasets/xlangai/osworld_v2_tasks/resolve/0a1aadad95aa79b00b3783e717d865089ab06e26/task_064.py",
+      "git_oid": "b53c89a6930be910314f56888de386c75d70a947",
+      "expected_lfs_sha256": null,
+      "release_sha256": "dd7fd9efcedaa2037cc6fde55719f4e54ba7d77a08022300a99013693061bb06"
+    },
+    {
+      "path": "task_065.py",
+      "bytes": 17186,
+      "sha256": "26be0a775ccc8e253f9dbee11bd09baefaab941015b7823c56cfce7d8f20c139",
+      "url": "https://huggingface.co/datasets/xlangai/osworld_v2_tasks/resolve/0a1aadad95aa79b00b3783e717d865089ab06e26/task_065.py",
+      "git_oid": "a0b5fddee62e7a145af8287c854c10677ef6b323",
+      "expected_lfs_sha256": null,
+      "release_sha256": "26be0a775ccc8e253f9dbee11bd09baefaab941015b7823c56cfce7d8f20c139"
+    },
+    {
+      "path": "task_066.py",
+      "bytes": 31774,
+      "sha256": "706cb26fe54968d7c3b9093634fc0d147f52190de40ca8bf0781172e36a090b3",
+      "url": "https://huggingface.co/datasets/xlangai/osworld_v2_tasks/resolve/0a1aadad95aa79b00b3783e717d865089ab06e26/task_066.py",
+      "git_oid": "f2f4466b05e212d091e78fa646d45423d4821608",
+      "expected_lfs_sha256": null,
+      "release_sha256": "706cb26fe54968d7c3b9093634fc0d147f52190de40ca8bf0781172e36a090b3"
+    },
+    {
+      "path": "task_067.py",
+      "bytes": 11645,
+      "sha256": "35eb0384e24bbaf734eae05f28657420302ec5d5524b1e9fe662ecbe24859443",
+      "url": "https://huggingface.co/datasets/xlangai/osworld_v2_tasks/resolve/0a1aadad95aa79b00b3783e717d865089ab06e26/task_067.py",
+      "git_oid": "a46662c8b2ac7e9d31430cc23c872a31bb18ba90",
+      "expected_lfs_sha256": null,
+      "release_sha256": "35eb0384e24bbaf734eae05f28657420302ec5d5524b1e9fe662ecbe24859443"
+    },
+    {
+      "path": "task_068.py",
+      "bytes": 10476,
+      "sha256": "acd712ea2090c320e6c79a3fe99e00f2d6f85b1a5a57e05f8f98be0f8a4962aa",
+      "url": "https://huggingface.co/datasets/xlangai/osworld_v2_tasks/resolve/0a1aadad95aa79b00b3783e717d865089ab06e26/task_068.py",
+      "git_oid": "ccfd57fab53564888eeb4902474af7130e776634",
+      "expected_lfs_sha256": null,
+      "release_sha256": "acd712ea2090c320e6c79a3fe99e00f2d6f85b1a5a57e05f8f98be0f8a4962aa"
+    },
+    {
+      "path": "task_069.py",
+      "bytes": 96227,
+      "sha256": "b3a7298b7f9eff68c11d486e10062b623d72abc64d887ffdecf6db1c732f3a58",
+      "url": "https://huggingface.co/datasets/xlangai/osworld_v2_tasks/resolve/0a1aadad95aa79b00b3783e717d865089ab06e26/task_069.py",
+      "git_oid": "fa8a36896cf190aea965ee1f731e1694e723b6c5",
+      "expected_lfs_sha256": null,
+      "release_sha256": "b3a7298b7f9eff68c11d486e10062b623d72abc64d887ffdecf6db1c732f3a58"
+    },
+    {
+      "path": "task_070.py",
+      "bytes": 54642,
+      "sha256": "579b6e44181e613ab737560bccc9588438df4ddf1cb2ae15886ddf9529755f0d",
+      "url": "https://huggingface.co/datasets/xlangai/osworld_v2_tasks/resolve/0a1aadad95aa79b00b3783e717d865089ab06e26/task_070.py",
+      "git_oid": "f14167285e8deedd1015fe020ba39bee42353038",
+      "expected_lfs_sha256": null,
+      "release_sha256": "579b6e44181e613ab737560bccc9588438df4ddf1cb2ae15886ddf9529755f0d"
+    },
+    {
+      "path": "task_071.py",
+      "bytes": 12332,
+      "sha256": "f8abe918ba6f72ed32a919df90205e9ae6aa93635e63803d96cfe136c01b0a5e",
+      "url": "https://huggingface.co/datasets/xlangai/osworld_v2_tasks/resolve/0a1aadad95aa79b00b3783e717d865089ab06e26/task_071.py",
+      "git_oid": "4230d08bcc1b428b03a747adb5e27f11ed5e5463",
+      "expected_lfs_sha256": null,
+      "release_sha256": "f8abe918ba6f72ed32a919df90205e9ae6aa93635e63803d96cfe136c01b0a5e"
+    },
+    {
+      "path": "task_072.py",
+      "bytes": 70478,
+      "sha256": "e040927e63888a400bdeb42ca78e5097aa9c3136c51a2ad14726a39a0483d57f",
+      "url": "https://huggingface.co/datasets/xlangai/osworld_v2_tasks/resolve/0a1aadad95aa79b00b3783e717d865089ab06e26/task_072.py",
+      "git_oid": "880f31dc804a067dd73eb326e2897a869eeae1bb",
+      "expected_lfs_sha256": null,
+      "release_sha256": "e040927e63888a400bdeb42ca78e5097aa9c3136c51a2ad14726a39a0483d57f"
+    },
+    {
+      "path": "task_073.py",
+      "bytes": 46047,
+      "sha256": "7f653f5b452e3e3ed16153fd48e6e4e526d0006b771752134e675a776e6e1b1c",
+      "url": "https://huggingface.co/datasets/xlangai/osworld_v2_tasks/resolve/0a1aadad95aa79b00b3783e717d865089ab06e26/task_073.py",
+      "git_oid": "c99844a7764bbd2b0634657da59bd244d0acf317",
+      "expected_lfs_sha256": null,
+      "release_sha256": "7f653f5b452e3e3ed16153fd48e6e4e526d0006b771752134e675a776e6e1b1c"
+    },
+    {
+      "path": "task_074.py",
+      "bytes": 29445,
+      "sha256": "99e8f9cb190971a85f66c0b35e7da880370d02f4e2069b9a12abb9b25b1a0a2b",
+      "url": "https://huggingface.co/datasets/xlangai/osworld_v2_tasks/resolve/0a1aadad95aa79b00b3783e717d865089ab06e26/task_074.py",
+      "git_oid": "e8734ad348410ef9ffabd003ac3a657b6825a884",
+      "expected_lfs_sha256": null,
+      "release_sha256": "99e8f9cb190971a85f66c0b35e7da880370d02f4e2069b9a12abb9b25b1a0a2b"
+    },
+    {
+      "path": "task_075.py",
+      "bytes": 13883,
+      "sha256": "3fb17e0a7c42f1884ffe47c5a503b61bacfde50afab0186e09d2515af164f1ff",
+      "url": "https://huggingface.co/datasets/xlangai/osworld_v2_tasks/resolve/0a1aadad95aa79b00b3783e717d865089ab06e26/task_075.py",
+      "git_oid": "515eec438556d235bb9ec602387e0dcc6a50d5a5",
+      "expected_lfs_sha256": null,
+      "release_sha256": "3fb17e0a7c42f1884ffe47c5a503b61bacfde50afab0186e09d2515af164f1ff"
+    },
+    {
+      "path": "task_076.py",
+      "bytes": 32732,
+      "sha256": "9fdb44a01b7a308c27df062a135d27c4b334ef604c025254f927992ed5a82dbf",
+      "url": "https://huggingface.co/datasets/xlangai/osworld_v2_tasks/resolve/0a1aadad95aa79b00b3783e717d865089ab06e26/task_076.py",
+      "git_oid": "a5330067bae0d1608b59a9954c94090f47a0bb5d",
+      "expected_lfs_sha256": null,
+      "release_sha256": "9fdb44a01b7a308c27df062a135d27c4b334ef604c025254f927992ed5a82dbf"
+    },
+    {
+      "path": "task_077.py",
+      "bytes": 59988,
+      "sha256": "10830feb86bf311813b71e7a92de67204cbbb71d3884780a0ea6e8ceebed5471",
+      "url": "https://huggingface.co/datasets/xlangai/osworld_v2_tasks/resolve/0a1aadad95aa79b00b3783e717d865089ab06e26/task_077.py",
+      "git_oid": "31defc973e970cc220c019aa9e5fd75a82506905",
+      "expected_lfs_sha256": null,
+      "release_sha256": "10830feb86bf311813b71e7a92de67204cbbb71d3884780a0ea6e8ceebed5471"
+    },
+    {
+      "path": "task_078.py",
+      "bytes": 22467,
+      "sha256": "b5fd2976328d34f9eb81deefe3de565ef81122cbb11d153e7f63849ea9ee6b99",
+      "url": "https://huggingface.co/datasets/xlangai/osworld_v2_tasks/resolve/0a1aadad95aa79b00b3783e717d865089ab06e26/task_078.py",
+      "git_oid": "f3b22ad412e973f3de5467ac8da7c9267ac954fa",
+      "expected_lfs_sha256": null,
+      "release_sha256": "b5fd2976328d34f9eb81deefe3de565ef81122cbb11d153e7f63849ea9ee6b99"
+    },
+    {
+      "path": "task_079.py",
+      "bytes": 48454,
+      "sha256": "31518573db0de2082a3da7ad031d531177d7cb345c2d03c0ad5e941a51ce55c5",
+      "url": "https://huggingface.co/datasets/xlangai/osworld_v2_tasks/resolve/0a1aadad95aa79b00b3783e717d865089ab06e26/task_079.py",
+      "git_oid": "c7e356aeee560a861d902fb72b3d702847401fa0",
+      "expected_lfs_sha256": null,
+      "release_sha256": "31518573db0de2082a3da7ad031d531177d7cb345c2d03c0ad5e941a51ce55c5"
+    },
+    {
+      "path": "task_080.py",
+      "bytes": 90624,
+      "sha256": "af94ada1bbfff443499401c45f3bc16a15ce71124470f6a1a16a1fe2a4426e8f",
+      "url": "https://huggingface.co/datasets/xlangai/osworld_v2_tasks/resolve/0a1aadad95aa79b00b3783e717d865089ab06e26/task_080.py",
+      "git_oid": "6339b806294c2d336676a018fd1f16464765e262",
+      "expected_lfs_sha256": null,
+      "release_sha256": "af94ada1bbfff443499401c45f3bc16a15ce71124470f6a1a16a1fe2a4426e8f"
+    },
+    {
+      "path": "task_081.py",
+      "bytes": 19815,
+      "sha256": "a7cd9c724cbe1d839183ca9f698ceb56364347ffd94705830ba9a3a8c73b0778",
+      "url": "https://huggingface.co/datasets/xlangai/osworld_v2_tasks/resolve/0a1aadad95aa79b00b3783e717d865089ab06e26/task_081.py",
+      "git_oid": "a79c919d5291d2af85f9b207fefff5c9da57fba3",
+      "expected_lfs_sha256": null,
+      "release_sha256": "a7cd9c724cbe1d839183ca9f698ceb56364347ffd94705830ba9a3a8c73b0778"
+    },
+    {
+      "path": "task_082.py",
+      "bytes": 51158,
+      "sha256": "387399ee5fa8cc33be1887e974a180f74bf9155f192dac7993c6cc10e3cd3ccf",
+      "url": "https://huggingface.co/datasets/xlangai/osworld_v2_tasks/resolve/0a1aadad95aa79b00b3783e717d865089ab06e26/task_082.py",
+      "git_oid": "dd22214cf0bc617f82b60ded87b85413498fb00e",
+      "expected_lfs_sha256": null,
+      "release_sha256": "387399ee5fa8cc33be1887e974a180f74bf9155f192dac7993c6cc10e3cd3ccf"
+    },
+    {
+      "path": "task_083.py",
+      "bytes": 34046,
+      "sha256": "814d272fb3a108de231486017d126c948073157405e8a15d90d7468d9f9ae13e",
+      "url": "https://huggingface.co/datasets/xlangai/osworld_v2_tasks/resolve/0a1aadad95aa79b00b3783e717d865089ab06e26/task_083.py",
+      "git_oid": "aa8818be701ce3f8ba4a36d8206bd3f4ba9b15b1",
+      "expected_lfs_sha256": null,
+      "release_sha256": "814d272fb3a108de231486017d126c948073157405e8a15d90d7468d9f9ae13e"
+    },
+    {
+      "path": "task_084.py",
+      "bytes": 54778,
+      "sha256": "025c1256047bde7d0e9a9af852a11acf2089e9fc750dfa9aae2b98f94bddf0fd",
+      "url": "https://huggingface.co/datasets/xlangai/osworld_v2_tasks/resolve/0a1aadad95aa79b00b3783e717d865089ab06e26/task_084.py",
+      "git_oid": "cf42c70d0815ec110d7d49fe680ebd55cd4b027f",
+      "expected_lfs_sha256": null,
+      "release_sha256": "025c1256047bde7d0e9a9af852a11acf2089e9fc750dfa9aae2b98f94bddf0fd"
+    },
+    {
+      "path": "task_085.py",
+      "bytes": 63965,
+      "sha256": "a56b8c3c93f86322dc59ddfa179dd4bfb6cb671d77333e1f9f01c43d9e5011ff",
+      "url": "https://huggingface.co/datasets/xlangai/osworld_v2_tasks/resolve/0a1aadad95aa79b00b3783e717d865089ab06e26/task_085.py",
+      "git_oid": "2f7ec7a8ca671531472ea4cebc1ae0eaad7708a2",
+      "expected_lfs_sha256": null,
+      "release_sha256": "a56b8c3c93f86322dc59ddfa179dd4bfb6cb671d77333e1f9f01c43d9e5011ff"
+    },
+    {
+      "path": "task_086.py",
+      "bytes": 18777,
+      "sha256": "ecd70b3ed9450b03139adf215bc0d8a781bf1ea6875ebc29c7754324a8db9917",
+      "url": "https://huggingface.co/datasets/xlangai/osworld_v2_tasks/resolve/0a1aadad95aa79b00b3783e717d865089ab06e26/task_086.py",
+      "git_oid": "68e30d027ea2d80c69eea0c0e353be157ea474df",
+      "expected_lfs_sha256": null,
+      "release_sha256": "ecd70b3ed9450b03139adf215bc0d8a781bf1ea6875ebc29c7754324a8db9917"
+    },
+    {
+      "path": "task_087.py",
+      "bytes": 81080,
+      "sha256": "54e8c6aa9fbff5c91ce615c902f4a051be58dcfa2b168a1830d43ed640f72b76",
+      "url": "https://huggingface.co/datasets/xlangai/osworld_v2_tasks/resolve/0a1aadad95aa79b00b3783e717d865089ab06e26/task_087.py",
+      "git_oid": "dae23157563d88b35234ce75bb39843666d992d0",
+      "expected_lfs_sha256": null,
+      "release_sha256": "54e8c6aa9fbff5c91ce615c902f4a051be58dcfa2b168a1830d43ed640f72b76"
+    },
+    {
+      "path": "task_088.py",
+      "bytes": 17318,
+      "sha256": "b2bb6df144e452c0b193922c786317ad96eaf52a61fc3f164d98d3e684ac62b0",
+      "url": "https://huggingface.co/datasets/xlangai/osworld_v2_tasks/resolve/0a1aadad95aa79b00b3783e717d865089ab06e26/task_088.py",
+      "git_oid": "d32b77735cda5f46dbf766ac160d40471047afdb",
+      "expected_lfs_sha256": null,
+      "release_sha256": "b2bb6df144e452c0b193922c786317ad96eaf52a61fc3f164d98d3e684ac62b0"
+    },
+    {
+      "path": "task_089.py",
+      "bytes": 33516,
+      "sha256": "6365e0fc6a4f7e254dce1521f2245e5f844d0c19d999181d4090e4405dea3c54",
+      "url": "https://huggingface.co/datasets/xlangai/osworld_v2_tasks/resolve/0a1aadad95aa79b00b3783e717d865089ab06e26/task_089.py",
+      "git_oid": "0aeeedcf1f6090a5bb401215a21ae3b6c9f0cc19",
+      "expected_lfs_sha256": null,
+      "release_sha256": "6365e0fc6a4f7e254dce1521f2245e5f844d0c19d999181d4090e4405dea3c54"
+    },
+    {
+      "path": "task_090.py",
+      "bytes": 80260,
+      "sha256": "03827765995338c97ff95c836b28da31604df0abd08fd7bd473fed22917f476f",
+      "url": "https://huggingface.co/datasets/xlangai/osworld_v2_tasks/resolve/0a1aadad95aa79b00b3783e717d865089ab06e26/task_090.py",
+      "git_oid": "a3757869811c8f54573a15ef219e4dc7fc70b77e",
+      "expected_lfs_sha256": null,
+      "release_sha256": "03827765995338c97ff95c836b28da31604df0abd08fd7bd473fed22917f476f"
+    },
+    {
+      "path": "task_091.py",
+      "bytes": 159086,
+      "sha256": "30e1ccb2f4672c93d4579038996e6381c8e0907bbf1bba95818be3b9f1c5fb8d",
+      "url": "https://huggingface.co/datasets/xlangai/osworld_v2_tasks/resolve/0a1aadad95aa79b00b3783e717d865089ab06e26/task_091.py",
+      "git_oid": "2742300b5a9201f9034e88b3c0ce2bdf7562a93b",
+      "expected_lfs_sha256": null,
+      "release_sha256": "30e1ccb2f4672c93d4579038996e6381c8e0907bbf1bba95818be3b9f1c5fb8d"
+    },
+    {
+      "path": "task_092.py",
+      "bytes": 25653,
+      "sha256": "2bf85eb76976a038e0d5c6ec0047d34f2e1fea49f9215d44c74c80765854cea9",
+      "url": "https://huggingface.co/datasets/xlangai/osworld_v2_tasks/resolve/0a1aadad95aa79b00b3783e717d865089ab06e26/task_092.py",
+      "git_oid": "95f1e68d69d83778f0b88128167ceb585b5e6e16",
+      "expected_lfs_sha256": null,
+      "release_sha256": "2bf85eb76976a038e0d5c6ec0047d34f2e1fea49f9215d44c74c80765854cea9"
+    },
+    {
+      "path": "task_093.py",
+      "bytes": 57815,
+      "sha256": "d9c99ea4b77144974089ad768bae87d165801d6adca714e24424a5d078fe0336",
+      "url": "https://huggingface.co/datasets/xlangai/osworld_v2_tasks/resolve/0a1aadad95aa79b00b3783e717d865089ab06e26/task_093.py",
+      "git_oid": "4e0f8ad9a38316e1ca0d5e80861f57c085b85d5d",
+      "expected_lfs_sha256": null,
+      "release_sha256": "d9c99ea4b77144974089ad768bae87d165801d6adca714e24424a5d078fe0336"
+    },
+    {
+      "path": "task_094.py",
+      "bytes": 20608,
+      "sha256": "9ba6fa8ec9f6ada5ae65b438e800934d6c76604f317b19682b2238ffa57420ff",
+      "url": "https://huggingface.co/datasets/xlangai/osworld_v2_tasks/resolve/0a1aadad95aa79b00b3783e717d865089ab06e26/task_094.py",
+      "git_oid": "faecbc4ab756c106efe3281877431dda69e07fa3",
+      "expected_lfs_sha256": null,
+      "release_sha256": "9ba6fa8ec9f6ada5ae65b438e800934d6c76604f317b19682b2238ffa57420ff"
+    },
+    {
+      "path": "task_095.py",
+      "bytes": 35231,
+      "sha256": "58413e35891268ac0a13098e580a9bc018d0bb61f5737277dce538e7fd36de3d",
+      "url": "https://huggingface.co/datasets/xlangai/osworld_v2_tasks/resolve/0a1aadad95aa79b00b3783e717d865089ab06e26/task_095.py",
+      "git_oid": "2f1a9eed6fbc32cd2af2fe1683f9154f9b07f96f",
+      "expected_lfs_sha256": null,
+      "release_sha256": "58413e35891268ac0a13098e580a9bc018d0bb61f5737277dce538e7fd36de3d"
+    },
+    {
+      "path": "task_096.py",
+      "bytes": 30115,
+      "sha256": "615858bc92578e2d29f202f6e7ca421ccbd704df024877694e4e26727da460c8",
+      "url": "https://huggingface.co/datasets/xlangai/osworld_v2_tasks/resolve/0a1aadad95aa79b00b3783e717d865089ab06e26/task_096.py",
+      "git_oid": "16e34d332bd70081b8c83af244330d0d081d14a2",
+      "expected_lfs_sha256": null,
+      "release_sha256": "615858bc92578e2d29f202f6e7ca421ccbd704df024877694e4e26727da460c8"
+    },
+    {
+      "path": "task_097.py",
+      "bytes": 38497,
+      "sha256": "6400d512c7def81915b6f1b77b40315974d29a72e8142f2bf78e37dc4ce0b355",
+      "url": "https://huggingface.co/datasets/xlangai/osworld_v2_tasks/resolve/0a1aadad95aa79b00b3783e717d865089ab06e26/task_097.py",
+      "git_oid": "fff3fb78a542c3bbc111c2bf8c5d55ce12231aee",
+      "expected_lfs_sha256": null,
+      "release_sha256": "6400d512c7def81915b6f1b77b40315974d29a72e8142f2bf78e37dc4ce0b355"
+    },
+    {
+      "path": "task_098.py",
+      "bytes": 11551,
+      "sha256": "28bfdfaaae49fb889f6972c5140c0300f10d88fb16fc36e3199079f6e96ac507",
+      "url": "https://huggingface.co/datasets/xlangai/osworld_v2_tasks/resolve/0a1aadad95aa79b00b3783e717d865089ab06e26/task_098.py",
+      "git_oid": "eb2ac8dfd7465961685075a9c674bd7c75b3a931",
+      "expected_lfs_sha256": null,
+      "release_sha256": "28bfdfaaae49fb889f6972c5140c0300f10d88fb16fc36e3199079f6e96ac507"
+    },
+    {
+      "path": "task_099.py",
+      "bytes": 6763,
+      "sha256": "58c460fdfecf518f64714fdc21933b60818d8cf28ec02f9fa15a10e56ef02e32",
+      "url": "https://huggingface.co/datasets/xlangai/osworld_v2_tasks/resolve/0a1aadad95aa79b00b3783e717d865089ab06e26/task_099.py",
+      "git_oid": "2dd7a6ac02f92224762442f716f1f65f73adde85",
+      "expected_lfs_sha256": null,
+      "release_sha256": "58c460fdfecf518f64714fdc21933b60818d8cf28ec02f9fa15a10e56ef02e32"
+    },
+    {
+      "path": "task_100.py",
+      "bytes": 8338,
+      "sha256": "e849f284ad7527adc21c278836d3ebfecaa42081d880095693a06346df0304ce",
+      "url": "https://huggingface.co/datasets/xlangai/osworld_v2_tasks/resolve/0a1aadad95aa79b00b3783e717d865089ab06e26/task_100.py",
+      "git_oid": "0578200d7a4ee606b6c0987e1b40b0fd156f0dd0",
+      "expected_lfs_sha256": null,
+      "release_sha256": "e849f284ad7527adc21c278836d3ebfecaa42081d880095693a06346df0304ce"
+    },
+    {
+      "path": "task_101.py",
+      "bytes": 9341,
+      "sha256": "a064d9cc7800b5817bfa29ba0d93ff81a78ca1f1c4b9a62c923a365228d42168",
+      "url": "https://huggingface.co/datasets/xlangai/osworld_v2_tasks/resolve/0a1aadad95aa79b00b3783e717d865089ab06e26/task_101.py",
+      "git_oid": "0d5249c5e44ac046e832ba2991fb9aacf6c67139",
+      "expected_lfs_sha256": null,
+      "release_sha256": "a064d9cc7800b5817bfa29ba0d93ff81a78ca1f1c4b9a62c923a365228d42168"
+    },
+    {
+      "path": "task_102.py",
+      "bytes": 58247,
+      "sha256": "7a093ad51d30947c2b6f41b8dda413f1985dfbcd6f9f883446124d59dbc5752f",
+      "url": "https://huggingface.co/datasets/xlangai/osworld_v2_tasks/resolve/0a1aadad95aa79b00b3783e717d865089ab06e26/task_102.py",
+      "git_oid": "f1bc9a36c7b7558ea44796baab5e0b4ef11cdde6",
+      "expected_lfs_sha256": null,
+      "release_sha256": "7a093ad51d30947c2b6f41b8dda413f1985dfbcd6f9f883446124d59dbc5752f"
+    },
+    {
+      "path": "task_103.py",
+      "bytes": 16375,
+      "sha256": "026db41453d43dc248c577644eab1fa582dac26c608aff88fbe047a42f83e318",
+      "url": "https://huggingface.co/datasets/xlangai/osworld_v2_tasks/resolve/0a1aadad95aa79b00b3783e717d865089ab06e26/task_103.py",
+      "git_oid": "a9b91c15e92214c190b40e34887714d652398add",
+      "expected_lfs_sha256": null,
+      "release_sha256": "026db41453d43dc248c577644eab1fa582dac26c608aff88fbe047a42f83e318"
+    },
+    {
+      "path": "task_104.py",
+      "bytes": 16246,
+      "sha256": "933aca3d06be57f21117435601199a6e8b5b8b51969422f31bc17c56cf31ea49",
+      "url": "https://huggingface.co/datasets/xlangai/osworld_v2_tasks/resolve/0a1aadad95aa79b00b3783e717d865089ab06e26/task_104.py",
+      "git_oid": "fb6f2e0ab6d9c7eddeb02e676c02600a3d41ba43",
+      "expected_lfs_sha256": null,
+      "release_sha256": "933aca3d06be57f21117435601199a6e8b5b8b51969422f31bc17c56cf31ea49"
+    },
+    {
+      "path": "task_105.py",
+      "bytes": 22959,
+      "sha256": "903a0258acbd11cbb11036b4c1585a842d02dc51e17343c515d90bcf9c8835bf",
+      "url": "https://huggingface.co/datasets/xlangai/osworld_v2_tasks/resolve/0a1aadad95aa79b00b3783e717d865089ab06e26/task_105.py",
+      "git_oid": "bfa5855cc57d3361f7b3020bbb5b93c4b15bf1e6",
+      "expected_lfs_sha256": null,
+      "release_sha256": "903a0258acbd11cbb11036b4c1585a842d02dc51e17343c515d90bcf9c8835bf"
+    },
+    {
+      "path": "task_106.py",
+      "bytes": 47961,
+      "sha256": "767f6a83a66d80979e898587e369900550b400c9d39c1fa7ba4bbf3ba1f8e8be",
+      "url": "https://huggingface.co/datasets/xlangai/osworld_v2_tasks/resolve/0a1aadad95aa79b00b3783e717d865089ab06e26/task_106.py",
+      "git_oid": "a5bcdec16c320d5fe22843345c3c72f12aca9ca8",
+      "expected_lfs_sha256": null,
+      "release_sha256": "767f6a83a66d80979e898587e369900550b400c9d39c1fa7ba4bbf3ba1f8e8be"
+    },
+    {
+      "path": "task_107.py",
+      "bytes": 31073,
+      "sha256": "ad70b77dbc13f9945cc32626eda0e7ca736b918b75327391444bda8a127a40e0",
+      "url": "https://huggingface.co/datasets/xlangai/osworld_v2_tasks/resolve/0a1aadad95aa79b00b3783e717d865089ab06e26/task_107.py",
+      "git_oid": "177bdac3b8b82512b0577d32ceb354572441234e",
+      "expected_lfs_sha256": null,
+      "release_sha256": "ad70b77dbc13f9945cc32626eda0e7ca736b918b75327391444bda8a127a40e0"
+    },
+    {
+      "path": "task_108.py",
+      "bytes": 95439,
+      "sha256": "9b9a0758a70eedb8a248f80846242e1ac5a14cc08117f61ac87a1c1febc3a944",
+      "url": "https://huggingface.co/datasets/xlangai/osworld_v2_tasks/resolve/0a1aadad95aa79b00b3783e717d865089ab06e26/task_108.py",
+      "git_oid": "4c6430b823041cfbe8ea793a55a6057d0186cb18",
+      "expected_lfs_sha256": null,
+      "release_sha256": "9b9a0758a70eedb8a248f80846242e1ac5a14cc08117f61ac87a1c1febc3a944"
+    }
+  ],
+  "checked_at_utc": "2026-10-02T12:30:38.821724+00:00",
+  "verification": "All Git blob or LFS object hashes verified, plus official task release SHA-256 where declared.",
+  "benchmark_runs": 0,
+  "source_path": "/Users/michaelofengenden/Developer/TimeResearch/AgentTime-v1.1/benchmarks/cache/gated-inputs-20261002/osworld21-tasks",
+  "origin_receipt_sha256": "451d5f35cc8632f0e366586f0a0a1874afadcb16c2542ecaaa00ea528b041d94",
+  "imported_at_utc": "2026-10-02T12:32:52.456502+00:00"
+}

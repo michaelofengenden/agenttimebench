@@ -1,0 +1,28 @@
+{
+  "checked_on": "2026-10-01",
+  "release": "osworld-v2.1",
+  "resolved_code_commit": "3d778a3c9a34a079316f70df023b166700445792",
+  "sources": [
+    {
+      "url": "https://api.github.com/repos/xlang-ai/OSWorld-V2/git/ref/tags/osworld-v2.1",
+      "file": "tag-reference.json",
+      "sha256": "cd23c41337f75c47654739fd3f0a58336d14812c214a04956d07efcc3a641f27",
+      "bytes": 359
+    },
+    {
+      "url": "https://raw.githubusercontent.com/xlang-ai/OSWorld-V2/3d778a3c9a34a079316f70df023b166700445792/benchmark_releases/osworld-v2.1.json",
+      "file": "osworld-v2.1.json",
+      "sha256": "978686683bdf9f946703c1d316cbbd29c0e3ea97396e48d940ee92c597806ecf",
+      "bytes": 4426
+    },
+    {
+      "url": "https://raw.githubusercontent.com/xlang-ai/OSWorld-V2/3d778a3c9a34a079316f70df023b166700445792/benchmark_releases/osworld-v2.1.task_hashes.json",
+      "file": "osworld-v2.1.task_hashes.json",
+      "sha256": "c54d428329be5ca72742a6becd49ee83cf739df5dea429bba182e1f3f21badfb",
+      "bytes": 14519
+    }
+  ],
+  "task_hash_manifest_matches_release": true,
+  "benchmark_assets_downloaded": false,
+  "native_qualification_performed": false
+}

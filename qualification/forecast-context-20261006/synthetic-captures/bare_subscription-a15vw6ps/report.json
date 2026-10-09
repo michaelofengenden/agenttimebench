@@ -1,0 +1,24 @@
+{
+  "variant": "bare_subscription",
+  "case": "/private/tmp/agenttime-forecast-context-probe-20261006-_67q7h_v/bare_subscription-a15vw6ps",
+  "exit_code": 1,
+  "message_requests": 0,
+  "request_paths": [],
+  "tools": null,
+  "effort": null,
+  "model": null,
+  "version": "2.1.280",
+  "images_received": 0,
+  "image_bytes_identical": false,
+  "native_transcripts_saved": 1,
+  "raw_body_files": [
+    "3f89a864-9bc4-436c-96a1-0be119f15149.request.json"
+  ],
+  "socket_listening_lines": [],
+  "result_subtype": "success",
+  "result_is_error": true,
+  "result_errors": null,
+  "stderr_tail": "",
+  "environment_note_present": false,
+  "token_budget_reminder_present": false
+}

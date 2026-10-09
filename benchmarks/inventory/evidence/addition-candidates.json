@@ -1,0 +1,643 @@
+{
+  "schema_version": "agenttime.v1.1.addition-candidate-recommendations.v1",
+  "created_at_utc": "2026-10-02T12:23:41.789917+00:00",
+  "status": "draft_for_user_review_not_selected",
+  "scope": "Six small additions only. The established 100 candidates and all other unresolved slots are unchanged. No source loader, benchmark, model job, credential access or network request was performed. Only this temporary JSON was written.",
+  "selection_method": "Judgment-based coverage recommendations grounded in pinned source requirements and existing exclusions. No empirical difficulty ranking, model-outcome filtering or favorable-seed search was performed.",
+  "totals": {
+    "recommended_additions": 6,
+    "newly_selected_tasks": 0,
+    "qualified_tasks": 0
+  },
+  "source_catalog": {
+    "base_selection_map": {
+      "path": "/private/tmp/agenttime-inventory-20261002/selection-map.json",
+      "sha256": "38ce2b1281e4a8f59fdc36301df882b535dcfcdf8545f70d317248b9c81d8ef3",
+      "bytes": 88289
+    },
+    "supplied_deepswe_flaw_list": {
+      "path": "/Users/michaelofengenden/.codex/attachments/ac7bb46a-3dfe-4327-8ba2-87ddab4ad69a/Pasted text.txt",
+      "sha256": "bcd5eebdc12d40663eca8e0d37deaeb730908379e9783dc1777c00fbf42b007f",
+      "bytes": 7029
+    },
+    "v1_selection_and_audit": {
+      "path": "/Users/michaelofengenden/Developer/TimeResearch/AgentTimeExperiment/lib/current-suite-roster.ts",
+      "sha256": "186c4631f9f4721ff9c07a9c30d8d44030cd1e15ff19621f136db536d84508f1",
+      "bytes": 208921,
+      "lines": "3037-3066;3213-3220;3605-3612"
+    },
+    "posttrain_1_2_assessment": {
+      "path": "/Users/michaelofengenden/Developer/TimeResearch/AgentTime-v1.1/benchmarks/releases/posttrainbench-1.2/assessment.json",
+      "sha256": "0a9fb1c176c9b934a020651664f2031cd07e20efd1d8863676d117e3e516ff96",
+      "bytes": 5402
+    },
+    "deep_go-git-worktree-merge-conflicts_task": {
+      "git_dir": "/Users/michaelofengenden/AgentTimeSources/benchmarks/deepswe-v1-1-current-task-schema-1-3/source-body/repository.git",
+      "commit": "0b9fabbb63b9104d678fe965e1632f2dd9eaa2ea",
+      "path": "tasks/go-git-worktree-merge-conflicts/task.toml",
+      "sha256": "17a105a1d8e8aed5f45da06820dc65a1048a3a3f5a8d0f2dbd7c23ee74f94eb9",
+      "bytes": 1410,
+      "canonical_url": "https://github.com/datacurve-ai/deep-swe/blob/0b9fabbb63b9104d678fe965e1632f2dd9eaa2ea/tasks/go-git-worktree-merge-conflicts/task.toml"
+    },
+    "deep_go-git-worktree-merge-conflicts_instruction": {
+      "git_dir": "/Users/michaelofengenden/AgentTimeSources/benchmarks/deepswe-v1-1-current-task-schema-1-3/source-body/repository.git",
+      "commit": "0b9fabbb63b9104d678fe965e1632f2dd9eaa2ea",
+      "path": "tasks/go-git-worktree-merge-conflicts/instruction.md",
+      "sha256": "4d6c197ad66c5d90b51f52d7db5f539fd164ce9b60e6c0d8bfa356f1f77cea7e",
+      "bytes": 1925,
+      "canonical_url": "https://github.com/datacurve-ai/deep-swe/blob/0b9fabbb63b9104d678fe965e1632f2dd9eaa2ea/tasks/go-git-worktree-merge-conflicts/instruction.md"
+    },
+    "deep_go-git-worktree-merge-conflicts_test_config": {
+      "git_dir": "/Users/michaelofengenden/AgentTimeSources/benchmarks/deepswe-v1-1-current-task-schema-1-3/source-body/repository.git",
+      "commit": "0b9fabbb63b9104d678fe965e1632f2dd9eaa2ea",
+      "path": "tasks/go-git-worktree-merge-conflicts/tests/config.json",
+      "sha256": "dbc43b094397ef9089b8a7f7fa796c40d339959e8b33d983f138f0282535e432",
+      "bytes": 1842,
+      "canonical_url": "https://github.com/datacurve-ai/deep-swe/blob/0b9fabbb63b9104d678fe965e1632f2dd9eaa2ea/tasks/go-git-worktree-merge-conflicts/tests/config.json"
+    },
+    "deep_yjs-map-conflict-detection_task": {
+      "git_dir": "/Users/michaelofengenden/AgentTimeSources/benchmarks/deepswe-v1-1-current-task-schema-1-3/source-body/repository.git",
+      "commit": "0b9fabbb63b9104d678fe965e1632f2dd9eaa2ea",
+      "path": "tasks/yjs-map-conflict-detection/task.toml",
+      "sha256": "efc0167671f665a71cbc94a9951fc1e85402e3a1efd20c285449606766a65428",
+      "bytes": 1446,
+      "canonical_url": "https://github.com/datacurve-ai/deep-swe/blob/0b9fabbb63b9104d678fe965e1632f2dd9eaa2ea/tasks/yjs-map-conflict-detection/task.toml"
+    },
+    "deep_yjs-map-conflict-detection_instruction": {
+      "git_dir": "/Users/michaelofengenden/AgentTimeSources/benchmarks/deepswe-v1-1-current-task-schema-1-3/source-body/repository.git",
+      "commit": "0b9fabbb63b9104d678fe965e1632f2dd9eaa2ea",
+      "path": "tasks/yjs-map-conflict-detection/instruction.md",
+      "sha256": "ec6f54e53154aca614ead29fe45f2a85f876c4fe38aec5f3a0f20425e2611935",
+      "bytes": 1759,
+      "canonical_url": "https://github.com/datacurve-ai/deep-swe/blob/0b9fabbb63b9104d678fe965e1632f2dd9eaa2ea/tasks/yjs-map-conflict-detection/instruction.md"
+    },
+    "deep_yjs-map-conflict-detection_test_config": {
+      "git_dir": "/Users/michaelofengenden/AgentTimeSources/benchmarks/deepswe-v1-1-current-task-schema-1-3/source-body/repository.git",
+      "commit": "0b9fabbb63b9104d678fe965e1632f2dd9eaa2ea",
+      "path": "tasks/yjs-map-conflict-detection/tests/config.json",
+      "sha256": "13dc8b9683de0a41ca6ba76239f69a4aeff09b50bea9899ffb65ef2df677a4a4",
+      "bytes": 9533,
+      "canonical_url": "https://github.com/datacurve-ai/deep-swe/blob/0b9fabbb63b9104d678fe965e1632f2dd9eaa2ea/tasks/yjs-map-conflict-detection/tests/config.json"
+    },
+    "paper_pinn_config_yaml": {
+      "git_dir": "/Users/michaelofengenden/AgentTimeSources/benchmarks/paperbench/source-body/repository.git",
+      "commit": "51052cede8cc608f95bb00346635e03759013e5a",
+      "path": "project/paperbench/data/papers/pinn/config.yaml",
+      "sha256": "9221909f3b8234937c66b851db0f219dc3e9c7499b21988cd626fe3dc1455f6b",
+      "bytes": 77,
+      "canonical_url": "https://github.com/openai/preparedness/blob/51052cede8cc608f95bb00346635e03759013e5a/project/paperbench/data/papers/pinn/config.yaml"
+    },
+    "paper_pinn_rubric_json": {
+      "git_dir": "/Users/michaelofengenden/AgentTimeSources/benchmarks/paperbench/source-body/repository.git",
+      "commit": "51052cede8cc608f95bb00346635e03759013e5a",
+      "path": "project/paperbench/data/papers/pinn/rubric.json",
+      "sha256": "aa5a270d76778bdc7cce1503ff5ed525aeefe3a9c30a44f65b767bfb2ac6262b",
+      "bytes": 2351012,
+      "canonical_url": "https://github.com/openai/preparedness/blob/51052cede8cc608f95bb00346635e03759013e5a/project/paperbench/data/papers/pinn/rubric.json"
+    },
+    "paper_pinn_blacklist_txt": {
+      "git_dir": "/Users/michaelofengenden/AgentTimeSources/benchmarks/paperbench/source-body/repository.git",
+      "commit": "51052cede8cc608f95bb00346635e03759013e5a",
+      "path": "project/paperbench/data/papers/pinn/blacklist.txt",
+      "sha256": "6379b4383283ef3af3617adc96fc7ccd0828f76c030140652b0e132b8672278e",
+      "bytes": 48,
+      "canonical_url": "https://github.com/openai/preparedness/blob/51052cede8cc608f95bb00346635e03759013e5a/project/paperbench/data/papers/pinn/blacklist.txt"
+    },
+    "paper_pinn_paper_md": {
+      "git_dir": "/Users/michaelofengenden/AgentTimeSources/benchmarks/paperbench/source-body/repository.git",
+      "commit": "51052cede8cc608f95bb00346635e03759013e5a",
+      "path": "project/paperbench/data/papers/pinn/paper.md",
+      "sha256": "ff582a62909e4334c83e0498c68d47bc3ebc429205bc64acd04bbf8a39bc0577",
+      "bytes": 131,
+      "canonical_url": "https://github.com/openai/preparedness/blob/51052cede8cc608f95bb00346635e03759013e5a/project/paperbench/data/papers/pinn/paper.md"
+    },
+    "paper_pinn_paper_pdf": {
+      "git_dir": "/Users/michaelofengenden/AgentTimeSources/benchmarks/paperbench/source-body/repository.git",
+      "commit": "51052cede8cc608f95bb00346635e03759013e5a",
+      "path": "project/paperbench/data/papers/pinn/paper.pdf",
+      "sha256": "d1044ac532d317e99439aabda67556acf421025b7fe8a34e7465b3152621b970",
+      "bytes": 132,
+      "canonical_url": "https://github.com/openai/preparedness/blob/51052cede8cc608f95bb00346635e03759013e5a/project/paperbench/data/papers/pinn/paper.pdf"
+    },
+    "paper_pinn_addendum_md": {
+      "git_dir": "/Users/michaelofengenden/AgentTimeSources/benchmarks/paperbench/source-body/repository.git",
+      "commit": "51052cede8cc608f95bb00346635e03759013e5a",
+      "path": "project/paperbench/data/papers/pinn/addendum.md",
+      "sha256": "60a6ed838257b6fa025c9e169d22f44c64e7f333b8309e8df93e2c0cc07c678b",
+      "bytes": 129,
+      "canonical_url": "https://github.com/openai/preparedness/blob/51052cede8cc608f95bb00346635e03759013e5a/project/paperbench/data/papers/pinn/addendum.md"
+    },
+    "paper_all_split": {
+      "git_dir": "/Users/michaelofengenden/AgentTimeSources/benchmarks/paperbench/source-body/repository.git",
+      "commit": "51052cede8cc608f95bb00346635e03759013e5a",
+      "path": "project/paperbench/experiments/splits/all.txt",
+      "sha256": "f2b382a46499f0c6801e7b62b171d8616f7be228c118c9756ce02a19f5ec5348",
+      "bytes": 316,
+      "canonical_url": "https://github.com/openai/preparedness/blob/51052cede8cc608f95bb00346635e03759013e5a/project/paperbench/experiments/splits/all.txt"
+    },
+    "paper_readme": {
+      "git_dir": "/Users/michaelofengenden/AgentTimeSources/benchmarks/paperbench/source-body/repository.git",
+      "commit": "51052cede8cc608f95bb00346635e03759013e5a",
+      "path": "project/paperbench/README.md",
+      "sha256": "b50041ce9329b4a5a779c7114b8c21f6eab93cae91d309f5924f6ebe06f470cb",
+      "bytes": 20104,
+      "canonical_url": "https://github.com/openai/preparedness/blob/51052cede8cc608f95bb00346635e03759013e5a/project/paperbench/README.md"
+    },
+    "ptb_src_harbor_adapter_adapter_py": {
+      "path": "/private/tmp/agenttime-inventory-20261002/acquired/posttrain12-code-c5b4e9795e3a/source/src/harbor_adapter/adapter.py",
+      "sha256": "60f922d8aa501b4a4e4f6e95f5f03f7b598ae23799ab40ca7a1ac4e7bf571ed3",
+      "bytes": 26224,
+      "commit": "c5b4e9795e3aa0e16a51b4382e27b59338fbd2bd",
+      "canonical_url": "https://github.com/aisa-group/PostTrainBench/blob/c5b4e9795e3aa0e16a51b4382e27b59338fbd2bd/src/harbor_adapter/adapter.py"
+    },
+    "ptb_src_harbor_adapter_README_md": {
+      "path": "/private/tmp/agenttime-inventory-20261002/acquired/posttrain12-code-c5b4e9795e3a/source/src/harbor_adapter/README.md",
+      "sha256": "7bbe81c51e3dd2cf76f2b82db9165dfb54ca466f21b5ecca0c73a89f6344dd70",
+      "bytes": 17392,
+      "commit": "c5b4e9795e3aa0e16a51b4382e27b59338fbd2bd",
+      "canonical_url": "https://github.com/aisa-group/PostTrainBench/blob/c5b4e9795e3aa0e16a51b4382e27b59338fbd2bd/src/harbor_adapter/README.md"
+    },
+    "ptb_scripts_utils_py": {
+      "path": "/private/tmp/agenttime-inventory-20261002/acquired/posttrain12-code-c5b4e9795e3a/source/scripts/utils.py",
+      "sha256": "8722ed14cd0b0f53411a31c2de9f02ef5d02c83736c60423392c4f20df6c2868",
+      "bytes": 33934,
+      "commit": "c5b4e9795e3aa0e16a51b4382e27b59338fbd2bd",
+      "canonical_url": "https://github.com/aisa-group/PostTrainBench/blob/c5b4e9795e3aa0e16a51b4382e27b59338fbd2bd/scripts/utils.py"
+    },
+    "ptb_scripts_baselines_json": {
+      "path": "/private/tmp/agenttime-inventory-20261002/acquired/posttrain12-code-c5b4e9795e3a/source/scripts/baselines.json",
+      "sha256": "f0d03fc2c57cf4b303818f99f6f316094bff3191bda708e916477b19352a1c47",
+      "bytes": 3677,
+      "commit": "c5b4e9795e3aa0e16a51b4382e27b59338fbd2bd",
+      "canonical_url": "https://github.com/aisa-group/PostTrainBench/blob/c5b4e9795e3aa0e16a51b4382e27b59338fbd2bd/scripts/baselines.json"
+    },
+    "ptb_src_eval_exact_numeric_match_py": {
+      "path": "/private/tmp/agenttime-inventory-20261002/acquired/posttrain12-code-c5b4e9795e3a/source/src/eval/exact_numeric_match.py",
+      "sha256": "730474777a82b91eb0b36968d29a171611ac888d3572853b489b2b80dbf9a8b3",
+      "bytes": 4565,
+      "commit": "c5b4e9795e3aa0e16a51b4382e27b59338fbd2bd",
+      "canonical_url": "https://github.com/aisa-group/PostTrainBench/blob/c5b4e9795e3aa0e16a51b4382e27b59338fbd2bd/src/eval/exact_numeric_match.py"
+    },
+    "ptb_src_eval_tasks_aime2025_evaluate_final_eval_py": {
+      "path": "/private/tmp/agenttime-inventory-20261002/acquired/posttrain12-code-c5b4e9795e3a/source/src/eval/tasks/aime2025/evaluate_final_eval.py",
+      "sha256": "7d539ca20c9b4e32411cd11783245c23dfcc96a9781a0ab69bbcff3fa235b9fe",
+      "bytes": 6258,
+      "commit": "c5b4e9795e3aa0e16a51b4382e27b59338fbd2bd",
+      "canonical_url": "https://github.com/aisa-group/PostTrainBench/blob/c5b4e9795e3aa0e16a51b4382e27b59338fbd2bd/src/eval/tasks/aime2025/evaluate_final_eval.py"
+    },
+    "ptb_aime2025_info": {
+      "path": "/private/tmp/agenttime-inventory-20261002/acquired/posttrain12-code-c5b4e9795e3a/source/src/eval/tasks/aime2025/info.json",
+      "sha256": "f72451bbf6e5e95e72971d46ab1b5b2a162acc759ec4eecf192d05c5f89e6557",
+      "bytes": 259,
+      "commit": "c5b4e9795e3aa0e16a51b4382e27b59338fbd2bd",
+      "canonical_url": "https://github.com/aisa-group/PostTrainBench/blob/c5b4e9795e3aa0e16a51b4382e27b59338fbd2bd/src/eval/tasks/aime2025/info.json"
+    },
+    "ptb_arenahardwriting_info": {
+      "path": "/private/tmp/agenttime-inventory-20261002/acquired/posttrain12-code-c5b4e9795e3a/source/src/eval/tasks/arenahardwriting/info.json",
+      "sha256": "ce82ecf3b2afc61b6ea4f239b29b14f20a1b0a236f370c407743a286472758b2",
+      "bytes": 199,
+      "commit": "c5b4e9795e3aa0e16a51b4382e27b59338fbd2bd",
+      "canonical_url": "https://github.com/aisa-group/PostTrainBench/blob/c5b4e9795e3aa0e16a51b4382e27b59338fbd2bd/src/eval/tasks/arenahardwriting/info.json"
+    },
+    "yc_README_md": {
+      "git_dir": "/Users/michaelofengenden/AgentTimeSources/benchmarks/yc-bench/source-body/repository.git",
+      "commit": "61aa49c92063510be30d903443a59833847c8fc1",
+      "path": "README.md",
+      "sha256": "957457bf38a22f5abbe32b1e2a0e4208fbfe23fe1a362400be2b9395b6ceafe3",
+      "bytes": 5980,
+      "canonical_url": "https://github.com/collinear-ai/yc-bench/blob/61aa49c92063510be30d903443a59833847c8fc1/README.md"
+    },
+    "yc_src_yc_bench_runner_args_py": {
+      "git_dir": "/Users/michaelofengenden/AgentTimeSources/benchmarks/yc-bench/source-body/repository.git",
+      "commit": "61aa49c92063510be30d903443a59833847c8fc1",
+      "path": "src/yc_bench/runner/args.py",
+      "sha256": "15a4956a5c05661eabefb57c5a269dfb4072a135dce04b55bbd65f7d63abe9dc",
+      "bytes": 2610,
+      "canonical_url": "https://github.com/collinear-ai/yc-bench/blob/61aa49c92063510be30d903443a59833847c8fc1/src/yc_bench/runner/args.py"
+    },
+    "yc_src_yc_bench_config_presets_default_toml": {
+      "git_dir": "/Users/michaelofengenden/AgentTimeSources/benchmarks/yc-bench/source-body/repository.git",
+      "commit": "61aa49c92063510be30d903443a59833847c8fc1",
+      "path": "src/yc_bench/config/presets/default.toml",
+      "sha256": "3b7fe76e45fa8372efd66839c894d76c87fa43a18f141b435fd9359828021068",
+      "bytes": 5850,
+      "canonical_url": "https://github.com/collinear-ai/yc-bench/blob/61aa49c92063510be30d903443a59833847c8fc1/src/yc_bench/config/presets/default.toml"
+    },
+    "yc_src_yc_bench_services_seed_world_py": {
+      "git_dir": "/Users/michaelofengenden/AgentTimeSources/benchmarks/yc-bench/source-body/repository.git",
+      "commit": "61aa49c92063510be30d903443a59833847c8fc1",
+      "path": "src/yc_bench/services/seed_world.py",
+      "sha256": "05776d9c2f8861b58faf37fa339b0c8ce23985fa9bcc3a3cce35e41186eb3145",
+      "bytes": 5457,
+      "canonical_url": "https://github.com/collinear-ai/yc-bench/blob/61aa49c92063510be30d903443a59833847c8fc1/src/yc_bench/services/seed_world.py"
+    },
+    "yc_src_yc_bench_services_rng_py": {
+      "git_dir": "/Users/michaelofengenden/AgentTimeSources/benchmarks/yc-bench/source-body/repository.git",
+      "commit": "61aa49c92063510be30d903443a59833847c8fc1",
+      "path": "src/yc_bench/services/rng.py",
+      "sha256": "f0b6c055d9510c914421181f3f35a630e7a1d317f9af17c0e1deacc323c4b310",
+      "bytes": 1430,
+      "canonical_url": "https://github.com/collinear-ai/yc-bench/blob/61aa49c92063510be30d903443a59833847c8fc1/src/yc_bench/services/rng.py"
+    },
+    "yc_src_yc_bench_services_generate_tasks_py": {
+      "git_dir": "/Users/michaelofengenden/AgentTimeSources/benchmarks/yc-bench/source-body/repository.git",
+      "commit": "61aa49c92063510be30d903443a59833847c8fc1",
+      "path": "src/yc_bench/services/generate_tasks.py",
+      "sha256": "6131cc4b789cad76f6dde6b3345cbf6df73d13c84cabe8a67ee88916d24065aa",
+      "bytes": 9266,
+      "canonical_url": "https://github.com/collinear-ai/yc-bench/blob/61aa49c92063510be30d903443a59833847c8fc1/src/yc_bench/services/generate_tasks.py"
+    },
+    "yc_src_yc_bench_core_handlers_bankruptcy_py": {
+      "git_dir": "/Users/michaelofengenden/AgentTimeSources/benchmarks/yc-bench/source-body/repository.git",
+      "commit": "61aa49c92063510be30d903443a59833847c8fc1",
+      "path": "src/yc_bench/core/handlers/bankruptcy.py",
+      "sha256": "faf15585c607d7d77fe52ebeccd65bbe8f2889d4f895e0e0591b4ebbcbd9f9ea",
+      "bytes": 419,
+      "canonical_url": "https://github.com/collinear-ai/yc-bench/blob/61aa49c92063510be30d903443a59833847c8fc1/src/yc_bench/core/handlers/bankruptcy.py"
+    },
+    "yc_src_yc_bench_core_handlers_horizon_end_py": {
+      "git_dir": "/Users/michaelofengenden/AgentTimeSources/benchmarks/yc-bench/source-body/repository.git",
+      "commit": "61aa49c92063510be30d903443a59833847c8fc1",
+      "path": "src/yc_bench/core/handlers/horizon_end.py",
+      "sha256": "c2d75820a80c3e49538f7f5e307e08e91458299d6e7866eacbe6e9c2b6dd0e61",
+      "bytes": 429,
+      "canonical_url": "https://github.com/collinear-ai/yc-bench/blob/61aa49c92063510be30d903443a59833847c8fc1/src/yc_bench/core/handlers/horizon_end.py"
+    }
+  },
+  "known_deepswe_exclusions": {
+    "supplied_flaw_list_ids": [
+      "actionlint-action-pinning-lint",
+      "anko-typed-variable-bindings",
+      "eicrud-keyset-pagination-cursor",
+      "etree-xml-diff-patch",
+      "geo-shapeindex-serialization",
+      "go-critic-doc-link-checker",
+      "ink-grid-box-layout",
+      "kcp-go-multiplexed-kcp-streams",
+      "obsidian-linter-auto-table-of-contents",
+      "onedump-dump-encryption-pipeline",
+      "opa-template-string-reconstruction",
+      "participle-grammar-conflict-analysis",
+      "prometheus-transactional-reload-status",
+      "returns-validated-error-accumulation",
+      "skrub-duration-encoding",
+      "sqlfmt-create-table-ddl-formatting",
+      "task-task-graph-export",
+      "tengo-destructuring-bindings",
+      "testem-bail-on-test-failure",
+      "updo-policy-alerting",
+      "vulture-persistent-analysis-cache",
+      "yaegi-go-embed-directives",
+      "ytt-jsonpath-query-api"
+    ],
+    "old_explicit_quality_or_authenticity_ids": [
+      "prometheus-transactional-reload-status",
+      "drizzle-orm-window-function-builders",
+      "koota-entity-snapshot-rollback",
+      "csstree-shorthand-expansion-compression",
+      "httpx-deterministic-cookie-store",
+      "anko-default-function-arguments",
+      "dasel-html-document-format",
+      "happy-dom-abort-pending-body-reads"
+    ],
+    "source_absence_does_not_establish_clean_verifier": true
+  },
+  "candidates": [
+    {
+      "family_id": "deepswe",
+      "task_id": "go-git-worktree-merge-conflicts",
+      "title": "Add worktree merge conflict handling",
+      "recommendation_status": "draft_for_review_not_selected",
+      "qualification_status": "pending",
+      "source_commit": "0b9fabbb63b9104d678fe965e1632f2dd9eaa2ea",
+      "canonical_task_directory": "tasks/go-git-worktree-merge-conflicts",
+      "canonical_url": "https://github.com/datacurve-ai/deep-swe/tree/0b9fabbb63b9104d678fe965e1632f2dd9eaa2ea/tasks/go-git-worktree-merge-conflicts",
+      "upstream_identity": {
+        "metadata_task_id": "go-git-worktree-merge-conflicts",
+        "task_name": "datacurve/go-git-worktree-merge-conflicts",
+        "schema_version": "1.3",
+        "repository_url": "https://github.com/go-git/go-git",
+        "base_commit_hash": "424e9964d3a33c6507a77c126841f2c5897262af",
+        "language": "go"
+      },
+      "reason": "Adds version-control state reconstruction across the worktree, index and commit graph in a project absent from the retained cohort. The requirements combine three-way merge, file/directory and delete/modify cases, partial nonconflicting application, staged conflict resolution and merge-parent cleanup.",
+      "structural_scope": [
+        "three-way merge",
+        "worktree/index/commit consistency",
+        "file-directory and deletion edge cases",
+        "conflict resolution lifecycle"
+      ],
+      "difficulty_evidence": {
+        "kind": "requirement_complexity_only",
+        "empirical_hardness_claim": false,
+        "note": "The draft uses explicit coupled requirements, a distinct repository and language coverage. No current model scores or runtimes were used to rank it."
+      },
+      "screening": {
+        "supplied_flaw_list_checked": true,
+        "supplied_flaw_list_hit": false,
+        "old_explicit_quality_or_authenticity_exclusion_hit": false,
+        "v1_reserve_named": true,
+        "absence_from_known_lists_proves_clean_verifier": false
+      },
+      "static_test_contract": {
+        "fail_to_pass_ids": 17,
+        "pass_to_pass_ids": 2,
+        "native_grading_format": "ctrf",
+        "replay_performed": false
+      },
+      "pending_checks": [
+        "Review and accept the exact addition.",
+        "Replay pinned reference, empty, regression and malformed patches using the separate verifier; inspect test replacement and symbol/name collisions.",
+        "Resolve agent and verifier container digests and the Pier/Harbor adapter mapping.",
+        "Remove agent-work timeout while preserving task-defined resources, no-network environment and branch/commit collection contract.",
+        "Qualify complete session/capture and natural completion timing before any scientific run."
+      ],
+      "source_refs": [
+        "deep_go-git-worktree-merge-conflicts_task",
+        "deep_go-git-worktree-merge-conflicts_instruction",
+        "deep_go-git-worktree-merge-conflicts_test_config",
+        "supplied_deepswe_flaw_list",
+        "v1_selection_and_audit"
+      ]
+    },
+    {
+      "family_id": "deepswe",
+      "task_id": "yjs-map-conflict-detection",
+      "title": "Add deterministic map conflict detection to Y.Map writes",
+      "recommendation_status": "draft_for_review_not_selected",
+      "qualification_status": "pending",
+      "source_commit": "0b9fabbb63b9104d678fe965e1632f2dd9eaa2ea",
+      "canonical_task_directory": "tasks/yjs-map-conflict-detection",
+      "canonical_url": "https://github.com/datacurve-ai/deep-swe/tree/0b9fabbb63b9104d678fe965e1632f2dd9eaa2ea/tasks/yjs-map-conflict-detection",
+      "upstream_identity": {
+        "metadata_task_id": "yjs-map-conflict-detection",
+        "task_name": "datacurve/yjs-map-conflict-detection",
+        "schema_version": "1.3",
+        "repository_url": "https://github.com/yjs/yjs",
+        "base_commit_hash": "7795050a749bd1111cbbdd9d0219b27226a8e710",
+        "language": "javascript"
+      },
+      "reason": "Adds collaborative data-structure semantics in a second JavaScript project. The requirements combine local and merged map updates, atomic failure, nested-type ambiguity and deterministic conflict reports, extending coverage beyond the retained math renderer.",
+      "structural_scope": [
+        "collaborative replicated data",
+        "atomic merged updates",
+        "nested type/subdocument ambiguity",
+        "deterministic conflict reporting"
+      ],
+      "difficulty_evidence": {
+        "kind": "requirement_complexity_only",
+        "empirical_hardness_claim": false,
+        "note": "The draft uses explicit coupled requirements, a distinct repository and language coverage. No current model scores or runtimes were used to rank it."
+      },
+      "screening": {
+        "supplied_flaw_list_checked": true,
+        "supplied_flaw_list_hit": false,
+        "old_explicit_quality_or_authenticity_exclusion_hit": false,
+        "v1_reserve_named": true,
+        "absence_from_known_lists_proves_clean_verifier": false
+      },
+      "static_test_contract": {
+        "fail_to_pass_ids": 9,
+        "pass_to_pass_ids": 231,
+        "native_grading_format": "junit",
+        "replay_performed": false
+      },
+      "pending_checks": [
+        "Review and accept the exact addition.",
+        "Replay pinned reference, empty, regression and malformed patches using the separate verifier; inspect test replacement and symbol/name collisions.",
+        "Resolve agent and verifier container digests and the Pier/Harbor adapter mapping.",
+        "Remove agent-work timeout while preserving task-defined resources, no-network environment and branch/commit collection contract.",
+        "Qualify complete session/capture and natural completion timing before any scientific run."
+      ],
+      "source_refs": [
+        "deep_yjs-map-conflict-detection_task",
+        "deep_yjs-map-conflict-detection_instruction",
+        "deep_yjs-map-conflict-detection_test_config",
+        "supplied_deepswe_flaw_list",
+        "v1_selection_and_audit"
+      ]
+    },
+    {
+      "family_id": "paper",
+      "task_id": "pinn",
+      "title": "Challenges in Training PINNs: A Loss Landscape Perspective",
+      "recommendation_status": "draft_for_review_not_selected",
+      "qualification_status": "pending",
+      "source_commit": "51052cede8cc608f95bb00346635e03759013e5a",
+      "canonical_url": "https://github.com/openai/preparedness/tree/51052cede8cc608f95bb00346635e03759013e5a/project/paperbench/data/papers/pinn",
+      "upstream_identity": {
+        "config_id": "pinn",
+        "official_split": "all",
+        "config_path": "project/paperbench/data/papers/pinn/config.yaml",
+        "rubric_path": "project/paperbench/data/papers/pinn/rubric.json"
+      },
+      "reason": "Adds physics-informed neural-network training and numerical optimization. The retained papers cover diffusion transfer learning, zero-shot reinforcement learning and black-box variational inference, so this contributes a distinct scientific-computing area.",
+      "objective": "Reproduce the full paper: implement methods, run the specified experiments and produce the results required by the pinned rubric. Preserve the official reproduction stage in a fresh GPU container and grading of the executed submission.",
+      "rubric_scope": {
+        "root_requirement": "Reproduce the paper \"Challenges in Training PINNs: A Loss Landscape Perspective\"",
+        "top_level_requirements": [
+          "The experiments described in section 2.2 have been run",
+          "The results of Figure 2 have been reproduced",
+          "The results of Figure 3 and Figure 7 have been reproduced",
+          "The results of Figure 8 and Table 1 have been reproduced",
+          "The NysNewton-CG (abbreviated NNCG) optimizer has been implemented as outlined in Section 7.2 and Appendix E.",
+          "The results of Figure 4, Figure 5 and Table 2 have been reproduced",
+          "The results of Table 3 have been reproduced"
+        ],
+        "example_execution_requirement": "Train the specified MLPs for the convection problem and measure final loss and relative error over the declared settings and seeds.",
+        "code_only_variant": false
+      },
+      "source_materialization": {
+        "config_present": true,
+        "rubric_present_and_matches_git_blob": true,
+        "paper_and_addendum_hydrated": false,
+        "unhydrated_objects": [
+          {
+            "path": "project/paperbench/data/papers/pinn/paper.md",
+            "expected_content_sha256": "19a1ad906356e3efaa6bf82be11668c27af9ea376b5fbfa5945283fa188f4741",
+            "expected_content_bytes": 124207,
+            "current_local_state": "lfs_pointer_not_hydrated"
+          },
+          {
+            "path": "project/paperbench/data/papers/pinn/paper.pdf",
+            "expected_content_sha256": "9c4d6741961f9fd97d92c9a20fbcb34a853a08776cfffc19f05da31520c5611b",
+            "expected_content_bytes": 1580711,
+            "current_local_state": "lfs_pointer_not_hydrated"
+          },
+          {
+            "path": "project/paperbench/data/papers/pinn/addendum.md",
+            "expected_content_sha256": "76fcd5372f61bf1bb038d8d944119d1817a416d6579ebfc27a64626d6b628d96",
+            "expected_content_bytes": 1481,
+            "current_local_state": "lfs_pointer_not_hydrated"
+          }
+        ]
+      },
+      "pending_checks": [
+        "Review and accept the exact addition.",
+        "Hydrate the paper, PDF, addendum and required assets at the pinned LFS hashes; the pointer text is not task content.",
+        "Audit the full addendum and freeze required data, dependencies, compute resources and reproduction commands.",
+        "Retain the full reproduction/rubric objective and author-code blacklist; do not turn this into a code-only task.",
+        "Remove competing agent-work duration text while preserving task-defined training settings; qualify reproduction, native grading and archive completeness."
+      ],
+      "source_refs": [
+        "paper_pinn_config_yaml",
+        "paper_pinn_rubric_json",
+        "paper_pinn_blacklist_txt",
+        "paper_pinn_paper_md",
+        "paper_pinn_paper_pdf",
+        "paper_pinn_addendum_md",
+        "paper_all_split",
+        "paper_readme"
+      ]
+    },
+    {
+      "family_id": "posttrain",
+      "task_id": "qwen3-1.7b-base__aime2025",
+      "title": "Post-train Qwen3-1.7B-Base for American Invitational Mathematics Examination (AIME) 2025",
+      "recommendation_status": "draft_for_review_not_selected",
+      "qualification_status": "pending",
+      "source_commit": "c5b4e9795e3aa0e16a51b4382e27b59338fbd2bd",
+      "upstream_release_candidate": "1.2",
+      "canonical_url": "https://github.com/aisa-group/PostTrainBench/tree/c5b4e9795e3aa0e16a51b4382e27b59338fbd2bd/src/eval/tasks/aime2025",
+      "parameter_mapping": {
+        "agenttime_id_rule": "lowercase_base_model_name + \"__\" + upstream_benchmark_id",
+        "agenttime_base_model_name": "qwen3-1.7b-base",
+        "model_repository": "Qwen/Qwen3-1.7B-Base",
+        "adapter_model_key": "qwen3-1.7b",
+        "adapter_benchmark_id": "aime2025",
+        "adapter_generated_task_id": "posttrainbench-aime2025-qwen3-1.7b",
+        "adapter_id_rule": "posttrainbench-{benchmark_id}-{model_info.short_name}",
+        "mode": "natural_uncapped_AgentTime_adaptation",
+        "runtime_generation_executed": false
+      },
+      "static_support_checks": {
+        "base_model_in_adapter_models": true,
+        "benchmark_info_present": true,
+        "benchmark_in_scored_v1_2_targets": true,
+        "required_fallback_baseline_key_present": true,
+        "baseline_value_not_used_for_selection": true,
+        "required_test_data_json_present": false
+      },
+      "reason": "Adds competition-level mathematical reasoning beyond the retained GSM8K target while keeping the Qwen base checkpoint fixed. The final evaluator now calls the exact numeric matcher that addresses the earlier suffix-matching issue.",
+      "review_note": "This revisits the older v1 exclusion tied to numeric matching. The v1.2 source contains the correction, but scorer replay and dataset parity are still required.",
+      "pending_checks": [
+        "Review and accept the exact base-model/target pair.",
+        "Pin the exact Qwen model revision, tokenizer, training data and native evaluation/decontamination dataset revisions.",
+        "Materialize mandatory test_data.json through a separately authorized source process; do not execute the upstream downloader in this draft.",
+        "Remove timer text/countdowns and effective agent/backend cutoffs for the natural condition, preserving the native objective and declared resources.",
+        "Qualify the official adapter with complete retained training weights, native sessions, final model capture and score/integrity handling.",
+        "Replay the exact numeric matcher against positive, negative, malformed and suffix-collision cases and confirm final-evaluation seeds."
+      ],
+      "source_refs": [
+        "ptb_src_harbor_adapter_adapter_py",
+        "ptb_src_harbor_adapter_README_md",
+        "ptb_scripts_utils_py",
+        "ptb_scripts_baselines_json",
+        "ptb_aime2025_info",
+        "posttrain_1_2_assessment",
+        "ptb_src_eval_tasks_aime2025_evaluate_final_eval_py",
+        "ptb_src_eval_exact_numeric_match_py"
+      ]
+    },
+    {
+      "family_id": "posttrain",
+      "task_id": "qwen3-1.7b-base__arenahardwriting",
+      "title": "Post-train Qwen3-1.7B-Base for Arena-Hard-v2.0 (Writing)",
+      "recommendation_status": "draft_for_review_not_selected",
+      "qualification_status": "pending",
+      "source_commit": "c5b4e9795e3aa0e16a51b4382e27b59338fbd2bd",
+      "upstream_release_candidate": "1.2",
+      "canonical_url": "https://github.com/aisa-group/PostTrainBench/tree/c5b4e9795e3aa0e16a51b4382e27b59338fbd2bd/src/eval/tasks/arenahardwriting",
+      "parameter_mapping": {
+        "agenttime_id_rule": "lowercase_base_model_name + \"__\" + upstream_benchmark_id",
+        "agenttime_base_model_name": "qwen3-1.7b-base",
+        "model_repository": "Qwen/Qwen3-1.7B-Base",
+        "adapter_model_key": "qwen3-1.7b",
+        "adapter_benchmark_id": "arenahardwriting",
+        "adapter_generated_task_id": "posttrainbench-arenahardwriting-qwen3-1.7b",
+        "adapter_id_rule": "posttrainbench-{benchmark_id}-{model_info.short_name}",
+        "mode": "natural_uncapped_AgentTime_adaptation",
+        "runtime_generation_executed": false
+      },
+      "static_support_checks": {
+        "base_model_in_adapter_models": true,
+        "benchmark_info_present": true,
+        "benchmark_in_scored_v1_2_targets": true,
+        "required_fallback_baseline_key_present": true,
+        "baseline_value_not_used_for_selection": true,
+        "required_test_data_json_present": false
+      },
+      "reason": "Adds open-ended writing as a different training objective from the retained code and grade-school-math targets, while keeping the same Qwen base checkpoint.",
+      "review_note": "This revisits the older v1 operational exclusion of an external model judge. Accepting this addition requires an explicit frozen grading model/prompt/repeat/error policy; judge credentials and calls have not been inspected or used.",
+      "pending_checks": [
+        "Review and accept the exact base-model/target pair.",
+        "Pin the exact Qwen model revision, tokenizer, training data and native evaluation/decontamination dataset revisions.",
+        "Materialize mandatory test_data.json through a separately authorized source process; do not execute the upstream downloader in this draft.",
+        "Remove timer text/countdowns and effective agent/backend cutoffs for the natural condition, preserving the native objective and declared resources.",
+        "Qualify the official adapter with complete retained training weights, native sessions, final model capture and score/integrity handling.",
+        "Freeze and qualify the external writing judge, including model revision, prompt, failure behavior and repeat policy."
+      ],
+      "source_refs": [
+        "ptb_src_harbor_adapter_adapter_py",
+        "ptb_src_harbor_adapter_README_md",
+        "ptb_scripts_utils_py",
+        "ptb_scripts_baselines_json",
+        "ptb_arenahardwriting_info",
+        "posttrain_1_2_assessment"
+      ]
+    },
+    {
+      "family_id": "yc",
+      "task_id": "yc-bench.default.seed4",
+      "title": "Run the canonical one-year startup simulation with seed 4",
+      "recommendation_status": "draft_for_review_not_selected",
+      "qualification_status": "pending",
+      "source_commit": "61aa49c92063510be30d903443a59833847c8fc1",
+      "canonical_url": "https://github.com/collinear-ai/yc-bench/blob/61aa49c92063510be30d903443a59833847c8fc1/src/yc_bench/config/presets/default.toml",
+      "parameter_mapping": {
+        "preset": "default",
+        "run_seed": 4,
+        "cli_parameters": [
+          "--seed",
+          "4",
+          "--config",
+          "default"
+        ],
+        "config_sha256": "3b7fe76e45fa8372efd66839c894d76c87fa43a18f141b435fd9359828021068",
+        "simulation_horizon_years": 1,
+        "terminal_condition": "one-year simulation horizon or bankruptcy",
+        "official_example_seed_cohort": [
+          1,
+          2,
+          3
+        ],
+        "seed4_is_user_reviewed_extension_not_official_example": true
+      },
+      "reason": "Adds the next unused integer seed without inspecting or ranking seed outcomes. It keeps the canonical task rules fixed while proposing another market-task instance.",
+      "source_findings": [
+        "The runner accepts an integer seed and a named default preset.",
+        "seed_world.py forwards the run seed to market-task generation.",
+        "Employees and clients use the fixed internal world seed 1, so they do not become new populations under seed 4.",
+        "The source creates UUIDs for database entities; semantic world comparison must not rely on raw SQLite byte identity."
+      ],
+      "distinct_world_status": "pending; no generator or simulator was executed",
+      "pending_checks": [
+        "Review and accept seed 4 as an explicit extension beyond the published 1/2/3 example cohort.",
+        "Using a separately qualified, model-free generator, compare canonicalized task/world content for seed 4 against seeds 1/2/3 and repeat seed 4 for determinism; ignore incidental UUID and database-layout differences.",
+        "Freeze one canonical seed-4 starting state and reuse its exact cloned state across conditions and models.",
+        "Preserve one-year and bankruptcy endpoints; remove only competing agent-work ceilings.",
+        "Qualify sealed environment/state, terminal-state scoring and complete native session archives."
+      ],
+      "source_refs": [
+        "yc_README_md",
+        "yc_src_yc_bench_runner_args_py",
+        "yc_src_yc_bench_config_presets_default_toml",
+        "yc_src_yc_bench_services_seed_world_py",
+        "yc_src_yc_bench_services_rng_py",
+        "yc_src_yc_bench_services_generate_tasks_py",
+        "yc_src_yc_bench_core_handlers_bankruptcy_py",
+        "yc_src_yc_bench_core_handlers_horizon_end_py"
+      ]
+    }
+  ]
+}

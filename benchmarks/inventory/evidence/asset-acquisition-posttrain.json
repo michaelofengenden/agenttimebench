@@ -1,0 +1,423 @@
+{
+  "scope": "PostTrainBench source acquisition only; no model loading/training/evaluation executed",
+  "rows": [
+    {
+      "slot_id": "posttrain-01",
+      "candidate_id": "qwen3-1.7b-base__humaneval",
+      "component_updates": {
+        "assets": {
+          "status": "present",
+          "evidence": [
+            {
+              "root": "repository",
+              "path": "benchmarks/cache/posttrain-assets-20261002/model-receipt.json",
+              "exists": true,
+              "bytes": 5915,
+              "sha256": "67c287ee1290ff8def0d1ddea4cf28c06d3e1f1734394fd88b19469c3e11318f",
+              "role": "verified_base_checkpoint_receipt"
+            },
+            {
+              "root": "repository",
+              "exists": true,
+              "path": "benchmarks/cache/posttrain-assets-20261002/subject-model/config.json",
+              "bytes": 727,
+              "sha256": "1bb33a92c3548fbc68b889b490e810440435253598835bd71dff0396060c12db",
+              "source_url": "https://huggingface.co/Qwen/Qwen3-1.7B-Base/resolve/ea980cb0a6c2ae4b936e82123acc929f1cec04c1/config.json?download=true",
+              "expected_sha256": null,
+              "expected_git_blob_sha1": "78f3deadbfd84408806f8f8c46abbc9647f673d2",
+              "role": "base_checkpoint_and_tokenizer",
+              "source_revision": "ea980cb0a6c2ae4b936e82123acc929f1cec04c1"
+            },
+            {
+              "root": "repository",
+              "exists": true,
+              "path": "benchmarks/cache/posttrain-assets-20261002/subject-model/model.safetensors",
+              "bytes": 3441185608,
+              "sha256": "6df85b39330e5a425ee36253d0f894e4387e4f0a15b9c53cb467d668e6b3a841",
+              "source_url": "https://huggingface.co/Qwen/Qwen3-1.7B-Base/resolve/ea980cb0a6c2ae4b936e82123acc929f1cec04c1/model.safetensors?download=true",
+              "expected_sha256": "6df85b39330e5a425ee36253d0f894e4387e4f0a15b9c53cb467d668e6b3a841",
+              "expected_git_blob_sha1": null,
+              "role": "base_checkpoint_and_tokenizer",
+              "source_revision": "ea980cb0a6c2ae4b936e82123acc929f1cec04c1"
+            },
+            {
+              "root": "repository",
+              "exists": true,
+              "path": "benchmarks/cache/posttrain-assets-20261002/subject-model/tokenizer.json",
+              "bytes": 7031645,
+              "sha256": "c0382117ea329cdf097041132f6d735924b697924d6f6fc3945713e96ce87539",
+              "source_url": "https://huggingface.co/Qwen/Qwen3-1.7B-Base/resolve/ea980cb0a6c2ae4b936e82123acc929f1cec04c1/tokenizer.json?download=true",
+              "expected_sha256": null,
+              "expected_git_blob_sha1": "443909a61d429dff23010e5bddd28ff530edda00",
+              "role": "base_checkpoint_and_tokenizer",
+              "source_revision": "ea980cb0a6c2ae4b936e82123acc929f1cec04c1"
+            },
+            {
+              "root": "repository",
+              "exists": true,
+              "path": "benchmarks/cache/posttrain-assets-20261002/subject-model/tokenizer_config.json",
+              "bytes": 9678,
+              "sha256": "3c04ed3ca964ea2f6b2b5faf0dc4d31aec1cb1e8b4bcf63f402d295046b422b5",
+              "source_url": "https://huggingface.co/Qwen/Qwen3-1.7B-Base/resolve/ea980cb0a6c2ae4b936e82123acc929f1cec04c1/tokenizer_config.json?download=true",
+              "expected_sha256": null,
+              "expected_git_blob_sha1": "6a3829ee9491f36113e64df37573be81df0366f5",
+              "role": "base_checkpoint_and_tokenizer",
+              "source_revision": "ea980cb0a6c2ae4b936e82123acc929f1cec04c1"
+            },
+            {
+              "root": "repository",
+              "exists": true,
+              "path": "benchmarks/cache/posttrain-assets-20261002/verifier-data/humaneval/openai_humaneval/test-00000-of-00001.parquet",
+              "bytes": 83920,
+              "sha256": "2f2871a15fbc95b6c683043359f4ed8e144c5a1c4f24f25f66bc51f598dfcfb6",
+              "source_url": "https://huggingface.co/datasets/openai/openai_humaneval/resolve/7dce6050a7d6d172f3cc5c32aa97f52fa1a2e544/openai_humaneval/test-00000-of-00001.parquet",
+              "expected_sha256": "2f2871a15fbc95b6c683043359f4ed8e144c5a1c4f24f25f66bc51f598dfcfb6",
+              "expected_git_blob_sha1": null,
+              "source_revision": "7dce6050a7d6d172f3cc5c32aa97f52fa1a2e544",
+              "dataset_id": "openai/openai_humaneval",
+              "role": "native_evaluation_data",
+              "target": "humaneval"
+            },
+            {
+              "root": "repository",
+              "path": "benchmarks/cache/extra-inputs-20261002/posttrain/humaneval/test_data.json",
+              "exists": true,
+              "bytes": 116163,
+              "sha256": "85d6c3ab3a76590160695424d75d79e90049d5ceaaa809c9771d292054ad68a5",
+              "role": "private_contamination_test_inputs"
+            }
+          ],
+          "remaining_gap": "Base checkpoint, tokenizer and native evaluation data are now cached and verified. Bind exact dataset/model revisions into the runtime, preserve verifier isolation, and qualify GPU execution. Native training data is agent-selected; the initial training-cache policy remains to be frozen.",
+          "base_model_id": "Qwen/Qwen3-1.7B-Base",
+          "base_model_revision": "ea980cb0a6c2ae4b936e82123acc929f1cec04c1",
+          "native_data_source_pins_present": true
+        }
+      },
+      "review_notes_to_remove_prefixes": [
+        "Pin the exact Qwen model revision, tokenizer, training data"
+      ]
+    },
+    {
+      "slot_id": "posttrain-02",
+      "candidate_id": "qwen3-1.7b-base__gsm8k",
+      "component_updates": {
+        "assets": {
+          "status": "present",
+          "evidence": [
+            {
+              "root": "repository",
+              "path": "benchmarks/cache/posttrain-assets-20261002/model-receipt.json",
+              "exists": true,
+              "bytes": 5915,
+              "sha256": "67c287ee1290ff8def0d1ddea4cf28c06d3e1f1734394fd88b19469c3e11318f",
+              "role": "verified_base_checkpoint_receipt"
+            },
+            {
+              "root": "repository",
+              "exists": true,
+              "path": "benchmarks/cache/posttrain-assets-20261002/subject-model/config.json",
+              "bytes": 727,
+              "sha256": "1bb33a92c3548fbc68b889b490e810440435253598835bd71dff0396060c12db",
+              "source_url": "https://huggingface.co/Qwen/Qwen3-1.7B-Base/resolve/ea980cb0a6c2ae4b936e82123acc929f1cec04c1/config.json?download=true",
+              "expected_sha256": null,
+              "expected_git_blob_sha1": "78f3deadbfd84408806f8f8c46abbc9647f673d2",
+              "role": "base_checkpoint_and_tokenizer",
+              "source_revision": "ea980cb0a6c2ae4b936e82123acc929f1cec04c1"
+            },
+            {
+              "root": "repository",
+              "exists": true,
+              "path": "benchmarks/cache/posttrain-assets-20261002/subject-model/model.safetensors",
+              "bytes": 3441185608,
+              "sha256": "6df85b39330e5a425ee36253d0f894e4387e4f0a15b9c53cb467d668e6b3a841",
+              "source_url": "https://huggingface.co/Qwen/Qwen3-1.7B-Base/resolve/ea980cb0a6c2ae4b936e82123acc929f1cec04c1/model.safetensors?download=true",
+              "expected_sha256": "6df85b39330e5a425ee36253d0f894e4387e4f0a15b9c53cb467d668e6b3a841",
+              "expected_git_blob_sha1": null,
+              "role": "base_checkpoint_and_tokenizer",
+              "source_revision": "ea980cb0a6c2ae4b936e82123acc929f1cec04c1"
+            },
+            {
+              "root": "repository",
+              "exists": true,
+              "path": "benchmarks/cache/posttrain-assets-20261002/subject-model/tokenizer.json",
+              "bytes": 7031645,
+              "sha256": "c0382117ea329cdf097041132f6d735924b697924d6f6fc3945713e96ce87539",
+              "source_url": "https://huggingface.co/Qwen/Qwen3-1.7B-Base/resolve/ea980cb0a6c2ae4b936e82123acc929f1cec04c1/tokenizer.json?download=true",
+              "expected_sha256": null,
+              "expected_git_blob_sha1": "443909a61d429dff23010e5bddd28ff530edda00",
+              "role": "base_checkpoint_and_tokenizer",
+              "source_revision": "ea980cb0a6c2ae4b936e82123acc929f1cec04c1"
+            },
+            {
+              "root": "repository",
+              "exists": true,
+              "path": "benchmarks/cache/posttrain-assets-20261002/subject-model/tokenizer_config.json",
+              "bytes": 9678,
+              "sha256": "3c04ed3ca964ea2f6b2b5faf0dc4d31aec1cb1e8b4bcf63f402d295046b422b5",
+              "source_url": "https://huggingface.co/Qwen/Qwen3-1.7B-Base/resolve/ea980cb0a6c2ae4b936e82123acc929f1cec04c1/tokenizer_config.json?download=true",
+              "expected_sha256": null,
+              "expected_git_blob_sha1": "6a3829ee9491f36113e64df37573be81df0366f5",
+              "role": "base_checkpoint_and_tokenizer",
+              "source_revision": "ea980cb0a6c2ae4b936e82123acc929f1cec04c1"
+            },
+            {
+              "root": "repository",
+              "exists": true,
+              "path": "benchmarks/cache/posttrain-assets-20261002/verifier-data/gsm8k/main/test-00000-of-00001.parquet",
+              "bytes": 419088,
+              "sha256": "ee7b8da9e381df27b9e3f7758a159ab2bdaa4dbaa910546cbbc47e0cb44e4f59",
+              "source_url": "https://huggingface.co/datasets/openai/gsm8k/resolve/740312add88f781978c0658806c59bc2815b9866/main/test-00000-of-00001.parquet",
+              "expected_sha256": "ee7b8da9e381df27b9e3f7758a159ab2bdaa4dbaa910546cbbc47e0cb44e4f59",
+              "expected_git_blob_sha1": null,
+              "source_revision": "740312add88f781978c0658806c59bc2815b9866",
+              "dataset_id": "openai/gsm8k",
+              "role": "native_evaluation_data",
+              "target": "gsm8k"
+            },
+            {
+              "root": "repository",
+              "exists": true,
+              "path": "benchmarks/cache/posttrain-assets-20261002/verifier-data/gsm8k/main/train-00000-of-00001.parquet",
+              "bytes": 2306545,
+              "sha256": "ea82612ea9582142387730c793eb67d3b12849002bc0b7fa6f8efafa7351419d",
+              "source_url": "https://huggingface.co/datasets/openai/gsm8k/resolve/740312add88f781978c0658806c59bc2815b9866/main/train-00000-of-00001.parquet",
+              "expected_sha256": "ea82612ea9582142387730c793eb67d3b12849002bc0b7fa6f8efafa7351419d",
+              "expected_git_blob_sha1": null,
+              "source_revision": "740312add88f781978c0658806c59bc2815b9866",
+              "dataset_id": "openai/gsm8k",
+              "role": "native_evaluation_data",
+              "target": "gsm8k"
+            },
+            {
+              "root": "repository",
+              "path": "benchmarks/cache/extra-inputs-20261002/posttrain/gsm8k/test_data.json",
+              "exists": true,
+              "bytes": 768720,
+              "sha256": "bd5f0d3b71607e5c47d66720c229b7d32128b137a8ac8e94f7ef51c118664be1",
+              "role": "private_contamination_test_inputs"
+            }
+          ],
+          "remaining_gap": "Base checkpoint, tokenizer and native evaluation data are now cached and verified. Bind exact dataset/model revisions into the runtime, preserve verifier isolation, and qualify GPU execution. Native training data is agent-selected; the initial training-cache policy remains to be frozen.",
+          "base_model_id": "Qwen/Qwen3-1.7B-Base",
+          "base_model_revision": "ea980cb0a6c2ae4b936e82123acc929f1cec04c1",
+          "native_data_source_pins_present": true
+        }
+      },
+      "review_notes_to_remove_prefixes": [
+        "Pin the exact Qwen model revision, tokenizer, training data"
+      ]
+    },
+    {
+      "slot_id": "posttrain-03",
+      "candidate_id": "qwen3-1.7b-base__aime2025",
+      "component_updates": {
+        "assets": {
+          "status": "present",
+          "evidence": [
+            {
+              "root": "repository",
+              "path": "benchmarks/cache/posttrain-assets-20261002/model-receipt.json",
+              "exists": true,
+              "bytes": 5915,
+              "sha256": "67c287ee1290ff8def0d1ddea4cf28c06d3e1f1734394fd88b19469c3e11318f",
+              "role": "verified_base_checkpoint_receipt"
+            },
+            {
+              "root": "repository",
+              "exists": true,
+              "path": "benchmarks/cache/posttrain-assets-20261002/subject-model/config.json",
+              "bytes": 727,
+              "sha256": "1bb33a92c3548fbc68b889b490e810440435253598835bd71dff0396060c12db",
+              "source_url": "https://huggingface.co/Qwen/Qwen3-1.7B-Base/resolve/ea980cb0a6c2ae4b936e82123acc929f1cec04c1/config.json?download=true",
+              "expected_sha256": null,
+              "expected_git_blob_sha1": "78f3deadbfd84408806f8f8c46abbc9647f673d2",
+              "role": "base_checkpoint_and_tokenizer",
+              "source_revision": "ea980cb0a6c2ae4b936e82123acc929f1cec04c1"
+            },
+            {
+              "root": "repository",
+              "exists": true,
+              "path": "benchmarks/cache/posttrain-assets-20261002/subject-model/model.safetensors",
+              "bytes": 3441185608,
+              "sha256": "6df85b39330e5a425ee36253d0f894e4387e4f0a15b9c53cb467d668e6b3a841",
+              "source_url": "https://huggingface.co/Qwen/Qwen3-1.7B-Base/resolve/ea980cb0a6c2ae4b936e82123acc929f1cec04c1/model.safetensors?download=true",
+              "expected_sha256": "6df85b39330e5a425ee36253d0f894e4387e4f0a15b9c53cb467d668e6b3a841",
+              "expected_git_blob_sha1": null,
+              "role": "base_checkpoint_and_tokenizer",
+              "source_revision": "ea980cb0a6c2ae4b936e82123acc929f1cec04c1"
+            },
+            {
+              "root": "repository",
+              "exists": true,
+              "path": "benchmarks/cache/posttrain-assets-20261002/subject-model/tokenizer.json",
+              "bytes": 7031645,
+              "sha256": "c0382117ea329cdf097041132f6d735924b697924d6f6fc3945713e96ce87539",
+              "source_url": "https://huggingface.co/Qwen/Qwen3-1.7B-Base/resolve/ea980cb0a6c2ae4b936e82123acc929f1cec04c1/tokenizer.json?download=true",
+              "expected_sha256": null,
+              "expected_git_blob_sha1": "443909a61d429dff23010e5bddd28ff530edda00",
+              "role": "base_checkpoint_and_tokenizer",
+              "source_revision": "ea980cb0a6c2ae4b936e82123acc929f1cec04c1"
+            },
+            {
+              "root": "repository",
+              "exists": true,
+              "path": "benchmarks/cache/posttrain-assets-20261002/subject-model/tokenizer_config.json",
+              "bytes": 9678,
+              "sha256": "3c04ed3ca964ea2f6b2b5faf0dc4d31aec1cb1e8b4bcf63f402d295046b422b5",
+              "source_url": "https://huggingface.co/Qwen/Qwen3-1.7B-Base/resolve/ea980cb0a6c2ae4b936e82123acc929f1cec04c1/tokenizer_config.json?download=true",
+              "expected_sha256": null,
+              "expected_git_blob_sha1": "6a3829ee9491f36113e64df37573be81df0366f5",
+              "role": "base_checkpoint_and_tokenizer",
+              "source_revision": "ea980cb0a6c2ae4b936e82123acc929f1cec04c1"
+            },
+            {
+              "root": "repository",
+              "exists": true,
+              "path": "benchmarks/cache/posttrain-assets-20261002/verifier-data/aime2025/test.jsonl",
+              "bytes": 15813,
+              "sha256": "b4e273c02d3e7fe1b74b59eae768fc8230bfb0f79539890cb56f4361caac0331",
+              "source_url": "https://huggingface.co/datasets/math-ai/aime25/resolve/563bb8404243c5f09de6ec262f2db674fe5bce9b/test.jsonl",
+              "expected_sha256": null,
+              "expected_git_blob_sha1": "236626dd7679a0671562f76a0b6e21314529a348",
+              "source_revision": "563bb8404243c5f09de6ec262f2db674fe5bce9b",
+              "dataset_id": "math-ai/aime25",
+              "role": "native_evaluation_data",
+              "target": "aime2025"
+            },
+            {
+              "root": "repository",
+              "path": "benchmarks/cache/extra-inputs-20261002/posttrain/aime2025/test_data.json",
+              "exists": true,
+              "bytes": 15945,
+              "sha256": "7fcbe32d19bb35467b61869db732f375a76519a16177cdcb94f35acce0cc81c1",
+              "role": "private_contamination_test_inputs"
+            }
+          ],
+          "remaining_gap": "Base checkpoint, tokenizer and native evaluation data are now cached and verified. Bind exact dataset/model revisions into the runtime, preserve verifier isolation, and qualify GPU execution. Native training data is agent-selected; the initial training-cache policy remains to be frozen.",
+          "base_model_id": "Qwen/Qwen3-1.7B-Base",
+          "base_model_revision": "ea980cb0a6c2ae4b936e82123acc929f1cec04c1",
+          "native_data_source_pins_present": true
+        }
+      },
+      "review_notes_to_remove_prefixes": [
+        "Pin the exact Qwen model revision, tokenizer, training data"
+      ]
+    },
+    {
+      "slot_id": "posttrain-04",
+      "candidate_id": "qwen3-1.7b-base__arenahardwriting",
+      "component_updates": {
+        "assets": {
+          "status": "present",
+          "evidence": [
+            {
+              "root": "repository",
+              "path": "benchmarks/cache/posttrain-assets-20261002/model-receipt.json",
+              "exists": true,
+              "bytes": 5915,
+              "sha256": "67c287ee1290ff8def0d1ddea4cf28c06d3e1f1734394fd88b19469c3e11318f",
+              "role": "verified_base_checkpoint_receipt"
+            },
+            {
+              "root": "repository",
+              "exists": true,
+              "path": "benchmarks/cache/posttrain-assets-20261002/subject-model/config.json",
+              "bytes": 727,
+              "sha256": "1bb33a92c3548fbc68b889b490e810440435253598835bd71dff0396060c12db",
+              "source_url": "https://huggingface.co/Qwen/Qwen3-1.7B-Base/resolve/ea980cb0a6c2ae4b936e82123acc929f1cec04c1/config.json?download=true",
+              "expected_sha256": null,
+              "expected_git_blob_sha1": "78f3deadbfd84408806f8f8c46abbc9647f673d2",
+              "role": "base_checkpoint_and_tokenizer",
+              "source_revision": "ea980cb0a6c2ae4b936e82123acc929f1cec04c1"
+            },
+            {
+              "root": "repository",
+              "exists": true,
+              "path": "benchmarks/cache/posttrain-assets-20261002/subject-model/model.safetensors",
+              "bytes": 3441185608,
+              "sha256": "6df85b39330e5a425ee36253d0f894e4387e4f0a15b9c53cb467d668e6b3a841",
+              "source_url": "https://huggingface.co/Qwen/Qwen3-1.7B-Base/resolve/ea980cb0a6c2ae4b936e82123acc929f1cec04c1/model.safetensors?download=true",
+              "expected_sha256": "6df85b39330e5a425ee36253d0f894e4387e4f0a15b9c53cb467d668e6b3a841",
+              "expected_git_blob_sha1": null,
+              "role": "base_checkpoint_and_tokenizer",
+              "source_revision": "ea980cb0a6c2ae4b936e82123acc929f1cec04c1"
+            },
+            {
+              "root": "repository",
+              "exists": true,
+              "path": "benchmarks/cache/posttrain-assets-20261002/subject-model/tokenizer.json",
+              "bytes": 7031645,
+              "sha256": "c0382117ea329cdf097041132f6d735924b697924d6f6fc3945713e96ce87539",
+              "source_url": "https://huggingface.co/Qwen/Qwen3-1.7B-Base/resolve/ea980cb0a6c2ae4b936e82123acc929f1cec04c1/tokenizer.json?download=true",
+              "expected_sha256": null,
+              "expected_git_blob_sha1": "443909a61d429dff23010e5bddd28ff530edda00",
+              "role": "base_checkpoint_and_tokenizer",
+              "source_revision": "ea980cb0a6c2ae4b936e82123acc929f1cec04c1"
+            },
+            {
+              "root": "repository",
+              "exists": true,
+              "path": "benchmarks/cache/posttrain-assets-20261002/subject-model/tokenizer_config.json",
+              "bytes": 9678,
+              "sha256": "3c04ed3ca964ea2f6b2b5faf0dc4d31aec1cb1e8b4bcf63f402d295046b422b5",
+              "source_url": "https://huggingface.co/Qwen/Qwen3-1.7B-Base/resolve/ea980cb0a6c2ae4b936e82123acc929f1cec04c1/tokenizer_config.json?download=true",
+              "expected_sha256": null,
+              "expected_git_blob_sha1": "6a3829ee9491f36113e64df37573be81df0366f5",
+              "role": "base_checkpoint_and_tokenizer",
+              "source_revision": "ea980cb0a6c2ae4b936e82123acc929f1cec04c1"
+            },
+            {
+              "root": "repository",
+              "path": "benchmarks/cache/upstream-20261002/posttrain12-code-c5b4e9795e3a/source/src/eval/tasks/arenahardwriting/evaluation_code/data/arena-hard-v2.0/question.jsonl",
+              "exists": true,
+              "bytes": 244234,
+              "sha256": "f337df1022d723b2062bcc530e8e7fbc367548c31fbc87d0ae668f0b6c7609a5",
+              "role": "private_native_evaluation_questions"
+            },
+            {
+              "root": "repository",
+              "path": "benchmarks/cache/upstream-20261002/posttrain12-code-c5b4e9795e3a/source/src/eval/tasks/arenahardwriting/evaluation_code/data/arena-hard-v2.0/model_answer/Qwen3-1.7B.jsonl",
+              "exists": true,
+              "bytes": 1160360,
+              "sha256": "87a72bb89edfd05fc8dd32152750649e1bab60ba1b62ebcd055610a729023c30",
+              "role": "private_native_baseline_answers"
+            },
+            {
+              "root": "repository",
+              "path": "benchmarks/cache/extra-inputs-20261002/posttrain/arenahardwriting/test_data.json",
+              "exists": true,
+              "bytes": 1143894,
+              "sha256": "6ea0b432a9a070dc0065464c991b15fb139bf0a7a915c32e8ce2271aabc151ff",
+              "role": "private_contamination_test_inputs"
+            }
+          ],
+          "remaining_gap": "Base checkpoint, tokenizer and native evaluation data are now cached and verified. Bind exact dataset/model revisions into the runtime, preserve verifier isolation, and qualify GPU execution. Native training data is agent-selected; the initial training-cache policy remains to be frozen.",
+          "base_model_id": "Qwen/Qwen3-1.7B-Base",
+          "base_model_revision": "ea980cb0a6c2ae4b936e82123acc929f1cec04c1",
+          "native_data_source_pins_present": true
+        }
+      },
+      "review_notes_to_remove_prefixes": [
+        "Pin the exact Qwen model revision, tokenizer, training data"
+      ]
+    }
+  ],
+  "receipts": [
+    "benchmarks/cache/posttrain-assets-20261002/acquisition-receipt.json",
+    "benchmarks/cache/posttrain-assets-20261002/evaluation-data-receipt.json"
+  ],
+  "native_eval_checks": {
+    "humaneval_test": 164,
+    "gsm8k_test": 1319,
+    "gsm8k_fewshot_source": "main/train pinned and downloaded",
+    "aime2025_test": 30,
+    "arenahardwriting_questions": 250,
+    "arenahardwriting_baseline_uid_coverage": "250/250"
+  },
+  "remaining": [
+    "Pin environment images, dependencies and initial cache policy; native GPU and grader qualification remain.",
+    "Runtime loaders must use saved exact model and dataset revisions.",
+    "Arena writing judge and integrity judge identities/repetitions require frozen runtime configuration."
+  ],
+  "runtime_qualified": false
+}

@@ -1,0 +1,14 @@
+{
+  "status": "passed_generated_source_checks_only",
+  "manifested_files_verified": 391,
+  "manifested_bytes_verified": 881210914,
+  "assets_present": 4,
+  "assets_needs_checking": 1,
+  "checkpoint_shards_verified": 16,
+  "sqlite_databases_checked": 5,
+  "subject_bundles_boundary_checked": 3,
+  "payment_archive_members_hashed": 289,
+  "payments_restoration_tested": false,
+  "runtime_qualified": 0,
+  "admitted": 0
+}

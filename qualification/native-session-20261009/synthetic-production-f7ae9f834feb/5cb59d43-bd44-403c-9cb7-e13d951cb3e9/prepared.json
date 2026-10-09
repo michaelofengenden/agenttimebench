@@ -1,0 +1,9 @@
+{
+  "attempt_id": "5cb59d43-bd44-403c-9cb7-e13d951cb3e9",
+  "baseline_sha256": "ffc41ab63bc7f34c63efb7b42919c1af66f3f7bf92fa173344e005591bee7844",
+  "inventory_sha256": "1c1723ced45c57d66772303ab7914cf85692a75c02b9850ff56698c886cddb3a",
+  "session_id": "86252432-0fcf-48b8-8267-495e26042c51",
+  "spec_sha256": "d56ab4d0dd2f146abcbcaf7b2afaa0061ba2f69b23630e1ccdece96d32500960",
+  "state": "prepared",
+  "study_admitted": false
+}

@@ -1,0 +1,102 @@
+{
+  "os": [
+    "linux"
+  ],
+  "cpu": [
+    "x64"
+  ],
+  "dist": {
+    "shasum": "fb69f5be9a205b5dbeb0046d3111820f1030e966",
+    "tarball": "https://registry.npmjs.org/@anthropic-ai/claude-code-linux-x64/-/claude-code-linux-x64-2.1.280.tgz",
+    "fileCount": 4,
+    "integrity": "sha512-dJHWFrDSIZ26hdLucnK3ehLmzdzYl3MsPC1RzUctAUaYnZlH5kfAZxnK8qYRAQ89GX3OPrLsnFdt/QnP+0Ck6Q==",
+    "signatures": [
+      {
+        "sig": "MEYCIQDaFKeMh3hMaP9PmAwPb/yRX3ygw3+6eIzP6L4S4cGGWQIhAIvzPal+qxB/LAQyyuKwiWHd5nMuNbpH/cOA6XRbd6sc",
+        "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+      },
+      {
+        "sig": "MEYCIQCrqdwgPBF4wSWFpReA7gARHAzm5VIE2w9qGhSUANRoIQIhAIEeCtV38IvTekZX/HKxw+lkV/xpqjANaIaHGyRB2YII",
+        "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+      }
+    ],
+    "unpackedSize": 233710226
+  },
+  "libc": [
+    "glibc"
+  ],
+  "name": "@anthropic-ai/claude-code-linux-x64",
+  "_from": "file:staged-npm/anthropic-ai-claude-code-linux-x64-2.1.280.tgz",
+  "license": "SEE LICENSE IN LICENSE.md",
+  "_npmUser": {
+    "name": "wolffiex",
+    "email": "wolffiex@anthropic.com"
+  },
+  "_resolved": "/home/runner/work/claude-cli-internal/claude-cli-internal/staged-npm/anthropic-ai-claude-code-linux-x64-2.1.280.tgz",
+  "_integrity": "sha512-dJHWFrDSIZ26hdLucnK3ehLmzdzYl3MsPC1RzUctAUaYnZlH5kfAZxnK8qYRAQ89GX3OPrLsnFdt/QnP+0Ck6Q==",
+  "_npmVersion": "11.19.0",
+  "description": "Native binary for Claude Code on linux-x64",
+  "directories": {},
+  "maintainers": [
+    {
+      "name": "zak-anthropic",
+      "email": "zak@anthropic.com"
+    },
+    {
+      "name": "dylanc-anthropic",
+      "email": "dylanc@anthropic.com"
+    },
+    {
+      "name": "benjmann",
+      "email": "ben@anthropic.com"
+    },
+    {
+      "name": "nikhil-anthropic",
+      "email": "nikhil@anthropic.com"
+    },
+    {
+      "name": "ejlangev-ant",
+      "email": "ethan.langevin@anthropic.com"
+    },
+    {
+      "name": "jv-anthropic",
+      "email": "jv@anthropic.com"
+    },
+    {
+      "name": "ollie-ant-2025",
+      "email": "ollie@anthropic.com"
+    },
+    {
+      "name": "packy-anthropic",
+      "email": "packy@anthropic.com"
+    },
+    {
+      "name": "noahz-anthropic",
+      "email": "noahz@anthropic.com"
+    },
+    {
+      "name": "sbidasaria",
+      "email": "sbidasaria@anthropic.com"
+    },
+    {
+      "name": "wolffiex",
+      "email": "wolffiex@anthropic.com"
+    },
+    {
+      "name": "felixrieseberg-anthropic",
+      "email": "f@anthropic.com"
+    },
+    {
+      "name": "joan-anthropic",
+      "email": "joan@anthropic.com"
+    }
+  ],
+  "_nodeVersion": "24.20.0",
+  "_hasShrinkwrap": false,
+  "_npmOperationalInternal": {
+    "tmp": "tmp/claude-code-linux-x64_2.1.280_1790091880391_0.3965461001139259",
+    "host": "s3://npm-registry-packages-npm-production"
+  },
+  "_id": "@anthropic-ai/claude-code-linux-x64@2.1.280",
+  "version": "2.1.280"
+}

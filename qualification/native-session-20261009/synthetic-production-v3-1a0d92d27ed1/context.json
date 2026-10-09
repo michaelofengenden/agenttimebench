@@ -1,0 +1,110 @@
+{
+  "purpose": "synthetic_production_qualification",
+  "campaign_id": "synthetic-production-v3-1a0d92d27ed1",
+  "manifest_sha256": "8a52965771fbb6e14204ac65a02bbf5a6656ddee6c25e9bb72aaaba139ce5f7c",
+  "records": [
+    {
+      "id": "c97c868c-3388-42a8-bd45-491f2961d5b8",
+      "task_id": "assistant-02",
+      "identity": {
+        "container_id": "9d04dd7b23f9e4803ba65e9021153fbe9987206aa0012323c1c2679093904117",
+        "daemon_id": "22a3c63f-cc13-4b63-b17c-3997cd2acca8",
+        "docker_endpoint": "unix:///var/run/docker.sock",
+        "host_id": "169535205",
+        "session_id": "26e0826e-b6c2-4adc-a34c-13b55a9eec5d",
+        "worker_id": "c97c868c-3388-42a8-bd45-491f2961d5b8"
+      },
+      "intent": {
+        "campaign_id": "synthetic-production-v3-1a0d92d27ed1",
+        "manifest_sha256": "8a52965771fbb6e14204ac65a02bbf5a6656ddee6c25e9bb72aaaba139ce5f7c",
+        "attempt_id": "c97c868c-3388-42a8-bd45-491f2961d5b8",
+        "task_id": "assistant-02",
+        "session_id": "26e0826e-b6c2-4adc-a34c-13b55a9eec5d",
+        "dispatch_id": "c06c2cf4-697b-401b-a4a0-18e7ad0f6523",
+        "resources": {
+          "allocation_scope": "natural_subject",
+          "cpus": 4,
+          "memory_gib": 16,
+          "gpu_count": 0
+        },
+        "runtime_pins": {
+          "cli_version": "2.1.280",
+          "cli_sha256": "1e08503dbdf3c2cb0d706d32f3408277388d1c76ef108673e8fe42c1b322925b",
+          "image_sha256": "sha256:bc5e8675cdb8a8934817780b4285b2cb0819ab4fdbd6bd2bdf7cbb0d87aa2d8e",
+          "worker_sha256": "c79949341ed2d2e6482f3d4353487eafb584e677de5114c4718b8b1244b222ae",
+          "native_session_sha256": "a4321ba27a5a6372362d280096fee04a5a8c98a891c219568165de5b51274382",
+          "python_sha256": "4dbf3143240288fb2170257ffaa7bd030cdda5d2703d1f5f30b627042267e2e3",
+          "bridge_sha256": "8ad81457952f2a556f098806e11c402436126483bca35d2157bc048b32f65cdf"
+        }
+      },
+      "spec": {
+        "schema_version": "agenttime.natural-worker.v1",
+        "executor": "claude-natural-v1",
+        "arm": "natural",
+        "task_id": "assistant-02",
+        "family_id": "assistant",
+        "preparation_contract_sha256": "389363c2479fa027620c26e0501fbd44deeb251249021e1dc5bd6876563053f5",
+        "input_sha256": "3530a98a4b7faf094f6a3d8eb30f2e9361deedab3020486970569342e98e89e4",
+        "model": "claude-opus-5-5[1m]",
+        "effort": "max",
+        "route": "subscription",
+        "tool_policy": {
+          "native_tools": [],
+          "mcp_tools": [
+            "mcp__assistantbench__observe",
+            "mcp__assistantbench__noop",
+            "mcp__assistantbench__scroll",
+            "mcp__assistantbench__fill",
+            "mcp__assistantbench__select_option",
+            "mcp__assistantbench__click",
+            "mcp__assistantbench__press",
+            "mcp__assistantbench__go_back",
+            "mcp__assistantbench__goto",
+            "mcp__assistantbench__send_msg_to_user"
+          ],
+          "native_subagents": false
+        },
+        "resources": {
+          "allocation_scope": "natural_subject",
+          "cpus": 4,
+          "memory_gib": 16,
+          "gpu_count": 0
+        },
+        "runtime_pins": {
+          "cli_version": "2.1.280",
+          "cli_sha256": "1e08503dbdf3c2cb0d706d32f3408277388d1c76ef108673e8fe42c1b322925b",
+          "image_sha256": "sha256:bc5e8675cdb8a8934817780b4285b2cb0819ab4fdbd6bd2bdf7cbb0d87aa2d8e",
+          "worker_sha256": "c79949341ed2d2e6482f3d4353487eafb584e677de5114c4718b8b1244b222ae",
+          "native_session_sha256": "a4321ba27a5a6372362d280096fee04a5a8c98a891c219568165de5b51274382",
+          "python_sha256": "4dbf3143240288fb2170257ffaa7bd030cdda5d2703d1f5f30b627042267e2e3",
+          "bridge_sha256": "8ad81457952f2a556f098806e11c402436126483bca35d2157bc048b32f65cdf"
+        },
+        "attempt_id": "c97c868c-3388-42a8-bd45-491f2961d5b8",
+        "session_id": "26e0826e-b6c2-4adc-a34c-13b55a9eec5d",
+        "identity": {
+          "container_id": "9d04dd7b23f9e4803ba65e9021153fbe9987206aa0012323c1c2679093904117",
+          "daemon_id": "22a3c63f-cc13-4b63-b17c-3997cd2acca8",
+          "docker_endpoint": "unix:///var/run/docker.sock",
+          "host_id": "169535205",
+          "session_id": "26e0826e-b6c2-4adc-a34c-13b55a9eec5d",
+          "worker_id": "c97c868c-3388-42a8-bd45-491f2961d5b8"
+        }
+      },
+      "baseline_ack": {
+        "schema_version": "agenttime.natural-baseline-ack.v1",
+        "attempt_id": "c97c868c-3388-42a8-bd45-491f2961d5b8",
+        "identity_sha256": "5bc483b1eed693585dc2146dfff03286f670857b709c02cee998a091e405b537",
+        "session_id": "26e0826e-b6c2-4adc-a34c-13b55a9eec5d",
+        "contract_sha256": "389363c2479fa027620c26e0501fbd44deeb251249021e1dc5bd6876563053f5",
+        "input_sha256": "3530a98a4b7faf094f6a3d8eb30f2e9361deedab3020486970569342e98e89e4",
+        "inventory_sha256": "495b6aa8a8d6774e66bd37a487adf0a6f22cde9fcff1b6f63ba66d0e60ce2c06",
+        "archive_manifest_sha256": "19fb2b14da5c8ea387e7e89e7ab74ff6b674ebdac1f6393ff88af76625092c12",
+        "archive_verified": true,
+        "independent_archive": true,
+        "archive_location": "/Users/michaelofengenden/Developer/TimeResearch/AgentTime-v1.1/qualification/native-session-20261009/synthetic-production-v3-1a0d92d27ed1/c97c868c-3388-42a8-bd45-491f2961d5b8/initial-state"
+      }
+    }
+  ],
+  "barrier_id": "b69d11d2-80df-4b47-80b0-7dce37e389c4",
+  "study_attempts": 0
+}

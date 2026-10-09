@@ -1,0 +1,1177 @@
+{
+  "status": "draft_for_user_review",
+  "rows": [
+    {
+      "slot_id": "deepswe-13",
+      "family_id": "deepswe",
+      "candidate_id": "go-git-worktree-merge-conflicts",
+      "title": "Add worktree merge conflict handling",
+      "identity_kind": "upstream_task_id",
+      "source_pin": "0b9fabbb63b9104d678fe965e1632f2dd9eaa2ea",
+      "recommendation_reason": "Adds version-control state reconstruction across the worktree, index and commit graph in a project absent from the retained cohort. The requirements combine three-way merge, file/directory and delete/modify cases, partial nonconflicting application, staged conflict resolution and merge-parent cleanup.",
+      "gaps": [
+        "Native image digests and installed system/language dependencies remain unverified; no Docker environments or builds were started. The source-only checkout has one shallow pinned commit on source-base. Native default-branch and ancestor-history behavior require environment preparation. Native grader controls, agent isolation, effective timer policy and runtime qualification remain pending.",
+        "Build or acquire the pinned environment, verify initial state and qualify the native execution boundary.",
+        "Qualify native positive and adversarial incorrect submissions; list screening alone does not prove validity."
+      ]
+    },
+    {
+      "slot_id": "deepswe-14",
+      "family_id": "deepswe",
+      "candidate_id": "yjs-map-conflict-detection",
+      "title": "Add deterministic map conflict detection to Y.Map writes",
+      "identity_kind": "upstream_task_id",
+      "source_pin": "0b9fabbb63b9104d678fe965e1632f2dd9eaa2ea",
+      "recommendation_reason": "Adds collaborative data-structure semantics in a second JavaScript project. The requirements combine local and merged map updates, atomic failure, nested-type ambiguity and deterministic conflict reports, extending coverage beyond the retained math renderer.",
+      "gaps": [
+        "Native image digests and installed system/language dependencies remain unverified; no Docker environments or builds were started. The source-only checkout has one shallow pinned commit on source-base. Native default-branch and ancestor-history behavior require environment preparation. Native grader controls, agent isolation, effective timer policy and runtime qualification remain pending.",
+        "Build or acquire the pinned environment, verify initial state and qualify the native execution boundary.",
+        "Qualify native positive and adversarial incorrect submissions; list screening alone does not prove validity."
+      ]
+    },
+    {
+      "slot_id": "osworld-17",
+      "family_id": "osworld",
+      "candidate_id": "015",
+      "title": "Young’s modulus report and fitted graph",
+      "identity_kind": "verified_upstream_class_id",
+      "source_pin": "0a1aadad95aa79b00b3783e717d865089ab06e26",
+      "recommendation_reason": "Complete an experimental physics report from measurement records, preserve its table structure and include a fitted graph.",
+      "gaps": [
+        "Browser media bodies are acquired. Original state URLs remain unchanged; any local mirror or pinned routing must preserve the native workflow and be qualified. Release videos and browser media are acquired. Preserve native website discovery/routing; do not expose hidden or supplemental discovery resources as new desktop inputs.",
+        "The pinned VM archive is acquired and checksum verified, but its runtime wrapper image has not been imported, the VM has not been booted, and task setup and initial desktop state remain unqualified. Deploy the pinned Task-Web/OSWorld-web source and its pinned submodules, restore these state fixtures, and qualify host routing. No deployable website image or hosted site was acquired or started.",
+        "Native grading, visual checks, and any judge configuration remain unqualified; keep every verifier/reference body outside the subject workspace."
+      ]
+    },
+    {
+      "slot_id": "osworld-18",
+      "family_id": "osworld",
+      "candidate_id": "042",
+      "title": "Shotcut montage project",
+      "identity_kind": "verified_upstream_class_id",
+      "source_pin": "0a1aadad95aa79b00b3783e717d865089ab06e26",
+      "recommendation_reason": "Create a video montage with timeline edits, speed changes, replay, filters, branding and audio, then save the editable Shotcut project.",
+      "gaps": [
+        "Original upstream extension does not match detected image format. Bytes and filename are preserved; native consumer compatibility remains unchecked.",
+        "The pinned VM archive is acquired and checksum verified, but its runtime wrapper image has not been imported, the VM has not been booted, and task setup and initial desktop state remain unqualified.",
+        "Run full native evaluation including visual and judge-dependent components where required. Video/audio/logo assets and Shotcut/MLT compatibility remain unqualified. The task does not declare intermediate_eval_safe; inherited behavior has not been inferred or exercised."
+      ]
+    },
+    {
+      "slot_id": "appworld-01",
+      "family_id": "appworld",
+      "candidate_id": "988af8e_1",
+      "title": "Execute every task in a camping project across shopping, expenses, payments, invitations, and task closeout",
+      "identity_kind": "upstream_task_id",
+      "source_pin": "code a072b7a86e7c1d5b1d7175659d750ebb9b79f10a; data 0.2.0 c9299e6cafe92bce4592a3c117c047c973d1554a667c21dd81537e78ab2f532e; protected seed 125b7c753cba653741d128b94cd57814e9a739e0118fd4fc4b537eb5aaad553f; image sha256:77d37be71741a740d782c909633845be4a363c5aad8d61530a57f9a1da3c4398",
+      "recommendation_reason": "Fixed-seed sample within descriptive groups from the old cohort. This sampling step uses no outcomes; it does not establish how the historical pool was formed.",
+      "gaps": [
+        "Apply task diffs to the pinned base DBs and validate initial state without exposing ground truth or admin-only data.",
+        "Import/install the pinned framework and concrete generated app implementations/image, then qualify isolated APIs, state lifecycle and task capture.",
+        "Task-native evaluation source and gold data are present; install framework/apps and qualify evaluation against correct and incorrect state changes."
+      ]
+    },
+    {
+      "slot_id": "appworld-02",
+      "family_id": "appworld",
+      "candidate_id": "3fcc458_1",
+      "title": "Reconcile an emailed road-trip song list with a Spotify playlist and download it",
+      "identity_kind": "upstream_task_id",
+      "source_pin": "code a072b7a86e7c1d5b1d7175659d750ebb9b79f10a; data 0.2.0 c9299e6cafe92bce4592a3c117c047c973d1554a667c21dd81537e78ab2f532e; protected seed 125b7c753cba653741d128b94cd57814e9a739e0118fd4fc4b537eb5aaad553f; image sha256:77d37be71741a740d782c909633845be4a363c5aad8d61530a57f9a1da3c4398",
+      "recommendation_reason": "Fixed-seed sample within descriptive groups from the old cohort. This sampling step uses no outcomes; it does not establish how the historical pool was formed.",
+      "gaps": [
+        "Apply task diffs to the pinned base DBs and validate initial state without exposing ground truth or admin-only data.",
+        "Import/install the pinned framework and concrete generated app implementations/image, then qualify isolated APIs, state lifecycle and task capture.",
+        "Task-native evaluation source and gold data are present; install framework/apps and qualify evaluation against correct and incorrect state changes."
+      ]
+    },
+    {
+      "slot_id": "appworld-03",
+      "family_id": "appworld",
+      "candidate_id": "8d42650_1",
+      "title": "Turn this year’s emailed electricity bills into monthly Splitwise expenses",
+      "identity_kind": "upstream_task_id",
+      "source_pin": "code a072b7a86e7c1d5b1d7175659d750ebb9b79f10a; data 0.2.0 c9299e6cafe92bce4592a3c117c047c973d1554a667c21dd81537e78ab2f532e; protected seed 125b7c753cba653741d128b94cd57814e9a739e0118fd4fc4b537eb5aaad553f; image sha256:77d37be71741a740d782c909633845be4a363c5aad8d61530a57f9a1da3c4398",
+      "recommendation_reason": "Fixed-seed sample within descriptive groups from the old cohort. This sampling step uses no outcomes; it does not establish how the historical pool was formed.",
+      "gaps": [
+        "Apply task diffs to the pinned base DBs and validate initial state without exposing ground truth or admin-only data.",
+        "Import/install the pinned framework and concrete generated app implementations/image, then qualify isolated APIs, state lifecycle and task capture.",
+        "Task-native evaluation source and gold data are present; install framework/apps and qualify evaluation against correct and incorrect state changes."
+      ]
+    },
+    {
+      "slot_id": "appworld-04",
+      "family_id": "appworld",
+      "candidate_id": "f86d850_1",
+      "title": "Buy a requested item, forward its receipt, and recover the cost through Venmo",
+      "identity_kind": "upstream_task_id",
+      "source_pin": "code a072b7a86e7c1d5b1d7175659d750ebb9b79f10a; data 0.2.0 c9299e6cafe92bce4592a3c117c047c973d1554a667c21dd81537e78ab2f532e; protected seed 125b7c753cba653741d128b94cd57814e9a739e0118fd4fc4b537eb5aaad553f; image sha256:77d37be71741a740d782c909633845be4a363c5aad8d61530a57f9a1da3c4398",
+      "recommendation_reason": "Fixed-seed sample within descriptive groups from the old cohort. This sampling step uses no outcomes; it does not establish how the historical pool was formed.",
+      "gaps": [
+        "Apply task diffs to the pinned base DBs and validate initial state without exposing ground truth or admin-only data.",
+        "Import/install the pinned framework and concrete generated app implementations/image, then qualify isolated APIs, state lifecycle and task capture.",
+        "Task-native evaluation source and gold data are present; install framework/apps and qualify evaluation against correct and incorrect state changes."
+      ]
+    },
+    {
+      "slot_id": "appworld-05",
+      "family_id": "appworld",
+      "candidate_id": "9a16324_1",
+      "title": "Collect artist recommendations from email and text conversations, then follow them",
+      "identity_kind": "upstream_task_id",
+      "source_pin": "code a072b7a86e7c1d5b1d7175659d750ebb9b79f10a; data 0.2.0 c9299e6cafe92bce4592a3c117c047c973d1554a667c21dd81537e78ab2f532e; protected seed 125b7c753cba653741d128b94cd57814e9a739e0118fd4fc4b537eb5aaad553f; image sha256:77d37be71741a740d782c909633845be4a363c5aad8d61530a57f9a1da3c4398",
+      "recommendation_reason": "Fixed-seed sample within descriptive groups from the old cohort. This sampling step uses no outcomes; it does not establish how the historical pool was formed.",
+      "gaps": [
+        "Apply task diffs to the pinned base DBs and validate initial state without exposing ground truth or admin-only data.",
+        "Import/install the pinned framework and concrete generated app implementations/image, then qualify isolated APIs, state lifecycle and task capture.",
+        "Task-native evaluation source and gold data are present; install framework/apps and qualify evaluation against correct and incorrect state changes."
+      ]
+    },
+    {
+      "slot_id": "appworld-06",
+      "family_id": "appworld",
+      "candidate_id": "1b988ac_1",
+      "title": "Rebuild and send a drafted recommendation email from the user’s Spotify history",
+      "identity_kind": "upstream_task_id",
+      "source_pin": "code a072b7a86e7c1d5b1d7175659d750ebb9b79f10a; data 0.2.0 c9299e6cafe92bce4592a3c117c047c973d1554a667c21dd81537e78ab2f532e; protected seed 125b7c753cba653741d128b94cd57814e9a739e0118fd4fc4b537eb5aaad553f; image sha256:77d37be71741a740d782c909633845be4a363c5aad8d61530a57f9a1da3c4398",
+      "recommendation_reason": "Fixed-seed sample within descriptive groups from the old cohort. This sampling step uses no outcomes; it does not establish how the historical pool was formed.",
+      "gaps": [
+        "Apply task diffs to the pinned base DBs and validate initial state without exposing ground truth or admin-only data.",
+        "Import/install the pinned framework and concrete generated app implementations/image, then qualify isolated APIs, state lifecycle and task capture.",
+        "Task-native evaluation source and gold data are present; install framework/apps and qualify evaluation against correct and incorrect state changes."
+      ]
+    },
+    {
+      "slot_id": "appworld-07",
+      "family_id": "appworld",
+      "candidate_id": "f6f2e67_1",
+      "title": "Merge two photo collections into a ZIP and send it to both parents",
+      "identity_kind": "upstream_task_id",
+      "source_pin": "code a072b7a86e7c1d5b1d7175659d750ebb9b79f10a; data 0.2.0 c9299e6cafe92bce4592a3c117c047c973d1554a667c21dd81537e78ab2f532e; protected seed 125b7c753cba653741d128b94cd57814e9a739e0118fd4fc4b537eb5aaad553f; image sha256:77d37be71741a740d782c909633845be4a363c5aad8d61530a57f9a1da3c4398",
+      "recommendation_reason": "Fixed-seed sample within descriptive groups from the old cohort. This sampling step uses no outcomes; it does not establish how the historical pool was formed.",
+      "gaps": [
+        "Apply task diffs to the pinned base DBs and validate initial state without exposing ground truth or admin-only data.",
+        "Import/install the pinned framework and concrete generated app implementations/image, then qualify isolated APIs, state lifecycle and task capture.",
+        "Task-native evaluation source and gold data are present; install framework/apps and qualify evaluation against correct and incorrect state changes."
+      ]
+    },
+    {
+      "slot_id": "appworld-08",
+      "family_id": "appworld",
+      "candidate_id": "f3a6713_1",
+      "title": "Reconcile a camping checklist with commitments and buy the remaining supplies",
+      "identity_kind": "upstream_task_id",
+      "source_pin": "code a072b7a86e7c1d5b1d7175659d750ebb9b79f10a; data 0.2.0 c9299e6cafe92bce4592a3c117c047c973d1554a667c21dd81537e78ab2f532e; protected seed 125b7c753cba653741d128b94cd57814e9a739e0118fd4fc4b537eb5aaad553f; image sha256:77d37be71741a740d782c909633845be4a363c5aad8d61530a57f9a1da3c4398",
+      "recommendation_reason": "Fixed-seed sample within descriptive groups from the old cohort. This sampling step uses no outcomes; it does not establish how the historical pool was formed.",
+      "gaps": [
+        "Apply task diffs to the pinned base DBs and validate initial state without exposing ground truth or admin-only data.",
+        "Import/install the pinned framework and concrete generated app implementations/image, then qualify isolated APIs, state lifecycle and task capture.",
+        "Task-native evaluation source and gold data are present; install framework/apps and qualify evaluation against correct and incorrect state changes."
+      ]
+    },
+    {
+      "slot_id": "appworld-09",
+      "family_id": "appworld",
+      "candidate_id": "36705ae_1",
+      "title": "Collect every cable bill, normalize filenames, ZIP them, and reply to the request",
+      "identity_kind": "upstream_task_id",
+      "source_pin": "code a072b7a86e7c1d5b1d7175659d750ebb9b79f10a; data 0.2.0 c9299e6cafe92bce4592a3c117c047c973d1554a667c21dd81537e78ab2f532e; protected seed 125b7c753cba653741d128b94cd57814e9a739e0118fd4fc4b537eb5aaad553f; image sha256:77d37be71741a740d782c909633845be4a363c5aad8d61530a57f9a1da3c4398",
+      "recommendation_reason": "Fixed-seed sample within descriptive groups from the old cohort. This sampling step uses no outcomes; it does not establish how the historical pool was formed.",
+      "gaps": [
+        "Apply task diffs to the pinned base DBs and validate initial state without exposing ground truth or admin-only data.",
+        "Import/install the pinned framework and concrete generated app implementations/image, then qualify isolated APIs, state lifecycle and task capture.",
+        "Task-native evaluation source and gold data are present; install framework/apps and qualify evaluation against correct and incorrect state changes."
+      ]
+    },
+    {
+      "slot_id": "appworld-10",
+      "family_id": "appworld",
+      "candidate_id": "18670a5_1",
+      "title": "Turn a note-based meeting schedule into correctly timed reminder emails",
+      "identity_kind": "upstream_task_id",
+      "source_pin": "code a072b7a86e7c1d5b1d7175659d750ebb9b79f10a; data 0.2.0 c9299e6cafe92bce4592a3c117c047c973d1554a667c21dd81537e78ab2f532e; protected seed 125b7c753cba653741d128b94cd57814e9a739e0118fd4fc4b537eb5aaad553f; image sha256:77d37be71741a740d782c909633845be4a363c5aad8d61530a57f9a1da3c4398",
+      "recommendation_reason": "Fixed-seed sample within descriptive groups from the old cohort. This sampling step uses no outcomes; it does not establish how the historical pool was formed.",
+      "gaps": [
+        "Apply task diffs to the pinned base DBs and validate initial state without exposing ground truth or admin-only data.",
+        "Import/install the pinned framework and concrete generated app implementations/image, then qualify isolated APIs, state lifecycle and task capture.",
+        "Task-native evaluation source and gold data are present; install framework/apps and qualify evaluation against correct and incorrect state changes."
+      ]
+    },
+    {
+      "slot_id": "appworld-11",
+      "family_id": "appworld",
+      "candidate_id": "33e202d_1",
+      "title": "Build a recruiting CSV and archive each candidate’s attachments",
+      "identity_kind": "upstream_task_id",
+      "source_pin": "code a072b7a86e7c1d5b1d7175659d750ebb9b79f10a; data 0.2.0 c9299e6cafe92bce4592a3c117c047c973d1554a667c21dd81537e78ab2f532e; protected seed 125b7c753cba653741d128b94cd57814e9a739e0118fd4fc4b537eb5aaad553f; image sha256:77d37be71741a740d782c909633845be4a363c5aad8d61530a57f9a1da3c4398",
+      "recommendation_reason": "Fixed-seed sample within descriptive groups from the old cohort. This sampling step uses no outcomes; it does not establish how the historical pool was formed.",
+      "gaps": [
+        "Apply task diffs to the pinned base DBs and validate initial state without exposing ground truth or admin-only data.",
+        "Import/install the pinned framework and concrete generated app implementations/image, then qualify isolated APIs, state lifecycle and task capture.",
+        "Task-native evaluation source and gold data are present; install framework/apps and qualify evaluation against correct and incorrect state changes."
+      ]
+    },
+    {
+      "slot_id": "appworld-12",
+      "family_id": "appworld",
+      "candidate_id": "bde252e_1",
+      "title": "Repack tonight’s Todoist plan around the available work schedule",
+      "identity_kind": "upstream_task_id",
+      "source_pin": "code a072b7a86e7c1d5b1d7175659d750ebb9b79f10a; data 0.2.0 c9299e6cafe92bce4592a3c117c047c973d1554a667c21dd81537e78ab2f532e; protected seed 125b7c753cba653741d128b94cd57814e9a739e0118fd4fc4b537eb5aaad553f; image sha256:77d37be71741a740d782c909633845be4a363c5aad8d61530a57f9a1da3c4398",
+      "recommendation_reason": "Fixed-seed sample within descriptive groups from the old cohort. This sampling step uses no outcomes; it does not establish how the historical pool was formed.",
+      "gaps": [
+        "Apply task diffs to the pinned base DBs and validate initial state without exposing ground truth or admin-only data.",
+        "Import/install the pinned framework and concrete generated app implementations/image, then qualify isolated APIs, state lifecycle and task capture.",
+        "Task-native evaluation source and gold data are present; install framework/apps and qualify evaluation against correct and incorrect state changes."
+      ]
+    },
+    {
+      "slot_id": "appworld-13",
+      "family_id": "appworld",
+      "candidate_id": "986aa4e_1",
+      "title": "Apply collaborator feedback to a shared road-trip playlist and close the task",
+      "identity_kind": "upstream_task_id",
+      "source_pin": "code a072b7a86e7c1d5b1d7175659d750ebb9b79f10a; data 0.2.0 c9299e6cafe92bce4592a3c117c047c973d1554a667c21dd81537e78ab2f532e; protected seed 125b7c753cba653741d128b94cd57814e9a739e0118fd4fc4b537eb5aaad553f; image sha256:77d37be71741a740d782c909633845be4a363c5aad8d61530a57f9a1da3c4398",
+      "recommendation_reason": "Fixed-seed sample within descriptive groups from the old cohort. This sampling step uses no outcomes; it does not establish how the historical pool was formed.",
+      "gaps": [
+        "Apply task diffs to the pinned base DBs and validate initial state without exposing ground truth or admin-only data.",
+        "Import/install the pinned framework and concrete generated app implementations/image, then qualify isolated APIs, state lifecycle and task capture.",
+        "Task-native evaluation source and gold data are present; install framework/apps and qualify evaluation against correct and incorrect state changes."
+      ]
+    },
+    {
+      "slot_id": "appworld-14",
+      "family_id": "appworld",
+      "candidate_id": "83a7951_1",
+      "title": "Reconcile Venmo payments into Splitwise with attached receipts",
+      "identity_kind": "upstream_task_id",
+      "source_pin": "code a072b7a86e7c1d5b1d7175659d750ebb9b79f10a; data 0.2.0 c9299e6cafe92bce4592a3c117c047c973d1554a667c21dd81537e78ab2f532e; protected seed 125b7c753cba653741d128b94cd57814e9a739e0118fd4fc4b537eb5aaad553f; image sha256:77d37be71741a740d782c909633845be4a363c5aad8d61530a57f9a1da3c4398",
+      "recommendation_reason": "Fixed-seed sample within descriptive groups from the old cohort. This sampling step uses no outcomes; it does not establish how the historical pool was formed.",
+      "gaps": [
+        "Apply task diffs to the pinned base DBs and validate initial state without exposing ground truth or admin-only data.",
+        "Import/install the pinned framework and concrete generated app implementations/image, then qualify isolated APIs, state lifecycle and task capture.",
+        "Task-native evaluation source and gold data are present; install framework/apps and qualify evaluation against correct and incorrect state changes."
+      ]
+    },
+    {
+      "slot_id": "tua-01",
+      "family_id": "tua",
+      "candidate_id": "074-apa-references-review",
+      "title": "APA references review",
+      "identity_kind": "upstream_task_id",
+      "source_pin": "3497fd320abcafaf4797424192c891a593fd7964",
+      "recommendation_reason": "Fixed-seed sample within descriptive groups from the old cohort. This sampling step uses no outcomes; it does not establish how the historical pool was formed.",
+      "gaps": [
+        "Native container image and dependencies are not imported or built. Materialize the declared destinations and startup state and qualify the task boundary before any run.",
+        "Run native positive and negative controls in the pinned verifier environment; source presence is not qualification.",
+        "Original task definitions use Hugging Face main URLs. Acquired bodies are frozen to dataset revision 1e112283c4ecb08d6fed8069bca7de74fa2f12aa; native preparation must use those verified bodies without changing the task objective."
+      ]
+    },
+    {
+      "slot_id": "tua-02",
+      "family_id": "tua",
+      "candidate_id": "102-daily-email-report",
+      "title": "Daily email report",
+      "identity_kind": "upstream_task_id",
+      "source_pin": "3497fd320abcafaf4797424192c891a593fd7964",
+      "recommendation_reason": "Fixed-seed sample within descriptive groups from the old cohort. This sampling step uses no outcomes; it does not establish how the historical pool was formed.",
+      "gaps": [
+        "Native container image and dependencies are not imported or built. Materialize the declared destinations and startup state and qualify the task boundary before any run.",
+        "Run native positive and negative controls in the pinned verifier environment; source presence is not qualification.",
+        "Original task definitions use Hugging Face main URLs. Acquired bodies are frozen to dataset revision 1e112283c4ecb08d6fed8069bca7de74fa2f12aa; native preparation must use those verified bodies without changing the task objective."
+      ]
+    },
+    {
+      "slot_id": "tua-03",
+      "family_id": "tua",
+      "candidate_id": "094-author-homepage-bookmarks",
+      "title": "Author homepage bookmarks",
+      "identity_kind": "upstream_task_id",
+      "source_pin": "3497fd320abcafaf4797424192c891a593fd7964",
+      "recommendation_reason": "Fixed-seed sample within descriptive groups from the old cohort. This sampling step uses no outcomes; it does not establish how the historical pool was formed.",
+      "gaps": [
+        "Native container image and dependencies are not imported or built. Materialize the declared destinations and startup state and qualify the task boundary before any run.",
+        "Run native positive and negative controls in the pinned verifier environment; source presence is not qualification.",
+        "Original task definitions use Hugging Face main URLs. Acquired bodies are frozen to dataset revision 1e112283c4ecb08d6fed8069bca7de74fa2f12aa; native preparation must use those verified bodies without changing the task objective. The input paper is acquired; author-homepage discovery and browser state remain part of the native task and have not been snapshot-qualified."
+      ]
+    },
+    {
+      "slot_id": "tua-04",
+      "family_id": "tua",
+      "candidate_id": "100-name-mountain-photos",
+      "title": "Name mountain photos",
+      "identity_kind": "upstream_task_id",
+      "source_pin": "3497fd320abcafaf4797424192c891a593fd7964",
+      "recommendation_reason": "Fixed-seed sample within descriptive groups from the old cohort. This sampling step uses no outcomes; it does not establish how the historical pool was formed.",
+      "gaps": [
+        "Native container image and dependencies are not imported or built. Materialize the declared destinations and startup state and qualify the task boundary before any run.",
+        "Run native positive and negative controls in the pinned verifier environment; source presence is not qualification.",
+        "Original task definitions use Hugging Face main URLs. Acquired bodies are frozen to dataset revision 1e112283c4ecb08d6fed8069bca7de74fa2f12aa; native preparation must use those verified bodies without changing the task objective."
+      ]
+    },
+    {
+      "slot_id": "tua-05",
+      "family_id": "tua",
+      "candidate_id": "093-merge-txt-document",
+      "title": "Merge text document",
+      "identity_kind": "upstream_task_id",
+      "source_pin": "3497fd320abcafaf4797424192c891a593fd7964",
+      "recommendation_reason": "Fixed-seed sample within descriptive groups from the old cohort. This sampling step uses no outcomes; it does not establish how the historical pool was formed.",
+      "gaps": [
+        "Native container image and dependencies are not imported or built. Materialize the declared destinations and startup state and qualify the task boundary before any run.",
+        "Run native positive and negative controls in the pinned verifier environment; source presence is not qualification.",
+        "Original task definitions use Hugging Face main URLs. Acquired bodies are frozen to dataset revision 1e112283c4ecb08d6fed8069bca7de74fa2f12aa; native preparation must use those verified bodies without changing the task objective."
+      ]
+    },
+    {
+      "slot_id": "tua-06",
+      "family_id": "tua",
+      "candidate_id": "004-place-heater-for-sensors",
+      "title": "Place heater for sensors",
+      "identity_kind": "upstream_task_id",
+      "source_pin": "3497fd320abcafaf4797424192c891a593fd7964",
+      "recommendation_reason": "Fixed-seed sample within descriptive groups from the old cohort. This sampling step uses no outcomes; it does not establish how the historical pool was formed.",
+      "gaps": [
+        "Native container image and dependencies are not imported or built. Materialize the declared destinations and startup state and qualify the task boundary before any run.",
+        "Run native positive and negative controls in the pinned verifier environment; source presence is not qualification."
+      ]
+    },
+    {
+      "slot_id": "tua-07",
+      "family_id": "tua",
+      "candidate_id": "005-optimize-cold-plate",
+      "title": "Optimize cold plate",
+      "identity_kind": "upstream_task_id",
+      "source_pin": "3497fd320abcafaf4797424192c891a593fd7964",
+      "recommendation_reason": "Fixed-seed sample within descriptive groups from the old cohort. This sampling step uses no outcomes; it does not establish how the historical pool was formed.",
+      "gaps": [
+        "Native container image and dependencies are not imported or built. Materialize the declared destinations and startup state and qualify the task boundary before any run.",
+        "Run native positive and negative controls in the pinned verifier environment; source presence is not qualification."
+      ]
+    },
+    {
+      "slot_id": "tua-08",
+      "family_id": "tua",
+      "candidate_id": "006-extract-gym-auditorium",
+      "title": "Extract gym auditorium",
+      "identity_kind": "upstream_task_id",
+      "source_pin": "3497fd320abcafaf4797424192c891a593fd7964",
+      "recommendation_reason": "Fixed-seed sample within descriptive groups from the old cohort. This sampling step uses no outcomes; it does not establish how the historical pool was formed.",
+      "gaps": [
+        "Native container image and dependencies are not imported or built. Materialize the declared destinations and startup state and qualify the task boundary before any run.",
+        "Run native positive and negative controls in the pinned verifier environment; source presence is not qualification."
+      ]
+    },
+    {
+      "slot_id": "tua-09",
+      "family_id": "tua",
+      "candidate_id": "011-epw-parquet-check",
+      "title": "EPW parquet check",
+      "identity_kind": "upstream_task_id",
+      "source_pin": "3497fd320abcafaf4797424192c891a593fd7964",
+      "recommendation_reason": "Fixed-seed sample within descriptive groups from the old cohort. This sampling step uses no outcomes; it does not establish how the historical pool was formed.",
+      "gaps": [
+        "Native container image and dependencies are not imported or built. Materialize the declared destinations and startup state and qualify the task boundary before any run.",
+        "Run native positive and negative controls in the pinned verifier environment; source presence is not qualification."
+      ]
+    },
+    {
+      "slot_id": "tua-10",
+      "family_id": "tua",
+      "candidate_id": "088-extract-presenter-photos",
+      "title": "Extract presenter photos",
+      "identity_kind": "upstream_task_id",
+      "source_pin": "3497fd320abcafaf4797424192c891a593fd7964",
+      "recommendation_reason": "Fixed-seed sample within descriptive groups from the old cohort. This sampling step uses no outcomes; it does not establish how the historical pool was formed.",
+      "gaps": [
+        "Native container image and dependencies are not imported or built. Materialize the declared destinations and startup state and qualify the task boundary before any run.",
+        "Run native positive and negative controls in the pinned verifier environment; source presence is not qualification.",
+        "Original task definitions use Hugging Face main URLs. Acquired bodies are frozen to dataset revision 1e112283c4ecb08d6fed8069bca7de74fa2f12aa; native preparation must use those verified bodies without changing the task objective."
+      ]
+    },
+    {
+      "slot_id": "assistant-01",
+      "family_id": "assistant",
+      "candidate_id": "validation:2",
+      "title": "AssistantBench validation:2 (topic descriptor unavailable in inspected v1 inventory)",
+      "identity_kind": "upstream_task_id",
+      "source_pin": "official AssistantBench validation dataset snapshot; content hash still to freeze",
+      "recommendation_reason": "Fixed-seed sample within descriptive groups from the old cohort. This sampling step uses no outcomes; it does not establish how the historical pool was formed.",
+      "gaps": [
+        "All 4 recorded public reference URLs returned HTTP success in a bounded check. This does not prove answer availability or usable browser navigation; verify a fresh native browser session and web conditions.",
+        "Install the native BrowserGym/browser environment, preserve browser state, and qualify navigation/completion/capture behavior.",
+        "Freeze exact dataset/metric handling and test correct/wrong/malformed/empty answer cases with the native evaluator."
+      ]
+    },
+    {
+      "slot_id": "assistant-02",
+      "family_id": "assistant",
+      "candidate_id": "validation:3",
+      "title": "AssistantBench validation:3 (topic descriptor unavailable in inspected v1 inventory)",
+      "identity_kind": "upstream_task_id",
+      "source_pin": "official AssistantBench validation dataset snapshot; content hash still to freeze",
+      "recommendation_reason": "Fixed-seed sample within descriptive groups from the old cohort. This sampling step uses no outcomes; it does not establish how the historical pool was formed.",
+      "gaps": [
+        "All 2 recorded public reference URLs returned HTTP success in a bounded check. This does not prove answer availability or usable browser navigation; verify a fresh native browser session and web conditions.",
+        "Install the native BrowserGym/browser environment, preserve browser state, and qualify navigation/completion/capture behavior.",
+        "Freeze exact dataset/metric handling and test correct/wrong/malformed/empty answer cases with the native evaluator."
+      ]
+    },
+    {
+      "slot_id": "assistant-03",
+      "family_id": "assistant",
+      "candidate_id": "validation:5",
+      "title": "AssistantBench validation:5 (topic descriptor unavailable in inspected v1 inventory)",
+      "identity_kind": "upstream_task_id",
+      "source_pin": "official AssistantBench validation dataset snapshot; content hash still to freeze",
+      "recommendation_reason": "Fixed-seed sample within descriptive groups from the old cohort. This sampling step uses no outcomes; it does not establish how the historical pool was formed.",
+      "gaps": [
+        "All 2 recorded public reference URLs returned HTTP success in a bounded check. This does not prove answer availability or usable browser navigation; verify a fresh native browser session and web conditions. A response contained challenge-like text; check it in the native browser before treating access as usable.",
+        "Install the native BrowserGym/browser environment, preserve browser state, and qualify navigation/completion/capture behavior.",
+        "Freeze exact dataset/metric handling and test correct/wrong/malformed/empty answer cases with the native evaluator."
+      ]
+    },
+    {
+      "slot_id": "assistant-04",
+      "family_id": "assistant",
+      "candidate_id": "validation:6",
+      "title": "AssistantBench validation:6 (topic descriptor unavailable in inspected v1 inventory)",
+      "identity_kind": "upstream_task_id",
+      "source_pin": "official AssistantBench validation dataset snapshot; content hash still to freeze",
+      "recommendation_reason": "Fixed-seed sample within descriptive groups from the old cohort. This sampling step uses no outcomes; it does not establish how the historical pool was formed.",
+      "gaps": [
+        "All 2 recorded public reference URLs returned HTTP success in a bounded check. This does not prove answer availability or usable browser navigation; verify a fresh native browser session and web conditions.",
+        "Install the native BrowserGym/browser environment, preserve browser state, and qualify navigation/completion/capture behavior.",
+        "Freeze exact dataset/metric handling and test correct/wrong/malformed/empty answer cases with the native evaluator."
+      ]
+    },
+    {
+      "slot_id": "assistant-05",
+      "family_id": "assistant",
+      "candidate_id": "validation:22",
+      "title": "AssistantBench validation:22 (topic descriptor unavailable in inspected v1 inventory)",
+      "identity_kind": "upstream_task_id",
+      "source_pin": "official AssistantBench validation dataset snapshot; content hash still to freeze",
+      "recommendation_reason": "Fixed-seed sample within descriptive groups from the old cohort. This sampling step uses no outcomes; it does not establish how the historical pool was formed.",
+      "gaps": [
+        "All 4 recorded public reference URLs returned HTTP success in a bounded check. This does not prove answer availability or usable browser navigation; verify a fresh native browser session and web conditions.",
+        "Install the native BrowserGym/browser environment, preserve browser state, and qualify navigation/completion/capture behavior.",
+        "Freeze exact dataset/metric handling and test correct/wrong/malformed/empty answer cases with the native evaluator."
+      ]
+    },
+    {
+      "slot_id": "assistant-06",
+      "family_id": "assistant",
+      "candidate_id": "validation:27",
+      "title": "AssistantBench validation:27 (topic descriptor unavailable in inspected v1 inventory)",
+      "identity_kind": "upstream_task_id",
+      "source_pin": "official AssistantBench validation dataset snapshot; content hash still to freeze",
+      "recommendation_reason": "Fixed-seed sample within descriptive groups from the old cohort. This sampling step uses no outcomes; it does not establish how the historical pool was formed.",
+      "gaps": [
+        "All 3 recorded public reference URLs returned HTTP success in a bounded check. This does not prove answer availability or usable browser navigation; verify a fresh native browser session and web conditions. A response contained challenge-like text; check it in the native browser before treating access as usable.",
+        "Install the native BrowserGym/browser environment, preserve browser state, and qualify navigation/completion/capture behavior.",
+        "Freeze exact dataset/metric handling and test correct/wrong/malformed/empty answer cases with the native evaluator."
+      ]
+    },
+    {
+      "slot_id": "assistant-07",
+      "family_id": "assistant",
+      "candidate_id": "validation:29",
+      "title": "AssistantBench validation:29 (topic descriptor unavailable in inspected v1 inventory)",
+      "identity_kind": "upstream_task_id",
+      "source_pin": "official AssistantBench validation dataset snapshot; content hash still to freeze",
+      "recommendation_reason": "Fixed-seed sample within descriptive groups from the old cohort. This sampling step uses no outcomes; it does not establish how the historical pool was formed.",
+      "gaps": [
+        "All 3 recorded public reference URLs returned HTTP success in a bounded check. This does not prove answer availability or usable browser navigation; verify a fresh native browser session and web conditions. A response contained challenge-like text; check it in the native browser before treating access as usable.",
+        "Install the native BrowserGym/browser environment, preserve browser state, and qualify navigation/completion/capture behavior.",
+        "Freeze exact dataset/metric handling and test correct/wrong/malformed/empty answer cases with the native evaluator."
+      ]
+    },
+    {
+      "slot_id": "assistant-08",
+      "family_id": "assistant",
+      "candidate_id": "validation:32",
+      "title": "AssistantBench validation:32 (topic descriptor unavailable in inspected v1 inventory)",
+      "identity_kind": "upstream_task_id",
+      "source_pin": "official AssistantBench validation dataset snapshot; content hash still to freeze",
+      "recommendation_reason": "Fixed-seed sample within descriptive groups from the old cohort. This sampling step uses no outcomes; it does not establish how the historical pool was formed.",
+      "gaps": [
+        "All 6 recorded public reference URLs returned HTTP success in a bounded check. This does not prove answer availability or usable browser navigation; verify a fresh native browser session and web conditions.",
+        "Install the native BrowserGym/browser environment, preserve browser state, and qualify navigation/completion/capture behavior.",
+        "Freeze exact dataset/metric handling and test correct/wrong/malformed/empty answer cases with the native evaluator."
+      ]
+    },
+    {
+      "slot_id": "browsecomp-01",
+      "family_id": "browsecomp",
+      "candidate_id": "browsecomp:csv-row-20",
+      "title": "Art web research",
+      "identity_kind": "csv_sha256_and_zero_based_row",
+      "source_pin": "7b24471cd5b3eb2a46830a14802b5c029ea62f488ff75a0f88af7923d1454abf",
+      "recommendation_reason": "Fixed-seed topic-stratified sample; no difficulty or model outcomes used.",
+      "gaps": [
+        "Question-only prompt decoded and verified against the pinned native template. Domain review and final natural-prompt qualification remain pending.",
+        "The question-only input is prepared. The task requires discovering live web sources, so its browsing route, access and evaluated web conditions still need qualification; no frozen website corpus is claimed.",
+        "Build or acquire the pinned environment, verify initial state and qualify the native execution boundary.",
+        "Freeze the model grader and keep answer records outside the subject environment."
+      ]
+    },
+    {
+      "slot_id": "browsecomp-02",
+      "family_id": "browsecomp",
+      "candidate_id": "browsecomp:csv-row-563",
+      "title": "Geography web research",
+      "identity_kind": "csv_sha256_and_zero_based_row",
+      "source_pin": "7b24471cd5b3eb2a46830a14802b5c029ea62f488ff75a0f88af7923d1454abf",
+      "recommendation_reason": "Fixed-seed topic-stratified sample; no difficulty or model outcomes used.",
+      "gaps": [
+        "Question-only prompt decoded and verified against the pinned native template. Domain review and final natural-prompt qualification remain pending.",
+        "The question-only input is prepared. The task requires discovering live web sources, so its browsing route, access and evaluated web conditions still need qualification; no frozen website corpus is claimed.",
+        "Build or acquire the pinned environment, verify initial state and qualify the native execution boundary.",
+        "Freeze the model grader and keep answer records outside the subject environment."
+      ]
+    },
+    {
+      "slot_id": "browsecomp-03",
+      "family_id": "browsecomp",
+      "candidate_id": "browsecomp:csv-row-64",
+      "title": "History web research",
+      "identity_kind": "csv_sha256_and_zero_based_row",
+      "source_pin": "7b24471cd5b3eb2a46830a14802b5c029ea62f488ff75a0f88af7923d1454abf",
+      "recommendation_reason": "Fixed-seed topic-stratified sample; no difficulty or model outcomes used.",
+      "gaps": [
+        "Question-only prompt decoded and verified against the pinned native template. Domain review and final natural-prompt qualification remain pending.",
+        "The question-only input is prepared. The task requires discovering live web sources, so its browsing route, access and evaluated web conditions still need qualification; no frozen website corpus is claimed.",
+        "Build or acquire the pinned environment, verify initial state and qualify the native execution boundary.",
+        "Freeze the model grader and keep answer records outside the subject environment."
+      ]
+    },
+    {
+      "slot_id": "browsecomp-04",
+      "family_id": "browsecomp",
+      "candidate_id": "browsecomp:csv-row-718",
+      "title": "Music web research",
+      "identity_kind": "csv_sha256_and_zero_based_row",
+      "source_pin": "7b24471cd5b3eb2a46830a14802b5c029ea62f488ff75a0f88af7923d1454abf",
+      "recommendation_reason": "Fixed-seed topic-stratified sample; no difficulty or model outcomes used.",
+      "gaps": [
+        "Question-only prompt decoded and verified against the pinned native template. Domain review and final natural-prompt qualification remain pending.",
+        "The question-only input is prepared. The task requires discovering live web sources, so its browsing route, access and evaluated web conditions still need qualification; no frozen website corpus is claimed.",
+        "Build or acquire the pinned environment, verify initial state and qualify the native execution boundary.",
+        "Freeze the model grader and keep answer records outside the subject environment."
+      ]
+    },
+    {
+      "slot_id": "browsecomp-05",
+      "family_id": "browsecomp",
+      "candidate_id": "browsecomp:csv-row-802",
+      "title": "Other web research",
+      "identity_kind": "csv_sha256_and_zero_based_row",
+      "source_pin": "7b24471cd5b3eb2a46830a14802b5c029ea62f488ff75a0f88af7923d1454abf",
+      "recommendation_reason": "Fixed-seed topic-stratified sample; no difficulty or model outcomes used.",
+      "gaps": [
+        "Question-only prompt decoded and verified against the pinned native template. Domain review and final natural-prompt qualification remain pending.",
+        "The question-only input is prepared. The task requires discovering live web sources, so its browsing route, access and evaluated web conditions still need qualification; no frozen website corpus is claimed.",
+        "Build or acquire the pinned environment, verify initial state and qualify the native execution boundary.",
+        "Freeze the model grader and keep answer records outside the subject environment."
+      ]
+    },
+    {
+      "slot_id": "browsecomp-06",
+      "family_id": "browsecomp",
+      "candidate_id": "browsecomp:csv-row-435",
+      "title": "Other web research",
+      "identity_kind": "csv_sha256_and_zero_based_row",
+      "source_pin": "7b24471cd5b3eb2a46830a14802b5c029ea62f488ff75a0f88af7923d1454abf",
+      "recommendation_reason": "Fixed-seed topic-stratified sample; no difficulty or model outcomes used.",
+      "gaps": [
+        "Question-only prompt decoded and verified against the pinned native template. Domain review and final natural-prompt qualification remain pending.",
+        "The question-only input is prepared. The task requires discovering live web sources, so its browsing route, access and evaluated web conditions still need qualification; no frozen website corpus is claimed.",
+        "Build or acquire the pinned environment, verify initial state and qualify the native execution boundary.",
+        "Freeze the model grader and keep answer records outside the subject environment."
+      ]
+    },
+    {
+      "slot_id": "browsecomp-07",
+      "family_id": "browsecomp",
+      "candidate_id": "browsecomp:csv-row-297",
+      "title": "Politics web research",
+      "identity_kind": "csv_sha256_and_zero_based_row",
+      "source_pin": "7b24471cd5b3eb2a46830a14802b5c029ea62f488ff75a0f88af7923d1454abf",
+      "recommendation_reason": "Fixed-seed topic-stratified sample; no difficulty or model outcomes used.",
+      "gaps": [
+        "Question-only prompt decoded and verified against the pinned native template. Domain review and final natural-prompt qualification remain pending.",
+        "The question-only input is prepared. The task requires discovering live web sources, so its browsing route, access and evaluated web conditions still need qualification; no frozen website corpus is claimed.",
+        "Build or acquire the pinned environment, verify initial state and qualify the native execution boundary.",
+        "Freeze the model grader and keep answer records outside the subject environment."
+      ]
+    },
+    {
+      "slot_id": "browsecomp-08",
+      "family_id": "browsecomp",
+      "candidate_id": "browsecomp:csv-row-228",
+      "title": "Science & technology web research",
+      "identity_kind": "csv_sha256_and_zero_based_row",
+      "source_pin": "7b24471cd5b3eb2a46830a14802b5c029ea62f488ff75a0f88af7923d1454abf",
+      "recommendation_reason": "Fixed-seed topic-stratified sample; no difficulty or model outcomes used.",
+      "gaps": [
+        "Question-only prompt decoded and verified against the pinned native template. Domain review and final natural-prompt qualification remain pending.",
+        "The question-only input is prepared. The task requires discovering live web sources, so its browsing route, access and evaluated web conditions still need qualification; no frozen website corpus is claimed.",
+        "Build or acquire the pinned environment, verify initial state and qualify the native execution boundary.",
+        "Freeze the model grader and keep answer records outside the subject environment."
+      ]
+    },
+    {
+      "slot_id": "browsecomp-09",
+      "family_id": "browsecomp",
+      "candidate_id": "browsecomp:csv-row-1036",
+      "title": "Sports web research",
+      "identity_kind": "csv_sha256_and_zero_based_row",
+      "source_pin": "7b24471cd5b3eb2a46830a14802b5c029ea62f488ff75a0f88af7923d1454abf",
+      "recommendation_reason": "Fixed-seed topic-stratified sample; no difficulty or model outcomes used.",
+      "gaps": [
+        "Question-only prompt decoded and verified against the pinned native template. Domain review and final natural-prompt qualification remain pending.",
+        "The question-only input is prepared. The task requires discovering live web sources, so its browsing route, access and evaluated web conditions still need qualification; no frozen website corpus is claimed.",
+        "Build or acquire the pinned environment, verify initial state and qualify the native execution boundary.",
+        "Freeze the model grader and keep answer records outside the subject environment."
+      ]
+    },
+    {
+      "slot_id": "browsecomp-10",
+      "family_id": "browsecomp",
+      "candidate_id": "browsecomp:csv-row-1207",
+      "title": "TV shows & movies web research",
+      "identity_kind": "csv_sha256_and_zero_based_row",
+      "source_pin": "7b24471cd5b3eb2a46830a14802b5c029ea62f488ff75a0f88af7923d1454abf",
+      "recommendation_reason": "Fixed-seed topic-stratified sample; no difficulty or model outcomes used.",
+      "gaps": [
+        "Question-only prompt decoded and verified against the pinned native template. Domain review and final natural-prompt qualification remain pending.",
+        "The question-only input is prepared. The task requires discovering live web sources, so its browsing route, access and evaluated web conditions still need qualification; no frozen website corpus is claimed.",
+        "Build or acquire the pinned environment, verify initial state and qualify the native execution boundary.",
+        "Freeze the model grader and keep answer records outside the subject environment."
+      ]
+    },
+    {
+      "slot_id": "browsecomp-11",
+      "family_id": "browsecomp",
+      "candidate_id": "browsecomp:csv-row-69",
+      "title": "TV shows & movies web research",
+      "identity_kind": "csv_sha256_and_zero_based_row",
+      "source_pin": "7b24471cd5b3eb2a46830a14802b5c029ea62f488ff75a0f88af7923d1454abf",
+      "recommendation_reason": "Fixed-seed topic-stratified sample; no difficulty or model outcomes used.",
+      "gaps": [
+        "Question-only prompt decoded and verified against the pinned native template. Domain review and final natural-prompt qualification remain pending.",
+        "The question-only input is prepared. The task requires discovering live web sources, so its browsing route, access and evaluated web conditions still need qualification; no frozen website corpus is claimed.",
+        "Build or acquire the pinned environment, verify initial state and qualify the native execution boundary.",
+        "Freeze the model grader and keep answer records outside the subject environment."
+      ]
+    },
+    {
+      "slot_id": "browsecomp-12",
+      "family_id": "browsecomp",
+      "candidate_id": "browsecomp:csv-row-132",
+      "title": "Video games web research",
+      "identity_kind": "csv_sha256_and_zero_based_row",
+      "source_pin": "7b24471cd5b3eb2a46830a14802b5c029ea62f488ff75a0f88af7923d1454abf",
+      "recommendation_reason": "Fixed-seed topic-stratified sample; no difficulty or model outcomes used.",
+      "gaps": [
+        "Question-only prompt decoded and verified against the pinned native template. Domain review and final natural-prompt qualification remain pending.",
+        "The question-only input is prepared. The task requires discovering live web sources, so its browsing route, access and evaluated web conditions still need qualification; no frozen website corpus is claimed.",
+        "Build or acquire the pinned environment, verify initial state and qualify the native execution boundary.",
+        "Freeze the model grader and keep answer records outside the subject environment."
+      ]
+    },
+    {
+      "slot_id": "paper-04",
+      "family_id": "paper",
+      "candidate_id": "pinn",
+      "title": "Challenges in Training PINNs: A Loss Landscape Perspective",
+      "identity_kind": "upstream_task_id",
+      "source_pin": "51052cede8cc608f95bb00346635e03759013e5a",
+      "recommendation_reason": "Adds physics-informed neural-network training and numerical optimization. The retained papers cover diffusion transfer learning, zero-shot reinforcement learning and black-box variational inference, so this contributes a distinct scientific-computing area.",
+      "gaps": [
+        "Adapt the original duration wording while retaining full executed reproduction.",
+        "The paper PDF/Markdown, addendum and all fifteen referenced figures are local and hash-verified. Bind them with the native blacklist into the paper task package. No external experiment dataset acquisition is pending: the agent must implement the sampling grids, analytic targets, training, analyses and reproduce.sh outputs. Separately qualify the native GPU reproduction environment and rubric judging without supplying precomputed experiments or the blacklisted author code.",
+        "Build or acquire the pinned environment, verify initial state and qualify the native execution boundary.",
+        "Preserve the full reproduction stage and freeze the native rubric judging protocol."
+      ]
+    },
+    {
+      "slot_id": "posttrain-03",
+      "family_id": "posttrain",
+      "candidate_id": "qwen3-1.7b-base__aime2025",
+      "title": "Post-train Qwen3-1.7B-Base for American Invitational Mathematics Examination (AIME) 2025",
+      "identity_kind": "upstream_task_id",
+      "source_pin": "c5b4e9795e3aa0e16a51b4382e27b59338fbd2bd",
+      "recommendation_reason": "Adds competition-level mathematical reasoning beyond the retained GSM8K target while keeping the Qwen base checkpoint fixed. The final evaluator now calls the exact numeric matcher that addresses the earlier suffix-matching issue.",
+      "gaps": [
+        "Base checkpoint, tokenizer and native evaluation data are now cached and verified. Bind exact dataset/model revisions into the runtime, preserve verifier isolation, and qualify GPU execution. Native training data is agent-selected; the initial training-cache policy remains to be frozen.",
+        "Provision GPU resources and pinned images; remove effective natural-work cutoffs and verify full capture.",
+        "Freeze final judge models, repeated evaluation seeds, score handling and native controls."
+      ]
+    },
+    {
+      "slot_id": "posttrain-04",
+      "family_id": "posttrain",
+      "candidate_id": "qwen3-1.7b-base__arenahardwriting",
+      "title": "Post-train Qwen3-1.7B-Base for Arena-Hard-v2.0 (Writing)",
+      "identity_kind": "upstream_task_id",
+      "source_pin": "c5b4e9795e3aa0e16a51b4382e27b59338fbd2bd",
+      "recommendation_reason": "Adds open-ended writing as a different training objective from the retained code and grade-school-math targets, while keeping the same Qwen base checkpoint.",
+      "gaps": [
+        "Base checkpoint, tokenizer and native evaluation data are now cached and verified. Bind exact dataset/model revisions into the runtime, preserve verifier isolation, and qualify GPU execution. Native training data is agent-selected; the initial training-cache policy remains to be frozen.",
+        "Provision GPU resources and pinned images; remove effective natural-work cutoffs and verify full capture.",
+        "Freeze final judge models, repeated evaluation seeds, score handling and native controls."
+      ]
+    },
+    {
+      "slot_id": "yc-04",
+      "family_id": "yc",
+      "candidate_id": "yc-bench.default.seed4",
+      "title": "Run the canonical one-year startup simulation with seed 4",
+      "identity_kind": "upstream_task_id",
+      "source_pin": "61aa49c92063510be30d903443a59833847c8fc1",
+      "recommendation_reason": "Adds the next unused integer seed without inspecting or ranking seed outcomes. It keeps the canonical task rules fixed while proposing another market-task instance.",
+      "gaps": [
+        "Local model-free input preparation used Linux ARM64 containers. The full task environment remains unqualified. Bind this exact private seed4 database behind native tools, freeze the natural prompt and qualify capture plus the preserved one-year/bankruptcy scoring endpoint. This initialization does not establish runtime or grader qualification.",
+        "Verify native final metrics only at the preserved one-year/bankruptcy endpoint; nonterminal state is not a completed score."
+      ]
+    },
+    {
+      "slot_id": "hle-01",
+      "family_id": "hle",
+      "candidate_id": "69a738a50a19a2f7b803ca97",
+      "title": "Reasoning · Artificial Intelligence",
+      "identity_kind": "upstream_task_id",
+      "source_pin": "04eeb7efa7e3e4f83a00cbd5ce436a38fd5dda23",
+      "recommendation_reason": "Requires mathematical properties of an activation function and neural-network training, without biological or security analysis.",
+      "gaps": [
+        "Verify text and answer-choice formatting in the final prompt.",
+        "Qualify the HLE model input route, dependencies and image handling where required.",
+        "Pin the official grading policy and validate answer parsing/judging; keep references outside subject input."
+      ]
+    },
+    {
+      "slot_id": "hle-02",
+      "family_id": "hle",
+      "candidate_id": "673b631505be2302d4445ece",
+      "title": "Reasoning · Mathematics",
+      "identity_kind": "upstream_task_id",
+      "source_pin": "04eeb7efa7e3e4f83a00cbd5ce436a38fd5dda23",
+      "recommendation_reason": "Requires elliptic-curve and analytic number-theory calculations, not analysis of a cryptographic security property.",
+      "gaps": [
+        "Verify text and answer-choice formatting in the final prompt.",
+        "Qualify the HLE model input route, dependencies and image handling where required.",
+        "Pin the official grading policy and validate answer parsing/judging; keep references outside subject input."
+      ]
+    },
+    {
+      "slot_id": "hle-03",
+      "family_id": "hle",
+      "candidate_id": "672ccc56010db734d4f3f109",
+      "title": "Reasoning · Mathematics",
+      "identity_kind": "upstream_task_id",
+      "source_pin": "04eeb7efa7e3e4f83a00cbd5ce436a38fd5dda23",
+      "recommendation_reason": "Requires combinatorial geometry of a pictured polyhedron; the question specifies no excluded domain.",
+      "gaps": [
+        "Original image bytes have been decoded and their PNG integrity/dimensions verified. Rendering through the evaluated agent’s vision route remains unqualified.",
+        "Qualify the HLE model input route, dependencies and image handling where required.",
+        "Pin the official grading policy and validate answer parsing/judging; keep references outside subject input."
+      ]
+    },
+    {
+      "slot_id": "hle-04",
+      "family_id": "hle",
+      "candidate_id": "672bb9be168a1a30f1f92fcc",
+      "title": "Reasoning · Foremost Classical: Period Functions",
+      "identity_kind": "upstream_task_id",
+      "source_pin": "04eeb7efa7e3e4f83a00cbd5ce436a38fd5dda23",
+      "recommendation_reason": "Requires differential-equation and special-function reasoning despite the source humanities category.",
+      "gaps": [
+        "Verify text and answer-choice formatting in the final prompt.",
+        "Qualify the HLE model input route, dependencies and image handling where required.",
+        "Pin the official grading policy and validate answer parsing/judging; keep references outside subject input."
+      ]
+    },
+    {
+      "slot_id": "hle-05",
+      "family_id": "hle",
+      "candidate_id": "67332b7198af9f49ad5d743a",
+      "title": "Reasoning · Information Systems",
+      "identity_kind": "upstream_task_id",
+      "source_pin": "04eeb7efa7e3e4f83a00cbd5ce436a38fd5dda23",
+      "recommendation_reason": "Requires counting transform operations in numerical convolution, without a security property or biological task.",
+      "gaps": [
+        "Verify text and answer-choice formatting in the final prompt.",
+        "Qualify the HLE model input route, dependencies and image handling where required.",
+        "Pin the official grading policy and validate answer parsing/judging; keep references outside subject input."
+      ]
+    },
+    {
+      "slot_id": "hle-06",
+      "family_id": "hle",
+      "candidate_id": "66ecd3c6e8b95a8f971fb485",
+      "title": "Reasoning · Mathematics",
+      "identity_kind": "upstream_task_id",
+      "source_pin": "04eeb7efa7e3e4f83a00cbd5ce436a38fd5dda23",
+      "recommendation_reason": "Requires enumeration of set partitions and orders.",
+      "gaps": [
+        "Verify text and answer-choice formatting in the final prompt.",
+        "Qualify the HLE model input route, dependencies and image handling where required.",
+        "Pin the official grading policy and validate answer parsing/judging; keep references outside subject input."
+      ]
+    },
+    {
+      "slot_id": "hle-07",
+      "family_id": "hle",
+      "candidate_id": "670aa04552fd04a61d8f4fa8",
+      "title": "Reasoning · Geometric Reasoning",
+      "identity_kind": "upstream_task_id",
+      "source_pin": "04eeb7efa7e3e4f83a00cbd5ce436a38fd5dda23",
+      "recommendation_reason": "Requires matching mathematical cellular-automaton rules to pictured patterns; cells are abstract states, not biological organisms.",
+      "gaps": [
+        "Original image bytes have been decoded and their PNG integrity/dimensions verified. Rendering through the evaluated agent’s vision route remains unqualified.",
+        "Qualify the HLE model input route, dependencies and image handling where required.",
+        "Pin the official grading policy and validate answer parsing/judging; keep references outside subject input."
+      ]
+    },
+    {
+      "slot_id": "hle-08",
+      "family_id": "hle",
+      "candidate_id": "6719f92b62a994eccd9f964b",
+      "title": "Reasoning · Computer Science",
+      "identity_kind": "upstream_task_id",
+      "source_pin": "04eeb7efa7e3e4f83a00cbd5ce436a38fd5dda23",
+      "recommendation_reason": "Requires extremal reasoning about constrained metric clustering, without cybersecurity content.",
+      "gaps": [
+        "Verify text and answer-choice formatting in the final prompt.",
+        "Qualify the HLE model input route, dependencies and image handling where required.",
+        "Pin the official grading policy and validate answer parsing/judging; keep references outside subject input."
+      ]
+    },
+    {
+      "slot_id": "hle-09",
+      "family_id": "hle",
+      "candidate_id": "69d70a4c7c69fcd0569670c4",
+      "title": "Reasoning · Chemistry",
+      "identity_kind": "upstream_task_id",
+      "source_pin": "04eeb7efa7e3e4f83a00cbd5ce436a38fd5dda23",
+      "recommendation_reason": "Requires spectroscopy and stereochemical nomenclature of organic structures. No biological mechanism, organism, clinical decision or biological wet-lab task is required by the question.",
+      "gaps": [
+        "Original image bytes have been decoded and their PNG integrity/dimensions verified. Rendering through the evaluated agent’s vision route remains unqualified.",
+        "Qualify the HLE model input route, dependencies and image handling where required.",
+        "Pin the official grading policy and validate answer parsing/judging; keep references outside subject input."
+      ]
+    },
+    {
+      "slot_id": "hle-10",
+      "family_id": "hle",
+      "candidate_id": "67418f4d1cf0c9eba73432cc",
+      "title": "Reasoning · Mathematics",
+      "identity_kind": "upstream_task_id",
+      "source_pin": "04eeb7efa7e3e4f83a00cbd5ce436a38fd5dda23",
+      "recommendation_reason": "Requires an encoding of a combinatorial problem in linear logic.",
+      "gaps": [
+        "Verify text and answer-choice formatting in the final prompt.",
+        "Qualify the HLE model input route, dependencies and image handling where required.",
+        "Pin the official grading policy and validate answer parsing/judging; keep references outside subject input."
+      ]
+    },
+    {
+      "slot_id": "hle-11",
+      "family_id": "hle",
+      "candidate_id": "67d75590aa91ea806c1b5b23",
+      "title": "Knowledge · Linguistics",
+      "identity_kind": "upstream_task_id",
+      "source_pin": "04eeb7efa7e3e4f83a00cbd5ce436a38fd5dda23",
+      "recommendation_reason": "Requires conventional spelling knowledge in a natural language.",
+      "gaps": [
+        "Verify text and answer-choice formatting in the final prompt.",
+        "Qualify the HLE model input route, dependencies and image handling where required.",
+        "Pin the official grading policy and validate answer parsing/judging; keep references outside subject input."
+      ]
+    },
+    {
+      "slot_id": "hle-12",
+      "family_id": "hle",
+      "candidate_id": "6737016cd6feab08ed98c77d",
+      "title": "Knowledge · Mathematics",
+      "identity_kind": "upstream_task_id",
+      "source_pin": "04eeb7efa7e3e4f83a00cbd5ce436a38fd5dda23",
+      "recommendation_reason": "Requires a mathematical result about sumsets and square numbers.",
+      "gaps": [
+        "Verify text and answer-choice formatting in the final prompt.",
+        "Qualify the HLE model input route, dependencies and image handling where required.",
+        "Pin the official grading policy and validate answer parsing/judging; keep references outside subject input."
+      ]
+    },
+    {
+      "slot_id": "hle-13",
+      "family_id": "hle",
+      "candidate_id": "69de096edf3ab381bbbb5089",
+      "title": "Knowledge · Comparative Literature",
+      "identity_kind": "upstream_task_id",
+      "source_pin": "04eeb7efa7e3e4f83a00cbd5ce436a38fd5dda23",
+      "recommendation_reason": "Requires a literary source phrase and translation knowledge; a disease word in a book title does not make the required work clinical.",
+      "gaps": [
+        "Verify text and answer-choice formatting in the final prompt.",
+        "Qualify the HLE model input route, dependencies and image handling where required.",
+        "Pin the official grading policy and validate answer parsing/judging; keep references outside subject input."
+      ]
+    },
+    {
+      "slot_id": "hle-14",
+      "family_id": "hle",
+      "candidate_id": "6723f1d6e01c4b28f6115ce0",
+      "title": "Knowledge · Trivia",
+      "identity_kind": "upstream_task_id",
+      "source_pin": "04eeb7efa7e3e4f83a00cbd5ce436a38fd5dda23",
+      "recommendation_reason": "Requires recalling a fictional character and dialogue context.",
+      "gaps": [
+        "Verify text and answer-choice formatting in the final prompt.",
+        "Qualify the HLE model input route, dependencies and image handling where required.",
+        "Pin the official grading policy and validate answer parsing/judging; keep references outside subject input."
+      ]
+    },
+    {
+      "slot_id": "hle-15",
+      "family_id": "hle",
+      "candidate_id": "6736289810ec0a5f859365d0",
+      "title": "Knowledge · Classical Ballet",
+      "identity_kind": "upstream_task_id",
+      "source_pin": "04eeb7efa7e3e4f83a00cbd5ce436a38fd5dda23",
+      "recommendation_reason": "Requires ballet-school technique conventions, without physiology or clinical advice.",
+      "gaps": [
+        "Verify text and answer-choice formatting in the final prompt.",
+        "Qualify the HLE model input route, dependencies and image handling where required.",
+        "Pin the official grading policy and validate answer parsing/judging; keep references outside subject input."
+      ]
+    },
+    {
+      "slot_id": "hle-16",
+      "family_id": "hle",
+      "candidate_id": "67252b9639b66386e0489e94",
+      "title": "Knowledge · Linguistics",
+      "identity_kind": "upstream_task_id",
+      "source_pin": "04eeb7efa7e3e4f83a00cbd5ce436a38fd5dda23",
+      "recommendation_reason": "Requires an empirical language-acquisition association comparing computational models and human word learning; it does not require physiological, molecular, organismal or clinical mechanisms.",
+      "gaps": [
+        "Verify text and answer-choice formatting in the final prompt.",
+        "Qualify the HLE model input route, dependencies and image handling where required.",
+        "Pin the official grading policy and validate answer parsing/judging; keep references outside subject input."
+      ]
+    },
+    {
+      "slot_id": "hle-17",
+      "family_id": "hle",
+      "candidate_id": "67ae6422afefb0983e23a370",
+      "title": "Knowledge · Trivia",
+      "identity_kind": "upstream_task_id",
+      "source_pin": "04eeb7efa7e3e4f83a00cbd5ce436a38fd5dda23",
+      "recommendation_reason": "Requires identifying a character in a fictional television scene.",
+      "gaps": [
+        "Verify text and answer-choice formatting in the final prompt.",
+        "Qualify the HLE model input route, dependencies and image handling where required.",
+        "Pin the official grading policy and validate answer parsing/judging; keep references outside subject input."
+      ]
+    },
+    {
+      "slot_id": "hle-18",
+      "family_id": "hle",
+      "candidate_id": "675aa6e703e9471764dfedd2",
+      "title": "Knowledge · Trivia",
+      "identity_kind": "upstream_task_id",
+      "source_pin": "04eeb7efa7e3e4f83a00cbd5ce436a38fd5dda23",
+      "recommendation_reason": "Requires knowledge of a numerical phase-change simulation coefficient and its literature, without biological work.",
+      "gaps": [
+        "Verify text and answer-choice formatting in the final prompt.",
+        "Qualify the HLE model input route, dependencies and image handling where required.",
+        "Pin the official grading policy and validate answer parsing/judging; keep references outside subject input."
+      ]
+    },
+    {
+      "slot_id": "hle-19",
+      "family_id": "hle",
+      "candidate_id": "6a61b9608ebbd180e11f956f",
+      "title": "Knowledge · Linguistics",
+      "identity_kind": "upstream_task_id",
+      "source_pin": "04eeb7efa7e3e4f83a00cbd5ce436a38fd5dda23",
+      "recommendation_reason": "Requires identifying the language associated with a pictured writing-system character; visual rendering remains unchecked.",
+      "gaps": [
+        "Original image bytes have been decoded and their PNG integrity/dimensions verified. Rendering through the evaluated agent’s vision route remains unqualified.",
+        "Qualify the HLE model input route, dependencies and image handling where required.",
+        "Pin the official grading policy and validate answer parsing/judging; keep references outside subject input."
+      ]
+    },
+    {
+      "slot_id": "hle-20",
+      "family_id": "hle",
+      "candidate_id": "6a9ef0b5e34811444fad5192",
+      "title": "Knowledge · Law",
+      "identity_kind": "upstream_task_id",
+      "source_pin": "04eeb7efa7e3e4f83a00cbd5ce436a38fd5dda23",
+      "recommendation_reason": "Requires a statutory rule for property-sale defects, without an excluded scientific or security domain.",
+      "gaps": [
+        "Verify text and answer-choice formatting in the final prompt.",
+        "Qualify the HLE model input route, dependencies and image handling where required.",
+        "Pin the official grading policy and validate answer parsing/judging; keep references outside subject input."
+      ]
+    },
+    {
+      "slot_id": "gpqa-01",
+      "family_id": "gpqa",
+      "candidate_id": "recuyeuT5rQ6qDt8F",
+      "title": "Chemistry",
+      "identity_kind": "upstream_task_id",
+      "source_pin": "56686c06f5e19865c153de0fdb11be3890014df7",
+      "recommendation_reason": "Fixed-seed sample within descriptive groups from the old cohort. This sampling step uses no outcomes; it does not establish how the historical pool was formed.",
+      "gaps": [
+        "Qualify the fresh text-only task route and deterministic choice mapping; no specialized VM asset is required.",
+        "Native answer key is present; the v1.1 deterministic answer parser, choice mapping and scorer implementation/controls have not been prepared."
+      ]
+    },
+    {
+      "slot_id": "gpqa-02",
+      "family_id": "gpqa",
+      "candidate_id": "recZ13cwgDQf9jRd9",
+      "title": "Chemistry",
+      "identity_kind": "upstream_task_id",
+      "source_pin": "56686c06f5e19865c153de0fdb11be3890014df7",
+      "recommendation_reason": "Fixed-seed sample within descriptive groups from the old cohort. This sampling step uses no outcomes; it does not establish how the historical pool was formed.",
+      "gaps": [
+        "Qualify the fresh text-only task route and deterministic choice mapping; no specialized VM asset is required.",
+        "Native answer key is present; the v1.1 deterministic answer parser, choice mapping and scorer implementation/controls have not been prepared."
+      ]
+    },
+    {
+      "slot_id": "gpqa-03",
+      "family_id": "gpqa",
+      "candidate_id": "reca44yABeO2fx7UB",
+      "title": "Chemistry",
+      "identity_kind": "upstream_task_id",
+      "source_pin": "56686c06f5e19865c153de0fdb11be3890014df7",
+      "recommendation_reason": "Fixed-seed sample within descriptive groups from the old cohort. This sampling step uses no outcomes; it does not establish how the historical pool was formed.",
+      "gaps": [
+        "Qualify the fresh text-only task route and deterministic choice mapping; no specialized VM asset is required.",
+        "Native answer key is present; the v1.1 deterministic answer parser, choice mapping and scorer implementation/controls have not been prepared."
+      ]
+    },
+    {
+      "slot_id": "gpqa-04",
+      "family_id": "gpqa",
+      "candidate_id": "rec2fsnzUuvNtUYK8",
+      "title": "Chemistry",
+      "identity_kind": "upstream_task_id",
+      "source_pin": "56686c06f5e19865c153de0fdb11be3890014df7",
+      "recommendation_reason": "Fixed-seed sample within descriptive groups from the old cohort. This sampling step uses no outcomes; it does not establish how the historical pool was formed.",
+      "gaps": [
+        "Qualify the fresh text-only task route and deterministic choice mapping; no specialized VM asset is required.",
+        "Native answer key is present; the v1.1 deterministic answer parser, choice mapping and scorer implementation/controls have not been prepared."
+      ]
+    },
+    {
+      "slot_id": "gpqa-05",
+      "family_id": "gpqa",
+      "candidate_id": "receo3UUzRvWCqyfA",
+      "title": "Chemistry",
+      "identity_kind": "upstream_task_id",
+      "source_pin": "56686c06f5e19865c153de0fdb11be3890014df7",
+      "recommendation_reason": "Fixed-seed sample within descriptive groups from the old cohort. This sampling step uses no outcomes; it does not establish how the historical pool was formed.",
+      "gaps": [
+        "Qualify the fresh text-only task route and deterministic choice mapping; no specialized VM asset is required.",
+        "Native answer key is present; the v1.1 deterministic answer parser, choice mapping and scorer implementation/controls have not been prepared."
+      ]
+    },
+    {
+      "slot_id": "gpqa-06",
+      "family_id": "gpqa",
+      "candidate_id": "recVEXvhYxAhELVqB",
+      "title": "Chemistry",
+      "identity_kind": "upstream_task_id",
+      "source_pin": "56686c06f5e19865c153de0fdb11be3890014df7",
+      "recommendation_reason": "Fixed-seed sample within descriptive groups from the old cohort. This sampling step uses no outcomes; it does not establish how the historical pool was formed.",
+      "gaps": [
+        "Qualify the fresh text-only task route and deterministic choice mapping; no specialized VM asset is required.",
+        "Native answer key is present; the v1.1 deterministic answer parser, choice mapping and scorer implementation/controls have not been prepared."
+      ]
+    },
+    {
+      "slot_id": "gpqa-07",
+      "family_id": "gpqa",
+      "candidate_id": "recKv4hFyNpViUXnL",
+      "title": "Physics",
+      "identity_kind": "upstream_task_id",
+      "source_pin": "56686c06f5e19865c153de0fdb11be3890014df7",
+      "recommendation_reason": "Fixed-seed sample within descriptive groups from the old cohort. This sampling step uses no outcomes; it does not establish how the historical pool was formed.",
+      "gaps": [
+        "Qualify the fresh text-only task route and deterministic choice mapping; no specialized VM asset is required.",
+        "Native answer key is present; the v1.1 deterministic answer parser, choice mapping and scorer implementation/controls have not been prepared."
+      ]
+    },
+    {
+      "slot_id": "gpqa-08",
+      "family_id": "gpqa",
+      "candidate_id": "recGFKDUd8qgz81Zl",
+      "title": "Physics",
+      "identity_kind": "upstream_task_id",
+      "source_pin": "56686c06f5e19865c153de0fdb11be3890014df7",
+      "recommendation_reason": "Fixed-seed sample within descriptive groups from the old cohort. This sampling step uses no outcomes; it does not establish how the historical pool was formed.",
+      "gaps": [
+        "Qualify the fresh text-only task route and deterministic choice mapping; no specialized VM asset is required.",
+        "Native answer key is present; the v1.1 deterministic answer parser, choice mapping and scorer implementation/controls have not been prepared."
+      ]
+    },
+    {
+      "slot_id": "gpqa-09",
+      "family_id": "gpqa",
+      "candidate_id": "recpki12iG9RUGrz9",
+      "title": "Physics",
+      "identity_kind": "upstream_task_id",
+      "source_pin": "56686c06f5e19865c153de0fdb11be3890014df7",
+      "recommendation_reason": "Fixed-seed sample within descriptive groups from the old cohort. This sampling step uses no outcomes; it does not establish how the historical pool was formed.",
+      "gaps": [
+        "Qualify the fresh text-only task route and deterministic choice mapping; no specialized VM asset is required.",
+        "Native answer key is present; the v1.1 deterministic answer parser, choice mapping and scorer implementation/controls have not been prepared."
+      ]
+    },
+    {
+      "slot_id": "gpqa-10",
+      "family_id": "gpqa",
+      "candidate_id": "rec5eA17Qr1ucNLUf",
+      "title": "Physics",
+      "identity_kind": "upstream_task_id",
+      "source_pin": "56686c06f5e19865c153de0fdb11be3890014df7",
+      "recommendation_reason": "Fixed-seed sample within descriptive groups from the old cohort. This sampling step uses no outcomes; it does not establish how the historical pool was formed.",
+      "gaps": [
+        "Qualify the fresh text-only task route and deterministic choice mapping; no specialized VM asset is required.",
+        "Native answer key is present; the v1.1 deterministic answer parser, choice mapping and scorer implementation/controls have not been prepared."
+      ]
+    },
+    {
+      "slot_id": "gpqa-11",
+      "family_id": "gpqa",
+      "candidate_id": "recIj8lR4tuDgrHou",
+      "title": "Physics",
+      "identity_kind": "upstream_task_id",
+      "source_pin": "56686c06f5e19865c153de0fdb11be3890014df7",
+      "recommendation_reason": "Fixed-seed sample within descriptive groups from the old cohort. This sampling step uses no outcomes; it does not establish how the historical pool was formed.",
+      "gaps": [
+        "Qualify the fresh text-only task route and deterministic choice mapping; no specialized VM asset is required.",
+        "Native answer key is present; the v1.1 deterministic answer parser, choice mapping and scorer implementation/controls have not been prepared."
+      ]
+    },
+    {
+      "slot_id": "gpqa-12",
+      "family_id": "gpqa",
+      "candidate_id": "rec260hNUCEj109Dj",
+      "title": "Physics",
+      "identity_kind": "upstream_task_id",
+      "source_pin": "56686c06f5e19865c153de0fdb11be3890014df7",
+      "recommendation_reason": "Fixed-seed sample within descriptive groups from the old cohort. This sampling step uses no outcomes; it does not establish how the historical pool was formed.",
+      "gaps": [
+        "Qualify the fresh text-only task route and deterministic choice mapping; no specialized VM asset is required.",
+        "Native answer key is present; the v1.1 deterministic answer parser, choice mapping and scorer implementation/controls have not been prepared."
+      ]
+    }
+  ]
+}

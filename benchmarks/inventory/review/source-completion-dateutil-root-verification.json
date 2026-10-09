@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "payload_files_verified": 43,
+  "payload_bytes_verified": 12181680,
+  "zoneinfo_sha256": "d3ea52e7b6e968de0d884df1288193596fa95b803db4f92a18279a7398004475",
+  "historical_image_member_byte_equal": true,
+  "later_affecting_entries": [],
+  "compressed_and_uncompressed_layer_hashes_verified": 4,
+  "whole_runtime_qualified": false,
+  "result_sha256": "13dc4c1f5e2fd2bc00ebb28918ab0f5ed36a925a10b637b16b47e2a8ad9929b1"
+}

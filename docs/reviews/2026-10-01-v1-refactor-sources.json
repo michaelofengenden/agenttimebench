@@ -1,0 +1,161 @@
+{
+  "captured_at_utc": "2026-10-01T15:06:37.526457+00:00",
+  "source_root": "/Users/michaelofengenden/Developer/TimeResearch/agenttimebench",
+  "purpose": "Read-only source inventory for the v1 reuse recommendations; not a release or passing-test receipt.",
+  "source_files_modified": false,
+  "git_revision_available": false,
+  "review_scope": "Runner and fork source audits plus analysis and experiment documentation inspection.",
+  "qualification": "No benchmark runs, native sessions or providers invoked. No v1 refactor test suite run. Active refactor may change after this inventory.",
+  "files": [
+    {
+      "path": "duration_following/README.md",
+      "bytes": 3370,
+      "sha256": "d0ea80a15109131148ae0c421910c3833372a3a285a77c8d100ed1cec75872eb"
+    },
+    {
+      "path": "duration_following/metrics.py",
+      "bytes": 2421,
+      "sha256": "6c0f11a084ae4a430b47f848d8167d82ee0face8caefdc3272a514b9fe4b2617"
+    },
+    {
+      "path": "duration_following/analyze.py",
+      "bytes": 17619,
+      "sha256": "3e87d14db9e0a7bba9bb1bfdde68b607dc9f6f834c6d52fa33688f0295e6aae9"
+    },
+    {
+      "path": "duration_following/agenttime/README.md",
+      "bytes": 2869,
+      "sha256": "c1e803da5e08196d2109c3e4091b40e6e4e8b6715a22f0214f0969eb4ca0e641"
+    },
+    {
+      "path": "duration_following/agenttime/prompt.py",
+      "bytes": 10334,
+      "sha256": "e99232e4645f97646ed96af6831b51202bac07e0fbcedefeefa2d9dfc51ac02c"
+    },
+    {
+      "path": "duration_following/agenttime/supervisor.py",
+      "bytes": 11775,
+      "sha256": "443996ddc5ef83f9b8040c5fbeded3d7fb80a45f8eac98a9c5f4567a18a1b742"
+    },
+    {
+      "path": "duration_following/agenttime/harbor_agents.py",
+      "bytes": 13440,
+      "sha256": "ba55dea4ae230e967953f3c2d51c6682c7c60db627f06259d691be11134440f3"
+    },
+    {
+      "path": "duration_following/agenttime/harness.py",
+      "bytes": 9123,
+      "sha256": "c761412ea3fb471229db16246299a5b29319d00c89ec700135853e0ee0ce9226"
+    },
+    {
+      "path": "duration_following/agenttime/benchmarks.py",
+      "bytes": 9491,
+      "sha256": "f16de51bc32fdc322ace682a0b6da3bfb8d086b17c26d386f5e0e692fd8c9e38"
+    },
+    {
+      "path": "duration_following/agenttime/__main__.py",
+      "bytes": 7058,
+      "sha256": "280105ad9cd075fca6d37c0ccd405fea6702cbdce39d76b2a057651700f3f688"
+    },
+    {
+      "path": "duration_following/harness_swap/README.md",
+      "bytes": 3310,
+      "sha256": "0d9a277807cc93ade2dddc86af3b220a3d5f6eb05f41f59b3d4d143d9061ba0a"
+    },
+    {
+      "path": "forecasting/README.md",
+      "bytes": 2587,
+      "sha256": "288d3a1d902138a48e3885df9a39ddd5bf19d16c062f1667cb19d881ad23d142"
+    },
+    {
+      "path": "preliminary/referent_ablation/README.md",
+      "bytes": 3086,
+      "sha256": "c06c971015c6ffd0a87c2b7d85da036f3aca7dd3a172f1b9140ae0a331c65aa1"
+    },
+    {
+      "path": "preliminary/time_control/README.md",
+      "bytes": 4128,
+      "sha256": "a6a0778254acfd3a0d02e6e7dae4e5af824b5f7fd7e558a2d241b979fa758d5e"
+    },
+    {
+      "path": "preliminary/programbench_separate_turn/README.md",
+      "bytes": 2617,
+      "sha256": "7fe03df153e63e8e25b6f1bd5673bab9a6738b0041c3e7e5a75b12e9e124d808"
+    },
+    {
+      "path": "preliminary/programbench_separate_turn/fork.py",
+      "bytes": 12844,
+      "sha256": "739e72f963136c9e7512178371a3ad92d88d7dd1772095a467d39b955120ee50"
+    },
+    {
+      "path": "retrospective_forks/README.md",
+      "bytes": 2808,
+      "sha256": "92f2c51ec6e5c3bba2d736821ea7f2c4e2df37e061014243842f2c12788bae9c"
+    },
+    {
+      "path": "retrospective_forks/fork_claude.py",
+      "bytes": 16881,
+      "sha256": "6443ba6279569586fcec829e7384884f0d1f142fb3eb2b081c69d095e5a500af"
+    },
+    {
+      "path": "retrospective_forks/fork_codex.py",
+      "bytes": 18984,
+      "sha256": "e219dcc611f457e3fda7d7c25e8c964dab975276cf88c061ffc3df16e785e5d3"
+    },
+    {
+      "path": "retrospective_forks/common.py",
+      "bytes": 4035,
+      "sha256": "74221a17869dd6f874b1c92c6e04679005274638b401bf1f8dfb8ea6dc3671bf"
+    },
+    {
+      "path": "retrospective_forks/run_all.py",
+      "bytes": 3074,
+      "sha256": "7d746641c63fca4849bf6016e7ed467eada45d1828c9c21d3559dea0f72991dd"
+    },
+    {
+      "path": "retrospective_forks/codex_proxy.py",
+      "bytes": 5619,
+      "sha256": "11234a8f4f82acfb95e8003a5e5f62f65ddf7eb3416f09d19507225b450bb77d"
+    },
+    {
+      "path": "retrospective_forks/docker/Dockerfile",
+      "bytes": 520,
+      "sha256": "b45e8f69d7eb03a1c62f5d729ead5ab60151ada1038cac98c755a468ccab06f3"
+    },
+    {
+      "path": "retrospective_forks/reconstruct.py",
+      "bytes": 5826,
+      "sha256": "0e56f2472df6a906fa8eee19ebbc457ef71a761da69b6aab57b990959337a41b"
+    },
+    {
+      "path": "retrospective_forks/replay.py",
+      "bytes": 10858,
+      "sha256": "3b10009a571f0debc1be29df873b5467bb6937d4b89ad5c48ead72e625cf9f06"
+    },
+    {
+      "path": "retrospective_forks/request_removal.py",
+      "bytes": 74381,
+      "sha256": "713f7943c890335bdfce47d58d06a1c5db988c2689dbfb1ec416f1063b246b76"
+    },
+    {
+      "path": "retrospective_forks/scrub.py",
+      "bytes": 150116,
+      "sha256": "9d35952aef18a1159f351294d93779be91566839b5e8689200cba345e6907785"
+    },
+    {
+      "path": "tests/test_agenttime.py",
+      "bytes": 33828,
+      "sha256": "1f05fdff1c6de2f4b11fae897ab36f6617cf4007abdce62ebdf49817fa02b022"
+    },
+    {
+      "path": "tests/test_duration_following.py",
+      "bytes": 10504,
+      "sha256": "d4b88cba50c1a5cc4d778130b2380912b6a8fd14ee5203286a8b380731eb3927"
+    },
+    {
+      "path": "tests/test_retrospective_forks.py",
+      "bytes": 18837,
+      "sha256": "ae80e63058df6daccb61eac6ea62a6807ec7df26ca8f88b5903f1d5e46891537"
+    }
+  ]
+}

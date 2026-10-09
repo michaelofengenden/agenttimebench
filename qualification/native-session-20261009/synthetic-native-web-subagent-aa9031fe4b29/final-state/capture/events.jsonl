@@ -1,0 +1,9 @@
+{"audit_utc": "2026-10-09T14:39:24.643663+00:00", "kind": "root_process_started", "monotonic_ns": 1113787503797, "owner_pid": 14, "pid": 20, "sequence": 1, "session_id": "1a9dd525-6f9d-424b-9404-e0a806f01ccb"}
+{"audit_utc": "2026-10-09T14:39:24.648322+00:00", "input_sha256": "71562146f05397900f594c6f684ccbadd83c0048b061122132a99491a88d50c9", "kind": "prompt_released", "monotonic_ns": 1113792192881, "sequence": 2, "session_id": "1a9dd525-6f9d-424b-9404-e0a806f01ccb"}
+{"audit_utc": "2026-10-09T14:39:24.648870+00:00", "bytes": 331, "kind": "prompt_delivery_completed", "monotonic_ns": 1113792808964, "sequence": 3, "session_id": "1a9dd525-6f9d-424b-9404-e0a806f01ccb"}
+{"audit_utc": "2026-10-09T14:39:26.752972+00:00", "kind": "native_event", "metadata": {"session_id": "1a9dd525-6f9d-424b-9404-e0a806f01ccb", "subtype": "init", "tool_names": [], "type": "system"}, "monotonic_ns": 1115896893507, "sequence": 4, "session_id": "1a9dd525-6f9d-424b-9404-e0a806f01ccb"}
+{"audit_utc": "2026-10-09T14:39:26.754688+00:00", "kind": "execution_stop_requested", "monotonic_ns": 1115898627173, "reason": "boundary_integrity_failure", "sequence": 5, "session_id": "1a9dd525-6f9d-424b-9404-e0a806f01ccb"}
+{"audit_utc": "2026-10-09T14:39:26.898129+00:00", "exit_code": 143, "kind": "owned_process_reaped", "monotonic_ns": 1116042059590, "pid": 20, "sequence": 6, "session_id": "1a9dd525-6f9d-424b-9404-e0a806f01ccb"}
+{"audit_utc": "2026-10-09T14:39:26.899379+00:00", "exit_code": 143, "kind": "root_process_exited", "monotonic_ns": 1116043315590, "sequence": 7, "session_id": "1a9dd525-6f9d-424b-9404-e0a806f01ccb"}
+{"audit_utc": "2026-10-09T14:39:26.900422+00:00", "kind": "owned_work_drained", "monotonic_ns": 1116044359840, "sequence": 8, "session_id": "1a9dd525-6f9d-424b-9404-e0a806f01ccb"}
+{"audit_utc": "2026-10-09T14:39:26.901045+00:00", "kind": "journal_closed", "monotonic_ns": 1116044986173, "sequence": 9, "session_id": "1a9dd525-6f9d-424b-9404-e0a806f01ccb"}

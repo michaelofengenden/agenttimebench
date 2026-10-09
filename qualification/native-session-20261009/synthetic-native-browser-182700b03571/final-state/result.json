@@ -1,0 +1,34 @@
+{
+  "cli_exit_code": 1,
+  "full_browser_restore_qualified": false,
+  "included_subscription_allowance_verified": false,
+  "issues": [
+    "native_boundary_missing_or_repeated",
+    "required_browser_path_unobserved",
+    "transport_unavailable",
+    "native_submission_unconfirmed",
+    "browser_state_integrity_or_action_unverified",
+    "original_native_transcript_missing",
+    "included_subscription_allowance_unverified",
+    "cli_exit_failure",
+    "owned_process_group_drain_unproven"
+  ],
+  "native_session_files": 0,
+  "native_stream_response_ids": [],
+  "observed_tools": [],
+  "process_group_drained": false,
+  "qualification": "synthetic_claude_mcp_only",
+  "requires_independent_final_archive_and_container_stop_proof": true,
+  "schema_version": 1,
+  "source_pins": {
+    "assistantbench_bridge.py": "9bb6ccdd1bd1b39301167c9a1e537be144478e0d19e5cefa319abe5d65f39742",
+    "claude_canary.py": "847b765d16c85d42ebb35dce4dd4a32685b7625e1673cfd9c4869af66f7bc8e9",
+    "evidence.py": "b85a9ae618664d2829199e163db839378c38fc125b8c8bf88872c0daee4a693f",
+    "jsonio.py": "f624a642ed571b1721fb971cf160f75ec813f91e3c9f612ac74c245350bd9cad",
+    "synthetic.html": "21eae3f05351fde21560c009d5b368c38f43d61f79ebf373f96fcb07802b28be"
+  },
+  "study_attempts": 0,
+  "study_ready": false,
+  "synthetic_tool_path_passed": false,
+  "transport_request_count": 0
+}

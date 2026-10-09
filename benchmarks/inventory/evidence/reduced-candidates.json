@@ -1,0 +1,1386 @@
+{
+  "schema_version": "agenttime.v1.1.reduced-candidate-recommendations.v1",
+  "created_at_utc": "2026-10-02T12:17:17.903572+00:00",
+  "status": "draft_for_user_review_not_selected",
+  "authorization_scope": "Draft recommended exact IDs for AppWorld14, TUA10, AssistantBench8 and GPQA12 from named v1 candidate pools. No roster selection or source acquisition is authorized by this file.",
+  "base_selection_map": {
+    "path": "/private/tmp/agenttime-inventory-20261002/selection-map.json",
+    "sha256": "38ce2b1281e4a8f59fdc36301df882b535dcfcdf8545f70d317248b9c81d8ef3",
+    "mapped_candidate_task_slots_unchanged": 100
+  },
+  "method": {
+    "name": "Minimum-one proportional stratification with stable SHA-256 ranking",
+    "version": 1,
+    "seed": "agenttime-v1.1-reduced-review-20261002-v1",
+    "seed_status": "proposed_for_review; no alternate seeds evaluated",
+    "steps": [
+      "Use every ID from the named v1 pool once. Group on existing descriptive labels only; do not consult scores, pass rates, refusals or durations to rank candidates.",
+      "Guarantee one place to each nonempty group. Allocate the remaining places proportionally to each group's remaining capacity using exact rational arithmetic, largest remainders and ascending group name for ties.",
+      "For each raw task ID compute SHA256(UTF8(seed + NUL + family_id + NUL + task_id)). Rank ascending by hexadecimal digest, then raw task ID as a collision tie-breaker.",
+      "Recommend the first quota entries within each hash-ranked group. Display final recommendations in old roster order for traceability.",
+      "Keep all unchosen pool members visible. Treat every resulting ID as a review recommendation with source and native qualification still pending."
+    ],
+    "decision_inputs": [
+      "old pool membership",
+      "old raw task ID",
+      "old task label",
+      "AppWorld descriptive category and app count for coverage reporting",
+      "GPQA chemistry/physics label",
+      "explicit draft grouping",
+      "family allocation",
+      "single proposed namespace seed"
+    ],
+    "excluded_decision_inputs": [
+      "model score",
+      "success/failure",
+      "refusal history",
+      "observed runtime",
+      "forecast",
+      "solution content",
+      "new-version search"
+    ],
+    "bias_note": "This reduces analyst discretion within the frozen v1 pools. It does not undo any selection bias in those historical pools and does not make the chosen coarse groups statistically representative of the full upstream benchmarks."
+  },
+  "sources": {
+    "v1_roster": {
+      "path": "/Users/michaelofengenden/Developer/TimeResearch/AgentTimeExperiment/benchmarks/roster.snapshot.json",
+      "sha256": "f86106ec33270db3042289f7d52f354b42ab2c6ce528b7c450fef8662794e4c6"
+    },
+    "v1_task_descriptors": {
+      "path": "/Users/michaelofengenden/Developer/TimeResearch/AgentTimeExperiment/lib/current-suite-roster.ts",
+      "sha256": "186c4631f9f4721ff9c07a9c30d8d44030cd1e15ff19621f136db536d84508f1",
+      "appworld_descriptors_lines": "2462-2691",
+      "tua_descriptors_lines": "867-951"
+    },
+    "v1_numbered_task_catalog": {
+      "path": "/Users/michaelofengenden/Developer/TimeResearch/AgentTimeExperiment/local-artifacts/v2-suite-review-20260930/inputs/tasks.json",
+      "sha256": "d97ef110ea8da5173af896d3f00b40d89cdc1823e4cfd1f3e8d3f562de731fd3",
+      "fields_inspected_for_this_recommendation": [
+        "benchmark",
+        "raw_id",
+        "title",
+        "slug",
+        "retired"
+      ],
+      "used_for": "Confirm that AssistantBench titles lack topic descriptors; run and score fields not used."
+    }
+  },
+  "totals": {
+    "families": 4,
+    "recommended_task_ids": 44,
+    "newly_selected_tasks": 0,
+    "qualified_tasks": 0
+  },
+  "families": [
+    {
+      "family_id": "appworld",
+      "v1_family_slug": "appworld",
+      "allocation": 14,
+      "recommendation_status": "draft_for_review_not_selected",
+      "qualification_status": "pending",
+      "candidate_pool_count": 18,
+      "source_pin_from_v1": "code a072b7a86e7c1d5b1d7175659d750ebb9b79f10a; data 0.2.0 c9299e6cafe92bce4592a3c117c047c973d1554a667c21dd81537e78ab2f532e; protected seed 125b7c753cba653741d128b94cd57814e9a739e0118fd4fc4b537eb5aaad553f; image sha256:77d37be71741a740d782c909633845be4a363c5aad8d61530a57f9a1da3c4398",
+      "group_basis": "Documented task labels and AppWorld categories; author-created broad groups.",
+      "strata": [
+        {
+          "group": "files_and_correspondence",
+          "pool_size": 4,
+          "recommended_count": 3,
+          "ranked_ids": [
+            "36705ae_1",
+            "f6f2e67_1",
+            "33e202d_1",
+            "a97e35d_1"
+          ],
+          "recommended_ids_in_rank_order": [
+            "36705ae_1",
+            "f6f2e67_1",
+            "33e202d_1"
+          ]
+        },
+        {
+          "group": "finance_and_procurement",
+          "pool_size": 5,
+          "recommended_count": 4,
+          "ranked_ids": [
+            "83a7951_1",
+            "f86d850_1",
+            "f3a6713_1",
+            "8d42650_1",
+            "a676f2a_1"
+          ],
+          "recommended_ids_in_rank_order": [
+            "83a7951_1",
+            "f86d850_1",
+            "f3a6713_1",
+            "8d42650_1"
+          ]
+        },
+        {
+          "group": "music_and_personalization",
+          "pool_size": 5,
+          "recommended_count": 4,
+          "ranked_ids": [
+            "3fcc458_1",
+            "986aa4e_1",
+            "1b988ac_1",
+            "9a16324_1",
+            "a1d3dfd_1"
+          ],
+          "recommended_ids_in_rank_order": [
+            "3fcc458_1",
+            "986aa4e_1",
+            "1b988ac_1",
+            "9a16324_1"
+          ]
+        },
+        {
+          "group": "project_execution",
+          "pool_size": 1,
+          "recommended_count": 1,
+          "ranked_ids": [
+            "988af8e_1"
+          ],
+          "recommended_ids_in_rank_order": [
+            "988af8e_1"
+          ]
+        },
+        {
+          "group": "scheduling",
+          "pool_size": 3,
+          "recommended_count": 2,
+          "ranked_ids": [
+            "bde252e_1",
+            "18670a5_1",
+            "e70b117_1"
+          ],
+          "recommended_ids_in_rank_order": [
+            "bde252e_1",
+            "18670a5_1"
+          ]
+        }
+      ],
+      "recommended_ids": [
+        "988af8e_1",
+        "3fcc458_1",
+        "8d42650_1",
+        "f86d850_1",
+        "9a16324_1",
+        "1b988ac_1",
+        "f6f2e67_1",
+        "f3a6713_1",
+        "36705ae_1",
+        "18670a5_1",
+        "33e202d_1",
+        "bde252e_1",
+        "986aa4e_1",
+        "83a7951_1"
+      ],
+      "not_recommended_ids": [
+        "a1d3dfd_1",
+        "a676f2a_1",
+        "e70b117_1",
+        "a97e35d_1"
+      ],
+      "candidate_pool": [
+        {
+          "task_id": "988af8e_1",
+          "label": "Execute every task in a camping project across shopping, expenses, payments, invitations, and task closeout",
+          "draft_group": "project_execution",
+          "hash_rank_sha256": "6eb4d043784fbe975cd0e8ab4086b4c14dac88f7726cd32985c4ad5b93d93864",
+          "within_group_rank": 1,
+          "recommended": true,
+          "provenance": [
+            "v1_roster#/families/11/tasks/0",
+            "v1_task_descriptors:2462"
+          ],
+          "documented_category": "Project execution · six apps · Test-Challenge",
+          "documented_app_count": 6
+        },
+        {
+          "task_id": "a1d3dfd_1",
+          "label": "Export every playlist song to a CSV and email the backup",
+          "draft_group": "music_and_personalization",
+          "hash_rank_sha256": "6e6b538a017004f2ab663a1cf714021d01e3b928ba28bdf7fd3362724de14079",
+          "within_group_rank": 5,
+          "recommended": false,
+          "provenance": [
+            "v1_roster#/families/11/tasks/1",
+            "v1_task_descriptors:2475"
+          ],
+          "documented_category": "Data export and communication · four apps · Test-Challenge",
+          "documented_app_count": 4
+        },
+        {
+          "task_id": "3fcc458_1",
+          "label": "Reconcile an emailed road-trip song list with a Spotify playlist and download it",
+          "draft_group": "music_and_personalization",
+          "hash_rank_sha256": "1b03659f3215e4360570228e9581cccdcb297d581a170e6653ca9e68a8458f50",
+          "within_group_rank": 1,
+          "recommended": true,
+          "provenance": [
+            "v1_roster#/families/11/tasks/2",
+            "v1_task_descriptors:2487"
+          ],
+          "documented_category": "Cross-app media reconciliation · four apps · Test-Challenge",
+          "documented_app_count": 4
+        },
+        {
+          "task_id": "8d42650_1",
+          "label": "Turn this year’s emailed electricity bills into monthly Splitwise expenses",
+          "draft_group": "finance_and_procurement",
+          "hash_rank_sha256": "8f6b94e76e56c14bd6fbfe7c6dd93eaf2a91c9c0baa0aa7bd14e0b53db135bac",
+          "within_group_rank": 4,
+          "recommended": true,
+          "provenance": [
+            "v1_roster#/families/11/tasks/3",
+            "v1_task_descriptors:2500"
+          ],
+          "documented_category": "Bill extraction and accounting · four apps · Test-Challenge",
+          "documented_app_count": 4
+        },
+        {
+          "task_id": "f86d850_1",
+          "label": "Buy a requested item, forward its receipt, and recover the cost through Venmo",
+          "draft_group": "finance_and_procurement",
+          "hash_rank_sha256": "6a7bf1d0ced14c61cf4a13e72a68e6951d03fd538ff8c54a6da317987102554e",
+          "within_group_rank": 2,
+          "recommended": true,
+          "provenance": [
+            "v1_roster#/families/11/tasks/4",
+            "v1_task_descriptors:2513"
+          ],
+          "documented_category": "Purchasing and reimbursement · four apps · Test-Challenge",
+          "documented_app_count": 4
+        },
+        {
+          "task_id": "9a16324_1",
+          "label": "Collect artist recommendations from email and text conversations, then follow them",
+          "draft_group": "music_and_personalization",
+          "hash_rank_sha256": "557c84ca56673b8e10365a4211e388795da1d6998829c330659db133e7e04db1",
+          "within_group_rank": 4,
+          "recommended": true,
+          "provenance": [
+            "v1_roster#/families/11/tasks/5",
+            "v1_task_descriptors:2526"
+          ],
+          "documented_category": "Communication synthesis · three apps · Test-Challenge",
+          "documented_app_count": 3
+        },
+        {
+          "task_id": "1b988ac_1",
+          "label": "Rebuild and send a drafted recommendation email from the user’s Spotify history",
+          "draft_group": "music_and_personalization",
+          "hash_rank_sha256": "3911b8a31ad190390b637d6315620b340015ccacdbea2464b1bf3a8f3750be9c",
+          "within_group_rank": 3,
+          "recommended": true,
+          "provenance": [
+            "v1_roster#/families/11/tasks/6",
+            "v1_task_descriptors:2539"
+          ],
+          "documented_category": "Personalized drafting · three apps · Test-Challenge",
+          "documented_app_count": 3
+        },
+        {
+          "task_id": "f6f2e67_1",
+          "label": "Merge two photo collections into a ZIP and send it to both parents",
+          "draft_group": "files_and_correspondence",
+          "hash_rank_sha256": "1ec35a76baf9a58d4da3edc3f20c022823cddc7d5efb56e6927eff745c51f274",
+          "within_group_rank": 2,
+          "recommended": true,
+          "provenance": [
+            "v1_roster#/families/11/tasks/7",
+            "v1_task_descriptors:2552"
+          ],
+          "documented_category": "File assembly and email · three apps · Test-Challenge",
+          "documented_app_count": 3
+        },
+        {
+          "task_id": "f3a6713_1",
+          "label": "Reconcile a camping checklist with commitments and buy the remaining supplies",
+          "draft_group": "finance_and_procurement",
+          "hash_rank_sha256": "7b105fdd675ac85a93b10e7f440a94999ef5a36a487f22846e718319d26f67b1",
+          "within_group_rank": 3,
+          "recommended": true,
+          "provenance": [
+            "v1_roster#/families/11/tasks/8",
+            "v1_task_descriptors:2565"
+          ],
+          "documented_category": "Checklist reconciliation and shopping · three apps · Test-Challenge",
+          "documented_app_count": 3
+        },
+        {
+          "task_id": "36705ae_1",
+          "label": "Collect every cable bill, normalize filenames, ZIP them, and reply to the request",
+          "draft_group": "files_and_correspondence",
+          "hash_rank_sha256": "03855c7818ff221267ea14e93e9b2748afdacb86b6ca080124d94b48ce713df6",
+          "within_group_rank": 1,
+          "recommended": true,
+          "provenance": [
+            "v1_roster#/families/11/tasks/9",
+            "v1_task_descriptors:2579"
+          ],
+          "documented_category": "Document collection and delivery · three apps · Test-Challenge",
+          "documented_app_count": 3
+        },
+        {
+          "task_id": "a676f2a_1",
+          "label": "Calculate and send individualized lunch-cost requests with shared tip and delivery",
+          "draft_group": "finance_and_procurement",
+          "hash_rank_sha256": "a16f4a8c99645382fa45d9e3cec80d0ddd8d6c8d25fd6204745928d64f30ef9c",
+          "within_group_rank": 5,
+          "recommended": false,
+          "provenance": [
+            "v1_roster#/families/11/tasks/10",
+            "v1_task_descriptors:2593"
+          ],
+          "documented_category": "Cost allocation · three apps · Test-Challenge",
+          "documented_app_count": 3
+        },
+        {
+          "task_id": "18670a5_1",
+          "label": "Turn a note-based meeting schedule into correctly timed reminder emails",
+          "draft_group": "scheduling",
+          "hash_rank_sha256": "651e3c915287f4f15b09597376c48c06dff27643a809266a2e9a598cc4d73d34",
+          "within_group_rank": 2,
+          "recommended": true,
+          "provenance": [
+            "v1_roster#/families/11/tasks/11",
+            "v1_task_descriptors:2606"
+          ],
+          "documented_category": "Scheduled communication · three apps · Test-Challenge",
+          "documented_app_count": 3
+        },
+        {
+          "task_id": "e70b117_1",
+          "label": "Build scheduled speaker reminders from an email schedule and file template",
+          "draft_group": "scheduling",
+          "hash_rank_sha256": "ad4406e1972d9b2f37235a7ca7d8e0b7805117a2cdeceda5cf31e220f6ed862e",
+          "within_group_rank": 3,
+          "recommended": false,
+          "provenance": [
+            "v1_roster#/families/11/tasks/12",
+            "v1_task_descriptors:2619"
+          ],
+          "documented_category": "Templated scheduling · three apps · Test-Challenge",
+          "documented_app_count": 3
+        },
+        {
+          "task_id": "33e202d_1",
+          "label": "Build a recruiting CSV and archive each candidate’s attachments",
+          "draft_group": "files_and_correspondence",
+          "hash_rank_sha256": "64f82008a3f6987ec0ab42a187c3e03967623d0f1ad1372813882564bcae7a5d",
+          "within_group_rank": 3,
+          "recommended": true,
+          "provenance": [
+            "v1_roster#/families/11/tasks/13",
+            "v1_task_descriptors:2632"
+          ],
+          "documented_category": "Recruiting records · two apps · Test-Challenge",
+          "documented_app_count": 2
+        },
+        {
+          "task_id": "a97e35d_1",
+          "label": "Send individualized acceptance or rejection replies using local decision templates",
+          "draft_group": "files_and_correspondence",
+          "hash_rank_sha256": "c364a9e814ab7a0b9a9ddb27e62a5b4c591464fbd97c8575acd426f79c46f173",
+          "within_group_rank": 4,
+          "recommended": false,
+          "provenance": [
+            "v1_roster#/families/11/tasks/14",
+            "v1_task_descriptors:2645"
+          ],
+          "documented_category": "High-volume personalized email · two apps · Test-Challenge",
+          "documented_app_count": 2
+        },
+        {
+          "task_id": "bde252e_1",
+          "label": "Repack tonight’s Todoist plan around the available work schedule",
+          "draft_group": "scheduling",
+          "hash_rank_sha256": "596e0382915ed9f28cec6d9b6fcdacfcce95897449b2928e1500dfcaf2d84537",
+          "within_group_rank": 1,
+          "recommended": true,
+          "provenance": [
+            "v1_roster#/families/11/tasks/15",
+            "v1_task_descriptors:2658"
+          ],
+          "documented_category": "Schedule optimization · two apps · Test-Normal",
+          "documented_app_count": 2
+        },
+        {
+          "task_id": "986aa4e_1",
+          "label": "Apply collaborator feedback to a shared road-trip playlist and close the task",
+          "draft_group": "music_and_personalization",
+          "hash_rank_sha256": "2b06dfd6c9df8801bf07b31864a99a79ada234f493ad304e00711944ffe1e354",
+          "within_group_rank": 2,
+          "recommended": true,
+          "provenance": [
+            "v1_roster#/families/11/tasks/16",
+            "v1_task_descriptors:2671"
+          ],
+          "documented_category": "Collaborative task execution · three apps · Test-Normal",
+          "documented_app_count": 3
+        },
+        {
+          "task_id": "83a7951_1",
+          "label": "Reconcile Venmo payments into Splitwise with attached receipts",
+          "draft_group": "finance_and_procurement",
+          "hash_rank_sha256": "4e89daeff71b9b8c0cb173320c671b233962ff9094d7c4e95f4d7c9b54e30a3b",
+          "within_group_rank": 1,
+          "recommended": true,
+          "provenance": [
+            "v1_roster#/families/11/tasks/17",
+            "v1_task_descriptors:2684"
+          ],
+          "documented_category": "Payment reconciliation · three apps · Test-Normal",
+          "documented_app_count": 3
+        }
+      ],
+      "limitations": [
+        "The five broad draft groups are reviewer-authored from the documented task labels; they are not official upstream strata. Tasks often cover multiple groups.",
+        "Documented app counts and categories are available, but this audit did not inspect every task's full API/app list. Broad activity and app-count coverage does not prove that every original app combination is preserved."
+      ],
+      "provenance": [
+        "v1_roster#/families/11"
+      ]
+    },
+    {
+      "family_id": "tua",
+      "v1_family_slug": "tua-bench",
+      "allocation": 10,
+      "recommendation_status": "draft_for_review_not_selected",
+      "qualification_status": "pending",
+      "candidate_pool_count": 12,
+      "source_pin_from_v1": "3497fd320abcafaf4797424192c891a593fd7964",
+      "group_basis": "Documented task labels and AppWorld categories; author-created broad groups.",
+      "strata": [
+        {
+          "group": "daily_reporting",
+          "pool_size": 1,
+          "recommended_count": 1,
+          "ranked_ids": [
+            "102-daily-email-report"
+          ],
+          "recommended_ids_in_rank_order": [
+            "102-daily-email-report"
+          ]
+        },
+        {
+          "group": "engineering",
+          "pool_size": 3,
+          "recommended_count": 3,
+          "ranked_ids": [
+            "004-place-heater-for-sensors",
+            "005-optimize-cold-plate",
+            "006-extract-gym-auditorium"
+          ],
+          "recommended_ids_in_rank_order": [
+            "004-place-heater-for-sensors",
+            "005-optimize-cold-plate",
+            "006-extract-gym-auditorium"
+          ]
+        },
+        {
+          "group": "media_and_metadata",
+          "pool_size": 3,
+          "recommended_count": 2,
+          "ranked_ids": [
+            "088-extract-presenter-photos",
+            "100-name-mountain-photos",
+            "079-fix-mp3-metadata"
+          ],
+          "recommended_ids_in_rank_order": [
+            "088-extract-presenter-photos",
+            "100-name-mountain-photos"
+          ]
+        },
+        {
+          "group": "reference_and_research",
+          "pool_size": 3,
+          "recommended_count": 2,
+          "ranked_ids": [
+            "094-author-homepage-bookmarks",
+            "074-apa-references-review",
+            "096-first-author-table"
+          ],
+          "recommended_ids_in_rank_order": [
+            "094-author-homepage-bookmarks",
+            "074-apa-references-review"
+          ]
+        },
+        {
+          "group": "structured_data",
+          "pool_size": 1,
+          "recommended_count": 1,
+          "ranked_ids": [
+            "011-epw-parquet-check"
+          ],
+          "recommended_ids_in_rank_order": [
+            "011-epw-parquet-check"
+          ]
+        },
+        {
+          "group": "text_documents",
+          "pool_size": 1,
+          "recommended_count": 1,
+          "ranked_ids": [
+            "093-merge-txt-document"
+          ],
+          "recommended_ids_in_rank_order": [
+            "093-merge-txt-document"
+          ]
+        }
+      ],
+      "recommended_ids": [
+        "074-apa-references-review",
+        "102-daily-email-report",
+        "094-author-homepage-bookmarks",
+        "100-name-mountain-photos",
+        "093-merge-txt-document",
+        "004-place-heater-for-sensors",
+        "005-optimize-cold-plate",
+        "006-extract-gym-auditorium",
+        "011-epw-parquet-check",
+        "088-extract-presenter-photos"
+      ],
+      "not_recommended_ids": [
+        "096-first-author-table",
+        "079-fix-mp3-metadata"
+      ],
+      "candidate_pool": [
+        {
+          "task_id": "074-apa-references-review",
+          "label": "APA references review",
+          "draft_group": "reference_and_research",
+          "hash_rank_sha256": "866d0f33edfe36314393bf19259e1b4443996b8174d6c9d0eefee508136defe7",
+          "within_group_rank": 2,
+          "recommended": true,
+          "provenance": [
+            "v1_roster#/families/8/tasks/0"
+          ]
+        },
+        {
+          "task_id": "096-first-author-table",
+          "label": "First-author table",
+          "draft_group": "reference_and_research",
+          "hash_rank_sha256": "ad553b61f663690ec622a63100c6ca82def581590c436e9a293aebce64f0d9e6",
+          "within_group_rank": 3,
+          "recommended": false,
+          "provenance": [
+            "v1_roster#/families/8/tasks/1"
+          ]
+        },
+        {
+          "task_id": "102-daily-email-report",
+          "label": "Daily email report",
+          "draft_group": "daily_reporting",
+          "hash_rank_sha256": "ee57100ac1b75d5fa038151a3344207e1b980bcf02e0bea7248bbd0d95eddf9c",
+          "within_group_rank": 1,
+          "recommended": true,
+          "provenance": [
+            "v1_roster#/families/8/tasks/2"
+          ]
+        },
+        {
+          "task_id": "094-author-homepage-bookmarks",
+          "label": "Author homepage bookmarks",
+          "draft_group": "reference_and_research",
+          "hash_rank_sha256": "16fead1d9aeabfe69a7d4bcdc0d29e198cb219a11e87849e511c3059674f6cc8",
+          "within_group_rank": 1,
+          "recommended": true,
+          "provenance": [
+            "v1_roster#/families/8/tasks/3"
+          ]
+        },
+        {
+          "task_id": "100-name-mountain-photos",
+          "label": "Name mountain photos",
+          "draft_group": "media_and_metadata",
+          "hash_rank_sha256": "a83af98b746329f6cb862408ee8acd8bdc3c90a33ebc975cb8e287d53c8be340",
+          "within_group_rank": 2,
+          "recommended": true,
+          "provenance": [
+            "v1_roster#/families/8/tasks/4"
+          ]
+        },
+        {
+          "task_id": "093-merge-txt-document",
+          "label": "Merge text document",
+          "draft_group": "text_documents",
+          "hash_rank_sha256": "00bdc469f42bd1662d70049e35f84fb0a109bc8522fc1d584b49f2546278aae0",
+          "within_group_rank": 1,
+          "recommended": true,
+          "provenance": [
+            "v1_roster#/families/8/tasks/5"
+          ]
+        },
+        {
+          "task_id": "004-place-heater-for-sensors",
+          "label": "Place heater for sensors",
+          "draft_group": "engineering",
+          "hash_rank_sha256": "2ad07c27c5896a2325a99ac032f637a70338487c59d675c824c340d0b3ffcf77",
+          "within_group_rank": 1,
+          "recommended": true,
+          "provenance": [
+            "v1_roster#/families/8/tasks/6"
+          ]
+        },
+        {
+          "task_id": "005-optimize-cold-plate",
+          "label": "Optimize cold plate",
+          "draft_group": "engineering",
+          "hash_rank_sha256": "626ce249445daa85d86e5282d3874804d987dcc3ff926a001eec5c0427936f09",
+          "within_group_rank": 2,
+          "recommended": true,
+          "provenance": [
+            "v1_roster#/families/8/tasks/7"
+          ]
+        },
+        {
+          "task_id": "006-extract-gym-auditorium",
+          "label": "Extract gym auditorium",
+          "draft_group": "engineering",
+          "hash_rank_sha256": "702ca55ecb2a8ee5e3ca8df3fa6744b17bb1e7bfc159f22957a91b9e95cf4fd6",
+          "within_group_rank": 3,
+          "recommended": true,
+          "provenance": [
+            "v1_roster#/families/8/tasks/8"
+          ]
+        },
+        {
+          "task_id": "011-epw-parquet-check",
+          "label": "EPW parquet check",
+          "draft_group": "structured_data",
+          "hash_rank_sha256": "d9187fa35a43ce84377e0dc81fb3bea888b0de5dd5b5bc33a1d7eb85593a59ef",
+          "within_group_rank": 1,
+          "recommended": true,
+          "provenance": [
+            "v1_roster#/families/8/tasks/9"
+          ]
+        },
+        {
+          "task_id": "079-fix-mp3-metadata",
+          "label": "Fix MP3 metadata",
+          "draft_group": "media_and_metadata",
+          "hash_rank_sha256": "bbbb4b43194bed2b5e76f8cee816a7574fcc8598c288119ed2cd9702e7dbba21",
+          "within_group_rank": 3,
+          "recommended": false,
+          "provenance": [
+            "v1_roster#/families/8/tasks/10"
+          ]
+        },
+        {
+          "task_id": "088-extract-presenter-photos",
+          "label": "Extract presenter photos",
+          "draft_group": "media_and_metadata",
+          "hash_rank_sha256": "04f7aeb81827c7d5567afa32c29f4aa1b24a6e11ae4c63f59eb9d298867c1f13",
+          "within_group_rank": 1,
+          "recommended": true,
+          "provenance": [
+            "v1_roster#/families/8/tasks/11"
+          ]
+        }
+      ],
+      "limitations": [
+        "The six draft groups are derived from the v1 labels and represent coarse workflow diversity. Complete task instructions and native environments were not re-audited."
+      ],
+      "provenance": [
+        "v1_roster#/families/8"
+      ]
+    },
+    {
+      "family_id": "assistant",
+      "v1_family_slug": "assistantbench",
+      "allocation": 8,
+      "recommendation_status": "draft_for_review_not_selected",
+      "qualification_status": "pending",
+      "candidate_pool_count": 18,
+      "source_pin_from_v1": "official AssistantBench validation dataset snapshot; content hash still to freeze",
+      "group_basis": "No topic descriptors available; one unstratified pool.",
+      "strata": [
+        {
+          "group": "unstratified_missing_topic_descriptors",
+          "pool_size": 18,
+          "recommended_count": 8,
+          "ranked_ids": [
+            "validation:22",
+            "validation:32",
+            "validation:2",
+            "validation:29",
+            "validation:6",
+            "validation:3",
+            "validation:27",
+            "validation:5",
+            "validation:31",
+            "validation:13",
+            "validation:9",
+            "validation:25",
+            "validation:26",
+            "validation:4",
+            "validation:15",
+            "validation:0",
+            "validation:28",
+            "validation:1"
+          ],
+          "recommended_ids_in_rank_order": [
+            "validation:22",
+            "validation:32",
+            "validation:2",
+            "validation:29",
+            "validation:6",
+            "validation:3",
+            "validation:27",
+            "validation:5"
+          ]
+        }
+      ],
+      "recommended_ids": [
+        "validation:2",
+        "validation:3",
+        "validation:5",
+        "validation:6",
+        "validation:22",
+        "validation:27",
+        "validation:29",
+        "validation:32"
+      ],
+      "not_recommended_ids": [
+        "validation:0",
+        "validation:1",
+        "validation:4",
+        "validation:9",
+        "validation:13",
+        "validation:15",
+        "validation:25",
+        "validation:26",
+        "validation:28",
+        "validation:31"
+      ],
+      "candidate_pool": [
+        {
+          "task_id": "validation:0",
+          "label": "AssistantBench validation:0 (topic descriptor unavailable in inspected v1 inventory)",
+          "draft_group": "unstratified_missing_topic_descriptors",
+          "hash_rank_sha256": "e6ca60c6b81532baaed512c26ac6bdf5dee95382f0d523f2f2cde86d6b4740cf",
+          "within_group_rank": 16,
+          "recommended": false,
+          "provenance": [
+            "v1_roster#/families/0/tasks/0"
+          ]
+        },
+        {
+          "task_id": "validation:1",
+          "label": "AssistantBench validation:1 (topic descriptor unavailable in inspected v1 inventory)",
+          "draft_group": "unstratified_missing_topic_descriptors",
+          "hash_rank_sha256": "fa2d98c57c92bfe167534bf974dc3a2e62e0f005c1ce041d477970f2168d4924",
+          "within_group_rank": 18,
+          "recommended": false,
+          "provenance": [
+            "v1_roster#/families/0/tasks/1"
+          ]
+        },
+        {
+          "task_id": "validation:2",
+          "label": "AssistantBench validation:2 (topic descriptor unavailable in inspected v1 inventory)",
+          "draft_group": "unstratified_missing_topic_descriptors",
+          "hash_rank_sha256": "298a0cfba109cb997467ab2a537f577f962c9bbf63fb072503fd98b97440d837",
+          "within_group_rank": 3,
+          "recommended": true,
+          "provenance": [
+            "v1_roster#/families/0/tasks/2"
+          ]
+        },
+        {
+          "task_id": "validation:3",
+          "label": "AssistantBench validation:3 (topic descriptor unavailable in inspected v1 inventory)",
+          "draft_group": "unstratified_missing_topic_descriptors",
+          "hash_rank_sha256": "8a6ebdc3c523d46e1cf7013e1976ad07aa890ebe93cb395ef0e2b2f31116b693",
+          "within_group_rank": 6,
+          "recommended": true,
+          "provenance": [
+            "v1_roster#/families/0/tasks/3"
+          ]
+        },
+        {
+          "task_id": "validation:4",
+          "label": "AssistantBench validation:4 (topic descriptor unavailable in inspected v1 inventory)",
+          "draft_group": "unstratified_missing_topic_descriptors",
+          "hash_rank_sha256": "e0da687a1976c9846e0cf12752433e7eb247082a3b1fd73fee33c3ee93059470",
+          "within_group_rank": 14,
+          "recommended": false,
+          "provenance": [
+            "v1_roster#/families/0/tasks/4"
+          ]
+        },
+        {
+          "task_id": "validation:5",
+          "label": "AssistantBench validation:5 (topic descriptor unavailable in inspected v1 inventory)",
+          "draft_group": "unstratified_missing_topic_descriptors",
+          "hash_rank_sha256": "914666a5e5f9e5d5d81c77fff9cff993b8dcf85d63817e6eba33c82526255c73",
+          "within_group_rank": 8,
+          "recommended": true,
+          "provenance": [
+            "v1_roster#/families/0/tasks/5"
+          ]
+        },
+        {
+          "task_id": "validation:6",
+          "label": "AssistantBench validation:6 (topic descriptor unavailable in inspected v1 inventory)",
+          "draft_group": "unstratified_missing_topic_descriptors",
+          "hash_rank_sha256": "66aecb8606e988bd1da54bbe74fffa96862532540c6a35e502d4ac809954984d",
+          "within_group_rank": 5,
+          "recommended": true,
+          "provenance": [
+            "v1_roster#/families/0/tasks/6"
+          ]
+        },
+        {
+          "task_id": "validation:9",
+          "label": "AssistantBench validation:9 (topic descriptor unavailable in inspected v1 inventory)",
+          "draft_group": "unstratified_missing_topic_descriptors",
+          "hash_rank_sha256": "caa82747b12c05c4e5d1df45b8bb9bae2b2048e0c72d37aecc1a0f5ec46c5005",
+          "within_group_rank": 11,
+          "recommended": false,
+          "provenance": [
+            "v1_roster#/families/0/tasks/7"
+          ]
+        },
+        {
+          "task_id": "validation:13",
+          "label": "AssistantBench validation:13 (topic descriptor unavailable in inspected v1 inventory)",
+          "draft_group": "unstratified_missing_topic_descriptors",
+          "hash_rank_sha256": "bfd69a3e74c738ede022bc78bf6d63c5eebe736ed3b5faf024e8b0e9a7683d9d",
+          "within_group_rank": 10,
+          "recommended": false,
+          "provenance": [
+            "v1_roster#/families/0/tasks/8"
+          ]
+        },
+        {
+          "task_id": "validation:15",
+          "label": "AssistantBench validation:15 (topic descriptor unavailable in inspected v1 inventory)",
+          "draft_group": "unstratified_missing_topic_descriptors",
+          "hash_rank_sha256": "e1a3dc0cdcd4a294b6c81d5171bf175c25e4c15ae378bef243d445d6a801f6cd",
+          "within_group_rank": 15,
+          "recommended": false,
+          "provenance": [
+            "v1_roster#/families/0/tasks/9"
+          ]
+        },
+        {
+          "task_id": "validation:22",
+          "label": "AssistantBench validation:22 (topic descriptor unavailable in inspected v1 inventory)",
+          "draft_group": "unstratified_missing_topic_descriptors",
+          "hash_rank_sha256": "1abbe58b60a36af9719493bad19f49fc0b72d1c9873c05807a2776ccf0e23563",
+          "within_group_rank": 1,
+          "recommended": true,
+          "provenance": [
+            "v1_roster#/families/0/tasks/10"
+          ]
+        },
+        {
+          "task_id": "validation:25",
+          "label": "AssistantBench validation:25 (topic descriptor unavailable in inspected v1 inventory)",
+          "draft_group": "unstratified_missing_topic_descriptors",
+          "hash_rank_sha256": "d587f034b1100eef086c5bba366475a6a0e324ac30b7a0e17fd4465a495aaf07",
+          "within_group_rank": 12,
+          "recommended": false,
+          "provenance": [
+            "v1_roster#/families/0/tasks/11"
+          ]
+        },
+        {
+          "task_id": "validation:26",
+          "label": "AssistantBench validation:26 (topic descriptor unavailable in inspected v1 inventory)",
+          "draft_group": "unstratified_missing_topic_descriptors",
+          "hash_rank_sha256": "d77a833fac59202db4c73c8c0c0965091d78ecba9e7bebc2679ab8fb256ef018",
+          "within_group_rank": 13,
+          "recommended": false,
+          "provenance": [
+            "v1_roster#/families/0/tasks/12"
+          ]
+        },
+        {
+          "task_id": "validation:27",
+          "label": "AssistantBench validation:27 (topic descriptor unavailable in inspected v1 inventory)",
+          "draft_group": "unstratified_missing_topic_descriptors",
+          "hash_rank_sha256": "8f2e89f24df6df429696de150f2d4f64a57a8aa04889ee8954729fa56f8c9ecc",
+          "within_group_rank": 7,
+          "recommended": true,
+          "provenance": [
+            "v1_roster#/families/0/tasks/13"
+          ]
+        },
+        {
+          "task_id": "validation:28",
+          "label": "AssistantBench validation:28 (topic descriptor unavailable in inspected v1 inventory)",
+          "draft_group": "unstratified_missing_topic_descriptors",
+          "hash_rank_sha256": "f9285ca9f666cab6106c42a54584bc2b434300cd7349edd33f5fd65dc6f4a88f",
+          "within_group_rank": 17,
+          "recommended": false,
+          "provenance": [
+            "v1_roster#/families/0/tasks/14"
+          ]
+        },
+        {
+          "task_id": "validation:29",
+          "label": "AssistantBench validation:29 (topic descriptor unavailable in inspected v1 inventory)",
+          "draft_group": "unstratified_missing_topic_descriptors",
+          "hash_rank_sha256": "6496d96425611d551fd923e3b87f2b5285b5bb710d60ba1130eda5aeb3555ffc",
+          "within_group_rank": 4,
+          "recommended": true,
+          "provenance": [
+            "v1_roster#/families/0/tasks/15"
+          ]
+        },
+        {
+          "task_id": "validation:31",
+          "label": "AssistantBench validation:31 (topic descriptor unavailable in inspected v1 inventory)",
+          "draft_group": "unstratified_missing_topic_descriptors",
+          "hash_rank_sha256": "a05f773df8de251c8fae9c2e3085a14296c2e2488c2c8aeead0e979500fe106d",
+          "within_group_rank": 9,
+          "recommended": false,
+          "provenance": [
+            "v1_roster#/families/0/tasks/16"
+          ]
+        },
+        {
+          "task_id": "validation:32",
+          "label": "AssistantBench validation:32 (topic descriptor unavailable in inspected v1 inventory)",
+          "draft_group": "unstratified_missing_topic_descriptors",
+          "hash_rank_sha256": "22cd534fd33bd08c5fe8dfd29f87ddc037d0c239cabb0cae1795bef178c7c2d0",
+          "within_group_rank": 2,
+          "recommended": true,
+          "provenance": [
+            "v1_roster#/families/0/tasks/17"
+          ]
+        }
+      ],
+      "limitations": [
+        "The inspected v1 roster has no descriptive task labels. The retained task catalog provides numbered titles only. This recommendation is an unstratified stable sample; topic, answer format and live-web source diversity are unverified.",
+        "AssistantBench family qualification and exact dataset revision remain open. Do not interpret these eight recommendations as eight qualified tasks."
+      ],
+      "provenance": [
+        "v1_roster#/families/0"
+      ]
+    },
+    {
+      "family_id": "gpqa",
+      "v1_family_slug": "gpqa-diamond",
+      "allocation": 12,
+      "recommendation_status": "draft_for_review_not_selected",
+      "qualification_status": "pending",
+      "candidate_pool_count": 28,
+      "source_pin_from_v1": "56686c06f5e19865c153de0fdb11be3890014df7",
+      "group_basis": "Documented v1 subject labels.",
+      "strata": [
+        {
+          "group": "chemistry",
+          "pool_size": 14,
+          "recommended_count": 6,
+          "ranked_ids": [
+            "recuyeuT5rQ6qDt8F",
+            "rec2fsnzUuvNtUYK8",
+            "recVEXvhYxAhELVqB",
+            "reca44yABeO2fx7UB",
+            "receo3UUzRvWCqyfA",
+            "recZ13cwgDQf9jRd9",
+            "recFaL6j8UMhutXrc",
+            "recJJcOHhFeSaRpl4",
+            "recAAJoHMW45Lv5je",
+            "rec5rjeLsEq5Fg7Oj",
+            "recK9F5aqdaybl8bb",
+            "recOkA2zsy4GSMD9R",
+            "rec8nshandHARTkrg",
+            "rec7C06XOB2h298ue"
+          ],
+          "recommended_ids_in_rank_order": [
+            "recuyeuT5rQ6qDt8F",
+            "rec2fsnzUuvNtUYK8",
+            "recVEXvhYxAhELVqB",
+            "reca44yABeO2fx7UB",
+            "receo3UUzRvWCqyfA",
+            "recZ13cwgDQf9jRd9"
+          ]
+        },
+        {
+          "group": "physics",
+          "pool_size": 14,
+          "recommended_count": 6,
+          "ranked_ids": [
+            "recpki12iG9RUGrz9",
+            "recGFKDUd8qgz81Zl",
+            "recIj8lR4tuDgrHou",
+            "rec260hNUCEj109Dj",
+            "rec5eA17Qr1ucNLUf",
+            "recKv4hFyNpViUXnL",
+            "rec8y3ZrBOcLgNEkE",
+            "recPzW1WqRnPs57D6",
+            "recnjViFrqlZNL3fY",
+            "recPL4ZPpVYxgMu57",
+            "recV1nqYQvpII94oC",
+            "rec0yTRmO1o1xCA6H",
+            "recS48OsU6kVadBPW",
+            "reczjcMtrB1YGS2fO"
+          ],
+          "recommended_ids_in_rank_order": [
+            "recpki12iG9RUGrz9",
+            "recGFKDUd8qgz81Zl",
+            "recIj8lR4tuDgrHou",
+            "rec260hNUCEj109Dj",
+            "rec5eA17Qr1ucNLUf",
+            "recKv4hFyNpViUXnL"
+          ]
+        }
+      ],
+      "recommended_ids": [
+        "recuyeuT5rQ6qDt8F",
+        "recZ13cwgDQf9jRd9",
+        "reca44yABeO2fx7UB",
+        "rec2fsnzUuvNtUYK8",
+        "receo3UUzRvWCqyfA",
+        "recVEXvhYxAhELVqB",
+        "recKv4hFyNpViUXnL",
+        "recGFKDUd8qgz81Zl",
+        "recpki12iG9RUGrz9",
+        "rec5eA17Qr1ucNLUf",
+        "recIj8lR4tuDgrHou",
+        "rec260hNUCEj109Dj"
+      ],
+      "not_recommended_ids": [
+        "rec7C06XOB2h298ue",
+        "recOkA2zsy4GSMD9R",
+        "recJJcOHhFeSaRpl4",
+        "rec5rjeLsEq5Fg7Oj",
+        "recFaL6j8UMhutXrc",
+        "rec8nshandHARTkrg",
+        "recK9F5aqdaybl8bb",
+        "recAAJoHMW45Lv5je",
+        "rec0yTRmO1o1xCA6H",
+        "recV1nqYQvpII94oC",
+        "recPL4ZPpVYxgMu57",
+        "reczjcMtrB1YGS2fO",
+        "recnjViFrqlZNL3fY",
+        "recPzW1WqRnPs57D6",
+        "rec8y3ZrBOcLgNEkE",
+        "recS48OsU6kVadBPW"
+      ],
+      "candidate_pool": [
+        {
+          "task_id": "recuyeuT5rQ6qDt8F",
+          "label": "Chemistry",
+          "draft_group": "chemistry",
+          "hash_rank_sha256": "01c3e32a60d24773bb8bb0a125cb6295ec3178203d8c8d8ca75a5163ca1e0e32",
+          "within_group_rank": 1,
+          "recommended": true,
+          "provenance": [
+            "v1_roster#/families/1/tasks/0"
+          ]
+        },
+        {
+          "task_id": "rec7C06XOB2h298ue",
+          "label": "Chemistry",
+          "draft_group": "chemistry",
+          "hash_rank_sha256": "ea01d888e6c85e1beaf01e5ab871e34afa30b1884cf6ce9cf61c0859a9584e44",
+          "within_group_rank": 14,
+          "recommended": false,
+          "provenance": [
+            "v1_roster#/families/1/tasks/1"
+          ]
+        },
+        {
+          "task_id": "recOkA2zsy4GSMD9R",
+          "label": "Chemistry",
+          "draft_group": "chemistry",
+          "hash_rank_sha256": "a40fed22a249b6411f44b021df9f35063a44e408ca8c0861b3398ea94b65666f",
+          "within_group_rank": 12,
+          "recommended": false,
+          "provenance": [
+            "v1_roster#/families/1/tasks/2"
+          ]
+        },
+        {
+          "task_id": "recZ13cwgDQf9jRd9",
+          "label": "Chemistry",
+          "draft_group": "chemistry",
+          "hash_rank_sha256": "2e66138650a72c110261fec53e5703fba7f2f8649893b854e70026c63105eee3",
+          "within_group_rank": 6,
+          "recommended": true,
+          "provenance": [
+            "v1_roster#/families/1/tasks/3"
+          ]
+        },
+        {
+          "task_id": "recJJcOHhFeSaRpl4",
+          "label": "Chemistry",
+          "draft_group": "chemistry",
+          "hash_rank_sha256": "54ad36aabcb726543c488c9b0847633b26d3218337afec1a5dd618589bd4eff5",
+          "within_group_rank": 8,
+          "recommended": false,
+          "provenance": [
+            "v1_roster#/families/1/tasks/4"
+          ]
+        },
+        {
+          "task_id": "rec5rjeLsEq5Fg7Oj",
+          "label": "Chemistry",
+          "draft_group": "chemistry",
+          "hash_rank_sha256": "a0422cee09a528ebd4eb4c6fee56e2bb4842a363a66989a171c9a7b77e5d534f",
+          "within_group_rank": 10,
+          "recommended": false,
+          "provenance": [
+            "v1_roster#/families/1/tasks/5"
+          ]
+        },
+        {
+          "task_id": "recFaL6j8UMhutXrc",
+          "label": "Chemistry",
+          "draft_group": "chemistry",
+          "hash_rank_sha256": "30b529725e288a16c44cc13a38d12ef5e03ffbda1c28f7ebe0da44388cb81639",
+          "within_group_rank": 7,
+          "recommended": false,
+          "provenance": [
+            "v1_roster#/families/1/tasks/6"
+          ]
+        },
+        {
+          "task_id": "reca44yABeO2fx7UB",
+          "label": "Chemistry",
+          "draft_group": "chemistry",
+          "hash_rank_sha256": "23e542e8f9f233f3d68021056834ebb06cc689ae68f273f012888c3736cde3ce",
+          "within_group_rank": 4,
+          "recommended": true,
+          "provenance": [
+            "v1_roster#/families/1/tasks/7"
+          ]
+        },
+        {
+          "task_id": "rec2fsnzUuvNtUYK8",
+          "label": "Chemistry",
+          "draft_group": "chemistry",
+          "hash_rank_sha256": "056167c9ee5c070d5410554dba6846f58d97d6e50253b7507bc4f5d2523d7bc1",
+          "within_group_rank": 2,
+          "recommended": true,
+          "provenance": [
+            "v1_roster#/families/1/tasks/8"
+          ]
+        },
+        {
+          "task_id": "receo3UUzRvWCqyfA",
+          "label": "Chemistry",
+          "draft_group": "chemistry",
+          "hash_rank_sha256": "2560c97ccfb95c4b39a6bf32504cdf2376398c276c65b6c8dfe99fdb56b5db56",
+          "within_group_rank": 5,
+          "recommended": true,
+          "provenance": [
+            "v1_roster#/families/1/tasks/9"
+          ]
+        },
+        {
+          "task_id": "rec8nshandHARTkrg",
+          "label": "Chemistry",
+          "draft_group": "chemistry",
+          "hash_rank_sha256": "d022f31fa3205480fb5fd414918fb9ccec394c37c3cefec71957f9394245a222",
+          "within_group_rank": 13,
+          "recommended": false,
+          "provenance": [
+            "v1_roster#/families/1/tasks/10"
+          ]
+        },
+        {
+          "task_id": "recVEXvhYxAhELVqB",
+          "label": "Chemistry",
+          "draft_group": "chemistry",
+          "hash_rank_sha256": "09d5de3d80237bb7a4ea1ccc758cd13709d614ab525bc2164daedb01992a928b",
+          "within_group_rank": 3,
+          "recommended": true,
+          "provenance": [
+            "v1_roster#/families/1/tasks/11"
+          ]
+        },
+        {
+          "task_id": "recK9F5aqdaybl8bb",
+          "label": "Chemistry",
+          "draft_group": "chemistry",
+          "hash_rank_sha256": "a31174e988ebd0b7cf9b18c5c7a11f43a5532e1a87294ceb86c34bff8dbc9c83",
+          "within_group_rank": 11,
+          "recommended": false,
+          "provenance": [
+            "v1_roster#/families/1/tasks/12"
+          ]
+        },
+        {
+          "task_id": "recAAJoHMW45Lv5je",
+          "label": "Chemistry",
+          "draft_group": "chemistry",
+          "hash_rank_sha256": "589637a9eebd884bd9085db0a4312e49406aebe8967bc0bafced1d0d5dc5328f",
+          "within_group_rank": 9,
+          "recommended": false,
+          "provenance": [
+            "v1_roster#/families/1/tasks/13"
+          ]
+        },
+        {
+          "task_id": "recKv4hFyNpViUXnL",
+          "label": "Physics",
+          "draft_group": "physics",
+          "hash_rank_sha256": "80a4e18b2c6db404372bdc522215db670f5f65b1d6bbfeb16063dc8364cc12e8",
+          "within_group_rank": 6,
+          "recommended": true,
+          "provenance": [
+            "v1_roster#/families/1/tasks/14"
+          ]
+        },
+        {
+          "task_id": "recGFKDUd8qgz81Zl",
+          "label": "Physics",
+          "draft_group": "physics",
+          "hash_rank_sha256": "2c42c5300d013209fe35f6f55b5389a90ca1863c70a76d1269a2998aa5aa1708",
+          "within_group_rank": 2,
+          "recommended": true,
+          "provenance": [
+            "v1_roster#/families/1/tasks/15"
+          ]
+        },
+        {
+          "task_id": "rec0yTRmO1o1xCA6H",
+          "label": "Physics",
+          "draft_group": "physics",
+          "hash_rank_sha256": "db4971cabeea20d361264ae21623dac6943e40bcaaf037c62322d622cce15f71",
+          "within_group_rank": 12,
+          "recommended": false,
+          "provenance": [
+            "v1_roster#/families/1/tasks/16"
+          ]
+        },
+        {
+          "task_id": "recV1nqYQvpII94oC",
+          "label": "Physics",
+          "draft_group": "physics",
+          "hash_rank_sha256": "d54c1d6d92a70ac0266c9a8e0ff42767c96bb35731a923b2817d056dfa3a0f6c",
+          "within_group_rank": 11,
+          "recommended": false,
+          "provenance": [
+            "v1_roster#/families/1/tasks/17"
+          ]
+        },
+        {
+          "task_id": "recPL4ZPpVYxgMu57",
+          "label": "Physics",
+          "draft_group": "physics",
+          "hash_rank_sha256": "bd441498a50cce2cefc81af951d6d1ba05d36a71c707706d6cc8b81bb3230641",
+          "within_group_rank": 10,
+          "recommended": false,
+          "provenance": [
+            "v1_roster#/families/1/tasks/18"
+          ]
+        },
+        {
+          "task_id": "recpki12iG9RUGrz9",
+          "label": "Physics",
+          "draft_group": "physics",
+          "hash_rank_sha256": "1673c067ff110d65466b379f7a7c04975b804a8bb330caa33fe822e80096e4bc",
+          "within_group_rank": 1,
+          "recommended": true,
+          "provenance": [
+            "v1_roster#/families/1/tasks/19"
+          ]
+        },
+        {
+          "task_id": "reczjcMtrB1YGS2fO",
+          "label": "Physics",
+          "draft_group": "physics",
+          "hash_rank_sha256": "fc90c16f5936b439d3fa34352448b0e827d0d7ee502a6f6fac743984972cba03",
+          "within_group_rank": 14,
+          "recommended": false,
+          "provenance": [
+            "v1_roster#/families/1/tasks/20"
+          ]
+        },
+        {
+          "task_id": "recnjViFrqlZNL3fY",
+          "label": "Physics",
+          "draft_group": "physics",
+          "hash_rank_sha256": "b656893f0780fc47a44a5006630cc20cbbf94d5bf178f068b09825da1020e55a",
+          "within_group_rank": 9,
+          "recommended": false,
+          "provenance": [
+            "v1_roster#/families/1/tasks/21"
+          ]
+        },
+        {
+          "task_id": "rec5eA17Qr1ucNLUf",
+          "label": "Physics",
+          "draft_group": "physics",
+          "hash_rank_sha256": "78e17a3197bfc5813469de7980c5cb27636685c17bb7adea81c78713335d9a4e",
+          "within_group_rank": 5,
+          "recommended": true,
+          "provenance": [
+            "v1_roster#/families/1/tasks/22"
+          ]
+        },
+        {
+          "task_id": "recPzW1WqRnPs57D6",
+          "label": "Physics",
+          "draft_group": "physics",
+          "hash_rank_sha256": "a0532cf1a9ce581e10fb11031ce1e1994f7e4d171946300b67680f4dfdeadd78",
+          "within_group_rank": 8,
+          "recommended": false,
+          "provenance": [
+            "v1_roster#/families/1/tasks/23"
+          ]
+        },
+        {
+          "task_id": "recIj8lR4tuDgrHou",
+          "label": "Physics",
+          "draft_group": "physics",
+          "hash_rank_sha256": "2caddcae421af8e7b64a1820ab3fe1c47915f38e03a234ef0b81fb4afb29d123",
+          "within_group_rank": 3,
+          "recommended": true,
+          "provenance": [
+            "v1_roster#/families/1/tasks/24"
+          ]
+        },
+        {
+          "task_id": "rec8y3ZrBOcLgNEkE",
+          "label": "Physics",
+          "draft_group": "physics",
+          "hash_rank_sha256": "97ee49f52685ab9bc26bf3390db4c22267a14964efbabbd1b1d0b08f0db95b5b",
+          "within_group_rank": 7,
+          "recommended": false,
+          "provenance": [
+            "v1_roster#/families/1/tasks/25"
+          ]
+        },
+        {
+          "task_id": "rec260hNUCEj109Dj",
+          "label": "Physics",
+          "draft_group": "physics",
+          "hash_rank_sha256": "2d95a010a704f8dcfc3044bfc1e137d72fc3e736d3661b19135e5178ee2db635",
+          "within_group_rank": 4,
+          "recommended": true,
+          "provenance": [
+            "v1_roster#/families/1/tasks/26"
+          ]
+        },
+        {
+          "task_id": "recS48OsU6kVadBPW",
+          "label": "Physics",
+          "draft_group": "physics",
+          "hash_rank_sha256": "f8ce7afbb008b70de277a64269a49308b4b1a614b9483b863c1ebea10adbac8f",
+          "within_group_rank": 13,
+          "recommended": false,
+          "provenance": [
+            "v1_roster#/families/1/tasks/27"
+          ]
+        }
+      ],
+      "limitations": [
+        "Chemistry/physics labels are available, but finer subdisciplines and question-type descriptors were not established by this audit. Six per subject preserves the old broad balance only."
+      ],
+      "provenance": [
+        "v1_roster#/families/1"
+      ]
+    }
+  ]
+}

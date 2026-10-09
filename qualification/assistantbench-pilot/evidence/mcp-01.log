@@ -1,0 +1,55 @@
+  + Exception Group Traceback (most recent call last):
+  |   File "/Users/michaelofengenden/Developer/TimeResearch/AgentTime-v1.1/qualification/assistantbench-pilot/qualify_mcp.py", line 89, in <module>
+  |     if __name__ == '__main__': main()
+  |                                ^^^^^^
+  |   File "/Users/michaelofengenden/Developer/TimeResearch/AgentTime-v1.1/qualification/assistantbench-pilot/qualify_mcp.py", line 76, in main
+  |     results = asyncio.run(bounded_probe())
+  |               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  |   File "/Users/michaelofengenden/miniforge3/lib/python3.12/asyncio/runners.py", line 195, in run
+  |     return runner.run(main)
+  |            ^^^^^^^^^^^^^^^^
+  |   File "/Users/michaelofengenden/miniforge3/lib/python3.12/asyncio/runners.py", line 118, in run
+  |     return self._loop.run_until_complete(task)
+  |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  |   File "/Users/michaelofengenden/miniforge3/lib/python3.12/asyncio/base_events.py", line 691, in run_until_complete
+  |     return future.result()
+  |            ^^^^^^^^^^^^^^^
+  |   File "/Users/michaelofengenden/Developer/TimeResearch/AgentTime-v1.1/qualification/assistantbench-pilot/qualify_mcp.py", line 75, in bounded_probe
+  |     return await asyncio.wait_for(probe(args.output, f'http://127.0.0.1:{server.server_port}/synthetic.html'), timeout=120)
+  |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  |   File "/Users/michaelofengenden/miniforge3/lib/python3.12/asyncio/tasks.py", line 520, in wait_for
+  |     return await fut
+  |            ^^^^^^^^^
+  |   File "/Users/michaelofengenden/Developer/TimeResearch/AgentTime-v1.1/qualification/assistantbench-pilot/qualify_mcp.py", line 34, in probe
+  |     async with stdio_client(parameters, errlog=stderr) as (read, write):
+  |                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  |   File "/Users/michaelofengenden/miniforge3/lib/python3.12/contextlib.py", line 231, in __aexit__
+  |     await self.gen.athrow(value)
+  |   File "/private/tmp/agenttime-assistantbench-pilot-20261009/venv/lib/python3.12/site-packages/mcp/client/stdio.py", line 201, in stdio_client
+  |     async with anyio.create_task_group() as tg:
+  |                ^^^^^^^^^^^^^^^^^^^^^^^^^
+  |   File "/private/tmp/agenttime-assistantbench-pilot-20261009/venv/lib/python3.12/site-packages/anyio/_backends/_asyncio.py", line 847, in __aexit__
+  |     raise BaseExceptionGroup(
+  | ExceptionGroup: unhandled errors in a TaskGroup (1 sub-exception)
+  +-+---------------- 1 ----------------
+    | Exception Group Traceback (most recent call last):
+    |   File "/private/tmp/agenttime-assistantbench-pilot-20261009/venv/lib/python3.12/site-packages/mcp/client/stdio.py", line 205, in stdio_client
+    |     yield read_stream, write_stream
+    |   File "/Users/michaelofengenden/Developer/TimeResearch/AgentTime-v1.1/qualification/assistantbench-pilot/qualify_mcp.py", line 35, in probe
+    |     async with ClientSession(read, write) as client:
+    |                ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |   File "/private/tmp/agenttime-assistantbench-pilot-20261009/venv/lib/python3.12/site-packages/mcp/client/session.py", line 514, in __aexit__
+    |     result = await self._task_group.__aexit__(exc_type, exc_val, exc_tb)
+    |              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |   File "/private/tmp/agenttime-assistantbench-pilot-20261009/venv/lib/python3.12/site-packages/anyio/_backends/_asyncio.py", line 847, in __aexit__
+    |     raise BaseExceptionGroup(
+    | ExceptionGroup: unhandled errors in a TaskGroup (1 sub-exception)
+    +-+---------------- 1 ----------------
+      | Traceback (most recent call last):
+      |   File "/Users/michaelofengenden/Developer/TimeResearch/AgentTime-v1.1/qualification/assistantbench-pilot/qualify_mcp.py", line 41, in probe
+      |     assert not observation.isError
+      |                ^^^^^^^^^^^^^^^^^^^
+      |   File "/private/tmp/agenttime-assistantbench-pilot-20261009/venv/lib/python3.12/site-packages/pydantic/main.py", line 1105, in __getattr__
+      |     raise AttributeError(f'{type(self).__name__!r} object has no attribute {item!r}')
+      | AttributeError: 'CallToolResult' object has no attribute 'isError'. Did you mean: 'is_error'?
+      +------------------------------------

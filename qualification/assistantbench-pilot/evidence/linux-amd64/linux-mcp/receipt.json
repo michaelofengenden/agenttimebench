@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "qualification": "official_mcp_client_real_browser_synthetic_page",
+  "model_calls": 0,
+  "selected_task_inputs_used": 0,
+  "platform": "Linux-6.12.76-linuxkit-x86_64-with-glibc2.36",
+  "mcp_client_version": "2.3.0",
+  "source_sha256": "9bb6ccdd1bd1b39301167c9a1e537be144478e0d19e5cefa319abe5d65f39742",
+  "study_ready": false,
+  "claude_tool_path_qualified": false,
+  "linux_worker_qualified": false,
+  "archive_restore_qualified": false,
+  "protocol_version": "2024-11-05",
+  "tool_names": [
+    "observe",
+    "noop",
+    "scroll",
+    "fill",
+    "select_option",
+    "click",
+    "press",
+    "go_back",
+    "goto",
+    "send_msg_to_user"
+  ],
+  "checks_passed": [
+    "official_client_initialization",
+    "typed_tool_listing",
+    "native_browser_observation",
+    "file_navigation_rejected",
+    "native_final_answer_sealed",
+    "post_terminal_action_rejected"
+  ]
+}

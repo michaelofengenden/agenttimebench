@@ -1,0 +1,23 @@
+{
+  "campaign_id": "synthetic-production-v3-1a0d92d27ed1",
+  "manifest_sha256": "8a52965771fbb6e14204ac65a02bbf5a6656ddee6c25e9bb72aaaba139ce5f7c",
+  "attempt_id": "c97c868c-3388-42a8-bd45-491f2961d5b8",
+  "task_id": "assistant-02",
+  "session_id": "26e0826e-b6c2-4adc-a34c-13b55a9eec5d",
+  "dispatch_id": "c06c2cf4-697b-401b-a4a0-18e7ad0f6523",
+  "resources": {
+    "allocation_scope": "natural_subject",
+    "cpus": 4,
+    "memory_gib": 16,
+    "gpu_count": 0
+  },
+  "runtime_pins": {
+    "cli_version": "2.1.280",
+    "cli_sha256": "1e08503dbdf3c2cb0d706d32f3408277388d1c76ef108673e8fe42c1b322925b",
+    "image_sha256": "sha256:bc5e8675cdb8a8934817780b4285b2cb0819ab4fdbd6bd2bdf7cbb0d87aa2d8e",
+    "worker_sha256": "c79949341ed2d2e6482f3d4353487eafb584e677de5114c4718b8b1244b222ae",
+    "native_session_sha256": "a4321ba27a5a6372362d280096fee04a5a8c98a891c219568165de5b51274382",
+    "python_sha256": "4dbf3143240288fb2170257ffaa7bd030cdda5d2703d1f5f30b627042267e2e3",
+    "bridge_sha256": "8ad81457952f2a556f098806e11c402436126483bca35d2157bc048b32f65cdf"
+  }
+}

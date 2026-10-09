@@ -1,0 +1,106 @@
+{
+  "schema_version": 1,
+  "assessed_at_utc": "2026-10-01T18:23:06.974680+00:00",
+  "upstream": "https://github.com/aisa-group/PostTrainBench",
+  "release_candidate": "1.2",
+  "release_announcement": "https://posttrainbench.com/blog/posttrainbench-1-2/",
+  "status": "recommended_upstream_base_not_admitted",
+  "code_snapshot": {
+    "kind": "observed_main_commit_not_release_tag",
+    "commit": "c5b4e9795e3aa0e16a51b4382e27b59338fbd2bd",
+    "commit_date": "2026-10-01T14:50:58Z",
+    "files": [
+      {
+        "path": "src/harbor_adapter/README.md",
+        "sha256": "7bbe81c51e3dd2cf76f2b82db9165dfb54ca466f21b5ecca0c73a89f6344dd70",
+        "bytes": 17392
+      },
+      {
+        "path": "src/harbor_adapter/template/task.toml",
+        "sha256": "4e2a0abec2d8bbc47d581502a8a3f4706285fcc4b6dee1ae212194bea64f880f",
+        "bytes": 5608
+      },
+      {
+        "path": "src/harbor_adapter/run_modal_task.sh",
+        "sha256": "1c81c8a4d873adbffb4b78ec3e686c8e0c81b6c607070c82977072d5b52168a5",
+        "bytes": 19539
+      },
+      {
+        "path": "src/harbor_adapter/run_adapter.py",
+        "sha256": "b1903a478f2206ba54376fd3e2aa5be6d33e5134f16108c6714d57049923a4d4",
+        "bytes": 3868
+      },
+      {
+        "path": "src/harbor_adapter/template/environment/ptb_collect.sh",
+        "sha256": "0263b38849e69b1cd65e43e9745201bd9f01e5b71734281c1444248d2d9b7bba",
+        "bytes": 6130
+      }
+    ]
+  },
+  "current_task_places": 4,
+  "historical_candidates_still_supported": [
+    {
+      "agenttime_task_id": "qwen3-1.7b-base__humaneval",
+      "upstream_benchmark": "humaneval",
+      "upstream_base_model": "qwen3-1.7b"
+    },
+    {
+      "agenttime_task_id": "qwen3-1.7b-base__gsm8k",
+      "upstream_benchmark": "gsm8k",
+      "upstream_base_model": "qwen3-1.7b"
+    }
+  ],
+  "additional_task_selection": "two_places_not_selected_by_this_audit",
+  "release_changes": {
+    "scored_targets": [
+      "aime2025",
+      "arenahardwriting",
+      "gpqamain",
+      "gsm8k",
+      "healthbench",
+      "humaneval"
+    ],
+    "bfcl_removed": true,
+    "humaneval_answer_execution_isolated_from_tests": true,
+    "remote_code_loading_removed_from_arenahard_and_healthbench_eval": true,
+    "reported_final_eval_seed_counts": {
+      "aime2025": 5,
+      "gpqamain": 3,
+      "gsm8k": 3,
+      "humaneval": 3,
+      "arenahardwriting": 1,
+      "healthbench": 1
+    },
+    "seed_count_exception": "Adapter documentation uses one seed for greedy decoding; record effective seeds and failures.",
+    "contamination_judge": "majority_of_three",
+    "other_judges": "separate_single_runs_not_majority_of_every_judge",
+    "official_adapter": "src/harbor_adapter",
+    "documented_backend": "Modal",
+    "documented_harbor_minimum": "0.23.0"
+  },
+  "agenttime_adaptations_before_admission": [
+    "Keep the already selected uncapped natural protocol: remove duration wording, countdown timer and effective agent/backend cutoffs, or report an operational stop as censored. Changing only the prompt is insufficient.",
+    "Preserve v1.2 task objective, resource specification, contamination rules and corrected grading; label the timing variant separately from the official ten-hour leaderboard.",
+    "Pin exact CLI/model/effort/provider and image/source revisions. The stock wrapper resolves latest CLI versions and has its own effort defaults.",
+    "Declare base-model/cache provisioning: the stock Modal adapter downloads the base model inside the agent budget. Qualify preparation/timing boundaries and hardware consistency before comparing runtimes.",
+    "Freeze final_model at the declared completion boundary with owned background work controlled. Post-exit copying alone does not prove a terminal-consistent snapshot.",
+    "Keep trained weights, full required native sessions/subagents, checkpoints and workspace/environment state in the independent Mac archive. The upstream 2-GiB filtered code snapshot is not a full restoration archive.",
+    "Verify complete transfers and archive receipts before deleting required storage. Collect failures may only warn upstream; a missing capture must stay visible and cannot qualify as a valid preserved submission.",
+    "Import raw reward, per-seed results, all judge verdicts, missing verdicts and fallback reasons separately. Apply the declared integrity/fallback policy; raw Harbor reward alone is not the final benchmark result.",
+    "Grade the same frozen model across the declared seeds outside M; these are verifier repeats, not extra training attempts.",
+    "Run the isolated forecast on the adapted natural task text, including resolved base model and target, without the ten-hour wording. Keep forecast evidence and memory inaccessible to the natural session."
+  ],
+  "qualification": {
+    "source_inspection_only": true,
+    "parity_check_run": false,
+    "task_materialized": false,
+    "gpu_trial_run": false,
+    "native_archival_qualified": false,
+    "launch_ready": false
+  },
+  "source_links": [
+    "https://github.com/aisa-group/PostTrainBench/blob/c5b4e9795e3aa0e16a51b4382e27b59338fbd2bd/src/harbor_adapter/README.md",
+    "https://github.com/aisa-group/PostTrainBench/blob/c5b4e9795e3aa0e16a51b4382e27b59338fbd2bd/src/harbor_adapter/template/task.toml",
+    "https://github.com/aisa-group/PostTrainBench/blob/c5b4e9795e3aa0e16a51b4382e27b59338fbd2bd/src/harbor_adapter/template/environment/ptb_collect.sh"
+  ]
+}

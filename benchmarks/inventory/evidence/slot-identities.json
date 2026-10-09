@@ -1,0 +1,1012 @@
+{
+  "schema_version": 1,
+  "scope": "Review slot identity only; not an approved execution roster.",
+  "rows": [
+    {
+      "slot_id": "terminal-01",
+      "family_id": "terminal",
+      "candidate_id": "mp-checkpoint-consolidation"
+    },
+    {
+      "slot_id": "terminal-02",
+      "family_id": "terminal",
+      "candidate_id": "biped-contact-dynamics"
+    },
+    {
+      "slot_id": "terminal-03",
+      "family_id": "terminal",
+      "candidate_id": "cad-model"
+    },
+    {
+      "slot_id": "terminal-04",
+      "family_id": "terminal",
+      "candidate_id": "fin-saccr-rwa"
+    },
+    {
+      "slot_id": "terminal-05",
+      "family_id": "terminal",
+      "candidate_id": "heat-pump-warranty"
+    },
+    {
+      "slot_id": "terminal-06",
+      "family_id": "terminal",
+      "candidate_id": "intrastat-meldung"
+    },
+    {
+      "slot_id": "terminal-07",
+      "family_id": "terminal",
+      "candidate_id": "lake-temp-glm"
+    },
+    {
+      "slot_id": "terminal-08",
+      "family_id": "terminal",
+      "candidate_id": "hof-topology-interpenetration"
+    },
+    {
+      "slot_id": "terminal-09",
+      "family_id": "terminal",
+      "candidate_id": "payments-pipeline-fix"
+    },
+    {
+      "slot_id": "terminal-10",
+      "family_id": "terminal",
+      "candidate_id": "pretrain-shard-corruption"
+    },
+    {
+      "slot_id": "terminal-11",
+      "family_id": "terminal",
+      "candidate_id": "production-planning"
+    },
+    {
+      "slot_id": "terminal-12",
+      "family_id": "terminal",
+      "candidate_id": "react-lead-form"
+    },
+    {
+      "slot_id": "terminal-13",
+      "family_id": "terminal",
+      "candidate_id": "retro-console-soc"
+    },
+    {
+      "slot_id": "terminal-14",
+      "family_id": "terminal",
+      "candidate_id": "risk-scorer-replay"
+    },
+    {
+      "slot_id": "terminal-15",
+      "family_id": "terminal",
+      "candidate_id": "sound-change-cascade"
+    },
+    {
+      "slot_id": "terminal-16",
+      "family_id": "terminal",
+      "candidate_id": "vba-userform-port"
+    },
+    {
+      "slot_id": "deepswe-01",
+      "family_id": "deepswe",
+      "candidate_id": "tomlkit-toml-table-converters"
+    },
+    {
+      "slot_id": "deepswe-02",
+      "family_id": "deepswe",
+      "candidate_id": "prometheus-typed-label-sorting"
+    },
+    {
+      "slot_id": "deepswe-03",
+      "family_id": "deepswe",
+      "candidate_id": "tengo-callable-instance-isolation"
+    },
+    {
+      "slot_id": "deepswe-04",
+      "family_id": "deepswe",
+      "candidate_id": "dateutil-rfc5545-timezone-interop"
+    },
+    {
+      "slot_id": "deepswe-05",
+      "family_id": "deepswe",
+      "candidate_id": "ipython-session-bundle-replay"
+    },
+    {
+      "slot_id": "deepswe-06",
+      "family_id": "deepswe",
+      "candidate_id": "python-statemachine-state-data-scoping"
+    },
+    {
+      "slot_id": "deepswe-07",
+      "family_id": "deepswe",
+      "candidate_id": "oxvg-structural-selector-preservation"
+    },
+    {
+      "slot_id": "deepswe-08",
+      "family_id": "deepswe",
+      "candidate_id": "boa-hierarchical-evaluation-cancellation"
+    },
+    {
+      "slot_id": "deepswe-09",
+      "family_id": "deepswe",
+      "candidate_id": "vitest-duration-sharding"
+    },
+    {
+      "slot_id": "deepswe-10",
+      "family_id": "deepswe",
+      "candidate_id": "arktype-json-schema-refs-dependencies"
+    },
+    {
+      "slot_id": "deepswe-11",
+      "family_id": "deepswe",
+      "candidate_id": "effect-sse-httpapi-streaming"
+    },
+    {
+      "slot_id": "deepswe-12",
+      "family_id": "deepswe",
+      "candidate_id": "katex-multicolumn-array-spans"
+    },
+    {
+      "slot_id": "deepswe-13",
+      "family_id": "deepswe",
+      "candidate_id": "go-git-worktree-merge-conflicts"
+    },
+    {
+      "slot_id": "deepswe-14",
+      "family_id": "deepswe",
+      "candidate_id": "yjs-map-conflict-detection"
+    },
+    {
+      "slot_id": "program-01",
+      "family_id": "program",
+      "candidate_id": "cweill__gotests.2a672c5"
+    },
+    {
+      "slot_id": "program-02",
+      "family_id": "program",
+      "candidate_id": "nuta__nsh.bdd0702"
+    },
+    {
+      "slot_id": "program-03",
+      "family_id": "program",
+      "candidate_id": "mookid__diffr.2152742"
+    },
+    {
+      "slot_id": "program-04",
+      "family_id": "program",
+      "candidate_id": "ninja-build__ninja.cc60300"
+    },
+    {
+      "slot_id": "program-05",
+      "family_id": "program",
+      "candidate_id": "luajit__luajit.a553b3d"
+    },
+    {
+      "slot_id": "program-06",
+      "family_id": "program",
+      "candidate_id": "facebook__zstd.1168da0"
+    },
+    {
+      "slot_id": "program-07",
+      "family_id": "program",
+      "candidate_id": "lfos__calcurse.49180d5"
+    },
+    {
+      "slot_id": "program-08",
+      "family_id": "program",
+      "candidate_id": "tomarrell__wrapcheck.c058da1"
+    },
+    {
+      "slot_id": "program-09",
+      "family_id": "program",
+      "candidate_id": "doxygen__doxygen.966d98e"
+    },
+    {
+      "slot_id": "program-10",
+      "family_id": "program",
+      "candidate_id": "johnkerl__miller.8d85b46"
+    },
+    {
+      "slot_id": "program-11",
+      "family_id": "program",
+      "candidate_id": "paradigmxyz__solar.5190d0e"
+    },
+    {
+      "slot_id": "program-12",
+      "family_id": "program",
+      "candidate_id": "typst__typst.88356d0"
+    },
+    {
+      "slot_id": "program-13",
+      "family_id": "program",
+      "candidate_id": "stranger6667__jsonschema.d52e881"
+    },
+    {
+      "slot_id": "program-14",
+      "family_id": "program",
+      "candidate_id": "rvben__rumdl.2d75c4d"
+    },
+    {
+      "slot_id": "program-15",
+      "family_id": "program",
+      "candidate_id": "jesseduffield__lazygit.1d0db51"
+    },
+    {
+      "slot_id": "program-16",
+      "family_id": "program",
+      "candidate_id": "dandavison__delta.acd758f"
+    },
+    {
+      "slot_id": "program-17",
+      "family_id": "program",
+      "candidate_id": "canop__broot.d6c798e"
+    },
+    {
+      "slot_id": "program-18",
+      "family_id": "program",
+      "candidate_id": "ariga__atlas.6d81150"
+    },
+    {
+      "slot_id": "osworld-01",
+      "family_id": "osworld",
+      "candidate_id": "001"
+    },
+    {
+      "slot_id": "osworld-02",
+      "family_id": "osworld",
+      "candidate_id": "010"
+    },
+    {
+      "slot_id": "osworld-03",
+      "family_id": "osworld",
+      "candidate_id": "029"
+    },
+    {
+      "slot_id": "osworld-04",
+      "family_id": "osworld",
+      "candidate_id": "038"
+    },
+    {
+      "slot_id": "osworld-05",
+      "family_id": "osworld",
+      "candidate_id": "043"
+    },
+    {
+      "slot_id": "osworld-06",
+      "family_id": "osworld",
+      "candidate_id": "046"
+    },
+    {
+      "slot_id": "osworld-07",
+      "family_id": "osworld",
+      "candidate_id": "051"
+    },
+    {
+      "slot_id": "osworld-08",
+      "family_id": "osworld",
+      "candidate_id": "059"
+    },
+    {
+      "slot_id": "osworld-09",
+      "family_id": "osworld",
+      "candidate_id": "067"
+    },
+    {
+      "slot_id": "osworld-10",
+      "family_id": "osworld",
+      "candidate_id": "083"
+    },
+    {
+      "slot_id": "osworld-11",
+      "family_id": "osworld",
+      "candidate_id": "084"
+    },
+    {
+      "slot_id": "osworld-12",
+      "family_id": "osworld",
+      "candidate_id": "085"
+    },
+    {
+      "slot_id": "osworld-13",
+      "family_id": "osworld",
+      "candidate_id": "088"
+    },
+    {
+      "slot_id": "osworld-14",
+      "family_id": "osworld",
+      "candidate_id": "092"
+    },
+    {
+      "slot_id": "osworld-15",
+      "family_id": "osworld",
+      "candidate_id": "103"
+    },
+    {
+      "slot_id": "osworld-16",
+      "family_id": "osworld",
+      "candidate_id": "108"
+    },
+    {
+      "slot_id": "osworld-17",
+      "family_id": "osworld",
+      "candidate_id": "015"
+    },
+    {
+      "slot_id": "osworld-18",
+      "family_id": "osworld",
+      "candidate_id": "042"
+    },
+    {
+      "slot_id": "appworld-01",
+      "family_id": "appworld",
+      "candidate_id": "988af8e_1"
+    },
+    {
+      "slot_id": "appworld-02",
+      "family_id": "appworld",
+      "candidate_id": "3fcc458_1"
+    },
+    {
+      "slot_id": "appworld-03",
+      "family_id": "appworld",
+      "candidate_id": "8d42650_1"
+    },
+    {
+      "slot_id": "appworld-04",
+      "family_id": "appworld",
+      "candidate_id": "f86d850_1"
+    },
+    {
+      "slot_id": "appworld-05",
+      "family_id": "appworld",
+      "candidate_id": "9a16324_1"
+    },
+    {
+      "slot_id": "appworld-06",
+      "family_id": "appworld",
+      "candidate_id": "1b988ac_1"
+    },
+    {
+      "slot_id": "appworld-07",
+      "family_id": "appworld",
+      "candidate_id": "f6f2e67_1"
+    },
+    {
+      "slot_id": "appworld-08",
+      "family_id": "appworld",
+      "candidate_id": "f3a6713_1"
+    },
+    {
+      "slot_id": "appworld-09",
+      "family_id": "appworld",
+      "candidate_id": "36705ae_1"
+    },
+    {
+      "slot_id": "appworld-10",
+      "family_id": "appworld",
+      "candidate_id": "18670a5_1"
+    },
+    {
+      "slot_id": "appworld-11",
+      "family_id": "appworld",
+      "candidate_id": "33e202d_1"
+    },
+    {
+      "slot_id": "appworld-12",
+      "family_id": "appworld",
+      "candidate_id": "bde252e_1"
+    },
+    {
+      "slot_id": "appworld-13",
+      "family_id": "appworld",
+      "candidate_id": "986aa4e_1"
+    },
+    {
+      "slot_id": "appworld-14",
+      "family_id": "appworld",
+      "candidate_id": "83a7951_1"
+    },
+    {
+      "slot_id": "pptarena-01",
+      "family_id": "pptarena",
+      "candidate_id": "17"
+    },
+    {
+      "slot_id": "pptarena-02",
+      "family_id": "pptarena",
+      "candidate_id": "67"
+    },
+    {
+      "slot_id": "pptarena-03",
+      "family_id": "pptarena",
+      "candidate_id": "68"
+    },
+    {
+      "slot_id": "pptarena-04",
+      "family_id": "pptarena",
+      "candidate_id": "75"
+    },
+    {
+      "slot_id": "pptarena-05",
+      "family_id": "pptarena",
+      "candidate_id": "80"
+    },
+    {
+      "slot_id": "pptarena-06",
+      "family_id": "pptarena",
+      "candidate_id": "85"
+    },
+    {
+      "slot_id": "pptarena-07",
+      "family_id": "pptarena",
+      "candidate_id": "89"
+    },
+    {
+      "slot_id": "pptarena-08",
+      "family_id": "pptarena",
+      "candidate_id": "93"
+    },
+    {
+      "slot_id": "pptarena-09",
+      "family_id": "pptarena",
+      "candidate_id": "97"
+    },
+    {
+      "slot_id": "pptarena-10",
+      "family_id": "pptarena",
+      "candidate_id": "100"
+    },
+    {
+      "slot_id": "ale-01",
+      "family_id": "ale",
+      "candidate_id": "business_finance/bpmn_supply_disruption_l3"
+    },
+    {
+      "slot_id": "ale-03",
+      "family_id": "ale",
+      "candidate_id": "business_finance/sec_10k_financial_parsing"
+    },
+    {
+      "slot_id": "ale-04",
+      "family_id": "ale",
+      "candidate_id": "business_finance/legal_ma_consistency_audit_01"
+    },
+    {
+      "slot_id": "ale-05",
+      "family_id": "ale",
+      "candidate_id": "education_info/moodle_gradebook_closeout_reconciliation"
+    },
+    {
+      "slot_id": "ale-06",
+      "family_id": "ale",
+      "candidate_id": "education_info/marc_remediation_folio_overlay"
+    },
+    {
+      "slot_id": "ale-07",
+      "family_id": "ale",
+      "candidate_id": "computing_math/data_pipeline_etl_instance_1"
+    },
+    {
+      "slot_id": "ale-09",
+      "family_id": "ale",
+      "candidate_id": "engineering/sumo_urban_am_peak_calibration"
+    },
+    {
+      "slot_id": "ale-10",
+      "family_id": "ale",
+      "candidate_id": "physical_sciences/hst_acs_wfc_visit_reduction"
+    },
+    {
+      "slot_id": "ale-12",
+      "family_id": "ale",
+      "candidate_id": "transport_safety/capacitated_vehicle_routing_problems"
+    },
+    {
+      "slot_id": "tua-01",
+      "family_id": "tua",
+      "candidate_id": "074-apa-references-review"
+    },
+    {
+      "slot_id": "tua-02",
+      "family_id": "tua",
+      "candidate_id": "102-daily-email-report"
+    },
+    {
+      "slot_id": "tua-03",
+      "family_id": "tua",
+      "candidate_id": "094-author-homepage-bookmarks"
+    },
+    {
+      "slot_id": "tua-04",
+      "family_id": "tua",
+      "candidate_id": "100-name-mountain-photos"
+    },
+    {
+      "slot_id": "tua-05",
+      "family_id": "tua",
+      "candidate_id": "093-merge-txt-document"
+    },
+    {
+      "slot_id": "tua-06",
+      "family_id": "tua",
+      "candidate_id": "004-place-heater-for-sensors"
+    },
+    {
+      "slot_id": "tua-07",
+      "family_id": "tua",
+      "candidate_id": "005-optimize-cold-plate"
+    },
+    {
+      "slot_id": "tua-08",
+      "family_id": "tua",
+      "candidate_id": "006-extract-gym-auditorium"
+    },
+    {
+      "slot_id": "tua-09",
+      "family_id": "tua",
+      "candidate_id": "011-epw-parquet-check"
+    },
+    {
+      "slot_id": "tua-10",
+      "family_id": "tua",
+      "candidate_id": "088-extract-presenter-photos"
+    },
+    {
+      "slot_id": "assistant-01",
+      "family_id": "assistant",
+      "candidate_id": "validation:2"
+    },
+    {
+      "slot_id": "assistant-02",
+      "family_id": "assistant",
+      "candidate_id": "validation:3"
+    },
+    {
+      "slot_id": "assistant-03",
+      "family_id": "assistant",
+      "candidate_id": "validation:5"
+    },
+    {
+      "slot_id": "assistant-04",
+      "family_id": "assistant",
+      "candidate_id": "validation:6"
+    },
+    {
+      "slot_id": "assistant-05",
+      "family_id": "assistant",
+      "candidate_id": "validation:22"
+    },
+    {
+      "slot_id": "assistant-06",
+      "family_id": "assistant",
+      "candidate_id": "validation:27"
+    },
+    {
+      "slot_id": "assistant-07",
+      "family_id": "assistant",
+      "candidate_id": "validation:29"
+    },
+    {
+      "slot_id": "assistant-08",
+      "family_id": "assistant",
+      "candidate_id": "validation:32"
+    },
+    {
+      "slot_id": "browsecomp-01",
+      "family_id": "browsecomp",
+      "candidate_id": "browsecomp:csv-row-20"
+    },
+    {
+      "slot_id": "browsecomp-02",
+      "family_id": "browsecomp",
+      "candidate_id": "browsecomp:csv-row-563"
+    },
+    {
+      "slot_id": "browsecomp-03",
+      "family_id": "browsecomp",
+      "candidate_id": "browsecomp:csv-row-64"
+    },
+    {
+      "slot_id": "browsecomp-04",
+      "family_id": "browsecomp",
+      "candidate_id": "browsecomp:csv-row-718"
+    },
+    {
+      "slot_id": "browsecomp-05",
+      "family_id": "browsecomp",
+      "candidate_id": "browsecomp:csv-row-802"
+    },
+    {
+      "slot_id": "browsecomp-06",
+      "family_id": "browsecomp",
+      "candidate_id": "browsecomp:csv-row-435"
+    },
+    {
+      "slot_id": "browsecomp-07",
+      "family_id": "browsecomp",
+      "candidate_id": "browsecomp:csv-row-297"
+    },
+    {
+      "slot_id": "browsecomp-08",
+      "family_id": "browsecomp",
+      "candidate_id": "browsecomp:csv-row-228"
+    },
+    {
+      "slot_id": "browsecomp-09",
+      "family_id": "browsecomp",
+      "candidate_id": "browsecomp:csv-row-1036"
+    },
+    {
+      "slot_id": "browsecomp-10",
+      "family_id": "browsecomp",
+      "candidate_id": "browsecomp:csv-row-1207"
+    },
+    {
+      "slot_id": "browsecomp-11",
+      "family_id": "browsecomp",
+      "candidate_id": "browsecomp:csv-row-69"
+    },
+    {
+      "slot_id": "browsecomp-12",
+      "family_id": "browsecomp",
+      "candidate_id": "browsecomp:csv-row-132"
+    },
+    {
+      "slot_id": "core-01",
+      "family_id": "core",
+      "candidate_id": "capsule-3821950"
+    },
+    {
+      "slot_id": "core-02",
+      "family_id": "core",
+      "candidate_id": "capsule-9832712"
+    },
+    {
+      "slot_id": "core-03",
+      "family_id": "core",
+      "candidate_id": "capsule-5136217"
+    },
+    {
+      "slot_id": "core-05",
+      "family_id": "core",
+      "candidate_id": "capsule-9026204"
+    },
+    {
+      "slot_id": "core-06",
+      "family_id": "core",
+      "candidate_id": "capsule-2151475"
+    },
+    {
+      "slot_id": "core-07",
+      "family_id": "core",
+      "candidate_id": "capsule-0571975"
+    },
+    {
+      "slot_id": "core-08",
+      "family_id": "core",
+      "candidate_id": "capsule-8185407"
+    },
+    {
+      "slot_id": "core-09",
+      "family_id": "core",
+      "candidate_id": "capsule-3990498"
+    },
+    {
+      "slot_id": "core-10",
+      "family_id": "core",
+      "candidate_id": "capsule-8353473"
+    },
+    {
+      "slot_id": "core-12",
+      "family_id": "core",
+      "candidate_id": "capsule-5172670"
+    },
+    {
+      "slot_id": "paper-01",
+      "family_id": "paper",
+      "candidate_id": "bridging-data-gaps"
+    },
+    {
+      "slot_id": "paper-02",
+      "family_id": "paper",
+      "candidate_id": "fre"
+    },
+    {
+      "slot_id": "paper-03",
+      "family_id": "paper",
+      "candidate_id": "bam"
+    },
+    {
+      "slot_id": "paper-04",
+      "family_id": "paper",
+      "candidate_id": "pinn"
+    },
+    {
+      "slot_id": "posttrain-01",
+      "family_id": "posttrain",
+      "candidate_id": "qwen3-1.7b-base__humaneval"
+    },
+    {
+      "slot_id": "posttrain-02",
+      "family_id": "posttrain",
+      "candidate_id": "qwen3-1.7b-base__gsm8k"
+    },
+    {
+      "slot_id": "posttrain-03",
+      "family_id": "posttrain",
+      "candidate_id": "qwen3-1.7b-base__aime2025"
+    },
+    {
+      "slot_id": "posttrain-04",
+      "family_id": "posttrain",
+      "candidate_id": "qwen3-1.7b-base__arenahardwriting"
+    },
+    {
+      "slot_id": "sakana-01",
+      "family_id": "sakana",
+      "candidate_id": "ahc007"
+    },
+    {
+      "slot_id": "sakana-02",
+      "family_id": "sakana",
+      "candidate_id": "ahc008"
+    },
+    {
+      "slot_id": "sakana-03",
+      "family_id": "sakana",
+      "candidate_id": "ahc009"
+    },
+    {
+      "slot_id": "sakana-04",
+      "family_id": "sakana",
+      "candidate_id": "ahc011"
+    },
+    {
+      "slot_id": "sakana-05",
+      "family_id": "sakana",
+      "candidate_id": "future-contest-2022-qual"
+    },
+    {
+      "slot_id": "sakana-06",
+      "family_id": "sakana",
+      "candidate_id": "ahc016"
+    },
+    {
+      "slot_id": "sakana-07",
+      "family_id": "sakana",
+      "candidate_id": "ahc026"
+    },
+    {
+      "slot_id": "sakana-08",
+      "family_id": "sakana",
+      "candidate_id": "ahc031"
+    },
+    {
+      "slot_id": "sakana-09",
+      "family_id": "sakana",
+      "candidate_id": "ahc039"
+    },
+    {
+      "slot_id": "sakana-10",
+      "family_id": "sakana",
+      "candidate_id": "ahc046"
+    },
+    {
+      "slot_id": "yc-01",
+      "family_id": "yc",
+      "candidate_id": "yc-bench.default.seed1"
+    },
+    {
+      "slot_id": "yc-02",
+      "family_id": "yc",
+      "candidate_id": "yc-bench.default.seed2"
+    },
+    {
+      "slot_id": "yc-03",
+      "family_id": "yc",
+      "candidate_id": "yc-bench.default.seed3"
+    },
+    {
+      "slot_id": "yc-04",
+      "family_id": "yc",
+      "candidate_id": "yc-bench.default.seed4"
+    },
+    {
+      "slot_id": "hle-01",
+      "family_id": "hle",
+      "candidate_id": "69a738a50a19a2f7b803ca97"
+    },
+    {
+      "slot_id": "hle-02",
+      "family_id": "hle",
+      "candidate_id": "673b631505be2302d4445ece"
+    },
+    {
+      "slot_id": "hle-03",
+      "family_id": "hle",
+      "candidate_id": "672ccc56010db734d4f3f109"
+    },
+    {
+      "slot_id": "hle-04",
+      "family_id": "hle",
+      "candidate_id": "672bb9be168a1a30f1f92fcc"
+    },
+    {
+      "slot_id": "hle-05",
+      "family_id": "hle",
+      "candidate_id": "67332b7198af9f49ad5d743a"
+    },
+    {
+      "slot_id": "hle-06",
+      "family_id": "hle",
+      "candidate_id": "66ecd3c6e8b95a8f971fb485"
+    },
+    {
+      "slot_id": "hle-07",
+      "family_id": "hle",
+      "candidate_id": "670aa04552fd04a61d8f4fa8"
+    },
+    {
+      "slot_id": "hle-08",
+      "family_id": "hle",
+      "candidate_id": "6719f92b62a994eccd9f964b"
+    },
+    {
+      "slot_id": "hle-09",
+      "family_id": "hle",
+      "candidate_id": "69d70a4c7c69fcd0569670c4"
+    },
+    {
+      "slot_id": "hle-10",
+      "family_id": "hle",
+      "candidate_id": "67418f4d1cf0c9eba73432cc"
+    },
+    {
+      "slot_id": "hle-11",
+      "family_id": "hle",
+      "candidate_id": "67d75590aa91ea806c1b5b23"
+    },
+    {
+      "slot_id": "hle-12",
+      "family_id": "hle",
+      "candidate_id": "6737016cd6feab08ed98c77d"
+    },
+    {
+      "slot_id": "hle-13",
+      "family_id": "hle",
+      "candidate_id": "69de096edf3ab381bbbb5089"
+    },
+    {
+      "slot_id": "hle-14",
+      "family_id": "hle",
+      "candidate_id": "6723f1d6e01c4b28f6115ce0"
+    },
+    {
+      "slot_id": "hle-15",
+      "family_id": "hle",
+      "candidate_id": "6736289810ec0a5f859365d0"
+    },
+    {
+      "slot_id": "hle-16",
+      "family_id": "hle",
+      "candidate_id": "67252b9639b66386e0489e94"
+    },
+    {
+      "slot_id": "hle-17",
+      "family_id": "hle",
+      "candidate_id": "67ae6422afefb0983e23a370"
+    },
+    {
+      "slot_id": "hle-18",
+      "family_id": "hle",
+      "candidate_id": "675aa6e703e9471764dfedd2"
+    },
+    {
+      "slot_id": "hle-19",
+      "family_id": "hle",
+      "candidate_id": "6a61b9608ebbd180e11f956f"
+    },
+    {
+      "slot_id": "hle-20",
+      "family_id": "hle",
+      "candidate_id": "6a9ef0b5e34811444fad5192"
+    },
+    {
+      "slot_id": "gpqa-01",
+      "family_id": "gpqa",
+      "candidate_id": "recuyeuT5rQ6qDt8F"
+    },
+    {
+      "slot_id": "gpqa-02",
+      "family_id": "gpqa",
+      "candidate_id": "recZ13cwgDQf9jRd9"
+    },
+    {
+      "slot_id": "gpqa-03",
+      "family_id": "gpqa",
+      "candidate_id": "reca44yABeO2fx7UB"
+    },
+    {
+      "slot_id": "gpqa-04",
+      "family_id": "gpqa",
+      "candidate_id": "rec2fsnzUuvNtUYK8"
+    },
+    {
+      "slot_id": "gpqa-05",
+      "family_id": "gpqa",
+      "candidate_id": "receo3UUzRvWCqyfA"
+    },
+    {
+      "slot_id": "gpqa-06",
+      "family_id": "gpqa",
+      "candidate_id": "recVEXvhYxAhELVqB"
+    },
+    {
+      "slot_id": "gpqa-07",
+      "family_id": "gpqa",
+      "candidate_id": "recKv4hFyNpViUXnL"
+    },
+    {
+      "slot_id": "gpqa-08",
+      "family_id": "gpqa",
+      "candidate_id": "recGFKDUd8qgz81Zl"
+    },
+    {
+      "slot_id": "gpqa-09",
+      "family_id": "gpqa",
+      "candidate_id": "recpki12iG9RUGrz9"
+    },
+    {
+      "slot_id": "gpqa-10",
+      "family_id": "gpqa",
+      "candidate_id": "rec5eA17Qr1ucNLUf"
+    },
+    {
+      "slot_id": "gpqa-11",
+      "family_id": "gpqa",
+      "candidate_id": "recIj8lR4tuDgrHou"
+    },
+    {
+      "slot_id": "gpqa-12",
+      "family_id": "gpqa",
+      "candidate_id": "rec260hNUCEj109Dj"
+    },
+    {
+      "slot_id": "metr-01",
+      "family_id": "metr",
+      "candidate_id": "cowthello/main"
+    },
+    {
+      "slot_id": "metr-02",
+      "family_id": "metr",
+      "candidate_id": "complex_payments/payment_logic_only"
+    },
+    {
+      "slot_id": "ale-13",
+      "family_id": "ale",
+      "candidate_id": "business_finance/financial_stmt_reconstruction_aapl_fy2024"
+    },
+    {
+      "slot_id": "ale-14",
+      "family_id": "ale",
+      "candidate_id": "engineering/chisel_verilog_alignment_seq_1"
+    },
+    {
+      "slot_id": "ale-15",
+      "family_id": "ale",
+      "candidate_id": "physical_sciences/molecular_structure_plausibility"
+    },
+    {
+      "slot_id": "core-13",
+      "family_id": "core",
+      "candidate_id": "capsule-2816027"
+    },
+    {
+      "slot_id": "core-14",
+      "family_id": "core",
+      "candidate_id": "capsule-9419423"
+    }
+  ],
+  "selection_changes": [
+    "selection-changes/2026-10-05-automationbench.json",
+    "selection-changes/2026-10-05-automationbench-expansion.json",
+    "selection-changes/2026-10-05-remove-automationbench.json",
+    "selection-changes/2026-10-07-hetzner-runpod.json"
+  ]
+}

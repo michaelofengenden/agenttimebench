@@ -1,0 +1,188 @@
+{
+  "created_at": "2026-10-06T11:36:49.068758+00:00",
+  "offline": true,
+  "synthetic_forecast_prompt": true,
+  "visual_understanding_tested": false,
+  "variants": [
+    {
+      "variant": "hle-03_image_transport",
+      "case": "/private/tmp/agenttime-forecast-context-probe-20261006-_67q7h_v/hle-03_image_transport-4ernridw",
+      "exit_code": 0,
+      "message_requests": 1,
+      "request_paths": [
+        "/v1/messages?beta=true"
+      ],
+      "tools": [],
+      "effort": {
+        "effort": "max"
+      },
+      "model": "claude-opus-5-5",
+      "version": "2.1.280",
+      "images_received": 1,
+      "image_bytes_identical": false,
+      "native_transcripts_saved": 1,
+      "raw_body_files": [
+        "req_fake_001.response.json",
+        "ac0d8461-4b01-4df3-9466-e8f2cc47edda.request.json"
+      ],
+      "socket_listening_lines": [
+        "2026-10-06T11:36:46.339Z [INFO] [uds-messaging] Listening: /private/tmp/afq-y6k08i28/xdg/cc-socks/57207.sock"
+      ],
+      "result_subtype": "success",
+      "result_is_error": false,
+      "result_errors": null,
+      "stderr_tail": "",
+      "environment_note_present": true,
+      "token_budget_reminder_present": false,
+      "image_source_sha256": "7607259248844403947687d084327ac282bbc42929d5efbe83836e9535f32a37",
+      "source_path": "benchmarks/cache/hle-question-images-20261002/images/672ccc56010db734d4f3f109.png",
+      "image_source_bytes": 586680,
+      "source_dimensions": [
+        900,
+        900
+      ],
+      "delivered_dimensions": [
+        900,
+        900
+      ],
+      "delivered_media_type": "image/jpeg",
+      "delivered_image_sha256": "b17d2f864050d76e6d79ce75e2fdfcbc23e2e7c50984e7b45fc3c836f5ba5fb7",
+      "pixels_identical": false
+    },
+    {
+      "variant": "hle-07_image_transport",
+      "case": "/private/tmp/agenttime-forecast-context-probe-20261006-_67q7h_v/hle-07_image_transport-zn3zu8nl",
+      "exit_code": 0,
+      "message_requests": 1,
+      "request_paths": [
+        "/v1/messages?beta=true"
+      ],
+      "tools": [],
+      "effort": {
+        "effort": "max"
+      },
+      "model": "claude-opus-5-5",
+      "version": "2.1.280",
+      "images_received": 1,
+      "image_bytes_identical": true,
+      "native_transcripts_saved": 1,
+      "raw_body_files": [
+        "d29836e3-ca2a-4956-b142-81790804e0f8.request.json",
+        "req_fake_001.response.json"
+      ],
+      "socket_listening_lines": [
+        "2026-10-06T11:36:47.113Z [INFO] [uds-messaging] Listening: /private/tmp/afq-yi84nc8h/xdg/cc-socks/57224.sock"
+      ],
+      "result_subtype": "success",
+      "result_is_error": false,
+      "result_errors": null,
+      "stderr_tail": "",
+      "environment_note_present": true,
+      "token_budget_reminder_present": false,
+      "image_source_sha256": "df5654d3316b2b635fc98700845a9477ea8b33ecf996decbe7742b6e233c9127",
+      "source_path": "benchmarks/cache/hle-question-images-20261002/images/670aa04552fd04a61d8f4fa8.png",
+      "image_source_bytes": 44834,
+      "source_dimensions": [
+        1385,
+        1388
+      ],
+      "delivered_dimensions": [
+        1385,
+        1388
+      ],
+      "delivered_media_type": "image/png",
+      "delivered_image_sha256": "df5654d3316b2b635fc98700845a9477ea8b33ecf996decbe7742b6e233c9127",
+      "pixels_identical": true
+    },
+    {
+      "variant": "hle-09_image_transport",
+      "case": "/private/tmp/agenttime-forecast-context-probe-20261006-_67q7h_v/hle-09_image_transport-yu9u9sdi",
+      "exit_code": 0,
+      "message_requests": 1,
+      "request_paths": [
+        "/v1/messages?beta=true"
+      ],
+      "tools": [],
+      "effort": {
+        "effort": "max"
+      },
+      "model": "claude-opus-5-5",
+      "version": "2.1.280",
+      "images_received": 1,
+      "image_bytes_identical": true,
+      "native_transcripts_saved": 1,
+      "raw_body_files": [
+        "req_fake_001.response.json",
+        "29f1c820-3f4f-4ec0-b47e-f0644a2d91c0.request.json"
+      ],
+      "socket_listening_lines": [
+        "2026-10-06T11:36:47.843Z [INFO] [uds-messaging] Listening: /private/tmp/afq-e3y_gmfi/xdg/cc-socks/57239.sock"
+      ],
+      "result_subtype": "success",
+      "result_is_error": false,
+      "result_errors": null,
+      "stderr_tail": "",
+      "environment_note_present": true,
+      "token_budget_reminder_present": false,
+      "image_source_sha256": "4c3e18b61e4721afd3139bc0a30a324169fff45387fad5793c2e72f36e2c91c0",
+      "source_path": "benchmarks/cache/hle-question-images-20261002/images/69d70a4c7c69fcd0569670c4.png",
+      "image_source_bytes": 83833,
+      "source_dimensions": [
+        1251,
+        873
+      ],
+      "delivered_dimensions": [
+        1251,
+        873
+      ],
+      "delivered_media_type": "image/png",
+      "delivered_image_sha256": "4c3e18b61e4721afd3139bc0a30a324169fff45387fad5793c2e72f36e2c91c0",
+      "pixels_identical": true
+    },
+    {
+      "variant": "hle-19_image_transport",
+      "case": "/private/tmp/agenttime-forecast-context-probe-20261006-_67q7h_v/hle-19_image_transport-j7tmr1f0",
+      "exit_code": 0,
+      "message_requests": 1,
+      "request_paths": [
+        "/v1/messages?beta=true"
+      ],
+      "tools": [],
+      "effort": {
+        "effort": "max"
+      },
+      "model": "claude-opus-5-5",
+      "version": "2.1.280",
+      "images_received": 1,
+      "image_bytes_identical": true,
+      "native_transcripts_saved": 1,
+      "raw_body_files": [
+        "b4b0ee64-8ebe-4e58-84fa-cfa78b0a9856.request.json",
+        "req_fake_001.response.json"
+      ],
+      "socket_listening_lines": [
+        "2026-10-06T11:36:48.596Z [INFO] [uds-messaging] Listening: /private/tmp/afq-n2ozmi0e/xdg/cc-socks/57254.sock"
+      ],
+      "result_subtype": "success",
+      "result_is_error": false,
+      "result_errors": null,
+      "stderr_tail": "",
+      "environment_note_present": true,
+      "token_budget_reminder_present": false,
+      "image_source_sha256": "97defd0858b48f5ef574466108d1e752a8b5ae317919e33dc46fcc18278e137e",
+      "source_path": "benchmarks/cache/hle-question-images-20261002/images/6a61b9608ebbd180e11f956f.png",
+      "image_source_bytes": 7901,
+      "source_dimensions": [
+        124,
+        382
+      ],
+      "delivered_dimensions": [
+        124,
+        382
+      ],
+      "delivered_media_type": "image/png",
+      "delivered_image_sha256": "97defd0858b48f5ef574466108d1e752a8b5ae317919e33dc46fcc18278e137e",
+      "pixels_identical": true
+    }
+  ]
+}

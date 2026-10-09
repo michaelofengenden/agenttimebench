@@ -1,0 +1,570 @@
+{
+  "schema_version": 1,
+  "scope": "Approved replacement row source evidence only; no runtime admission.",
+  "rows": [
+    {
+      "slot_id": "ale-13",
+      "family_id": "ale",
+      "family_name": "Agents’ Last Exam",
+      "candidate_id": "business_finance/financial_stmt_reconstruction_aapl_fy2024",
+      "identity_kind": "upstream_task_id",
+      "selection_status": "approved_replacement",
+      "selected_by": "user",
+      "title": "Apple FY2024 Balance Sheet Reconstruction",
+      "source_pin": "code 0b6465b13c85b5a0a017d4c88bcf979a519a5e1f; metadata a8c1fd174a1f6cfa76526572a2e3ebece1276be2; input 0f525e1fbbc12bfa34202185a2287869ba8021f7; gated reference 10c7c518d3193699a5d25f0cde876f2873fdcb71",
+      "recommendation_reason": "Approved CPU-compatible replacement chosen from pinned native requirements and static input/evaluator review, without forecast values or evaluated-agent outcomes.",
+      "components": {
+        "prompt": {
+          "status": "present",
+          "evidence": [
+            {
+              "root": "repository",
+              "path": "benchmarks/cache/v1-inputs-20261002/agents-last-exam/task/tasks/business_finance/financial_stmt_reconstruction_aapl_fy2024/task_card.json",
+              "exists": true,
+              "visibility": "preparation_only",
+              "role": "native_task_card",
+              "locator": "/taskPrompt"
+            }
+          ],
+          "remaining_gap": "Project only native taskPrompt and allowed initial material; task cards also contain evaluator metadata."
+        },
+        "assets": {
+          "status": "present",
+          "evidence": [
+            {
+              "root": "repository",
+              "path": "benchmarks/cache/hetzner-runpod-20261007/ale/public-input/tasks/business_finance/financial_stmt_reconstruction_aapl_fy2024/base",
+              "exists": true,
+              "visibility": "subject",
+              "role": "allowed_public_initial_materials"
+            }
+          ],
+          "remaining_gap": "Bind the exact public bundle and staged file permissions in the isolated subject workspace."
+        },
+        "environment": {
+          "status": "needs_checking",
+          "evidence": [
+            {
+              "root": "repository",
+              "path": "benchmarks/cache/v1-inputs-20261002/agents-last-exam/task/tasks/business_finance/financial_stmt_reconstruction_aapl_fy2024/task_card.json",
+              "exists": true,
+              "visibility": "preparation_only",
+              "locator": "/vm"
+            },
+            {
+              "root": "repository",
+              "path": "benchmarks/cache/hetzner-runpod-20261007/ale/public-input/tasks/business_finance/financial_stmt_reconstruction_aapl_fy2024/base",
+              "exists": true,
+              "visibility": "subject",
+              "role": "native_dependency_and_tool_definitions"
+            }
+          ],
+          "remaining_gap": "Install the pinned native CPU environment and verify task-specific tools, initial state and endpoint.",
+          "installed_environment_checked": false
+        },
+        "grader": {
+          "status": "present",
+          "evidence": [
+            {
+              "root": "repository",
+              "path": "benchmarks/cache/v1-inputs-20261002/agents-last-exam/task/tasks/business_finance/financial_stmt_reconstruction_aapl_fy2024",
+              "exists": true,
+              "visibility": "verifier",
+              "role": "native_evaluator_source"
+            },
+            {
+              "root": "repository",
+              "path": "benchmarks/cache/hetzner-runpod-20261007/ale/private-reference/tasks/business_finance/financial_stmt_reconstruction_aapl_fy2024/base/reference",
+              "exists": true,
+              "visibility": "verifier",
+              "role": "verifier_only_private_reference"
+            }
+          ],
+          "remaining_gap": "Qualify native positive, wrong, malformed and empty controls on the exact isolated package; retain native partial-credit scoring.",
+          "source_only": true,
+          "qualification_status": "not_run"
+        }
+      },
+      "natural_prompt": {
+        "status": "needs_checking",
+        "remaining_gap": "Freeze the natural task prompt and audit native timers, turn limits and endpoints before execution."
+      },
+      "runtime_qualified": false,
+      "admitted": false,
+      "replaces_slot_id": "ale-02",
+      "replaces_task_id": "business_finance/odoo",
+      "gaps": [
+        "Project only native taskPrompt and allowed initial material; task cards also contain evaluator metadata.",
+        "Bind the exact public bundle and staged file permissions in the isolated subject workspace.",
+        "Install the pinned native CPU environment and verify task-specific tools, initial state and endpoint.",
+        "Qualify native positive, wrong, malformed and empty controls on the exact isolated package; retain native partial-credit scoring."
+      ],
+      "source_locator": {
+        "task_card": "benchmarks/cache/v1-inputs-20261002/agents-last-exam/task/tasks/business_finance/financial_stmt_reconstruction_aapl_fy2024/task_card.json",
+        "public_bundle": "benchmarks/cache/hetzner-runpod-20261007/ale/public-input/tasks/business_finance/financial_stmt_reconstruction_aapl_fy2024/base",
+        "private_reference": "benchmarks/cache/hetzner-runpod-20261007/ale/private-reference/tasks/business_finance/financial_stmt_reconstruction_aapl_fy2024/base/reference"
+      },
+      "candidate_review_notes": [
+        "Public input and verifier-only reference files were independently hash-checked against the selected pinned download receipts.",
+        "Source-complete selection does not qualify a natural worker or cloud deployment."
+      ]
+    },
+    {
+      "slot_id": "ale-14",
+      "family_id": "ale",
+      "family_name": "Agents’ Last Exam",
+      "candidate_id": "engineering/chisel_verilog_alignment_seq_1",
+      "identity_kind": "upstream_task_id",
+      "selection_status": "approved_replacement",
+      "selected_by": "user",
+      "title": "Chisel-to-Verilog Source Location Alignment",
+      "source_pin": "code 0b6465b13c85b5a0a017d4c88bcf979a519a5e1f; metadata a8c1fd174a1f6cfa76526572a2e3ebece1276be2; input 0f525e1fbbc12bfa34202185a2287869ba8021f7; gated reference 10c7c518d3193699a5d25f0cde876f2873fdcb71",
+      "recommendation_reason": "Approved CPU-compatible replacement chosen from pinned native requirements and static input/evaluator review, without forecast values or evaluated-agent outcomes.",
+      "components": {
+        "prompt": {
+          "status": "present",
+          "evidence": [
+            {
+              "root": "repository",
+              "path": "benchmarks/cache/v1-inputs-20261002/agents-last-exam/task/tasks/engineering/chisel_verilog_alignment_seq_1/task_card.json",
+              "exists": true,
+              "visibility": "preparation_only",
+              "role": "native_task_card",
+              "locator": "/taskPrompt"
+            }
+          ],
+          "remaining_gap": "Project only native taskPrompt and allowed initial material; task cards also contain evaluator metadata."
+        },
+        "assets": {
+          "status": "present",
+          "evidence": [
+            {
+              "root": "repository",
+              "path": "benchmarks/cache/hetzner-runpod-20261007/ale/public-input/tasks/engineering/chisel_verilog_alignment_seq_1/base",
+              "exists": true,
+              "visibility": "subject",
+              "role": "allowed_public_initial_materials"
+            }
+          ],
+          "remaining_gap": "Bind the exact public bundle and staged file permissions in the isolated subject workspace."
+        },
+        "environment": {
+          "status": "needs_checking",
+          "evidence": [
+            {
+              "root": "repository",
+              "path": "benchmarks/cache/v1-inputs-20261002/agents-last-exam/task/tasks/engineering/chisel_verilog_alignment_seq_1/task_card.json",
+              "exists": true,
+              "visibility": "preparation_only",
+              "locator": "/vm"
+            },
+            {
+              "root": "repository",
+              "path": "benchmarks/cache/hetzner-runpod-20261007/ale/public-input/tasks/engineering/chisel_verilog_alignment_seq_1/base",
+              "exists": true,
+              "visibility": "subject",
+              "role": "native_dependency_and_tool_definitions"
+            }
+          ],
+          "remaining_gap": "Install the pinned native CPU environment, preserve read-only task inputs, disable solve-time network access and verify native tools, initial state and endpoint.",
+          "installed_environment_checked": false
+        },
+        "grader": {
+          "status": "present",
+          "evidence": [
+            {
+              "root": "repository",
+              "path": "benchmarks/cache/v1-inputs-20261002/agents-last-exam/task/tasks/engineering/chisel_verilog_alignment_seq_1",
+              "exists": true,
+              "visibility": "verifier",
+              "role": "native_evaluator_source"
+            },
+            {
+              "root": "repository",
+              "path": "benchmarks/cache/hetzner-runpod-20261007/ale/private-reference/tasks/engineering/chisel_verilog_alignment_seq_1/base/reference",
+              "exists": true,
+              "visibility": "verifier",
+              "role": "verifier_only_private_reference"
+            }
+          ],
+          "remaining_gap": "Qualify native positive, wrong, malformed and empty controls on the exact isolated package; retain native partial-credit scoring.",
+          "source_only": true,
+          "qualification_status": "not_run"
+        }
+      },
+      "natural_prompt": {
+        "status": "needs_checking",
+        "remaining_gap": "Freeze the natural task prompt and audit native timers, turn limits and endpoints before execution."
+      },
+      "runtime_qualified": false,
+      "admitted": false,
+      "replaces_slot_id": "ale-08",
+      "replaces_task_id": "engineering/pcb_layout_kicad_1",
+      "gaps": [
+        "Project only native taskPrompt and allowed initial material; task cards also contain evaluator metadata.",
+        "Bind the exact public bundle and staged file permissions in the isolated subject workspace.",
+        "Install the pinned native CPU environment, preserve read-only task inputs, disable solve-time network access and verify native tools, initial state and endpoint.",
+        "Qualify native positive, wrong, malformed and empty controls on the exact isolated package; retain native partial-credit scoring."
+      ],
+      "source_locator": {
+        "task_card": "benchmarks/cache/v1-inputs-20261002/agents-last-exam/task/tasks/engineering/chisel_verilog_alignment_seq_1/task_card.json",
+        "public_bundle": "benchmarks/cache/hetzner-runpod-20261007/ale/public-input/tasks/engineering/chisel_verilog_alignment_seq_1/base",
+        "private_reference": "benchmarks/cache/hetzner-runpod-20261007/ale/private-reference/tasks/engineering/chisel_verilog_alignment_seq_1/base/reference"
+      },
+      "candidate_review_notes": [
+        "Public input and verifier-only reference files were independently hash-checked against the selected pinned download receipts.",
+        "Source-complete selection does not qualify a natural worker or cloud deployment.",
+        "The natural worker must enforce read-only task inputs and no solve-time network access; the answer scorer alone enforces neither restriction."
+      ]
+    },
+    {
+      "slot_id": "ale-15",
+      "family_id": "ale",
+      "family_name": "Agents’ Last Exam",
+      "candidate_id": "physical_sciences/molecular_structure_plausibility",
+      "identity_kind": "upstream_task_id",
+      "selection_status": "approved_replacement",
+      "selected_by": "user",
+      "title": "Molecular Structure Plausibility",
+      "source_pin": "code 0b6465b13c85b5a0a017d4c88bcf979a519a5e1f; metadata a8c1fd174a1f6cfa76526572a2e3ebece1276be2; input 0f525e1fbbc12bfa34202185a2287869ba8021f7; gated reference 10c7c518d3193699a5d25f0cde876f2873fdcb71",
+      "recommendation_reason": "Approved CPU-compatible replacement chosen from pinned native requirements and static input/evaluator review, without forecast values or evaluated-agent outcomes. Preserves molecular 3D geometry reasoning; visual-media creation coverage changes. The Terminal-Bench CAD task remains.",
+      "components": {
+        "prompt": {
+          "status": "present",
+          "evidence": [
+            {
+              "root": "repository",
+              "path": "benchmarks/cache/v1-inputs-20261002/agents-last-exam/task/tasks/physical_sciences/molecular_structure_plausibility/task_card.json",
+              "exists": true,
+              "visibility": "preparation_only",
+              "role": "native_task_card",
+              "locator": "/taskPrompt"
+            }
+          ],
+          "remaining_gap": "Project only native taskPrompt and allowed initial material; task cards also contain evaluator metadata."
+        },
+        "assets": {
+          "status": "present",
+          "evidence": [
+            {
+              "root": "repository",
+              "path": "benchmarks/cache/hetzner-runpod-20261007/ale/public-input/tasks/physical_sciences/molecular_structure_plausibility/base",
+              "exists": true,
+              "visibility": "subject",
+              "role": "allowed_public_initial_materials"
+            }
+          ],
+          "remaining_gap": "Bind the exact public bundle and staged file permissions in the isolated subject workspace."
+        },
+        "environment": {
+          "status": "needs_checking",
+          "evidence": [
+            {
+              "root": "repository",
+              "path": "benchmarks/cache/v1-inputs-20261002/agents-last-exam/task/tasks/physical_sciences/molecular_structure_plausibility/task_card.json",
+              "exists": true,
+              "visibility": "preparation_only",
+              "locator": "/vm"
+            },
+            {
+              "root": "repository",
+              "path": "benchmarks/cache/hetzner-runpod-20261007/ale/public-input/tasks/physical_sciences/molecular_structure_plausibility/base",
+              "exists": true,
+              "visibility": "subject",
+              "role": "native_dependency_and_tool_definitions"
+            }
+          ],
+          "remaining_gap": "Install the pinned native CPU environment and verify task-specific tools, initial state and endpoint.",
+          "installed_environment_checked": false
+        },
+        "grader": {
+          "status": "present",
+          "evidence": [
+            {
+              "root": "repository",
+              "path": "benchmarks/cache/v1-inputs-20261002/agents-last-exam/task/tasks/physical_sciences/molecular_structure_plausibility",
+              "exists": true,
+              "visibility": "verifier",
+              "role": "native_evaluator_source"
+            },
+            {
+              "root": "repository",
+              "path": "benchmarks/cache/hetzner-runpod-20261007/ale/private-reference/tasks/physical_sciences/molecular_structure_plausibility/base/reference",
+              "exists": true,
+              "visibility": "verifier",
+              "role": "verifier_only_private_reference"
+            }
+          ],
+          "remaining_gap": "Qualify native positive, wrong, malformed and empty controls on the exact isolated package; retain native partial-credit scoring.",
+          "source_only": true,
+          "qualification_status": "not_run"
+        }
+      },
+      "natural_prompt": {
+        "status": "needs_checking",
+        "remaining_gap": "Freeze the natural task prompt and audit native timers, turn limits and endpoints before execution."
+      },
+      "runtime_qualified": false,
+      "admitted": false,
+      "replaces_slot_id": "ale-11",
+      "replaces_task_id": "visual_media/compress_3dgs_scene_ply",
+      "gaps": [
+        "Project only native taskPrompt and allowed initial material; task cards also contain evaluator metadata.",
+        "Bind the exact public bundle and staged file permissions in the isolated subject workspace.",
+        "Install the pinned native CPU environment and verify task-specific tools, initial state and endpoint.",
+        "Qualify native positive, wrong, malformed and empty controls on the exact isolated package; retain native partial-credit scoring."
+      ],
+      "source_locator": {
+        "task_card": "benchmarks/cache/v1-inputs-20261002/agents-last-exam/task/tasks/physical_sciences/molecular_structure_plausibility/task_card.json",
+        "public_bundle": "benchmarks/cache/hetzner-runpod-20261007/ale/public-input/tasks/physical_sciences/molecular_structure_plausibility/base",
+        "private_reference": "benchmarks/cache/hetzner-runpod-20261007/ale/private-reference/tasks/physical_sciences/molecular_structure_plausibility/base/reference"
+      },
+      "candidate_review_notes": [
+        "Public input and verifier-only reference files were independently hash-checked against the selected pinned download receipts.",
+        "Source-complete selection does not qualify a natural worker or cloud deployment."
+      ]
+    },
+    {
+      "slot_id": "core-13",
+      "family_id": "core",
+      "family_name": "CORE-Bench Hard",
+      "candidate_id": "capsule-2816027",
+      "identity_kind": "upstream_task_id",
+      "selection_status": "approved_replacement",
+      "selected_by": "user",
+      "title": "ESR1 mutant breast cancers show elevated basal cytokeratins and immune activation",
+      "source_pin": "HAL code 0dd6962c23147a11ee12751db85f28328dadd50f; native grader 25d963d342946ce0befb913bd3435cda4030c0c69fd9c217b69d3e03ac37060a; mainline 157e9f077c421d976abddfafde50fef5fa591d5d; OOD 00cfba0d8d83c093eac856f39b4f450a0c8aad9f",
+      "recommendation_reason": "Approved CPU-compatible replacement preserves the CORE mainline/OOD allocation, chosen from pinned source requirements without forecast values or evaluated-agent outcomes.",
+      "components": {
+        "prompt": {
+          "status": "present",
+          "evidence": [
+            {
+              "root": "repository",
+              "path": "benchmarks/cache/hetzner-runpod-20261007/core/mainline/core_test.json",
+              "exists": true,
+              "visibility": "verifier",
+              "role": "native_task_metadata_requires_safe_projection",
+              "locator": "/8/task_prompt"
+            },
+            {
+              "root": "repository",
+              "path": "benchmarks/cache/v1-inputs-20261002/core-bench-v1-1/code/hal/benchmarks/corebench.py",
+              "exists": true,
+              "visibility": "preparation_only",
+              "role": "native_hard_prompt_template",
+              "locator": "CoreBenchHard._construct_prompt"
+            }
+          ],
+          "remaining_gap": "Render task_prompt and result question keys only; protected answer values never enter subject or forecast inputs.",
+          "form": "task_record_plus_native_hard_template"
+        },
+        "assets": {
+          "status": "present",
+          "evidence": [
+            {
+              "root": "repository",
+              "path": "benchmarks/cache/hetzner-runpod-20261007/core/mainline/capsule-2816027.tar.gz",
+              "exists": true,
+              "visibility": "preparation_only",
+              "role": "original_capsule_archive"
+            }
+          ],
+          "remaining_gap": "Unpack in a fresh workspace and apply native Hard subject/result separation before use.",
+          "archive_file_count": 41,
+          "materialization_scope": "native_source_archive"
+        },
+        "environment": {
+          "status": "needs_checking",
+          "evidence": [
+            {
+              "root": "repository",
+              "path": "benchmarks/cache/hetzner-runpod-20261007/core/mainline/capsule-2816027.tar.gz",
+              "exists": true,
+              "visibility": "preparation_only",
+              "role": "archive_environment_member",
+              "locator": "capsule-2816027/REPRODUCING.md"
+            },
+            {
+              "root": "repository",
+              "path": "benchmarks/cache/hetzner-runpod-20261007/core/mainline/capsule-2816027.tar.gz",
+              "exists": true,
+              "visibility": "preparation_only",
+              "role": "archive_environment_member",
+              "locator": "capsule-2816027/environment/Dockerfile"
+            }
+          ],
+          "remaining_gap": "Install the native CPU environment and qualify reproducibility, initial state and endpoint; cloud placement remains intended.",
+          "installed_environment_checked": false
+        },
+        "grader": {
+          "status": "present",
+          "evidence": [
+            {
+              "root": "repository",
+              "path": "benchmarks/cache/v1-inputs-20261002/core-bench-v1-1/code/hal/benchmarks/corebench.py",
+              "exists": true,
+              "visibility": "verifier",
+              "role": "native_grader"
+            },
+            {
+              "root": "repository",
+              "path": "benchmarks/cache/hetzner-runpod-20261007/core/mainline/core_test.json",
+              "exists": true,
+              "visibility": "verifier",
+              "role": "verifier_only_gold_answers",
+              "locator": "/8/results"
+            }
+          ],
+          "remaining_gap": "Run positive, wrong, malformed and empty controls on the exact Hard package; preserve native partial credit.",
+          "source_only": true,
+          "qualification_status": "not_run"
+        }
+      },
+      "natural_prompt": {
+        "status": "needs_checking",
+        "remaining_gap": "Freeze the natural task prompt and audit native timers, turn limits and endpoints before execution."
+      },
+      "runtime_qualified": false,
+      "admitted": false,
+      "replaces_slot_id": "core-04",
+      "replaces_task_id": "capsule-3449234",
+      "gaps": [
+        "Render task_prompt and result question keys only; protected answer values never enter subject or forecast inputs.",
+        "Unpack in a fresh workspace and apply native Hard subject/result separation before use.",
+        "Install the native CPU environment and qualify reproducibility, initial state and endpoint; cloud placement remains intended.",
+        "Run positive, wrong, malformed and empty controls on the exact Hard package; preserve native partial credit."
+      ],
+      "core_split": "mainline",
+      "source_locator": {
+        "split": "mainline",
+        "source_commit": "157e9f077c421d976abddfafde50fef5fa591d5d",
+        "metadata_path": "benchmarks/cache/hetzner-runpod-20261007/core/mainline/core_test.json",
+        "data_row_index_zero_based": 8,
+        "capsule_id": "capsule-2816027"
+      },
+      "source_url": "https://doi.org/10.24433/CO.0627595.v1"
+    },
+    {
+      "slot_id": "core-14",
+      "family_id": "core",
+      "family_name": "CORE-Bench Hard",
+      "candidate_id": "capsule-9419423",
+      "identity_kind": "upstream_task_id",
+      "selection_status": "approved_replacement",
+      "selected_by": "user",
+      "title": "Human Activities Recognition on PAMAP2 dataset using Random Forest",
+      "source_pin": "HAL code 0dd6962c23147a11ee12751db85f28328dadd50f; native grader 25d963d342946ce0befb913bd3435cda4030c0c69fd9c217b69d3e03ac37060a; mainline 157e9f077c421d976abddfafde50fef5fa591d5d; OOD 00cfba0d8d83c093eac856f39b4f450a0c8aad9f",
+      "recommendation_reason": "Approved CPU-compatible replacement preserves the CORE mainline/OOD allocation, chosen from pinned source requirements without forecast values or evaluated-agent outcomes.",
+      "components": {
+        "prompt": {
+          "status": "present",
+          "evidence": [
+            {
+              "root": "repository",
+              "path": "benchmarks/cache/hetzner-runpod-20261007/core/ood/core_test.json",
+              "exists": true,
+              "visibility": "verifier",
+              "role": "native_task_metadata_requires_safe_projection",
+              "locator": "/2/task_prompt"
+            },
+            {
+              "root": "repository",
+              "path": "benchmarks/cache/v1-inputs-20261002/core-bench-v1-1/code/hal/benchmarks/corebench.py",
+              "exists": true,
+              "visibility": "preparation_only",
+              "role": "native_hard_prompt_template",
+              "locator": "CoreBenchHard._construct_prompt"
+            }
+          ],
+          "remaining_gap": "Render task_prompt and result question keys only; protected answer values never enter subject or forecast inputs.",
+          "form": "task_record_plus_native_hard_template"
+        },
+        "assets": {
+          "status": "present",
+          "evidence": [
+            {
+              "root": "repository",
+              "path": "benchmarks/cache/hetzner-runpod-20261007/core/ood/capsule-9419423.tar.gz",
+              "exists": true,
+              "visibility": "preparation_only",
+              "role": "original_capsule_archive"
+            }
+          ],
+          "remaining_gap": "Unpack in a fresh workspace and apply native Hard subject/result separation before use.",
+          "archive_file_count": 33,
+          "materialization_scope": "native_source_archive"
+        },
+        "environment": {
+          "status": "needs_checking",
+          "evidence": [
+            {
+              "root": "repository",
+              "path": "benchmarks/cache/hetzner-runpod-20261007/core/ood/capsule-9419423.tar.gz",
+              "exists": true,
+              "visibility": "preparation_only",
+              "role": "archive_environment_member",
+              "locator": "capsule-9419423/REPRODUCING.md"
+            },
+            {
+              "root": "repository",
+              "path": "benchmarks/cache/hetzner-runpod-20261007/core/ood/capsule-9419423.tar.gz",
+              "exists": true,
+              "visibility": "preparation_only",
+              "role": "archive_environment_member",
+              "locator": "capsule-9419423/environment/Dockerfile"
+            }
+          ],
+          "remaining_gap": "Install the native CPU environment and qualify reproducibility, initial state and endpoint; cloud placement remains intended.",
+          "installed_environment_checked": false
+        },
+        "grader": {
+          "status": "present",
+          "evidence": [
+            {
+              "root": "repository",
+              "path": "benchmarks/cache/v1-inputs-20261002/core-bench-v1-1/code/hal/benchmarks/corebench.py",
+              "exists": true,
+              "visibility": "verifier",
+              "role": "native_grader"
+            },
+            {
+              "root": "repository",
+              "path": "benchmarks/cache/hetzner-runpod-20261007/core/ood/core_test.json",
+              "exists": true,
+              "visibility": "verifier",
+              "role": "verifier_only_gold_answers",
+              "locator": "/2/results"
+            }
+          ],
+          "remaining_gap": "Run positive, wrong, malformed and empty controls on the exact Hard package; preserve native partial credit.",
+          "source_only": true,
+          "qualification_status": "not_run"
+        }
+      },
+      "natural_prompt": {
+        "status": "needs_checking",
+        "remaining_gap": "Freeze the natural task prompt and audit native timers, turn limits and endpoints before execution."
+      },
+      "runtime_qualified": false,
+      "admitted": false,
+      "replaces_slot_id": "core-11",
+      "replaces_task_id": "capsule-7350043",
+      "gaps": [
+        "Render task_prompt and result question keys only; protected answer values never enter subject or forecast inputs.",
+        "Unpack in a fresh workspace and apply native Hard subject/result separation before use.",
+        "Install the native CPU environment and qualify reproducibility, initial state and endpoint; cloud placement remains intended.",
+        "Run positive, wrong, malformed and empty controls on the exact Hard package; preserve native partial credit."
+      ],
+      "core_split": "ood",
+      "source_locator": {
+        "split": "ood",
+        "source_commit": "00cfba0d8d83c093eac856f39b4f450a0c8aad9f",
+        "metadata_path": "benchmarks/cache/hetzner-runpod-20261007/core/ood/core_test.json",
+        "data_row_index_zero_based": 2,
+        "capsule_id": "capsule-9419423"
+      },
+      "source_url": "https://doi.org/10.24433/CO.0414025.v1"
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "archive_verified": false,
+  "attempt_id": "5c831bf8-b1d5-4d42-99ae-8aa9270dbf6a",
+  "authorization_sha256": "479db476e3ab2165b23c4f51244ffc360fd24208713bfe38bbfd25c3f706e922",
+  "automatic_retry": false,
+  "capture_finished_monotonic_ns": null,
+  "configured_authentication": "stdin_to_child_environment_only",
+  "execution": {
+    "cancelled": false,
+    "clock_id": "linux-boot:0a647887-a5e3-446c-a3f2-8884c66bef24",
+    "issues": [],
+    "native_terminal_monotonic_ns": 3084905696774,
+    "observed_native_init": {
+      "claude_code_version": "2.1.280",
+      "mcp_servers": [
+        {
+          "name": "assistantbench",
+          "source": "dynamic",
+          "status": "connected"
+        }
+      ],
+      "model": "claude-opus-5-5[1m]",
+      "plugins": [],
+      "skills": [],
+      "tools": [
+        "mcp__assistantbench__click",
+        "mcp__assistantbench__fill",
+        "mcp__assistantbench__go_back",
+        "mcp__assistantbench__goto",
+        "mcp__assistantbench__noop",
+        "mcp__assistantbench__observe",
+        "mcp__assistantbench__press",
+        "mcp__assistantbench__scroll",
+        "mcp__assistantbench__select_option",
+        "mcp__assistantbench__send_msg_to_user"
+      ]
+    },
+    "owned_work_drained_monotonic_ns": 3084905696774,
+    "prompt_released_monotonic_ns": 3047501469686,
+    "result_monotonic_ns": 3084730628395,
+    "root_exit_code": 0,
+    "root_exit_monotonic_ns": 3084905059765,
+    "runtime_seconds": 37.404227088,
+    "sealed_answer_sha256": "162b81548a8db0ab220f7137405fb003019c266883d4181869662ad7eafdbc4d",
+    "session_id": "9ab4bbd7-2d51-42ab-9e24-420186c2181c",
+    "study_admitted": false,
+    "submission_monotonic_ns": 3080836208887,
+    "timing_valid": true,
+    "usage_evidence": [
+      {
+        "isUsingOverage": false,
+        "overageDisabledReason": "group_zero_credit_limit",
+        "overageStatus": "rejected",
+        "rateLimitType": "five_hour",
+        "resetsAt": 1791575400,
+        "status": "allowed"
+      },
+      {
+        "isUsingOverage": false,
+        "overageDisabledReason": "group_zero_credit_limit",
+        "overageStatus": "rejected",
+        "rateLimitType": "five_hour",
+        "resetsAt": 1791575400,
+        "status": "allowed"
+      }
+    ]
+  },
+  "experiment_time_cap_seconds": null,
+  "identity_sha256": "5785c959daa316fa02484cfe8b1a0a483a45cffc649d21dd1bdebee47c25c7c7",
+  "included_subscription_allowance_verified": true,
+  "independent_final_archive_acknowledged": false,
+  "independent_initial_archive_acknowledged": true,
+  "input_sha256": "3530a98a4b7faf094f6a3d8eb30f2e9361deedab3020486970569342e98e89e4",
+  "issues": [
+    "archive_held_preserve_original_state"
+  ],
+  "native_session_evidence": {
+    "children": {},
+    "original_native_stores_verified": true,
+    "parent": {
+      "message_count": 16,
+      "path": "config/projects/-tmp-at-native-work/9ab4bbd7-2d51-42ab-9e24-420186c2181c.jsonl",
+      "sha256": "6a7f0311a13bb268f3be94cec7b5a9d6adc94d48a3d0850a9c769ad21291c031"
+    },
+    "restoration_proven": false,
+    "session_id": "9ab4bbd7-2d51-42ab-9e24-420186c2181c",
+    "stream_sha256": "ec023e8f609a1f7defcfa2e5a2731828b4afcc572080b967a13ddc19e38ee4ee"
+  },
+  "native_sessions_verified": true,
+  "requested_route": "subscription",
+  "requires_controller_stop_verification": true,
+  "runtime_image_and_resources_verified_by_worker": false,
+  "runtime_verification": {
+    "cli_verified": true,
+    "clock_id": "linux-boot:0a647887-a5e3-446c-a3f2-8884c66bef24",
+    "image_and_resources_verified": false,
+    "python_executable": "/usr/local/bin/python3.12",
+    "source_pins_verified": true
+  },
+  "schema_version": "agenttime.natural-worker-report.v1",
+  "session_id": "9ab4bbd7-2d51-42ab-9e24-420186c2181c",
+  "spec_sha256": "f44ebcd33d2c2466858ecff3d036120fd6dc040498f76050e66bd38163807df2",
+  "state": "held",
+  "study_admitted": false,
+  "timing_admissible": false,
+  "transport": {
+    "descendant_capabilities_qualified": false,
+    "issues": [],
+    "native_stream_response_ids": [],
+    "request_count": 4,
+    "session_ids": [
+      "9ab4bbd7-2d51-42ab-9e24-420186c2181c"
+    ]
+  }
+}

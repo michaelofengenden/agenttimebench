@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "qualification": "official_mcp_client_real_browser_synthetic_page",
+  "model_calls": 0,
+  "selected_task_inputs_used": 0,
+  "platform": "macOS-27.0.1-arm64-arm-64bit",
+  "mcp_client_version": "2.3.0",
+  "source_sha256": "1f0d86a08e330bac6ad210dcbb0e948a9db1259c9e17809c4ebbda4b8772f4e1",
+  "study_ready": false,
+  "claude_tool_path_qualified": false,
+  "linux_worker_qualified": false,
+  "archive_restore_qualified": false,
+  "protocol_version": "2024-11-05",
+  "tool_names": [
+    "observe",
+    "noop",
+    "fill",
+    "select_option",
+    "click",
+    "dblclick",
+    "hover",
+    "press",
+    "focus",
+    "clear",
+    "drag_and_drop",
+    "scroll",
+    "goto",
+    "go_back",
+    "go_forward",
+    "new_tab",
+    "tab_close",
+    "tab_focus",
+    "send_msg_to_user"
+  ],
+  "checks_passed": [
+    "official_client_initialization",
+    "typed_tool_listing",
+    "native_browser_observation",
+    "file_navigation_rejected",
+    "native_final_answer_sealed",
+    "post_terminal_action_rejected"
+  ]
+}

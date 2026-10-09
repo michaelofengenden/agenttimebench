@@ -1,0 +1,632 @@
+{
+  "schema_version": "agenttime.opus_evidence_audit.v1",
+  "created_at_utc": "2026-10-02T14:11:55.911954+00:00",
+  "status": "read_only_audit_complete",
+  "scope": "Check packet-only Opus source and selection assertions against actual inventory evidence and pinned local source. Builder/verifier changes and HLE image work remain owned by root.",
+  "boundaries": {
+    "shared_files_changed": false,
+    "task_choices_changed": false,
+    "downloads": 0,
+    "upstream_code_executed": false,
+    "benchmark_runs": 0,
+    "model_calls": 0,
+    "subject_inputs_built": false,
+    "runtime_qualification_claimed": false
+  },
+  "summary": {
+    "findings": 14,
+    "main_correction": "Disclose public-score-informed Program proposal formation; earlier_candidate is not exact-ID user approval.",
+    "already_present": "Detailed OS mapping and historical visual-judge caveat, HLE seed/domain/answer-blind/pin evidence, tau corpus and tag mapping, and score-independent recorded WeirdML selector.",
+    "new_binding_detail": "Tau native individual task records differ from aggregate records in 13 cases; all three proposed banking choices match native records."
+  },
+  "independent_checks": {
+    "program_roster_ids": 18,
+    "os_current_tasks_against_official_release_hash_manifest": 108,
+    "os_historical_files_against_recorded_hashes": 16,
+    "os_byte_identical_mapped_ids": [
+      "029",
+      "046",
+      "067",
+      "088"
+    ],
+    "hle": {
+      "projected_columns": [
+        "id",
+        "partition"
+      ],
+      "rows": 1000,
+      "unique_ids": 1000,
+      "reasoning_pool": 500,
+      "knowledge_pool": 500,
+      "reasoning_prefix": 10,
+      "knowledge_prefix": 11,
+      "selected": 20,
+      "ranking_and_saved_selection_match": true,
+      "parquet_sha256": "2b3421909ac47580d8373d4e7e5a23f0f08365d2cfb54a13100ddfac4a961e87"
+    },
+    "tau": {
+      "ranked_pool_sizes": {
+        "airline": 50,
+        "retail": 114,
+        "telecom": 114,
+        "banking_knowledge": 97
+      },
+      "all_ranked_pools_and_selected_ids_match": true,
+      "banking_receipt_files_verified": 815,
+      "banking_bytes_verified": 6081833,
+      "banking_lfs_pointers": 0,
+      "banking_ordered_manifest_sha256": "441a4f9a6f00088c84eefe003533fc987d7ae1850cf9e125b88e69f8c93bbd58",
+      "aggregate_native_record_mismatches": 13,
+      "selected_banking_native_records_match": true
+    },
+    "weirdml": {
+      "published_task_keys": 11,
+      "anchors": 4,
+      "seeded_fills": 4,
+      "selected_keys_match": true,
+      "score_values_used_by_reproduced_selector": false
+    }
+  },
+  "findings": [
+    {
+      "id": "program_provenance",
+      "category": "partly_valid_local_presentation_fix",
+      "review_lines": [
+        20,
+        23
+      ],
+      "finding": "All 18 IDs occur in the earlier selected-plan programbench_roster. Inventory defines earlier_candidate as a previously named direction still awaiting qualification, so the label does not contradict 10 additions relative to v1. The source separates 8 retained, 4 already-proposed additions, and 6 new Sept30 proposals. Its status explicitly says candidate proposal. It records Michael's direction to keep 18 and find six more hard tasks, not evidence that he personally selected all exact IDs.",
+      "recommended_disposition": "Keep the distinction between earlier proposal and exact user approval. Surface group and provenance. Do not relabel or change choices solely because Opus did not see the earlier plan; final exact-ID approval remains unestablished.",
+      "evidence": [
+        {
+          "source": "inventory",
+          "pointer": "/selection_definitions/earlier_candidate"
+        },
+        {
+          "source": "selected_plan",
+          "pointer": "/programbench"
+        },
+        {
+          "source": "selection_map",
+          "pointer": "/families"
+        }
+      ]
+    },
+    {
+      "id": "program_outcome_use",
+      "category": "valid_local_claim_correction",
+      "review_lines": [
+        37,
+        40
+      ],
+      "finding": "The earlier Program method explicitly preferred low best public scores, chose the first five additions in ascending best public score, and chose Atlas instead of Gittype for schema coverage. Therefore a global claim that no model outcomes informed task selection is unsupported. No new AgentTime runs and no outcome use in a particular new selector are narrower, compatible claims.",
+      "recommended_disposition": "Document public-score-informed Program pool formation and scope any outcome-free claim to its actual selector. Keep public screening scores distinct from new AgentTime outcomes or duration evidence.",
+      "evidence": [
+        {
+          "source": "selected_plan",
+          "pointer": "/programbench/method"
+        },
+        {
+          "source": "selected_plan",
+          "pointer": "/programbench/new_additions"
+        }
+      ]
+    },
+    {
+      "id": "draft_selection_methods",
+      "category": "already_documented",
+      "review_lines": [
+        24,
+        24
+      ],
+      "finding": "addition-candidates.json explicitly describes judgment-based coverage recommendations, no empirical difficulty ranking or favorable-seed search. It gives each of the six small additions a rationale; YC seed4 is the next unused integer seed. OS additions 015 and 042 are separately documented as judgment-based diversity choices in authenticated-mapping.",
+      "recommended_disposition": "Expose the existing method and rationale in the review display; do not invent seeded methods for judgment-based additions.",
+      "evidence": [
+        {
+          "source": "addition_candidates",
+          "pointer": "/selection_method"
+        },
+        {
+          "source": "addition_candidates",
+          "pointer": "/candidates"
+        },
+        {
+          "source": "os_mapping",
+          "pointer": "/selection_method"
+        }
+      ]
+    },
+    {
+      "id": "os16_mapping",
+      "category": "valid_concern_already_evidenced",
+      "review_lines": [
+        25,
+        28
+      ],
+      "finding": "A recorded old-to-2.1 mapping already exists for all 16 IDs. Four task files are byte-identical (029,046,067,088); 12 differ. The map records 8 changed instruction ASTs, 3 changed setup ASTs and 7 changed evaluate-entry ASTs, and warns that unchanged entry methods do not establish unchanged helpers or environment. Current 043 label is Twenty sprint meetings; the old recurring-meetings label is preserved only as legacy evidence. All 16 historical bytes and 108 current files independently match recorded historical hashes and the official release task-hash manifest in this audit.",
+      "recommended_disposition": "Expose per-task change facts and verify the map during inventory construction. Keep retained_version_mapping distinct from unchanged benchmark equivalence; shared helpers, VM, web state and runtime still need qualification.",
+      "evidence": [
+        {
+          "source": "os_mapping",
+          "pointer": "/comparison_summary"
+        },
+        {
+          "source": "os_mapping",
+          "pointer": "/tasks"
+        },
+        {
+          "source": "os_release_hashes",
+          "pointer": "/files"
+        }
+      ]
+    },
+    {
+      "id": "os092_visual_omission",
+      "category": "confirmed_and_already_documented",
+      "review_lines": [
+        26,
+        26
+      ],
+      "finding": "Opus is correct: the historical audit documents omission of the 0.20 visual video check for nine selected task-092 runs. Grade-method notes corroborate the missing-configuration zero component and 0.8 ceiling. Both old and current sources contain the visual check. Current source removes the hardcoded API-key precheck and changes the judge call, but still catches failures as zero/false. Source acquisition does not repair historical grades or establish that any omitted check would pass.",
+      "recommended_disposition": "Retain full_visual_grader_pending. Later qualification must pin the full judge and distinguish infrastructure failure from a checked zero. No historical regrade or subject replay is authorized by this audit.",
+      "evidence": [
+        {
+          "source": "os_historical_audit",
+          "lines": [
+            23,
+            33
+          ]
+        },
+        {
+          "source": "os_historical_grades",
+          "lines": [
+            1994,
+            2003
+          ]
+        },
+        {
+          "source": "os_historical_grades",
+          "lines": [
+            4031,
+            4050
+          ]
+        },
+        {
+          "source": "os092_old",
+          "lines": [
+            396,
+            449
+          ]
+        },
+        {
+          "source": "os092_new",
+          "lines": [
+            395,
+            443
+          ]
+        },
+        {
+          "source": "os092_new",
+          "lines": [
+            562,
+            576
+          ]
+        },
+        {
+          "source": "os_mapping",
+          "pointer": "/critical_caveats/1"
+        }
+      ]
+    },
+    {
+      "id": "os029_replacement",
+      "category": "local_flag_plus_later_selection_decision",
+      "review_lines": [
+        29,
+        29
+      ],
+      "finding": "The source evidence already calls 029 setup_qualification_blocked: the unmodified task timed out and the separately tested repair is excluded. An explicit machine-visible blocked flag is useful. However, this OS cohort has no fixed-seed/stratum replacement order: it combines retained IDs and judgment-based additions.",
+      "recommended_disposition": "Surface the existing blocker. Defining a future replacement rule is a scientific selection decision; do not assert that a next seeded OS replacement already exists or replace 029 without an agreed rule.",
+      "evidence": [
+        {
+          "source": "os_mapping",
+          "pointer": "/critical_caveats/0"
+        },
+        {
+          "source": "os_mapping",
+          "pointer": "/selection_method"
+        }
+      ]
+    },
+    {
+      "id": "hle_selection",
+      "category": "already_documented_and_independently_reproduced",
+      "review_lines": [
+        41,
+        44
+      ],
+      "finding": "The saved draft pins cais/hle-diamond revision 04eeb7efa7e3e4f83a00cbd5ce436a38fd5dda23 and parquet SHA256 2b3421909ac47580d8373d4e7e5a23f0f08365d2cfb54a13100ddfac4a961e87. Seed agenttime-v1.1-review-20261002 ranks IDs separately in the 500 reasoning and 500 knowledge pools. The selector projects id, partition, question, raw_subject, category and image, excludes answers/rationales, and discloses its preview scope. This audit independently reproduced the 10- and 11-row screened prefixes and 20 selections using only id/partition columns. The rank-8 knowledge exclusion 679fe998c190c531593e988d requires molecular-biology mutation knowledge; it was excluded under core_biology, not answer validity.",
+      "recommended_disposition": "Link the existing seed, pin, policy and ledger. Preserve the single-lane draft review status and do not claim the full pool was domain-screened: 21 adjudicated, 979 unreviewed. Root handles the four encoded-image extractions and review separately.",
+      "evidence": [
+        {
+          "source": "hle_draft",
+          "pointer": "/source"
+        },
+        {
+          "source": "hle_draft",
+          "pointer": "/method"
+        },
+        {
+          "source": "hle_ledger",
+          "pointer": "/screened_candidates"
+        },
+        {
+          "source": "hle_selector",
+          "lines": [
+            20,
+            27
+          ]
+        },
+        {
+          "source": "hle_selector",
+          "lines": [
+            54,
+            74
+          ]
+        },
+        {
+          "source": "hle_verification",
+          "pointer": "/checks"
+        }
+      ]
+    },
+    {
+      "id": "tau_corpus_and_tag",
+      "category": "download_request_already_satisfied",
+      "review_lines": [
+        57,
+        57
+      ],
+      "finding": "The pinned tau source already contains banking db.json, 698 document files, 17 prompt/component files, 97 native task files and the retrieval registry. This audit checked all 815 banking data files (6,081,833 bytes) against the acquisition receipt and found no Git-LFS pointer stubs. The native environment loads those local documents/database. tau-tags.json already records v1.0.1 to fc0055dc4e0a316c3f83133267fbd6faaa770992. All four saved hash-ranked pools and the 12 proposed IDs independently reproduce.",
+      "recommended_disposition": "Bind the existing corpus/config source and tag receipt instead of downloading duplicates. Choosing the runtime retrieval variant, embedding provider/model, simulator and seeds is still pending. Default alltools uses OpenAI embeddings; that source default is not approval to call any provider.",
+      "evidence": [
+        {
+          "source": "tau_receipt",
+          "pointer": "/files"
+        },
+        {
+          "source": "tau_tags",
+          "pointer": "/1/commit/sha"
+        },
+        {
+          "source": "tau_candidates",
+          "pointer": "/method"
+        },
+        {
+          "source": "tau_loader",
+          "lines": [
+            26,
+            84
+          ]
+        },
+        {
+          "source": "tau_paths",
+          "lines": [
+            38,
+            43
+          ]
+        },
+        {
+          "source": "tau_retrieval",
+          "lines": [
+            55,
+            62
+          ]
+        },
+        {
+          "source": "tau_retrieval",
+          "lines": [
+            595,
+            604
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tau_native_task_binding",
+      "category": "valid_local_source_binding_fix",
+      "review_lines": [
+        108,
+        109
+      ],
+      "finding": "The native banking loader reads tasks/task_*.json, while draft candidate hashes refer to aggregate tasks.json. All 97 IDs agree, but 13 aggregate records differ from native records. The proposed task_070, task_012 and task_032 are byte-independent JSON-equal to their native records, so this does not invalidate the current three choices.",
+      "recommended_disposition": "Bind and hash the three native task files explicitly. Recheck native records before any future replacement; do not treat the aggregate file as proof of the native record for all 97 tasks.",
+      "evidence": [
+        {
+          "source": "tau_loader",
+          "lines": [
+            94,
+            122
+          ]
+        },
+        {
+          "source": "tau_candidates",
+          "pointer": "/domains/3"
+        },
+        {
+          "source": "tau_receipt",
+          "pointer": "/files"
+        }
+      ]
+    },
+    {
+      "id": "weirdml_selection_and_status",
+      "category": "score_use_not_supported_and_nonrunnable_limit_valid",
+      "review_lines": [
+        30,
+        32
+      ],
+      "finding": "The eight are explicitly published-results task keys with runnable_task_id null and full_runnable_package_verified false. The recorded selector retains four official documented examples, then chooses four of the remaining seven keys by the fixed seed; this audit reproduced the exact eight. Selector code never references per-task score values when choosing keys/configurations. It does read public JSON that also contains results, so this establishes algorithmic independence from score fields, not that no person ever viewed published results. The earlier acquisition audit found no verified runnable package or full benchmark pin.",
+      "recommended_disposition": "Present eight metadata-only, non-runnable draft keys. Keep the package/access gap explicit. No evidence requires changing the eight choices because of published scores; maintainer access or reallocation is a later decision.",
+      "evidence": [
+        {
+          "source": "new_candidates",
+          "pointer": "/families/2"
+        },
+        {
+          "source": "new_selector",
+          "lines": [
+            56,
+            68
+          ]
+        },
+        {
+          "source": "weird_acquisition"
+        }
+      ]
+    },
+    {
+      "id": "pinn_external_data",
+      "category": "incorrect_generic_acquisition_gap",
+      "review_lines": [
+        56,
+        56
+      ],
+      "finding": "The pinned PINN contract defines generated grid/collocation samples and analytic ground truth. Paper, addendum and all 15 figures are present. The earlier source-only audit found no external experiment dataset to fetch. Sampling, training, analyses and reproduced outputs are part of the agent's reproduction work.",
+      "recommended_disposition": "Remove the generic external-data download gap. Keep GPU environment/rubric qualification separate and do not supply precomputed experiments or blacklisted author code as subject inputs.",
+      "evidence": [
+        {
+          "source": "generated_audit",
+          "pointer": "/slots/5"
+        },
+        {
+          "source": "pinn_paper",
+          "lines": [
+            65,
+            81
+          ]
+        },
+        {
+          "source": "pinn_paper",
+          "lines": [
+            448,
+            486
+          ]
+        }
+      ]
+    },
+    {
+      "id": "yc_seed4",
+      "category": "valid_qualification_gap_not_missing_download",
+      "review_lines": [
+        33,
+        36
+      ],
+      "finding": "The source defines seed4 through the same generator as seeds1-3; employee/client initialization retains internal seed1 while task sampling uses the run seed. The current asset row now names generator/config source and says procedurally_defined_source_assets_no_external_task_bundle. Source reuse proves neither an identical nor a distinct generated world. The draft already requires canonical world comparisons and repeated seed4 determinism checks.",
+      "recommended_disposition": "Preserve seed4 as a draft, not a verified distinct world. Compare canonical task/world contents in a later model-free qualification step. Deciding correlation treatment or dropping the seed belongs to analysis/selection policy; it is not a missing-input download.",
+      "evidence": [
+        {
+          "source": "addition_candidates",
+          "pointer": "/candidates/5"
+        },
+        {
+          "source": "generated_audit",
+          "pointer": "/slots/4"
+        },
+        {
+          "source": "inventory",
+          "row_slot_id": "yc-04"
+        }
+      ]
+    },
+    {
+      "id": "upstream_verification_wording",
+      "category": "overbroad_claim_with_valid_verifier_improvement",
+      "review_lines": [
+        45,
+        52
+      ],
+      "finding": "The packet verifier may only compare its own manifest, but source evidence is not uniformly self-attested: OSWorld mapping records Git/LFS identities, official release hashes and retained-source comparisons; WeirdML public website blobs are checked against pinned Git blobs; the HLE draft records a pinned dataset revision and exact parquet digest. This audit independently rechecked 108 OS task files against the saved official release manifest. These facts do not establish upstream checksum support for every cached asset or runtime readiness.",
+      "recommended_disposition": "Make the verifier consume source-specific receipts and label verification method precisely. Keep universal upstream_verified=false unless the relevant upstream identity is actually checked. Do not erase existing upstream verification because it was absent from the review packet.",
+      "evidence": [
+        {
+          "source": "os_mapping",
+          "pointer": "/source_verification"
+        },
+        {
+          "source": "os_release_hashes",
+          "pointer": "/files"
+        },
+        {
+          "source": "new_candidates",
+          "pointer": "/families/2/source/pinned_public_files"
+        },
+        {
+          "source": "hle_draft",
+          "pointer": "/source"
+        }
+      ]
+    },
+    {
+      "id": "remaining_scientific_decisions",
+      "category": "later_decisions_not_routine_asset_fixes",
+      "review_lines": [
+        122,
+        133
+      ],
+      "finding": "Budget semantics, timing estimand, tool/network policy, substitute judge/simulator models, final item admission, OS029 replacement policy, YC distinct-world acceptance and unavailable WeirdML allocation are decisions or qualification gates. A source audit cannot resolve them by relabeling rows, downloading alternate answers, or silently substituting tasks.",
+      "recommended_disposition": "Keep these separate from local evidence/display/validation repairs. Reuse any already-recorded user policy before asking again. This audit changes no choice, policy, label or runtime status.",
+      "evidence": [
+        {
+          "source": "review",
+          "lines": [
+            122,
+            133
+          ]
+        },
+        {
+          "source": "inventory",
+          "pointer": "/selection_definitions"
+        }
+      ]
+    }
+  ],
+  "sources": {
+    "review": {
+      "path": "/private/tmp/agenttime-assets-20261002/review/opus-asset-review/review.md",
+      "bytes": 11051,
+      "sha256": "0d94f4b4325ca1d1fb0d19f37c474193d5f74ac90f56ccbe1bf56c991eb6f39a"
+    },
+    "inventory": {
+      "path": "/Users/michaelofengenden/Developer/TimeResearch/AgentTime-v1.1/benchmarks/inventory/tasks.json",
+      "bytes": 1608179,
+      "sha256": "a47564e82539a85a4439030f1643711095d981ab88037179240270947d37cc99"
+    },
+    "selected_plan": {
+      "path": "/Users/michaelofengenden/Developer/TimeResearch/AgentTime-v1.1/benchmarks/inventory/evidence/source-snapshots/selected_plan.json",
+      "bytes": 27723,
+      "sha256": "247483afb4bbf98b5b9e71aa3622673d3e9ae8055914f375e1a636a7dd25aa29"
+    },
+    "selection_map": {
+      "path": "/Users/michaelofengenden/Developer/TimeResearch/AgentTime-v1.1/benchmarks/inventory/evidence/selection-map.json",
+      "bytes": 88289,
+      "sha256": "38ce2b1281e4a8f59fdc36301df882b535dcfcdf8545f70d317248b9c81d8ef3"
+    },
+    "addition_candidates": {
+      "path": "/Users/michaelofengenden/Developer/TimeResearch/AgentTime-v1.1/benchmarks/inventory/evidence/addition-candidates.json",
+      "bytes": 38392,
+      "sha256": "a3a1f17e5a27a31a8c13a4ad5833088fdfd36f5d8c40c9a03d58c6478925158b"
+    },
+    "os_mapping": {
+      "path": "/Users/michaelofengenden/Developer/TimeResearch/AgentTime-v1.1/benchmarks/inventory/evidence/osworld21-check/authenticated-mapping.json",
+      "bytes": 240039,
+      "sha256": "736673e1017ee9942b5eb4c18925db1d65af7ca1a9a9473c1a632538e5394833"
+    },
+    "os_release_hashes": {
+      "path": "/Users/michaelofengenden/Developer/TimeResearch/AgentTime-v1.1/benchmarks/releases/osworld-2.1/osworld-v2.1.task_hashes.json",
+      "bytes": 14519,
+      "sha256": "c54d428329be5ca72742a6becd49ee83cf739df5dea429bba182e1f3f21badfb"
+    },
+    "os_historical_audit": {
+      "path": "/Users/michaelofengenden/Developer/TimeResearch/AgentTimeExperiment/local-artifacts/task-verifier-audit-20260929/other-family-review.md",
+      "bytes": 24391,
+      "sha256": "80af7a999b7fa89fa1ab62a432b20fb54fcb46a8529c5b13981612973d912e2d"
+    },
+    "os_historical_grades": {
+      "path": "/Users/michaelofengenden/Developer/TimeResearch/AgentTime/local-drafts/2026-09-25-native-scoring/score-table/extra_grades.json",
+      "bytes": 657279,
+      "sha256": "55d0408c1092a163af976e7e005fa9561a5e68f0643cb4fead79af780f92f6d0"
+    },
+    "os092_old": {
+      "path": "/Users/michaelofengenden/Developer/TimeResearch/AgentTimeExperiment-data/20260906-readiness/sources/osworld-2-0/task/task_092.py",
+      "bytes": 25871,
+      "sha256": "634c7329d7d11b6aabf95abe4303cc4bc13093f978fecc6a05a2bf77029bee8c"
+    },
+    "os092_new": {
+      "path": "/Users/michaelofengenden/Developer/TimeResearch/AgentTime-v1.1/benchmarks/cache/gated-inputs-20261002/osworld21-tasks/task_092.py",
+      "bytes": 25653,
+      "sha256": "2bf85eb76976a038e0d5c6ec0047d34f2e1fea49f9215d44c74c80765854cea9"
+    },
+    "hle_draft": {
+      "path": "/Users/michaelofengenden/Developer/TimeResearch/AgentTime-v1.1/benchmarks/inventory/evidence/hle-diamond-draft/draft-selection.json",
+      "bytes": 74135,
+      "sha256": "ce9906ba48374a3d81ea5d132b52d56a123dbd3d53c8099f83a21b3cf69157bf"
+    },
+    "hle_ledger": {
+      "path": "/Users/michaelofengenden/Developer/TimeResearch/AgentTime-v1.1/benchmarks/inventory/evidence/hle-diamond-draft/selection-ledger.json",
+      "bytes": 38094,
+      "sha256": "ad27d838431d19c31d6ebb0b1e9c1b0afda60d448bd04091b29d32c3c56cf244"
+    },
+    "hle_verification": {
+      "path": "/Users/michaelofengenden/Developer/TimeResearch/AgentTime-v1.1/benchmarks/inventory/evidence/hle-diamond-draft/verification-receipt.json",
+      "bytes": 1969,
+      "sha256": "2e1cdac1d93784d8dd6405db21564f52888f48842b8d3d18c0655e741d61eab4"
+    },
+    "hle_selector": {
+      "path": "/private/tmp/agenttime-inventory-20261002/hle-diamond-draft/select_hle_diamond.py",
+      "bytes": 16044,
+      "sha256": "f68b61820f473589982be93ea250dc38bb97b2adfaf91c85ae2db2f386b51d26"
+    },
+    "tau_candidates": {
+      "path": "/Users/michaelofengenden/Developer/TimeResearch/AgentTime-v1.1/benchmarks/inventory/evidence/tau3-candidates.json",
+      "bytes": 41736,
+      "sha256": "0a5cd6858237dc4425f382ce6a79aa45c01240072ffa9a62165a515d6240b365"
+    },
+    "tau_tags": {
+      "path": "/Users/michaelofengenden/Developer/TimeResearch/AgentTime-v1.1/benchmarks/inventory/evidence/tau-tags.json",
+      "bytes": 4497,
+      "sha256": "8aefdb225f70705c392726f55d379718058b105fc71591cbdf8e2ed91a9f13cf"
+    },
+    "tau_receipt": {
+      "path": "/Users/michaelofengenden/Developer/TimeResearch/AgentTime-v1.1/benchmarks/cache/upstream-20261002/tau3-text-fc0055dc4e0a/receipt.json",
+      "bytes": 355235,
+      "sha256": "dd9baef35bc4809c74d2e6d0e808f13024ec39c46e2ed6d85061dbe6dc897f1a"
+    },
+    "tau_loader": {
+      "path": "/Users/michaelofengenden/Developer/TimeResearch/AgentTime-v1.1/benchmarks/cache/upstream-20261002/tau3-text-fc0055dc4e0a/source/src/tau2/domains/banking_knowledge/environment.py",
+      "bytes": 4034,
+      "sha256": "3e68a4adec87a2b32cb7a6f367c050a25bbd331c85a14d13fa22fda98bd60cfe"
+    },
+    "tau_paths": {
+      "path": "/Users/michaelofengenden/Developer/TimeResearch/AgentTime-v1.1/benchmarks/cache/upstream-20261002/tau3-text-fc0055dc4e0a/source/src/tau2/domains/banking_knowledge/utils.py",
+      "bytes": 11497,
+      "sha256": "ff116aef99e023d7492690fafff54fc24e9b6f3d3af18b7402a26b974b41fc66"
+    },
+    "tau_retrieval": {
+      "path": "/Users/michaelofengenden/Developer/TimeResearch/AgentTime-v1.1/benchmarks/cache/upstream-20261002/tau3-text-fc0055dc4e0a/source/src/tau2/domains/banking_knowledge/retrieval.py",
+      "bytes": 27979,
+      "sha256": "daa5b514532dd13c6f5caa04195282d6fe80f3af4f2d1ab139949bf208dfe2cd"
+    },
+    "new_candidates": {
+      "path": "/Users/michaelofengenden/Developer/TimeResearch/AgentTime-v1.1/benchmarks/inventory/evidence/new-candidates.json",
+      "bytes": 33439,
+      "sha256": "7fbb49d210ca38f9d0432a596251a46063748722e2f5e9b3f6a73efd196ed1a4"
+    },
+    "new_selector": {
+      "path": "/private/tmp/agenttime-inventory-20261002/new-candidates/build_review_inventory.py",
+      "bytes": 15700,
+      "sha256": "af368ee4f7257936b62e8b51f541bc313da2725789c5619862a8b2941f6c5d25"
+    },
+    "weird_acquisition": {
+      "path": "/private/tmp/agenttime-assets-20261002/weirdml/result.json",
+      "bytes": 46723,
+      "sha256": "89bcaf526acf5d7aea357be1b19e688ee8a3b6305ac2de04deb9731bac0d3140"
+    },
+    "generated_audit": {
+      "path": "/private/tmp/agenttime-assets-20261002/generated-assets/result.json",
+      "bytes": 49624,
+      "sha256": "5b3fe72d6c2278c26fa88613a34064e2ce7ca523e701e6b0146ee2ef8a0e9fd5"
+    },
+    "pinn_paper": {
+      "path": "/Users/michaelofengenden/Developer/TimeResearch/AgentTime-v1.1/benchmarks/cache/extra-inputs-20261002/pinn/paper.md",
+      "bytes": 124207,
+      "sha256": "19a1ad906356e3efaa6bf82be11668c27af9ea376b5fbfa5945283fa188f4741"
+    }
+  },
+  "not_audited_here": [
+    "Builder/verifier implementation changes owned by root",
+    "HLE image extraction owned by root",
+    "All runtime, environment, judge and scientific qualification",
+    "Global pool-formation history beyond the inspected Program plan and saved draft selectors"
+  ]
+}

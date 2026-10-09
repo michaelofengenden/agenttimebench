@@ -1,0 +1,16 @@
+{
+  "status": "passed_bounded_review_export_checks",
+  "artifacts": {
+    "tasks.json": "48a54fdf34a7170656c14089d5672c056328e45ea0c09ee601f3558223fac8fa",
+    "recommendations.json": "cc1e3d9a84c4e0394115b2f761d1cd629067cf791a402b3fef7233b0ae64e9b1",
+    "index.html": "e4f2a5da0a8eeeeeca147ce2eefe4a622465d9ce6667437fdf7cd0135af64a14",
+    "README.md": "6a38b4a35c66bfed693cd336ba2ea57a84662cb66960d8675f8a943aba3c6f5f"
+  },
+  "checks": [
+    "No raw question, answer, rationale or credential field names in JSON exports",
+    "No common credential-shaped values in the four review exports",
+    "No copied full BrowseComp private payload values"
+  ],
+  "browsecomp_payload_values_checked": 2735,
+  "limits": "This is not an exhaustive secret or answer detector and does not qualify future subject packages. The private cache remains separate from the served review directory."
+}

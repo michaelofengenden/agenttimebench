@@ -1,0 +1,16 @@
+{"debug":"Starting connection with timeout of 30000ms","timestamp":"2026-10-09T15:12:58.473Z","sessionId":"a133e858-520c-4c3d-8722-3fefd81508a6","cwd":"/tmp/assistant-canary/work"}
+{"debug":"Successfully connected (transport: stdio) in 2378ms","timestamp":"2026-10-09T15:13:00.849Z","sessionId":"a133e858-520c-4c3d-8722-3fefd81508a6","cwd":"/tmp/assistant-canary/work"}
+{"debug":"Connection established with capabilities: {\"hasTools\":true,\"hasPrompts\":false,\"hasResources\":false,\"hasResourceSubscribe\":false,\"serverVersion\":{\"name\":\"agenttime-assistantbench\",\"version\":\"1\"},\"protocolEra\":\"legacy\",\"negotiatedProtocolVersion\":\"2024-11-05\"}","timestamp":"2026-10-09T15:13:00.850Z","sessionId":"a133e858-520c-4c3d-8722-3fefd81508a6","cwd":"/tmp/assistant-canary/work"}
+{"debug":"Calling MCP tool: observe","timestamp":"2026-10-09T15:13:02.562Z","sessionId":"a133e858-520c-4c3d-8722-3fefd81508a6","cwd":"/tmp/assistant-canary/work"}
+{"debug":"Tool 'observe' completed successfully in 6ms","timestamp":"2026-10-09T15:13:02.568Z","sessionId":"a133e858-520c-4c3d-8722-3fefd81508a6","cwd":"/tmp/assistant-canary/work"}
+{"debug":"Calling MCP tool: fill","timestamp":"2026-10-09T15:13:04.234Z","sessionId":"a133e858-520c-4c3d-8722-3fefd81508a6","cwd":"/tmp/assistant-canary/work"}
+{"debug":"Tool 'fill' completed successfully in 1s","timestamp":"2026-10-09T15:13:05.934Z","sessionId":"a133e858-520c-4c3d-8722-3fefd81508a6","cwd":"/tmp/assistant-canary/work"}
+{"debug":"Calling MCP tool: click","timestamp":"2026-10-09T15:13:07.728Z","sessionId":"a133e858-520c-4c3d-8722-3fefd81508a6","cwd":"/tmp/assistant-canary/work"}
+{"debug":"Tool 'click' completed successfully in 1s","timestamp":"2026-10-09T15:13:09.435Z","sessionId":"a133e858-520c-4c3d-8722-3fefd81508a6","cwd":"/tmp/assistant-canary/work"}
+{"debug":"Calling MCP tool: send_msg_to_user","timestamp":"2026-10-09T15:13:12.788Z","sessionId":"a133e858-520c-4c3d-8722-3fefd81508a6","cwd":"/tmp/assistant-canary/work"}
+{"debug":"Tool 'send_msg_to_user' completed successfully in 680ms","timestamp":"2026-10-09T15:13:13.468Z","sessionId":"a133e858-520c-4c3d-8722-3fefd81508a6","cwd":"/tmp/assistant-canary/work"}
+{"debug":"Sending SIGINT to MCP server process","timestamp":"2026-10-09T15:13:16.511Z","sessionId":"a133e858-520c-4c3d-8722-3fefd81508a6","cwd":"/tmp/assistant-canary/work"}
+{"debug":"SIGINT failed, sending SIGTERM to MCP server process","timestamp":"2026-10-09T15:13:16.612Z","sessionId":"a133e858-520c-4c3d-8722-3fefd81508a6","cwd":"/tmp/assistant-canary/work"}
+{"debug":"UNKNOWN connection closed after 15s (cleanly)","timestamp":"2026-10-09T15:13:16.621Z","sessionId":"a133e858-520c-4c3d-8722-3fefd81508a6","cwd":"/tmp/assistant-canary/work"}
+{"debug":"Cleared connection cache for reconnection","timestamp":"2026-10-09T15:13:16.621Z","sessionId":"a133e858-520c-4c3d-8722-3fefd81508a6","cwd":"/tmp/assistant-canary/work"}
+{"debug":"MCP server process exited cleanly","timestamp":"2026-10-09T15:13:16.662Z","sessionId":"a133e858-520c-4c3d-8722-3fefd81508a6","cwd":"/tmp/assistant-canary/work"}

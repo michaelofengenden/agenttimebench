@@ -1,0 +1,269 @@
+2026-10-09T15:12:57.960Z [DEBUG] MDM settings load completed in 1ms
+2026-10-09T15:12:57.980Z [DEBUG] Broken symlink or missing file encountered for settings.json at path: /etc/claude-code/managed-settings.json
+2026-10-09T15:12:57.981Z [DEBUG] CA certs: Config fallback - globalEnv keys: , settingsEnv keys: none
+2026-10-09T15:12:57.984Z [DEBUG] [init] configureGlobalMTLS starting
+2026-10-09T15:12:57.984Z [DEBUG] [init] configureGlobalMTLS complete
+2026-10-09T15:12:57.984Z [DEBUG] [init] configureGlobalAgents starting
+2026-10-09T15:12:57.984Z [DEBUG] CA certs: stores=bundled,system, extraCertsPath=undefined
+2026-10-09T15:12:57.984Z [DEBUG] CA certs: Loaded 121 bundled root certificates
+2026-10-09T15:12:57.994Z [DEBUG] CA certs: Dropped 1 expired certificate(s) from system store
+2026-10-09T15:12:57.995Z [DEBUG] CA certs: Loaded 149 system CA certificates
+2026-10-09T15:12:57.995Z [DEBUG] mTLS: Creating HTTPS agent with custom certificates
+2026-10-09T15:12:57.995Z [DEBUG] [init] configureGlobalAgents complete
+2026-10-09T15:12:57.997Z [DEBUG] Git remote URL: null
+2026-10-09T15:12:57.997Z [DEBUG] No git remote URL found
+2026-10-09T15:12:57.997Z [DEBUG] Error log sink initialized
+2026-10-09T15:12:57.998Z [DEBUG] Broken symlink or missing file encountered for settings.json at path: /tmp/assistant-canary/config/settings.json
+2026-10-09T15:12:58.000Z [ERROR] Failed to save config with lock: Error: ENOENT: no such file or directory, lstat '/tmp/assistant-canary/config/.claude.json'
+2026-10-09T15:12:58.001Z [DEBUG] Setting permissions for new file: 600
+2026-10-09T15:12:58.001Z [DEBUG] Writing to temp file: /tmp/assistant-canary/config/.claude.json.tmp.20.3c55fa9d4591
+2026-10-09T15:12:58.002Z [DEBUG] Temp file written successfully, size: 84 bytes
+2026-10-09T15:12:58.002Z [DEBUG] Renaming /tmp/assistant-canary/config/.claude.json.tmp.20.3c55fa9d4591 to /tmp/assistant-canary/config/.claude.json
+2026-10-09T15:12:58.003Z [DEBUG] File /tmp/assistant-canary/config/.claude.json written atomically
+2026-10-09T15:12:58.004Z [DEBUG] Preserving file permissions: 100600
+2026-10-09T15:12:58.004Z [DEBUG] Writing to temp file: /tmp/assistant-canary/config/.claude.json.tmp.20.4dc1f5e88f28
+2026-10-09T15:12:58.004Z [DEBUG] Applied original permissions to temp file
+2026-10-09T15:12:58.005Z [DEBUG] Temp file written successfully, size: 167 bytes
+2026-10-09T15:12:58.005Z [DEBUG] Renaming /tmp/assistant-canary/config/.claude.json.tmp.20.4dc1f5e88f28 to /tmp/assistant-canary/config/.claude.json
+2026-10-09T15:12:58.005Z [DEBUG] File /tmp/assistant-canary/config/.claude.json written atomically
+2026-10-09T15:12:58.006Z [DEBUG] Preserving file permissions: 100600
+2026-10-09T15:12:58.006Z [DEBUG] Writing to temp file: /tmp/assistant-canary/config/.claude.json.tmp.20.6fe6592ad7db
+2026-10-09T15:12:58.006Z [DEBUG] Applied original permissions to temp file
+2026-10-09T15:12:58.007Z [DEBUG] Temp file written successfully, size: 203 bytes
+2026-10-09T15:12:58.007Z [DEBUG] Renaming /tmp/assistant-canary/config/.claude.json.tmp.20.6fe6592ad7db to /tmp/assistant-canary/config/.claude.json
+2026-10-09T15:12:58.007Z [DEBUG] File /tmp/assistant-canary/config/.claude.json written atomically
+2026-10-09T15:12:58.008Z [DEBUG] Preserving file permissions: 100600
+2026-10-09T15:12:58.008Z [DEBUG] Writing to temp file: /tmp/assistant-canary/config/.claude.json.tmp.20.4faab154062c
+2026-10-09T15:12:58.008Z [DEBUG] Applied original permissions to temp file
+2026-10-09T15:12:58.009Z [DEBUG] Temp file written successfully, size: 242 bytes
+2026-10-09T15:12:58.009Z [DEBUG] Renaming /tmp/assistant-canary/config/.claude.json.tmp.20.4faab154062c to /tmp/assistant-canary/config/.claude.json
+2026-10-09T15:12:58.009Z [DEBUG] File /tmp/assistant-canary/config/.claude.json written atomically
+2026-10-09T15:12:58.010Z [DEBUG] Preserving file permissions: 100600
+2026-10-09T15:12:58.010Z [DEBUG] Writing to temp file: /tmp/assistant-canary/config/.claude.json.tmp.20.8afe8915d686
+2026-10-09T15:12:58.010Z [DEBUG] Applied original permissions to temp file
+2026-10-09T15:12:58.011Z [DEBUG] Temp file written successfully, size: 269 bytes
+2026-10-09T15:12:58.011Z [DEBUG] Renaming /tmp/assistant-canary/config/.claude.json.tmp.20.8afe8915d686 to /tmp/assistant-canary/config/.claude.json
+2026-10-09T15:12:58.011Z [DEBUG] File /tmp/assistant-canary/config/.claude.json written atomically
+2026-10-09T15:12:58.012Z [DEBUG] Preserving file permissions: 100600
+2026-10-09T15:12:58.012Z [DEBUG] Writing to temp file: /tmp/assistant-canary/config/.claude.json.tmp.20.40b0358c6b87
+2026-10-09T15:12:58.012Z [DEBUG] Applied original permissions to temp file
+2026-10-09T15:12:58.012Z [DEBUG] Temp file written successfully, size: 317 bytes
+2026-10-09T15:12:58.012Z [DEBUG] Renaming /tmp/assistant-canary/config/.claude.json.tmp.20.40b0358c6b87 to /tmp/assistant-canary/config/.claude.json
+2026-10-09T15:12:58.013Z [DEBUG] File /tmp/assistant-canary/config/.claude.json written atomically
+2026-10-09T15:12:58.013Z [DEBUG] Preserving file permissions: 100600
+2026-10-09T15:12:58.013Z [DEBUG] Writing to temp file: /tmp/assistant-canary/config/.claude.json.tmp.20.68fce935eef0
+2026-10-09T15:12:58.013Z [DEBUG] Applied original permissions to temp file
+2026-10-09T15:12:58.014Z [DEBUG] Temp file written successfully, size: 343 bytes
+2026-10-09T15:12:58.014Z [DEBUG] Renaming /tmp/assistant-canary/config/.claude.json.tmp.20.68fce935eef0 to /tmp/assistant-canary/config/.claude.json
+2026-10-09T15:12:58.014Z [DEBUG] File /tmp/assistant-canary/config/.claude.json written atomically
+2026-10-09T15:12:58.016Z [DEBUG] policyHelper: no helper configuration present at helper-pass time (remote managed settings eligible, no payload in cache); a payload landing later arms one only through a fetch cycle after preAction
+2026-10-09T15:12:58.022Z [DEBUG] [mcp-policy-cold-start] waiting on remote managed-settings load
+2026-10-09T15:12:58.031Z [DEBUG] installed_plugins.json doesn't exist, returning empty V2 object
+2026-10-09T15:12:58.032Z [DEBUG] Found 0 plugins (0 enabled, 0 disabled)
+2026-10-09T15:12:58.330Z [DEBUG] Policy limits: Fetched successfully
+2026-10-09T15:12:58.331Z [DEBUG] Policy limits: Saved to /tmp/assistant-canary/config/policy-limits.json
+2026-10-09T15:12:58.332Z [DEBUG] Policy limits: Applied new restrictions successfully
+2026-10-09T15:12:58.371Z [DEBUG] Remote settings: Fetched successfully
+2026-10-09T15:12:58.373Z [DEBUG] Broken symlink or missing file encountered for settings.json at path: /etc/claude-code/managed-settings.json
+2026-10-09T15:12:58.373Z [DEBUG] Cleared proxy agent cache
+2026-10-09T15:12:58.373Z [DEBUG] Cleared CA certificates cache
+2026-10-09T15:12:58.373Z [DEBUG] Cleared mTLS configuration cache
+2026-10-09T15:12:58.373Z [DEBUG] CA certs: stores=bundled,system, extraCertsPath=undefined
+2026-10-09T15:12:58.374Z [DEBUG] CA certs: Loaded 121 bundled root certificates
+2026-10-09T15:12:58.375Z [DEBUG] CA certs: Dropped 1 expired certificate(s) from system store
+2026-10-09T15:12:58.375Z [DEBUG] CA certs: Loaded 149 system CA certificates
+2026-10-09T15:12:58.376Z [DEBUG] mTLS: Creating HTTPS agent with custom certificates
+2026-10-09T15:12:58.382Z [DEBUG] Remote settings: Saved to /tmp/assistant-canary/config/remote-settings.json
+2026-10-09T15:12:58.382Z [DEBUG] Remote settings: Applied new settings successfully
+2026-10-09T15:12:58.383Z [DEBUG] Programmatic settings change notification for policySettings
+2026-10-09T15:12:58.383Z [DEBUG] Broken symlink or missing file encountered for settings.json at path: /etc/claude-code/managed-settings.json
+2026-10-09T15:12:58.387Z [DEBUG] [Claude in Chrome] Disabled: OAuth token has no scope accepted by /api/oauth/validate (needs user:profile, user:office, or user:ccr_inference; env-var and setup-token sessions default to user:inference only)
+2026-10-09T15:12:58.389Z [DEBUG] [ToolSearch:optimistic] mode=standard, ENABLE_TOOL_SEARCH=false, result=false
+2026-10-09T15:12:58.391Z [DEBUG] Broken symlink or missing file encountered for settings.json at path: /tmp/assistant-canary/work/.claude/settings.json
+2026-10-09T15:12:58.391Z [DEBUG] [STARTUP] Loading MCP configs...
+2026-10-09T15:12:58.391Z [DEBUG] [STARTUP] Running setup()...
+2026-10-09T15:12:58.394Z [DEBUG] Broken symlink or missing file encountered for settings.json at path: /tmp/assistant-canary/work/.claude/settings.local.json
+2026-10-09T15:12:58.396Z [DEBUG] getPluginSkills: Processing 0 enabled plugins
+2026-10-09T15:12:58.396Z [DEBUG] Total plugin workflows loaded: 0
+2026-10-09T15:12:58.397Z [DEBUG] Total plugin commands loaded: 0
+2026-10-09T15:12:58.397Z [DEBUG] Total plugin skills loaded: 0 (0 duplicate/user-owned entries skipped)
+2026-10-09T15:12:58.398Z [DEBUG] Loading skills from: managed=/etc/claude-code/.claude/skills, user=/tmp/assistant-canary/config/skills, project=[]
+2026-10-09T15:12:58.398Z [DEBUG] Failed to stat directory /etc/claude-code/.claude/agents: ENOENT: no such file or directory, stat '/etc/claude-code/.claude/agents'
+2026-10-09T15:12:58.399Z [DEBUG] Total plugin agents loaded: 0
+2026-10-09T15:12:58.399Z [DEBUG] Failed to stat directory /etc/claude-code/.claude/commands: ENOENT: no such file or directory, stat '/etc/claude-code/.claude/commands'
+2026-10-09T15:12:58.400Z [DEBUG] Loaded 0 unique skills (0 unconditional, 0 conditional, managed: 0, user: 0, project: 0, additional: 0, legacy commands: 0)
+2026-10-09T15:12:58.402Z [DEBUG] Git remote URL: null
+2026-10-09T15:12:58.402Z [DEBUG] No git remote URL found
+2026-10-09T15:12:58.402Z [INFO] [uds-messaging] Listening: /tmp/assistant-canary/xdg/cc-socks/20.sock
+2026-10-09T15:12:58.402Z [INFO] [uds-messaging] Inject messages (auth line optional here): { echo '{"type":"auth","token":"[REDACTED]"$CLAUDE_CODE_MESSAGING_TOKEN"'"}'; echo '{"type":"user","message":{"role":"user","content":"hello"}}'; } | socat - UNIX-CONNECT:/tmp/assistant-canary/xdg/cc-socks/20.sock
+2026-10-09T15:12:58.403Z [INFO] [uds-messaging] Connect when the data is ready (e.g. out=$(cmd); printf '%s\n' "$out" | nc -N -U "$CLAUDE_CODE_MESSAGING_SOCKET" — or the socat form above): a connection that sends no complete line within 30000 ms is closed
+2026-10-09T15:12:58.404Z [DEBUG] Broken symlink or missing file encountered for settings.json at path: /etc/claude-code/managed-settings.json
+2026-10-09T15:12:58.405Z [DEBUG] Error log sink initialized
+2026-10-09T15:12:58.405Z [DEBUG] Broken symlink or missing file encountered for settings.json at path: /tmp/assistant-canary/work/.claude/settings.json
+2026-10-09T15:12:58.406Z [DEBUG] Broken symlink or missing file encountered for settings.json at path: /tmp/assistant-canary/config/settings.json
+2026-10-09T15:12:58.406Z [DEBUG] installed plugins' hooks modules not loaded: rollout flag (tengu_plugin_hooks_modules) is off, from the default (GrowthBook is off for this session: a third-party provider, or telemetry opted out); built-in plugins load regardless
+2026-10-09T15:12:58.407Z [DEBUG] sec-default@builtin not seated: installed plugins' hooks modules are off in this process
+2026-10-09T15:12:58.407Z [DEBUG] Registered 0 hooks from 0 plugins
+2026-10-09T15:12:58.407Z [DEBUG] [STARTUP] setup() completed in 16ms
+2026-10-09T15:12:58.408Z [DEBUG] Cleared mTLS configuration cache
+2026-10-09T15:12:58.408Z [DEBUG] Cleared proxy agent cache
+2026-10-09T15:12:58.408Z [DEBUG] mTLS: Creating HTTPS agent with custom certificates
+2026-10-09T15:12:58.412Z [DEBUG] Broken symlink or missing file encountered for settings.json at path: /tmp/assistant-canary/work/.claude/settings.local.json
+2026-10-09T15:12:58.413Z [DEBUG] [STARTUP] Loading commands and agents...
+2026-10-09T15:12:58.415Z [DEBUG] getSkills returning: 0 skill dir commands, 0 plugin skills, 40 bundled skills, 0 builtin plugin skills
+2026-10-09T15:12:58.419Z [DEBUG] [STARTUP] Commands and agents loaded in 6ms
+2026-10-09T15:12:58.421Z [DEBUG] [LSP MANAGER] initializeLspServerManager() called
+2026-10-09T15:12:58.421Z [DEBUG] [LSP MANAGER] Created manager instance, state=pending
+2026-10-09T15:12:58.421Z [DEBUG] [LSP MANAGER] Starting async initialization (generation 1)
+2026-10-09T15:12:58.421Z [DEBUG] Starting background startup prefetches
+2026-10-09T15:12:58.421Z [DEBUG] [Bootstrap] Skipped: Nonessential traffic disabled
+2026-10-09T15:12:58.421Z [DEBUG] [STARTUP] MCP configs resolved in 0ms (awaited at +30ms)
+2026-10-09T15:12:58.422Z [DEBUG] Total LSP servers loaded: 0
+2026-10-09T15:12:58.424Z [DEBUG] [LSP SERVER MANAGER] getAllLspServers returned 0 server(s)
+2026-10-09T15:12:58.424Z [DEBUG] LSP manager initialized with 0 servers
+2026-10-09T15:12:58.425Z [DEBUG] Cleared mTLS configuration cache
+2026-10-09T15:12:58.425Z [DEBUG] Cleared proxy agent cache
+2026-10-09T15:12:58.425Z [DEBUG] mTLS: Creating HTTPS agent with custom certificates
+2026-10-09T15:12:58.425Z [DEBUG] [3P telemetry] Waiting for remote managed settings fetch before telemetry init
+2026-10-09T15:12:58.425Z [DEBUG] Skipping plugin hooks - allowManagedHooksOnly is enabled and no managed plugins
+2026-10-09T15:12:58.426Z [DEBUG] LSP server manager initialized successfully
+2026-10-09T15:12:58.426Z [DEBUG] LSP notification handlers registered successfully for all 0 server(s)
+2026-10-09T15:12:58.426Z [DEBUG] Initialized versioned plugins system with 0 plugins
+2026-10-09T15:12:58.426Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+2026-10-09T15:12:58.427Z [DEBUG] [MCP] --mcp-config servers running fully async (nonblocking)
+2026-10-09T15:12:58.427Z [DEBUG] [MCP] claude.ai connectors running fully async (nonblocking)
+2026-10-09T15:12:58.427Z [DEBUG] [3P telemetry] Remote managed settings fetch settled, initializing telemetry
+2026-10-09T15:12:58.427Z [DEBUG] Cleared mTLS configuration cache
+2026-10-09T15:12:58.427Z [DEBUG] Cleared proxy agent cache
+2026-10-09T15:12:58.427Z [DEBUG] mTLS: Creating HTTPS agent with custom certificates
+2026-10-09T15:12:58.429Z [DEBUG] [auto-mode] verifyAutoModeGateAccess: enabledState=enabled disabledBySettings=false model=claude-opus-5-5[1m] modelSupported=true disableFastModeBreakerFires=false carouselAvailable=true canEnterAuto=true
+2026-10-09T15:12:58.430Z [DEBUG] [servedCatalog] off (essential_traffic)
+2026-10-09T15:12:58.437Z [DEBUG] Plugin autoupdate: command-source refresh disabled by tengu_plugin_command_source_refresh (still excluding command-sourced plugins from the regular pass)
+2026-10-09T15:12:58.437Z [DEBUG] Settings changed from policySettings, updating app state
+2026-10-09T15:12:58.438Z [DEBUG] Broken symlink or missing file encountered for settings.json at path: /etc/claude-code/managed-settings.json
+2026-10-09T15:12:58.438Z [DEBUG] Replacing all allow rules for destination 'userSettings' with 0 rule(s): []
+2026-10-09T15:12:58.438Z [DEBUG] Replacing all deny rules for destination 'userSettings' with 0 rule(s): []
+2026-10-09T15:12:58.438Z [DEBUG] Replacing all ask rules for destination 'userSettings' with 0 rule(s): []
+2026-10-09T15:12:58.438Z [DEBUG] Replacing all allow rules for destination 'projectSettings' with 0 rule(s): []
+2026-10-09T15:12:58.438Z [DEBUG] Replacing all deny rules for destination 'projectSettings' with 0 rule(s): []
+2026-10-09T15:12:58.438Z [DEBUG] Replacing all ask rules for destination 'projectSettings' with 0 rule(s): []
+2026-10-09T15:12:58.439Z [DEBUG] Replacing all allow rules for destination 'localSettings' with 0 rule(s): []
+2026-10-09T15:12:58.439Z [DEBUG] Replacing all deny rules for destination 'localSettings' with 0 rule(s): []
+2026-10-09T15:12:58.439Z [DEBUG] Replacing all ask rules for destination 'localSettings' with 0 rule(s): []
+2026-10-09T15:12:58.439Z [DEBUG] Replacing all allow rules for destination 'flagSettings' with 0 rule(s): []
+2026-10-09T15:12:58.439Z [DEBUG] Replacing all deny rules for destination 'flagSettings' with 0 rule(s): []
+2026-10-09T15:12:58.439Z [DEBUG] Replacing all ask rules for destination 'flagSettings' with 0 rule(s): []
+2026-10-09T15:12:58.439Z [DEBUG] Replacing all allow rules for destination 'policySettings' with 0 rule(s): []
+2026-10-09T15:12:58.439Z [DEBUG] Replacing all deny rules for destination 'policySettings' with 0 rule(s): []
+2026-10-09T15:12:58.439Z [DEBUG] Replacing all ask rules for destination 'policySettings' with 0 rule(s): []
+2026-10-09T15:12:58.439Z [DEBUG] Broken symlink or missing file encountered for settings.json at path: /tmp/assistant-canary/work/.claude/settings.json
+2026-10-09T15:12:58.440Z [DEBUG] Plugin autoupdate: skipped (auto-updater disabled)
+2026-10-09T15:12:58.447Z [DEBUG] Broken symlink or missing file encountered for settings.json at path: /tmp/assistant-canary/config/settings.json
+2026-10-09T15:12:58.451Z [DEBUG] [ScheduledTasks] scheduler start() — enabled=false, hasTasks=false
+2026-10-09T15:12:58.452Z [DEBUG] [Perfetto] initializePerfettoTracing called, env value: undefined
+2026-10-09T15:12:58.452Z [DEBUG] [3P telemetry] isTelemetryEnabled=false (CLAUDE_CODE_ENABLE_TELEMETRY=undefined)
+2026-10-09T15:12:58.453Z [DEBUG] session.start: raised (surface none, not interactive)
+2026-10-09T15:12:58.453Z [DEBUG] [claudeai-mcp] Disabled via disableClaudeAiConnectors setting
+2026-10-09T15:12:58.455Z [DEBUG] installPluginsForHeadless: starting
+2026-10-09T15:12:58.455Z [DEBUG] installPluginsForHeadless: no marketplaces declared
+2026-10-09T15:12:58.456Z [DEBUG] [sessionRegistry] sweep declined by isRegistrySweepPermitted() — dead records are left in place (neither counted nor deleted)
+2026-10-09T15:12:58.456Z [DEBUG] mcp runtime arm: v2 (source: default)
+2026-10-09T15:12:58.473Z [DEBUG] MCP server "assistantbench": Starting connection with timeout of 30000ms
+2026-10-09T15:12:58.477Z [DEBUG] Ripgrep first use test: PASSED (mode=embedded, path=/opt/canary/claude)
+2026-10-09T15:12:58.477Z [DEBUG] "rg error (signal=undefined, code=2, stderr: rg: /tmp/assistant-canary/config/plugins/cache: IO error for operation on /tmp/assistant-canary/config/plugins/cache: No such file or directory (os error 2)\n), 0 results"
+2026-10-09T15:12:58.480Z [DEBUG] Watching /tmp/assistant-canary/work for /tmp/assistant-canary/work/.claude to appear
+2026-10-09T15:12:58.480Z [DEBUG] Watching for changes in setting files /tmp/assistant-canary/config/settings.json...
+2026-10-09T15:12:58.481Z [DEBUG] Preserving file permissions: 100600
+2026-10-09T15:12:58.481Z [DEBUG] Writing to temp file: /tmp/assistant-canary/config/.claude.json.tmp.20.0d6e61fd4fc1
+2026-10-09T15:12:58.482Z [DEBUG] Applied original permissions to temp file
+2026-10-09T15:12:58.483Z [DEBUG] Temp file written successfully, size: 423 bytes
+2026-10-09T15:12:58.483Z [DEBUG] Renaming /tmp/assistant-canary/config/.claude.json.tmp.20.0d6e61fd4fc1 to /tmp/assistant-canary/config/.claude.json
+2026-10-09T15:12:58.484Z [DEBUG] File /tmp/assistant-canary/config/.claude.json written atomically
+2026-10-09T15:12:58.783Z [DEBUG] [fs.watch probe] verdict: delivers
+2026-10-09T15:13:00.849Z [DEBUG] MCP server "assistantbench": Successfully connected (transport: stdio) in 2378ms
+2026-10-09T15:13:00.850Z [DEBUG] MCP server "assistantbench": Connection established with capabilities: {"hasTools":true,"hasPrompts":false,"hasResources":false,"hasResourceSubscribe":false,"serverVersion":{"name":"agenttime-assistantbench","version":"1"},"protocolEra":"legacy","negotiatedProtocolVersion":"2024-11-05"}
+2026-10-09T15:13:00.850Z [DEBUG] [MCP] Server "assistantbench" connected with subscribe=false
+2026-10-09T15:13:00.850Z [WARN] [3P telemetry] Event dropped (no event logger initialized): mcp_server_connection
+2026-10-09T15:13:00.861Z [DEBUG] Failed to stat directory /etc/claude-code/.claude/output-styles: ENOENT: no such file or directory, stat '/etc/claude-code/.claude/output-styles'
+2026-10-09T15:13:00.862Z [DEBUG] Total plugin output styles loaded: 0
+2026-10-09T15:13:00.863Z [DEBUG] act_dont_rederive_arm_active source=growthbook
+2026-10-09T15:13:00.871Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+2026-10-09T15:13:00.871Z [DEBUG] [session-notices] advertise=false mode=dontAsk flag=false(disabled) pollChannel=false remote=false remoteEnv=false nonInteractive=true
+2026-10-09T15:13:00.873Z [DEBUG] [engine] turn 1 start
+2026-10-09T15:13:00.876Z [DEBUG] autocompact: tokens=[REDACTED] level=ok effectiveWindow=980000
+2026-10-09T15:13:00.883Z [DEBUG] attribution header x-anthropic-billing-header: cc_version=2.1.280.ef9; cc_entrypoint=sdk-cli; cch=00000; cc_prompt_id=4768ef7c-5be4-4cac-aa2f-2366053c1a8f; cc_turn_origin=sdk;
+2026-10-09T15:13:00.883Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+2026-10-09T15:13:00.885Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+2026-10-09T15:13:00.887Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+2026-10-09T15:13:00.887Z [DEBUG] [API:timing] dispatching to firstParty model=claude-opus-5-5[1m]
+2026-10-09T15:13:00.888Z [DEBUG] [API REQUEST] /v1/messages x-client-request-id=eaea9964-81ab-427c-9827-34e497520ecc source=sdk
+2026-10-09T15:13:01.666Z [DEBUG] Stream started - received first chunk
+2026-10-09T15:13:01.666Z [DEBUG] [API:timing] first byte after 780ms
+2026-10-09T15:13:02.561Z [INFO] [Stall] tool_dispatch_start tool=mcp_tool toolUseId=toolu_017i4yUhcB9s7oDjMzG8eoAe permissionDecisionMs=0
+2026-10-09T15:13:02.562Z [DEBUG] MCP server "assistantbench": Calling MCP tool: observe
+2026-10-09T15:13:02.568Z [DEBUG] MCP server "assistantbench": Tool 'observe' completed successfully in 6ms
+2026-10-09T15:13:02.569Z [INFO] [Stall] tool_dispatch_end tool=mcp_tool toolUseId=toolu_017i4yUhcB9s7oDjMzG8eoAe outcome=ok durationMs=7
+2026-10-09T15:13:02.594Z [DEBUG] autocompact: tokens=[REDACTED] level=ok effectiveWindow=980000
+2026-10-09T15:13:02.597Z [DEBUG] attribution header x-anthropic-billing-header: cc_version=2.1.280.ef9; cc_entrypoint=sdk-cli; cch=00000; cc_prev_req=req_011CfrsybQ9KHYCBu81LNgVe; cc_prompt_id=4768ef7c-5be4-4cac-aa2f-2366053c1a8f; cc_turn_origin=sdk;
+2026-10-09T15:13:02.597Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+2026-10-09T15:13:02.597Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+2026-10-09T15:13:02.599Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+2026-10-09T15:13:02.599Z [DEBUG] [API:timing] dispatching to firstParty model=claude-opus-5-5[1m]
+2026-10-09T15:13:02.600Z [DEBUG] [API REQUEST] /v1/messages x-client-request-id=5a47adf6-35ad-4b4a-b6c8-37cf24da3352 source=sdk
+2026-10-09T15:13:02.601Z [DEBUG] Preserving file permissions: 100600
+2026-10-09T15:13:02.601Z [DEBUG] Writing to temp file: /tmp/assistant-canary/config/.claude.json.tmp.20.8f4308ff53d3
+2026-10-09T15:13:02.601Z [DEBUG] Applied original permissions to temp file
+2026-10-09T15:13:02.602Z [DEBUG] Temp file written successfully, size: 486 bytes
+2026-10-09T15:13:02.602Z [DEBUG] Renaming /tmp/assistant-canary/config/.claude.json.tmp.20.8f4308ff53d3 to /tmp/assistant-canary/config/.claude.json
+2026-10-09T15:13:02.602Z [DEBUG] File /tmp/assistant-canary/config/.claude.json written atomically
+2026-10-09T15:13:03.438Z [DEBUG] Skipping retention cleanup: userSettings source is disabled (--setting-sources) and no enabled source provides cleanupPeriodDays.
+2026-10-09T15:13:03.893Z [DEBUG] Stream started - received first chunk
+2026-10-09T15:13:03.893Z [DEBUG] [API:timing] first byte after 1294ms
+2026-10-09T15:13:04.234Z [INFO] [Stall] tool_dispatch_start tool=mcp_tool toolUseId=toolu_016SUqE5DEg5qRrujFxuoTyz permissionDecisionMs=0
+2026-10-09T15:13:04.234Z [DEBUG] MCP server "assistantbench": Calling MCP tool: fill
+2026-10-09T15:13:05.934Z [DEBUG] MCP server "assistantbench": Tool 'fill' completed successfully in 1s
+2026-10-09T15:13:05.935Z [INFO] [Stall] tool_dispatch_end tool=mcp_tool toolUseId=toolu_016SUqE5DEg5qRrujFxuoTyz outcome=ok durationMs=1701
+2026-10-09T15:13:05.940Z [DEBUG] autocompact: tokens=[REDACTED] level=ok effectiveWindow=980000
+2026-10-09T15:13:05.943Z [DEBUG] attribution header x-anthropic-billing-header: cc_version=2.1.280.ef9; cc_entrypoint=sdk-cli; cch=00000; cc_prev_req=req_011CfrsyihwTXJrMUYxyrcpQ; cc_prompt_id=4768ef7c-5be4-4cac-aa2f-2366053c1a8f; cc_turn_origin=sdk;
+2026-10-09T15:13:05.943Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+2026-10-09T15:13:05.944Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+2026-10-09T15:13:05.945Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+2026-10-09T15:13:05.946Z [DEBUG] [API:timing] dispatching to firstParty model=claude-opus-5-5[1m]
+2026-10-09T15:13:05.947Z [DEBUG] [API REQUEST] /v1/messages x-client-request-id=e5041b65-0fb6-4fd5-a5c9-bdbc64eaddfb source=sdk
+2026-10-09T15:13:07.538Z [DEBUG] Stream started - received first chunk
+2026-10-09T15:13:07.538Z [DEBUG] [API:timing] first byte after 1592ms
+2026-10-09T15:13:07.728Z [INFO] [Stall] tool_dispatch_start tool=mcp_tool toolUseId=toolu_01YTisPJcsKfpK5ENesziry2 permissionDecisionMs=0
+2026-10-09T15:13:07.728Z [DEBUG] MCP server "assistantbench": Calling MCP tool: click
+2026-10-09T15:13:09.435Z [DEBUG] MCP server "assistantbench": Tool 'click' completed successfully in 1s
+2026-10-09T15:13:09.435Z [INFO] [Stall] tool_dispatch_end tool=mcp_tool toolUseId=toolu_01YTisPJcsKfpK5ENesziry2 outcome=ok durationMs=1707
+2026-10-09T15:13:09.438Z [DEBUG] autocompact: tokens=[REDACTED] level=ok effectiveWindow=980000
+2026-10-09T15:13:09.441Z [DEBUG] attribution header x-anthropic-billing-header: cc_version=2.1.280.ef9; cc_entrypoint=sdk-cli; cch=00000; cc_prev_req=req_011Cfrsyy29mikdUXpVWppGv; cc_prompt_id=4768ef7c-5be4-4cac-aa2f-2366053c1a8f; cc_turn_origin=sdk;
+2026-10-09T15:13:09.441Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+2026-10-09T15:13:09.441Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+2026-10-09T15:13:09.442Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+2026-10-09T15:13:09.443Z [DEBUG] [API:timing] dispatching to firstParty model=claude-opus-5-5[1m]
+2026-10-09T15:13:09.443Z [DEBUG] [API REQUEST] /v1/messages x-client-request-id=98d20904-da48-4d67-bfbf-7abf977dd671 source=sdk
+2026-10-09T15:13:10.572Z [DEBUG] Stream started - received first chunk
+2026-10-09T15:13:10.572Z [DEBUG] [API:timing] first byte after 1130ms
+2026-10-09T15:13:12.788Z [INFO] [Stall] tool_dispatch_start tool=mcp_tool toolUseId=toolu_01A3JRK3mHDeEfEmqsc8a9AH permissionDecisionMs=0
+2026-10-09T15:13:12.788Z [DEBUG] MCP server "assistantbench": Calling MCP tool: send_msg_to_user
+2026-10-09T15:13:13.468Z [DEBUG] MCP server "assistantbench": Tool 'send_msg_to_user' completed successfully in 680ms
+2026-10-09T15:13:13.468Z [INFO] [Stall] tool_dispatch_end tool=mcp_tool toolUseId=toolu_01A3JRK3mHDeEfEmqsc8a9AH outcome=ok durationMs=680
+2026-10-09T15:13:13.471Z [DEBUG] autocompact: tokens=[REDACTED] level=ok effectiveWindow=980000
+2026-10-09T15:13:13.473Z [DEBUG] attribution header x-anthropic-billing-header: cc_version=2.1.280.ef9; cc_entrypoint=sdk-cli; cch=00000; cc_prev_req=req_011CfrszE1oPGRvweb17oBmn; cc_prompt_id=4768ef7c-5be4-4cac-aa2f-2366053c1a8f; cc_turn_origin=sdk;
+2026-10-09T15:13:13.473Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+2026-10-09T15:13:13.474Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+2026-10-09T15:13:13.475Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+2026-10-09T15:13:13.475Z [DEBUG] [API:timing] dispatching to firstParty model=claude-opus-5-5[1m]
+2026-10-09T15:13:13.476Z [DEBUG] [API REQUEST] /v1/messages x-client-request-id=3a97bcec-319f-4dc8-a622-ab6aa41e12e8 source=sdk
+2026-10-09T15:13:16.496Z [DEBUG] Stream started - received first chunk
+2026-10-09T15:13:16.496Z [DEBUG] [API:timing] first byte after 3021ms
+2026-10-09T15:13:16.508Z [DEBUG] [engine] turn 1 end (turns=5 usage in=10 out=714 cost=$0.0614 api=11492ms stop=end_turn resultLen=573)
+2026-10-09T15:13:16.509Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+2026-10-09T15:13:16.511Z [DEBUG] MCP server "assistantbench": Sending SIGINT to MCP server process
+2026-10-09T15:13:16.612Z [DEBUG] MCP server "assistantbench": SIGINT failed, sending SIGTERM to MCP server process
+2026-10-09T15:13:16.621Z [DEBUG] MCP server "assistantbench": UNKNOWN connection closed after 15s (cleanly)
+2026-10-09T15:13:16.621Z [DEBUG] MCP server "assistantbench": Cleared connection cache for reconnection
+2026-10-09T15:13:16.662Z [DEBUG] MCP server "assistantbench": MCP server process exited cleanly
+2026-10-09T15:13:16.664Z [DEBUG] [uds-messaging] Shutting down
+2026-10-09T15:13:16.665Z [DEBUG] LSP server manager shut down successfully

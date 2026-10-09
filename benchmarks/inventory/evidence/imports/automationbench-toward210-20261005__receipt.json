@@ -1,0 +1,1818 @@
+{
+  "created_at_utc": "2026-10-05T12:38:11.952828+00:00",
+  "scope": "Private wider audit evidence; no additions, model execution or admission",
+  "source_commit": "4a8e1061254004d9dac807054eed33fad7d1ff14",
+  "selected_task_ids": [],
+  "native_tested_ids": [
+    "operations.docusign_prospect_nda",
+    "operations.notion_slack_playbook",
+    "operations.mailchimp_campaign_tracking",
+    "finance.wave_expense_categorization",
+    "operations.hubspot_mailchimp_sync",
+    "finance.xero_bill_entry",
+    "hr.performance_feedback_logging",
+    "hr.performance_review_cycle",
+    "hr.slack_channel_onboarding",
+    "hr.survey_distribution",
+    "support.helpcrunch_usage_alerts",
+    "support.helpscout_cross_team_handoff",
+    "support.hiver_workload_forecast",
+    "sales.create_new_opportunity",
+    "sales.five_level_conditional",
+    "sales.calendar_crm_meeting",
+    "sales.implicit_rules",
+    "marketing.conversion_tracking",
+    "marketing.linkedin_company_update",
+    "sales.mark_vip_emails_read",
+    "marketing.social_contest",
+    "sales.sheets_reconciliation"
+  ],
+  "original_audit_root": "/private/tmp/agenttime-automationbench-toward210-20261005",
+  "files": [
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/assembly-input.json",
+      "bytes": 73149,
+      "sha256": "a1d95c5550b692bc1fd385bbd884d44a9095e979680e21a1553f71be53726aa2"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/finance-operations/README.md",
+      "bytes": 1327,
+      "sha256": "802b7cac1c88c7f6489fc411027807c1b8fef55906db3d2d4e90863ef3f3ff13"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/finance-operations/audit-manifest.public.json",
+      "bytes": 16758,
+      "sha256": "add6c7e19346a7f82e366b61bf8c6630ddd495d02639bd172a17375d0af2044d"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/finance-operations/audit_core.py",
+      "bytes": 5441,
+      "sha256": "d2e051f21f4b43c5bde70bef3f094bb1ad8c7c1e9d653598b01f6f2bce95f152"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/finance-operations/controls.private.json",
+      "bytes": 17626563,
+      "sha256": "9b718c95e19fb8c94b0faac822e72061a1f4c2b989ff8600edb8f433b6659c0c"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/finance-operations/controls.py",
+      "bytes": 2693,
+      "sha256": "d8d3df3011c485bc3f5fcc557d3fc79836679238510a20022e6d112a8d6a4151"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/finance-operations/evidence.private.json",
+      "bytes": 27432,
+      "sha256": "3f56030147cea5c43e9598763b4ccd6cf965895ee831c6618f254ab0e6b8de4e"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/finance-operations/file-receipt.json",
+      "bytes": 17632,
+      "sha256": "b34bbfd6a17016cca82191986711e90bb0ed6dbcbdb4b8768b46a70e129cbe29"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/finance-operations/finalize.py",
+      "bytes": 12212,
+      "sha256": "86f9912629212e6cdda3ca3d08cdf48f50cdd9d0ea5a499a24d32e53abd8798f"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/finance-operations/finance.qb_void_stale_invoices.discovery-probe.json",
+      "bytes": 22189,
+      "sha256": "a7015a7a9139e8f5d8041cc2c67ce0dd66261d46206fcb2dbbc8e6ef2b16993f"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/finance-operations/finance.qb_void_stale_invoices.native.json",
+      "bytes": 11781,
+      "sha256": "69d55213c607f2e307e095c06914ded14b1cd58ce740a00a70da5f83d24428e7"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/finance-operations/finance.wave_expense_categorization.assertions.private.json",
+      "bytes": 1049,
+      "sha256": "1d06e160128b0d8c4f4b32bd4f67d5bba60a959299539616f49c17045a41be6a"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/finance-operations/finance.wave_expense_categorization.native.json",
+      "bytes": 6019,
+      "sha256": "4bce1c50a634294d43389c0d5ca5d4c66162afedc0a9fd0274f958df714644f1"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/finance-operations/finance.wave_expense_categorization.witness.json",
+      "bytes": 205696,
+      "sha256": "970905093f84adb63328128151bcefe259862438689474f9b87636911f0605e9"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/finance-operations/finance.xero_bill_entry.assertions.private.json",
+      "bytes": 868,
+      "sha256": "6ee6c23fe8891c791e611fa95f965ba3d370ab7d08874ae942f43201b0c53098"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/finance-operations/finance.xero_bill_entry.create-probe.json",
+      "bytes": 16738,
+      "sha256": "fe2f277134303aa24aeca2e4b77103c0861b61542c291c34a9e31df623fbaa46"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/finance-operations/finance.xero_bill_entry.discovery-probe.json",
+      "bytes": 29185,
+      "sha256": "ca999e370c56b4cae5d17e68bf121b218f73e02608a1ba0744dbbbd502e6507b"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/finance-operations/finance.xero_bill_entry.native.json",
+      "bytes": 9502,
+      "sha256": "d2d6cb428744b9de12b02ec4c758bd60239ebcf561d213bd6a6f9309a92ebc8f"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/finance-operations/finance.xero_bill_entry.witness.json",
+      "bytes": 157061,
+      "sha256": "74737f228286f506eab4d8f4a41a1d144911343d66c87a76edd3c45924030183"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/finance-operations/followup-review/README.md",
+      "bytes": 759,
+      "sha256": "f62359d0b11900233b5e1e138d2f7e4b4d328854f563a5680cf91e31171e1d7c"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/finance-operations/followup-review/action-state.private.json",
+      "bytes": 781236,
+      "sha256": "d1634cd7537ace30737c51a0efa408df74f0ed552c3769924348216b9e816deb"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/finance-operations/followup-review/before-count-wording-correction/README.md",
+      "bytes": 1336,
+      "sha256": "0cc4b98198d6bcd1ff6aadb1758d05d72d3a6fe1948c24ead86bbeab3db73843"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/finance-operations/followup-review/before-count-wording-correction/file-receipt.json",
+      "bytes": 16578,
+      "sha256": "6414d8bd53b962fab13105dabc072ecaf0da6d3fb899a2064910f78976fabbeb"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/finance-operations/followup-review/before-count-wording-correction/finalize.py",
+      "bytes": 12221,
+      "sha256": "727469c0076d3042f635b417f3543a42193c505475188c31a0af3afb4460c7cd"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/finance-operations/followup-review/correction.json",
+      "bytes": 3159,
+      "sha256": "672773fc9a2dab47befc7f33c74a723f313b5caab6cdd91036b33f75e918fdc7"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/finance-operations/followup-review/inspect_action_state.py",
+      "bytes": 1724,
+      "sha256": "f1dae5b378dddae9393bafb269a8b015e2626fe89c8822bedeb4f6b02aa45515"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/finance-operations/followup-review/original-descriptions/README.md",
+      "bytes": 1079,
+      "sha256": "20f78b301df24c8705b9713a33e0bb352243056e569f80fcb0f10f5edb50bb90"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/finance-operations/followup-review/original-descriptions/audit-manifest.public.json",
+      "bytes": 16434,
+      "sha256": "49848880edd03efe96f1d1b4ca897449dcacb461be8a7602f127afa1dda93c4a"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/finance-operations/followup-review/original-descriptions/evidence.private.json",
+      "bytes": 26845,
+      "sha256": "d12d79c110cddfc07a7eefeee9c40aa93a7e6d9079ef70f203e74d192e6c2cf2"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/finance-operations/followup-review/original-descriptions/file-receipt.json",
+      "bytes": 12981,
+      "sha256": "5ef0e816d931bd4756673550b1297921dfd31f39b1011a1936af8a0fd063c45c"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/finance-operations/followup-review/original-descriptions/finalize.py",
+      "bytes": 11147,
+      "sha256": "a1095360c41bd90106453bb7a357cd097f4f92fab6d5ac9927cce626527fc60c"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/finance-operations/followup-review/original-descriptions/history-receipt.json",
+      "bytes": 920,
+      "sha256": "c2de2419902027e9aeb769c5e15f2dc8a674e4b73df5db4501b8e8d054154813"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/finance-operations/followup-review/original-descriptions/source-review.public.json",
+      "bytes": 64746,
+      "sha256": "3e1bade5bb02cfe657026f5035c1430078eda7ea27d7e61332e622963e6c7f12"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/finance-operations/inspected-ids.json",
+      "bytes": 4979,
+      "sha256": "41c92046fe1b5e75b1baa779fa25f1cbd25c73cab13a402434faeb7c5c777140"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/finance-operations/new_witness_fragment.py",
+      "bytes": 3024,
+      "sha256": "f3b2c09419a798ab48bfdf9eb66f69da946f2b1235a28ce94972ae8a95347fe4"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/finance-operations/operations.docusign_prospect_nda.assertions.private.json",
+      "bytes": 1015,
+      "sha256": "3f615a61ed1fa8b504b1913de73023d422ec98ddfca716cf732ee73934a112a4"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/finance-operations/operations.docusign_prospect_nda.native.json",
+      "bytes": 25910,
+      "sha256": "872e6434f5458991f1eb0459c892ff890d3b4a47be817ebdd9068db9b6403300"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/finance-operations/operations.docusign_prospect_nda.witness.json",
+      "bytes": 155800,
+      "sha256": "27c0b706adfa6a7b4daf40229734e51193e10f0d2a4496ac8d9d82ef0b2f8b7d"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/finance-operations/operations.hubspot_mailchimp_sync.assertions.private.json",
+      "bytes": 1751,
+      "sha256": "23d61743d4912eab92b45c2a97dd3afc62ba7d4d08ebf86cdf7898b0c62a0778"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/finance-operations/operations.hubspot_mailchimp_sync.data-probe.json",
+      "bytes": 45795,
+      "sha256": "23bab7ef294a16882a872eca5caf49906378c233cb90111b91ef87b59c9e43ea"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/finance-operations/operations.hubspot_mailchimp_sync.discovery-probe.json",
+      "bytes": 87673,
+      "sha256": "b08a426c019087061e3ff61747194603b2a5417fdfb60455154567bab1042187"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/finance-operations/operations.hubspot_mailchimp_sync.native.json",
+      "bytes": 13166,
+      "sha256": "012a0da246645d212480635d2bc90fd16f8b1179a3e698e9c6b43cc052b129aa"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/finance-operations/operations.hubspot_mailchimp_sync.witness.json",
+      "bytes": 397663,
+      "sha256": "6937709b7723fca427079ea30ce3a4fec2b10b38044f94d7051f83794498d299"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/finance-operations/operations.mailchimp_campaign_tracking.assertions.private.json",
+      "bytes": 1386,
+      "sha256": "70f5d81068934c8708ffbbf984950fffb5d2ac77d9832680a7716417235840b0"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/finance-operations/operations.mailchimp_campaign_tracking.discovery-probe.json",
+      "bytes": 59441,
+      "sha256": "6b14657089286ce384baa2570ef8add891b53ad02bb66ba9c10a38ac62437291"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/finance-operations/operations.mailchimp_campaign_tracking.native.json",
+      "bytes": 22868,
+      "sha256": "2d82ba357596cd1d1610398162828faf04962258e2808cb1c1225e0b6b1adac4"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/finance-operations/operations.mailchimp_campaign_tracking.witness.json",
+      "bytes": 135660,
+      "sha256": "e80dbf12180fe35d83465f54fafb843b593568f58ee9e93bc5871c96ef5b44df"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/finance-operations/operations.notion_slack_playbook.assertions.private.json",
+      "bytes": 1850,
+      "sha256": "36febe44e4bacfe9e35295d7670be175a7d4144d74d85ae3c811d0b8ffc2686b"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/finance-operations/operations.notion_slack_playbook.native.json",
+      "bytes": 32747,
+      "sha256": "5b1d76a0a5de2cd4d1d2fbed1b7ad7998d2f1acac169784247297e75a0108910"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/finance-operations/operations.notion_slack_playbook.witness.json",
+      "bytes": 198627,
+      "sha256": "f6042f834c89ce5fbea232e31edce0cc9b742f8c27fd593df4a818d103bb1f15"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/finance-operations/raw-task-catalog.json",
+      "bytes": 7389868,
+      "sha256": "d992f41ede4fca3bdb5ad5f47204103e56e475d6bf88104c06b3ac6673a59e2a"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/finance-operations/recommended-candidates.public.json",
+      "bytes": 3,
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/finance-operations/remaining-candidates.json",
+      "bytes": 1289355,
+      "sha256": "7fe8d6ceb1b1e106613b194738b4ed06289f333fe1ae8ee3c980d93dc02c575d"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/finance-operations/source-review.public.json",
+      "bytes": 64862,
+      "sha256": "9a19ed91f20474a0e100bfb6a5df91ee515207aada7d1ac9a4169aa145693ffe"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/finance-operations/source_findings.py",
+      "bytes": 15982,
+      "sha256": "2bd78aa365626eda5ac465b7be2a5df19feeda3c2d084151fcac9eb5760ffdcc"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/finance-operations/witness-report.json",
+      "bytes": 747,
+      "sha256": "c10086bd376a1ad85f4bfdc4f57df03b629c444df7eb0c9292c228bbad42255f"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/finance-operations/witnesses.py",
+      "bytes": 16288,
+      "sha256": "1cb01a2d06111a427531d5a4111686b37eb558e4b749518b216ceaf01f4b27bb"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/finance-operations/xero_witness_fragment.py",
+      "bytes": 2585,
+      "sha256": "6a0149c02cd293e54b7a607bac965078628587eb6ab42a62452b2f04fedcf71e"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/hr-support/SELECTION_AUDIT.md",
+      "bytes": 5406,
+      "sha256": "2d0049c6e9de235a043d11394f3704f5133284b06aab1efb75a5ffc0e95da4ea"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/hr-support/api_witnesses.py",
+      "bytes": 15072,
+      "sha256": "797545acb3c16d538e0df25fe840c2206ba424b5da468fbcc72d6881a51bda26"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/hr-support/bootstrap.py",
+      "bytes": 587,
+      "sha256": "3df7651d78f1eac6b63fe0fe7e50df85d6c4e23eb9dcf4745df4e17e1f4593fd"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/hr-support/controls-run.log",
+      "bytes": 9139,
+      "sha256": "6beef9a6d18e3796779a5d89f5a214fecf913e1a969b20bd612bbe915a372910"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/hr-support/controls.private.json",
+      "bytes": 1122869,
+      "sha256": "df81a03d52a970f487b8a532b70f84c737f02143af896df1e3ce6f63fd58f400"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/hr-support/file-receipt.json",
+      "bytes": 6026,
+      "sha256": "5a1f505e6d060ff68469ccdb1cf9c451a291b70023f022b3702c90ae595694f6"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/hr-support/finalize_packet.py",
+      "bytes": 23534,
+      "sha256": "163165e2a681843cc00512bdae87a41248037bbd45da335def4641c4aaf4e57c"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/hr-support/hr.performance_feedback_logging.native.json",
+      "bytes": 6953,
+      "sha256": "dcd69a71ad7f3055fd53e892ee9acdad5105905aaa861ce94e2ae4f2cb73f268"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/hr-support/hr.performance_feedback_logging.witness.private.json",
+      "bytes": 490222,
+      "sha256": "f570053245fb39f799f9fe8bba5a8811f64a0b6da42b3d131b11c4df301f9f03"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/hr-support/hr.performance_review_cycle.native.json",
+      "bytes": 7072,
+      "sha256": "0111c3a3bf94d02b4689e1bc613f76eef8d870e1e4e4e196b170161f82610ea5"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/hr-support/hr.performance_review_cycle.witness.private.json",
+      "bytes": 442175,
+      "sha256": "697aa34d52fe621e44e8370fd947935487bfa72cfddc532857402b6716642e47"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/hr-support/hr.slack_channel_onboarding.native.json",
+      "bytes": 5963,
+      "sha256": "48ff5436931849a1a00697e1aedbd78d91320667a6ea7dd5c3ab5edbbd29a172"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/hr-support/hr.slack_channel_onboarding.witness.private.json",
+      "bytes": 568847,
+      "sha256": "bd0ae5c968c025d3a09f02bc5a62bf0fb8900e935e0fd11d3e2fd5071aa1c630"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/hr-support/hr.survey_distribution.native.json",
+      "bytes": 10744,
+      "sha256": "7ebe43d806e5724c32dec9c1e8cec48eb9909b327b9917a6bbe2df56301948af"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/hr-support/hr.survey_distribution.witness.private.json",
+      "bytes": 545231,
+      "sha256": "f86e905a60128f7fdecb67f7e73e91b91b0273b25d9709040d8d20c15e053f4b"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/hr-support/inspected-contracts.public.json",
+      "bytes": 60742,
+      "sha256": "149d04ffa2c8e12bbe7b102a4ab397d4180092d0c9099b8d589adf6b15997e49"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/hr-support/negative_checks.py",
+      "bytes": 12256,
+      "sha256": "857b4cd36a092a4e9bfee10df2df7bcd5dc73bb7b2b01850ac2a4ff0bc0716b1"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/hr-support/positive-summary.private.json",
+      "bytes": 1446,
+      "sha256": "e8e46705bddd291cd16640165e9717cb1af42d85bac49a0c4794958048d34f05"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/hr-support/raw-task-catalog.json",
+      "bytes": 4550494,
+      "sha256": "0b5900e39d17d8e05f918d59677cafcb4bc320b52aadbb58818a84c316ea4d85"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/hr-support/recommended-candidates.public.json",
+      "bytes": 3,
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/hr-support/reproduction.private.json",
+      "bytes": 10926,
+      "sha256": "95617e3559725cacc86fdb82c5ce4832dbb95f41b6f3335d0fd0d7b277185919"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/hr-support/requirement-mapping.private.json",
+      "bytes": 47666,
+      "sha256": "e826a4db945892154b6b33f64fb3c3471aae5bc71ec81a0b10736053c6186177"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/hr-support/run_audit.py",
+      "bytes": 2524,
+      "sha256": "f5590492288e067075c5410653dcf415f799b883733eb5fb5004a260b2fe1c46"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/hr-support/screening.json",
+      "bytes": 38961,
+      "sha256": "aaeac08fd847c67b9b3a7175b89ab12f3ee19dd2a2a5875ebc9ffb5a2ddf2dda"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/hr-support/summary.public.json",
+      "bytes": 62719,
+      "sha256": "16536740e87975bfd3314664b8f5521c79191c3a9b4bb37234144bbdd9eb51dd"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/hr-support/support.helpcrunch_usage_alerts.native.json",
+      "bytes": 26877,
+      "sha256": "65fe9c6138ef03d2cb7601b56eeda436eb4ecb528393161cc7cc55df5557986e"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/hr-support/support.helpcrunch_usage_alerts.witness.private.json",
+      "bytes": 741804,
+      "sha256": "c629c3651ad48c45d694d7ac83f89436863f2fcb639aa3eed43da17cbe212b7d"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/hr-support/support.helpscout_cross_team_handoff.native.json",
+      "bytes": 22475,
+      "sha256": "530985855adf30fe4bfdc4167e99e26db351fd61af360936eaae5059477ccbdd"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/hr-support/support.helpscout_cross_team_handoff.witness.private.json",
+      "bytes": 980456,
+      "sha256": "4a9e71a1ab530de93784049ef760635289044dafacddfee6972d5d13633cfa48"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/hr-support/support.hiver_workload_forecast.native.json",
+      "bytes": 14356,
+      "sha256": "91710f3d97bb2ff5a65974e6b237de7be00b6dac3cb8dedb0a6226dd2d08ba49"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/hr-support/support.hiver_workload_forecast.witness.private.json",
+      "bytes": 459945,
+      "sha256": "4ec3ba606feb60ceb37a8b42b4d1e9a7ab95d216f185a9b1608e2e0df8f9fed4"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/hr-support/support.intercom_multi_product_routing.native.json",
+      "bytes": 41399,
+      "sha256": "ce12ed3d7a743d0815c8883985792e94f13ddd935fa929a0f2f053dbfa3d3fc6"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/hr-support/verification.private.json",
+      "bytes": 1241,
+      "sha256": "1893c5fa7a080fa1423d7bcdd258da4ace8d098b9bd92b7fb5316938399a009d"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/hr-support/verify_evidence.py",
+      "bytes": 4798,
+      "sha256": "139100981b76859e6bd5307dfe360cd66bee3e1dee721acde9689c6cccc4449e"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/hr-support/witness_support.py",
+      "bytes": 5187,
+      "sha256": "020a5f9e83fe9d2b3390a7ec8b94bc159156d8161de2e355a48bbe2092d3336c"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/independent-holds.md",
+      "bytes": 10970,
+      "sha256": "8aa7085aca67bb62c7270206f9dcdb704b2d5b9bbf8dc2297aec44300dafa302"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/independent-replay.json",
+      "bytes": 1640,
+      "sha256": "2bb7c47c9c945ad91cea21075b97d22c6e68c28a902262347b8ce4f5308a2baf"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/replay_finance_canonical.py",
+      "bytes": 2250,
+      "sha256": "76d8d3a9ec561b0248b97023f863eb2d883eb5eb8ab43cbbef1ffa00734f5ba0"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/root-replay/README.md",
+      "bytes": 430,
+      "sha256": "83ca190532842e5d16284b9a74454c8cab52d26492d4212768be4535178935d2"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/root-replay/finance-operations/README.md",
+      "bytes": 1079,
+      "sha256": "20f78b301df24c8705b9713a33e0bb352243056e569f80fcb0f10f5edb50bb90"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/root-replay/finance-operations/audit-manifest.public.json",
+      "bytes": 16460,
+      "sha256": "ad166c7e077880b776c6741d5c982fceb37ae1c19ce2f075ac9f81d895c280ab"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/root-replay/finance-operations/audit_core.py",
+      "bytes": 5441,
+      "sha256": "d2e051f21f4b43c5bde70bef3f094bb1ad8c7c1e9d653598b01f6f2bce95f152"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/root-replay/finance-operations/canonical-control-replay.private.json",
+      "bytes": 17718776,
+      "sha256": "137c22fcdffb19b7980e75e59e232b9375319179a14662956d8bce3779bb0fdd"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/root-replay/finance-operations/canonical-positive-replay.private.json",
+      "bytes": 1318659,
+      "sha256": "1b7b324167f34f7a094c254ccea811b29527479ccb4a8019e9466d186846daa5"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/root-replay/finance-operations/controls.private.json",
+      "bytes": 17626563,
+      "sha256": "9b718c95e19fb8c94b0faac822e72061a1f4c2b989ff8600edb8f433b6659c0c"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/root-replay/finance-operations/controls.py",
+      "bytes": 2693,
+      "sha256": "d8d3df3011c485bc3f5fcc557d3fc79836679238510a20022e6d112a8d6a4151"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/root-replay/finance-operations/evidence.private.json",
+      "bytes": 26798,
+      "sha256": "0fa0eee37b7a37b48737d06b55586b3c2129b5df9685555d8c0418cadddfad04"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/root-replay/finance-operations/file-receipt.json",
+      "bytes": 12981,
+      "sha256": "1653269d69b804cbe97dcff3b8f66be354cda8d0d32dcf91e477cff2fdf672a3"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/root-replay/finance-operations/finalize.py",
+      "bytes": 11100,
+      "sha256": "8098f07436459f0ad50e155f03ba6e6ea539dad56ba07b474ac121187d5ea077"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/root-replay/finance-operations/finance.qb_void_stale_invoices.discovery-probe.json",
+      "bytes": 22189,
+      "sha256": "a7015a7a9139e8f5d8041cc2c67ce0dd66261d46206fcb2dbbc8e6ef2b16993f"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/root-replay/finance-operations/finance.qb_void_stale_invoices.native.json",
+      "bytes": 11781,
+      "sha256": "69d55213c607f2e307e095c06914ded14b1cd58ce740a00a70da5f83d24428e7"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/root-replay/finance-operations/finance.wave_expense_categorization.assertions.private.json",
+      "bytes": 1049,
+      "sha256": "1d06e160128b0d8c4f4b32bd4f67d5bba60a959299539616f49c17045a41be6a"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/root-replay/finance-operations/finance.wave_expense_categorization.native.json",
+      "bytes": 6019,
+      "sha256": "4bce1c50a634294d43389c0d5ca5d4c66162afedc0a9fd0274f958df714644f1"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/root-replay/finance-operations/finance.wave_expense_categorization.witness.json",
+      "bytes": 205696,
+      "sha256": "ff41ab5e8ffc19c3b6b6263dfe1f7ee3595915d149e4870d63d3435d9bbd1bb6"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/root-replay/finance-operations/finance.xero_bill_entry.assertions.private.json",
+      "bytes": 868,
+      "sha256": "6ee6c23fe8891c791e611fa95f965ba3d370ab7d08874ae942f43201b0c53098"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/root-replay/finance-operations/finance.xero_bill_entry.create-probe.json",
+      "bytes": 16738,
+      "sha256": "fe2f277134303aa24aeca2e4b77103c0861b61542c291c34a9e31df623fbaa46"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/root-replay/finance-operations/finance.xero_bill_entry.discovery-probe.json",
+      "bytes": 29185,
+      "sha256": "ca999e370c56b4cae5d17e68bf121b218f73e02608a1ba0744dbbbd502e6507b"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/root-replay/finance-operations/finance.xero_bill_entry.native.json",
+      "bytes": 9502,
+      "sha256": "d2d6cb428744b9de12b02ec4c758bd60239ebcf561d213bd6a6f9309a92ebc8f"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/root-replay/finance-operations/finance.xero_bill_entry.witness.json",
+      "bytes": 157061,
+      "sha256": "e77356d63e9f0dbda82c6d9d1667e1947f11732a86b444a68204790aada88c16"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/root-replay/finance-operations/inspected-ids.json",
+      "bytes": 4979,
+      "sha256": "41c92046fe1b5e75b1baa779fa25f1cbd25c73cab13a402434faeb7c5c777140"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/root-replay/finance-operations/new_witness_fragment.py",
+      "bytes": 3024,
+      "sha256": "f3b2c09419a798ab48bfdf9eb66f69da946f2b1235a28ce94972ae8a95347fe4"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/root-replay/finance-operations/operations.docusign_prospect_nda.assertions.private.json",
+      "bytes": 1015,
+      "sha256": "3f615a61ed1fa8b504b1913de73023d422ec98ddfca716cf732ee73934a112a4"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/root-replay/finance-operations/operations.docusign_prospect_nda.native.json",
+      "bytes": 25910,
+      "sha256": "872e6434f5458991f1eb0459c892ff890d3b4a47be817ebdd9068db9b6403300"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/root-replay/finance-operations/operations.docusign_prospect_nda.witness.json",
+      "bytes": 155800,
+      "sha256": "1983e4c47cfb02fec69f1e63b6b57f0dfbeb9bfe71d33eae2d8635752d6b347f"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/root-replay/finance-operations/operations.hubspot_mailchimp_sync.assertions.private.json",
+      "bytes": 1751,
+      "sha256": "23d61743d4912eab92b45c2a97dd3afc62ba7d4d08ebf86cdf7898b0c62a0778"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/root-replay/finance-operations/operations.hubspot_mailchimp_sync.data-probe.json",
+      "bytes": 45795,
+      "sha256": "23bab7ef294a16882a872eca5caf49906378c233cb90111b91ef87b59c9e43ea"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/root-replay/finance-operations/operations.hubspot_mailchimp_sync.discovery-probe.json",
+      "bytes": 87673,
+      "sha256": "b08a426c019087061e3ff61747194603b2a5417fdfb60455154567bab1042187"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/root-replay/finance-operations/operations.hubspot_mailchimp_sync.native.json",
+      "bytes": 13166,
+      "sha256": "012a0da246645d212480635d2bc90fd16f8b1179a3e698e9c6b43cc052b129aa"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/root-replay/finance-operations/operations.hubspot_mailchimp_sync.witness.json",
+      "bytes": 397663,
+      "sha256": "71b2c11c6a42790e9e313ae80c43fc6f782929071db574ebe53173186ba4a788"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/root-replay/finance-operations/operations.mailchimp_campaign_tracking.assertions.private.json",
+      "bytes": 1386,
+      "sha256": "70f5d81068934c8708ffbbf984950fffb5d2ac77d9832680a7716417235840b0"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/root-replay/finance-operations/operations.mailchimp_campaign_tracking.discovery-probe.json",
+      "bytes": 59441,
+      "sha256": "6b14657089286ce384baa2570ef8add891b53ad02bb66ba9c10a38ac62437291"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/root-replay/finance-operations/operations.mailchimp_campaign_tracking.native.json",
+      "bytes": 22868,
+      "sha256": "2d82ba357596cd1d1610398162828faf04962258e2808cb1c1225e0b6b1adac4"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/root-replay/finance-operations/operations.mailchimp_campaign_tracking.witness.json",
+      "bytes": 135660,
+      "sha256": "f7e2027a87a18d6369e203661f1eb4cee6de697ab8ee9597fef8b4e21539e659"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/root-replay/finance-operations/operations.notion_slack_playbook.assertions.private.json",
+      "bytes": 1850,
+      "sha256": "36febe44e4bacfe9e35295d7670be175a7d4144d74d85ae3c811d0b8ffc2686b"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/root-replay/finance-operations/operations.notion_slack_playbook.native.json",
+      "bytes": 32747,
+      "sha256": "5b1d76a0a5de2cd4d1d2fbed1b7ad7998d2f1acac169784247297e75a0108910"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/root-replay/finance-operations/operations.notion_slack_playbook.witness.json",
+      "bytes": 198627,
+      "sha256": "308bfd9143b1796649b784f63f1641ad7e13e0ed495de3a117e2d33ceabe3abd"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/root-replay/finance-operations/raw-task-catalog.json",
+      "bytes": 7389868,
+      "sha256": "d992f41ede4fca3bdb5ad5f47204103e56e475d6bf88104c06b3ac6673a59e2a"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/root-replay/finance-operations/recommended-candidates.public.json",
+      "bytes": 3,
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/root-replay/finance-operations/remaining-candidates.json",
+      "bytes": 1289355,
+      "sha256": "7fe8d6ceb1b1e106613b194738b4ed06289f333fe1ae8ee3c980d93dc02c575d"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/root-replay/finance-operations/root-canonical-replay.log",
+      "bytes": 196,
+      "sha256": "1fd56ae869e5c6481e6fce2c5aa68f8e45ecd83b2988db4e542a3064a8cf6946"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/root-replay/finance-operations/root-canonical-verification.json",
+      "bytes": 210,
+      "sha256": "4b6b46e5fdf2d7934c478da43d44403e0921c6081781faf727a9943048f37f93"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/root-replay/finance-operations/root-native-replay.log",
+      "bytes": 748,
+      "sha256": "906b9cbc1bb6dbc73f07bc62e91c7c246e051ba9425048676e9455fd3154af22"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/root-replay/finance-operations/root-script-inputs.json",
+      "bytes": 633,
+      "sha256": "4f9c32d6e55b51721d55956c5fa6e2fa2c6b14d8aaa58b80530d84f77e16f9d1"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/root-replay/finance-operations/source-review.public.json",
+      "bytes": 64772,
+      "sha256": "1f01c284ec4e99e536af7cca2002d4360493a1efcb7a311da007a46f9712a5e9"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/root-replay/finance-operations/source_findings.py",
+      "bytes": 15982,
+      "sha256": "2bd78aa365626eda5ac465b7be2a5df19feeda3c2d084151fcac9eb5760ffdcc"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/root-replay/finance-operations/witness-report.json",
+      "bytes": 747,
+      "sha256": "c10086bd376a1ad85f4bfdc4f57df03b629c444df7eb0c9292c228bbad42255f"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/root-replay/finance-operations/witnesses.py",
+      "bytes": 16288,
+      "sha256": "1cb01a2d06111a427531d5a4111686b37eb558e4b749518b216ceaf01f4b27bb"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/root-replay/finance-operations/xero_witness_fragment.py",
+      "bytes": 2585,
+      "sha256": "6a0149c02cd293e54b7a607bac965078628587eb6ab42a62452b2f04fedcf71e"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/root-replay/hr-support/SELECTION_AUDIT.md",
+      "bytes": 5406,
+      "sha256": "2d0049c6e9de235a043d11394f3704f5133284b06aab1efb75a5ffc0e95da4ea"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/root-replay/hr-support/api_witnesses.py",
+      "bytes": 15072,
+      "sha256": "797545acb3c16d538e0df25fe840c2206ba424b5da468fbcc72d6881a51bda26"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/root-replay/hr-support/bootstrap.py",
+      "bytes": 587,
+      "sha256": "3df7651d78f1eac6b63fe0fe7e50df85d6c4e23eb9dcf4745df4e17e1f4593fd"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/root-replay/hr-support/controls-run.log",
+      "bytes": 9139,
+      "sha256": "6beef9a6d18e3796779a5d89f5a214fecf913e1a969b20bd612bbe915a372910"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/root-replay/hr-support/controls.private.json",
+      "bytes": 1122869,
+      "sha256": "edab8ba26df2b9c922650b0ae9ae51601a26b945fa680a4160515c4f32fffd07"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/root-replay/hr-support/file-receipt.json",
+      "bytes": 6026,
+      "sha256": "5a1f505e6d060ff68469ccdb1cf9c451a291b70023f022b3702c90ae595694f6"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/root-replay/hr-support/finalize_packet.py",
+      "bytes": 23534,
+      "sha256": "163165e2a681843cc00512bdae87a41248037bbd45da335def4641c4aaf4e57c"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/root-replay/hr-support/hr.performance_feedback_logging.native.json",
+      "bytes": 6953,
+      "sha256": "dcd69a71ad7f3055fd53e892ee9acdad5105905aaa861ce94e2ae4f2cb73f268"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/root-replay/hr-support/hr.performance_feedback_logging.witness.private.json",
+      "bytes": 490222,
+      "sha256": "b3f94ce446035493899ab3498654a396774f2a96ee3a0490a54f2e03e5dd2fa4"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/root-replay/hr-support/hr.performance_review_cycle.native.json",
+      "bytes": 7072,
+      "sha256": "0111c3a3bf94d02b4689e1bc613f76eef8d870e1e4e4e196b170161f82610ea5"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/root-replay/hr-support/hr.performance_review_cycle.witness.private.json",
+      "bytes": 442175,
+      "sha256": "3f4d59030e2f4332161f3459e4d1ef58d4117a3bf7e1b7e0b30c6529db786b0d"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/root-replay/hr-support/hr.slack_channel_onboarding.native.json",
+      "bytes": 5963,
+      "sha256": "48ff5436931849a1a00697e1aedbd78d91320667a6ea7dd5c3ab5edbbd29a172"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/root-replay/hr-support/hr.slack_channel_onboarding.witness.private.json",
+      "bytes": 568847,
+      "sha256": "835b3042c891bd1e2922a15dae6b22430cfccd8d5af8dca189b7be69aaf2afb2"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/root-replay/hr-support/hr.survey_distribution.native.json",
+      "bytes": 10744,
+      "sha256": "7ebe43d806e5724c32dec9c1e8cec48eb9909b327b9917a6bbe2df56301948af"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/root-replay/hr-support/hr.survey_distribution.witness.private.json",
+      "bytes": 545231,
+      "sha256": "6d6651d3bd44859895a67ee3838e5d72775a7799b4e9547c6be000eac3a4d156"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/root-replay/hr-support/inspected-contracts.public.json",
+      "bytes": 60742,
+      "sha256": "149d04ffa2c8e12bbe7b102a4ab397d4180092d0c9099b8d589adf6b15997e49"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/root-replay/hr-support/negative_checks.py",
+      "bytes": 12256,
+      "sha256": "857b4cd36a092a4e9bfee10df2df7bcd5dc73bb7b2b01850ac2a4ff0bc0716b1"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/root-replay/hr-support/positive-summary.private.json",
+      "bytes": 1446,
+      "sha256": "e8e46705bddd291cd16640165e9717cb1af42d85bac49a0c4794958048d34f05"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/root-replay/hr-support/raw-task-catalog.json",
+      "bytes": 4550494,
+      "sha256": "0b5900e39d17d8e05f918d59677cafcb4bc320b52aadbb58818a84c316ea4d85"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/root-replay/hr-support/recommended-candidates.public.json",
+      "bytes": 3,
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/root-replay/hr-support/reproduction.private.json",
+      "bytes": 10926,
+      "sha256": "95617e3559725cacc86fdb82c5ce4832dbb95f41b6f3335d0fd0d7b277185919"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/root-replay/hr-support/requirement-mapping.private.json",
+      "bytes": 47666,
+      "sha256": "e826a4db945892154b6b33f64fb3c3471aae5bc71ec81a0b10736053c6186177"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/root-replay/hr-support/root-control-replay.log",
+      "bytes": 9139,
+      "sha256": "6beef9a6d18e3796779a5d89f5a214fecf913e1a969b20bd612bbe915a372910"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/root-replay/hr-support/root-native-replay.log",
+      "bytes": 1199,
+      "sha256": "ec75001040c0b62fb77281120ea522c17e5bb17eb7be85cb58a36512fe0c34c6"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/root-replay/hr-support/run_audit.py",
+      "bytes": 2524,
+      "sha256": "f5590492288e067075c5410653dcf415f799b883733eb5fb5004a260b2fe1c46"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/root-replay/hr-support/screening.json",
+      "bytes": 38961,
+      "sha256": "aaeac08fd847c67b9b3a7175b89ab12f3ee19dd2a2a5875ebc9ffb5a2ddf2dda"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/root-replay/hr-support/summary.public.json",
+      "bytes": 62719,
+      "sha256": "16536740e87975bfd3314664b8f5521c79191c3a9b4bb37234144bbdd9eb51dd"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/root-replay/hr-support/support.helpcrunch_usage_alerts.native.json",
+      "bytes": 26877,
+      "sha256": "65fe9c6138ef03d2cb7601b56eeda436eb4ecb528393161cc7cc55df5557986e"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/root-replay/hr-support/support.helpcrunch_usage_alerts.witness.private.json",
+      "bytes": 741804,
+      "sha256": "44381248b705bbb3eda640a5143b76c6da8ec82555adcfea0c7eb352d62b1206"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/root-replay/hr-support/support.helpscout_cross_team_handoff.native.json",
+      "bytes": 22475,
+      "sha256": "530985855adf30fe4bfdc4167e99e26db351fd61af360936eaae5059477ccbdd"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/root-replay/hr-support/support.helpscout_cross_team_handoff.witness.private.json",
+      "bytes": 980456,
+      "sha256": "443ccc9b869e3a441a905eeeabe45a2a913791147338648fb5133564d409f650"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/root-replay/hr-support/support.hiver_workload_forecast.native.json",
+      "bytes": 14356,
+      "sha256": "91710f3d97bb2ff5a65974e6b237de7be00b6dac3cb8dedb0a6226dd2d08ba49"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/root-replay/hr-support/support.hiver_workload_forecast.witness.private.json",
+      "bytes": 459945,
+      "sha256": "cbc7e5109c68e75a22a419907f0963273d023ce10ccff44bd8f28a0033951860"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/root-replay/hr-support/support.intercom_multi_product_routing.native.json",
+      "bytes": 41399,
+      "sha256": "ce12ed3d7a743d0815c8883985792e94f13ddd935fa929a0f2f053dbfa3d3fc6"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/root-replay/hr-support/verification.private.json",
+      "bytes": 1241,
+      "sha256": "1893c5fa7a080fa1423d7bcdd258da4ace8d098b9bd92b7fb5316938399a009d"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/root-replay/hr-support/verify_evidence.py",
+      "bytes": 4798,
+      "sha256": "139100981b76859e6bd5307dfe360cd66bee3e1dee721acde9689c6cccc4449e"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/root-replay/hr-support/witness_support.py",
+      "bytes": 5187,
+      "sha256": "020a5f9e83fe9d2b3390a7ec8b94bc159156d8161de2e355a48bbe2092d3336c"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/root-replay/sales-marketing/.ruff_cache/.gitignore",
+      "bytes": 35,
+      "sha256": "9e3a60f1e6ec4ae60215c11d54b171392745ec25e9dded433d5bd921363af316"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/root-replay/sales-marketing/.ruff_cache/0.14.10/11756650570536902173",
+      "bytes": 362,
+      "sha256": "cb4150f9a0c0a9d6024eb425ecd6e272bff813a6911339eba0e991c8d8b29065"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/root-replay/sales-marketing/.ruff_cache/0.14.10/11810122882612391566",
+      "bytes": 362,
+      "sha256": "a3e921b2c42749a537a79ea04f1dba55b9bd35e8f33be1f53da2cbd7050a058e"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/root-replay/sales-marketing/.ruff_cache/0.14.10/6482356851797400487",
+      "bytes": 362,
+      "sha256": "48f352b0396a8de0deb17cedaa4a12bef412e3e1a83a9474f95b14c70d6c1954"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/root-replay/sales-marketing/.ruff_cache/CACHEDIR.TAG",
+      "bytes": 43,
+      "sha256": "5953156d7e0c564a427251316eaf26f8870e6483ae2197f916b630e4f93e31ae"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/root-replay/sales-marketing/README.md",
+      "bytes": 6065,
+      "sha256": "4e9efa903ea0b4147a8f4ae3b072846115bb35c9fa10b6026ff44f5eebdeee0c"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/root-replay/sales-marketing/api_witnesses.py",
+      "bytes": 20117,
+      "sha256": "52bd3f160b12ae456f14ba11c21ad62ca2317e78a6ff0bb8ebe86ffe0ffb551e"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/root-replay/sales-marketing/controls.private.json",
+      "bytes": 175263,
+      "sha256": "49e674594ad8bd5d651c7dd9c47137d4be4ab7f4d21e983049202abd2b9f19e6"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/root-replay/sales-marketing/file-receipt.json",
+      "bytes": 9389,
+      "sha256": "61fc70d348ccf0ad196644338c737df01a3892009d7865107f50cf32b3a94252"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/root-replay/sales-marketing/finalize.log",
+      "bytes": 263,
+      "sha256": "bbf4229bf5a0f4fae2a741225b56e76a370354409a59703f264f81bb724c9d57"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/root-replay/sales-marketing/finalize.py",
+      "bytes": 12097,
+      "sha256": "4b189c11d989b76469e39d8d1b3b8a3b93fe448cea332063ffa6308eedd3e6dd"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/root-replay/sales-marketing/held-findings.public.json",
+      "bytes": 8130,
+      "sha256": "0111d3d8c201589ff731c0fccbe395108ec02dedfb690385b53490d93bba45f6"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/root-replay/sales-marketing/inspect_visible.py",
+      "bytes": 1508,
+      "sha256": "bd79fba0a8ebc43ca6fae9fdac1e60b9acaf8f162dce3f9a276644736e24487c"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/root-replay/sales-marketing/linkedin-extra-visible.private.json",
+      "bytes": 68970,
+      "sha256": "3c2eb206c75277f437e6c79ee577c328499c23e4fe6ad29232b684506107b84b"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/root-replay/sales-marketing/linkedin-more-visible.private.json",
+      "bytes": 4009,
+      "sha256": "efbc5b3c5791e5a1c1203bcd99ea3fc17e72e066fbe355f0b9290fc6d40ec400"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/root-replay/sales-marketing/marketing.contact_data_cleanup.native.json",
+      "bytes": 27976,
+      "sha256": "f52d4a77fd29d7135bb2dca01df34877df1a8fa40cd9e86146e75b7f55b960be"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/root-replay/sales-marketing/marketing.conversion_tracking.alternative.private.json",
+      "bytes": 192126,
+      "sha256": "c363f1396ebb31acfce5993a36eb138d0b53be46b856c1ff1a939b9f7eae4d37"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/root-replay/sales-marketing/marketing.conversion_tracking.api-schemas.private.json",
+      "bytes": 18783,
+      "sha256": "18d478183a5dc0279458014683fc0d13f6ff3f3c2c642cc450efb6cff1af86c2"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/root-replay/sales-marketing/marketing.conversion_tracking.inspection-trace.private.json",
+      "bytes": 98002,
+      "sha256": "64c1fb08c181a737d6c795609112368bfbd1f729f00276a3fa1f717a92fcfc94"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/root-replay/sales-marketing/marketing.conversion_tracking.native.json",
+      "bytes": 18588,
+      "sha256": "b56981229204ffb4b8d28ed490f45014e8a0caf36d2dc5a77c517a03af11d058"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/root-replay/sales-marketing/marketing.conversion_tracking.visible.private.json",
+      "bytes": 17692,
+      "sha256": "6b7a1b959d09a7ba232755154cd2d7b12fb0620f2917a4ce8d4496cebdfd677b"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/root-replay/sales-marketing/marketing.conversion_tracking.witness.json",
+      "bytes": 201514,
+      "sha256": "7c2caf158269b63bef60737464cffa48184c9f4fe5dde668c0b8c7d90f58e9fd"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/root-replay/sales-marketing/marketing.lifecycle_stage.native.json",
+      "bytes": 39364,
+      "sha256": "7dc2b22a1e63f64ad70dcd8378216ee2c2fa5d4189b0d7bc1d1d6e7a350c01f6"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/root-replay/sales-marketing/marketing.linkedin_company_update.alternative.private.json",
+      "bytes": 149790,
+      "sha256": "b5956ecf0b8d2560556d4ec5da6ec492b9616f21f072b908fd0f53398681adc3"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/root-replay/sales-marketing/marketing.linkedin_company_update.api-schemas.private.json",
+      "bytes": 37934,
+      "sha256": "d5a59b2fd4682bf2c3e005e78f7183c7d4d5ab53fae2365ec7ea255057ea9e39"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/root-replay/sales-marketing/marketing.linkedin_company_update.inspection-trace.private.json",
+      "bytes": 49486,
+      "sha256": "0b9db1e5e502e1da3f0149dbb28332e847b3151b308014adecfa65a7dc0c46cc"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/root-replay/sales-marketing/marketing.linkedin_company_update.native.json",
+      "bytes": 14800,
+      "sha256": "19a9698ceddd1135a4ea3c0021d1333ca1012ec14f38f079d771f00c3be57c11"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/root-replay/sales-marketing/marketing.linkedin_company_update.visible.private.json",
+      "bytes": 12522,
+      "sha256": "33a4cd8c9a1c7cf9620c0cf63ceecdb0aea1c90965e281a5f01c7726f363e50f"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/root-replay/sales-marketing/marketing.linkedin_company_update.witness.json",
+      "bytes": 155002,
+      "sha256": "a3e95c93d021cdb8c4d4d6cf662536d1aee67b0f161f58d8adb2eed281f6e1d5"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/root-replay/sales-marketing/marketing.newsletter_unsubscribe_processing.native.json",
+      "bytes": 23606,
+      "sha256": "a9a4281e3ae6fff409532afe9b91890455f3c22706a308457454ffeb1e6d3779"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/root-replay/sales-marketing/marketing.social_contest.alternative.private.json",
+      "bytes": 272156,
+      "sha256": "4ae5ec992eca96653d724419c9a07aa30982be15e509b59fa3be257dbb9d35d1"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/root-replay/sales-marketing/marketing.social_contest.inspection-trace.private.json",
+      "bytes": 184572,
+      "sha256": "6a3620a35beaec82c2aad48a04701547d2a2285e2c647f361c7c778f845af43e"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/root-replay/sales-marketing/marketing.social_contest.native.json",
+      "bytes": 31508,
+      "sha256": "6174bf34b74fdad8c8b4b070200d9b2d5825eaa4bd303c0f5a60f0ebb0fcc26d"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/root-replay/sales-marketing/marketing.social_contest.visible.private.json",
+      "bytes": 21449,
+      "sha256": "572c43a28b148b1d5d556a9352c2b12d0ed407fe6ed832bddd1a7aa93fa3f1c7"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/root-replay/sales-marketing/marketing.social_contest.witness.json",
+      "bytes": 282731,
+      "sha256": "3de79f866e927fe34c08aa276c567f9baef59f59d85d2b36d0c81c2e721028f5"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/root-replay/sales-marketing/negative_checks.log",
+      "bytes": 3348,
+      "sha256": "5c4b48105bba8b1de9455dd4a9306e2fe86c38a2a79ce8108e9e99bc259686e8"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/root-replay/sales-marketing/negative_checks.py",
+      "bytes": 11236,
+      "sha256": "b57d387e868c7fcf04d0cdc34d980d7c0ef7adf9623acacc9246bd4ca131cb23"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/root-replay/sales-marketing/positive-audit.private.json",
+      "bytes": 121268,
+      "sha256": "debc53a7b6e7b8fc1e32c983f9251f703d4964213a670a01362900f23b701912"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/root-replay/sales-marketing/raw-task-catalog.json",
+      "bytes": 7389869,
+      "sha256": "c73660dddc97a7666234758c9a3d6e0d4cbc467d6dde1caf362d542e81fdf1f1"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/root-replay/sales-marketing/recommended-candidates.public.json",
+      "bytes": 3,
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/root-replay/sales-marketing/results-manifest.public.json",
+      "bytes": 7916,
+      "sha256": "4aa9857c7e37a8217aac7ed04ccf7a70e61a0a90c8018813e17f86a45d48c5b3"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/root-replay/sales-marketing/root-control-replay.log",
+      "bytes": 3348,
+      "sha256": "5c4b48105bba8b1de9455dd4a9306e2fe86c38a2a79ce8108e9e99bc259686e8"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/root-replay/sales-marketing/root-native-replay.log",
+      "bytes": 1031,
+      "sha256": "42420bf06e2a98f55d663dcfd1673478f6c282c08a130c1703d9a36506121add"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/root-replay/sales-marketing/root-script-inputs.json",
+      "bytes": 714,
+      "sha256": "5596d1b9b3bd72c53082682573694e8b3dde5cff9c31991f4b138320c168c0e1"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/root-replay/sales-marketing/run_audit.log",
+      "bytes": 1031,
+      "sha256": "42420bf06e2a98f55d663dcfd1673478f6c282c08a130c1703d9a36506121add"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/root-replay/sales-marketing/run_audit.py",
+      "bytes": 2954,
+      "sha256": "318d68ac083b5d370b78375f9529f5dbfb09b22eae392af370a334adbe4bd01e"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/root-replay/sales-marketing/runtime.py",
+      "bytes": 549,
+      "sha256": "f824b88d6a32f138f8c60ec7e53c0a8f12e00713f344219d6f55f9298421d629"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/root-replay/sales-marketing/sales.add_contact_to_campaign.native.json",
+      "bytes": 49026,
+      "sha256": "51faf91730e4f49c2eb64f5114e88e6f7b500bf6027ec1a7c58c2b88c1effee5"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/root-replay/sales-marketing/sales.calendar_crm_meeting.alternative.private.json",
+      "bytes": 674429,
+      "sha256": "0e73f32845a6875d1b2242d57c818a92a125581bbc2d7581e50f670268e20208"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/root-replay/sales-marketing/sales.calendar_crm_meeting.api-schemas.private.json",
+      "bytes": 43768,
+      "sha256": "3104b8288ba96b58e6bca6df4dc4dad79795c17bb7bf3e9d1da59f577aeaf1f3"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/root-replay/sales-marketing/sales.calendar_crm_meeting.inspection-trace.private.json",
+      "bytes": 230141,
+      "sha256": "2d5096b4f23a2cc287ad64fdf726c52b7d92bd6c6147f0f2f341d4c6334350e4"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/root-replay/sales-marketing/sales.calendar_crm_meeting.native.json",
+      "bytes": 73109,
+      "sha256": "01ece3dc4f60ce7f3c94911a400eccd0aaab4c8b553249c167a3dd05290ce708"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/root-replay/sales-marketing/sales.calendar_crm_meeting.visible.private.json",
+      "bytes": 122939,
+      "sha256": "ce323d554cd9937f504342a1f0b6c4b00ce7cea8670dafd7d3f2612bda2d7f90"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/root-replay/sales-marketing/sales.calendar_crm_meeting.witness.json",
+      "bytes": 681268,
+      "sha256": "795e2c4c5d02c6fd787a233ea0b5abb2ca4fa03f44ee4f16cc783ddc7b89fe77"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/root-replay/sales-marketing/sales.calendly_availability_based_routing.inspection-trace.private.json",
+      "bytes": 153923,
+      "sha256": "92f0d54c5298f9496801f1ca42da131f8306ece27e8c1fdc6023bd81e1609dca"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/root-replay/sales-marketing/sales.calendly_availability_based_routing.native.json",
+      "bytes": 57336,
+      "sha256": "bca034fd5c5240851bbc2e3f4b97719052e8fb79bc71724f36c637132cde6273"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/root-replay/sales-marketing/sales.calendly_availability_based_routing.visible.private.json",
+      "bytes": 52223,
+      "sha256": "d1b3e5dfc85d8dee30338f6fcc1bab87747a7312b9ab261266ebeac62150e1ef"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/root-replay/sales-marketing/sales.create_new_opportunity.alternative.private.json",
+      "bytes": 755435,
+      "sha256": "600e4a65b6e0d59d3453f9930412fbaf655df7d00a191ebb3283ebc06ff8f52f"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/root-replay/sales-marketing/sales.create_new_opportunity.inspection-trace.private.json",
+      "bytes": 271492,
+      "sha256": "9cbeeb4faad52efae3387e6fd2108c9b8ce8ce08ace399c81eeb512931397a5c"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/root-replay/sales-marketing/sales.create_new_opportunity.native.json",
+      "bytes": 76110,
+      "sha256": "768a93d39f0b6ed4dd4c116d14f5d3c4a1c0846e7264e0a549c0ae107e9ef363"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/root-replay/sales-marketing/sales.create_new_opportunity.visible.private.json",
+      "bytes": 143245,
+      "sha256": "9c58477f0390de835799157233c8fdbcb2234a31cad88c1cf452e402c6e3db99"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/root-replay/sales-marketing/sales.create_new_opportunity.witness.json",
+      "bytes": 762924,
+      "sha256": "cd25e4944e2c2695e2f05ee29d05bc93fd7246a197fa6d5aa95d5d89c715ffe8"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/root-replay/sales-marketing/sales.five_level_conditional.alternative.private.json",
+      "bytes": 403097,
+      "sha256": "96c00e43da8fa67d7919775f53ec51cdd5ac18553fba526ba475c5aaaec5682e"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/root-replay/sales-marketing/sales.five_level_conditional.api-schemas.private.json",
+      "bytes": 11257,
+      "sha256": "b1fb13dafb0197798027dbe896b8a9fcef049f41073fbc1f0f2ad0ed61290616"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/root-replay/sales-marketing/sales.five_level_conditional.inspection-trace.private.json",
+      "bytes": 146363,
+      "sha256": "b42c3db386652878895ade369c8276bec96dc2707ab22711de633afa74d54590"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/root-replay/sales-marketing/sales.five_level_conditional.native.json",
+      "bytes": 27991,
+      "sha256": "44723bd9ef7690e9ffcf17194ff03533035ad8da8ae20435c71b7e2073af5fb9"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/root-replay/sales-marketing/sales.five_level_conditional.visible.private.json",
+      "bytes": 56159,
+      "sha256": "7fb70a8bf78d2633d21b3f703c5749067b53eb8f18f23cad7e78d2c94285f926"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/root-replay/sales-marketing/sales.five_level_conditional.witness.json",
+      "bytes": 411165,
+      "sha256": "b63fe8c11c626ada537f30c734be4d6ebc92807ed75331ba36e82e6873d79154"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/root-replay/sales-marketing/sales.implicit_rules.alternative.private.json",
+      "bytes": 488559,
+      "sha256": "f1d44b10230bf2d0c107003c29868df367ce6c83d7fae1cdf8288f171063151c"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/root-replay/sales-marketing/sales.implicit_rules.inspection-trace.private.json",
+      "bytes": 187895,
+      "sha256": "45bf6d744c045f5b636e6a9a278f616dfab4075538395673076a19fdae80f5c7"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/root-replay/sales-marketing/sales.implicit_rules.native.json",
+      "bytes": 54591,
+      "sha256": "d3c7d179d0f0ed94396844505b5eff7d58124671c9cfddfc8c4841f9c2ceb0b1"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/root-replay/sales-marketing/sales.implicit_rules.visible.private.json",
+      "bytes": 83802,
+      "sha256": "c96cd71cbda6c5bdfe348f8e17eac86c18aa3b4381e259f1aa042f0106d21874"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/root-replay/sales-marketing/sales.implicit_rules.witness.json",
+      "bytes": 498973,
+      "sha256": "0e5ec6a59990172326f0583d4ae61f1fef26de88ddd51fdb8fd7b3f00f2e50e6"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/root-replay/sales-marketing/sales.mark_vip_emails_read.alternative.private.json",
+      "bytes": 595426,
+      "sha256": "e728f0e0cf37275d1c3d85c4ddae27ef79edfcd1821fafb3960392e657f2706b"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/root-replay/sales-marketing/sales.mark_vip_emails_read.inspection-trace.private.json",
+      "bytes": 218936,
+      "sha256": "1b109d31dca298fe8453e3cae066e3044ee7ed4241ad4b2fdfc2683cf4f116aa"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/root-replay/sales-marketing/sales.mark_vip_emails_read.native.json",
+      "bytes": 70050,
+      "sha256": "30677794efc3149d42f25d611f7ed9044b5da77fe6a542dcebaedfd38f7d6e88"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/root-replay/sales-marketing/sales.mark_vip_emails_read.visible.private.json",
+      "bytes": 109481,
+      "sha256": "cd154b3e039c740472c24f9adfaa3b68309ec253928d424798e44d260fb57c6c"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/root-replay/sales-marketing/sales.mark_vip_emails_read.witness.json",
+      "bytes": 604808,
+      "sha256": "f6ac468dd99dfbd5e519b4fd06ab624ddab0150d7c101c9a8c43bc00f2d0dfe2"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/root-replay/sales-marketing/sales.sheets_reconciliation.alternative.private.json",
+      "bytes": 416858,
+      "sha256": "128dfa40110c9a2aa476d170a5689e8c0863db4692a40b76654328f2a12fd541"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/root-replay/sales-marketing/sales.sheets_reconciliation.inspection-trace.private.json",
+      "bytes": 179556,
+      "sha256": "be4bddcbc0a03f1780e5aaf4f7eea2f24dfcdb97f14052c3816e8a73a60f9022"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/root-replay/sales-marketing/sales.sheets_reconciliation.native.json",
+      "bytes": 25096,
+      "sha256": "3bf02ec9744cfcdaee39e59b9cc5eec9d6f39f655be853ea8eb4d52497d4ba38"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/root-replay/sales-marketing/sales.sheets_reconciliation.visible.private.json",
+      "bytes": 46949,
+      "sha256": "2194bfc274a634fb1efcdffd130347c056381dc0cdc6be26c5a7a69b88e7936e"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/root-replay/sales-marketing/sales.sheets_reconciliation.witness.json",
+      "bytes": 426563,
+      "sha256": "e37f781dff5778164b4e9e5c98490d95798199bbcb79d9d86f89c70c64a5d501"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/root-replay/sales-marketing/selection-evidence.private.json",
+      "bytes": 120092,
+      "sha256": "c31cf65ae47ebe634a4ee97560ae019de61aba9e7b1aa7aed1392aaa2920b536"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/root-replay/sales-marketing/source-inspection-scope.public.json",
+      "bytes": 3533,
+      "sha256": "2d0c51f0a713941fbdac9f4d48fdd4d9c099a06b33411e84339d7b98c9af7130"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/root-replay/sales-marketing/source-screen-proof.private.json",
+      "bytes": 80820,
+      "sha256": "e540086e94bdc58536208d43be0b9f8419208f05bb973f1bb0653523c052e220"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/root-replay/sales-marketing/source_screen.log",
+      "bytes": 40,
+      "sha256": "43279fd4bef38739cb13b429b84fb973631d3e55ea7e9882c103c7d78dab11fb"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/root-replay/sales-marketing/source_screen.py",
+      "bytes": 7361,
+      "sha256": "0a693689e2e92ccd3eff4eda09b617bca6127e138283a088186f95897db8d989"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/root-replay/sales-marketing/witness_support.py",
+      "bytes": 6235,
+      "sha256": "2b64f38454f80abd830163afeebd6920ebe5daa9b24e6832cfef12e34cff6c89"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/sales-marketing/.ruff_cache/.gitignore",
+      "bytes": 35,
+      "sha256": "9e3a60f1e6ec4ae60215c11d54b171392745ec25e9dded433d5bd921363af316"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/sales-marketing/.ruff_cache/0.14.10/11756650570536902173",
+      "bytes": 362,
+      "sha256": "cb4150f9a0c0a9d6024eb425ecd6e272bff813a6911339eba0e991c8d8b29065"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/sales-marketing/.ruff_cache/0.14.10/11810122882612391566",
+      "bytes": 362,
+      "sha256": "a3e921b2c42749a537a79ea04f1dba55b9bd35e8f33be1f53da2cbd7050a058e"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/sales-marketing/.ruff_cache/0.14.10/6482356851797400487",
+      "bytes": 362,
+      "sha256": "871c75f0afbffbbece0c989ed18eff019bdb62c0c1eb502c0bd36bd23afb0518"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/sales-marketing/.ruff_cache/CACHEDIR.TAG",
+      "bytes": 43,
+      "sha256": "5953156d7e0c564a427251316eaf26f8870e6483ae2197f916b630e4f93e31ae"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/sales-marketing/README.md",
+      "bytes": 6065,
+      "sha256": "4e9efa903ea0b4147a8f4ae3b072846115bb35c9fa10b6026ff44f5eebdeee0c"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/sales-marketing/api_witnesses.py",
+      "bytes": 20117,
+      "sha256": "52bd3f160b12ae456f14ba11c21ad62ca2317e78a6ff0bb8ebe86ffe0ffb551e"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/sales-marketing/controls.private.json",
+      "bytes": 175263,
+      "sha256": "1215e95f1fdad5fd85a9d8f91a133f14c42b75c9fbbc2287d4b9167ed63abc83"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/sales-marketing/file-receipt.json",
+      "bytes": 9301,
+      "sha256": "fd2fbb634f0d631d86aaf593b42af7f505bb77a6afc01d77c01c0cc663b7c474"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/sales-marketing/finalize.py",
+      "bytes": 12097,
+      "sha256": "4b189c11d989b76469e39d8d1b3b8a3b93fe448cea332063ffa6308eedd3e6dd"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/sales-marketing/held-findings.public.json",
+      "bytes": 8130,
+      "sha256": "0111d3d8c201589ff731c0fccbe395108ec02dedfb690385b53490d93bba45f6"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/sales-marketing/inspect_visible.py",
+      "bytes": 1508,
+      "sha256": "bd79fba0a8ebc43ca6fae9fdac1e60b9acaf8f162dce3f9a276644736e24487c"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/sales-marketing/linkedin-extra-visible.private.json",
+      "bytes": 68970,
+      "sha256": "3c2eb206c75277f437e6c79ee577c328499c23e4fe6ad29232b684506107b84b"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/sales-marketing/linkedin-more-visible.private.json",
+      "bytes": 4009,
+      "sha256": "efbc5b3c5791e5a1c1203bcd99ea3fc17e72e066fbe355f0b9290fc6d40ec400"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/sales-marketing/marketing.contact_data_cleanup.native.json",
+      "bytes": 27976,
+      "sha256": "f52d4a77fd29d7135bb2dca01df34877df1a8fa40cd9e86146e75b7f55b960be"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/sales-marketing/marketing.conversion_tracking.alternative.private.json",
+      "bytes": 192126,
+      "sha256": "0d09625b6a8cb86e46c274ec5b2ad9f2ac21738d6b8517e967bf4a8edb8e7c51"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/sales-marketing/marketing.conversion_tracking.api-schemas.private.json",
+      "bytes": 18783,
+      "sha256": "18d478183a5dc0279458014683fc0d13f6ff3f3c2c642cc450efb6cff1af86c2"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/sales-marketing/marketing.conversion_tracking.inspection-trace.private.json",
+      "bytes": 98002,
+      "sha256": "64c1fb08c181a737d6c795609112368bfbd1f729f00276a3fa1f717a92fcfc94"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/sales-marketing/marketing.conversion_tracking.native.json",
+      "bytes": 18588,
+      "sha256": "b56981229204ffb4b8d28ed490f45014e8a0caf36d2dc5a77c517a03af11d058"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/sales-marketing/marketing.conversion_tracking.visible.private.json",
+      "bytes": 17692,
+      "sha256": "6b7a1b959d09a7ba232755154cd2d7b12fb0620f2917a4ce8d4496cebdfd677b"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/sales-marketing/marketing.conversion_tracking.witness.json",
+      "bytes": 201514,
+      "sha256": "e6023f1cda1a340d4e306f70225f076c4ca04b1e3209e6bca48363ce8f38040c"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/sales-marketing/marketing.lifecycle_stage.native.json",
+      "bytes": 39364,
+      "sha256": "7dc2b22a1e63f64ad70dcd8378216ee2c2fa5d4189b0d7bc1d1d6e7a350c01f6"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/sales-marketing/marketing.linkedin_company_update.alternative.private.json",
+      "bytes": 149790,
+      "sha256": "669b84badbfa9683183c66386398e0e2c2618824c109680d289b9d44839433a4"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/sales-marketing/marketing.linkedin_company_update.api-schemas.private.json",
+      "bytes": 37934,
+      "sha256": "d5a59b2fd4682bf2c3e005e78f7183c7d4d5ab53fae2365ec7ea255057ea9e39"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/sales-marketing/marketing.linkedin_company_update.inspection-trace.private.json",
+      "bytes": 49486,
+      "sha256": "0b9db1e5e502e1da3f0149dbb28332e847b3151b308014adecfa65a7dc0c46cc"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/sales-marketing/marketing.linkedin_company_update.native.json",
+      "bytes": 14800,
+      "sha256": "19a9698ceddd1135a4ea3c0021d1333ca1012ec14f38f079d771f00c3be57c11"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/sales-marketing/marketing.linkedin_company_update.visible.private.json",
+      "bytes": 12522,
+      "sha256": "33a4cd8c9a1c7cf9620c0cf63ceecdb0aea1c90965e281a5f01c7726f363e50f"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/sales-marketing/marketing.linkedin_company_update.witness.json",
+      "bytes": 155002,
+      "sha256": "e6161c5dc48e88147d790589fc6b1d913c360659dc11bf8475f0e5d08bee4bde"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/sales-marketing/marketing.newsletter_unsubscribe_processing.native.json",
+      "bytes": 23606,
+      "sha256": "a9a4281e3ae6fff409532afe9b91890455f3c22706a308457454ffeb1e6d3779"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/sales-marketing/marketing.social_contest.alternative.private.json",
+      "bytes": 272156,
+      "sha256": "4b7572d04b896e668554c106f0a286dedfaf59a295b52b854df2cb1a7a252c75"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/sales-marketing/marketing.social_contest.inspection-trace.private.json",
+      "bytes": 184572,
+      "sha256": "6a3620a35beaec82c2aad48a04701547d2a2285e2c647f361c7c778f845af43e"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/sales-marketing/marketing.social_contest.native.json",
+      "bytes": 31508,
+      "sha256": "6174bf34b74fdad8c8b4b070200d9b2d5825eaa4bd303c0f5a60f0ebb0fcc26d"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/sales-marketing/marketing.social_contest.visible.private.json",
+      "bytes": 21449,
+      "sha256": "572c43a28b148b1d5d556a9352c2b12d0ed407fe6ed832bddd1a7aa93fa3f1c7"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/sales-marketing/marketing.social_contest.witness.json",
+      "bytes": 282731,
+      "sha256": "12ec7f54a554184899a79f905a7c4a7d10b18295decd32de7f8da652513c50a9"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/sales-marketing/negative_checks.log",
+      "bytes": 3348,
+      "sha256": "5c4b48105bba8b1de9455dd4a9306e2fe86c38a2a79ce8108e9e99bc259686e8"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/sales-marketing/negative_checks.py",
+      "bytes": 11236,
+      "sha256": "b57d387e868c7fcf04d0cdc34d980d7c0ef7adf9623acacc9246bd4ca131cb23"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/sales-marketing/positive-audit.private.json",
+      "bytes": 121268,
+      "sha256": "b9ce8e4b60603c389643f96ad94f9506c368ba36f67e59005d0c047592c6d38c"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/sales-marketing/raw-task-catalog.json",
+      "bytes": 7389869,
+      "sha256": "c73660dddc97a7666234758c9a3d6e0d4cbc467d6dde1caf362d542e81fdf1f1"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/sales-marketing/recommended-candidates.public.json",
+      "bytes": 3,
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/sales-marketing/results-manifest.public.json",
+      "bytes": 7916,
+      "sha256": "4aa9857c7e37a8217aac7ed04ccf7a70e61a0a90c8018813e17f86a45d48c5b3"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/sales-marketing/run_audit.log",
+      "bytes": 1031,
+      "sha256": "42420bf06e2a98f55d663dcfd1673478f6c282c08a130c1703d9a36506121add"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/sales-marketing/run_audit.py",
+      "bytes": 2954,
+      "sha256": "318d68ac083b5d370b78375f9529f5dbfb09b22eae392af370a334adbe4bd01e"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/sales-marketing/runtime.py",
+      "bytes": 549,
+      "sha256": "f824b88d6a32f138f8c60ec7e53c0a8f12e00713f344219d6f55f9298421d629"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/sales-marketing/sales.add_contact_to_campaign.native.json",
+      "bytes": 49026,
+      "sha256": "51faf91730e4f49c2eb64f5114e88e6f7b500bf6027ec1a7c58c2b88c1effee5"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/sales-marketing/sales.calendar_crm_meeting.alternative.private.json",
+      "bytes": 674429,
+      "sha256": "5dafde9797620148638089570c5ddf13b5f386bed0c7bbe4eef4c03cee5ac8b6"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/sales-marketing/sales.calendar_crm_meeting.api-schemas.private.json",
+      "bytes": 43768,
+      "sha256": "3104b8288ba96b58e6bca6df4dc4dad79795c17bb7bf3e9d1da59f577aeaf1f3"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/sales-marketing/sales.calendar_crm_meeting.inspection-trace.private.json",
+      "bytes": 230141,
+      "sha256": "2d5096b4f23a2cc287ad64fdf726c52b7d92bd6c6147f0f2f341d4c6334350e4"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/sales-marketing/sales.calendar_crm_meeting.native.json",
+      "bytes": 73109,
+      "sha256": "01ece3dc4f60ce7f3c94911a400eccd0aaab4c8b553249c167a3dd05290ce708"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/sales-marketing/sales.calendar_crm_meeting.visible.private.json",
+      "bytes": 122939,
+      "sha256": "ce323d554cd9937f504342a1f0b6c4b00ce7cea8670dafd7d3f2612bda2d7f90"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/sales-marketing/sales.calendar_crm_meeting.witness.json",
+      "bytes": 681268,
+      "sha256": "33dbdaed2e33af9cd11be5ac3e3069bcbea707ad172c6318fd6f1951c40e2d3f"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/sales-marketing/sales.calendly_availability_based_routing.inspection-trace.private.json",
+      "bytes": 153923,
+      "sha256": "92f0d54c5298f9496801f1ca42da131f8306ece27e8c1fdc6023bd81e1609dca"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/sales-marketing/sales.calendly_availability_based_routing.native.json",
+      "bytes": 57336,
+      "sha256": "bca034fd5c5240851bbc2e3f4b97719052e8fb79bc71724f36c637132cde6273"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/sales-marketing/sales.calendly_availability_based_routing.visible.private.json",
+      "bytes": 52223,
+      "sha256": "d1b3e5dfc85d8dee30338f6fcc1bab87747a7312b9ab261266ebeac62150e1ef"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/sales-marketing/sales.create_new_opportunity.alternative.private.json",
+      "bytes": 755435,
+      "sha256": "87883dcc6bbc2e25b907493f92b8eec7c3caaa0c2eac99b29195b47dafe00fc2"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/sales-marketing/sales.create_new_opportunity.inspection-trace.private.json",
+      "bytes": 271492,
+      "sha256": "9cbeeb4faad52efae3387e6fd2108c9b8ce8ce08ace399c81eeb512931397a5c"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/sales-marketing/sales.create_new_opportunity.native.json",
+      "bytes": 76110,
+      "sha256": "768a93d39f0b6ed4dd4c116d14f5d3c4a1c0846e7264e0a549c0ae107e9ef363"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/sales-marketing/sales.create_new_opportunity.visible.private.json",
+      "bytes": 143245,
+      "sha256": "9c58477f0390de835799157233c8fdbcb2234a31cad88c1cf452e402c6e3db99"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/sales-marketing/sales.create_new_opportunity.witness.json",
+      "bytes": 762924,
+      "sha256": "240b9e2ed18880679f4d7585ddfeff70fe9feb30f518187b4e1005c9c9af036a"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/sales-marketing/sales.five_level_conditional.alternative.private.json",
+      "bytes": 403097,
+      "sha256": "c2b347304168d93ed9584699a1a5b5ab980b3ac964a0fae6a686801bb2befad2"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/sales-marketing/sales.five_level_conditional.api-schemas.private.json",
+      "bytes": 11257,
+      "sha256": "b1fb13dafb0197798027dbe896b8a9fcef049f41073fbc1f0f2ad0ed61290616"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/sales-marketing/sales.five_level_conditional.inspection-trace.private.json",
+      "bytes": 146363,
+      "sha256": "b42c3db386652878895ade369c8276bec96dc2707ab22711de633afa74d54590"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/sales-marketing/sales.five_level_conditional.native.json",
+      "bytes": 27991,
+      "sha256": "44723bd9ef7690e9ffcf17194ff03533035ad8da8ae20435c71b7e2073af5fb9"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/sales-marketing/sales.five_level_conditional.visible.private.json",
+      "bytes": 56159,
+      "sha256": "7fb70a8bf78d2633d21b3f703c5749067b53eb8f18f23cad7e78d2c94285f926"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/sales-marketing/sales.five_level_conditional.witness.json",
+      "bytes": 411165,
+      "sha256": "9d65f777e12c7bbd04d024d767edb6fae11925adfedab0d84d652b14e919c877"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/sales-marketing/sales.implicit_rules.alternative.private.json",
+      "bytes": 488559,
+      "sha256": "06345e8cbc50303075f0b45503abf4e3ad6364ff44342f83908c77fe9263b552"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/sales-marketing/sales.implicit_rules.inspection-trace.private.json",
+      "bytes": 187895,
+      "sha256": "45bf6d744c045f5b636e6a9a278f616dfab4075538395673076a19fdae80f5c7"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/sales-marketing/sales.implicit_rules.native.json",
+      "bytes": 54591,
+      "sha256": "d3c7d179d0f0ed94396844505b5eff7d58124671c9cfddfc8c4841f9c2ceb0b1"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/sales-marketing/sales.implicit_rules.visible.private.json",
+      "bytes": 83802,
+      "sha256": "c96cd71cbda6c5bdfe348f8e17eac86c18aa3b4381e259f1aa042f0106d21874"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/sales-marketing/sales.implicit_rules.witness.json",
+      "bytes": 498973,
+      "sha256": "90c1e81a48caaf8b593d07dd18b645c701af6c6ec35069faa39fd343ea97f432"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/sales-marketing/sales.mark_vip_emails_read.alternative.private.json",
+      "bytes": 595426,
+      "sha256": "e2a79d25eb63f78499af78fb75a15c1c86988b332d70d6827dd5fcc51a304db8"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/sales-marketing/sales.mark_vip_emails_read.inspection-trace.private.json",
+      "bytes": 218936,
+      "sha256": "1b109d31dca298fe8453e3cae066e3044ee7ed4241ad4b2fdfc2683cf4f116aa"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/sales-marketing/sales.mark_vip_emails_read.native.json",
+      "bytes": 70050,
+      "sha256": "30677794efc3149d42f25d611f7ed9044b5da77fe6a542dcebaedfd38f7d6e88"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/sales-marketing/sales.mark_vip_emails_read.visible.private.json",
+      "bytes": 109481,
+      "sha256": "cd154b3e039c740472c24f9adfaa3b68309ec253928d424798e44d260fb57c6c"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/sales-marketing/sales.mark_vip_emails_read.witness.json",
+      "bytes": 604808,
+      "sha256": "da433340b7fef6f0d52a2fed8105a01206f4d4b61fa8c2364ac88f676cdc8407"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/sales-marketing/sales.sheets_reconciliation.alternative.private.json",
+      "bytes": 416858,
+      "sha256": "180885b63e67fe6744fd62ffe9144bb45c4a35c2c2f1ae2ddc290e003d5c1af1"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/sales-marketing/sales.sheets_reconciliation.inspection-trace.private.json",
+      "bytes": 179556,
+      "sha256": "be4bddcbc0a03f1780e5aaf4f7eea2f24dfcdb97f14052c3816e8a73a60f9022"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/sales-marketing/sales.sheets_reconciliation.native.json",
+      "bytes": 25096,
+      "sha256": "3bf02ec9744cfcdaee39e59b9cc5eec9d6f39f655be853ea8eb4d52497d4ba38"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/sales-marketing/sales.sheets_reconciliation.visible.private.json",
+      "bytes": 46949,
+      "sha256": "2194bfc274a634fb1efcdffd130347c056381dc0cdc6be26c5a7a69b88e7936e"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/sales-marketing/sales.sheets_reconciliation.witness.json",
+      "bytes": 426563,
+      "sha256": "6c5b2d7294defe2dbcf94b6fb9e58bf345a0438b29c37e58ebc1d2b504683dc6"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/sales-marketing/selection-evidence.private.json",
+      "bytes": 120092,
+      "sha256": "c31cf65ae47ebe634a4ee97560ae019de61aba9e7b1aa7aed1392aaa2920b536"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/sales-marketing/source-inspection-scope.public.json",
+      "bytes": 3533,
+      "sha256": "2d0c51f0a713941fbdac9f4d48fdd4d9c099a06b33411e84339d7b98c9af7130"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/sales-marketing/source-screen-proof.private.json",
+      "bytes": 80820,
+      "sha256": "e540086e94bdc58536208d43be0b9f8419208f05bb973f1bb0653523c052e220"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/sales-marketing/source_screen.log",
+      "bytes": 40,
+      "sha256": "43279fd4bef38739cb13b429b84fb973631d3e55ea7e9882c103c7d78dab11fb"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/sales-marketing/source_screen.py",
+      "bytes": 7361,
+      "sha256": "0a693689e2e92ccd3eff4eda09b617bca6127e138283a088186f95897db8d989"
+    },
+    {
+      "cached_path": "benchmarks/cache/automationbench-toward210-20261005/audit/sales-marketing/witness_support.py",
+      "bytes": 6235,
+      "sha256": "2b64f38454f80abd830163afeebd6920ebe5daa9b24e6832cfef12e34cff6c89"
+    }
+  ]
+}

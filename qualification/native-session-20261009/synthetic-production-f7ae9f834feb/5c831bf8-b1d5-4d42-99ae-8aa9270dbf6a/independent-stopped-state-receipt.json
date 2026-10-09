@@ -1,0 +1,9 @@
+{
+  "kind": "stopped_synthetic_state_preservation",
+  "original_tar_sha256": "d0caacf4eedb82cc339e9577991b75cee9c8a43fc9af491154bb91a821562b0f",
+  "inventory_sha256": "6379b60042ff144d7f2e692988d434278e309619579fb88015f7a78cb9e1b6b6",
+  "original_worker_archive_failed": true,
+  "source_container_stopped": true,
+  "study_admitted": false,
+  "relative_internal_links_only": true
+}

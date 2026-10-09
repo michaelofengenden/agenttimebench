@@ -1,0 +1,104 @@
+test_action_string_injection_stays_a_literal_argument (test_assistantbench_bridge.BridgeTests.test_action_string_injection_stays_a_literal_argument) ... FAIL
+test_arbitrary_python_uploads_and_unknown_arguments_are_rejected (test_assistantbench_bridge.BridgeTests.test_arbitrary_python_uploads_and_unknown_arguments_are_rejected) ... FAIL
+test_claimed_directory_cannot_be_reused_and_attempts_are_independent (test_assistantbench_bridge.BridgeTests.test_claimed_directory_cannot_be_reused_and_attempts_are_independent) ... FAIL
+test_concurrent_calls_are_serialized_without_losing_actions (test_assistantbench_bridge.BridgeTests.test_concurrent_calls_are_serialized_without_losing_actions) ... FAIL
+test_mcp_errors_never_expose_exception_details_or_host_paths (test_assistantbench_bridge.BridgeTests.test_mcp_errors_never_expose_exception_details_or_host_paths) ... FAIL
+test_mcp_handshake_tool_listing_and_calls_are_standard_json_rpc (test_assistantbench_bridge.BridgeTests.test_mcp_handshake_tool_listing_and_calls_are_standard_json_rpc) ... FAIL
+test_native_submission_is_sealed_once_and_not_regraded (test_assistantbench_bridge.BridgeTests.test_native_submission_is_sealed_once_and_not_regraded) ... FAIL
+test_no_task_work_cap_is_exposed_in_tool_schema (test_assistantbench_bridge.BridgeTests.test_no_task_work_cap_is_exposed_in_tool_schema) ... FAIL
+test_observation_has_only_public_ax_tabs_and_image (test_assistantbench_bridge.BridgeTests.test_observation_has_only_public_ax_tabs_and_image) ... FAIL
+test_step_reward_and_info_never_enter_tool_response (test_assistantbench_bridge.BridgeTests.test_step_reward_and_info_never_enter_tool_response) ... FAIL
+test_submission_must_come_from_expected_native_callback (test_assistantbench_bridge.BridgeTests.test_submission_must_come_from_expected_native_callback) ... FAIL
+
+======================================================================
+FAIL: test_action_string_injection_stays_a_literal_argument (test_assistantbench_bridge.BridgeTests.test_action_string_injection_stays_a_literal_argument)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/michaelofengenden/Developer/TimeResearch/AgentTime-v1.1/tests/test_assistantbench_bridge.py", line 59, in setUp
+    self.assertIsNotNone(bridge_module, 'The AssistantBench bridge is not implemented')
+AssertionError: unexpectedly None : The AssistantBench bridge is not implemented
+
+======================================================================
+FAIL: test_arbitrary_python_uploads_and_unknown_arguments_are_rejected (test_assistantbench_bridge.BridgeTests.test_arbitrary_python_uploads_and_unknown_arguments_are_rejected)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/michaelofengenden/Developer/TimeResearch/AgentTime-v1.1/tests/test_assistantbench_bridge.py", line 59, in setUp
+    self.assertIsNotNone(bridge_module, 'The AssistantBench bridge is not implemented')
+AssertionError: unexpectedly None : The AssistantBench bridge is not implemented
+
+======================================================================
+FAIL: test_claimed_directory_cannot_be_reused_and_attempts_are_independent (test_assistantbench_bridge.BridgeTests.test_claimed_directory_cannot_be_reused_and_attempts_are_independent)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/michaelofengenden/Developer/TimeResearch/AgentTime-v1.1/tests/test_assistantbench_bridge.py", line 59, in setUp
+    self.assertIsNotNone(bridge_module, 'The AssistantBench bridge is not implemented')
+AssertionError: unexpectedly None : The AssistantBench bridge is not implemented
+
+======================================================================
+FAIL: test_concurrent_calls_are_serialized_without_losing_actions (test_assistantbench_bridge.BridgeTests.test_concurrent_calls_are_serialized_without_losing_actions)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/michaelofengenden/Developer/TimeResearch/AgentTime-v1.1/tests/test_assistantbench_bridge.py", line 59, in setUp
+    self.assertIsNotNone(bridge_module, 'The AssistantBench bridge is not implemented')
+AssertionError: unexpectedly None : The AssistantBench bridge is not implemented
+
+======================================================================
+FAIL: test_mcp_errors_never_expose_exception_details_or_host_paths (test_assistantbench_bridge.BridgeTests.test_mcp_errors_never_expose_exception_details_or_host_paths)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/michaelofengenden/Developer/TimeResearch/AgentTime-v1.1/tests/test_assistantbench_bridge.py", line 59, in setUp
+    self.assertIsNotNone(bridge_module, 'The AssistantBench bridge is not implemented')
+AssertionError: unexpectedly None : The AssistantBench bridge is not implemented
+
+======================================================================
+FAIL: test_mcp_handshake_tool_listing_and_calls_are_standard_json_rpc (test_assistantbench_bridge.BridgeTests.test_mcp_handshake_tool_listing_and_calls_are_standard_json_rpc)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/michaelofengenden/Developer/TimeResearch/AgentTime-v1.1/tests/test_assistantbench_bridge.py", line 59, in setUp
+    self.assertIsNotNone(bridge_module, 'The AssistantBench bridge is not implemented')
+AssertionError: unexpectedly None : The AssistantBench bridge is not implemented
+
+======================================================================
+FAIL: test_native_submission_is_sealed_once_and_not_regraded (test_assistantbench_bridge.BridgeTests.test_native_submission_is_sealed_once_and_not_regraded)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/michaelofengenden/Developer/TimeResearch/AgentTime-v1.1/tests/test_assistantbench_bridge.py", line 59, in setUp
+    self.assertIsNotNone(bridge_module, 'The AssistantBench bridge is not implemented')
+AssertionError: unexpectedly None : The AssistantBench bridge is not implemented
+
+======================================================================
+FAIL: test_no_task_work_cap_is_exposed_in_tool_schema (test_assistantbench_bridge.BridgeTests.test_no_task_work_cap_is_exposed_in_tool_schema)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/michaelofengenden/Developer/TimeResearch/AgentTime-v1.1/tests/test_assistantbench_bridge.py", line 59, in setUp
+    self.assertIsNotNone(bridge_module, 'The AssistantBench bridge is not implemented')
+AssertionError: unexpectedly None : The AssistantBench bridge is not implemented
+
+======================================================================
+FAIL: test_observation_has_only_public_ax_tabs_and_image (test_assistantbench_bridge.BridgeTests.test_observation_has_only_public_ax_tabs_and_image)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/michaelofengenden/Developer/TimeResearch/AgentTime-v1.1/tests/test_assistantbench_bridge.py", line 59, in setUp
+    self.assertIsNotNone(bridge_module, 'The AssistantBench bridge is not implemented')
+AssertionError: unexpectedly None : The AssistantBench bridge is not implemented
+
+======================================================================
+FAIL: test_step_reward_and_info_never_enter_tool_response (test_assistantbench_bridge.BridgeTests.test_step_reward_and_info_never_enter_tool_response)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/michaelofengenden/Developer/TimeResearch/AgentTime-v1.1/tests/test_assistantbench_bridge.py", line 59, in setUp
+    self.assertIsNotNone(bridge_module, 'The AssistantBench bridge is not implemented')
+AssertionError: unexpectedly None : The AssistantBench bridge is not implemented
+
+======================================================================
+FAIL: test_submission_must_come_from_expected_native_callback (test_assistantbench_bridge.BridgeTests.test_submission_must_come_from_expected_native_callback)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/michaelofengenden/Developer/TimeResearch/AgentTime-v1.1/tests/test_assistantbench_bridge.py", line 59, in setUp
+    self.assertIsNotNone(bridge_module, 'The AssistantBench bridge is not implemented')
+AssertionError: unexpectedly None : The AssistantBench bridge is not implemented
+
+----------------------------------------------------------------------
+Ran 11 tests in 0.001s
+
+FAILED (failures=11)

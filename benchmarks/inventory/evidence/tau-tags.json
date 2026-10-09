@@ -1,0 +1,92 @@
+[
+  {
+    "name": "voice-user-sim-v1.0",
+    "zipball_url": "https://api.github.com/repos/sierra-research/tau2-bench/zipball/refs/tags/voice-user-sim-v1.0",
+    "tarball_url": "https://api.github.com/repos/sierra-research/tau2-bench/tarball/refs/tags/voice-user-sim-v1.0",
+    "commit": {
+      "sha": "17e07b1da2bbc0cadfddeea36412686e0604127b",
+      "url": "https://api.github.com/repos/sierra-research/tau2-bench/commits/17e07b1da2bbc0cadfddeea36412686e0604127b"
+    },
+    "node_id": "REF_kwDOO47r5L1yZWZzL3RhZ3Mvdm9pY2UtdXNlci1zaW0tdjEuMA"
+  },
+  {
+    "name": "v1.0.1",
+    "zipball_url": "https://api.github.com/repos/sierra-research/tau2-bench/zipball/refs/tags/v1.0.1",
+    "tarball_url": "https://api.github.com/repos/sierra-research/tau2-bench/tarball/refs/tags/v1.0.1",
+    "commit": {
+      "sha": "fc0055dc4e0a316c3f83133267fbd6faaa770992",
+      "url": "https://api.github.com/repos/sierra-research/tau2-bench/commits/fc0055dc4e0a316c3f83133267fbd6faaa770992"
+    },
+    "node_id": "REF_kwDOO47r5LByZWZzL3RhZ3MvdjEuMC4x"
+  },
+  {
+    "name": "v1.0.0",
+    "zipball_url": "https://api.github.com/repos/sierra-research/tau2-bench/zipball/refs/tags/v1.0.0",
+    "tarball_url": "https://api.github.com/repos/sierra-research/tau2-bench/tarball/refs/tags/v1.0.0",
+    "commit": {
+      "sha": "17e07b1da2bbc0cadfddeea36412686e0604127b",
+      "url": "https://api.github.com/repos/sierra-research/tau2-bench/commits/17e07b1da2bbc0cadfddeea36412686e0604127b"
+    },
+    "node_id": "REF_kwDOO47r5LByZWZzL3RhZ3MvdjEuMC4w"
+  },
+  {
+    "name": "v0.2.0",
+    "zipball_url": "https://api.github.com/repos/sierra-research/tau2-bench/zipball/refs/tags/v0.2.0",
+    "tarball_url": "https://api.github.com/repos/sierra-research/tau2-bench/tarball/refs/tags/v0.2.0",
+    "commit": {
+      "sha": "f8de30c298689cbe0117d76a378e7315a17e5bd8",
+      "url": "https://api.github.com/repos/sierra-research/tau2-bench/commits/f8de30c298689cbe0117d76a378e7315a17e5bd8"
+    },
+    "node_id": "REF_kwDOO47r5LByZWZzL3RhZ3MvdjAuMi4w"
+  },
+  {
+    "name": "v0.1.3",
+    "zipball_url": "https://api.github.com/repos/sierra-research/tau2-bench/zipball/refs/tags/v0.1.3",
+    "tarball_url": "https://api.github.com/repos/sierra-research/tau2-bench/tarball/refs/tags/v0.1.3",
+    "commit": {
+      "sha": "5ba9e3e56db57c5e4114bf7f901291f09b2c5619",
+      "url": "https://api.github.com/repos/sierra-research/tau2-bench/commits/5ba9e3e56db57c5e4114bf7f901291f09b2c5619"
+    },
+    "node_id": "REF_kwDOO47r5LByZWZzL3RhZ3MvdjAuMS4z"
+  },
+  {
+    "name": "v0.1.2",
+    "zipball_url": "https://api.github.com/repos/sierra-research/tau2-bench/zipball/refs/tags/v0.1.2",
+    "tarball_url": "https://api.github.com/repos/sierra-research/tau2-bench/tarball/refs/tags/v0.1.2",
+    "commit": {
+      "sha": "40f46d3540dc95aca145ddecb0464fdd9a1e8c15",
+      "url": "https://api.github.com/repos/sierra-research/tau2-bench/commits/40f46d3540dc95aca145ddecb0464fdd9a1e8c15"
+    },
+    "node_id": "REF_kwDOO47r5LByZWZzL3RhZ3MvdjAuMS4y"
+  },
+  {
+    "name": "v0.1.1",
+    "zipball_url": "https://api.github.com/repos/sierra-research/tau2-bench/zipball/refs/tags/v0.1.1",
+    "tarball_url": "https://api.github.com/repos/sierra-research/tau2-bench/tarball/refs/tags/v0.1.1",
+    "commit": {
+      "sha": "2692867959fd4abe6275f0a628fcea91627d4091",
+      "url": "https://api.github.com/repos/sierra-research/tau2-bench/commits/2692867959fd4abe6275f0a628fcea91627d4091"
+    },
+    "node_id": "REF_kwDOO47r5LByZWZzL3RhZ3MvdjAuMS4x"
+  },
+  {
+    "name": "v0.1.0",
+    "zipball_url": "https://api.github.com/repos/sierra-research/tau2-bench/zipball/refs/tags/v0.1.0",
+    "tarball_url": "https://api.github.com/repos/sierra-research/tau2-bench/tarball/refs/tags/v0.1.0",
+    "commit": {
+      "sha": "37199f36924c8896f5e048360691f8476cd89ba1",
+      "url": "https://api.github.com/repos/sierra-research/tau2-bench/commits/37199f36924c8896f5e048360691f8476cd89ba1"
+    },
+    "node_id": "REF_kwDOO47r5LByZWZzL3RhZ3MvdjAuMS4w"
+  },
+  {
+    "name": "pre-v1.0.1",
+    "zipball_url": "https://api.github.com/repos/sierra-research/tau2-bench/zipball/refs/tags/pre-v1.0.1",
+    "tarball_url": "https://api.github.com/repos/sierra-research/tau2-bench/tarball/refs/tags/pre-v1.0.1",
+    "commit": {
+      "sha": "b51a6d69e26f0e94a9173e2e80fe8735a8dff650",
+      "url": "https://api.github.com/repos/sierra-research/tau2-bench/commits/b51a6d69e26f0e94a9173e2e80fe8735a8dff650"
+    },
+    "node_id": "REF_kwDOO47r5LRyZWZzL3RhZ3MvcHJlLXYxLjAuMQ"
+  }
+]

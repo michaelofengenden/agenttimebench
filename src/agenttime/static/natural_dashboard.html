@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>AgentTime · Natural runs</title>
+<style>
+:root{color-scheme:light;font:15px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:#18312f;background:#f5f7fa;font-synthesis:none;--muted:#65716f;--blue:#2866a8;--amber:#976313;--rule:#d9e1e6}*{box-sizing:border-box}body{margin:0}main{max-width:1420px;margin:auto;padding:32px 34px 64px}h1{font-size:30px;letter-spacing:-.035em;line-height:1.15;margin:4px 0 10px;font-weight:650}h2{font-size:16px;margin:0;font-weight:600}p{margin:0}header{display:flex;align-items:flex-start;justify-content:space-between;gap:28px;padding-bottom:24px}header .context{font-size:13px;color:var(--muted)}header .session{margin-top:8px;font-size:13px;color:var(--muted)}.freshness{text-align:right;min-width:190px;font-size:13px;padding-top:8px}.freshness strong{display:block;font-weight:600}.freshness span{color:var(--muted);display:block;margin-top:3px}.freshness.stale strong,.freshness.unknown strong{color:var(--amber)}.banner{padding:13px 16px;border:1px solid #dccaa9;background:#fff9ef;border-radius:6px;color:#70501a;font-size:13px;margin:0 0 20px}.banner[hidden]{display:none}.graph-panel{background:#fff;border:1px solid var(--rule);border-radius:8px;padding:22px 24px 14px}.graph-heading{display:flex;align-items:flex-start;justify-content:space-between;gap:24px}.concurrency{display:flex;align-items:baseline;gap:10px}.concurrency strong{font-size:34px;letter-spacing:-.045em;font-variant-numeric:tabular-nums;color:var(--blue);line-height:1}.graph-heading p{font-size:12px;color:var(--muted);margin-top:7px}.target{text-align:right;font-size:13px;color:var(--muted)}.target strong{color:#18312f;font-weight:600}.plot{width:100%;height:168px;display:block;margin-top:14px;overflow:visible}.plot text{font:11px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;fill:#65716f}.plot .grid{stroke:#e7ecef;stroke-width:1}.plot .target-line{stroke:#b5bdc4;stroke-width:1;stroke-dasharray:5 5}.plot .running-line{stroke:#2866a8;stroke-width:2.5;fill:none}.plot .waiting-line{stroke:#976313;stroke-width:2;fill:none}.plot .unknown-line{stroke:#976313;stroke-width:2;stroke-dasharray:3 3;fill:none}.plot .sample-dot{fill:#2866a8}.legend{display:flex;gap:20px;flex-wrap:wrap;align-items:center;font-size:11px;color:var(--muted);margin:2px 0 0}.legend span{display:flex;align-items:center;gap:6px}.line-key{width:20px;height:2px;background:#2866a8}.line-key.wait{background:#976313}.line-key.unknown{background:repeating-linear-gradient(to right,#976313 0 3px,transparent 3px 6px)}.graph-note{margin-left:auto!important;max-width:620px}.counts{display:flex;gap:8px;flex-wrap:wrap;padding:18px 0 22px}.counts button{font:inherit;font-size:13px;background:transparent;border:1px solid transparent;border-radius:5px;padding:7px 10px;cursor:pointer;color:var(--muted)}.counts button strong{color:#18312f;font-weight:650;margin-left:6px;font-variant-numeric:tabular-nums}.counts button[aria-pressed=true]{background:white;border-color:var(--rule);color:#18312f}.filters{display:flex;align-items:end;gap:14px;margin-bottom:14px}.filters label{display:flex;flex-direction:column;gap:5px;font-size:12px;color:var(--muted)}.filters label:first-child{flex:1;max-width:460px}.filters input,.filters select{font:inherit;font-size:14px;color:#18312f;background:#fff;border:1px solid #c6d0d8;border-radius:5px;padding:9px 11px;min-height:40px}.filters select{min-width:160px}.row-count{font-size:12px;color:var(--muted);margin-left:auto;padding-bottom:10px}input:focus-visible,select:focus-visible,button:focus-visible{outline:2px solid var(--blue);outline-offset:3px}.table-wrap{background:#fff;border:1px solid var(--rule);border-radius:7px;overflow:auto;max-height:65vh}table{width:100%;border-collapse:collapse;table-layout:fixed}th{text-align:left;font-size:12px;font-weight:600;color:var(--muted);padding:12px 16px;background:#f9fbfc;border-bottom:1px solid var(--rule);position:sticky;top:0;z-index:1}th:nth-child(1){width:30%}th:nth-child(2){width:26%}th:nth-child(3){width:18%}th:nth-child(4),th:nth-child(5){width:13%}td{vertical-align:top;padding:15px 16px;border-top:1px solid #e8edf0;font-size:13px}tbody tr:first-child td{border-top:0}.task-button{border:0;padding:0;background:transparent;color:#18312f;text-align:left;font:inherit;font-weight:600;cursor:pointer;overflow-wrap:anywhere}.task-button:hover{text-decoration:underline;text-underline-offset:3px}.sub{display:block;margin-top:4px;font-size:11px;line-height:1.5;color:var(--muted);overflow-wrap:anywhere}.badge{display:inline-block;font-size:12px;line-height:1.3;padding:4px 7px;background:#eef2f4;color:#465653;border-radius:4px;font-weight:550}.badge.running{color:#205285;background:#eaf2fa}.badge.waiting,.badge.blocked,.badge.unknown{color:#795119;background:#fff3df}.badge.finished{color:#24574d;background:#edf5f2}.state-detail{display:block;color:var(--muted);font-size:11px;margin-top:6px;max-width:360px;overflow-wrap:anywhere}.time{font-variant-numeric:tabular-nums;font-weight:600}.details td{padding:0 20px 18px;background:#f9fbfc}.details dl{display:grid;grid-template-columns:180px 1fr;gap:7px 18px;margin:18px 0;font-size:12px}.details dt{color:var(--muted)}.details dd{margin:0;overflow-wrap:anywhere}.detail-note{font-size:12px;color:var(--muted);max-width:80ch}.empty{padding:44px 20px;text-align:center;color:var(--muted);font-size:14px}.footer{font-size:12px;color:var(--muted);margin-top:18px;max-width:100ch}.muted{color:var(--muted)}.critical{color:var(--amber)}@media(max-width:820px){main{padding:24px 18px 44px}header{display:block}.freshness{text-align:left;padding-top:15px}h1{font-size:26px}.graph-panel{padding:18px 16px 14px}.graph-heading{gap:12px}.concurrency{display:block}.concurrency strong{display:block;margin-bottom:6px}.graph-note{margin-left:0!important}.filters{flex-wrap:wrap;gap:10px}.filters label:first-child{max-width:none;flex-basis:100%}.filters label{flex:1}.filters select{min-width:0;width:100%}.row-count{flex-basis:100%;padding:0}.table-wrap{max-height:none}table,tbody{display:block}thead{display:none}tr{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));border-top:1px solid var(--rule)}tbody tr:first-child{border-top:0}td{display:block;border-top:0;padding:13px 12px}td:first-child{grid-column:1/3}td:nth-child(2){grid-column:3;padding-left:4px}td:nth-child(n+3){padding-top:0}td:nth-child(n+3)::before{content:attr(data-label);display:block;font-size:10px;color:var(--muted);margin-bottom:4px}.details td,.empty{grid-column:1/-1}.details dl{grid-template-columns:1fr;gap:2px}.details dd{margin-bottom:7px}.counts{gap:0}.counts button{padding:7px}.target{max-width:120px}.plot{height:146px}}@media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important}}
+</style>
+</head>
+<body>
+<main>
+<header><div><p class="context">AgentTime v1.1 / Natural runtime pilot</p><h1 id="title">Waiting for run metadata</h1><p class="session" id="session">Read-only local dashboard</p></div><div class="freshness unknown" id="freshness" role="status" aria-live="polite"><strong id="freshness-label">No observation yet</strong><span id="freshness-detail">Connecting to the local status source</span></div></header>
+<p class="banner" id="banner" hidden></p>
+<section class="graph-panel" aria-labelledby="concurrency-label"><div class="graph-heading"><div><div class="concurrency"><strong id="active">—</strong><h2 id="concurrency-label">active natural attempts</h2></div><p id="overlap">Native prompt release through owned-work drain</p></div><div class="target"><strong id="target">Target not loaded</strong><p id="peak">Peak not observed</p></div></div><svg class="plot" id="plot" viewBox="0 0 1080 168" role="img" aria-label="Observed concurrency over time"></svg><div class="legend"><span><i class="line-key"></i>Active natural attempts</span><span><i class="line-key wait"></i>Waiting (included)</span><span><i class="line-key unknown"></i>Unknown</span><span class="graph-note">Worker processes alone do not establish simultaneous model execution.</span></div></section>
+<div class="counts" id="counts" aria-label="Filter tasks by state"></div>
+<section aria-label="Selected natural tasks"><div class="filters"><label>Find a task<input id="search" type="search" placeholder="Task or benchmark"></label><label>Benchmark<select id="benchmark"><option value="">All benchmarks</option></select></label><label>State<select id="state"><option value="">All states</option></select></label><p class="row-count" id="row-count">No task metadata loaded</p></div><div class="table-wrap"><table><thead><tr><th>Task</th><th>State</th><th>Time</th><th>Grade</th><th>Archive</th></tr></thead><tbody id="rows"><tr><td class="empty" colspan="5">Waiting for a valid metadata snapshot. No execution state is inferred.</td></tr></tbody></table></div></section>
+<p class="footer">Elapsed time is a live observation. Verified runtime is shown only after timing checks. A finished attempt can still need grading or archive transfer. This view contains no forecasts, answers or session reasoning.</p>
+</main>
+<script>
+'use strict';
+const $ = id => document.getElementById(id);
+const node = (tag, text, cls) => { const value = document.createElement(tag); if (text !== undefined) value.textContent = text; if (cls) value.className = cls; return value; };
+const labels = {preparing:'Preparing',ready:'Ready',running:'Running',waiting:'Waiting',collecting:'Collecting',finished:'Finished',blocked:'Blocked',unknown:'Unknown'};
+const gradeLabels = {not_started:'Not started',queued:'Queued',running:'Grading',available:'Available',failed:'Grader failed',unavailable:'Unavailable'};
+const archiveLabels = {none:'Not captured',local:'Local copy',transferring:'Transferring',acknowledged:'Acknowledged',failed:'Transfer failed'};
+let current = null, receivedAt = 0, transportFailed = false;
+const expanded = new Set();
+function duration(value) { if (value === null || value === undefined || !Number.isFinite(value)) return 'Unavailable'; const s = Math.max(0, Math.floor(value)); if (s < 60) return s + 's'; if (s < 3600) return Math.floor(s / 60) + 'm ' + (s % 60) + 's'; return Math.floor(s / 3600) + 'h ' + Math.floor(s % 3600 / 60) + 'm'; }
+function date(value) { return value ? new Date(value).toLocaleString(undefined, {month:'short',day:'numeric',hour:'2-digit',minute:'2-digit',second:'2-digit',timeZoneName:'short'}) : 'Not observed'; }
+function freshness() {
+  if (!current) return {fresh:false,age:null};
+  const base = current.freshness.age_seconds;
+  const age = base === null ? null : base + (performance.now() - receivedAt) / 1000;
+  return {fresh:!transportFailed && current.freshness.status === 'fresh' && age !== null && age <= current.stale_after_seconds,age};
+}
+function renderFreshness() {
+  const f = freshness();
+  $('freshness').className = 'freshness ' + (f.fresh ? 'fresh' : current ? 'stale' : 'unknown');
+  $('freshness-label').textContent = !current ? 'No observation yet' : f.fresh ? 'Source is current' : transportFailed ? 'Connection interrupted' : current.freshness.status === 'unknown' ? 'Source time unverified' : 'Updates delayed';
+  $('freshness-detail').textContent = !current ? 'Waiting for valid local metadata' : f.age === null ? 'Source has not reported an observation time' : 'Last source observation ' + duration(f.age) + ' ago';
+  const messages = [];
+  if (transportFailed) messages.push('The local status source is unavailable. Last observed facts remain on screen; live timers are paused.');
+  else if (current && !f.fresh) messages.push('These observations are stale or their time is unverified. Live timers are paused.');
+  if (current && current.campaign.paused_reason) messages.push('New dispatch is paused: ' + current.campaign.paused_reason);
+  $('banner').hidden = !messages.length;
+  $('banner').textContent = messages.join(' ');
+}
+function renderTimes() {
+  if (!current) return;
+  const f = freshness();
+  for (const output of document.querySelectorAll('[data-elapsed-task]')) {
+    const task = current.tasks.find(t => t.task_id === output.dataset.elapsedTask);
+    if (!task) continue;
+    const timer = task.timing;
+    output.textContent = duration(timer.elapsed_seconds);
+    const caption = output.nextElementSibling;
+    if (caption) caption.textContent = f.fresh && timer.status === 'live' ? 'Elapsed / source observation' : 'Elapsed / last observation';
+  }
+}
+function svg(tag, attrs, text) { const e = document.createElementNS('http://www.w3.org/2000/svg', tag); for (const [k,v] of Object.entries(attrs)) e.setAttribute(k, String(v)); if (text !== undefined) e.textContent = text; return e; }
+function graph() {
+  const plot = $('plot'); plot.replaceChildren();
+  if (!current || !current.concurrency.length) { plot.append(svg('text',{x:540,y:78,'text-anchor':'middle'},'No native concurrency observations yet')); return; }
+  const points = current.concurrency, max = Math.max(1, current.campaign.target_concurrency);
+  const times = points.map(p => Date.parse(p.at)), lo = Math.min(...times), hi = Math.max(...times);
+  const x = t => hi === lo ? 54 : 54 + (t - lo) / (hi - lo) * 1006;
+  const y = n => 135 - n / max * 112;
+  for (const value of [0, Math.round(max / 2), max]) { plot.append(svg('line',{x1:54,x2:1060,y1:y(value),y2:y(value),class:value === max ? 'target-line':'grid'})); plot.append(svg('text',{x:38,y:y(value)+4,'text-anchor':'end'},value)); }
+  for (const [key, cls] of [['active','running-line'],['waiting','waiting-line'],['unknown','unknown-line']]) {
+    let d = '', previous = null;
+    for (let i=0;i<points.length;i++) {
+      const value = key === 'active' ? (points[i].running === null || points[i].waiting === null ? null : points[i].running + points[i].waiting) : points[i][key];
+      if (value === null) { previous = null; continue; }
+      d += previous === null ? ' M '+x(times[i])+' '+y(value) : ' H '+x(times[i])+' V '+y(value);
+      previous = value;
+    }
+    if (d) plot.append(svg('path',{d,class:cls}));
+  }
+  if (points.length === 1 && points[0].running !== null && points[0].waiting !== null) plot.append(svg('circle',{cx:x(times[0]),cy:y(points[0].running+points[0].waiting),r:3,class:'sample-dot'}));
+  const short = t => new Date(t).toLocaleTimeString(undefined,{hour:'2-digit',minute:'2-digit',second:'2-digit'});
+  plot.append(svg('text',{x:54,y:158},short(lo))); if (hi !== lo) plot.append(svg('text',{x:1060,y:158,'text-anchor':'end'},short(hi)));
+  plot.setAttribute('aria-label','Observed concurrency. Peak active natural attempts: '+current.counts.peak_active_native+'. Unknown attempts: '+current.counts.unknown+'.');
+}
+function showDetails(task, after) {
+  const tr = node('tr',undefined,'details'), td = node('td'); td.colSpan=5;
+  const dl = node('dl');
+  const values = [['Attempt',task.attempt_id || 'Not claimed'],['Last heartbeat',date(task.heartbeat_at)],['Prompt released',date(task.prompt_released_at)],['Native terminal',date(task.native_terminal_at)],['Owned work drained',date(task.owned_work_drained_at)],['Stopped resources',task.stop_verified ? 'Verified':'Not yet verified'],['Timing',task.timing.reason || task.timing.status],['Archive restoration',task.archive.restore_status]];
+  if (task.issue) values.push(['Issue',task.issue.code+': '+task.issue.message]);
+  for (const [label,value] of values) { dl.append(node('dt',label),node('dd',value)); }
+  td.append(dl,node('p','Grading and archive transfer do not alter when the agent completed its owned work.','detail-note')); tr.append(td); after.after(tr);
+}
+function renderRows() {
+  if (!current) return;
+  const query=$('search').value.toLowerCase().trim(), benchmark=$('benchmark').value, state=$('state').value;
+  const rows=current.tasks.filter(t => (!query || [t.label,t.task_id,t.benchmark].join(' ').toLowerCase().includes(query)) && (!benchmark || t.benchmark===benchmark) && (!state || t.state===state));
+  $('row-count').textContent=rows.length+' of '+current.tasks.length+' tasks'; $('rows').replaceChildren();
+  for (const task of rows) {
+    const tr=node('tr'), name=node('td'), button=node('button',task.label,'task-button'); button.type='button'; button.setAttribute('aria-expanded',String(expanded.has(task.task_id)));
+    button.addEventListener('click',()=>{if(expanded.has(task.task_id))expanded.delete(task.task_id);else expanded.add(task.task_id);renderRows();});
+    name.append(button,node('span',task.benchmark+' / '+task.task_id,'sub')); tr.append(name);
+    const stateCell=node('td'); stateCell.append(node('span',labels[task.state],'badge '+task.state)); if(task.detail)stateCell.append(node('span',task.detail,'state-detail')); tr.append(stateCell);
+    const time=node('td'); time.dataset.label='Time';
+    if(task.timing.status==='valid' && task.timing.runtime_seconds!==null)time.append(node('span',duration(task.timing.runtime_seconds),'time'),node('span','Verified runtime','sub'));
+    else if(task.timing.elapsed_seconds!==null){const elapsed=node('span',duration(task.timing.elapsed_seconds),'time');elapsed.dataset.elapsedTask=task.task_id;time.append(elapsed,node('span',task.timing.status==='live'?'Elapsed / live observation':'Elapsed / last observation','sub'));}
+    else time.append(node('span',task.timing.status==='not_started'?'Not started':'Unavailable','muted'));
+    tr.append(time);
+    const grade=node('td');grade.dataset.label='Grade'; const score=task.grade.value;
+    grade.append(node('span',task.grade.status==='available' && score!==null ? String(score)+(task.grade.scale===null?'':' / '+task.grade.scale) : gradeLabels[task.grade.status],['failed','unavailable'].includes(task.grade.status)?'critical':''));tr.append(grade);
+    const archive=node('td');archive.dataset.label='Archive';archive.append(node('span',archiveLabels[task.archive.status],task.archive.status==='failed'?'critical':''));if(task.archive.restore_status==='verified')archive.append(node('span','Restore verified','sub'));tr.append(archive);
+    $('rows').append(tr);if(expanded.has(task.task_id))showDetails(task,tr);
+  }
+  if(!rows.length){const tr=node('tr'),td=node('td','No tasks match these filters.','empty');td.colSpan=5;tr.append(td);$('rows').append(tr);}
+  renderTimes();
+}
+function render() {
+  $('title').textContent='Opus 5.5 / '+current.campaign.selected_tasks+' natural runs';
+  $('session').textContent=current.campaign.model+' / '+current.campaign.effort+' effort / '+current.campaign.route+' / '+current.campaign.phase;
+  $('active').textContent=current.counts.active_native+(current.counts.unknown ? ' + ?':'');
+  $('overlap').textContent=current.counts.unknown ? current.counts.unknown+' attempts have unknown execution state; their reservations remain held.' : 'Native prompt release through owned-work drain';
+  $('target').textContent='Target: '+current.campaign.target_concurrency;
+  $('peak').textContent='Observed peak: '+current.counts.peak_active_native;
+  $('counts').replaceChildren();
+  for (const [state,label] of Object.entries(labels)) { const b=node('button',label);b.type='button';b.append(node('strong',String(current.counts[state])));b.setAttribute('aria-pressed',String($('state').value===state));b.addEventListener('click',()=>{$('state').value=$('state').value===state?'':state;render();});$('counts').append(b); }
+  const previous=$('benchmark').value, options=[...new Set(current.tasks.map(t=>t.benchmark))].sort();$('benchmark').replaceChildren(node('option','All benchmarks'));$('benchmark').firstChild.value='';for(const value of options){const o=node('option',value);o.value=value;$('benchmark').append(o);}$('benchmark').value=options.includes(previous)?previous:'';
+  renderFreshness();graph();renderRows();
+}
+for(const [value,label] of Object.entries(labels)){const o=node('option',label);o.value=value;$('state').append(o);}
+$('search').addEventListener('input',renderRows);$('benchmark').addEventListener('change',renderRows);$('state').addEventListener('change',()=>{if(current)render();});
+async function refresh() {
+  try { const response=await fetch('/api/pilot-status',{cache:'no-store'}); if(!response.ok)throw new Error('Status unavailable');const data=await response.json();if(data.schema_version!==1 || !data.available)throw new Error('Status unavailable');current=data;receivedAt=performance.now();transportFailed=false;render(); }
+  catch(error){transportFailed=true;renderFreshness();renderTimes();}
+  window.setTimeout(refresh,current ? current.refresh_seconds*1000:5000);
+}
+window.setInterval(()=>{renderFreshness();renderTimes();},1000);refresh();
+</script>
+</body>
+</html>

@@ -1,0 +1,88 @@
+{
+  "n": 1,
+  "at": 1791286163.8169951,
+  "method": "POST",
+  "path": "/v1/messages?beta=true",
+  "headers": {
+    "Accept": "application/json",
+    "Authorization": "<redacted>",
+    "Content-Type": "application/json",
+    "User-Agent": "claude-cli/2.1.280 (external, sdk-cli)",
+    "X-Claude-Code-Session-Id": "bc7b68a3-d6be-48bb-bf05-6a13101c7ad5",
+    "X-Stainless-Arch": "arm64",
+    "X-Stainless-Lang": "js",
+    "X-Stainless-OS": "MacOS",
+    "X-Stainless-Package-Version": "0.112.1",
+    "X-Stainless-Retry-Count": "0",
+    "X-Stainless-Runtime": "node",
+    "X-Stainless-Runtime-Version": "v26.3.0",
+    "X-Stainless-Timeout": "600",
+    "anthropic-beta": "claude-code-20250219,oauth-2025-04-20,interleaved-thinking-2025-05-14,thinking-token-count-2026-05-13,context-management-2025-06-27,prompt-caching-scope-2026-01-05,mid-conversation-system-2026-04-07,per-turn-control-2026-07-01,mid-conversation-tool-changes-2026-07-01,effort-2025-11-24,fallback-credit-2026-06-01,extended-cache-ttl-2025-04-11",
+    "anthropic-dangerous-direct-browser-access": "true",
+    "anthropic-version": "2023-06-01",
+    "x-app": "cli",
+    "Connection": "keep-alive",
+    "Host": "127.0.0.1:57363",
+    "Accept-Encoding": "gzip, deflate, br, zstd",
+    "Content-Length": "1462"
+  },
+  "body": {
+    "model": "claude-opus-5-5",
+    "messages": [
+      {
+        "role": "user",
+        "content": "How long will it take you to complete this task:\n\"Write a haiku about the sea.\"\nreturn minutes = <Number of minutes>"
+      },
+      {
+        "role": "system",
+        "content": [
+          {
+            "type": "text",
+            "text": "# Environment\nYou have been invoked in the following environment: \n - Primary working directory: /private/tmp/agenttime-forecast-context-probe-20261006-_67q7h_v/baseline-ar4w2hvo/session-_61wz1cg/work\n - Is a git repository: false\n - Platform: darwin\n - Shell: zsh\n - OS Version: Darwin 27.0.0\n\nYou are powered by the model named Opus 5.5. The exact model ID is claude-opus-5-5. Assistant knowledge cutoff is June 2026.\n\n<total_tokens>15000000 tokens left</total_tokens>\n\nToday's date is 2026-10-06.",
+            "cache_control": {
+              "type": "ephemeral",
+              "ttl": "1h"
+            }
+          }
+        ],
+        "output_config": {
+          "effort": "max"
+        }
+      }
+    ],
+    "system": [
+      {
+        "type": "text",
+        "text": "x-anthropic-billing-header: cc_version=2.1.280.4da; cc_entrypoint=sdk-cli;"
+      },
+      {
+        "type": "text",
+        "text": "You are a Claude agent, built on Anthropic's Claude Agent SDK.",
+        "cache_control": {
+          "type": "ephemeral",
+          "ttl": "1h"
+        }
+      }
+    ],
+    "tools": [],
+    "metadata": {
+      "user_id": "{\"device_id\":\"ca1fc2c47467da97d464243efec77425542ba484e5bf02139afbd3922c1bc8d0\",\"account_uuid\":\"\",\"session_id\":\"bc7b68a3-d6be-48bb-bf05-6a13101c7ad5\"}"
+    },
+    "max_tokens": 128000,
+    "thinking": {
+      "type": "adaptive"
+    },
+    "context_management": {
+      "edits": [
+        {
+          "type": "clear_thinking_20251015",
+          "keep": "all"
+        }
+      ]
+    },
+    "output_config": {
+      "effort": "max"
+    },
+    "stream": true
+  }
+}

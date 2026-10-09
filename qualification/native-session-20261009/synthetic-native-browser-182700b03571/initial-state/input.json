@@ -1,0 +1,12 @@
+{
+  "message": {
+    "content": [
+      {
+        "text": "This is a synthetic browser infrastructure check. Use only the AssistantBench browser tools. Observe the local page, enter blue in the Synthetic value field, click Store value, verify that the page says Observed: blue, and submit exactly Synthetic answer: blue. through send_msg_to_user. Then finish. Do not navigate away from the local page.",
+        "type": "text"
+      }
+    ],
+    "role": "user"
+  },
+  "type": "user"
+}

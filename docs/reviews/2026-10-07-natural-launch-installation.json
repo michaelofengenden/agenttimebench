@@ -1,0 +1,45 @@
+{
+  "status": "installed_and_document_links_verified",
+  "date": "2026-10-07",
+  "review": "APPROVED_plan_only",
+  "files": [
+    {
+      "path": "docs/BUILD_PLAN.md",
+      "sha256": "b2762316f5431315831df99c97fedffaac6acefc7cd7fa3aa63802390f23292a"
+    },
+    {
+      "path": "docs/NATURAL_RUN_PREPARATION.md",
+      "sha256": "101630ad8efd1b07c5fe04383cbcc9bb0236265a44f8e03d153603690c3a69ec"
+    },
+    {
+      "path": "docs/NATURAL_RUN_PROVIDERS.md",
+      "sha256": "fc60e55afdaf103b2c523ec6f0dbcf0582707039fc08c1000a0107faf30e0f4a"
+    },
+    {
+      "path": "docs/PROTOCOL.md",
+      "sha256": "ebd9175298703d15940bc1d3fcd514838d122790a7fd2775b15ba87b78103086"
+    },
+    {
+      "path": "docs/reviews/2026-10-07-natural-launch-planning.json",
+      "sha256": "e2e036124f1ca494d79e63f2622db499512a33ecfc8d7487347a0a250ea958ae"
+    },
+    {
+      "path": "docs/reviews/2026-10-07-natural-launch-review.md",
+      "sha256": "253569888ef93856388b10055fc1ca8d176e0c638a0194b3b412e2e8b843b73d"
+    },
+    {
+      "path": "docs/superpowers/plans/2026-10-07-opus-natural-launch.md",
+      "sha256": "0458664b0d65b1c07b5a30314772d8467a24104aca795002edb363a5b6ec0d9e"
+    }
+  ],
+  "previous_current_doc_sha256": {
+    "docs/NATURAL_RUN_PREPARATION.md": "e10142e4dd1ad7898e0f1baa95b8e61dbf5dd1a83cdd9fe322198e0597afccf9",
+    "docs/PROTOCOL.md": "1e32187c6a2195f02b48469a40cc886d0239736c3275fccfc159184b4d4dcef4",
+    "docs/NATURAL_RUN_PROVIDERS.md": "fc6627ad57fd23721c91f056dedc9a580fc07cd1ec401027be724866048b0fac",
+    "docs/BUILD_PLAN.md": "d26289c12a790b2cc937003137c6010d0cc3511240e5ee3ac3d7e702ac56bf45"
+  },
+  "runtime_and_configuration_edited": false,
+  "canonical_forecasts_changed": false,
+  "natural_attempts_started": 0,
+  "provider_resources_provisioned": 0
+}

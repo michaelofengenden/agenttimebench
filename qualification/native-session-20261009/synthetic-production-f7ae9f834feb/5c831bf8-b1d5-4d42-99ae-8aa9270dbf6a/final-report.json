@@ -1,0 +1,18 @@
+{
+  "attempt_id": "5c831bf8-b1d5-4d42-99ae-8aa9270dbf6a",
+  "identity_sha256": "5785c959daa316fa02484cfe8b1a0a483a45cffc649d21dd1bdebee47c25c7c7",
+  "contract_sha256": "389363c2479fa027620c26e0501fbd44deeb251249021e1dc5bd6876563053f5",
+  "input_sha256": "3530a98a4b7faf094f6a3d8eb30f2e9361deedab3020486970569342e98e89e4",
+  "outcome": "unknown_failure",
+  "timing_status": "invalid",
+  "stop_evidence": {
+    "identity_sha256": "5785c959daa316fa02484cfe8b1a0a483a45cffc649d21dd1bdebee47c25c7c7",
+    "stop_verified": true,
+    "owned_work_drained": true,
+    "proof_sha256": "558ec871de3698dd4f768fc174097d1456a0ed7631262b513e7975452b2ff684"
+  },
+  "purpose": "synthetic_qualification",
+  "study_admitted": false,
+  "original_archive_failure_preserved": true,
+  "independent_capture_sha256": "4720a87dc184e5d12f924f64aecae09bc601caabed58fe44c88f87e17018dc3b"
+}

@@ -1,0 +1,10 @@
+{
+  "status": "passed_source_audit_only",
+  "cached_audit_files_verified": 69,
+  "existing_source_files_verified": 69,
+  "native_initial_files_verified": 48,
+  "http_404_pages_verified": 7,
+  "affected_task": "bridging-data-gaps",
+  "reproduction_assets_preprovided": false,
+  "runtime_qualified": false
+}

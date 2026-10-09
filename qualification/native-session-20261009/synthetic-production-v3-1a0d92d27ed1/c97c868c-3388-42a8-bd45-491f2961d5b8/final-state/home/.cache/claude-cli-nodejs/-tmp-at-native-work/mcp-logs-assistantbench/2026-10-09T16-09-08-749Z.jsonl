@@ -1,0 +1,19 @@
+{"debug":"Starting connection with timeout of 30000ms","timestamp":"2026-10-09T16:09:08.749Z","sessionId":"26e0826e-b6c2-4adc-a34c-13b55a9eec5d","cwd":"/tmp/at-native/work"}
+{"debug":"Successfully connected (transport: stdio) in 3218ms","timestamp":"2026-10-09T16:09:11.966Z","sessionId":"26e0826e-b6c2-4adc-a34c-13b55a9eec5d","cwd":"/tmp/at-native/work"}
+{"debug":"Connection established with capabilities: {\"hasTools\":true,\"hasPrompts\":false,\"hasResources\":false,\"hasResourceSubscribe\":false,\"serverVersion\":{\"name\":\"agenttime-assistantbench\",\"version\":\"1\"},\"protocolEra\":\"legacy\",\"negotiatedProtocolVersion\":\"2024-11-05\"}","timestamp":"2026-10-09T16:09:11.967Z","sessionId":"26e0826e-b6c2-4adc-a34c-13b55a9eec5d","cwd":"/tmp/at-native/work"}
+{"debug":"Calling MCP tool: goto","timestamp":"2026-10-09T16:09:14.120Z","sessionId":"26e0826e-b6c2-4adc-a34c-13b55a9eec5d","cwd":"/tmp/at-native/work"}
+{"debug":"Tool 'goto' completed successfully in 1s","timestamp":"2026-10-09T16:09:15.994Z","sessionId":"26e0826e-b6c2-4adc-a34c-13b55a9eec5d","cwd":"/tmp/at-native/work"}
+{"debug":"Calling MCP tool: observe","timestamp":"2026-10-09T16:09:20.797Z","sessionId":"26e0826e-b6c2-4adc-a34c-13b55a9eec5d","cwd":"/tmp/at-native/work"}
+{"debug":"Tool 'observe' completed successfully in 2ms","timestamp":"2026-10-09T16:09:20.799Z","sessionId":"26e0826e-b6c2-4adc-a34c-13b55a9eec5d","cwd":"/tmp/at-native/work"}
+{"debug":"Calling MCP tool: goto","timestamp":"2026-10-09T16:09:36.968Z","sessionId":"26e0826e-b6c2-4adc-a34c-13b55a9eec5d","cwd":"/tmp/at-native/work"}
+{"error":"Browser action unavailable or failed. No action retry was performed.","timestamp":"2026-10-09T16:09:36.969Z","sessionId":"26e0826e-b6c2-4adc-a34c-13b55a9eec5d","cwd":"/tmp/at-native/work"}
+{"debug":"Tool 'goto' failed after 0s: Browser action unavailable or failed. No action retry was performed.","timestamp":"2026-10-09T16:09:36.969Z","sessionId":"26e0826e-b6c2-4adc-a34c-13b55a9eec5d","cwd":"/tmp/at-native/work"}
+{"debug":"Calling MCP tool: observe","timestamp":"2026-10-09T16:09:38.615Z","sessionId":"26e0826e-b6c2-4adc-a34c-13b55a9eec5d","cwd":"/tmp/at-native/work"}
+{"debug":"Tool 'observe' completed successfully in 2ms","timestamp":"2026-10-09T16:09:38.617Z","sessionId":"26e0826e-b6c2-4adc-a34c-13b55a9eec5d","cwd":"/tmp/at-native/work"}
+{"debug":"Calling MCP tool: send_msg_to_user","timestamp":"2026-10-09T16:09:54.995Z","sessionId":"26e0826e-b6c2-4adc-a34c-13b55a9eec5d","cwd":"/tmp/at-native/work"}
+{"debug":"Tool 'send_msg_to_user' completed successfully in 730ms","timestamp":"2026-10-09T16:09:55.725Z","sessionId":"26e0826e-b6c2-4adc-a34c-13b55a9eec5d","cwd":"/tmp/at-native/work"}
+{"debug":"Sending SIGINT to MCP server process","timestamp":"2026-10-09T16:09:59.218Z","sessionId":"26e0826e-b6c2-4adc-a34c-13b55a9eec5d","cwd":"/tmp/at-native/work"}
+{"debug":"SIGINT failed, sending SIGTERM to MCP server process","timestamp":"2026-10-09T16:09:59.319Z","sessionId":"26e0826e-b6c2-4adc-a34c-13b55a9eec5d","cwd":"/tmp/at-native/work"}
+{"debug":"UNKNOWN connection closed after 47s (cleanly)","timestamp":"2026-10-09T16:09:59.332Z","sessionId":"26e0826e-b6c2-4adc-a34c-13b55a9eec5d","cwd":"/tmp/at-native/work"}
+{"debug":"Cleared connection cache for reconnection","timestamp":"2026-10-09T16:09:59.332Z","sessionId":"26e0826e-b6c2-4adc-a34c-13b55a9eec5d","cwd":"/tmp/at-native/work"}
+{"debug":"MCP server process exited cleanly","timestamp":"2026-10-09T16:09:59.369Z","sessionId":"26e0826e-b6c2-4adc-a34c-13b55a9eec5d","cwd":"/tmp/at-native/work"}

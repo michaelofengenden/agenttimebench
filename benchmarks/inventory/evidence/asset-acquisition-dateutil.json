@@ -1,0 +1,105 @@
+{
+  "cache_receipt_path": "/Users/michaelofengenden/Developer/TimeResearch/AgentTime-v1.1/benchmarks/cache/dateutil-zoneinfo-candidate-20261002-2.9.0.post0-d3ea52e7b6e9/receipt.json",
+  "cache_receipt_sha256": "0d55106fef980b8e812fd84bc694abffc52083f754231ffa2538bdbeb7e8a8b7",
+  "cache_root": "/Users/michaelofengenden/Developer/TimeResearch/AgentTime-v1.1/benchmarks/cache/dateutil-zoneinfo-candidate-20261002-2.9.0.post0-d3ea52e7b6e9",
+  "candidate_id": "dateutil-rfc5545-timezone-interop",
+  "completed_code_outputs_unchanged": true,
+  "completed_code_verification_script_note": "The original script verifies the cache then refreshes only its temp verification/result receipts. This follow-up did not execute or change it.",
+  "completed_code_verification_script_path": "/private/tmp/agenttime-assets-20261002/code/verify_assets.py",
+  "downloaded_scripts_executed": false,
+  "historical_deepswe_equivalence_established": false,
+  "historical_wheel": {
+    "bytes": 229892,
+    "copied_path": "/Users/michaelofengenden/Developer/TimeResearch/AgentTime-v1.1/benchmarks/cache/dateutil-zoneinfo-candidate-20261002-2.9.0.post0-d3ea52e7b6e9/upstream/python_dateutil-2.9.0.post0-py2.py3-none-any.whl",
+    "historical_deepswe_equivalence_established": false,
+    "historical_family": "Agents Last Exam",
+    "package": "python-dateutil",
+    "path": "/Users/michaelofengenden/Developer/TimeResearch/AgentTimeExperiment-data/20260906-readiness/huggingface-access-20260906/verified-materialized-selected-source/public-input/tasks/education_info/moodle_gradebook_closeout_reconciliation/base/input/runtime_env/wheels/python_dateutil-2.9.0.post0-py2.py3-none-any.whl",
+    "sha256": "a8b2bc7bffae282281c8140a97d3aa9c14da0b136dfe83f850eea9a5f7470427",
+    "upstream_hash_verified": true,
+    "upstream_sha256": "a8b2bc7bffae282281c8140a97d3aa9c14da0b136dfe83f850eea9a5f7470427",
+    "version": "2.9.0.post0",
+    "zoneinfo_bytes": 156400,
+    "zoneinfo_member": "dateutil/zoneinfo/dateutil-zoneinfo.tar.gz",
+    "zoneinfo_sha256": "d3ea52e7b6e968de0d884df1288193596fa95b803db4f92a18279a7398004475"
+  },
+  "installed": false,
+  "models_or_native_runtime_run": false,
+  "overlay_applied": false,
+  "package": "python-dateutil",
+  "payload_bytes_verified": 801942,
+  "payload_files_verified": 8,
+  "qualification_gaps": [
+    "Candidate pin requires review and native environment qualification. No historical DeepSWE image layer or build receipt was found that binds these zoneinfo bytes to v1.",
+    "The native unversioned command remains a reproducibility gap until this exact version and archive/zoneinfo hashes are explicitly adopted.",
+    "No package installation, zoneinfo rebuild, native runtime, benchmark, or model execution occurred."
+  ],
+  "resolution": {
+    "historical_corroboration": "The extracted zoneinfo bytes exactly match a python-dateutil 2.9.0.post0 wheel already present in verified historical ALE inputs. The wheel hash is also in the old Harbor requirements lock; neither proves which dateutil tarball the DeepSWE image used.",
+    "historical_deepswe_equivalence_established": false,
+    "interpreter_condition": "Compatible with Python >=2.7 excluding 3.0.*, 3.1.*, 3.2.*; actual native image interpreter and any pip index overrides were not inspected.",
+    "method": "Select the highest non-yanked stable release with an sdist from current public PyPI metadata; compare with PyPI latest version; honor --no-binary by obtaining the sdist. No pip metadata build or package installation executed.",
+    "package": "python-dateutil",
+    "requires_python": "!=3.0.*,!=3.1.*,!=3.2.*,>=2.7",
+    "status": "newly_resolved_public_pypi_candidate_pin",
+    "version": "2.9.0.post0"
+  },
+  "runtime_qualified": false,
+  "schema_version": "agenttime.dateutil-zoneinfo-acquisition-result.v1",
+  "slot_id": "deepswe-04",
+  "source_archive": {
+    "bytes": 342432,
+    "filename": "python-dateutil-2.9.0.post0.tar.gz",
+    "hash_verified": true,
+    "http_date": "Fri, 02 Oct 2026 14:00:39 GMT",
+    "path": "/Users/michaelofengenden/Developer/TimeResearch/AgentTime-v1.1/benchmarks/cache/dateutil-zoneinfo-candidate-20261002-2.9.0.post0-d3ea52e7b6e9/upstream/python-dateutil-2.9.0.post0.tar.gz",
+    "pypi_last_serial": null,
+    "requires_python": "!=3.0.*,!=3.1.*,!=3.2.*,>=2.7",
+    "sha256": "37dd54208da7e1cd875388217d5e00ebd4179249f90fb72437e91a35459a0ad3",
+    "upload_time_iso_8601": "2024-03-01T18:36:20.211056Z",
+    "upstream_sha256": "37dd54208da7e1cd875388217d5e00ebd4179249f90fb72437e91a35459a0ad3",
+    "url": "https://files.pythonhosted.org/packages/66/c0/0c8b6ad9f17a802ee498c46e004a0eb49bc148f2fd230864601a86dcf6db/python-dateutil-2.9.0.post0.tar.gz",
+    "yanked": false
+  },
+  "status": "candidate_source_asset_acquired_qualification_pending",
+  "target_repository_commit": "c981f9c7aa91b83cc9bd33a09ecee9e751b06e8d",
+  "task_definition_commit": "0b9fabbb63b9104d678fe965e1632f2dd9eaa2ea",
+  "tzdata_version": "2024a",
+  "version": "2.9.0.post0",
+  "zoneinfo": {
+    "bytes": 156400,
+    "counts": {
+      "archive_members": 619,
+      "links": 245,
+      "regular_files": 354
+    },
+    "equals_historical_wheel_member": true,
+    "metadata": {
+      "metadata_version": 2.0,
+      "releases_url": [
+        "ftp://ftp.iana.org/tz/releases/"
+      ],
+      "tzdata_file": "tzdata2024a.tar.gz",
+      "tzdata_file_sha512": "1f09f1b2327cc9e1afc7e9045e83ee3377918dafe1bee2f282b6991828d03b3c70a4d3a17f9207dfb1361bb25bc214a8922a756e84fa114e9ba476226db57236",
+      "tzversion": "2024a",
+      "zonegroups": [
+        "africa",
+        "antarctica",
+        "asia",
+        "australasia",
+        "europe",
+        "northamerica",
+        "southamerica",
+        "etcetera",
+        "factory",
+        "backzone",
+        "backward"
+      ]
+    },
+    "native_destination": "/app/src/dateutil/zoneinfo/dateutil-zoneinfo.tar.gz",
+    "path": "/Users/michaelofengenden/Developer/TimeResearch/AgentTime-v1.1/benchmarks/cache/dateutil-zoneinfo-candidate-20261002-2.9.0.post0-d3ea52e7b6e9/overlay/src/dateutil/zoneinfo/dateutil-zoneinfo.tar.gz",
+    "sha256": "d3ea52e7b6e968de0d884df1288193596fa95b803db4f92a18279a7398004475",
+    "source_archive_member": "python-dateutil-2.9.0.post0/src/dateutil/zoneinfo/dateutil-zoneinfo.tar.gz",
+    "upstream_container_hash_verified": true
+  }
+}

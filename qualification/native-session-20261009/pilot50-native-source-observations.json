@@ -1,0 +1,17 @@
+{
+  "cli_version": "2.1.280",
+  "cli_sha256": "1e08503dbdf3c2cb0d706d32f3408277388d1c76ef108673e8fe42c1b322925b",
+  "observations": [
+    {
+      "kind": "background_wait_ceiling",
+      "environment": "CLAUDE_CODE_PRINT_BG_WAIT_CEILING_MS",
+      "value": "0",
+      "evidence": "Pinned executable contains native wait-ceiling diagnostic explicitly stating value 0 waits indefinitely."
+    },
+    {
+      "kind": "optional_raw_log_write",
+      "evidence": "Pinned embedded JS rlt uses fire-and-forget yFn; indexAppendChain appears only in initialization and append scheduling, with no awaited shutdown call. Empty optional capture files observed in synthetic sessions; original artifacts retained."
+    }
+  ],
+  "study_launch_evidence": false
+}

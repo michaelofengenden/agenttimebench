@@ -1,0 +1,1 @@
+{"message": {"content": [{"text": "Delegate to one native subagent: use WebSearch and WebFetch to find and read Anthropic's official Claude Code documentation overview. Wait for it and return its page title and URL. Use no other tools. This is a synthetic infrastructure check.", "type": "text"}], "role": "user"}, "type": "user"}

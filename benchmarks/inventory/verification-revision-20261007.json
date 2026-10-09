@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "created_at_utc": "2026-10-07T09:51:21.901787+00:00",
+  "scope": "Inventory and current planning-doc revision only; no models, natural benchmarks, providers, credentials or provisioning.",
+  "status": "passed_for_inventory_only",
+  "tasks_sha256": "d89208992706eb0bcfaeffdcf64803079cd89e6c591eae50a49b1c91beb7aec1",
+  "selection_change_sha256": "9e97997721506386ee251e3d3864791576f60929522c8d1d46b55b0114053e1a",
+  "source_import_receipt_sha256": "ebcea57852ba915019b33339590b16fe2a9a84d16a9246aec278daf8c4e66d10",
+  "retained_rows_unchanged": 195,
+  "historical_evidence_files_unchanged": 57,
+  "core_split": {
+    "mainline": 4,
+    "ood": 8
+  },
+  "tests": {
+    "new_regression_tests_red_before_implementation": 11,
+    "inventory_tests_passed": 44,
+    "planner_tests_passed": 14,
+    "offline_planner_task_places": 200,
+    "offline_planner_families": 18,
+    "offline_planner_runs_per_agent": 600,
+    "offline_planner_launch_ready": false
+  },
+  "full_inventory_verification": {
+    "status": "passed_for_inventory_only",
+    "slots": 200,
+    "families": 18,
+    "historical_earlier_candidates": 100,
+    "unchanged_earlier_candidates": 95,
+    "retired_earlier_candidates": 5,
+    "approved_replacements": 5,
+    "drafts": 84,
+    "verified_files": 34678,
+    "verified_bytes": 29148076459,
+    "content_hashes_checked": true,
+    "present_component_references_checked": 2040,
+    "slot_identities_checked": true,
+    "runtime_qualified": 0,
+    "benchmark_runs": 0
+  },
+  "report_checks": {
+    "embedded_payload_rows": 200,
+    "embedded_approved_replacements": 5,
+    "javascript_syntax": "passed",
+    "browser_rendered": "unverified_browser_policy_blocks_local_file_protocol"
+  },
+  "current_docs_sha256": {
+    "README.md": "768508eed687b15c80cddc30b1bf4ea5dfbcd6a5f56dd5cfce3b14e0ee61f47d",
+    "benchmarks/README.md": "da139c40360a76e2750e73296f3792ebf9f667a54eb5ca5607c1543861f4761a",
+    "docs/TASK_MIX.md": "16b6784b5f128ba120d99b8da9e1379245898c78901ffb77f6bbeeeb4cd311ad",
+    "docs/PROTOCOL.md": "902e4e438db9a71a6cafeca058c3ab83a1f15cd4902f71361db1e35cfc98b4e0",
+    "docs/BUILD_PLAN.md": "9c997c0bfbbb55ee7c0b002ee0955a392269db02ca7b9d472428aea9e6656ff5",
+    "docs/NATURAL_RUN_PROVIDERS.md": "fc6627ad57fd23721c91f056dedc9a580fc07cd1ec401027be724866048b0fac",
+    "docs/NATURAL_RUN_PREPARATION.md": "29694df1adf270fd09200f28422696a1a655efb4d4667cf3c8063e71fce50d9e",
+    "runs/README.md": "22c7da3703d286ef70f8d6ba73416b959ddce486cbb72163b52f579f6148a154",
+    "configs/suite.json": "122a9d6d2fb6118d6129b26ab47acbfefb60d535819d60f148cfb14869381446",
+    "configs/protocol.json": "820a8e97b8ee1c8230eca0eeca60b7e82e5895b4055fb1a1035162302e89dcdc"
+  },
+  "runtime_qualified": false,
+  "admitted": false
+}

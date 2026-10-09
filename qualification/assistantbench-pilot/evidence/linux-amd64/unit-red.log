@@ -1,0 +1,61 @@
+test_action_string_injection_stays_a_literal_argument (test_assistantbench_bridge.BridgeTests.test_action_string_injection_stays_a_literal_argument) ... ok
+test_arbitrary_python_uploads_and_unknown_arguments_are_rejected (test_assistantbench_bridge.BridgeTests.test_arbitrary_python_uploads_and_unknown_arguments_are_rejected) ... ok
+test_claimed_directory_cannot_be_reused_and_attempts_are_independent (test_assistantbench_bridge.BridgeTests.test_claimed_directory_cannot_be_reused_and_attempts_are_independent) ... ok
+test_close_preserves_private_browser_snapshot_and_restoration_hash (test_assistantbench_bridge.BridgeTests.test_close_preserves_private_browser_snapshot_and_restoration_hash) ... FAIL
+test_concurrent_calls_are_serialized_without_losing_actions (test_assistantbench_bridge.BridgeTests.test_concurrent_calls_are_serialized_without_losing_actions) ... ok
+test_mcp_errors_never_expose_exception_details_or_host_paths (test_assistantbench_bridge.BridgeTests.test_mcp_errors_never_expose_exception_details_or_host_paths) ... ok
+test_mcp_handshake_tool_listing_and_calls_are_standard_json_rpc (test_assistantbench_bridge.BridgeTests.test_mcp_handshake_tool_listing_and_calls_are_standard_json_rpc) ... ok
+test_native_submission_is_sealed_once_and_not_regraded (test_assistantbench_bridge.BridgeTests.test_native_submission_is_sealed_once_and_not_regraded) ... ok
+test_no_task_work_cap_is_exposed_in_tool_schema (test_assistantbench_bridge.BridgeTests.test_no_task_work_cap_is_exposed_in_tool_schema) ... ok
+test_observation_has_only_public_ax_tabs_and_image (test_assistantbench_bridge.BridgeTests.test_observation_has_only_public_ax_tabs_and_image) ... ok
+test_restore_rejects_tampered_state_and_different_task (test_assistantbench_bridge.BridgeTests.test_restore_rejects_tampered_state_and_different_task) ... ERROR
+test_step_reward_and_info_never_enter_tool_response (test_assistantbench_bridge.BridgeTests.test_step_reward_and_info_never_enter_tool_response) ... ok
+test_submission_must_come_from_expected_native_callback (test_assistantbench_bridge.BridgeTests.test_submission_must_come_from_expected_native_callback) ... ok
+test_tools_match_native_assistantbench_subset_and_click_options (test_assistantbench_bridge.BridgeTests.test_tools_match_native_assistantbench_subset_and_click_options) ... FAIL
+
+======================================================================
+ERROR: test_restore_rejects_tampered_state_and_different_task (test_assistantbench_bridge.BridgeTests.test_restore_rejects_tampered_state_and_different_task)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/private/tmp/agenttime-assistantbench-linux-20261009/test_assistantbench_bridge.py", line 181, in test_restore_rejects_tampered_state_and_different_task
+    digest = hashlib.sha256(path.read_bytes()).hexdigest()
+                            ~~~~~~~~~~~~~~~^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/pathlib/__init__.py", line 777, in read_bytes
+    with self.open(mode='rb', buffering=0) as f:
+         ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/pathlib/__init__.py", line 771, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/var/folders/_s/9xj0xj512kx1r2p_5cbjdzxr0000gn/T/tmpxnsu1ewp/attempt/browser-state.json'
+
+======================================================================
+FAIL: test_close_preserves_private_browser_snapshot_and_restoration_hash (test_assistantbench_bridge.BridgeTests.test_close_preserves_private_browser_snapshot_and_restoration_hash)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/private/tmp/agenttime-assistantbench-linux-20261009/test_assistantbench_bridge.py", line 166, in test_close_preserves_private_browser_snapshot_and_restoration_hash
+    self.assertTrue(path.is_file(), 'Browser state must remain after MCP/CLI exit')
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: False is not true : Browser state must remain after MCP/CLI exit
+
+======================================================================
+FAIL: test_tools_match_native_assistantbench_subset_and_click_options (test_assistantbench_bridge.BridgeTests.test_tools_match_native_assistantbench_subset_and_click_options)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/private/tmp/agenttime-assistantbench-linux-20261009/test_assistantbench_bridge.py", line 157, in test_tools_match_native_assistantbench_subset_and_click_options
+    self.assertEqual({t['name'] for t in self.bridge.list_tools()}, expected)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: Items in the first set but not the second:
+'tab_close'
+'new_tab'
+'focus'
+'go_forward'
+'clear'
+'dblclick'
+'hover'
+'drag_and_drop'
+'tab_focus'
+
+----------------------------------------------------------------------
+Ran 14 tests in 0.113s
+
+FAILED (failures=2, errors=1)

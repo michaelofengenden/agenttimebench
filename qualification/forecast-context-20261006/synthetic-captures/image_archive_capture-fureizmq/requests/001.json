@@ -1,0 +1,105 @@
+{
+  "n": 1,
+  "at": 1791286290.5556,
+  "method": "POST",
+  "path": "/v1/messages?beta=true",
+  "headers": {
+    "Accept": "application/json",
+    "Authorization": "<redacted>",
+    "Content-Type": "application/json",
+    "User-Agent": "claude-cli/2.1.280 (external, sdk-cli)",
+    "X-Claude-Code-Session-Id": "4cecbcd4-e380-4c37-8a9d-572752359aa6",
+    "X-Stainless-Arch": "arm64",
+    "X-Stainless-Lang": "js",
+    "X-Stainless-OS": "MacOS",
+    "X-Stainless-Package-Version": "0.112.1",
+    "X-Stainless-Retry-Count": "0",
+    "X-Stainless-Runtime": "node",
+    "X-Stainless-Runtime-Version": "v26.3.0",
+    "X-Stainless-Timeout": "600",
+    "anthropic-beta": "claude-code-20250219,oauth-2025-04-20,interleaved-thinking-2025-05-14,thinking-token-count-2026-05-13,context-management-2025-06-27,prompt-caching-scope-2026-01-05,mid-conversation-system-2026-04-07,per-turn-control-2026-07-01,effort-2025-11-24,fallback-credit-2026-06-01,extended-cache-ttl-2025-04-11",
+    "anthropic-dangerous-direct-browser-access": "true",
+    "anthropic-version": "2023-06-01",
+    "x-app": "cli",
+    "Connection": "keep-alive",
+    "Host": "127.0.0.1:57502",
+    "Accept-Encoding": "gzip, deflate, br, zstd",
+    "Content-Length": "2518"
+  },
+  "body": {
+    "model": "claude-opus-5-5",
+    "messages": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "This is a synthetic qualification fixture, not a study task. How long would it take you to describe the attached image? Return minutes = N."
+          },
+          {
+            "type": "image",
+            "source": {
+              "type": "base64",
+              "media_type": "image/png",
+              "data": "iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAIAAAAiOjnJAAACc0lEQVR4nO3OAQkAMAzAsEmf893EoVAKEZCZveQ/fhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhAlfhCjB+K70Wh8dCcFAAAAAElFTkSuQmCC"
+            }
+          },
+          {
+            "type": "text",
+            "text": "[Image: source: /private/tmp/claude-501/-private-tmp-afq-q5enzmp2-work/4cecbcd4-e380-4c37-8a9d-572752359aa6/images/1.png]"
+          }
+        ]
+      },
+      {
+        "role": "system",
+        "content": [
+          {
+            "type": "text",
+            "text": "# Environment\nYou have been invoked in the following environment: \n - Primary working directory: /private/tmp/afq-q5enzmp2/work\n - Is a git repository: false\n - Platform: darwin\n - Shell: zsh\n - OS Version: Darwin 27.0.0\n\nYou are powered by the model named Opus 5.5. The exact model ID is claude-opus-5-5. Assistant knowledge cutoff is June 2026.\n\nToday's date is 2026-10-06.",
+            "cache_control": {
+              "type": "ephemeral",
+              "ttl": "1h"
+            }
+          }
+        ],
+        "output_config": {
+          "effort": "max"
+        }
+      }
+    ],
+    "system": [
+      {
+        "type": "text",
+        "text": "x-anthropic-billing-header: cc_version=2.1.280.6af; cc_entrypoint=sdk-cli;"
+      },
+      {
+        "type": "text",
+        "text": "You are a Claude agent, built on Anthropic's Claude Agent SDK.",
+        "cache_control": {
+          "type": "ephemeral",
+          "ttl": "1h"
+        }
+      }
+    ],
+    "tools": [],
+    "metadata": {
+      "user_id": "{\"device_id\":\"9bace42604004eb870b0299d607f74159d78dd75a37f6a54eb3572e89ba91186\",\"account_uuid\":\"\",\"session_id\":\"4cecbcd4-e380-4c37-8a9d-572752359aa6\"}"
+    },
+    "max_tokens": 128000,
+    "thinking": {
+      "type": "adaptive"
+    },
+    "context_management": {
+      "edits": [
+        {
+          "type": "clear_thinking_20251015",
+          "keep": "all"
+        }
+      ]
+    },
+    "output_config": {
+      "effort": "max"
+    },
+    "stream": true
+  }
+}

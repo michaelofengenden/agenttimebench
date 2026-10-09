@@ -1,0 +1,8 @@
+The browser check passed, and I submitted the answer.
+
+1. I opened the local page (`http://127.0.0.1:8765/synthetic.html`). Before I did anything, it said "No value submitted."
+2. I typed `blue` into the **Synthetic value** field.
+3. I clicked **Store value**, and the page then showed **"Observed: blue"**. Both the screenshot and the page's text confirmed this.
+4. I sent exactly `Synthetic answer: blue.` with `send_msg_to_user`, and the tool confirmed it was submitted (`{"submitted":true}`).
+
+I used only the AssistantBench browser tools and never left the local page.

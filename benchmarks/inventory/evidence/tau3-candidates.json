@@ -1,0 +1,849 @@
+{
+  "schema_version": "agenttime.v1.1.tau3-draft.v1",
+  "created_at_utc": "2026-10-02T12:27:20.515510+00:00",
+  "selection_status": "draft_for_review_not_selected",
+  "release_choice": "User selected current corrected tau3 text tasks.",
+  "release": "tau3-bench, repository tag v1.0.1",
+  "source_repository": "https://github.com/sierra-research/tau2-bench",
+  "source_commit": "fc0055dc4e0a316c3f83133267fbd6faaa770992",
+  "release_url": "https://github.com/sierra-research/tau2-bench/releases/tag/v1.0.1",
+  "method": {
+    "seed": "agenttime-v1.1-tau3-review-20261002-v1",
+    "quotas": {
+      "airline": 3,
+      "retail": 3,
+      "telecom": 3,
+      "banking_knowledge": 3
+    },
+    "ranking": "SHA256(seed + NUL + domain + NUL + upstream task id), ascending; no alternate seeds tried.",
+    "pool": "Official base split for airline, retail and telecom; all published text banking_knowledge tasks. Never voice tasks or mock domain.",
+    "qualification_status": "pending"
+  },
+  "domains": [
+    {
+      "domain": "airline",
+      "pool_count": 50,
+      "split": "base",
+      "ranked_pool_ids": [
+        "23",
+        "9",
+        "19",
+        "1",
+        "46",
+        "44",
+        "18",
+        "14",
+        "4",
+        "45",
+        "6",
+        "48",
+        "39",
+        "13",
+        "47",
+        "30",
+        "36",
+        "5",
+        "7",
+        "3",
+        "37",
+        "16",
+        "40",
+        "32",
+        "22",
+        "26",
+        "12",
+        "43",
+        "0",
+        "49",
+        "8",
+        "21",
+        "15",
+        "29",
+        "35",
+        "41",
+        "20",
+        "28",
+        "10",
+        "17",
+        "25",
+        "27",
+        "2",
+        "33",
+        "42",
+        "24",
+        "34",
+        "38",
+        "11",
+        "31"
+      ],
+      "source_refs": [
+        {
+          "relative_path": "data/tau2/domains/airline/tasks.json",
+          "sha256": "ccd8ba737b4cc371415af70151187788f728d6108d0916e73bb4317b40542052",
+          "bytes": 155528
+        },
+        {
+          "relative_path": "data/tau2/domains/airline/split_tasks.json",
+          "sha256": "b22ced4d9a9850ac9aea31c53bdcb6d6009058140bd9acc7db37c1d36222ba8b",
+          "bytes": 1443
+        }
+      ],
+      "candidates": [
+        {
+          "family_id": "tau",
+          "task_id": "airline:23",
+          "identity_kind": "upstream_domain_and_task_id",
+          "domain": "airline",
+          "upstream_task_id": "23",
+          "mode": "text",
+          "source_split": "base",
+          "status": "draft_for_review",
+          "admitted": false,
+          "selection_rank_sha256": "00741d4f66e590e54111e0e172eb5a40a3573fc0c9a47c26a5b2041698fc3983",
+          "canonical_record_sha256": "aef15892125b9d26bffc6d65e1d5baf42d8b6a941a9fd0492346582317605f37",
+          "title": "Airline service workflow 23",
+          "reason": "Three tasks per text domain, selected with a fixed hash seed for balanced service coverage. No model outcomes used.",
+          "source_refs": [
+            {
+              "relative_path": "data/tau2/domains/airline/tasks.json",
+              "sha256": "ccd8ba737b4cc371415af70151187788f728d6108d0916e73bb4317b40542052",
+              "bytes": 155528
+            },
+            {
+              "relative_path": "data/tau2/domains/airline/split_tasks.json",
+              "sha256": "b22ced4d9a9850ac9aea31c53bdcb6d6009058140bd9acc7db37c1d36222ba8b",
+              "bytes": 1443
+            }
+          ],
+          "pending_checks": [
+            "Choose and pin the user simulator, retrieval configuration where applicable, model and seeds.",
+            "Verify full native tool-state grading and isolate evaluator material from the agent.",
+            "Audit native turn limits and ending conditions for AgentTime natural runs."
+          ]
+        },
+        {
+          "family_id": "tau",
+          "task_id": "airline:9",
+          "identity_kind": "upstream_domain_and_task_id",
+          "domain": "airline",
+          "upstream_task_id": "9",
+          "mode": "text",
+          "source_split": "base",
+          "status": "draft_for_review",
+          "admitted": false,
+          "selection_rank_sha256": "051a06694e58d083f9dbe6ef0a97b96c18d9ffa4feab7e95a6b8b093f0055798",
+          "canonical_record_sha256": "c23ad243dd36b899fc7d032cc7b3692b3648a91c88c9dcb00a74a889e4ca3911",
+          "title": "Airline service workflow 9",
+          "reason": "Three tasks per text domain, selected with a fixed hash seed for balanced service coverage. No model outcomes used.",
+          "source_refs": [
+            {
+              "relative_path": "data/tau2/domains/airline/tasks.json",
+              "sha256": "ccd8ba737b4cc371415af70151187788f728d6108d0916e73bb4317b40542052",
+              "bytes": 155528
+            },
+            {
+              "relative_path": "data/tau2/domains/airline/split_tasks.json",
+              "sha256": "b22ced4d9a9850ac9aea31c53bdcb6d6009058140bd9acc7db37c1d36222ba8b",
+              "bytes": 1443
+            }
+          ],
+          "pending_checks": [
+            "Choose and pin the user simulator, retrieval configuration where applicable, model and seeds.",
+            "Verify full native tool-state grading and isolate evaluator material from the agent.",
+            "Audit native turn limits and ending conditions for AgentTime natural runs."
+          ]
+        },
+        {
+          "family_id": "tau",
+          "task_id": "airline:19",
+          "identity_kind": "upstream_domain_and_task_id",
+          "domain": "airline",
+          "upstream_task_id": "19",
+          "mode": "text",
+          "source_split": "base",
+          "status": "draft_for_review",
+          "admitted": false,
+          "selection_rank_sha256": "075914e4e2438302564524914bff0227de2fbf715d0e62be6969b46e30f11efc",
+          "canonical_record_sha256": "afaa2ddfaaec6a2aae9d1dbb4b964fa44ca2f4b428b87e805850ca504142328a",
+          "title": "Airline service workflow 19",
+          "reason": "Three tasks per text domain, selected with a fixed hash seed for balanced service coverage. No model outcomes used.",
+          "source_refs": [
+            {
+              "relative_path": "data/tau2/domains/airline/tasks.json",
+              "sha256": "ccd8ba737b4cc371415af70151187788f728d6108d0916e73bb4317b40542052",
+              "bytes": 155528
+            },
+            {
+              "relative_path": "data/tau2/domains/airline/split_tasks.json",
+              "sha256": "b22ced4d9a9850ac9aea31c53bdcb6d6009058140bd9acc7db37c1d36222ba8b",
+              "bytes": 1443
+            }
+          ],
+          "pending_checks": [
+            "Choose and pin the user simulator, retrieval configuration where applicable, model and seeds.",
+            "Verify full native tool-state grading and isolate evaluator material from the agent.",
+            "Audit native turn limits and ending conditions for AgentTime natural runs."
+          ]
+        }
+      ]
+    },
+    {
+      "domain": "retail",
+      "pool_count": 114,
+      "split": "base",
+      "ranked_pool_ids": [
+        "84",
+        "18",
+        "24",
+        "61",
+        "7",
+        "92",
+        "23",
+        "15",
+        "73",
+        "72",
+        "22",
+        "106",
+        "107",
+        "104",
+        "75",
+        "71",
+        "96",
+        "98",
+        "94",
+        "16",
+        "5",
+        "108",
+        "79",
+        "32",
+        "20",
+        "80",
+        "39",
+        "58",
+        "29",
+        "86",
+        "89",
+        "11",
+        "50",
+        "82",
+        "43",
+        "25",
+        "83",
+        "30",
+        "52",
+        "54",
+        "53",
+        "19",
+        "12",
+        "91",
+        "44",
+        "36",
+        "78",
+        "63",
+        "88",
+        "99",
+        "62",
+        "68",
+        "100",
+        "64",
+        "56",
+        "103",
+        "45",
+        "66",
+        "4",
+        "13",
+        "74",
+        "1",
+        "85",
+        "10",
+        "95",
+        "40",
+        "28",
+        "2",
+        "17",
+        "34",
+        "87",
+        "27",
+        "93",
+        "97",
+        "67",
+        "81",
+        "57",
+        "55",
+        "101",
+        "8",
+        "109",
+        "60",
+        "90",
+        "26",
+        "0",
+        "70",
+        "110",
+        "6",
+        "105",
+        "3",
+        "112",
+        "14",
+        "77",
+        "21",
+        "113",
+        "111",
+        "33",
+        "31",
+        "48",
+        "49",
+        "76",
+        "41",
+        "37",
+        "51",
+        "69",
+        "47",
+        "59",
+        "9",
+        "65",
+        "35",
+        "46",
+        "42",
+        "102",
+        "38"
+      ],
+      "source_refs": [
+        {
+          "relative_path": "data/tau2/domains/retail/tasks.json",
+          "sha256": "8e03ebce7901bd6218e7a7dc3105faa9324091a68058f7fe61c65262868812e8",
+          "bytes": 345982
+        },
+        {
+          "relative_path": "data/tau2/domains/retail/split_tasks.json",
+          "sha256": "ed0580ec52575b63fbf76568af42490da6ee7783ecb4aa81af46961291358f20",
+          "bytes": 3263
+        }
+      ],
+      "candidates": [
+        {
+          "family_id": "tau",
+          "task_id": "retail:84",
+          "identity_kind": "upstream_domain_and_task_id",
+          "domain": "retail",
+          "upstream_task_id": "84",
+          "mode": "text",
+          "source_split": "base",
+          "status": "draft_for_review",
+          "admitted": false,
+          "selection_rank_sha256": "02efab8eb572fd497e1c2195a85c5fb717ce402bb1e347225acca4afbad7740e",
+          "canonical_record_sha256": "006d32635d8da275ee35b00b56bdd5ee01ac535baa9b6b7d9b1611695a84b0ff",
+          "title": "Retail service workflow 84",
+          "reason": "Three tasks per text domain, selected with a fixed hash seed for balanced service coverage. No model outcomes used.",
+          "source_refs": [
+            {
+              "relative_path": "data/tau2/domains/retail/tasks.json",
+              "sha256": "8e03ebce7901bd6218e7a7dc3105faa9324091a68058f7fe61c65262868812e8",
+              "bytes": 345982
+            },
+            {
+              "relative_path": "data/tau2/domains/retail/split_tasks.json",
+              "sha256": "ed0580ec52575b63fbf76568af42490da6ee7783ecb4aa81af46961291358f20",
+              "bytes": 3263
+            }
+          ],
+          "pending_checks": [
+            "Choose and pin the user simulator, retrieval configuration where applicable, model and seeds.",
+            "Verify full native tool-state grading and isolate evaluator material from the agent.",
+            "Audit native turn limits and ending conditions for AgentTime natural runs."
+          ]
+        },
+        {
+          "family_id": "tau",
+          "task_id": "retail:18",
+          "identity_kind": "upstream_domain_and_task_id",
+          "domain": "retail",
+          "upstream_task_id": "18",
+          "mode": "text",
+          "source_split": "base",
+          "status": "draft_for_review",
+          "admitted": false,
+          "selection_rank_sha256": "03c5fb9ceac17528ec5f301f586a988729bf411d4dce8ac32560fc906eecd664",
+          "canonical_record_sha256": "e0b74e02fa5a3cb1864a94039da05fa9b6967c2577b9937edba9afb3ef0431e1",
+          "title": "Retail service workflow 18",
+          "reason": "Three tasks per text domain, selected with a fixed hash seed for balanced service coverage. No model outcomes used.",
+          "source_refs": [
+            {
+              "relative_path": "data/tau2/domains/retail/tasks.json",
+              "sha256": "8e03ebce7901bd6218e7a7dc3105faa9324091a68058f7fe61c65262868812e8",
+              "bytes": 345982
+            },
+            {
+              "relative_path": "data/tau2/domains/retail/split_tasks.json",
+              "sha256": "ed0580ec52575b63fbf76568af42490da6ee7783ecb4aa81af46961291358f20",
+              "bytes": 3263
+            }
+          ],
+          "pending_checks": [
+            "Choose and pin the user simulator, retrieval configuration where applicable, model and seeds.",
+            "Verify full native tool-state grading and isolate evaluator material from the agent.",
+            "Audit native turn limits and ending conditions for AgentTime natural runs."
+          ]
+        },
+        {
+          "family_id": "tau",
+          "task_id": "retail:24",
+          "identity_kind": "upstream_domain_and_task_id",
+          "domain": "retail",
+          "upstream_task_id": "24",
+          "mode": "text",
+          "source_split": "base",
+          "status": "draft_for_review",
+          "admitted": false,
+          "selection_rank_sha256": "0509e0b84de9aef0d2998cada989d6d8ea78c28dac9cb83cecdf2016d5a55075",
+          "canonical_record_sha256": "ce2a3c2855b166a49990d2f09a849cc37b0f7f849f3cb7338f209747972e4f97",
+          "title": "Retail service workflow 24",
+          "reason": "Three tasks per text domain, selected with a fixed hash seed for balanced service coverage. No model outcomes used.",
+          "source_refs": [
+            {
+              "relative_path": "data/tau2/domains/retail/tasks.json",
+              "sha256": "8e03ebce7901bd6218e7a7dc3105faa9324091a68058f7fe61c65262868812e8",
+              "bytes": 345982
+            },
+            {
+              "relative_path": "data/tau2/domains/retail/split_tasks.json",
+              "sha256": "ed0580ec52575b63fbf76568af42490da6ee7783ecb4aa81af46961291358f20",
+              "bytes": 3263
+            }
+          ],
+          "pending_checks": [
+            "Choose and pin the user simulator, retrieval configuration where applicable, model and seeds.",
+            "Verify full native tool-state grading and isolate evaluator material from the agent.",
+            "Audit native turn limits and ending conditions for AgentTime natural runs."
+          ]
+        }
+      ]
+    },
+    {
+      "domain": "telecom",
+      "pool_count": 114,
+      "split": "base",
+      "ranked_pool_ids": [
+        "[mms_issue]airplane_mode_on|bad_network_preference|bad_wifi_calling|break_apn_mms_setting|break_app_storage_permission|data_mode_off|data_usage_exceeded|unseat_sim_card[PERSONA:Easy]",
+        "[mms_issue]airplane_mode_on|bad_network_preference|bad_wifi_calling|break_apn_mms_setting|break_app_both_permissions|data_mode_off|data_usage_exceeded|unseat_sim_card|user_abroad_roaming_disabled_off[PERSONA:Hard]",
+        "[service_issue]contract_end_suspension|unseat_sim_card[PERSONA:Hard]",
+        "[mms_issue]airplane_mode_on|bad_network_preference|break_apn_mms_setting|data_usage_exceeded[PERSONA:Hard]",
+        "[service_issue]airplane_mode_on|lock_sim_card_pin|overdue_bill_suspension[PERSONA:Easy]",
+        "[service_issue]airplane_mode_on|break_apn_settings|lock_sim_card_pin|overdue_bill_suspension|unseat_sim_card[PERSONA:None]",
+        "[mobile_data_issue]bad_vpn|data_mode_off|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:None]",
+        "[service_issue]break_apn_settings|overdue_bill_suspension|unseat_sim_card[PERSONA:Hard]",
+        "[mobile_data_issue]data_mode_off|data_usage_exceeded[PERSONA:None]",
+        "[mms_issue]airplane_mode_on|bad_network_preference|bad_wifi_calling|break_apn_mms_setting|break_app_storage_permission|data_mode_off|data_usage_exceeded|unseat_sim_card|user_abroad_roaming_disabled_off[PERSONA:Easy]",
+        "[mms_issue]airplane_mode_on|break_app_both_permissions[PERSONA:Hard]",
+        "[mms_issue]airplane_mode_on|bad_network_preference|break_apn_mms_setting|break_app_storage_permission[PERSONA:None]",
+        "[mobile_data_issue]airplane_mode_on|bad_network_preference|data_mode_off|data_usage_exceeded|user_abroad_roaming_disabled_on[PERSONA:None]",
+        "[service_issue]break_apn_settings|contract_end_suspension|lock_sim_card_pin|unseat_sim_card[PERSONA:Hard]",
+        "[mms_issue]break_apn_mms_setting|data_mode_off|data_usage_exceeded|user_abroad_roaming_disabled_on[PERSONA:Hard]",
+        "[service_issue]break_apn_settings|contract_end_suspension|lock_sim_card_pin[PERSONA:Hard]",
+        "[mobile_data_issue]data_saver_mode_on|user_abroad_roaming_enabled_off[PERSONA:Easy]",
+        "[service_issue]break_apn_settings|lock_sim_card_pin[PERSONA:None]",
+        "[mms_issue]airplane_mode_on|bad_network_preference|bad_wifi_calling|break_apn_mms_setting|break_app_storage_permission|data_usage_exceeded|unseat_sim_card|user_abroad_roaming_disabled_off[PERSONA:Easy]",
+        "[service_issue]airplane_mode_on|unseat_sim_card[PERSONA:None]",
+        "[service_issue]airplane_mode_on|lock_sim_card_pin[PERSONA:Easy]",
+        "[mobile_data_issue]bad_network_preference|data_saver_mode_on|data_usage_exceeded[PERSONA:Hard]",
+        "[service_issue]airplane_mode_on|break_apn_settings|overdue_bill_suspension[PERSONA:None]",
+        "[mms_issue]airplane_mode_on|bad_network_preference|bad_wifi_calling|break_apn_mms_setting|break_app_sms_permission|data_mode_off|data_usage_exceeded|unseat_sim_card|user_abroad_roaming_enabled_off[PERSONA:None]",
+        "[mobile_data_issue]data_usage_exceeded|user_abroad_roaming_enabled_off[PERSONA:Easy]",
+        "[mobile_data_issue]airplane_mode_on|data_mode_off|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_enabled_off[PERSONA:Hard]",
+        "[mms_issue]bad_network_preference|break_app_both_permissions[PERSONA:Easy]",
+        "[mobile_data_issue]airplane_mode_on|bad_network_preference|data_mode_off|data_saver_mode_on[PERSONA:Hard]",
+        "[mms_issue]airplane_mode_on|bad_network_preference|bad_wifi_calling|break_apn_mms_setting|break_app_storage_permission|data_mode_off|data_usage_exceeded|unseat_sim_card|user_abroad_roaming_disabled_on[PERSONA:Easy]",
+        "[mobile_data_issue]airplane_mode_on|bad_network_preference|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:None]",
+        "[mobile_data_issue]bad_network_preference|user_abroad_roaming_enabled_off[PERSONA:Hard]",
+        "[mobile_data_issue]data_mode_off|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:Hard]",
+        "[service_issue]airplane_mode_on|break_apn_settings[PERSONA:Hard]",
+        "[mms_issue]bad_network_preference|bad_wifi_calling|break_app_both_permissions|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:Hard]",
+        "[service_issue]airplane_mode_on|break_apn_settings|lock_sim_card_pin[PERSONA:None]",
+        "[mms_issue]bad_wifi_calling|break_apn_mms_setting|break_app_both_permissions|data_mode_off|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:None]",
+        "[mobile_data_issue]bad_vpn|data_saver_mode_on|user_abroad_roaming_disabled_on[PERSONA:None]",
+        "[mobile_data_issue]airplane_mode_on|bad_network_preference|bad_vpn|data_mode_off|data_usage_exceeded|user_abroad_roaming_enabled_off[PERSONA:Easy]",
+        "[mms_issue]airplane_mode_on|bad_network_preference|bad_wifi_calling|break_app_storage_permission|unseat_sim_card[PERSONA:Hard]",
+        "[service_issue]airplane_mode_on|lock_sim_card_pin|unseat_sim_card[PERSONA:Hard]",
+        "[mobile_data_issue]airplane_mode_on|bad_network_preference[PERSONA:Hard]",
+        "[mms_issue]break_app_both_permissions|unseat_sim_card|user_abroad_roaming_disabled_on[PERSONA:Hard]",
+        "[mobile_data_issue]bad_network_preference|bad_vpn|user_abroad_roaming_enabled_off[PERSONA:Easy]",
+        "[mobile_data_issue]bad_network_preference|bad_vpn|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:Easy]",
+        "[mobile_data_issue]bad_network_preference|bad_vpn|data_mode_off|data_saver_mode_on[PERSONA:None]",
+        "[mms_issue]break_app_storage_permission|data_usage_exceeded[PERSONA:Easy]",
+        "[mms_issue]airplane_mode_on|bad_network_preference|bad_wifi_calling|break_apn_mms_setting|break_app_sms_permission|data_mode_off|data_usage_exceeded|unseat_sim_card|user_abroad_roaming_disabled_on[PERSONA:None]",
+        "[mms_issue]airplane_mode_on|bad_network_preference|bad_wifi_calling|break_app_storage_permission|data_mode_off|data_usage_exceeded|unseat_sim_card|user_abroad_roaming_enabled_off[PERSONA:Hard]",
+        "[mobile_data_issue]airplane_mode_on|bad_network_preference|bad_vpn|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_enabled_off[PERSONA:None]",
+        "[service_issue]overdue_bill_suspension|unseat_sim_card[PERSONA:Easy]",
+        "[mms_issue]break_app_both_permissions|data_usage_exceeded[PERSONA:Hard]",
+        "[service_issue]airplane_mode_on|break_apn_settings|lock_sim_card_pin|unseat_sim_card[PERSONA:None]",
+        "[mms_issue]airplane_mode_on|bad_wifi_calling|break_app_both_permissions|data_mode_off|data_usage_exceeded|unseat_sim_card|user_abroad_roaming_enabled_off[PERSONA:None]",
+        "[mms_issue]bad_wifi_calling|data_mode_off|data_usage_exceeded[PERSONA:Easy]",
+        "[mobile_data_issue]airplane_mode_on|bad_network_preference|data_mode_off|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_disabled_on[PERSONA:None]",
+        "[mms_issue]bad_network_preference|bad_wifi_calling|break_app_sms_permission|data_mode_off|unseat_sim_card|user_abroad_roaming_enabled_off[PERSONA:Hard]",
+        "[mobile_data_issue]airplane_mode_on|bad_network_preference|user_abroad_roaming_enabled_off[PERSONA:Easy]",
+        "[mms_issue]bad_network_preference|break_app_sms_permission|data_mode_off|data_usage_exceeded|user_abroad_roaming_enabled_off[PERSONA:None]",
+        "[mobile_data_issue]data_saver_mode_on|data_usage_exceeded[PERSONA:Easy]",
+        "[service_issue]airplane_mode_on|contract_end_suspension|lock_sim_card_pin|unseat_sim_card[PERSONA:Hard]",
+        "[mms_issue]break_apn_mms_setting|data_mode_off|user_abroad_roaming_disabled_on[PERSONA:Hard]",
+        "[mms_issue]bad_network_preference|user_abroad_roaming_disabled_off[PERSONA:None]",
+        "[mms_issue]airplane_mode_on|bad_network_preference|break_app_storage_permission|data_mode_off|user_abroad_roaming_enabled_off[PERSONA:Easy]",
+        "[mms_issue]break_app_sms_permission|data_mode_off[PERSONA:None]",
+        "[mobile_data_issue]airplane_mode_on|bad_network_preference|bad_vpn|data_saver_mode_on|user_abroad_roaming_disabled_on[PERSONA:Easy]",
+        "[mobile_data_issue]airplane_mode_on|bad_network_preference|bad_vpn|data_mode_off|data_saver_mode_on|user_abroad_roaming_disabled_off[PERSONA:Hard]",
+        "[mobile_data_issue]airplane_mode_on|bad_network_preference|data_mode_off|user_abroad_roaming_disabled_on[PERSONA:Hard]",
+        "[mobile_data_issue]airplane_mode_on|bad_network_preference|bad_vpn|data_mode_off|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:Hard]",
+        "[mms_issue]airplane_mode_on|bad_wifi_calling|user_abroad_roaming_enabled_off[PERSONA:Easy]",
+        "[mms_issue]airplane_mode_on|bad_network_preference|bad_wifi_calling|break_apn_mms_setting|break_app_both_permissions|data_mode_off|data_usage_exceeded|unseat_sim_card|user_abroad_roaming_disabled_on[PERSONA:Hard]",
+        "[mobile_data_issue]airplane_mode_on|bad_network_preference|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:Easy]",
+        "[mms_issue]bad_wifi_calling|break_apn_mms_setting|unseat_sim_card|user_abroad_roaming_enabled_off[PERSONA:Easy]",
+        "[service_issue]lock_sim_card_pin|overdue_bill_suspension[PERSONA:Easy]",
+        "[mms_issue]bad_network_preference|data_mode_off|user_abroad_roaming_disabled_on[PERSONA:None]",
+        "[mobile_data_issue]airplane_mode_on|bad_network_preference|bad_vpn|data_mode_off|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_enabled_off[PERSONA:Easy]",
+        "[mobile_data_issue]airplane_mode_on|data_mode_off[PERSONA:None]",
+        "[service_issue]contract_end_suspension|lock_sim_card_pin[PERSONA:Hard]",
+        "[service_issue]airplane_mode_on|break_apn_settings|contract_end_suspension|lock_sim_card_pin[PERSONA:None]",
+        "[mobile_data_issue]bad_network_preference|bad_vpn|user_abroad_roaming_disabled_off[PERSONA:Hard]",
+        "[mms_issue]airplane_mode_on|bad_network_preference|bad_wifi_calling|data_usage_exceeded|unseat_sim_card|user_abroad_roaming_disabled_on[PERSONA:Easy]",
+        "[mms_issue]bad_wifi_calling|break_apn_mms_setting|data_mode_off|data_usage_exceeded|unseat_sim_card[PERSONA:None]",
+        "[mms_issue]bad_network_preference|bad_wifi_calling|break_app_both_permissions|data_usage_exceeded|unseat_sim_card|user_abroad_roaming_disabled_off[PERSONA:None]",
+        "[service_issue]airplane_mode_on|break_apn_settings|unseat_sim_card[PERSONA:None]",
+        "[mms_issue]break_apn_mms_setting|user_abroad_roaming_enabled_off[PERSONA:Hard]",
+        "[mms_issue]break_app_sms_permission|data_usage_exceeded|user_abroad_roaming_disabled_on[PERSONA:None]",
+        "[mms_issue]airplane_mode_on|bad_network_preference|break_apn_mms_setting|data_mode_off|unseat_sim_card|user_abroad_roaming_disabled_off[PERSONA:Easy]",
+        "[mms_issue]airplane_mode_on|bad_network_preference|break_apn_mms_setting|break_app_both_permissions|data_mode_off|data_usage_exceeded|user_abroad_roaming_enabled_off[PERSONA:None]",
+        "[mobile_data_issue]bad_network_preference|bad_vpn|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:Easy]",
+        "[service_issue]airplane_mode_on|break_apn_settings|contract_end_suspension|lock_sim_card_pin|unseat_sim_card[PERSONA:Easy]",
+        "[mms_issue]break_app_storage_permission|unseat_sim_card|user_abroad_roaming_disabled_on[PERSONA:Easy]",
+        "[mms_issue]airplane_mode_on|bad_network_preference|break_app_both_permissions|data_usage_exceeded|unseat_sim_card|user_abroad_roaming_disabled_on[PERSONA:Hard]",
+        "[mms_issue]airplane_mode_on|break_app_both_permissions|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:None]",
+        "[mobile_data_issue]airplane_mode_on|bad_network_preference|bad_vpn|data_mode_off|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_disabled_on[PERSONA:None]",
+        "[mms_issue]airplane_mode_on|bad_network_preference|data_usage_exceeded[PERSONA:None]",
+        "[mms_issue]bad_network_preference|user_abroad_roaming_disabled_on[PERSONA:None]",
+        "[service_issue]airplane_mode_on|overdue_bill_suspension|unseat_sim_card[PERSONA:Easy]",
+        "[service_issue]break_apn_settings|lock_sim_card_pin|overdue_bill_suspension|unseat_sim_card[PERSONA:Easy]",
+        "[mms_issue]airplane_mode_on|bad_network_preference|bad_wifi_calling|break_apn_mms_setting|break_app_both_permissions|unseat_sim_card|user_abroad_roaming_enabled_off[PERSONA:Hard]",
+        "[service_issue]airplane_mode_on|overdue_bill_suspension[PERSONA:None]",
+        "[mobile_data_issue]bad_network_preference|bad_vpn|data_mode_off|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_enabled_off[PERSONA:Easy]",
+        "[service_issue]airplane_mode_on|break_apn_settings|contract_end_suspension|unseat_sim_card[PERSONA:Easy]",
+        "[mms_issue]bad_wifi_calling|break_apn_mms_setting|break_app_sms_permission|data_usage_exceeded[PERSONA:Hard]",
+        "[service_issue]airplane_mode_on|lock_sim_card_pin|overdue_bill_suspension|unseat_sim_card[PERSONA:Easy]",
+        "[mobile_data_issue]airplane_mode_on|data_saver_mode_on|user_abroad_roaming_disabled_on[PERSONA:None]",
+        "[mms_issue]bad_network_preference|bad_wifi_calling|break_apn_mms_setting|break_app_storage_permission|data_mode_off|data_usage_exceeded|unseat_sim_card[PERSONA:Easy]",
+        "[service_issue]airplane_mode_on|break_apn_settings|lock_sim_card_pin|overdue_bill_suspension[PERSONA:Hard]",
+        "[mobile_data_issue]airplane_mode_on|user_abroad_roaming_enabled_off[PERSONA:None]",
+        "[mobile_data_issue]bad_network_preference|data_mode_off|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:Easy]",
+        "[mms_issue]airplane_mode_on|bad_network_preference|bad_wifi_calling|break_app_sms_permission|data_mode_off|data_usage_exceeded|unseat_sim_card|user_abroad_roaming_disabled_off[PERSONA:None]",
+        "[service_issue]break_apn_settings|lock_sim_card_pin|overdue_bill_suspension[PERSONA:Easy]",
+        "[service_issue]airplane_mode_on|break_apn_settings|overdue_bill_suspension|unseat_sim_card[PERSONA:None]",
+        "[mms_issue]bad_network_preference|bad_wifi_calling|break_app_sms_permission|data_mode_off|data_usage_exceeded|unseat_sim_card|user_abroad_roaming_enabled_off[PERSONA:Easy]",
+        "[mobile_data_issue]bad_network_preference|bad_vpn|user_abroad_roaming_disabled_on[PERSONA:None]",
+        "[mms_issue]bad_network_preference|break_app_sms_permission|user_abroad_roaming_disabled_on[PERSONA:Hard]"
+      ],
+      "source_refs": [
+        {
+          "relative_path": "data/tau2/domains/telecom/tasks.json",
+          "sha256": "37e562e1ae3242577407e1303b1548bc64e7ea68e37d36173e6747990ceaf8a4",
+          "bytes": 13977063
+        },
+        {
+          "relative_path": "data/tau2/domains/telecom/split_tasks.json",
+          "sha256": "605b488bb9a6acb3c7f4505240a855fdc8681d09aadb16a8f38b2efcfc5c3aec",
+          "bytes": 356149
+        }
+      ],
+      "candidates": [
+        {
+          "family_id": "tau",
+          "task_id": "telecom:[mms_issue]airplane_mode_on|bad_network_preference|bad_wifi_calling|break_apn_mms_setting|break_app_storage_permission|data_mode_off|data_usage_exceeded|unseat_sim_card[PERSONA:Easy]",
+          "identity_kind": "upstream_domain_and_task_id",
+          "domain": "telecom",
+          "upstream_task_id": "[mms_issue]airplane_mode_on|bad_network_preference|bad_wifi_calling|break_apn_mms_setting|break_app_storage_permission|data_mode_off|data_usage_exceeded|unseat_sim_card[PERSONA:Easy]",
+          "mode": "text",
+          "source_split": "base",
+          "status": "draft_for_review",
+          "admitted": false,
+          "selection_rank_sha256": "00c893cb40f7437c03578fd95eac5474a00706c656d22e60b8f8992c000f8f0c",
+          "canonical_record_sha256": "46aeb73f99f22e94e8c9f2e495d1a5d2b6d1598f01aedd60dd1a23309b59edbc",
+          "title": "Telecom service workflow [mms_issue]airplane_mode_on|bad_network_preference|bad_wifi_calling|break_apn_mms_setting|break_app_storage_permission|data_mode_off|data_usage_exceeded|unseat_sim_card[PERSONA:Easy]",
+          "reason": "Three tasks per text domain, selected with a fixed hash seed for balanced service coverage. No model outcomes used.",
+          "source_refs": [
+            {
+              "relative_path": "data/tau2/domains/telecom/tasks.json",
+              "sha256": "37e562e1ae3242577407e1303b1548bc64e7ea68e37d36173e6747990ceaf8a4",
+              "bytes": 13977063
+            },
+            {
+              "relative_path": "data/tau2/domains/telecom/split_tasks.json",
+              "sha256": "605b488bb9a6acb3c7f4505240a855fdc8681d09aadb16a8f38b2efcfc5c3aec",
+              "bytes": 356149
+            }
+          ],
+          "pending_checks": [
+            "Choose and pin the user simulator, retrieval configuration where applicable, model and seeds.",
+            "Verify full native tool-state grading and isolate evaluator material from the agent.",
+            "Audit native turn limits and ending conditions for AgentTime natural runs."
+          ]
+        },
+        {
+          "family_id": "tau",
+          "task_id": "telecom:[mms_issue]airplane_mode_on|bad_network_preference|bad_wifi_calling|break_apn_mms_setting|break_app_both_permissions|data_mode_off|data_usage_exceeded|unseat_sim_card|user_abroad_roaming_disabled_off[PERSONA:Hard]",
+          "identity_kind": "upstream_domain_and_task_id",
+          "domain": "telecom",
+          "upstream_task_id": "[mms_issue]airplane_mode_on|bad_network_preference|bad_wifi_calling|break_apn_mms_setting|break_app_both_permissions|data_mode_off|data_usage_exceeded|unseat_sim_card|user_abroad_roaming_disabled_off[PERSONA:Hard]",
+          "mode": "text",
+          "source_split": "base",
+          "status": "draft_for_review",
+          "admitted": false,
+          "selection_rank_sha256": "01f6fe52add0970c4f3ca4fbad0e5adb35787b68bf0b5ca633621a1037e276a8",
+          "canonical_record_sha256": "92b3367f43bea49e782ec53b1e8dc2daf7cac77b2cbf09886962765afb858c1f",
+          "title": "Telecom service workflow [mms_issue]airplane_mode_on|bad_network_preference|bad_wifi_calling|break_apn_mms_setting|break_app_both_permissions|data_mode_off|data_usage_exceeded|unseat_sim_card|user_abroad_roaming_disabled_off[PERSONA:Hard]",
+          "reason": "Three tasks per text domain, selected with a fixed hash seed for balanced service coverage. No model outcomes used.",
+          "source_refs": [
+            {
+              "relative_path": "data/tau2/domains/telecom/tasks.json",
+              "sha256": "37e562e1ae3242577407e1303b1548bc64e7ea68e37d36173e6747990ceaf8a4",
+              "bytes": 13977063
+            },
+            {
+              "relative_path": "data/tau2/domains/telecom/split_tasks.json",
+              "sha256": "605b488bb9a6acb3c7f4505240a855fdc8681d09aadb16a8f38b2efcfc5c3aec",
+              "bytes": 356149
+            }
+          ],
+          "pending_checks": [
+            "Choose and pin the user simulator, retrieval configuration where applicable, model and seeds.",
+            "Verify full native tool-state grading and isolate evaluator material from the agent.",
+            "Audit native turn limits and ending conditions for AgentTime natural runs."
+          ]
+        },
+        {
+          "family_id": "tau",
+          "task_id": "telecom:[service_issue]contract_end_suspension|unseat_sim_card[PERSONA:Hard]",
+          "identity_kind": "upstream_domain_and_task_id",
+          "domain": "telecom",
+          "upstream_task_id": "[service_issue]contract_end_suspension|unseat_sim_card[PERSONA:Hard]",
+          "mode": "text",
+          "source_split": "base",
+          "status": "draft_for_review",
+          "admitted": false,
+          "selection_rank_sha256": "026b82d49bfcd5a0873dab3e36bc4c84b9b72131effd34278bf5f5533961d1b9",
+          "canonical_record_sha256": "05dd9bf7cf7ca614734a86e0d8d7a0f86d8bd4b8a5583b460ab4bdc17c575888",
+          "title": "Telecom service workflow [service_issue]contract_end_suspension|unseat_sim_card[PERSONA:Hard]",
+          "reason": "Three tasks per text domain, selected with a fixed hash seed for balanced service coverage. No model outcomes used.",
+          "source_refs": [
+            {
+              "relative_path": "data/tau2/domains/telecom/tasks.json",
+              "sha256": "37e562e1ae3242577407e1303b1548bc64e7ea68e37d36173e6747990ceaf8a4",
+              "bytes": 13977063
+            },
+            {
+              "relative_path": "data/tau2/domains/telecom/split_tasks.json",
+              "sha256": "605b488bb9a6acb3c7f4505240a855fdc8681d09aadb16a8f38b2efcfc5c3aec",
+              "bytes": 356149
+            }
+          ],
+          "pending_checks": [
+            "Choose and pin the user simulator, retrieval configuration where applicable, model and seeds.",
+            "Verify full native tool-state grading and isolate evaluator material from the agent.",
+            "Audit native turn limits and ending conditions for AgentTime natural runs."
+          ]
+        }
+      ]
+    },
+    {
+      "domain": "banking_knowledge",
+      "pool_count": 97,
+      "split": "all_text_tasks",
+      "ranked_pool_ids": [
+        "task_070",
+        "task_012",
+        "task_032",
+        "task_094",
+        "task_028",
+        "task_050",
+        "task_018",
+        "task_056",
+        "task_039",
+        "task_078",
+        "task_053",
+        "task_069",
+        "task_065",
+        "task_095",
+        "task_008",
+        "task_043",
+        "task_079",
+        "task_016",
+        "task_092",
+        "task_049",
+        "task_096",
+        "task_066",
+        "task_058",
+        "task_072",
+        "task_036",
+        "task_091",
+        "task_026",
+        "task_080",
+        "task_086",
+        "task_060",
+        "task_061",
+        "task_052",
+        "task_062",
+        "task_097",
+        "task_099",
+        "task_020",
+        "task_046",
+        "task_090",
+        "task_019",
+        "task_041",
+        "task_040",
+        "task_021",
+        "task_015",
+        "task_074",
+        "task_031",
+        "task_071",
+        "task_006",
+        "task_034",
+        "task_100",
+        "task_055",
+        "task_010",
+        "task_084",
+        "task_064",
+        "task_038",
+        "task_035",
+        "task_081",
+        "task_102",
+        "task_063",
+        "task_082",
+        "task_098",
+        "task_083",
+        "task_033",
+        "task_077",
+        "task_067",
+        "task_024",
+        "task_051",
+        "task_023",
+        "task_068",
+        "task_002",
+        "task_059",
+        "task_085",
+        "task_044",
+        "task_005",
+        "task_027",
+        "task_037",
+        "task_001",
+        "task_003",
+        "task_073",
+        "task_022",
+        "task_047",
+        "task_025",
+        "task_088",
+        "task_007",
+        "task_048",
+        "task_076",
+        "task_057",
+        "task_017",
+        "task_101",
+        "task_004",
+        "task_075",
+        "task_029",
+        "task_014",
+        "task_087",
+        "task_089",
+        "task_093",
+        "task_054",
+        "task_045"
+      ],
+      "source_refs": [
+        {
+          "relative_path": "data/tau2/domains/banking_knowledge/tasks.json",
+          "sha256": "213c7f3e6dc0420b1184ee271e39e38c6ece3c43edfa362db49a560828ebd543",
+          "bytes": 1138204
+        }
+      ],
+      "candidates": [
+        {
+          "family_id": "tau",
+          "task_id": "banking_knowledge:task_070",
+          "identity_kind": "upstream_domain_and_task_id",
+          "domain": "banking_knowledge",
+          "upstream_task_id": "task_070",
+          "mode": "text",
+          "source_split": "all_text_tasks",
+          "status": "draft_for_review",
+          "admitted": false,
+          "selection_rank_sha256": "0413af76fd30cd38f21ed5f139520daba5b3fb0fb0e8df42137636268194e5fc",
+          "canonical_record_sha256": "6f1d13aa13e02fc480bbd0b2c4ec876f533182c89a86b1ebf81e6c709e3d573d",
+          "title": "Banking Knowledge service workflow task_070",
+          "reason": "Three tasks per text domain, selected with a fixed hash seed for balanced service coverage. No model outcomes used.",
+          "source_refs": [
+            {
+              "relative_path": "data/tau2/domains/banking_knowledge/tasks.json",
+              "sha256": "213c7f3e6dc0420b1184ee271e39e38c6ece3c43edfa362db49a560828ebd543",
+              "bytes": 1138204
+            }
+          ],
+          "pending_checks": [
+            "Choose and pin the user simulator, retrieval configuration where applicable, model and seeds.",
+            "Verify full native tool-state grading and isolate evaluator material from the agent.",
+            "Audit native turn limits and ending conditions for AgentTime natural runs."
+          ]
+        },
+        {
+          "family_id": "tau",
+          "task_id": "banking_knowledge:task_012",
+          "identity_kind": "upstream_domain_and_task_id",
+          "domain": "banking_knowledge",
+          "upstream_task_id": "task_012",
+          "mode": "text",
+          "source_split": "all_text_tasks",
+          "status": "draft_for_review",
+          "admitted": false,
+          "selection_rank_sha256": "058d6488aab20a6347856d0567259bad4399e289731dc1dd0685f679f30d5aa6",
+          "canonical_record_sha256": "9f8b3e8d3c1b109d595b58d36fa6ef88ff1be4c0ef3479888c7a11c4f67eaef5",
+          "title": "Banking Knowledge service workflow task_012",
+          "reason": "Three tasks per text domain, selected with a fixed hash seed for balanced service coverage. No model outcomes used.",
+          "source_refs": [
+            {
+              "relative_path": "data/tau2/domains/banking_knowledge/tasks.json",
+              "sha256": "213c7f3e6dc0420b1184ee271e39e38c6ece3c43edfa362db49a560828ebd543",
+              "bytes": 1138204
+            }
+          ],
+          "pending_checks": [
+            "Choose and pin the user simulator, retrieval configuration where applicable, model and seeds.",
+            "Verify full native tool-state grading and isolate evaluator material from the agent.",
+            "Audit native turn limits and ending conditions for AgentTime natural runs."
+          ]
+        },
+        {
+          "family_id": "tau",
+          "task_id": "banking_knowledge:task_032",
+          "identity_kind": "upstream_domain_and_task_id",
+          "domain": "banking_knowledge",
+          "upstream_task_id": "task_032",
+          "mode": "text",
+          "source_split": "all_text_tasks",
+          "status": "draft_for_review",
+          "admitted": false,
+          "selection_rank_sha256": "0e1ee70b70adf6c67ec30f46fd6fe6689cd8b2efb0516ef8a0e45ff952b6a017",
+          "canonical_record_sha256": "c8d5f7257464f0a6ce8069342f508753409d10c28dc4df2610c07706aed4f129",
+          "title": "Banking Knowledge service workflow task_032",
+          "reason": "Three tasks per text domain, selected with a fixed hash seed for balanced service coverage. No model outcomes used.",
+          "source_refs": [
+            {
+              "relative_path": "data/tau2/domains/banking_knowledge/tasks.json",
+              "sha256": "213c7f3e6dc0420b1184ee271e39e38c6ece3c43edfa362db49a560828ebd543",
+              "bytes": 1138204
+            }
+          ],
+          "pending_checks": [
+            "Choose and pin the user simulator, retrieval configuration where applicable, model and seeds.",
+            "Verify full native tool-state grading and isolate evaluator material from the agent.",
+            "Audit native turn limits and ending conditions for AgentTime natural runs."
+          ]
+        }
+      ]
+    }
+  ],
+  "count": 12,
+  "runtime_qualified": false
+}

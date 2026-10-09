@@ -1,0 +1,9 @@
+{
+  "attempt_id": "bd248e2b-ca0a-49a6-8c8c-36441808aa7b",
+  "baseline_sha256": "4fe9a5d2b7060be2eae13058ccb38b32be5f9d4af417e9f0975a00367a834956",
+  "inventory_sha256": "73c2eb39c7f0296557b5121b4ef3327489ad458b1e96b51ad789a6d94d0f01ff",
+  "session_id": "9ca52dd3-8780-4d29-8874-dfe2bd7c5a07",
+  "spec_sha256": "0d8a2f019dce1ee52faa1403ac1436a5f6e57d577ec59b0836ba85c2ff3360f1",
+  "state": "prepared",
+  "study_admitted": false
+}

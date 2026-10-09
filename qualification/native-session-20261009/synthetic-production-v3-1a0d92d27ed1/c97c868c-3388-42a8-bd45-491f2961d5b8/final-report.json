@@ -1,0 +1,17 @@
+{
+  "attempt_id": "c97c868c-3388-42a8-bd45-491f2961d5b8",
+  "identity_sha256": "5bc483b1eed693585dc2146dfff03286f670857b709c02cee998a091e405b537",
+  "contract_sha256": "389363c2479fa027620c26e0501fbd44deeb251249021e1dc5bd6876563053f5",
+  "input_sha256": "3530a98a4b7faf094f6a3d8eb30f2e9361deedab3020486970569342e98e89e4",
+  "outcome": "completed",
+  "timing_status": "valid",
+  "stop_evidence": {
+    "identity_sha256": "5bc483b1eed693585dc2146dfff03286f670857b709c02cee998a091e405b537",
+    "stop_verified": true,
+    "owned_work_drained": true,
+    "proof_sha256": "580446d5daf7277b5c2577f4302c163a3ecf9253b27f572738c894f4688fe2de"
+  },
+  "purpose": "synthetic_qualification",
+  "study_admitted": false,
+  "native_session_evidence_sha256": "54e116a46166ecd58c456953e6853f9f36d32d0c6396ef556e812ec52a511c14"
+}

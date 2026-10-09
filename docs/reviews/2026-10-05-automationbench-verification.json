@@ -1,0 +1,39 @@
+{
+  "recorded_at_utc": "2026-10-05T09:40:07.789492+00:00",
+  "scope": "Independent root integration verification; no model calls or native agent trial.",
+  "task_places": 201,
+  "unchanged_other_task_identities": 200,
+  "nominal_executions_per_agent": 603,
+  "forecast_requests_per_agent": 201,
+  "adapter_tests_native": {
+    "run": 27,
+    "passed": 26,
+    "skipped_harbor_only": 1
+  },
+  "adapter_tests_harbor": {
+    "run": 2,
+    "passed": 2
+  },
+  "unique_adapter_tests_exercised": 27,
+  "inventory_unit_tests_passed": 20,
+  "planner_tests_passed": 14,
+  "native_upstream_focused_tests_passed": 132,
+  "selected_task_integration": {
+    "scope": "selected cached task through standalone backend, no model or harness",
+    "task_id": "sales.cross_reference_validation",
+    "source_commit": "4a8e1061254004d9dac807054eed33fad7d1ff14",
+    "source_tree_sha256": "58b189a8c2a37c9ff085c2ec268cadca846665468e32cbca3e3c98bd1ff914f8",
+    "accepted_tool_calls": 22,
+    "positive_all_pass": 1.0,
+    "positive_partial_credit": 1.0,
+    "initial_noop_all_pass": 0.0,
+    "grade_equal_after_active_checkpoint_restore": true,
+    "per_assertion_equal_to_native_and_constructed_baselines": true,
+    "native_harness_qualified": false,
+    "study_launch_ready": false
+  },
+  "independent_code_review": "approved_for_standalone_model_free_adapter_only",
+  "native_agent_trials": 0,
+  "study_launch_ready": false,
+  "adapter_receipt_sha256": "a33f1c46e90dceb971a664f5d3dad02d19e8dbc867427f6f245a0522c5877b3b"
+}

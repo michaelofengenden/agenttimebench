@@ -1,0 +1,6 @@
+{
+  "container_id": "c60c83d706bd6f6b7ba0ea77ae32c5b539876ec048eb7e94512194d5bd2c5c11",
+  "image": "sha256:bc5e8675cdb8a8934817780b4285b2cb0819ab4fdbd6bd2bdf7cbb0d87aa2d8e",
+  "label": "synthetic-hetzner-continue-0814385dc02e",
+  "purpose": "synthetic_restore_only"
+}

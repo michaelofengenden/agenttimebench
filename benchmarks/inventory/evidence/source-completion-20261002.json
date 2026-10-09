@@ -1,0 +1,73 @@
+{
+  "schema_version": 1,
+  "recorded_at_utc": "2026-10-02T17:19:49.227129+00:00",
+  "scope": "Source preparation only; selected identities and runtime admission are unchanged.",
+  "cache_folders": [
+    "benchmarks/cache/dateutil-source-completion-20261002",
+    "benchmarks/cache/paper-source-completion-20261002",
+    "benchmarks/cache/web-source-completion-20261002",
+    "benchmarks/cache/generated-source-completion-20261002"
+  ],
+  "added_files": 532,
+  "added_bytes": 897165792,
+  "dateutil": {
+    "historical_timezone_match": true,
+    "overlays_applied": false,
+    "result": {
+      "root": "repository",
+      "path": "benchmarks/cache/dateutil-source-completion-20261002/result.json",
+      "exists": true,
+      "bytes": 17047,
+      "sha256": "13dc4c1f5e2fd2bc00ebb28918ab0f5ed36a925a10b637b16b47e2a8ad9929b1",
+      "role": "dependency_resolution",
+      "visibility": "preparation_only"
+    }
+  },
+  "paperbench": {
+    "initial_source_files_verified": 48,
+    "resources_provided": false,
+    "external_reproduction_gap_task": "bridging-data-gaps",
+    "result": {
+      "root": "repository",
+      "path": "benchmarks/cache/paper-source-completion-20261002/result.json",
+      "exists": true,
+      "bytes": 203356,
+      "sha256": "c8619a59eafe3c650a06afaadeec6757408133667f7dbab9c2e6e9abbccf802c",
+      "role": "source_and_access_audit",
+      "visibility": "preparation_only"
+    }
+  },
+  "web": {
+    "answer_free_prompt_projections": 20,
+    "assistant_reference_urls_responding": 26,
+    "browser_qualified": false,
+    "result": {
+      "root": "repository",
+      "path": "benchmarks/cache/web-source-completion-20261002/preparation-receipt.json",
+      "exists": true,
+      "bytes": 15905,
+      "sha256": "b3c57dfea4130eaf0fa539f4283440b55207c4da6123685ff6103b11c0ef6ab0",
+      "role": "source_preparation",
+      "visibility": "preparation_only"
+    }
+  },
+  "generated": {
+    "status": "passed_generated_source_checks_only",
+    "manifested_files_verified": 391,
+    "manifested_bytes_verified": 881210914,
+    "assets_present": 4,
+    "assets_needs_checking": 1,
+    "checkpoint_shards_verified": 16,
+    "sqlite_databases_checked": 5,
+    "subject_bundles_boundary_checked": 3,
+    "payment_archive_members_hashed": 289,
+    "payments_restoration_tested": false,
+    "runtime_qualified": 0,
+    "admitted": 0
+  },
+  "task_count": 212,
+  "task_identity_changes": 0,
+  "benchmark_runs": 0,
+  "runtime_qualified": 0,
+  "admitted": 0
+}

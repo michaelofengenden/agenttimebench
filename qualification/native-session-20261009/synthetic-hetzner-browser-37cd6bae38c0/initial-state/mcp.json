@@ -1,0 +1,28 @@
+{
+  "mcpServers": {
+    "assistantbench": {
+      "args": [
+        "-i",
+        "PATH=/usr/local/bin:/usr/bin:/bin",
+        "HOME=/tmp/assistant-canary/browser-home",
+        "TMPDIR=/tmp/assistant-canary/browser-tmp",
+        "PYTHONPATH=/opt/canary",
+        "PYTHONDONTWRITEBYTECODE=1",
+        "PLAYWRIGHT_BROWSERS_PATH=/opt/playwright",
+        "LANG=C.UTF-8",
+        "/usr/local/bin/python3",
+        "-m",
+        "agenttime.assistantbench_bridge",
+        "--goal-file",
+        "/tmp/assistant-canary/goal.txt",
+        "--state-dir",
+        "/tmp/assistant-canary/browser-state",
+        "--attempt-id",
+        "a133e858-520c-4c3d-8722-3fefd81508a6",
+        "--qualification-start-url",
+        "http://127.0.0.1:8765/synthetic.html"
+      ],
+      "command": "/usr/bin/env"
+    }
+  }
+}

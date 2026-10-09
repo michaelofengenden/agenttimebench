@@ -1,0 +1,1556 @@
+{
+  "schema_version": 1,
+  "updated_at_utc": "2026-10-05T15:29:51.872332+00:00",
+  "source_commit": "4a8e1061254004d9dac807054eed33fad7d1ff14",
+  "benchmark_version": "1.0.6",
+  "catalog_tasks_screened": 600,
+  "native_api_candidates_tested": 50,
+  "additional_candidates_tested": 22,
+  "selected_candidates": 0,
+  "held_after_native_checks": 47,
+  "selected_invalid_controls_rejected": 52,
+  "suite_tasks": 200,
+  "planned_executions_per_agent": 600,
+  "forecasts_per_agent": 200,
+  "selection_scope": "AutomationBench is excluded from the active v1.1 allocation by user choice. All candidate records and audit passes below are historical.",
+  "selection_basis": "Native API witnesses, core requirement coverage, invalid outcomes, valid alternatives and standalone backend restoration checks. Absence of a reported issue is not treated as evidence of correctness.",
+  "sampling_limit": "Candidates were screened purposively; these counts are not an estimate of defect prevalence in all 600 tasks.",
+  "candidates": [
+    {
+      "task_id": "sales.cross_reference_validation",
+      "title": "Validate a new enterprise deal against CRM records and current policy",
+      "summary": "Resolve similarly named companies and duplicate contacts, apply current authorization rules, create the eligible CRM deal and record its audit trail.",
+      "source_url": "https://github.com/zapier/AutomationBench/blob/4a8e1061254004d9dac807054eed33fad7d1ff14/automationbench/domains/sales/tasks.py#L1927",
+      "negative_controls": 15,
+      "new_in_expansion": false
+    },
+    {
+      "task_id": "sales.negative_selection",
+      "title": "Enroll eligible directors under campaign compliance rules",
+      "summary": "Join contact and account records, follow parent-company restrictions, apply role exclusions and compliance holds, and enroll only eligible contacts.",
+      "source_url": "https://github.com/zapier/AutomationBench/blob/4a8e1061254004d9dac807054eed33fad7d1ff14/automationbench/domains/sales/tasks.py#L358",
+      "negative_controls": 20,
+      "new_in_expansion": true
+    },
+    {
+      "task_id": "sales.qualify_lead",
+      "title": "Apply current lead qualification rules and executive override",
+      "summary": "Retrieve the qualification policy, resolve policy precedence and a newer executive directive, classify all open leads and preserve the lead records.",
+      "source_url": "https://github.com/zapier/AutomationBench/blob/4a8e1061254004d9dac807054eed33fad7d1ff14/automationbench/domains/sales/tasks.py#L7859",
+      "negative_controls": 17,
+      "new_in_expansion": true
+    }
+  ],
+  "held": [
+    {
+      "task_id": "sales.dependency_chain",
+      "reason": "Rejects a correct amount expressed with an ISO currency code instead of a dollar symbol.",
+      "audit_pass": "initial",
+      "reassessment_status": "prompt_variant_proposed_not_adopted"
+    },
+    {
+      "task_id": "operations.utility_cost_allocation",
+      "reason": "Accepts the final email without the requested department cost breakdown.",
+      "audit_pass": "initial"
+    },
+    {
+      "task_id": "finance.multicurrency_invoice",
+      "reason": "Accepts a summary with incorrect original currencies.",
+      "audit_pass": "initial"
+    },
+    {
+      "task_id": "hr.data_migration_validation",
+      "reason": "Accepts leaving an eligible record unvalidated.",
+      "audit_pass": "initial"
+    },
+    {
+      "task_id": "support.helpscout_reamaze_migration",
+      "reason": "Accepts losing the requested category mapping.",
+      "audit_pass": "initial"
+    },
+    {
+      "task_id": "marketing.event_sponsorship_screen",
+      "reason": "Accepts clearing source rows and restoring only approval-status cells.",
+      "audit_pass": "initial"
+    },
+    {
+      "task_id": "operations.asana_safety_walk_log",
+      "source_url": "https://github.com/zapier/AutomationBench/blob/4a8e1061254004d9dac807054eed33fad7d1ff14/automationbench/domains/operations/tasks.py#L2109",
+      "status": "hold_reproduced_grader_defect",
+      "reason": "A legitimate native inline tag during task creation is rejected because grading requires a separate tag action.",
+      "audit_pass": "expansion",
+      "reassessment_status": "prompt_variant_proposed_not_adopted"
+    },
+    {
+      "task_id": "operations.confluence_gmail_policy_notice",
+      "source_url": "https://github.com/zapier/AutomationBench/blob/4a8e1061254004d9dac807054eed33fad7d1ff14/automationbench/domains/operations/tasks.py#L2779",
+      "status": "hold_reproduced_grader_defect",
+      "reason": "Creating an unpublished draft instead of publishing the approved policy receives full credit.",
+      "audit_pass": "expansion"
+    },
+    {
+      "task_id": "operations.drive_slack_dock_schedule",
+      "source_url": "https://github.com/zapier/AutomationBench/blob/4a8e1061254004d9dac807054eed33fad7d1ff14/automationbench/domains/operations/tasks.py#L2982",
+      "status": "hold_reproduced_grader_defect",
+      "reason": "The required sharing operation can be undone and still receives full credit.",
+      "audit_pass": "expansion"
+    },
+    {
+      "task_id": "operations.facility_incident_triage",
+      "source_url": "https://github.com/zapier/AutomationBench/blob/4a8e1061254004d9dac807054eed33fad7d1ff14/automationbench/domains/operations/tasks.py#L19105",
+      "status": "hold_reproduced_grader_defect",
+      "reason": "The agent can also escalate an explicitly excluded resolved incident and retain full credit.",
+      "audit_pass": "expansion"
+    },
+    {
+      "task_id": "operations.cross_department_budget_reconciliation",
+      "source_url": "https://github.com/zapier/AutomationBench/blob/4a8e1061254004d9dac807054eed33fad7d1ff14/automationbench/domains/operations/tasks.py#L24966",
+      "status": "hold_reproduced_grader_defect",
+      "reason": "Notifications can reverse the required over-budget conclusion or associate categories with wrong departments and retain full credit.",
+      "audit_pass": "expansion"
+    },
+    {
+      "task_id": "finance.petty_cash_reconciliation",
+      "source_url": "https://github.com/zapier/AutomationBench/blob/4a8e1061254004d9dac807054eed33fad7d1ff14/automationbench/domains/finance/tasks.py#L5040",
+      "status": "hold_reproduced_grader_defect",
+      "reason": "The financial shortage can be reported as an overage and still receives full credit.",
+      "audit_pass": "expansion"
+    },
+    {
+      "task_id": "finance.monthend_journal_entries",
+      "source_url": "https://github.com/zapier/AutomationBench/blob/4a8e1061254004d9dac807054eed33fad7d1ff14/automationbench/domains/finance/tasks.py#L2132",
+      "status": "hold_reproduced_grader_defect",
+      "reason": "The prepared journal omits all credit entries and the balanced debit/credit totals but receives full credit.",
+      "audit_pass": "expansion"
+    },
+    {
+      "task_id": "finance.year_end_audit_prep",
+      "source_url": "https://github.com/zapier/AutomationBench/blob/4a8e1061254004d9dac807054eed33fad7d1ff14/automationbench/domains/finance/tasks.py#L15451",
+      "status": "hold_reproduced_grader_defect",
+      "reason": "The required controller report can contain no report at all and still receives full credit.",
+      "audit_pass": "expansion"
+    },
+    {
+      "task_id": "operations.office_supply_budget_monitoring",
+      "source_url": "https://github.com/zapier/AutomationBench/blob/4a8e1061254004d9dac807054eed33fad7d1ff14/automationbench/domains/operations/tasks.py#L30012",
+      "status": "hold_reproduced_grader_defect",
+      "reason": "An explicitly exempt department can receive a Slack budget alert and full credit is retained.",
+      "audit_pass": "expansion"
+    },
+    {
+      "task_id": "finance.expense_reclassification",
+      "source_url": "https://github.com/zapier/AutomationBench/blob/4a8e1061254004d9dac807054eed33fad7d1ff14/automationbench/domains/finance/tasks.py#L6964",
+      "status": "hold_reproduced_grader_defect",
+      "reason": "Invalid combined category names and negated completion statuses are accepted as valid final state.",
+      "audit_pass": "expansion"
+    },
+    {
+      "task_id": "finance.wave_product_catalog",
+      "source_url": "https://github.com/zapier/AutomationBench/blob/4a8e1061254004d9dac807054eed33fad7d1ff14/automationbench/domains/finance/tasks.py#L7846",
+      "status": "hold_reproduced_grader_defect",
+      "reason": "An active catalog product can be archived after pricing updates and full credit is retained.",
+      "audit_pass": "expansion"
+    },
+    {
+      "task_id": "hr.twilio_interview_reminders",
+      "status": "held_native_false_positive",
+      "reason": "The visible schedule states EST, but replacing both outbound messages with PST still passes.",
+      "source_url": "https://github.com/zapier/AutomationBench/blob/4a8e1061254004d9dac807054eed33fad7d1ff14/automationbench/domains/hr/tasks.py#L5951",
+      "audit_pass": "expansion"
+    },
+    {
+      "task_id": "hr.buddy_assignment",
+      "status": "held_native_false_positive",
+      "reason": "The notification to one buddy can name the other, similarly named new hire and still pass.",
+      "source_url": "https://github.com/zapier/AutomationBench/blob/4a8e1061254004d9dac807054eed33fad7d1ff14/automationbench/domains/hr/tasks.py#L18100",
+      "audit_pass": "expansion"
+    },
+    {
+      "task_id": "support.reamaze_multilanguage",
+      "status": "held_native_false_positive",
+      "reason": "Changing the required internal note to a regular customer-visible message still passes.",
+      "source_url": "https://github.com/zapier/AutomationBench/blob/4a8e1061254004d9dac807054eed33fad7d1ff14/automationbench/domains/support/tasks.py#L32443",
+      "audit_pass": "expansion"
+    },
+    {
+      "task_id": "hr.expense_policy_violation",
+      "status": "held_native_false_positive",
+      "reason": "Every Approved row can instead say Not Approved and still pass. The four reversed-status probes and missing-notification probe do fail.",
+      "source_url": "https://github.com/zapier/AutomationBench/blob/4a8e1061254004d9dac807054eed33fad7d1ff14/automationbench/domains/hr/tasks.py#L4412",
+      "audit_pass": "expansion"
+    },
+    {
+      "task_id": "support.zoho_multitenant_isolation",
+      "status": "held_native_false_positive",
+      "reason": "One logged violation can name the wrong customer contact and still pass. The other 14 tested wrong outcomes fail.",
+      "source_url": "https://github.com/zapier/AutomationBench/blob/4a8e1061254004d9dac807054eed33fad7d1ff14/automationbench/domains/support/tasks.py#L35192",
+      "audit_pass": "expansion"
+    },
+    {
+      "task_id": "sales.update_contact_phone",
+      "status": "held_reproduced_false_negative",
+      "reason": "Semantically identical parenthesized phone numbers in per-update notes turn native completion from 1 to 0. The prompt does not prescribe a phone-note format.",
+      "audit_pass": "expansion",
+      "reassessment_status": "prompt_variant_proposed_not_adopted"
+    },
+    {
+      "task_id": "marketing.google_ads_high_intent_list_from_hubspot",
+      "status": "held_reproduced_api_grader_mismatch",
+      "reason": "The native API hashedEmail field stores SHA256 identifiers as provided, but native assertions look for plain emails. Correct hashing yields completion 0; replacing hashes with raw emails yields completion 1.",
+      "audit_pass": "expansion"
+    },
+    {
+      "task_id": "sales.zoom_crm_meeting",
+      "status": "held_reproduced_api_host_mismatch",
+      "reason": "Using the documented /users/<host-email>/meetings URL without the optional host_email body field creates a meeting under system@example.com and fails. Supplying the explicit body field succeeds. Equivalent UTC timestamps are accepted.",
+      "audit_pass": "expansion",
+      "reassessment_status": "prompt_variant_proposed_not_adopted"
+    },
+    {
+      "task_id": "operations.docusign_prospect_nda",
+      "status": "hold_reproduced_grader_defect",
+      "reason": "An unsent draft or a subsequently voided NDA envelope receives full credit.",
+      "source_url": "https://github.com/zapier/AutomationBench/blob/4a8e1061254004d9dac807054eed33fad7d1ff14/automationbench/domains/operations/tasks.py#L11372",
+      "audit_pass": "toward210"
+    },
+    {
+      "task_id": "operations.notion_slack_playbook",
+      "status": "hold_reproduced_grader_defect",
+      "reason": "An accepted later archive/trash request targeting the created page retains full credit; the action-history grader does not validate final page state.",
+      "source_url": "https://github.com/zapier/AutomationBench/blob/4a8e1061254004d9dac807054eed33fad7d1ff14/automationbench/domains/operations/tasks.py#L6338",
+      "audit_pass": "toward210"
+    },
+    {
+      "task_id": "operations.mailchimp_campaign_tracking",
+      "status": "hold_reproduced_grader_defect",
+      "reason": "An accepted later updateRecord targets the created record with Valid, but the grader still credits the earlier Invalid action; native final rows are not materialized.",
+      "source_url": "https://github.com/zapier/AutomationBench/blob/4a8e1061254004d9dac807054eed33fad7d1ff14/automationbench/domains/operations/tasks.py#L13916",
+      "audit_pass": "toward210"
+    },
+    {
+      "task_id": "finance.wave_expense_categorization",
+      "status": "hold_reproduced_grader_defect",
+      "reason": "A combined, conflicting category string receives full credit instead of the required mapped category.",
+      "source_url": "https://github.com/zapier/AutomationBench/blob/4a8e1061254004d9dac807054eed33fad7d1ff14/automationbench/domains/finance/tasks.py#L16550",
+      "audit_pass": "toward210"
+    },
+    {
+      "task_id": "operations.hubspot_mailchimp_sync",
+      "status": "hold_reproduced_grader_defect",
+      "reason": "A contact can retain two temperature tags, and an opted-out contact can receive a cold tag, while full credit is retained.",
+      "source_url": "https://github.com/zapier/AutomationBench/blob/4a8e1061254004d9dac807054eed33fad7d1ff14/automationbench/domains/operations/tasks.py#L16444",
+      "audit_pass": "toward210"
+    },
+    {
+      "task_id": "finance.xero_bill_entry",
+      "status": "hold_reproduced_grader_defect",
+      "reason": "Wrong invoice identity, wrong due date or a voided bill still receives full credit.",
+      "source_url": "https://github.com/zapier/AutomationBench/blob/4a8e1061254004d9dac807054eed33fad7d1ff14/automationbench/domains/finance/tasks.py#L2642",
+      "audit_pass": "toward210"
+    },
+    {
+      "reason": "Full credit survives missing feedback notes and incorrect posting-manager values for part of the feedback records.",
+      "source_url": "https://github.com/zapier/AutomationBench/blob/4a8e1061254004d9dac807054eed33fad7d1ff14/automationbench/domains/hr/tasks.py#L600",
+      "status": "held_native_counterexample",
+      "task_id": "hr.performance_feedback_logging",
+      "audit_pass": "toward210"
+    },
+    {
+      "reason": "Full credit survives removing each individually required onboarding-channel membership.",
+      "source_url": "https://github.com/zapier/AutomationBench/blob/4a8e1061254004d9dac807054eed33fad7d1ff14/automationbench/domains/hr/tasks.py#L3100",
+      "status": "held_native_counterexample",
+      "task_id": "hr.slack_channel_onboarding",
+      "audit_pass": "toward210"
+    },
+    {
+      "reason": "Full credit survives telling every manager that all eligible employees are their own direct reports.",
+      "source_url": "https://github.com/zapier/AutomationBench/blob/4a8e1061254004d9dac807054eed33fad7d1ff14/automationbench/domains/hr/tasks.py#L4252",
+      "status": "held_native_counterexample",
+      "task_id": "hr.performance_review_cycle",
+      "audit_pass": "toward210"
+    },
+    {
+      "reason": "Full credit survives omitted invitations for eligible loader-added employees and missing survey links in several invitations.",
+      "source_url": "https://github.com/zapier/AutomationBench/blob/4a8e1061254004d9dac807054eed33fad7d1ff14/automationbench/domains/hr/tasks.py#L19702",
+      "status": "held_native_counterexample",
+      "task_id": "hr.survey_distribution",
+      "audit_pass": "toward210"
+    },
+    {
+      "reason": "Full credit survives omitting the required per-handoff notification for each moved conversation.",
+      "source_url": "https://github.com/zapier/AutomationBench/blob/4a8e1061254004d9dac807054eed33fad7d1ff14/automationbench/domains/support/tasks.py#L47528",
+      "status": "held_native_counterexample",
+      "task_id": "support.helpscout_cross_team_handoff",
+      "audit_pass": "toward210"
+    },
+    {
+      "reason": "Full credit survives an alert body that explicitly denies overload and says no rebalancing is needed despite the correctly reported overload numbers.",
+      "source_url": "https://github.com/zapier/AutomationBench/blob/4a8e1061254004d9dac807054eed33fad7d1ff14/automationbench/domains/support/tasks.py#L39468",
+      "status": "held_native_counterexample",
+      "task_id": "support.hiver_workload_forecast",
+      "audit_pass": "toward210"
+    },
+    {
+      "reason": "Full credit survives contradictory usage labels on several customers and usage tags on loader-added customers that must be excluded during onboarding.",
+      "source_url": "https://github.com/zapier/AutomationBench/blob/4a8e1061254004d9dac807054eed33fad7d1ff14/automationbench/domains/support/tasks.py#L36778",
+      "status": "held_native_counterexample",
+      "task_id": "support.helpcrunch_usage_alerts",
+      "audit_pass": "toward210"
+    },
+    {
+      "task_id": "sales.create_new_opportunity",
+      "status": "held_reproduced_false_negative",
+      "reason": "The same correct opportunity fails when its descriptive name uses the equally valid module-first order. No exact name order is prescribed in the prompt or retrieved policies.",
+      "source_url": "https://github.com/zapier/AutomationBench/blob/4a8e1061254004d9dac807054eed33fad7d1ff14/automationbench/domains/sales/tasks.py#L8099",
+      "evidence_level": "native_api_positive_witness_and_typed_state_controls",
+      "audit_pass": "toward210",
+      "reassessment_status": "prompt_variant_proposed_not_adopted"
+    },
+    {
+      "task_id": "sales.five_level_conditional",
+      "status": "held_reproduced_false_positive",
+      "reason": "The requested lead's follow-up task can omit all required deal context while a separate unlinked task contains it; native completion still passes.",
+      "source_url": "https://github.com/zapier/AutomationBench/blob/4a8e1061254004d9dac807054eed33fad7d1ff14/automationbench/domains/sales/tasks.py#L3822",
+      "evidence_level": "native_api_positive_witness_and_typed_state_controls",
+      "audit_pass": "toward210"
+    },
+    {
+      "task_id": "sales.calendar_crm_meeting",
+      "status": "held_reproduced_false_positive_and_false_negative",
+      "reason": "Equivalent nonzero UTC offsets fail through the native API. The earlier cancelled-event private-state control is not reachable through the tested update routes; actual event deletion fails grading. A UTC-Z prompt variant is proposed.",
+      "source_url": "https://github.com/zapier/AutomationBench/blob/4a8e1061254004d9dac807054eed33fad7d1ff14/automationbench/domains/sales/tasks.py#L3120",
+      "evidence_level": "native_api_positive_witness_and_typed_state_controls",
+      "audit_pass": "toward210",
+      "original_reason": "A cancelled meeting passes. Separately, equivalent meeting instants encoded with an explicit nonzero UTC offset fail. This finding concerns the Google Calendar task, not the previously corrected Zoom UTC claim.",
+      "reassessment_status": "prompt_variant_proposed_not_adopted"
+    },
+    {
+      "task_id": "sales.implicit_rules",
+      "status": "held_reproduced_false_positive",
+      "reason": "The required audit note can report a drastically wrong deal amount and still pass because the checked numeric substring also appears in that wrong amount.",
+      "source_url": "https://github.com/zapier/AutomationBench/blob/4a8e1061254004d9dac807054eed33fad7d1ff14/automationbench/domains/sales/tasks.py#L1587",
+      "evidence_level": "native_api_positive_witness_and_typed_state_controls",
+      "audit_pass": "toward210"
+    },
+    {
+      "task_id": "marketing.conversion_tracking",
+      "status": "held_reproduced_false_positive",
+      "reason": "Conversions assigned to the wrong advertising account or currency still pass despite the requested account and dollar-valued source deals.",
+      "source_url": "https://github.com/zapier/AutomationBench/blob/4a8e1061254004d9dac807054eed33fad7d1ff14/automationbench/domains/marketing/tasks.py#L1683",
+      "evidence_level": "native_api_positive_witness_and_typed_state_controls",
+      "audit_pass": "toward210"
+    },
+    {
+      "task_id": "marketing.linkedin_company_update",
+      "status": "held_reproduced_false_positive",
+      "reason": "A draft or connections-only post passes the public-promotion task. A post whose linked URL is the private presenter URL also passes when its text retains the registration URL.",
+      "source_url": "https://github.com/zapier/AutomationBench/blob/4a8e1061254004d9dac807054eed33fad7d1ff14/automationbench/domains/marketing/tasks.py#L35875",
+      "evidence_level": "native_api_positive_witness_and_typed_state_controls",
+      "audit_pass": "toward210"
+    },
+    {
+      "task_id": "sales.mark_vip_emails_read",
+      "status": "held_reproduced_false_positive",
+      "reason": "The required processed label can be absent from two of the processed VIP messages without affecting completion.",
+      "source_url": "https://github.com/zapier/AutomationBench/blob/4a8e1061254004d9dac807054eed33fad7d1ff14/automationbench/domains/sales/tasks.py#L5361",
+      "evidence_level": "native_api_positive_witness_and_typed_state_controls",
+      "audit_pass": "toward210"
+    },
+    {
+      "task_id": "marketing.social_contest",
+      "status": "held_reproduced_wrong_state_acceptance",
+      "reason": "The finalist entry dates can all be wrong while completion passes. The hold interprets moving qualifying entries into the named entry-date column as preserving those source dates; this requirement interpretation is recorded explicitly.",
+      "source_url": "https://github.com/zapier/AutomationBench/blob/4a8e1061254004d9dac807054eed33fad7d1ff14/automationbench/domains/marketing/tasks.py#L9753",
+      "evidence_level": "native_api_positive_witness_and_typed_state_controls",
+      "audit_pass": "toward210"
+    },
+    {
+      "task_id": "sales.sheets_reconciliation",
+      "status": "held_reproduced_false_positive",
+      "reason": "A protected closed deal's spreadsheet stage can be changed while completion still passes, despite the prompt's explicit instruction not to touch closed deals.",
+      "source_url": "https://github.com/zapier/AutomationBench/blob/4a8e1061254004d9dac807054eed33fad7d1ff14/automationbench/domains/sales/tasks.py#L3479",
+      "evidence_level": "native_api_positive_witness_and_typed_state_controls",
+      "audit_pass": "toward210"
+    }
+  ],
+  "source_screen_only_holds": [
+    {
+      "task_id": "finance.cost_center_allocation",
+      "reason": "Four departmental spreadsheet updates are requested, but only one departmental row is asserted.",
+      "evidence_level": "source_inspection_not_api_reproduced"
+    },
+    {
+      "task_id": "finance.invoice_email_extract",
+      "reason": "Requested invoice dates and due dates are not asserted.",
+      "evidence_level": "source_inspection_not_api_reproduced"
+    },
+    {
+      "task_id": "finance.invoice_file_organization",
+      "reason": "Filing conventions request registry fields absent from supplied headers; count and invoice metadata coverage need clarification.",
+      "evidence_level": "source_inspection_not_api_reproduced"
+    },
+    {
+      "task_id": "finance.revenue_recognition",
+      "reason": "The emailed completed schedule is not graded beyond its grand total.",
+      "evidence_level": "source_inspection_not_api_reproduced"
+    },
+    {
+      "task_id": "finance.audit_sample_selection",
+      "reason": "The selected-samples sheet is checked for only two of five selected transactions.",
+      "evidence_level": "source_inspection_not_api_reproduced"
+    },
+    {
+      "task_id": "finance.annual_budget_prep",
+      "reason": "Only selected department/category cells are asserted although the request requires the complete budget grid.",
+      "evidence_level": "source_inspection_not_api_reproduced"
+    },
+    {
+      "task_id": "finance.timesheet_to_invoice",
+      "reason": "QuickBooks invoice creation is requested but all assertions check notifications.",
+      "evidence_level": "source_inspection_not_api_reproduced"
+    },
+    {
+      "task_id": "finance.intercompany_invoice",
+      "reason": "Customer invoice existence is checked without checking the requested allocated invoice amounts.",
+      "evidence_level": "source_inspection_not_api_reproduced"
+    },
+    {
+      "task_id": "finance.xero_po_matching",
+      "reason": "Bill existence is checked without checking required quantity-derived amounts.",
+      "evidence_level": "source_inspection_not_api_reproduced"
+    },
+    {
+      "task_id": "finance.expense_split_allocation",
+      "reason": "Logging each allocation is requested but no allocation log assertion exists.",
+      "evidence_level": "source_inspection_not_api_reproduced"
+    },
+    {
+      "task_id": "finance.depreciation_schedule",
+      "reason": "Posting entries and reporting accumulated depreciation are requested but not covered by assertions.",
+      "evidence_level": "source_inspection_not_api_reproduced"
+    },
+    {
+      "task_id": "finance.qb_recurring_journal",
+      "reason": "Posting each recurring journal is requested but all assertions check notification content.",
+      "evidence_level": "source_inspection_not_api_reproduced"
+    },
+    {
+      "task_id": "finance.payroll_variance_check",
+      "reason": "Requested percentage changes and the controller report content are not asserted.",
+      "evidence_level": "source_inspection_not_api_reproduced"
+    },
+    {
+      "task_id": "finance.budget_variance_analysis",
+      "reason": "Required percentages and under-budget departments are not asserted.",
+      "evidence_level": "source_inspection_not_api_reproduced"
+    },
+    {
+      "task_id": "finance.xero_batch_invoice_send",
+      "reason": "CFO copying and non-delivery of held invoices are not asserted.",
+      "evidence_level": "source_inspection_not_api_reproduced"
+    },
+    {
+      "task_id": "operations.mailchimp_subscriber_sync",
+      "reason": "Explicit subscriber tagging is requested but no tag assertion exists.",
+      "evidence_level": "source_inspection_not_api_reproduced"
+    },
+    {
+      "task_id": "operations.hubspot_payment_failure",
+      "reason": "Retry-count increments and billing log writes are requested but not asserted.",
+      "evidence_level": "source_inspection_not_api_reproduced"
+    },
+    {
+      "task_id": "operations.linkedin_abm_outreach",
+      "reason": "The required spreadsheet log is not asserted.",
+      "evidence_level": "source_inspection_not_api_reproduced"
+    },
+    {
+      "task_id": "operations.chatgpt_feedback_analysis",
+      "reason": "Marking processed emails as read is requested but not asserted.",
+      "evidence_level": "source_inspection_not_api_reproduced"
+    },
+    {
+      "task_id": "operations.sensor_monitoring_alert",
+      "reason": "Required sensor locations and the summary count are not asserted.",
+      "evidence_level": "source_inspection_not_api_reproduced"
+    },
+    {
+      "task_id": "operations.energy_consumption_anomaly",
+      "reason": "Required actual usage, baseline and deviation figures are not asserted.",
+      "evidence_level": "source_inspection_not_api_reproduced"
+    },
+    {
+      "task_id": "operations.overtime_threshold_monitoring",
+      "reason": "Required current total hours in manager SMS messages are not asserted.",
+      "evidence_level": "source_inspection_not_api_reproduced"
+    },
+    {
+      "task_id": "operations.compressed_gas_cylinder_tracking",
+      "reason": "Required project, gas type, location and last-test details are absent from positive ticket assertions.",
+      "evidence_level": "source_inspection_not_api_reproduced"
+    },
+    {
+      "task_id": "operations.training_compliance_check",
+      "reason": "The required missing courses in task descriptions are not asserted.",
+      "evidence_level": "source_inspection_not_api_reproduced"
+    },
+    {
+      "task_id": "operations.parking_allocation_management",
+      "reason": "The grader fixes a particular allocation although spot preference among multiple eligible spot types is not specified; required spot types in emails are also unasserted.",
+      "evidence_level": "source_inspection_not_api_reproduced"
+    },
+    {
+      "task_id": "sales.soft_matching",
+      "status": "held_source_screen_only",
+      "reason": "Audit-note assertions do not cover the policy-required new phone number or title.",
+      "evidence": "pinned source review; no full positive/control witness"
+    },
+    {
+      "task_id": "sales.create_contact_for_account",
+      "status": "held_source_screen_only",
+      "reason": "Confirmation only checks seniority text; requested contact/account and skipped-contact reasons are not covered.",
+      "evidence": "pinned source review; no full positive/control witness"
+    },
+    {
+      "task_id": "marketing.instagram_approved_asset_publish",
+      "status": "held_source_screen_only",
+      "reason": "Publication checks caption and type but not the requested image URL.",
+      "evidence": "pinned source review; no full positive/control witness"
+    },
+    {
+      "task_id": "marketing.google_ads_pause_low_ctr",
+      "status": "held_source_screen_only",
+      "reason": "Negative not-paused checks also pass when the protected campaign is absent.",
+      "evidence": "pinned source review; no full positive/control witness"
+    },
+    {
+      "task_id": "marketing.twitter_influencer_followup",
+      "status": "held_source_screen_only",
+      "reason": "A verified PR-operated professional account is excluded although the visible criteria do not clearly prohibit professional PR management.",
+      "evidence": "pinned source review; no full positive/control witness"
+    },
+    {
+      "task_id": "marketing.brand_mention_analysis",
+      "status": "held_source_screen_only",
+      "reason": "Required urgency classification is not checked, and Slack notification only covers one escalated author.",
+      "evidence": "pinned source review; no full positive/control witness"
+    },
+    {
+      "task_id": "marketing.featured_snippet",
+      "status": "held_source_screen_only",
+      "reason": "Requested prioritization is not checked; assertions only test keyword presence.",
+      "evidence": "pinned source review; no full positive/control witness"
+    },
+    {
+      "task_id": "marketing.industry_news",
+      "status": "held_source_screen_only",
+      "reason": "Requested affected-entity naming is not fully covered by the email substring checks.",
+      "evidence": "pinned source review; no full positive/control witness"
+    },
+    {
+      "task_id": "marketing.social_crisis_response",
+      "status": "held_source_screen_only",
+      "reason": "The visible playbook requires forwarding HR issues to HR, without a corresponding output assertion.",
+      "evidence": "pinned source review; no full positive/control witness"
+    },
+    {
+      "task_id": "finance.airtable_expense_approval",
+      "status": "source_only_not_advanced",
+      "reason": "The requested Airtable approval-status updates are not graded.",
+      "evidence_level": "prompt_and_assertion_source_review_not_reproduced"
+    },
+    {
+      "task_id": "finance.ap_aging_report",
+      "status": "source_only_not_advanced",
+      "reason": "The four requested aging buckets are not all checked, and amounts are not bound to their bucket.",
+      "evidence_level": "prompt_and_assertion_source_review_not_reproduced"
+    },
+    {
+      "task_id": "finance.ap_turnover_analysis",
+      "status": "source_only_not_advanced",
+      "reason": "The requested too-quick/too-slow conclusions and target comparisons are not checked.",
+      "evidence_level": "prompt_and_assertion_source_review_not_reproduced"
+    },
+    {
+      "task_id": "finance.bad_debt_writeoff",
+      "status": "source_only_not_advanced",
+      "reason": "Actual write-off status and all required record updates are not fully checked.",
+      "evidence_level": "prompt_and_assertion_source_review_not_reproduced"
+    },
+    {
+      "task_id": "finance.bank_fee_analysis",
+      "status": "source_only_not_advanced",
+      "reason": "Charged/expected/discrepancy amounts are not bound to their category, allowing a reversed conclusion in principle.",
+      "evidence_level": "prompt_and_assertion_source_review_not_reproduced"
+    },
+    {
+      "task_id": "finance.capex_approval",
+      "status": "source_only_not_advanced",
+      "reason": "The complete approval-status decisions and shortfall outcomes are not checked.",
+      "evidence_level": "prompt_and_assertion_source_review_not_reproduced"
+    },
+    {
+      "task_id": "finance.cash_flow_forecast",
+      "status": "source_only_not_advanced",
+      "reason": "All forecast numbers share substring checks in one report; their association with inflow/outflow categories is not established.",
+      "evidence_level": "prompt_and_assertion_source_review_not_reproduced"
+    },
+    {
+      "task_id": "finance.cash_sweep",
+      "status": "source_only_not_advanced",
+      "reason": "The requested cash transfers are not graded as final state; report totals alone do not establish the sweep.",
+      "evidence_level": "prompt_and_assertion_source_review_not_reproduced"
+    },
+    {
+      "task_id": "finance.closing_journal_automation",
+      "status": "source_only_not_advanced",
+      "reason": "Required debit/credit entries and balancing are not checked, only selected total substrings.",
+      "evidence_level": "prompt_and_assertion_source_review_not_reproduced"
+    },
+    {
+      "task_id": "finance.commission_calculation",
+      "status": "source_only_not_advanced",
+      "reason": "Per-representative payroll amounts are requested but not checked; names and a grand total do not establish correct allocations.",
+      "evidence_level": "prompt_and_assertion_source_review_not_reproduced"
+    },
+    {
+      "task_id": "finance.contract_billing",
+      "status": "source_only_not_advanced",
+      "reason": "The required computed invoice amounts are not checked.",
+      "evidence_level": "prompt_and_assertion_source_review_not_reproduced"
+    },
+    {
+      "task_id": "finance.credit_card_reconciliation",
+      "status": "source_only_not_advanced",
+      "reason": "The required full unmatched-transaction reconciliation is not covered by selected amount substrings.",
+      "evidence_level": "prompt_and_assertion_source_review_not_reproduced"
+    },
+    {
+      "task_id": "finance.credit_limit_review",
+      "status": "source_only_not_advanced",
+      "reason": "The explicitly required Credit Limits sheet updates are not graded.",
+      "evidence_level": "prompt_and_assertion_source_review_not_reproduced"
+    },
+    {
+      "task_id": "finance.deferred_revenue_tracking",
+      "status": "source_only_not_advanced",
+      "reason": "The complete recognition journal and account-direction semantics are not established by entity and total substrings.",
+      "evidence_level": "prompt_and_assertion_source_review_not_reproduced"
+    },
+    {
+      "task_id": "finance.dept_expense_rollup",
+      "status": "source_only_not_advanced",
+      "reason": "Department-category breakdowns are requested but only selected departmental totals are checked.",
+      "evidence_level": "prompt_and_assertion_source_review_not_reproduced"
+    },
+    {
+      "task_id": "finance.duplicate_payment_detection",
+      "status": "source_only_not_advanced",
+      "reason": "The assertion set establishes that rows were updated without establishing the required duplicate-flag values.",
+      "evidence_level": "prompt_and_assertion_source_review_not_reproduced"
+    },
+    {
+      "task_id": "finance.employee_reimbursement",
+      "status": "source_only_not_advanced",
+      "reason": "Not all required employee approval-status updates are asserted.",
+      "evidence_level": "prompt_and_assertion_source_review_not_reproduced"
+    },
+    {
+      "task_id": "finance.escrow_tracking",
+      "status": "source_only_not_advanced",
+      "reason": "Required outcome/amount notification content is ungraded and statuses use substring checks.",
+      "evidence_level": "prompt_and_assertion_source_review_not_reproduced"
+    },
+    {
+      "task_id": "finance.expense_anomaly_detection",
+      "status": "source_only_not_advanced",
+      "reason": "Required explanations are not checked, and classification/status values are checked by substring.",
+      "evidence_level": "prompt_and_assertion_source_review_not_reproduced"
+    },
+    {
+      "task_id": "finance.financial_close_checklist",
+      "status": "source_only_not_advanced",
+      "reason": "The required CFO report content is not graded.",
+      "evidence_level": "prompt_and_assertion_source_review_not_reproduced"
+    },
+    {
+      "task_id": "finance.financial_ratio_analysis",
+      "status": "source_only_not_advanced",
+      "reason": "Policy disclosure/withholding behavior is only partially covered by a few forbidden strings; a complete ratio/report audit is still needed.",
+      "evidence_level": "prompt_and_assertion_source_review_not_reproduced"
+    },
+    {
+      "task_id": "finance.fiscal_year_rollover",
+      "status": "source_only_not_advanced",
+      "reason": "The requested controller package and Slack status are not positively asserted.",
+      "evidence_level": "prompt_and_assertion_source_review_not_reproduced"
+    },
+    {
+      "task_id": "finance.forex_gain_loss",
+      "status": "source_only_not_advanced",
+      "reason": "Gain/loss direction is not bound to the reported per-customer amounts.",
+      "evidence_level": "prompt_and_assertion_source_review_not_reproduced"
+    },
+    {
+      "task_id": "finance.gl_variance_analysis",
+      "status": "source_only_not_advanced",
+      "reason": "Required variance explanations and prior-period/budget associations are not established by keyword/number presence.",
+      "evidence_level": "prompt_and_assertion_source_review_not_reproduced"
+    },
+    {
+      "task_id": "finance.grant_expense_tracking",
+      "status": "source_only_not_advanced",
+      "reason": "The required per-expense grant allocation report is not checked, beyond selected flag strings.",
+      "evidence_level": "prompt_and_assertion_source_review_not_reproduced"
+    },
+    {
+      "task_id": "finance.intercompany_balance_recon",
+      "status": "source_only_not_advanced",
+      "reason": "Receivable/payable mismatch directions are not bound to the reported entities and amounts.",
+      "evidence_level": "prompt_and_assertion_source_review_not_reproduced"
+    },
+    {
+      "task_id": "finance.intercompany_transfer",
+      "status": "source_only_not_advanced",
+      "reason": "Only a subset of required status updates is asserted; all requested per-entity totals are not checked.",
+      "evidence_level": "prompt_and_assertion_source_review_not_reproduced"
+    },
+    {
+      "task_id": "finance.inventory_valuation",
+      "status": "source_only_not_advanced",
+      "reason": "The warehouse manager report content is ungraded; the controller report does not bind quantities and values to a complete adjustment calculation.",
+      "evidence_level": "prompt_and_assertion_source_review_not_reproduced"
+    },
+    {
+      "task_id": "finance.invoice_aging_followup",
+      "status": "source_only_not_advanced",
+      "reason": "Required tracker action updates are not checked.",
+      "evidence_level": "prompt_and_assertion_source_review_not_reproduced"
+    },
+    {
+      "task_id": "finance.invoice_dispute",
+      "status": "source_only_not_advanced",
+      "reason": "Required resolution statuses and credit adjustments are not fully covered.",
+      "evidence_level": "prompt_and_assertion_source_review_not_reproduced"
+    },
+    {
+      "task_id": "finance.invoice_reconciliation",
+      "status": "source_only_not_advanced",
+      "reason": "Required discrepancy amounts and discrepancy categories are not checked, only identifiers.",
+      "evidence_level": "prompt_and_assertion_source_review_not_reproduced"
+    },
+    {
+      "task_id": "finance.lease_payment_schedule",
+      "status": "source_only_not_advanced",
+      "reason": "Required individual payment amounts and due-date schedule are ungraded beyond the combined total.",
+      "evidence_level": "prompt_and_assertion_source_review_not_reproduced"
+    },
+    {
+      "task_id": "finance.monday_project_billing",
+      "status": "source_only_not_advanced",
+      "reason": "The complete requested project billing figures and their project associations are not covered.",
+      "evidence_level": "prompt_and_assertion_source_review_not_reproduced"
+    },
+    {
+      "task_id": "finance.overdue_invoice_followup",
+      "status": "source_only_not_advanced",
+      "reason": "Only one reminder-tracker row is positively checked; required contact-date updates are absent.",
+      "evidence_level": "prompt_and_assertion_source_review_not_reproduced"
+    },
+    {
+      "task_id": "finance.payment_reconciliation",
+      "status": "source_only_not_advanced",
+      "reason": "Report checks do not bind discrepancy types and amounts to their corresponding payment records.",
+      "evidence_level": "prompt_and_assertion_source_review_not_reproduced"
+    },
+    {
+      "task_id": "finance.po_email_logging",
+      "status": "source_only_not_advanced",
+      "reason": "The complete PO log, including its required metadata and duplicate handling, is not established by the small row-existence assertion set.",
+      "evidence_level": "prompt_and_assertion_source_review_not_reproduced"
+    },
+    {
+      "task_id": "finance.profit_margin_analysis",
+      "status": "source_only_not_advanced",
+      "reason": "Required revenue and target amounts are not checked; conclusion words are not bound to the appropriate product line.",
+      "evidence_level": "prompt_and_assertion_source_review_not_reproduced"
+    },
+    {
+      "task_id": "finance.project_profitability",
+      "status": "source_only_not_advanced",
+      "reason": "Required complete per-project profitability values are not checked.",
+      "evidence_level": "prompt_and_assertion_source_review_not_reproduced"
+    },
+    {
+      "task_id": "finance.qb_bill_payment_batch",
+      "status": "source_only_not_advanced",
+      "reason": "Required vendor bill payment transactions are not graded.",
+      "evidence_level": "prompt_and_assertion_source_review_not_reproduced"
+    },
+    {
+      "task_id": "finance.qb_customer_balance_review",
+      "status": "source_only_not_advanced",
+      "reason": "The correct credit/limit/inactivity conclusions are not bound to accounts in the common report.",
+      "evidence_level": "prompt_and_assertion_source_review_not_reproduced"
+    },
+    {
+      "task_id": "finance.qb_customer_onboard",
+      "status": "source_only_not_advanced",
+      "reason": "The created customer assertions do not check the requested billing/contact details.",
+      "evidence_level": "prompt_and_assertion_source_review_not_reproduced"
+    },
+    {
+      "task_id": "finance.qb_estimate_conversion",
+      "status": "source_only_not_advanced",
+      "reason": "Converted invoice amounts are not asserted.",
+      "evidence_level": "prompt_and_assertion_source_review_not_reproduced"
+    },
+    {
+      "task_id": "finance.qb_invoice_from_orders",
+      "status": "source_only_not_advanced",
+      "reason": "Invoice creation is checked without the requested quantity-derived invoice amounts.",
+      "evidence_level": "prompt_and_assertion_source_review_not_reproduced"
+    },
+    {
+      "task_id": "finance.qb_sales_receipt_batch",
+      "status": "source_only_not_advanced",
+      "reason": "Sales receipt existence is checked without validating the requested amounts.",
+      "evidence_level": "prompt_and_assertion_source_review_not_reproduced"
+    },
+    {
+      "task_id": "finance.qb_undeposited_funds",
+      "status": "source_only_not_advanced",
+      "reason": "The required QuickBooks bank deposits are not graded.",
+      "evidence_level": "prompt_and_assertion_source_review_not_reproduced"
+    },
+    {
+      "task_id": "finance.quarterly_tax_estimate",
+      "status": "source_only_not_advanced",
+      "reason": "The required controller estimate report content is not checked.",
+      "evidence_level": "prompt_and_assertion_source_review_not_reproduced"
+    },
+    {
+      "task_id": "finance.refund_processing",
+      "status": "source_only_not_advanced",
+      "reason": "The required QuickBooks refund transaction is not checked.",
+      "evidence_level": "prompt_and_assertion_source_review_not_reproduced"
+    },
+    {
+      "task_id": "finance.sales_tax_remittance",
+      "status": "source_only_not_advanced",
+      "reason": "All jurisdiction amounts and remittance associations are requested, but only selected numeric substrings are asserted.",
+      "evidence_level": "prompt_and_assertion_source_review_not_reproduced"
+    },
+    {
+      "task_id": "finance.tax_prep_summary",
+      "status": "source_only_not_advanced",
+      "reason": "Required vendor tax identifiers are not fully checked.",
+      "evidence_level": "prompt_and_assertion_source_review_not_reproduced"
+    },
+    {
+      "task_id": "finance.travel_advance_settlement",
+      "status": "source_only_not_advanced",
+      "reason": "Settlement direction and at least one employee settlement amount are not checked.",
+      "evidence_level": "prompt_and_assertion_source_review_not_reproduced"
+    },
+    {
+      "task_id": "finance.vendor_1099_prep",
+      "status": "source_only_not_advanced",
+      "reason": "The required tax-information gap report is not fully covered.",
+      "evidence_level": "prompt_and_assertion_source_review_not_reproduced"
+    },
+    {
+      "task_id": "finance.vendor_credit_application",
+      "status": "source_only_not_advanced",
+      "reason": "The actual credit application is not asserted as final accounting state.",
+      "evidence_level": "prompt_and_assertion_source_review_not_reproduced"
+    },
+    {
+      "task_id": "finance.vendor_early_pay_discount",
+      "status": "source_only_not_advanced",
+      "reason": "Required cash constraints, comparisons and early-payment recommendations are not established by the email substrings.",
+      "evidence_level": "prompt_and_assertion_source_review_not_reproduced"
+    },
+    {
+      "task_id": "finance.vendor_insurance_verification",
+      "status": "source_only_not_advanced",
+      "reason": "Exact compliance status is checked by substring and needs adversarial qualification.",
+      "evidence_level": "prompt_and_assertion_source_review_not_reproduced"
+    },
+    {
+      "task_id": "finance.vendor_payment_approval",
+      "status": "source_only_not_advanced",
+      "reason": "At least one required processing-status update has no positive assertion; task-relative dates also need qualification.",
+      "evidence_level": "prompt_and_assertion_source_review_not_reproduced"
+    },
+    {
+      "task_id": "finance.vendor_spend_analysis",
+      "status": "source_only_not_advanced",
+      "reason": "Requested spend percentages and renewal status are absent from report assertions.",
+      "evidence_level": "prompt_and_assertion_source_review_not_reproduced"
+    },
+    {
+      "task_id": "finance.vendor_statement_reconciliation",
+      "status": "source_only_not_advanced",
+      "reason": "Required discrepancy identities and reconciliation directions are not covered by vendor email amount checks.",
+      "evidence_level": "prompt_and_assertion_source_review_not_reproduced"
+    },
+    {
+      "task_id": "finance.wave_client_statement",
+      "status": "source_only_not_advanced",
+      "reason": "The required aging breakdown is not asserted.",
+      "evidence_level": "prompt_and_assertion_source_review_not_reproduced"
+    },
+    {
+      "task_id": "finance.wave_tax_compliance",
+      "status": "source_only_not_advanced",
+      "reason": "The required correct tax rates and discrepancy amounts are not checked, beyond invoice identifiers.",
+      "evidence_level": "prompt_and_assertion_source_review_not_reproduced"
+    },
+    {
+      "task_id": "finance.weekly_expense_summary",
+      "status": "source_only_not_advanced",
+      "reason": "The required complete category breakdown is not covered by its selected-number checks.",
+      "evidence_level": "prompt_and_assertion_source_review_not_reproduced"
+    },
+    {
+      "task_id": "finance.xero_bank_reconcile",
+      "status": "source_only_not_advanced",
+      "reason": "Required reconciliation statuses are checked by substring, which needs exact-state adversarial qualification.",
+      "evidence_level": "prompt_and_assertion_source_review_not_reproduced"
+    },
+    {
+      "task_id": "finance.xero_credit_allocation",
+      "status": "source_only_not_advanced",
+      "reason": "The required credit allocations and limits are not asserted as final accounting state.",
+      "evidence_level": "prompt_and_assertion_source_review_not_reproduced"
+    },
+    {
+      "task_id": "finance.xero_expense_claim_review",
+      "status": "source_only_not_advanced",
+      "reason": "Employee outcome explanations are not graded; required status checks are substring based.",
+      "evidence_level": "prompt_and_assertion_source_review_not_reproduced"
+    },
+    {
+      "task_id": "finance.xero_multicurrency_payment",
+      "status": "source_only_not_advanced",
+      "reason": "The requested payment amounts and currency conversion outcomes are not checked as final accounting state.",
+      "evidence_level": "prompt_and_assertion_source_review_not_reproduced"
+    },
+    {
+      "task_id": "finance.xero_quote_to_invoice",
+      "status": "source_only_not_advanced",
+      "reason": "Correct converted invoice amounts are not asserted.",
+      "evidence_level": "prompt_and_assertion_source_review_not_reproduced"
+    },
+    {
+      "task_id": "finance.xero_vendor_onboard",
+      "status": "source_only_not_advanced",
+      "reason": "Supplier configuration and all required confirmation/thread behavior are not fully checked.",
+      "evidence_level": "prompt_and_assertion_source_review_not_reproduced"
+    },
+    {
+      "task_id": "operations.access_request_validation",
+      "status": "source_only_not_advanced",
+      "reason": "The provisioning-section assertion is not bound to each required person/task; per-request routing needs a stronger audit.",
+      "evidence_level": "prompt_and_assertion_source_review_not_reproduced"
+    },
+    {
+      "task_id": "operations.airtable_gmail_visitor_followup",
+      "status": "source_only_not_advanced",
+      "reason": "The required NDA-completion comment only has a visitor-name substring assertion, so completion meaning is not covered.",
+      "evidence_level": "prompt_and_assertion_source_review_not_reproduced"
+    },
+    {
+      "task_id": "operations.asana_basecamp_move_planning",
+      "status": "source_only_not_advanced",
+      "reason": "Asana tag grading requires a separate historical tag action; the equivalent inline-tag path has a reproduced defect in a previous task. Basecamp routes remain unqualified.",
+      "evidence_level": "prompt_and_assertion_source_review_not_reproduced"
+    },
+    {
+      "task_id": "operations.asana_slack_sheets_audit",
+      "status": "source_only_not_advanced",
+      "reason": "Requires a separate tag action instead of accepting documented inline tags; this assertion family has a reproduced valid-alternative failure in a previous task.",
+      "evidence_level": "prompt_and_assertion_source_review_not_reproduced"
+    },
+    {
+      "task_id": "operations.chemical_inventory_safety_audit",
+      "status": "source_only_not_advanced",
+      "reason": "Reported chemicals are not bound to their correct location and issue category; coverage of the full report is incomplete.",
+      "evidence_level": "prompt_and_assertion_source_review_not_reproduced"
+    },
+    {
+      "task_id": "operations.conference_room_booking_conflicts",
+      "status": "source_only_not_advanced",
+      "reason": "Required per-conflict overlap ranges are not checked; only an aggregate overlap amount is asserted.",
+      "evidence_level": "prompt_and_assertion_source_review_not_reproduced"
+    },
+    {
+      "task_id": "operations.contract_renewal_pipeline",
+      "status": "source_only_not_advanced",
+      "reason": "DocuSign assertions do not establish sent envelope state.",
+      "evidence_level": "prompt_and_assertion_source_review_not_reproduced"
+    },
+    {
+      "task_id": "operations.contractor_badge_expiration",
+      "status": "source_only_not_advanced",
+      "reason": "Required email/SMS notifications are not positively covered for every eligible contractor.",
+      "evidence_level": "prompt_and_assertion_source_review_not_reproduced"
+    },
+    {
+      "task_id": "operations.contractor_onboarding_workflow",
+      "status": "source_only_not_advanced",
+      "reason": "Required task due dates and section placement are not asserted.",
+      "evidence_level": "prompt_and_assertion_source_review_not_reproduced"
+    },
+    {
+      "task_id": "operations.cross_training_assignment",
+      "status": "source_only_not_advanced",
+      "reason": "Required missing-skill counts are not asserted.",
+      "evidence_level": "prompt_and_assertion_source_review_not_reproduced"
+    },
+    {
+      "task_id": "operations.docusign_annual_review",
+      "status": "source_only_not_advanced",
+      "reason": "DocuSign sent status and the specified HR Confluence space are not checked.",
+      "evidence_level": "prompt_and_assertion_source_review_not_reproduced"
+    },
+    {
+      "task_id": "operations.drive_notion_lease_archive",
+      "status": "source_only_not_advanced",
+      "reason": "The file move and page creation are historical action checks; the required final archived location/page state is not established.",
+      "evidence_level": "prompt_and_assertion_source_review_not_reproduced"
+    },
+    {
+      "task_id": "operations.equipment_calibration_scheduling",
+      "status": "source_only_not_advanced",
+      "reason": "The required full report has positive coverage for only a subset of instruments.",
+      "evidence_level": "prompt_and_assertion_source_review_not_reproduced"
+    },
+    {
+      "task_id": "operations.equipment_lease_processing",
+      "status": "source_only_not_advanced",
+      "reason": "DocuSign checks do not establish that the required envelope was sent.",
+      "evidence_level": "prompt_and_assertion_source_review_not_reproduced"
+    },
+    {
+      "task_id": "operations.facebook_roas_monitoring",
+      "status": "source_only_not_advanced",
+      "reason": "Critical/scaling classifications in Slack are not bound to the corresponding campaign; log details are not checked.",
+      "evidence_level": "prompt_and_assertion_source_review_not_reproduced"
+    },
+    {
+      "task_id": "operations.fire_extinguisher_inspection_schedule",
+      "status": "source_only_not_advanced",
+      "reason": "The requested event schedule is not checked by calendar assertions.",
+      "evidence_level": "prompt_and_assertion_source_review_not_reproduced"
+    },
+    {
+      "task_id": "operations.fire_suppression_testing",
+      "status": "source_only_not_advanced",
+      "reason": "Required building counts and complete building report are not asserted; notification coverage is incomplete.",
+      "evidence_level": "prompt_and_assertion_source_review_not_reproduced"
+    },
+    {
+      "task_id": "operations.fleet_vehicle_maintenance",
+      "status": "source_only_not_advanced",
+      "reason": "Calendar checks omit the requested service date and two-hour slot.",
+      "evidence_level": "prompt_and_assertion_source_review_not_reproduced"
+    },
+    {
+      "task_id": "operations.generator_load_testing_schedule",
+      "status": "source_only_not_advanced",
+      "reason": "Calendar assertions omit requested timing and duration.",
+      "evidence_level": "prompt_and_assertion_source_review_not_reproduced"
+    },
+    {
+      "task_id": "operations.google_ads_budget_alert",
+      "status": "source_only_not_advanced",
+      "reason": "All alert logging is requested, but positive log coverage is limited to one campaign.",
+      "evidence_level": "prompt_and_assertion_source_review_not_reproduced"
+    },
+    {
+      "task_id": "operations.hazmat_shipping_compliance",
+      "status": "source_only_not_advanced",
+      "reason": "DocuSign recipient/template assertions do not establish sent envelope state.",
+      "evidence_level": "prompt_and_assertion_source_review_not_reproduced"
+    },
+    {
+      "task_id": "operations.holiday_coverage_planning",
+      "status": "source_only_not_advanced",
+      "reason": "Calendar assertions do not check requested start/end times.",
+      "evidence_level": "prompt_and_assertion_source_review_not_reproduced"
+    },
+    {
+      "task_id": "operations.housekeeping_schedule",
+      "status": "source_only_not_advanced",
+      "reason": "Calendar checks omit the requested schedule dates, start times and durations.",
+      "evidence_level": "prompt_and_assertion_source_review_not_reproduced"
+    },
+    {
+      "task_id": "operations.hubspot_churn_prediction",
+      "status": "source_only_not_advanced",
+      "reason": "Some requested contact risk-field updates, including low-risk classifications, have no assertion.",
+      "evidence_level": "prompt_and_assertion_source_review_not_reproduced"
+    },
+    {
+      "task_id": "operations.hubspot_lead_qualification",
+      "status": "source_only_not_advanced",
+      "reason": "Created deal amounts are not checked, and summary amounts are not bound to individual leads.",
+      "evidence_level": "prompt_and_assertion_source_review_not_reproduced"
+    },
+    {
+      "task_id": "operations.hubspot_personalized_outreach",
+      "status": "source_only_not_advanced",
+      "reason": "Email-body personalization is requested but only subjects/destinations are checked.",
+      "evidence_level": "prompt_and_assertion_source_review_not_reproduced"
+    },
+    {
+      "task_id": "operations.hubspot_ticket_escalation",
+      "status": "source_only_not_advanced",
+      "reason": "The required new ticket identifier in the customer acknowledgement is not checked.",
+      "evidence_level": "prompt_and_assertion_source_review_not_reproduced"
+    },
+    {
+      "task_id": "operations.insurance_cert_validation",
+      "status": "source_only_not_advanced",
+      "reason": "DocuSign assertions check recipient/template but not sent status; unsent/voided outcomes fail the workflow and pass in another newly tested task.",
+      "evidence_level": "prompt_and_assertion_source_review_not_reproduced"
+    },
+    {
+      "task_id": "operations.inventory_enrichment",
+      "status": "source_only_not_advanced",
+      "reason": "Explicitly protected existing weights have no preservation checks; the Notion destination database identifier also needs visible discovery qualification.",
+      "evidence_level": "prompt_and_assertion_source_review_not_reproduced"
+    },
+    {
+      "task_id": "operations.invoice_shipping_trigger",
+      "status": "source_only_not_advanced",
+      "reason": "Requested shipping quantities and expedited totals are not fully checked.",
+      "evidence_level": "prompt_and_assertion_source_review_not_reproduced"
+    },
+    {
+      "task_id": "operations.jira_confluence_incident",
+      "status": "source_only_not_advanced",
+      "reason": "The Jira creation assertion does not bind the issue summary to the selected incident, despite requiring an incident ticket.",
+      "evidence_level": "prompt_and_assertion_source_review_not_reproduced"
+    },
+    {
+      "task_id": "operations.linkedin_job_change",
+      "status": "source_only_not_advanced",
+      "reason": "The requested Salesforce company change is not checked; follow-up task ownership is also ungraded.",
+      "evidence_level": "prompt_and_assertion_source_review_not_reproduced"
+    },
+    {
+      "task_id": "operations.loading_dock_scheduling",
+      "status": "source_only_not_advanced",
+      "reason": "The requested calendar schedule times are not checked.",
+      "evidence_level": "prompt_and_assertion_source_review_not_reproduced"
+    },
+    {
+      "task_id": "operations.mailroom_package_routing",
+      "status": "source_only_not_advanced",
+      "reason": "Per-package floor/destination assignments are not checked.",
+      "evidence_level": "prompt_and_assertion_source_review_not_reproduced"
+    },
+    {
+      "task_id": "operations.monday_email_update",
+      "status": "source_only_not_advanced",
+      "reason": "A historical Monday update can satisfy grading without establishing the final requested status.",
+      "evidence_level": "prompt_and_assertion_source_review_not_reproduced"
+    },
+    {
+      "task_id": "operations.monday_slack_inventory",
+      "status": "source_only_not_advanced",
+      "reason": "Historical Monday actions are checked rather than proving the final inventory state.",
+      "evidence_level": "prompt_and_assertion_source_review_not_reproduced"
+    },
+    {
+      "task_id": "operations.overdue_inspection_summary",
+      "status": "source_only_not_advanced",
+      "reason": "Required Facilities section placement and email inspection dates are not asserted.",
+      "evidence_level": "prompt_and_assertion_source_review_not_reproduced"
+    },
+    {
+      "task_id": "operations.perishable_inventory_expiry",
+      "status": "source_only_not_advanced",
+      "reason": "Required location details and notification coverage are incomplete across eligible goods.",
+      "evidence_level": "prompt_and_assertion_source_review_not_reproduced"
+    },
+    {
+      "task_id": "operations.pipefy_gmail_vendor_approval",
+      "status": "source_only_not_advanced",
+      "reason": "Only two of the required vendor confirmation destinations have positive email checks.",
+      "evidence_level": "prompt_and_assertion_source_review_not_reproduced"
+    },
+    {
+      "task_id": "operations.pipefy_slack_purchase_request",
+      "status": "source_only_not_advanced",
+      "reason": "Historical card updates are checked instead of the final purchase-request status.",
+      "evidence_level": "prompt_and_assertion_source_review_not_reproduced"
+    },
+    {
+      "task_id": "operations.procurement_card_reconciliation",
+      "status": "source_only_not_advanced",
+      "reason": "Required transaction amounts are positively covered for only a subset of flagged transactions.",
+      "evidence_level": "prompt_and_assertion_source_review_not_reproduced"
+    },
+    {
+      "task_id": "operations.role_based_access_audit",
+      "status": "source_only_not_advanced",
+      "reason": "The report checks do not bind unauthorized systems to the correct person; created-task checks cover names only.",
+      "evidence_level": "prompt_and_assertion_source_review_not_reproduced"
+    },
+    {
+      "task_id": "operations.safety_certification_gap_analysis",
+      "status": "source_only_not_advanced",
+      "reason": "The specific missing or expired certifications are not asserted, although employee names are checked.",
+      "evidence_level": "prompt_and_assertion_source_review_not_reproduced"
+    },
+    {
+      "task_id": "operations.safety_incident_investigation_routing",
+      "status": "source_only_not_advanced",
+      "reason": "Required issue severity and location are not asserted.",
+      "evidence_level": "prompt_and_assertion_source_review_not_reproduced"
+    },
+    {
+      "task_id": "operations.server_capacity_threshold_alerts",
+      "status": "source_only_not_advanced",
+      "reason": "Critical-server email alerts are requested by the policy but only warning-server email assertions exist.",
+      "evidence_level": "prompt_and_assertion_source_review_not_reproduced"
+    },
+    {
+      "task_id": "operations.sheets_asana_approved_request",
+      "status": "source_only_not_advanced",
+      "reason": "The Facilities project identifier is not supplied in the prompt or visible sheet context, and advertised Asana tools have no project-list discovery route.",
+      "evidence_level": "prompt_and_assertion_source_review_not_reproduced"
+    },
+    {
+      "task_id": "operations.sla_breach_early_warning",
+      "status": "source_only_not_advanced",
+      "reason": "The required manager heads-up messages are not positively covered for every at-risk ticket.",
+      "evidence_level": "prompt_and_assertion_source_review_not_reproduced"
+    },
+    {
+      "task_id": "operations.temporary_worker_placement",
+      "status": "source_only_not_advanced",
+      "reason": "The grader fixes particular assignments while the prompt allows the first eligible match; search-order and valid alternatives need qualification.",
+      "evidence_level": "prompt_and_assertion_source_review_not_reproduced"
+    },
+    {
+      "task_id": "operations.trello_basecamp_compliance",
+      "status": "source_only_not_advanced",
+      "reason": "Uses historical card-update/label actions rather than final card state; Basecamp API routing also needs qualification against the open upstream route finding.",
+      "evidence_level": "prompt_and_assertion_source_review_not_reproduced"
+    },
+    {
+      "task_id": "operations.twilio_afterhours_incident",
+      "status": "source_only_not_advanced",
+      "reason": "The specifically required after-hours classification label is not graded.",
+      "evidence_level": "prompt_and_assertion_source_review_not_reproduced"
+    },
+    {
+      "task_id": "operations.twilio_facilities_emergency",
+      "status": "source_only_not_advanced",
+      "reason": "Requested Monday Active status and full incident details in the Notion record are not asserted.",
+      "evidence_level": "prompt_and_assertion_source_review_not_reproduced"
+    },
+    {
+      "task_id": "operations.vendor_compliance_audit",
+      "status": "source_only_not_advanced",
+      "reason": "Required expired document types are not asserted in the report.",
+      "evidence_level": "prompt_and_assertion_source_review_not_reproduced"
+    },
+    {
+      "task_id": "operations.zoom_change_advisory",
+      "status": "source_only_not_advanced",
+      "reason": "The requested meeting start date and time are absent from the meeting assertions.",
+      "evidence_level": "prompt_and_assertion_source_review_not_reproduced"
+    },
+    {
+      "task_id": "operations.zoom_deal_review",
+      "status": "source_only_not_advanced",
+      "reason": "The requested meeting start date and time are absent from the meeting assertions.",
+      "evidence_level": "prompt_and_assertion_source_review_not_reproduced"
+    },
+    {
+      "task_id": "operations.zoom_dr_drill",
+      "status": "source_only_not_advanced",
+      "reason": "The requested meeting start date and time are absent from the meeting assertions.",
+      "evidence_level": "prompt_and_assertion_source_review_not_reproduced"
+    },
+    {
+      "task_id": "operations.zoom_project_kickoff",
+      "status": "source_only_not_advanced",
+      "reason": "The required Trello active list and Notion parent are not checked.",
+      "evidence_level": "prompt_and_assertion_source_review_not_reproduced"
+    },
+    {
+      "reason": "The request includes a start date and initial status, but the positive rubric checks item names, departments and creation without those required values.",
+      "source_url": "https://github.com/zapier/AutomationBench/blob/4a8e1061254004d9dac807054eed33fad7d1ff14/automationbench/domains/hr/tasks.py#L5067",
+      "status": "held_source_coverage_concern",
+      "task_id": "hr.monday_onboarding_pipeline"
+    },
+    {
+      "reason": "Requested offer terms are not checked: the rubric focuses on recipients, sent status and selected subject content rather than salary, start date and other terms.",
+      "source_url": "https://github.com/zapier/AutomationBench/blob/4a8e1061254004d9dac807054eed33fad7d1ff14/automationbench/domains/hr/tasks.py#L5231",
+      "status": "held_source_coverage_concern",
+      "task_id": "hr.docusign_offer_letters"
+    },
+    {
+      "reason": "Required due dates and responsible people are covered for only part of the requested task set.",
+      "source_url": "https://github.com/zapier/AutomationBench/blob/4a8e1061254004d9dac807054eed33fad7d1ff14/automationbench/domains/hr/tasks.py#L6667",
+      "status": "held_source_coverage_concern",
+      "task_id": "hr.asana_compliance_tasks"
+    },
+    {
+      "reason": "The request includes anonymizing ticket content; the rubric checks deletion, a subject prefix and tagging without checking ticket-body/comment anonymization.",
+      "source_url": "https://github.com/zapier/AutomationBench/blob/4a8e1061254004d9dac807054eed33fad7d1ff14/automationbench/domains/support/tasks.py#L22601",
+      "status": "held_source_coverage_concern",
+      "task_id": "support.zendesk_gdpr_purge"
+    },
+    {
+      "reason": "Every responded-to ticket must receive an auto-response tag, but positive tag assertions cover only a subset.",
+      "source_url": "https://github.com/zapier/AutomationBench/blob/4a8e1061254004d9dac807054eed33fad7d1ff14/automationbench/domains/support/tasks.py#L21119",
+      "status": "held_source_coverage_concern",
+      "task_id": "support.zendesk_automated_responses"
+    },
+    {
+      "reason": "Context notes are requested across the processed conversations, but several conversations have only tag assertions.",
+      "source_url": "https://github.com/zapier/AutomationBench/blob/4a8e1061254004d9dac807054eed33fad7d1ff14/automationbench/domains/support/tasks.py#L31903",
+      "status": "held_source_coverage_concern",
+      "task_id": "support.reamaze_lifecycle_tagging"
+    },
+    {
+      "reason": "Contact health updates are requested, but the rubric emphasizes follow-up tasks without validating the corresponding contact health fields.",
+      "source_url": "https://github.com/zapier/AutomationBench/blob/4a8e1061254004d9dac807054eed33fad7d1ff14/automationbench/domains/support/tasks.py#L29379",
+      "status": "held_source_coverage_concern",
+      "task_id": "support.helpscout_health_sync"
+    },
+    {
+      "reason": "The requested per-account health score itself has no numeric score assertion.",
+      "source_url": "https://github.com/zapier/AutomationBench/blob/4a8e1061254004d9dac807054eed33fad7d1ff14/automationbench/domains/support/tasks.py#L35789",
+      "status": "held_source_coverage_concern",
+      "task_id": "support.zoho_account_health"
+    },
+    {
+      "reason": "All feedback records need classified log rows; the row count is checked but only a subset of log sentiment values are constrained.",
+      "source_url": "https://github.com/zapier/AutomationBench/blob/4a8e1061254004d9dac807054eed33fad7d1ff14/automationbench/domains/support/tasks.py#L33386",
+      "status": "held_source_coverage_concern",
+      "task_id": "support.reamaze_feedback_sentiment"
+    },
+    {
+      "reason": "Required overdue-training details are checked for only part of the employee set.",
+      "source_url": "https://github.com/zapier/AutomationBench/blob/4a8e1061254004d9dac807054eed33fad7d1ff14/automationbench/domains/hr/tasks.py#L267",
+      "status": "held_source_coverage_concern",
+      "task_id": "hr.training_compliance"
+    },
+    {
+      "reason": "At least one required rejection email has a recipient assertion without a corresponding rejection-content assertion.",
+      "source_url": "https://github.com/zapier/AutomationBench/blob/4a8e1061254004d9dac807054eed33fad7d1ff14/automationbench/domains/hr/tasks.py#L2011",
+      "status": "held_source_coverage_concern",
+      "task_id": "hr.candidate_rejection_followup"
+    },
+    {
+      "reason": "At least one required policy email is checked only for its recipient, leaving its policy content unconstrained.",
+      "source_url": "https://github.com/zapier/AutomationBench/blob/4a8e1061254004d9dac807054eed33fad7d1ff14/automationbench/domains/hr/tasks.py#L2654",
+      "status": "held_source_coverage_concern",
+      "task_id": "hr.policy_update_distribution"
+    },
+    {
+      "reason": "The request requires per-person compensation context, while assertions cover only selected fields and people.",
+      "source_url": "https://github.com/zapier/AutomationBench/blob/4a8e1061254004d9dac807054eed33fad7d1ff14/automationbench/domains/hr/tasks.py#L4834",
+      "status": "held_source_coverage_concern",
+      "task_id": "hr.comp_review_preparation"
+    },
+    {
+      "reason": "A visible policy prohibits public no-show reporting, but the negative channel check targets a different channel from the requested standup channel.",
+      "source_url": "https://github.com/zapier/AutomationBench/blob/4a8e1061254004d9dac807054eed33fad7d1ff14/automationbench/domains/hr/tasks.py#L8997",
+      "status": "held_source_coverage_concern",
+      "task_id": "hr.standup_absence_tracking"
+    },
+    {
+      "reason": "The requested announcements must state the new roles; positive role assertions cover only a subset of people.",
+      "source_url": "https://github.com/zapier/AutomationBench/blob/4a8e1061254004d9dac807054eed33fad7d1ff14/automationbench/domains/hr/tasks.py#L17090",
+      "status": "held_source_coverage_concern",
+      "task_id": "hr.promotion_announcement"
+    },
+    {
+      "reason": "The prompt requests a Slack results summary, but the rubric has no Slack assertion.",
+      "source_url": "https://github.com/zapier/AutomationBench/blob/4a8e1061254004d9dac807054eed33fad7d1ff14/automationbench/domains/hr/tasks.py#L21992",
+      "status": "held_source_coverage_concern",
+      "task_id": "hr.handbook_acknowledgment"
+    },
+    {
+      "reason": "Card updates are checked by card identity without validating the required destination list.",
+      "source_url": "https://github.com/zapier/AutomationBench/blob/4a8e1061254004d9dac807054eed33fad7d1ff14/automationbench/domains/hr/tasks.py#L7959",
+      "status": "held_source_coverage_concern",
+      "task_id": "hr.trello_internal_transfers"
+    },
+    {
+      "reason": "An employee-update action is checked without verifying that the required terminated status is set.",
+      "source_url": "https://github.com/zapier/AutomationBench/blob/4a8e1061254004d9dac807054eed33fad7d1ff14/automationbench/domains/hr/tasks.py#L8839",
+      "status": "held_source_coverage_concern",
+      "task_id": "hr.offboarding_multi_system"
+    },
+    {
+      "reason": "Internal notes are required on each advanced ticket, while positive note assertions cover only part of that set.",
+      "source_url": "https://github.com/zapier/AutomationBench/blob/4a8e1061254004d9dac807054eed33fad7d1ff14/automationbench/domains/support/tasks.py#L41023",
+      "status": "held_source_coverage_concern",
+      "task_id": "support.zendesk_escalation_waterfall"
+    },
+    {
+      "reason": "A visible recent-entitlement policy requires verification routing, but the affected conversation lacks a positive verification-route assertion.",
+      "source_url": "https://github.com/zapier/AutomationBench/blob/4a8e1061254004d9dac807054eed33fad7d1ff14/automationbench/domains/support/tasks.py#L44183",
+      "status": "held_source_coverage_concern",
+      "task_id": "support.intercom_multi_product_routing"
+    },
+    {
+      "reason": "Required cross-platform identifiers are checked in only part of the reconciliation log rows.",
+      "source_url": "https://github.com/zapier/AutomationBench/blob/4a8e1061254004d9dac807054eed33fad7d1ff14/automationbench/domains/support/tasks.py#L32863",
+      "status": "held_source_coverage_concern",
+      "task_id": "support.reamaze_cross_platform_dedup"
+    },
+    {
+      "reason": "Created counterparts are checked by subject, without validating all required copied status, priority and customer fields.",
+      "source_url": "https://github.com/zapier/AutomationBench/blob/4a8e1061254004d9dac807054eed33fad7d1ff14/automationbench/domains/support/tasks.py#L54908",
+      "status": "held_source_coverage_concern",
+      "task_id": "support.zendesk_freshdesk_reconciliation"
+    },
+    {
+      "reason": "The requested audit report is checked by email recipient and subject without requiring the report findings in its body.",
+      "source_url": "https://github.com/zapier/AutomationBench/blob/4a8e1061254004d9dac807054eed33fad7d1ff14/automationbench/domains/support/tasks.py#L39005",
+      "status": "held_source_coverage_concern",
+      "task_id": "support.hiver_mailbox_audit"
+    },
+    {
+      "reason": "Required risk-score calculations are not directly constrained by numeric score assertions.",
+      "source_url": "https://github.com/zapier/AutomationBench/blob/4a8e1061254004d9dac807054eed33fad7d1ff14/automationbench/domains/support/tasks.py#L34656",
+      "status": "held_source_coverage_concern",
+      "task_id": "support.zoho_risk_scoring"
+    },
+    {
+      "reason": "Required handoff briefings are checked by recipients and subjects without corresponding briefing-content requirements.",
+      "source_url": "https://github.com/zapier/AutomationBench/blob/4a8e1061254004d9dac807054eed33fad7d1ff14/automationbench/domains/support/tasks.py#L23641",
+      "status": "held_source_coverage_concern",
+      "task_id": "support.zendesk_weekend_handoff"
+    },
+    {
+      "reason": "Required campaign-log rows and attribution fields are not fully represented in the positive assertions.",
+      "source_url": "https://github.com/zapier/AutomationBench/blob/4a8e1061254004d9dac807054eed33fad7d1ff14/automationbench/domains/support/tasks.py#L33832",
+      "status": "held_source_coverage_concern",
+      "task_id": "support.reamaze_campaign_tracking"
+    },
+    {
+      "reason": "The requested SLA category is checked in only part of the ticket-note set.",
+      "source_url": "https://github.com/zapier/AutomationBench/blob/4a8e1061254004d9dac807054eed33fad7d1ff14/automationbench/domains/support/tasks.py#L16597",
+      "status": "held_source_coverage_concern",
+      "task_id": "support.freshdesk_sla_monitoring"
+    },
+    {
+      "reason": "The migration must log every processed record, while positive log assertions cover only a subset.",
+      "source_url": "https://github.com/zapier/AutomationBench/blob/4a8e1061254004d9dac807054eed33fad7d1ff14/automationbench/domains/support/tasks.py#L11369",
+      "status": "held_source_coverage_concern",
+      "task_id": "support.gorgias_freshdesk_migration"
+    },
+    {
+      "reason": "The request requires a target note after every merge, but one required source-organization note is absent from the assertions.",
+      "source_url": "https://github.com/zapier/AutomationBench/blob/4a8e1061254004d9dac807054eed33fad7d1ff14/automationbench/domains/support/tasks.py#L23008",
+      "status": "held_source_coverage_concern",
+      "task_id": "support.zendesk_cross_org_merge"
+    },
+    {
+      "reason": "The visible batch reference is required in both drafts and notes, but draft references are not checked.",
+      "source_url": "https://github.com/zapier/AutomationBench/blob/4a8e1061254004d9dac807054eed33fad7d1ff14/automationbench/domains/support/tasks.py#L28047",
+      "status": "held_source_coverage_concern",
+      "task_id": "support.intercom_auto_response_drafts"
+    },
+    {
+      "reason": "The requested start dates and reporting structure are not fully constrained by the offer-letter assertions.",
+      "source_url": "https://github.com/zapier/AutomationBench/blob/4a8e1061254004d9dac807054eed33fad7d1ff14/automationbench/domains/hr/tasks.py#L2867",
+      "status": "held_source_coverage_concern",
+      "task_id": "hr.offer_letter_generation"
+    },
+    {
+      "task_id": "sales.add_contact_to_campaign",
+      "status": "held_source_screen_only",
+      "reason": "Membership checks cover only nine authored contact IDs. The full noisy native fixture also contains contacts explicitly barred from campaign enrollment, without a membership guard or total-membership check covering them.",
+      "source_url": "https://github.com/zapier/AutomationBench/blob/4a8e1061254004d9dac807054eed33fad7d1ff14/automationbench/domains/sales/tasks.py#L7545",
+      "evidence_level": "source_inspection_not_api_reproduced"
+    },
+    {
+      "task_id": "marketing.contact_data_cleanup",
+      "status": "held_source_screen_only",
+      "reason": "The visible policy prohibits deleting contacts and any action on held contacts. CRM checks concern only one clean contact; existence and mutation of the protected contacts are not scored.",
+      "source_url": "https://github.com/zapier/AutomationBench/blob/4a8e1061254004d9dac807054eed33fad7d1ff14/automationbench/domains/marketing/tasks.py#L583",
+      "evidence_level": "source_inspection_not_api_reproduced"
+    },
+    {
+      "task_id": "marketing.lifecycle_stage",
+      "status": "held_source_screen_only",
+      "reason": "Preservation checks for the explicitly excluded contact cohorts have scored:false. The native rubric excludes them even when they fail, so those restrictions are not part of the completion score.",
+      "source_url": "https://github.com/zapier/AutomationBench/blob/4a8e1061254004d9dac807054eed33fad7d1ff14/automationbench/domains/marketing/tasks.py#L21970",
+      "evidence_level": "source_inspection_not_api_reproduced"
+    },
+    {
+      "task_id": "marketing.newsletter_unsubscribe_processing",
+      "status": "held_source_screen_only",
+      "reason": "The retracted-request and unaffected-subscriber preservation checks have scored:false. The native rubric excludes them even when they fail, leaving those subscriber protections outside completion scoring.",
+      "source_url": "https://github.com/zapier/AutomationBench/blob/4a8e1061254004d9dac807054eed33fad7d1ff14/automationbench/domains/marketing/tasks.py#L23331",
+      "evidence_level": "source_inspection_not_api_reproduced"
+    }
+  ],
+  "adapter_limitations": [
+    "The held Google Ads route can fail cross-process checkpoint restoration because native member sets serialize in different orders. The three selected tasks passed a fresh-process restore check; the broader adapter issue remains open."
+  ],
+  "live_harness_qualified": false,
+  "scientifically_admitted": false,
+  "model_runs": 0,
+  "latest_audit_outcome": {
+    "requested_target": 210,
+    "starting_suite_tasks": 203,
+    "added": 0,
+    "ending_suite_tasks": 203,
+    "native_api_candidates_tested": 22,
+    "source_contracts_inspected": 267,
+    "native_discovery_only_ids": [
+      "finance.qb_void_stale_invoices",
+      "support.intercom_multi_product_routing",
+      "sales.calendly_availability_based_routing"
+    ],
+    "reason": "Every candidate tested in this pass had a reproduced material grading or API problem. No additional exact IDs are recommended from this pass.",
+    "scope_correction": "The original no-additions decision used an overstrict cutoff for some formatting and workflow restrictions. Six prompt variants are now proposed; current selection is unchanged."
+  },
+  "audit_passes": [
+    {
+      "name": "initial",
+      "native_tested": 7,
+      "added": 1
+    },
+    {
+      "name": "first_expansion",
+      "native_tested": 21,
+      "added": 2
+    },
+    {
+      "name": "toward210",
+      "native_tested": 22,
+      "added": 0
+    }
+  ],
+  "reassessment": {
+    "record": "automationbench-reassessment.json",
+    "status": "not_adopted_family_removed_by_user",
+    "prior_audit_counts_are_historical": true,
+    "proposed_total": 9,
+    "proposed_additions": 6,
+    "current_selection_unchanged": false,
+    "correction": "Calendar status=cancelled in the earlier private-state test was not reachable through the tested native PATCH/PUT routes. Actual native DELETE fails grading. Equivalent nonzero UTC offsets still fail through the API, motivating an explicit UTC-Z clause.",
+    "active_candidates": 0
+  },
+  "selection_status": "excluded_by_user",
+  "active_in_suite": false,
+  "historical_selected_candidates": 3,
+  "removal_record": "selection-changes/2026-10-05-remove-automationbench.json",
+  "current_decision": "Remove AutomationBench; keep 200 tasks"
+}

@@ -1,0 +1,817 @@
+{
+  "schema_version": "agenttime.v1.1.generated-asset-source-audit.v1",
+  "created_at_utc": "2026-10-02T13:57:27.439713+00:00",
+  "status": "source_audit_complete_qualification_pending",
+  "scope": "Source-only classification for four Terminal-Bench tasks, YC seed 4 and PaperBench PINN. No upstream setup, build, database, model or reproduction code executed.",
+  "baseline_inventory": {
+    "path": "/Users/michaelofengenden/Developer/TimeResearch/AgentTime-v1.1/benchmarks/inventory/tasks.json",
+    "sha256_at_read": "a47564e82539a85a4439030f1643711095d981ab88037179240270947d37cc99"
+  },
+  "summary": {
+    "slots_audited": 6,
+    "build_or_startup_generated_initial_states": 5,
+    "agent_produced_reproduction_data_tasks": 1,
+    "missing_external_task_datasets_identified": 0,
+    "new_download_files": 0,
+    "new_download_bytes": 0,
+    "runtime_qualified": 0,
+    "admitted": 0
+  },
+  "slots": [
+    {
+      "slot_id": "terminal-01",
+      "candidate_id": "mp-checkpoint-consolidation",
+      "family_id": "terminal",
+      "source_pin": "official v4.0.0 release at 452bf305c6daa62fc59061d22133a7cbc7c1572e; 66-task dataset manifest ecd296ba053840bd4c0068e8f84e8a6fa829d184d0fd9852becdc19f4c895fcf; selected 16-task manifest cab69a91f2aa461ef2e97d1e68d9c9ed7a2a37f09764008df4b0481295675c9b",
+      "classification": "build_generated_initial_state",
+      "finding": "The native multi-stage build creates all sixteen checkpoint shards and reference output files from already cached code. No pretrained-model or shard download is specified.",
+      "downloadable_task_input_missing": false,
+      "new_downloads": [],
+      "recommended_asset_remaining_gap": "Source build inputs are present. In a separately qualified native build, generate and hash the sixteen checkpoint shards plus reference logits, token inputs and expected parameter keys. Preserve the final-image separation that excludes the checkpoint writer and generation seed, then qualify the initial state.",
+      "runtime_qualified": false,
+      "admitted": false,
+      "upstream_code_executed": false,
+      "evidence": [
+        {
+          "path": "/Users/michaelofengenden/Developer/TimeResearch/AgentTime-v1.1/benchmarks/cache/v1-inputs-20261002/terminal-bench-4-0/task/tasks/mp-checkpoint-consolidation/environment/Dockerfile",
+          "repository_relative_path": "benchmarks/cache/v1-inputs-20261002/terminal-bench-4-0/task/tasks/mp-checkpoint-consolidation/environment/Dockerfile",
+          "bytes": 2435,
+          "sha256": "3d5aedff4b9c38b045bc42d4e31fb34f284ad0befc7af3df2a7f9f170a11025b",
+          "role": "pinned_source_inspection",
+          "source_commit": "452bf305c6daa62fc59061d22133a7cbc7c1572e",
+          "saved_source_manifest_hash_matches": true,
+          "lines": {
+            "start": 5,
+            "end": 24
+          }
+        },
+        {
+          "path": "/Users/michaelofengenden/Developer/TimeResearch/AgentTime-v1.1/benchmarks/cache/v1-inputs-20261002/terminal-bench-4-0/task/tasks/mp-checkpoint-consolidation/environment/Dockerfile",
+          "repository_relative_path": "benchmarks/cache/v1-inputs-20261002/terminal-bench-4-0/task/tasks/mp-checkpoint-consolidation/environment/Dockerfile",
+          "bytes": 2435,
+          "sha256": "3d5aedff4b9c38b045bc42d4e31fb34f284ad0befc7af3df2a7f9f170a11025b",
+          "role": "pinned_source_inspection",
+          "source_commit": "452bf305c6daa62fc59061d22133a7cbc7c1572e",
+          "saved_source_manifest_hash_matches": true,
+          "lines": {
+            "start": 27,
+            "end": 54
+          }
+        },
+        {
+          "path": "/Users/michaelofengenden/Developer/TimeResearch/AgentTime-v1.1/benchmarks/cache/v1-inputs-20261002/terminal-bench-4-0/task/tasks/mp-checkpoint-consolidation/environment/generate_shards.py",
+          "repository_relative_path": "benchmarks/cache/v1-inputs-20261002/terminal-bench-4-0/task/tasks/mp-checkpoint-consolidation/environment/generate_shards.py",
+          "bytes": 3038,
+          "sha256": "5e53b71ee3ef9ea2da51ec2d7c8a06c3492b152b52d52635ef0707348033cef4",
+          "role": "pinned_source_inspection",
+          "source_commit": "452bf305c6daa62fc59061d22133a7cbc7c1572e",
+          "saved_source_manifest_hash_matches": true,
+          "lines": {
+            "start": 36,
+            "end": 78
+          }
+        },
+        {
+          "path": "/Users/michaelofengenden/Developer/TimeResearch/AgentTime-v1.1/benchmarks/cache/v1-inputs-20261002/terminal-bench-4-0/task/tasks/mp-checkpoint-consolidation/instruction.md",
+          "repository_relative_path": "benchmarks/cache/v1-inputs-20261002/terminal-bench-4-0/task/tasks/mp-checkpoint-consolidation/instruction.md",
+          "bytes": 1369,
+          "sha256": "df8f13f7faa837f07427d1b60cd32b5417a335099095e4ba55c0de8b2f22befe",
+          "role": "pinned_source_inspection",
+          "source_commit": "452bf305c6daa62fc59061d22133a7cbc7c1572e",
+          "saved_source_manifest_hash_matches": true,
+          "lines": {
+            "start": 3,
+            "end": 12
+          }
+        }
+      ],
+      "native_initial_artifacts": [
+        "/app/checkpoints/*.pt (16 shards)",
+        "/app/reference_output/logits.pt",
+        "/app/reference_output/input_ids.pt",
+        "/app/reference_output/expected_keys.json"
+      ],
+      "boundary_note": "The HuggingFace-style reference model definition and generated reference outputs are native subject-visible fixtures. The full checkpoint writer and generator are builder-only. Do not copy the entire source cache to the subject.",
+      "generation_scope_note": "This offline fixture build constructs a local reference model and performs a forward pass. It is not an API model call or a subject attempt; it was not executed in this audit.",
+      "cached_build_context_integrity": {
+        "files": 11,
+        "bytes": 72040,
+        "all_match_saved_source_manifest": true
+      }
+    },
+    {
+      "slot_id": "terminal-09",
+      "candidate_id": "payments-pipeline-fix",
+      "family_id": "terminal",
+      "source_pin": "official v4.0.0 release at 452bf305c6daa62fc59061d22133a7cbc7c1572e; 66-task dataset manifest ecd296ba053840bd4c0068e8f84e8a6fa829d184d0fd9852becdc19f4c895fcf; selected 16-task manifest cab69a91f2aa461ef2e97d1e68d9c9ed7a2a37f09764008df4b0481295675c9b",
+      "classification": "startup_generated_service_state",
+      "finding": "The seeder creates Kafka topics and transaction history before the main service starts. Its source and service build contexts are cached; the history is not downloaded.",
+      "downloadable_task_input_missing": false,
+      "new_downloads": [],
+      "recommended_asset_remaining_gap": "Source inputs are present. Build/pin the Kafka, customer and worker services; materialize and capture a consistent native starting state after seeding. The seeder chooses its random seed with os.urandom, so identical source alone does not establish identical task state across runs. Freeze or otherwise qualify the native initial-state policy without changing task semantics.",
+      "runtime_qualified": false,
+      "admitted": false,
+      "upstream_code_executed": false,
+      "evidence": [
+        {
+          "path": "/Users/michaelofengenden/Developer/TimeResearch/AgentTime-v1.1/benchmarks/cache/v1-inputs-20261002/terminal-bench-4-0/task/tasks/payments-pipeline-fix/environment/docker-compose.yaml",
+          "repository_relative_path": "benchmarks/cache/v1-inputs-20261002/terminal-bench-4-0/task/tasks/payments-pipeline-fix/environment/docker-compose.yaml",
+          "bytes": 2749,
+          "sha256": "5e7838d63022684737c4117634f6ce6c45ff824fff77fcbc6f764342dfed51ec",
+          "role": "pinned_source_inspection",
+          "source_commit": "452bf305c6daa62fc59061d22133a7cbc7c1572e",
+          "saved_source_manifest_hash_matches": true,
+          "lines": {
+            "start": 3,
+            "end": 39
+          }
+        },
+        {
+          "path": "/Users/michaelofengenden/Developer/TimeResearch/AgentTime-v1.1/benchmarks/cache/v1-inputs-20261002/terminal-bench-4-0/task/tasks/payments-pipeline-fix/environment/seeder/seed_history.py",
+          "repository_relative_path": "benchmarks/cache/v1-inputs-20261002/terminal-bench-4-0/task/tasks/payments-pipeline-fix/environment/seeder/seed_history.py",
+          "bytes": 3890,
+          "sha256": "74e400e3973ad3bcfa12d3df0b2f75b97417acc207a4198de347d127cb9622e7",
+          "role": "pinned_source_inspection",
+          "source_commit": "452bf305c6daa62fc59061d22133a7cbc7c1572e",
+          "saved_source_manifest_hash_matches": true,
+          "lines": {
+            "start": 13,
+            "end": 19
+          }
+        },
+        {
+          "path": "/Users/michaelofengenden/Developer/TimeResearch/AgentTime-v1.1/benchmarks/cache/v1-inputs-20261002/terminal-bench-4-0/task/tasks/payments-pipeline-fix/environment/seeder/seed_history.py",
+          "repository_relative_path": "benchmarks/cache/v1-inputs-20261002/terminal-bench-4-0/task/tasks/payments-pipeline-fix/environment/seeder/seed_history.py",
+          "bytes": 3890,
+          "sha256": "74e400e3973ad3bcfa12d3df0b2f75b97417acc207a4198de347d127cb9622e7",
+          "role": "pinned_source_inspection",
+          "source_commit": "452bf305c6daa62fc59061d22133a7cbc7c1572e",
+          "saved_source_manifest_hash_matches": true,
+          "lines": {
+            "start": 74,
+            "end": 116
+          }
+        },
+        {
+          "path": "/Users/michaelofengenden/Developer/TimeResearch/AgentTime-v1.1/benchmarks/cache/v1-inputs-20261002/terminal-bench-4-0/task/tasks/payments-pipeline-fix/environment/entrypoint.sh",
+          "repository_relative_path": "benchmarks/cache/v1-inputs-20261002/terminal-bench-4-0/task/tasks/payments-pipeline-fix/environment/entrypoint.sh",
+          "bytes": 575,
+          "sha256": "c1bb4dae4670e96818c8cfa091c7fdf7180362a99c22787b7072dc35d2f565c2",
+          "role": "pinned_source_inspection",
+          "source_commit": "452bf305c6daa62fc59061d22133a7cbc7c1572e",
+          "saved_source_manifest_hash_matches": true,
+          "lines": {
+            "start": 5,
+            "end": 23
+          }
+        },
+        {
+          "path": "/Users/michaelofengenden/Developer/TimeResearch/AgentTime-v1.1/benchmarks/cache/v1-inputs-20261002/terminal-bench-4-0/task/tasks/payments-pipeline-fix/environment/seeder/Dockerfile",
+          "repository_relative_path": "benchmarks/cache/v1-inputs-20261002/terminal-bench-4-0/task/tasks/payments-pipeline-fix/environment/seeder/Dockerfile",
+          "bytes": 362,
+          "sha256": "d1c32a8b00c91d1082118de7bffd6d51cd8beeac9db337bae315c8bce3254ce4",
+          "role": "pinned_source_inspection",
+          "source_commit": "452bf305c6daa62fc59061d22133a7cbc7c1572e",
+          "saved_source_manifest_hash_matches": true
+        },
+        {
+          "path": "/Users/michaelofengenden/Developer/TimeResearch/AgentTime-v1.1/benchmarks/cache/v1-inputs-20261002/terminal-bench-4-0/task/tasks/payments-pipeline-fix/environment/customer/Dockerfile",
+          "repository_relative_path": "benchmarks/cache/v1-inputs-20261002/terminal-bench-4-0/task/tasks/payments-pipeline-fix/environment/customer/Dockerfile",
+          "bytes": 440,
+          "sha256": "bedfd845a18215e236f2e07f3d1d3557bc56a3cb22f995f80b46ebb46515ff71",
+          "role": "pinned_source_inspection",
+          "source_commit": "452bf305c6daa62fc59061d22133a7cbc7c1572e",
+          "saved_source_manifest_hash_matches": true
+        }
+      ],
+      "native_initial_artifacts": [
+        "Kafka topic and seeded transaction records",
+        "Customer-service state",
+        "Native worker/supervisor startup state"
+      ],
+      "boundary_note": "Do not turn seeded service history or startup timing into a fetched static dataset, and do not precompute the worker repair.",
+      "cached_build_context_integrity": {
+        "files": 13,
+        "bytes": 21181,
+        "all_match_saved_source_manifest": true
+      }
+    },
+    {
+      "slot_id": "terminal-10",
+      "candidate_id": "pretrain-shard-corruption",
+      "family_id": "terminal",
+      "source_pin": "official v4.0.0 release at 452bf305c6daa62fc59061d22133a7cbc7c1572e; 66-task dataset manifest ecd296ba053840bd4c0068e8f84e8a6fa829d184d0fd9852becdc19f4c895fcf; selected 16-task manifest cab69a91f2aa461ef2e97d1e68d9c9ed7a2a37f09764008df4b0481295675c9b",
+      "classification": "build_generated_initial_state",
+      "finding": "The cached raw corpus and tokenizer generate twenty binary training chunks and clean validation data during the image build. The generator applies the task corruption locally.",
+      "downloadable_task_input_missing": false,
+      "new_downloads": [],
+      "recommended_asset_remaining_gap": "Raw corpus, tokenizer and generator bytes are present. Materialize and hash the native corrupted chunk files, index and validation data in the pinned build environment. Confirm the intended agent-visible filesystem excludes the raw corpus and generator, and preserve the native pretraining task and verifier boundary.",
+      "runtime_qualified": false,
+      "admitted": false,
+      "upstream_code_executed": false,
+      "evidence": [
+        {
+          "path": "/Users/michaelofengenden/Developer/TimeResearch/AgentTime-v1.1/benchmarks/cache/v1-inputs-20261002/terminal-bench-4-0/task/tasks/pretrain-shard-corruption/environment/Dockerfile",
+          "repository_relative_path": "benchmarks/cache/v1-inputs-20261002/terminal-bench-4-0/task/tasks/pretrain-shard-corruption/environment/Dockerfile",
+          "bytes": 2169,
+          "sha256": "2d00823b3f8e4bfdccc3c32f0d81ee98ac9092cc2926f8302a2f766cfe2cdf1b",
+          "role": "pinned_source_inspection",
+          "source_commit": "452bf305c6daa62fc59061d22133a7cbc7c1572e",
+          "saved_source_manifest_hash_matches": true,
+          "lines": {
+            "start": 23,
+            "end": 39
+          }
+        },
+        {
+          "path": "/Users/michaelofengenden/Developer/TimeResearch/AgentTime-v1.1/benchmarks/cache/v1-inputs-20261002/terminal-bench-4-0/task/tasks/pretrain-shard-corruption/environment/data/gen_shards.py",
+          "repository_relative_path": "benchmarks/cache/v1-inputs-20261002/terminal-bench-4-0/task/tasks/pretrain-shard-corruption/environment/data/gen_shards.py",
+          "bytes": 8870,
+          "sha256": "33a9354db6cb6028ca285f176df4bab37b23c02e89d884b5208f03857518c4cf",
+          "role": "pinned_source_inspection",
+          "source_commit": "452bf305c6daa62fc59061d22133a7cbc7c1572e",
+          "saved_source_manifest_hash_matches": true,
+          "lines": {
+            "start": 39,
+            "end": 54
+          }
+        },
+        {
+          "path": "/Users/michaelofengenden/Developer/TimeResearch/AgentTime-v1.1/benchmarks/cache/v1-inputs-20261002/terminal-bench-4-0/task/tasks/pretrain-shard-corruption/environment/data/gen_shards.py",
+          "repository_relative_path": "benchmarks/cache/v1-inputs-20261002/terminal-bench-4-0/task/tasks/pretrain-shard-corruption/environment/data/gen_shards.py",
+          "bytes": 8870,
+          "sha256": "33a9354db6cb6028ca285f176df4bab37b23c02e89d884b5208f03857518c4cf",
+          "role": "pinned_source_inspection",
+          "source_commit": "452bf305c6daa62fc59061d22133a7cbc7c1572e",
+          "saved_source_manifest_hash_matches": true,
+          "lines": {
+            "start": 118,
+            "end": 134
+          }
+        },
+        {
+          "path": "/Users/michaelofengenden/Developer/TimeResearch/AgentTime-v1.1/benchmarks/cache/v1-inputs-20261002/terminal-bench-4-0/task/tasks/pretrain-shard-corruption/environment/data/gen_shards.py",
+          "repository_relative_path": "benchmarks/cache/v1-inputs-20261002/terminal-bench-4-0/task/tasks/pretrain-shard-corruption/environment/data/gen_shards.py",
+          "bytes": 8870,
+          "sha256": "33a9354db6cb6028ca285f176df4bab37b23c02e89d884b5208f03857518c4cf",
+          "role": "pinned_source_inspection",
+          "source_commit": "452bf305c6daa62fc59061d22133a7cbc7c1572e",
+          "saved_source_manifest_hash_matches": true,
+          "lines": {
+            "start": 145,
+            "end": 220
+          }
+        },
+        {
+          "path": "/Users/michaelofengenden/Developer/TimeResearch/AgentTime-v1.1/benchmarks/cache/v1-inputs-20261002/terminal-bench-4-0/task/tasks/pretrain-shard-corruption/environment/data/raw/corpus.txt",
+          "repository_relative_path": "benchmarks/cache/v1-inputs-20261002/terminal-bench-4-0/task/tasks/pretrain-shard-corruption/environment/data/raw/corpus.txt",
+          "bytes": 2127636,
+          "sha256": "670d77d3b3d88f1b356f0796301a522236417be99ee116848a1f664d074fbb13",
+          "role": "builder_input_corpus",
+          "source_commit": "452bf305c6daa62fc59061d22133a7cbc7c1572e",
+          "saved_source_manifest_hash_matches": true
+        },
+        {
+          "path": "/Users/michaelofengenden/Developer/TimeResearch/AgentTime-v1.1/benchmarks/cache/v1-inputs-20261002/terminal-bench-4-0/task/tasks/pretrain-shard-corruption/environment/data/raw/tokenizer.model",
+          "repository_relative_path": "benchmarks/cache/v1-inputs-20261002/terminal-bench-4-0/task/tasks/pretrain-shard-corruption/environment/data/raw/tokenizer.model",
+          "bytes": 788669,
+          "sha256": "4d031e1da164ce5d8aa4f49da019f0495180e4705dc1a345774236fb3c5c9630",
+          "role": "builder_input_tokenizer",
+          "source_commit": "452bf305c6daa62fc59061d22133a7cbc7c1572e",
+          "saved_source_manifest_hash_matches": true
+        }
+      ],
+      "native_initial_artifacts": [
+        "/app/data/train/chunk-0-*.bin (20 chunks)",
+        "/app/data/train/index.json",
+        "/app/data/val/val.bin"
+      ],
+      "boundary_note": "The native Dockerfile copies raw data/generator before deleting them in a later layer. Packaging qualification must keep source/build layers out of any agent-readable source mount. The generator, clean corpus, and repair are not additional subject inputs.",
+      "cached_build_context_integrity": {
+        "files": 8,
+        "bytes": 2938030,
+        "all_match_saved_source_manifest": true
+      }
+    },
+    {
+      "slot_id": "terminal-14",
+      "candidate_id": "risk-scorer-replay",
+      "family_id": "terminal",
+      "source_pin": "official v4.0.0 release at 452bf305c6daa62fc59061d22133a7cbc7c1572e; 66-task dataset manifest ecd296ba053840bd4c0068e8f84e8a6fa829d184d0fd9852becdc19f4c895fcf; selected 16-task manifest cab69a91f2aa461ef2e97d1e68d9c9ed7a2a37f09764008df4b0481295675c9b",
+      "classification": "build_compiled_initial_executable",
+      "finding": "The legacy scorer is compiled from the cached C source in a separate builder stage. The final image receives the binary plus the cached application and incident packet.",
+      "downloadable_task_input_missing": false,
+      "new_downloads": [],
+      "recommended_asset_remaining_gap": "Application data and builder source are present. Compile/pin the native legacy-score executable in the specified build stage and verify its executable-only permissions for the nobody user. Keep the C implementation outside the subject image, then qualify native scorer access and task grading.",
+      "runtime_qualified": false,
+      "admitted": false,
+      "upstream_code_executed": false,
+      "evidence": [
+        {
+          "path": "/Users/michaelofengenden/Developer/TimeResearch/AgentTime-v1.1/benchmarks/cache/v1-inputs-20261002/terminal-bench-4-0/task/tasks/risk-scorer-replay/environment/Dockerfile",
+          "repository_relative_path": "benchmarks/cache/v1-inputs-20261002/terminal-bench-4-0/task/tasks/risk-scorer-replay/environment/Dockerfile",
+          "bytes": 1014,
+          "sha256": "fe3d7da953be4dcd6acc3adcf745380db23f514fa71505ebab3985b1d21439da",
+          "role": "pinned_source_inspection",
+          "source_commit": "452bf305c6daa62fc59061d22133a7cbc7c1572e",
+          "saved_source_manifest_hash_matches": true,
+          "lines": {
+            "start": 2,
+            "end": 26
+          }
+        },
+        {
+          "path": "/Users/michaelofengenden/Developer/TimeResearch/AgentTime-v1.1/benchmarks/cache/v1-inputs-20261002/terminal-bench-4-0/task/tasks/risk-scorer-replay/environment/legacy/legacy_score.c",
+          "repository_relative_path": "benchmarks/cache/v1-inputs-20261002/terminal-bench-4-0/task/tasks/risk-scorer-replay/environment/legacy/legacy_score.c",
+          "bytes": 4094,
+          "sha256": "fbfa73c2be4fe9c77852787e2ffc95f91b61f72e9eb3b2ae3516144d187cd8c7",
+          "role": "builder_only_scorer_source",
+          "source_commit": "452bf305c6daa62fc59061d22133a7cbc7c1572e",
+          "saved_source_manifest_hash_matches": true
+        },
+        {
+          "path": "/Users/michaelofengenden/Developer/TimeResearch/AgentTime-v1.1/benchmarks/cache/v1-inputs-20261002/terminal-bench-4-0/task/tasks/risk-scorer-replay/environment/app/docs/migration_ticket.md",
+          "repository_relative_path": "benchmarks/cache/v1-inputs-20261002/terminal-bench-4-0/task/tasks/risk-scorer-replay/environment/app/docs/migration_ticket.md",
+          "bytes": 4318,
+          "sha256": "b6d4c4465c575ef93f9ecf80333d9b4e26c27557ce84cd99ca010049ccd99668",
+          "role": "pinned_source_inspection",
+          "source_commit": "452bf305c6daa62fc59061d22133a7cbc7c1572e",
+          "saved_source_manifest_hash_matches": true,
+          "lines": {
+            "start": 5,
+            "end": 37
+          }
+        },
+        {
+          "path": "/Users/michaelofengenden/Developer/TimeResearch/AgentTime-v1.1/benchmarks/cache/v1-inputs-20261002/terminal-bench-4-0/task/tasks/risk-scorer-replay/instruction.md",
+          "repository_relative_path": "benchmarks/cache/v1-inputs-20261002/terminal-bench-4-0/task/tasks/risk-scorer-replay/instruction.md",
+          "bytes": 2263,
+          "sha256": "78cfe68f132a464ccfbec5097314e607487f5d90a418580b8066b18868bf3c6e",
+          "role": "pinned_source_inspection",
+          "source_commit": "452bf305c6daa62fc59061d22133a7cbc7c1572e",
+          "saved_source_manifest_hash_matches": true
+        }
+      ],
+      "native_initial_artifacts": [
+        "/usr/local/bin/legacy-score",
+        "/app application and incident data"
+      ],
+      "boundary_note": "The diagnostic executable is an intended native task tool. Its C implementation and a reconstructed solution are not subject inputs.",
+      "cached_build_context_integrity": {
+        "files": 15,
+        "bytes": 18360,
+        "all_match_saved_source_manifest": true
+      }
+    },
+    {
+      "slot_id": "yc-04",
+      "candidate_id": "yc-bench.default.seed4",
+      "family_id": "yc",
+      "source_pin": "61aa49c92063510be30d903443a59833847c8fc1",
+      "classification": "procedurally_generated_seed_bound_database",
+      "finding": "The native initializer generates the company, employees, clients and market tasks from the cached default configuration. The run seed affects market tasks; employees and clients use fixed seed 1. No external task dataset is read.",
+      "downloadable_task_input_missing": false,
+      "new_downloads": [],
+      "recommended_asset_remaining_gap": "Source scenario inputs are present. With a separately qualified model-free initializer, materialize the seed-4 database and compare canonical market-task content with seeds 1/2/3 and a repeated seed-4 initialization. Ignore incidental UUIDs, verify the fixed employee/client population, freeze one exact native starting state, and qualify tools and one-year/bankruptcy scoring.",
+      "runtime_qualified": false,
+      "admitted": false,
+      "upstream_code_executed": false,
+      "evidence": [
+        {
+          "path": "/Users/michaelofengenden/Developer/TimeResearch/AgentTime-v1.1/benchmarks/cache/v1-inputs-20261002/yc-bench/task/src/yc_bench/config/presets/default.toml",
+          "repository_relative_path": "benchmarks/cache/v1-inputs-20261002/yc-bench/task/src/yc_bench/config/presets/default.toml",
+          "bytes": 5850,
+          "sha256": "3b7fe76e45fa8372efd66839c894d76c87fa43a18f141b435fd9359828021068",
+          "role": "pinned_source_inspection",
+          "source_commit": "61aa49c92063510be30d903443a59833847c8fc1",
+          "saved_source_manifest_hash_matches": true
+        },
+        {
+          "path": "/Users/michaelofengenden/Developer/TimeResearch/AgentTime-v1.1/benchmarks/cache/v1-inputs-20261002/yc-bench/task/src/yc_bench/services/seed_world.py",
+          "repository_relative_path": "benchmarks/cache/v1-inputs-20261002/yc-bench/task/src/yc_bench/services/seed_world.py",
+          "bytes": 5457,
+          "sha256": "05776d9c2f8861b58faf37fa339b0c8ce23985fa9bcc3a3cce35e41186eb3145",
+          "role": "pinned_source_inspection",
+          "source_commit": "61aa49c92063510be30d903443a59833847c8fc1",
+          "saved_source_manifest_hash_matches": true,
+          "lines": {
+            "start": 39,
+            "end": 47
+          }
+        },
+        {
+          "path": "/Users/michaelofengenden/Developer/TimeResearch/AgentTime-v1.1/benchmarks/cache/v1-inputs-20261002/yc-bench/task/src/yc_bench/services/seed_world.py",
+          "repository_relative_path": "benchmarks/cache/v1-inputs-20261002/yc-bench/task/src/yc_bench/services/seed_world.py",
+          "bytes": 5457,
+          "sha256": "05776d9c2f8861b58faf37fa339b0c8ce23985fa9bcc3a3cce35e41186eb3145",
+          "role": "pinned_source_inspection",
+          "source_commit": "61aa49c92063510be30d903443a59833847c8fc1",
+          "saved_source_manifest_hash_matches": true,
+          "lines": {
+            "start": 61,
+            "end": 93
+          }
+        },
+        {
+          "path": "/Users/michaelofengenden/Developer/TimeResearch/AgentTime-v1.1/benchmarks/cache/v1-inputs-20261002/yc-bench/task/src/yc_bench/services/seed_world.py",
+          "repository_relative_path": "benchmarks/cache/v1-inputs-20261002/yc-bench/task/src/yc_bench/services/seed_world.py",
+          "bytes": 5457,
+          "sha256": "05776d9c2f8861b58faf37fa339b0c8ce23985fa9bcc3a3cce35e41186eb3145",
+          "role": "pinned_source_inspection",
+          "source_commit": "61aa49c92063510be30d903443a59833847c8fc1",
+          "saved_source_manifest_hash_matches": true,
+          "lines": {
+            "start": 117,
+            "end": 159
+          }
+        },
+        {
+          "path": "/Users/michaelofengenden/Developer/TimeResearch/AgentTime-v1.1/benchmarks/cache/v1-inputs-20261002/yc-bench/task/src/yc_bench/services/seed_world.py",
+          "repository_relative_path": "benchmarks/cache/v1-inputs-20261002/yc-bench/task/src/yc_bench/services/seed_world.py",
+          "bytes": 5457,
+          "sha256": "05776d9c2f8861b58faf37fa339b0c8ce23985fa9bcc3a3cce35e41186eb3145",
+          "role": "pinned_source_inspection",
+          "source_commit": "61aa49c92063510be30d903443a59833847c8fc1",
+          "saved_source_manifest_hash_matches": true,
+          "lines": {
+            "start": 163,
+            "end": 186
+          }
+        },
+        {
+          "path": "/Users/michaelofengenden/Developer/TimeResearch/AgentTime-v1.1/benchmarks/cache/v1-inputs-20261002/yc-bench/task/src/yc_bench/runner/main.py",
+          "repository_relative_path": "benchmarks/cache/v1-inputs-20261002/yc-bench/task/src/yc_bench/runner/main.py",
+          "bytes": 17334,
+          "sha256": "a19e6085aa8b8afa627488f4b2b1977df11e24ae008c4bc1c5d7aecae56eb8ff",
+          "role": "pinned_source_inspection",
+          "source_commit": "61aa49c92063510be30d903443a59833847c8fc1",
+          "saved_source_manifest_hash_matches": true,
+          "lines": {
+            "start": 93,
+            "end": 132
+          }
+        },
+        {
+          "path": "/Users/michaelofengenden/Developer/TimeResearch/AgentTime-v1.1/benchmarks/cache/v1-inputs-20261002/yc-bench/task/src/yc_bench/services/generate_tasks.py",
+          "repository_relative_path": "benchmarks/cache/v1-inputs-20261002/yc-bench/task/src/yc_bench/services/generate_tasks.py",
+          "bytes": 9266,
+          "sha256": "6131cc4b789cad76f6dde6b3345cbf6df73d13c84cabe8a67ee88916d24065aa",
+          "role": "pinned_source_inspection",
+          "source_commit": "61aa49c92063510be30d903443a59833847c8fc1",
+          "saved_source_manifest_hash_matches": true,
+          "lines": {
+            "start": 172,
+            "end": 190
+          }
+        },
+        {
+          "path": "/Users/michaelofengenden/Developer/TimeResearch/AgentTime-v1.1/benchmarks/cache/v1-inputs-20261002/yc-bench/task/src/yc_bench/services/generate_employees.py",
+          "repository_relative_path": "benchmarks/cache/v1-inputs-20261002/yc-bench/task/src/yc_bench/services/generate_employees.py",
+          "bytes": 3291,
+          "sha256": "1439ee5ddb44f41847b4462cf91baa92ac6864a5ec90a65e79c377dd34d061ad",
+          "role": "pinned_source_inspection",
+          "source_commit": "61aa49c92063510be30d903443a59833847c8fc1",
+          "saved_source_manifest_hash_matches": true
+        },
+        {
+          "path": "/Users/michaelofengenden/Developer/TimeResearch/AgentTime-v1.1/benchmarks/cache/v1-inputs-20261002/yc-bench/task/src/yc_bench/services/generate_clients.py",
+          "repository_relative_path": "benchmarks/cache/v1-inputs-20261002/yc-bench/task/src/yc_bench/services/generate_clients.py",
+          "bytes": 3249,
+          "sha256": "ffe373ed75eca3389f896350e7508966cb455edc546f6be94eb0640a0ce7d796",
+          "role": "pinned_source_inspection",
+          "source_commit": "61aa49c92063510be30d903443a59833847c8fc1",
+          "saved_source_manifest_hash_matches": true
+        },
+        {
+          "path": "/Users/michaelofengenden/Developer/TimeResearch/AgentTime-v1.1/benchmarks/cache/v1-inputs-20261002/yc-bench/task/src/yc_bench/services/rng.py",
+          "repository_relative_path": "benchmarks/cache/v1-inputs-20261002/yc-bench/task/src/yc_bench/services/rng.py",
+          "bytes": 1430,
+          "sha256": "f0b6c055d9510c914421181f3f35a630e7a1d317f9af17c0e1deacc323c4b310",
+          "role": "pinned_source_inspection",
+          "source_commit": "61aa49c92063510be30d903443a59833847c8fc1",
+          "saved_source_manifest_hash_matches": true
+        },
+        {
+          "path": "/Users/michaelofengenden/Developer/TimeResearch/AgentTime-v1.1/benchmarks/cache/v1-inputs-20261002/yc-bench/task/src/yc_bench/config/sampling.py",
+          "repository_relative_path": "benchmarks/cache/v1-inputs-20261002/yc-bench/task/src/yc_bench/config/sampling.py",
+          "bytes": 2924,
+          "sha256": "15f193c8cb37ee2e7f0b088924776d4aca48507479dfcb0b2dc79ee7418a6b24",
+          "role": "pinned_source_inspection",
+          "source_commit": "61aa49c92063510be30d903443a59833847c8fc1",
+          "saved_source_manifest_hash_matches": true
+        }
+      ],
+      "native_initial_artifacts": [
+        "Seed-4 native simulator database and rendered initial prompt/state"
+      ],
+      "boundary_note": "Use the initializer alone in qualification. The benchmark runner also enters an agent loop, so running the full runner is not justified as source/data acquisition."
+    },
+    {
+      "slot_id": "paper-04",
+      "candidate_id": "pinn",
+      "family_id": "paper",
+      "source_pin": "51052cede8cc608f95bb00346635e03759013e5a",
+      "classification": "agent_produced_scientific_reproduction_data",
+      "finding": "No external experiment dataset is required by the pinned PINN paper/addendum and rubric inspected here. Residual, initial-condition and boundary-condition points are constructed from specified grids, and all three equations have analytic ground truth. Data construction and trained results belong to the submitted reproduction.",
+      "downloadable_task_input_missing": false,
+      "new_downloads": [],
+      "recommended_asset_remaining_gap": "The paper PDF/Markdown, addendum and all fifteen referenced figures are local and hash-verified. Bind them with the native blacklist into the paper task package. No external experiment dataset acquisition is pending: the agent must implement the sampling grids, analytic targets, training, analyses and reproduce.sh outputs. Separately qualify the native GPU reproduction environment and rubric judging without supplying precomputed experiments or the blacklisted author code.",
+      "runtime_qualified": false,
+      "admitted": false,
+      "upstream_code_executed": false,
+      "evidence": [
+        {
+          "path": "/Users/michaelofengenden/Developer/TimeResearch/AgentTime-v1.1/benchmarks/cache/extra-inputs-20261002/pinn/paper.md",
+          "repository_relative_path": "benchmarks/cache/extra-inputs-20261002/pinn/paper.md",
+          "bytes": 124207,
+          "sha256": "19a1ad906356e3efaa6bf82be11668c27af9ea376b5fbfa5945283fa188f4741",
+          "role": "pinned_source_inspection",
+          "source_commit": "51052cede8cc608f95bb00346635e03759013e5a",
+          "saved_source_manifest_hash_matches": true,
+          "lines": {
+            "start": 65,
+            "end": 81
+          }
+        },
+        {
+          "path": "/Users/michaelofengenden/Developer/TimeResearch/AgentTime-v1.1/benchmarks/cache/extra-inputs-20261002/pinn/paper.md",
+          "repository_relative_path": "benchmarks/cache/extra-inputs-20261002/pinn/paper.md",
+          "bytes": 124207,
+          "sha256": "19a1ad906356e3efaa6bf82be11668c27af9ea376b5fbfa5945283fa188f4741",
+          "role": "pinned_source_inspection",
+          "source_commit": "51052cede8cc608f95bb00346635e03759013e5a",
+          "saved_source_manifest_hash_matches": true,
+          "lines": {
+            "start": 448,
+            "end": 486
+          }
+        },
+        {
+          "path": "/Users/michaelofengenden/Developer/TimeResearch/AgentTime-v1.1/benchmarks/cache/extra-inputs-20261002/pinn/paper.pdf",
+          "repository_relative_path": "benchmarks/cache/extra-inputs-20261002/pinn/paper.pdf",
+          "bytes": 1580711,
+          "sha256": "9c4d6741961f9fd97d92c9a20fbcb34a853a08776cfffc19f05da31520c5611b",
+          "role": "paper_pdf",
+          "source_commit": "51052cede8cc608f95bb00346635e03759013e5a",
+          "saved_source_manifest_hash_matches": true
+        },
+        {
+          "path": "/Users/michaelofengenden/Developer/TimeResearch/AgentTime-v1.1/benchmarks/cache/extra-inputs-20261002/pinn/addendum.md",
+          "repository_relative_path": "benchmarks/cache/extra-inputs-20261002/pinn/addendum.md",
+          "bytes": 1481,
+          "sha256": "76fcd5372f61bf1bb038d8d944119d1817a416d6579ebfc27a64626d6b628d96",
+          "role": "pinned_source_inspection",
+          "source_commit": "51052cede8cc608f95bb00346635e03759013e5a",
+          "saved_source_manifest_hash_matches": true,
+          "lines": {
+            "start": 3,
+            "end": 28
+          }
+        },
+        {
+          "path": "/Users/michaelofengenden/Developer/TimeResearch/AgentTime-v1.1/benchmarks/cache/v1-inputs-20261002/paperbench/code/project/paperbench/data/papers/pinn/blacklist.txt",
+          "repository_relative_path": "benchmarks/cache/v1-inputs-20261002/paperbench/code/project/paperbench/data/papers/pinn/blacklist.txt",
+          "bytes": 48,
+          "sha256": "6379b4383283ef3af3617adc96fc7ccd0828f76c030140652b0e132b8672278e",
+          "role": "pinned_source_inspection",
+          "source_commit": "51052cede8cc608f95bb00346635e03759013e5a",
+          "saved_source_manifest_hash_matches": true,
+          "lines": {
+            "start": 1,
+            "end": 1
+          }
+        },
+        {
+          "path": "/Users/michaelofengenden/Developer/TimeResearch/AgentTime-v1.1/benchmarks/cache/v1-inputs-20261002/paperbench/code/project/paperbench/data/papers/pinn/config.yaml",
+          "repository_relative_path": "benchmarks/cache/v1-inputs-20261002/paperbench/code/project/paperbench/data/papers/pinn/config.yaml",
+          "bytes": 77,
+          "sha256": "9221909f3b8234937c66b851db0f219dc3e9c7499b21988cd626fe3dc1455f6b",
+          "role": "pinned_source_inspection",
+          "source_commit": "51052cede8cc608f95bb00346635e03759013e5a",
+          "saved_source_manifest_hash_matches": true
+        },
+        {
+          "path": "/Users/michaelofengenden/Developer/TimeResearch/AgentTime-v1.1/benchmarks/cache/v1-inputs-20261002/paperbench/code/project/paperbench/paperbench/solvers/basicagent/prompts/instructions_iterative.txt",
+          "repository_relative_path": "benchmarks/cache/v1-inputs-20261002/paperbench/code/project/paperbench/paperbench/solvers/basicagent/prompts/instructions_iterative.txt",
+          "bytes": 3976,
+          "sha256": "9b4114f5f66a58ca1a5126b687ab93e664af420e443471bedf5775cde0d9b236",
+          "role": "pinned_source_inspection",
+          "source_commit": "51052cede8cc608f95bb00346635e03759013e5a",
+          "saved_source_manifest_hash_matches": true,
+          "lines": {
+            "start": 15,
+            "end": 27
+          }
+        },
+        {
+          "path": "/Users/michaelofengenden/Developer/TimeResearch/AgentTime-v1.1/benchmarks/cache/v1-inputs-20261002/paperbench/code/project/paperbench/data/papers/pinn/rubric.json",
+          "repository_relative_path": "benchmarks/cache/v1-inputs-20261002/paperbench/code/project/paperbench/data/papers/pinn/rubric.json",
+          "bytes": 2351012,
+          "sha256": "aa5a270d76778bdc7cce1503ff5ed525aeefe3a9c30a44f65b767bfb2ac6262b",
+          "role": "protected_verifier_rubric",
+          "source_commit": "51052cede8cc608f95bb00346635e03759013e5a",
+          "saved_source_manifest_hash_matches": true,
+          "json_pointer": "/sub_tasks/0/sub_tasks/0/sub_tasks/1/sub_tasks/5/requirements"
+        },
+        {
+          "path": "/Users/michaelofengenden/Developer/TimeResearch/AgentTime-v1.1/benchmarks/cache/v1-inputs-20261002/paperbench/code/project/paperbench/data/papers/pinn/rubric.json",
+          "repository_relative_path": "benchmarks/cache/v1-inputs-20261002/paperbench/code/project/paperbench/data/papers/pinn/rubric.json",
+          "bytes": 2351012,
+          "sha256": "aa5a270d76778bdc7cce1503ff5ed525aeefe3a9c30a44f65b767bfb2ac6262b",
+          "role": "protected_verifier_rubric",
+          "source_commit": "51052cede8cc608f95bb00346635e03759013e5a",
+          "saved_source_manifest_hash_matches": true,
+          "json_pointer": "/sub_tasks/0/sub_tasks/0/sub_tasks/1/sub_tasks/2/requirements"
+        },
+        {
+          "path": "/Users/michaelofengenden/Developer/TimeResearch/AgentTime-v1.1/benchmarks/cache/extra-inputs-20261002/pinn/figure-import-receipt.json",
+          "repository_relative_path": "benchmarks/cache/extra-inputs-20261002/pinn/figure-import-receipt.json",
+          "bytes": 2635,
+          "sha256": "c5313592c86e5ee46dff4c6da80165963ed7442e0d1e5a89c399ac33b2f2aba1",
+          "role": "existing_figure_import_receipt",
+          "derived_source_commit": "51052cede8cc608f95bb00346635e03759013e5a",
+          "saved_source_manifest_hash_matches": null,
+          "saved_import_receipt_hash_matches": true
+        }
+      ],
+      "paper_figures": [
+        {
+          "path": "/Users/michaelofengenden/Developer/TimeResearch/AgentTime-v1.1/benchmarks/cache/extra-inputs-20261002/pinn/assets/asset_1.jpg",
+          "repository_relative_path": "benchmarks/cache/extra-inputs-20261002/pinn/assets/asset_1.jpg",
+          "bytes": 36911,
+          "sha256": "462b469ec7cf8af3a757ad018a699c0750ff328a1373ee068f8160f205710e42",
+          "role": "paper_figure_source_asset",
+          "source_commit": "51052cede8cc608f95bb00346635e03759013e5a",
+          "saved_source_manifest_hash_matches": true
+        },
+        {
+          "path": "/Users/michaelofengenden/Developer/TimeResearch/AgentTime-v1.1/benchmarks/cache/extra-inputs-20261002/pinn/assets/asset_10.jpg",
+          "repository_relative_path": "benchmarks/cache/extra-inputs-20261002/pinn/assets/asset_10.jpg",
+          "bytes": 21914,
+          "sha256": "c57c8577f1f8dd98a88a15062bdcc59dc45b3c2449d80f73bae576df4069dc1a",
+          "role": "paper_figure_source_asset",
+          "source_commit": "51052cede8cc608f95bb00346635e03759013e5a",
+          "saved_source_manifest_hash_matches": true
+        },
+        {
+          "path": "/Users/michaelofengenden/Developer/TimeResearch/AgentTime-v1.1/benchmarks/cache/extra-inputs-20261002/pinn/assets/asset_11.jpg",
+          "repository_relative_path": "benchmarks/cache/extra-inputs-20261002/pinn/assets/asset_11.jpg",
+          "bytes": 24533,
+          "sha256": "6224c4eb3568323b9d81a557db8e3009f87eaf0d8e5b01fe79482e738174be6f",
+          "role": "paper_figure_source_asset",
+          "source_commit": "51052cede8cc608f95bb00346635e03759013e5a",
+          "saved_source_manifest_hash_matches": true
+        },
+        {
+          "path": "/Users/michaelofengenden/Developer/TimeResearch/AgentTime-v1.1/benchmarks/cache/extra-inputs-20261002/pinn/assets/asset_12.jpg",
+          "repository_relative_path": "benchmarks/cache/extra-inputs-20261002/pinn/assets/asset_12.jpg",
+          "bytes": 23317,
+          "sha256": "308af8a21d05b6f8f84ca39f759143c4f08aba581bc684844360ef41a5252795",
+          "role": "paper_figure_source_asset",
+          "source_commit": "51052cede8cc608f95bb00346635e03759013e5a",
+          "saved_source_manifest_hash_matches": true
+        },
+        {
+          "path": "/Users/michaelofengenden/Developer/TimeResearch/AgentTime-v1.1/benchmarks/cache/extra-inputs-20261002/pinn/assets/asset_13.jpg",
+          "repository_relative_path": "benchmarks/cache/extra-inputs-20261002/pinn/assets/asset_13.jpg",
+          "bytes": 23300,
+          "sha256": "caf1a277b23ff2019fcb5f9baaeec1f38665994d6864a980b942cdd01adb3057",
+          "role": "paper_figure_source_asset",
+          "source_commit": "51052cede8cc608f95bb00346635e03759013e5a",
+          "saved_source_manifest_hash_matches": true
+        },
+        {
+          "path": "/Users/michaelofengenden/Developer/TimeResearch/AgentTime-v1.1/benchmarks/cache/extra-inputs-20261002/pinn/assets/asset_14.jpg",
+          "repository_relative_path": "benchmarks/cache/extra-inputs-20261002/pinn/assets/asset_14.jpg",
+          "bytes": 88151,
+          "sha256": "901473ad6a3149e8c5cc2b238fb0ac4506d78f0f40868fdfe14388254dab8abf",
+          "role": "paper_figure_source_asset",
+          "source_commit": "51052cede8cc608f95bb00346635e03759013e5a",
+          "saved_source_manifest_hash_matches": true
+        },
+        {
+          "path": "/Users/michaelofengenden/Developer/TimeResearch/AgentTime-v1.1/benchmarks/cache/extra-inputs-20261002/pinn/assets/asset_15.jpg",
+          "repository_relative_path": "benchmarks/cache/extra-inputs-20261002/pinn/assets/asset_15.jpg",
+          "bytes": 14821,
+          "sha256": "080b4fc2a58e1bcd2a707c66af810d5e2fad3ce4e250fd027a652461b8fb79a0",
+          "role": "paper_figure_source_asset",
+          "source_commit": "51052cede8cc608f95bb00346635e03759013e5a",
+          "saved_source_manifest_hash_matches": true
+        },
+        {
+          "path": "/Users/michaelofengenden/Developer/TimeResearch/AgentTime-v1.1/benchmarks/cache/extra-inputs-20261002/pinn/assets/asset_2.jpg",
+          "repository_relative_path": "benchmarks/cache/extra-inputs-20261002/pinn/assets/asset_2.jpg",
+          "bytes": 43354,
+          "sha256": "ec9e735e548c2d16d4b9a9c1cd3c7539670044b753aa64736fdc67c0d7172b4a",
+          "role": "paper_figure_source_asset",
+          "source_commit": "51052cede8cc608f95bb00346635e03759013e5a",
+          "saved_source_manifest_hash_matches": true
+        },
+        {
+          "path": "/Users/michaelofengenden/Developer/TimeResearch/AgentTime-v1.1/benchmarks/cache/extra-inputs-20261002/pinn/assets/asset_3.jpg",
+          "repository_relative_path": "benchmarks/cache/extra-inputs-20261002/pinn/assets/asset_3.jpg",
+          "bytes": 88262,
+          "sha256": "a532514345cab2c06230558dfdf02bf035c4acfbe00e8fa6e67f45bddb6aed9d",
+          "role": "paper_figure_source_asset",
+          "source_commit": "51052cede8cc608f95bb00346635e03759013e5a",
+          "saved_source_manifest_hash_matches": true
+        },
+        {
+          "path": "/Users/michaelofengenden/Developer/TimeResearch/AgentTime-v1.1/benchmarks/cache/extra-inputs-20261002/pinn/assets/asset_4.jpg",
+          "repository_relative_path": "benchmarks/cache/extra-inputs-20261002/pinn/assets/asset_4.jpg",
+          "bytes": 74704,
+          "sha256": "18738a232b91cd0712fc4314ac0089619bc513efb54b740cea80f35301c0c08d",
+          "role": "paper_figure_source_asset",
+          "source_commit": "51052cede8cc608f95bb00346635e03759013e5a",
+          "saved_source_manifest_hash_matches": true
+        },
+        {
+          "path": "/Users/michaelofengenden/Developer/TimeResearch/AgentTime-v1.1/benchmarks/cache/extra-inputs-20261002/pinn/assets/asset_5.jpg",
+          "repository_relative_path": "benchmarks/cache/extra-inputs-20261002/pinn/assets/asset_5.jpg",
+          "bytes": 153836,
+          "sha256": "d0693c233cb56be28f3f61937fbf7aabe6ae7edddd86dc7a6e9bf0287725238c",
+          "role": "paper_figure_source_asset",
+          "source_commit": "51052cede8cc608f95bb00346635e03759013e5a",
+          "saved_source_manifest_hash_matches": true
+        },
+        {
+          "path": "/Users/michaelofengenden/Developer/TimeResearch/AgentTime-v1.1/benchmarks/cache/extra-inputs-20261002/pinn/assets/asset_6.jpg",
+          "repository_relative_path": "benchmarks/cache/extra-inputs-20261002/pinn/assets/asset_6.jpg",
+          "bytes": 119397,
+          "sha256": "c59fa013792159c1e2e562c2e2aaac1af2571fe600916a15ed7ac11572cdbe10",
+          "role": "paper_figure_source_asset",
+          "source_commit": "51052cede8cc608f95bb00346635e03759013e5a",
+          "saved_source_manifest_hash_matches": true
+        },
+        {
+          "path": "/Users/michaelofengenden/Developer/TimeResearch/AgentTime-v1.1/benchmarks/cache/extra-inputs-20261002/pinn/assets/asset_7.jpg",
+          "repository_relative_path": "benchmarks/cache/extra-inputs-20261002/pinn/assets/asset_7.jpg",
+          "bytes": 130016,
+          "sha256": "f2ce5881cbcc552d18559d98db4bc40e97b7dc262e8480432384fa2cea722170",
+          "role": "paper_figure_source_asset",
+          "source_commit": "51052cede8cc608f95bb00346635e03759013e5a",
+          "saved_source_manifest_hash_matches": true
+        },
+        {
+          "path": "/Users/michaelofengenden/Developer/TimeResearch/AgentTime-v1.1/benchmarks/cache/extra-inputs-20261002/pinn/assets/asset_8.jpg",
+          "repository_relative_path": "benchmarks/cache/extra-inputs-20261002/pinn/assets/asset_8.jpg",
+          "bytes": 26019,
+          "sha256": "2dd23dcc38f384ef0047622142bd0412d60dec52d32bbfb7eaca5de05b7fed2f",
+          "role": "paper_figure_source_asset",
+          "source_commit": "51052cede8cc608f95bb00346635e03759013e5a",
+          "saved_source_manifest_hash_matches": true
+        },
+        {
+          "path": "/Users/michaelofengenden/Developer/TimeResearch/AgentTime-v1.1/benchmarks/cache/extra-inputs-20261002/pinn/assets/asset_9.jpg",
+          "repository_relative_path": "benchmarks/cache/extra-inputs-20261002/pinn/assets/asset_9.jpg",
+          "bytes": 22760,
+          "sha256": "c7870665db3afe2da7df870e1a55a7a3e157eeab7e0d12502d1557df0f273032",
+          "role": "paper_figure_source_asset",
+          "source_commit": "51052cede8cc608f95bb00346635e03759013e5a",
+          "saved_source_manifest_hash_matches": true
+        }
+      ],
+      "paper_method_details": {
+        "residual_points": 10000,
+        "interior_grid": [
+          255,
+          100
+        ],
+        "initial_condition_points": 257,
+        "boundary_condition_points_per_boundary": 101,
+        "sampling_rule": "Sample once before training and keep the residual points fixed, as stated by the native rubric.",
+        "equations": [
+          "convection PDE",
+          "reaction ODE",
+          "wave PDE"
+        ],
+        "ground_truth": "Analytic solutions in Appendix A, no downloaded ground-truth array required."
+      },
+      "agent_produced_artifacts": [
+        "PDE collocation points and analytic target arrays generated by the reproduction code",
+        "Trained PINN model parameters",
+        "Optimizer comparison metrics, Hessian analyses and reproduction figures",
+        "/home/submission/reproduce.sh and all outputs to be graded"
+      ],
+      "do_not_supply_precomputed": [
+        "Author-code repository or copied reference implementation",
+        "Trained checkpoints or completed experiment outputs",
+        "Prepared reproduction arrays/scripts that perform the assessed data-construction work for the agent"
+      ],
+      "inventory_wording_correction": {
+        "remove": "provision external experiment data",
+        "reason": "The inspected task specifies generated mathematical data, not an external dataset download."
+      },
+      "asset_source_presence": "present",
+      "task_package_binding": "needs_checking"
+    }
+  ],
+  "environment_acquisition_note": "Base images, operating-system packages and language dependencies remain native environment provisioning work. They were not confused with missing task datasets or fetched in this bounded audit.",
+  "files": {
+    "manifest": "/private/tmp/agenttime-assets-20261002/generated-assets/file-manifest.json",
+    "download_receipts": "/private/tmp/agenttime-assets-20261002/generated-assets/download-receipts.json",
+    "verification": "/private/tmp/agenttime-assets-20261002/generated-assets/verification.json",
+    "selected_rows_before": "/private/tmp/agenttime-assets-20261002/generated-assets/selected-slots-before.json"
+  },
+  "repository_files_written": 0
+}

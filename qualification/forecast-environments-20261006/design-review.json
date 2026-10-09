@@ -1,0 +1,12 @@
+{
+  "reviewer": "independent_in_process_codex_agent",
+  "not_opus": true,
+  "scope": "forecast_design_only",
+  "initial_verdict": "APPROVED",
+  "first_rereview": "REVISE",
+  "finding": "Qualify controller-side setup exclusions in PROTOCOL.md; subject setup/downloads count as task time.",
+  "resolution": "Applied to PROTOCOL.md and forecast wrapper.",
+  "final_verdict": "APPROVED",
+  "final_scope": "GPU provisioning deferred to natural runs; separate actual forecast hardware from target; freeze pristine source/initialization before forecasts.",
+  "runtime_readiness_established": false
+}

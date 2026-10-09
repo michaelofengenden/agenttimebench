@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "release": "osworld-v2.1",
+  "status": "active",
+  "description": "OSWorld V2 osworld-v2.1 benchmark release with pinned code, tasks, assets, website source and provider images.",
+  "osworld_code": {
+    "repository": "xlang-ai/OSWorld-V2",
+    "tag": "osworld-v2.1",
+    "base_commit": "325ab352e2ff7410854bf8e3324c391bc60e7526"
+  },
+  "website_code": {
+    "repository": "Task-Web/OSWorld-web",
+    "tag": "osworld-v2.1",
+    "commit": "60c89fe6a8ed934668619d8d26132848239eb8ee",
+    "source_branch": "master"
+  },
+  "tasks": {
+    "repository": "xlangai/osworld_v2_tasks",
+    "repo_type": "dataset",
+    "tag": "osworld-v2.1",
+    "source_branch": "main",
+    "commit": "0a1aadad95aa79b00b3783e717d865089ab06e26"
+  },
+  "assets": {
+    "repository": "xlangai/osworld_v2_assets_gated",
+    "repo_type": "dataset",
+    "tag": "osworld-v2.1",
+    "commit": "384b3834faba5700a7b589e6cc181490c9808949",
+    "source_branch": "main"
+  },
+  "task_hash_manifest": {
+    "repository": "xlang-ai/OSWorld-V2",
+    "repo_type": "git",
+    "tag": "osworld-v2.1",
+    "path": "benchmark_releases/osworld-v2.1.task_hashes.json",
+    "sha256": "sha256:c54d428329be5ca72742a6becd49ee83cf739df5dea429bba182e1f3f21badfb",
+    "task_count": 108,
+    "source_repository": "xlangai/osworld_v2_tasks",
+    "source_revision": "0a1aadad95aa79b00b3783e717d865089ab06e26"
+  },
+  "provider_images": {
+    "aws": {
+      "ubuntu": {
+        "us-east-1": {
+          "1920x1080": {
+            "ami_id": "ami-01017272139e01feb"
+          }
+        }
+      }
+    },
+    "docker": {
+      "ubuntu": {
+        "artifact_repository": "xlangai/v2-image",
+        "repo_type": "dataset",
+        "artifact_path": "osworld-v2-ubuntu-x86.qcow2.zip",
+        "artifact_size": 14891811084,
+        "artifact_sha256": "sha256:14b08aa7ba6c023ecb91d46de8df5de32af4d1d6bd75ea925519caf9677fc8b3",
+        "runtime_image": "happysixd/osworld-docker@sha256:0e6497a9295647cf05bf2b2af522fdd79bdeba2737595259cab310a3bcf6baa9",
+        "artifact_revision": "6e16459a2feb5a8f1ed65babcfe7a2a6205d049d",
+        "artifact_tag": "osworld-v2.1"
+      }
+    }
+  },
+  "verification": {
+    "tasks": "All 108 unmodified task files at the selected commit verified. Its HF hash manifest is stale for 68 files; a regenerated manifest is included only in the main code repository. HF task files and metadata are unchanged.",
+    "assets": "All 1084 files byte-verified against LFS SHA256 or Git blob SHA1. All 261 literal references and 25 paths traced from 12 dynamic call sites resolve in the selected inventory; AWS Task054 setup/evaluation smoke passed. Original Task029 setup returned a timeout; a separately tested fix is excluded from this release.",
+    "public_assets": "All 362 files verified; all paths exist in gated assets. Contents match gated assets except .gitattributes.",
+    "aws": "Pinned AMI availability and launch verified in us-east-1. Ubuntu 22.04.3 x86_64 desktop, control API, screenshots, file transfer and 64-GiB root volume expansion verified. Task054 live smoke passed. Original Task029 setup timed out; the successful patched-task smoke does not validate the selected unmodified task. All three sequential test instances terminated and tagged test volumes absent.",
+    "docker": "Full Ubuntu archive bytes verified: 14891811084 bytes, SHA256 matches. ZIP contains osworld-v2-ubuntu-x86.qcow2. Runtime manifest digest independently matches. VM boot remains blocked by absent KVM.",
+    "website": "Website source and all 25 pinned submodule commits verified. Self-host Task-Web/OSWorld-web@osworld-v2.1 and configure its host suffix.",
+    "blockers": [],
+    "limitations": [
+      "No full 108-task agent evaluation.",
+      "Docker VM was not booted: its archive and runtime digest were verified; AWS/Docker guest equivalence is not established.",
+      "No hosted website deployment verification or deployment.",
+      "Unmodified Task029 retains the observed 120-second HTTP-server setup timeout. Its separately tested fix is excluded at maintainer request; no clean Task029 setup pass is claimed."
+    ]
+  },
+  "public_assets": {
+    "repository": "xlangai/osworld_v2_assets",
+    "repo_type": "dataset",
+    "tag": "osworld-v2.1",
+    "commit": "3a140a3df8f351b22bb5b9526846f078e738777f",
+    "source_branch": "main",
+    "purpose": "Anonymous browser-facing runtime assets; not the complete task asset snapshot."
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "archive_inventory_sha256": "0d0c8cf9f6ee79398f616c0f72b4c8e59e7ab008009606dbeb6364e72b51ac3c",
+  "cli_sha256": "1e08503dbdf3c2cb0d706d32f3408277388d1c76ef108673e8fe42c1b322925b",
+  "cli_version": "2.1.280",
+  "expected_session_id": "8ac60f9c-347d-41af-b432-8f86c943f09e",
+  "helper_sha256": "efb9d8718312c1229a5f54e335443da19fbf65ef2d152197d2a4f7e66512c363",
+  "historical_source_sha256": "5a49c9a87cc763fc898849c304fa5fa9e13757a2e9e5da0f70c5670e2fa4b377",
+  "operation": "fork",
+  "original_session_id": "f8138d80-db36-407e-abaa-4972f26e9c79",
+  "original_transcript_bytes": 8467,
+  "original_transcript_sha256": "5b22daedb5ccfe9d0fc36cabbcc2a9a626c791d06954e485df470901e3bfa1d2",
+  "probe_input_sha256": "57aaab63e0f134702a18e25e8dab02e0ca2067fe3a4f269fb55808a03b0c20a8",
+  "qualification_id": "synthetic-fork-26267504c0ef4a64",
+  "runtime_cwd": "/tmp/at-native/work",
+  "runtime_root": "/tmp/at-native",
+  "schema_version": "agenttime.synthetic-native-restore.v1",
+  "source_location": "/tmp/source",
+  "source_tree_sha256": "57831ddf7987cd91f2c0d7473767bae88c98e5d2ef74a324c814e92e3251f6d5",
+  "study_ready": false,
+  "target_native_environment": "# Environment\nYou have been invoked in the following environment: \n - Primary working directory: /tmp/at-native/work\n - Is a git repository: false\n - Platform: linux\n - Shell: bash\n - OS Version: Linux 6.8.0-138-generic"
+}

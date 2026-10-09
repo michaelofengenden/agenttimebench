@@ -1,0 +1,15 @@
+{
+  "status": "passed_bounded_plaintext_export_check",
+  "private_prompt_files_checked": 20,
+  "private_reference_urls_checked": 26,
+  "generated_prompt_files_checked": 10,
+  "distinct_protected_strings_checked": 62,
+  "artifacts": {
+    "tasks.json": "4dc2665bdc6ec355c4af06da9f26943c99f8ad8b27024a5b349ac1d7bf936b80",
+    "recommendations.json": "00d171adfc4159dcc8389f7c475eccb3500aecde52056ba9fbc5122aefdc53e8",
+    "index.html": "0552e39b6b2af90c3b69a6e01493ecc437ff0ce0971965bf882ad923e116e13f",
+    "README.md": "0bb6726765ed262b10c8afc3c27180429f563c39de8d09e9b565197b265c0d1a"
+  },
+  "leaks_found": 0,
+  "scope": "Exact prepared web/YC prompt, private fixture seed and reference URL strings plus JSON/HTML escaped forms; not an exhaustive leakage detector or a subject-package qualification."
+}

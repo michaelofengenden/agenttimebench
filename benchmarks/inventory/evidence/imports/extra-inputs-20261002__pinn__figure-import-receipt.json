@@ -1,0 +1,83 @@
+{
+  "source_path": "/Users/michaelofengenden/Developer/TimeResearch/AgentTime-v1.1/benchmarks/cache/extra-inputs-20261002/pinn",
+  "files": [
+    {
+      "path": "assets/asset_1.jpg",
+      "bytes": 36911,
+      "sha256": "462b469ec7cf8af3a757ad018a699c0750ff328a1373ee068f8160f205710e42"
+    },
+    {
+      "path": "assets/asset_10.jpg",
+      "bytes": 21914,
+      "sha256": "c57c8577f1f8dd98a88a15062bdcc59dc45b3c2449d80f73bae576df4069dc1a"
+    },
+    {
+      "path": "assets/asset_11.jpg",
+      "bytes": 24533,
+      "sha256": "6224c4eb3568323b9d81a557db8e3009f87eaf0d8e5b01fe79482e738174be6f"
+    },
+    {
+      "path": "assets/asset_12.jpg",
+      "bytes": 23317,
+      "sha256": "308af8a21d05b6f8f84ca39f759143c4f08aba581bc684844360ef41a5252795"
+    },
+    {
+      "path": "assets/asset_13.jpg",
+      "bytes": 23300,
+      "sha256": "caf1a277b23ff2019fcb5f9baaeec1f38665994d6864a980b942cdd01adb3057"
+    },
+    {
+      "path": "assets/asset_14.jpg",
+      "bytes": 88151,
+      "sha256": "901473ad6a3149e8c5cc2b238fb0ac4506d78f0f40868fdfe14388254dab8abf"
+    },
+    {
+      "path": "assets/asset_15.jpg",
+      "bytes": 14821,
+      "sha256": "080b4fc2a58e1bcd2a707c66af810d5e2fad3ce4e250fd027a652461b8fb79a0"
+    },
+    {
+      "path": "assets/asset_2.jpg",
+      "bytes": 43354,
+      "sha256": "ec9e735e548c2d16d4b9a9c1cd3c7539670044b753aa64736fdc67c0d7172b4a"
+    },
+    {
+      "path": "assets/asset_3.jpg",
+      "bytes": 88262,
+      "sha256": "a532514345cab2c06230558dfdf02bf035c4acfbe00e8fa6e67f45bddb6aed9d"
+    },
+    {
+      "path": "assets/asset_4.jpg",
+      "bytes": 74704,
+      "sha256": "18738a232b91cd0712fc4314ac0089619bc513efb54b740cea80f35301c0c08d"
+    },
+    {
+      "path": "assets/asset_5.jpg",
+      "bytes": 153836,
+      "sha256": "d0693c233cb56be28f3f61937fbf7aabe6ae7edddd86dc7a6e9bf0287725238c"
+    },
+    {
+      "path": "assets/asset_6.jpg",
+      "bytes": 119397,
+      "sha256": "c59fa013792159c1e2e562c2e2aaac1af2571fe600916a15ed7ac11572cdbe10"
+    },
+    {
+      "path": "assets/asset_7.jpg",
+      "bytes": 130016,
+      "sha256": "f2ce5881cbcc552d18559d98db4bc40e97b7dc262e8480432384fa2cea722170"
+    },
+    {
+      "path": "assets/asset_8.jpg",
+      "bytes": 26019,
+      "sha256": "2dd23dcc38f384ef0047622142bd0412d60dec52d32bbfb7eaca5de05b7fed2f"
+    },
+    {
+      "path": "assets/asset_9.jpg",
+      "bytes": 22760,
+      "sha256": "c7870665db3afe2da7df870e1a55a7a3e157eeab7e0d12502d1557df0f273032"
+    }
+  ],
+  "origin_receipt_sha256": "9f2f6023b9932d3a06f3cbbe220a069adf30df3c1ab6e8aa807a5e4be24c9a88",
+  "all_markdown_references_resolved": true,
+  "runtime_validated": false
+}

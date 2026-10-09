@@ -1,0 +1,6 @@
+{
+  "container_id": "d34d7a2517e2efe78bc208b18387e61e30733926bab9e37a18492ea06440dbfb",
+  "image": "sha256:148e5ecfdd7d47fb01785f1f7b06471ec72fe939881eae6a4cb8d4282f59259d",
+  "label": "synthetic-native-browser-4615dee9f7fa",
+  "purpose": "synthetic_browser_only"
+}

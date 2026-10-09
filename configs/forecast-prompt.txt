@@ -1,0 +1,25 @@
+Estimate the real elapsed time you would spend on the complete assignment
+below in a fresh natural run with the specified execution setup. The run
+has no requested work duration or experiment-imposed time limit.
+
+Measure from receiving the complete assignment until your natural run
+ends under the stated completion rule. Include time spent using tools and
+waiting for work while the attempt is active. Concurrent work counts once
+as elapsed time. Exclude controller-side provisioning, queueing, authentication,
+external grading and cleanup. Include setup, dependency installation and
+data or model downloads performed as part of your assignment. A simulation's calendar horizon is part of
+the assignment, not the elapsed time requested here.
+
+Forecast the full assignment, rather than just its opening steps. Do not
+perform the assignment or call tools during this forecast.
+
+Execution setup:
+{frozen_execution_profile}
+
+Assignment and completion rule:
+{frozen_native_messages_and_endpoint}
+
+Initial task materials:
+{allowlisted_materials_and_attached_images}
+
+Return exactly one line: minutes = <positive number>

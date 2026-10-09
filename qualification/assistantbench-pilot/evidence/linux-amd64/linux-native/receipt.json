@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "qualification": "real_browser_synthetic_page_only",
+  "checks_passed": [
+    "exact_native_assistantbench_action_contract",
+    "native_profile_and_public_observation",
+    "native_fill_click_and_observation",
+    "native_submission_callback_and_immutable_seal",
+    "submission_sealed_before_post_step_observation",
+    "independent_browser_storage",
+    "private_state_persists_after_browser_close",
+    "fresh_context_cookie_and_localstorage_rehydration",
+    "rehydration_is_a_new_attempt_without_reused_submission"
+  ],
+  "model_calls": 0,
+  "selected_task_inputs_used": 0,
+  "platform": "Linux-6.12.76-linuxkit-x86_64-with-glibc2.36",
+  "python": "3.12.15",
+  "browser": "125.0.6422.26",
+  "packages": {
+    "browsergym-core": "0.14.3",
+    "playwright": "1.44.0",
+    "gymnasium": "1.4.0",
+    "numpy": "2.5.3",
+    "pillow": "12.3.0"
+  },
+  "source_sha256": "9bb6ccdd1bd1b39301167c9a1e537be144478e0d19e5cefa319abe5d65f39742",
+  "study_ready": false,
+  "claude_tool_path_qualified": false,
+  "linux_worker_qualified": false,
+  "linux_dependency_check": true,
+  "partial_browser_state_rehydration": true,
+  "archive_restore_qualified": false,
+  "remaining": [
+    "Claude MCP tool path on disposable native session",
+    "intended Linux worker/resources and public web access",
+    "browser/session capture, restoration and recovery",
+    "private native scorer qualification"
+  ]
+}

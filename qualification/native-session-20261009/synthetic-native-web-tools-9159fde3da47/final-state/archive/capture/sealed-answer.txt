@@ -1,0 +1,9 @@
+Both steps worked. The search found the official Claude Code overview, and the fetch loaded the full page.
+
+- **Page title:** Overview - Claude Code Docs (the heading on the page is "Overview")
+- **URL:** https://code.claude.com/docs/en/overview
+
+The page describes Claude Code as "an agentic coding tool that reads your codebase, edits files, runs commands, and integrates with your development tools."
+
+Sources:
+- [Overview - Claude Code Docs](https://code.claude.com/docs/en/overview)

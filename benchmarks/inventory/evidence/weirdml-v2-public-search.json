@@ -1,0 +1,407 @@
+{
+  "schema_version": "agenttime.weirdml-v2-public-release-audit.v1",
+  "created_at_utc": "2026-10-02T14:34:30.256117+00:00",
+  "status": "no_eight_task_public_runnable_release_located",
+  "scope": "Official WeirdML v2 and earlier public task/download links, author website source snapshots, and Epoch's direct benchmark audit. No exhaustive history search or private access.",
+  "summary": {
+    "requested_runnable_task_count": 8,
+    "verified_public_runnable_task_count": 0,
+    "active_v2_tasks_with_public_prompt_and_example_material": 4,
+    "historical_v1_tasks_with_public_prompts": 6,
+    "v2_additions_explicitly_hidden": 13,
+    "active_v2_total_reported": 17,
+    "original_v2_total_before_shuffle_removal": 19,
+    "exact_native_benchmark_commit_resolved": false
+  },
+  "finding": "Falling back to v2 does not supply eight public runnable tasks. Four active tasks have complete public prompt text but only illustrated data samples. Two more prompt texts survive from v1, but those Shuffle tasks were removed from the v2 score set. No exact native datasets or scorer release was located for any of the six.",
+  "source_pins": {
+    "official_website_commit": "398be8e15888515412b714b61b4f28af229627d3",
+    "website_commit_role": "Documentation/public prompt pin only; not the missing native benchmark source revision.",
+    "official_website_repository": "https://github.com/htihle/htihle.github.io",
+    "github_release_count": 0,
+    "last_saved_prompt_change_commit": "82af84f731bb107a9548a392618345ee7fa8ebaf",
+    "last_saved_prompt_change_date": "2025-06-27T13:07:08Z"
+  },
+  "evidence": [
+    {
+      "kind": "author_direct_statement",
+      "url": "https://htihle.github.io/weirdml_v2.html",
+      "local_path": "/private/tmp/agenttime-assets-20261002/weirdml-v2/website/398be8e15888515412b714b61b4f28af229627d3/weirdml_v2.md",
+      "lines": [
+        149,
+        153
+      ],
+      "finding": "The author explicitly withholds details of the 13 additions beyond task names."
+    },
+    {
+      "kind": "direct_benchmark_audit",
+      "url": "https://epoch.ai/benchmarks/weirdml/review",
+      "local_path": "/private/tmp/agenttime-assets-20261002/weirdml-v2/web/epoch-review.html",
+      "sections": [
+        "Task Analysis",
+        "Limitations",
+        "Notes 2 and 3"
+      ],
+      "finding": "Epoch inspected private data. It distinguishes four active disclosed tasks from 13 hidden tasks, notes the two dropped Shuffle tasks, and quantifies the tiny public samples."
+    },
+    {
+      "kind": "agentic_variant_not_public_release",
+      "url": "https://htihle.github.io/agentic_weirdml.html",
+      "local_path": "/private/tmp/agenttime-assets-20261002/weirdml-v2/website/398be8e15888515412b714b61b4f28af229627d3/agentic_weirdml.md",
+      "finding": "The agentic report uses the same 17 tasks and hidden labels. Its inspected links provide no separate dataset/scorer release."
+    },
+    {
+      "kind": "website_tree_and_release_check",
+      "url": "https://github.com/htihle/htihle.github.io/tree/398be8e15888515412b714b61b4f28af229627d3",
+      "local_tree": "/private/tmp/agenttime-assets-20261002/weirdml-v2/discovery/website-pinned-tree.json",
+      "tree_entries": 192,
+      "truncated": false,
+      "reused_tree_receipt": {
+        "source_path": "/private/tmp/agenttime-assets-20261002/weirdml/discovery/website-pinned-tree.json",
+        "sha256": "c6da9ef8291f7f83f52956de0c53532e280c3cbf379bfc1316c3339c6b77b056",
+        "current_HEAD_reconfirmed": true
+      },
+      "finding": "Current public website contains prompts, illustrations and result displays, but no native full-data archive or scorer release."
+    }
+  ],
+  "tasks": [
+    {
+      "published_task_key": "shapes_easy",
+      "display_name": "Shapes (Easy)",
+      "identity_basis": "Exact stem of the official task-prompt file; native registry was not acquired.",
+      "status_in_v2": "active_disclosed",
+      "public_prompt": {
+        "canonical_url": "https://htihle.github.io/prompts/task_prompt_shapes_easy.html",
+        "immutable_url": "https://raw.githubusercontent.com/htihle/htihle.github.io/398be8e15888515412b714b61b4f28af229627d3/prompts/task_prompt_shapes_easy.md",
+        "path": "/private/tmp/agenttime-assets-20261002/weirdml-v2/website/398be8e15888515412b714b61b4f28af229627d3/prompts/task_prompt_shapes_easy.md",
+        "sha256": "89f28f708ce448c7bbb8ce0f1942e434de0ace63b610ce8e686d3ca5380461c4",
+        "website_commit": "398be8e15888515412b714b61b4f28af229627d3",
+        "cached_path": "benchmarks/cache/weirdml-public-prompts-20261002/task_prompt_shapes_easy.md"
+      },
+      "training_examples_in_public_illustration": 8,
+      "described_training_samples": 1000,
+      "sample_count_evidence": "https://epoch.ai/benchmarks/weirdml/review#notes",
+      "required_input_paths_named_by_prompt": [
+        "data/test_data.npy",
+        "data/train_data.npy",
+        "data/train_flags.npy"
+      ],
+      "prompt_explicitly_names_private_test_labels": null,
+      "full_training_and_test_data_located": false,
+      "native_scorer_located": false,
+      "native_environment_definition_located": false,
+      "full_runnable_public_package_verified": false,
+      "remaining_gaps": [
+        "Exact native training and test data, including official preprocessing/splits",
+        "Protected test labels and native scoring implementation",
+        "Native harness/environment and full benchmark source pin",
+        "Explicit benchmark redistribution/use license not found in inspected sources"
+      ]
+    },
+    {
+      "published_task_key": "shapes_hard",
+      "display_name": "Shapes (Hard)",
+      "identity_basis": "Exact stem of the official task-prompt file; native registry was not acquired.",
+      "status_in_v2": "active_disclosed",
+      "public_prompt": {
+        "canonical_url": "https://htihle.github.io/prompts/task_prompt_shapes_hard.html",
+        "immutable_url": "https://raw.githubusercontent.com/htihle/htihle.github.io/398be8e15888515412b714b61b4f28af229627d3/prompts/task_prompt_shapes_hard.md",
+        "path": "/private/tmp/agenttime-assets-20261002/weirdml-v2/website/398be8e15888515412b714b61b4f28af229627d3/prompts/task_prompt_shapes_hard.md",
+        "sha256": "9c8deb0c8e4818cedfee3f126a618edef536f7454cddb6025425266996537796",
+        "website_commit": "398be8e15888515412b714b61b4f28af229627d3",
+        "cached_path": "benchmarks/cache/weirdml-public-prompts-20261002/task_prompt_shapes_hard.md"
+      },
+      "training_examples_in_public_illustration": 8,
+      "described_training_samples": 1000,
+      "sample_count_evidence": "https://epoch.ai/benchmarks/weirdml/review#notes",
+      "required_input_paths_named_by_prompt": [
+        "data/test_data.npy",
+        "data/train_data.npy",
+        "data/train_flags.npy"
+      ],
+      "prompt_explicitly_names_private_test_labels": null,
+      "full_training_and_test_data_located": false,
+      "native_scorer_located": false,
+      "native_environment_definition_located": false,
+      "full_runnable_public_package_verified": false,
+      "remaining_gaps": [
+        "Exact native training and test data, including official preprocessing/splits",
+        "Protected test labels and native scoring implementation",
+        "Native harness/environment and full benchmark source pin",
+        "Explicit benchmark redistribution/use license not found in inspected sources"
+      ]
+    },
+    {
+      "published_task_key": "digits_unsup",
+      "display_name": "Unsupervised Digit Recognition",
+      "identity_basis": "Exact stem of the official task-prompt file; native registry was not acquired.",
+      "status_in_v2": "active_disclosed",
+      "public_prompt": {
+        "canonical_url": "https://htihle.github.io/prompts/task_prompt_digits_unsup.html",
+        "immutable_url": "https://raw.githubusercontent.com/htihle/htihle.github.io/398be8e15888515412b714b61b4f28af229627d3/prompts/task_prompt_digits_unsup.md",
+        "path": "/private/tmp/agenttime-assets-20261002/weirdml-v2/website/398be8e15888515412b714b61b4f28af229627d3/prompts/task_prompt_digits_unsup.md",
+        "sha256": "68c5cb559e4d054965ba85198608e7cb95808c89bcb473bc677ec75777129d35",
+        "website_commit": "398be8e15888515412b714b61b4f28af229627d3",
+        "cached_path": "benchmarks/cache/weirdml-public-prompts-20261002/task_prompt_digits_unsup.md"
+      },
+      "training_examples_in_public_illustration": 6,
+      "described_training_samples": 15962,
+      "sample_count_evidence": "https://epoch.ai/benchmarks/weirdml/review#notes",
+      "required_input_paths_named_by_prompt": [
+        "data/test_data.npy",
+        "data/train_data_labeled.npy",
+        "data/train_data_unlabeled.npy",
+        "data/train_labels.npy"
+      ],
+      "prompt_explicitly_names_private_test_labels": null,
+      "full_training_and_test_data_located": false,
+      "native_scorer_located": false,
+      "native_environment_definition_located": false,
+      "full_runnable_public_package_verified": false,
+      "remaining_gaps": [
+        "Exact native training and test data, including official preprocessing/splits",
+        "Protected test labels and native scoring implementation",
+        "Native harness/environment and full benchmark source pin",
+        "Explicit benchmark redistribution/use license not found in inspected sources"
+      ]
+    },
+    {
+      "published_task_key": "chess_winners",
+      "display_name": "Chess Game Outcome Prediction",
+      "identity_basis": "Exact stem of the official task-prompt file; native registry was not acquired.",
+      "status_in_v2": "active_disclosed",
+      "public_prompt": {
+        "canonical_url": "https://htihle.github.io/prompts/task_prompt_chess_winners.html",
+        "immutable_url": "https://raw.githubusercontent.com/htihle/htihle.github.io/398be8e15888515412b714b61b4f28af229627d3/prompts/task_prompt_chess_winners.md",
+        "path": "/private/tmp/agenttime-assets-20261002/weirdml-v2/website/398be8e15888515412b714b61b4f28af229627d3/prompts/task_prompt_chess_winners.md",
+        "sha256": "207a672ed23ab686661440fd762cfe9090774606860d9d01ef29f0a27a265896",
+        "website_commit": "398be8e15888515412b714b61b4f28af229627d3",
+        "cached_path": "benchmarks/cache/weirdml-public-prompts-20261002/task_prompt_chess_winners.md"
+      },
+      "training_examples_in_public_illustration": 8,
+      "described_training_samples": 1000,
+      "sample_count_evidence": "https://epoch.ai/benchmarks/weirdml/review#notes",
+      "required_input_paths_named_by_prompt": [
+        "data/test_games.txt",
+        "data/train_games.txt",
+        "data/train_labels.npy"
+      ],
+      "prompt_explicitly_names_private_test_labels": "test_labels.npy",
+      "full_training_and_test_data_located": false,
+      "native_scorer_located": false,
+      "native_environment_definition_located": false,
+      "full_runnable_public_package_verified": false,
+      "remaining_gaps": [
+        "Exact native training and test data, including official preprocessing/splits",
+        "Protected test labels and native scoring implementation",
+        "Native harness/environment and full benchmark source pin",
+        "Explicit benchmark redistribution/use license not found in inspected sources"
+      ]
+    },
+    {
+      "published_task_key": "shuffle_easy",
+      "display_name": "Image Patch Shuffling (Easy)",
+      "identity_basis": "Exact stem of the official task-prompt file; native registry was not acquired.",
+      "status_in_v2": "removed_from_active_v2_for_prompt_issues",
+      "public_prompt": {
+        "canonical_url": "https://htihle.github.io/prompts/task_prompt_shuffle_easy.html",
+        "immutable_url": "https://raw.githubusercontent.com/htihle/htihle.github.io/398be8e15888515412b714b61b4f28af229627d3/prompts/task_prompt_shuffle_easy.md",
+        "path": "/private/tmp/agenttime-assets-20261002/weirdml-v2/website/398be8e15888515412b714b61b4f28af229627d3/prompts/task_prompt_shuffle_easy.md",
+        "sha256": "fb628e2dec96cdb60be3c0eff28066a4ace5c1ccb1def2788586f245d685c98c",
+        "website_commit": "398be8e15888515412b714b61b4f28af229627d3",
+        "cached_path": "benchmarks/cache/weirdml-public-prompts-20261002/task_prompt_shuffle_easy.md"
+      },
+      "training_examples_in_public_illustration": 3,
+      "described_training_samples": 1000,
+      "sample_count_evidence": "https://epoch.ai/benchmarks/weirdml/review#notes",
+      "required_input_paths_named_by_prompt": [
+        "data/test_data.npy",
+        "data/train_data.npy",
+        "data/train_labels.npy"
+      ],
+      "prompt_explicitly_names_private_test_labels": null,
+      "full_training_and_test_data_located": false,
+      "native_scorer_located": false,
+      "native_environment_definition_located": false,
+      "full_runnable_public_package_verified": false,
+      "remaining_gaps": [
+        "Exact native training and test data, including official preprocessing/splits",
+        "Protected test labels and native scoring implementation",
+        "Native harness/environment and full benchmark source pin",
+        "Explicit benchmark redistribution/use license not found in inspected sources"
+      ]
+    },
+    {
+      "published_task_key": "shuffle_hard",
+      "display_name": "Image Patch Shuffling (Hard)",
+      "identity_basis": "Exact stem of the official task-prompt file; native registry was not acquired.",
+      "status_in_v2": "removed_from_active_v2_for_prompt_issues",
+      "public_prompt": {
+        "canonical_url": "https://htihle.github.io/prompts/task_prompt_shuffle_hard.html",
+        "immutable_url": "https://raw.githubusercontent.com/htihle/htihle.github.io/398be8e15888515412b714b61b4f28af229627d3/prompts/task_prompt_shuffle_hard.md",
+        "path": "/private/tmp/agenttime-assets-20261002/weirdml-v2/website/398be8e15888515412b714b61b4f28af229627d3/prompts/task_prompt_shuffle_hard.md",
+        "sha256": "c1b86780db196af78df31c81d00919bc0060a28c23c9e98bfab3f7310026a078",
+        "website_commit": "398be8e15888515412b714b61b4f28af229627d3",
+        "cached_path": "benchmarks/cache/weirdml-public-prompts-20261002/task_prompt_shuffle_hard.md"
+      },
+      "training_examples_in_public_illustration": 3,
+      "described_training_samples": 1000,
+      "sample_count_evidence": "https://epoch.ai/benchmarks/weirdml/review#notes",
+      "required_input_paths_named_by_prompt": [
+        "data/test_data.npy",
+        "data/train_data.npy",
+        "data/train_labels.npy"
+      ],
+      "prompt_explicitly_names_private_test_labels": null,
+      "full_training_and_test_data_located": false,
+      "native_scorer_located": false,
+      "native_environment_definition_located": false,
+      "full_runnable_public_package_verified": false,
+      "remaining_gaps": [
+        "Exact native training and test data, including official preprocessing/splits",
+        "Protected test labels and native scoring implementation",
+        "Native harness/environment and full benchmark source pin",
+        "Explicit benchmark redistribution/use license not found in inspected sources"
+      ]
+    }
+  ],
+  "historical_snapshots": [
+    {
+      "snapshot": "v1-early",
+      "website_commit": "108d11ff39e5b09a09b9b9bbca6f22c027a4f984",
+      "tree_url": "https://github.com/htihle/htihle.github.io/tree/108d11ff39e5b09a09b9b9bbca6f22c027a4f984",
+      "tree_path": "/private/tmp/agenttime-assets-20261002/weirdml-v2/history/v1-early-tree.json",
+      "tree_entries": 31,
+      "complete_tree": true,
+      "native_data_or_archive_paths_found": [],
+      "note": "Website content, public prompts and illustrations. No native task-data/scorer distribution appears in this inspected snapshot."
+    },
+    {
+      "snapshot": "v2-release",
+      "website_commit": "06328affbb7e093c691c54a1d75eb9e31221042e",
+      "tree_url": "https://github.com/htihle/htihle.github.io/tree/06328affbb7e093c691c54a1d75eb9e31221042e",
+      "tree_path": "/private/tmp/agenttime-assets-20261002/weirdml-v2/history/v2-release-tree.json",
+      "tree_entries": 45,
+      "complete_tree": true,
+      "native_data_or_archive_paths_found": [],
+      "note": "Website content, public prompts and illustrations. No native task-data/scorer distribution appears in this inspected snapshot."
+    }
+  ],
+  "license_findings": {
+    "benchmark_license": "not_found_in_inspected_public_sources",
+    "website_github_license_metadata": null,
+    "website_license_files": "Only unrelated vendor/icon licenses in the current tree; no repository-wide benchmark/data license.",
+    "adjacent_time_horizons_repository": "MIT applies to the separate analysis repository, not an established license for WeirdML task datasets or scorers.",
+    "epoch_review": "Epoch labels its own review content Creative Commons Attribution; that is not a task-data license."
+  },
+  "best_next_route": {
+    "official_weirdml_route": "Obtain a maintainer-provided or officially published release for at least eight tasks, with exact prompts, full train/test assets, protected scoring data, native scorer/harness, full source pin and license. The author's website is the canonical contact route; no contact was made.",
+    "public_only_route": "Keep the WeirdML allocation unresolved unless an official full release becomes public. If public-only acquisition is mandatory, a separately approved benchmark replacement is needed.",
+    "do_not_substitute": [
+      "Do not count public task names or screenshots as runnable tasks.",
+      "Do not use recreated Fashion-MNIST/Imagenette transformations as the original WeirdML Shuffle tasks.",
+      "Do not combine v3 descriptions with v2 prompts and call it an official eight-task release."
+    ]
+  },
+  "download_summary": {
+    "successful_files": 21,
+    "successful_bytes": 285990,
+    "website_files_git_blob_verified": 11,
+    "native_task_data_files": 0,
+    "native_scorer_files": 0,
+    "network_error_attempts": 8,
+    "error_note": "Seven initial sandbox DNS failures; public fetch succeeded after sandbox network approval. One historical v2 Markdown URL was 404 because that commit uses the filename weridml.md; the complete tree was retained instead."
+  },
+  "download_receipt_path": "/private/tmp/agenttime-assets-20261002/weirdml-v2/download-receipts.json",
+  "verified_website_files": [
+    {
+      "path": "website/398be8e15888515412b714b61b4f28af229627d3/weirdml_v2.md",
+      "repository_path": "weirdml_v2.md",
+      "git_blob_sha1": "45247b73fc43ff066a23738c9896bf8fa2fc2457",
+      "sha256": "832d002c64636e65d71c7dfc03101612d85f0a47ef087d21ef5899914e93c2fd",
+      "bytes": 23653
+    },
+    {
+      "path": "website/398be8e15888515412b714b61b4f28af229627d3/weirdml_v1.md",
+      "repository_path": "weirdml_v1.md",
+      "git_blob_sha1": "b63f63359ba71bbc875cf3f60408aa0a8ce8fca7",
+      "sha256": "1985e935c91a2ef110010e7da76550c1a57ffdb2a9c51e62bd66dd2af77413a7",
+      "bytes": 39678
+    },
+    {
+      "path": "website/398be8e15888515412b714b61b4f28af229627d3/agentic_weirdml.md",
+      "repository_path": "agentic_weirdml.md",
+      "git_blob_sha1": "fbe6d26286fdd67966dfd8ced2388b6983f1632c",
+      "sha256": "a9267e376dfdcc6cae13f40688257b8a6b5d722754095db1ce03dfb13837bb15",
+      "bytes": 6279
+    },
+    {
+      "path": "website/398be8e15888515412b714b61b4f28af229627d3/prompts/system_prompt.md",
+      "repository_path": "prompts/system_prompt.md",
+      "git_blob_sha1": "0cb0cd31fdb3df43a8f2ac548ce701b96e90a770",
+      "sha256": "937a3e234b51653598251393e26d230cdba89ad1760f12648fe646f5d031d899",
+      "bytes": 1783
+    },
+    {
+      "path": "website/398be8e15888515412b714b61b4f28af229627d3/prompts/system_prompt_v2.md",
+      "repository_path": "prompts/system_prompt_v2.md",
+      "git_blob_sha1": "265b0b5216b0aa9baaadab7e10ea57f00258a640",
+      "sha256": "7bff6bf8d9b935bf7cb646e45a5879cbbd643bc74c869a88715f98a2f4454b14",
+      "bytes": 1980
+    },
+    {
+      "path": "website/398be8e15888515412b714b61b4f28af229627d3/prompts/task_prompt_shapes_easy.md",
+      "repository_path": "prompts/task_prompt_shapes_easy.md",
+      "git_blob_sha1": "1b4e51c12ff42e01861ab114628c74dedb162195",
+      "sha256": "89f28f708ce448c7bbb8ce0f1942e434de0ace63b610ce8e686d3ca5380461c4",
+      "bytes": 2033
+    },
+    {
+      "path": "website/398be8e15888515412b714b61b4f28af229627d3/prompts/task_prompt_shapes_hard.md",
+      "repository_path": "prompts/task_prompt_shapes_hard.md",
+      "git_blob_sha1": "e3f55db7036528ce12a680155064dd47025bcea2",
+      "sha256": "9c8deb0c8e4818cedfee3f126a618edef536f7454cddb6025425266996537796",
+      "bytes": 1943
+    },
+    {
+      "path": "website/398be8e15888515412b714b61b4f28af229627d3/prompts/task_prompt_shuffle_easy.md",
+      "repository_path": "prompts/task_prompt_shuffle_easy.md",
+      "git_blob_sha1": "e4738b02e8dec89de110ddce61c1b41ae81d4bbe",
+      "sha256": "fb628e2dec96cdb60be3c0eff28066a4ace5c1ccb1def2788586f245d685c98c",
+      "bytes": 2535
+    },
+    {
+      "path": "website/398be8e15888515412b714b61b4f28af229627d3/prompts/task_prompt_shuffle_hard.md",
+      "repository_path": "prompts/task_prompt_shuffle_hard.md",
+      "git_blob_sha1": "9afa52f8c9fa20ac0e3ac8fff2096921202d8512",
+      "sha256": "c1b86780db196af78df31c81d00919bc0060a28c23c9e98bfab3f7310026a078",
+      "bytes": 2643
+    },
+    {
+      "path": "website/398be8e15888515412b714b61b4f28af229627d3/prompts/task_prompt_digits_unsup.md",
+      "repository_path": "prompts/task_prompt_digits_unsup.md",
+      "git_blob_sha1": "336c1eff9e60915eb98f551e3ba621e5db74e1ce",
+      "sha256": "68c5cb559e4d054965ba85198608e7cb95808c89bcb473bc677ec75777129d35",
+      "bytes": 2392
+    },
+    {
+      "path": "website/398be8e15888515412b714b61b4f28af229627d3/prompts/task_prompt_chess_winners.md",
+      "repository_path": "prompts/task_prompt_chess_winners.md",
+      "git_blob_sha1": "7887b1d75ad6605e55f78aff0fc17f24ead509e7",
+      "sha256": "207a672ed23ab686661440fd762cfe9090774606860d9d01ef29f0a27a265896",
+      "bytes": 2384
+    }
+  ],
+  "work_boundaries": {
+    "shared_repository_writes": false,
+    "benchmark_runs": 0,
+    "model_provider_calls": 0,
+    "upstream_code_executed": false,
+    "private_access": false,
+    "outreach": false,
+    "installs": false,
+    "task_reconstruction": false
+  },
+  "limit": "This is a bounded public-availability finding, not proof that no private package exists. No task has been executed or scientifically qualified.",
+  "original_research_result_sha256": "49fafec84da36b81aa6573c02fcd7f6fbc1c9de2cc621a0d3559eea3099fee2e"
+}

@@ -1,0 +1,67 @@
+{
+  "status": "planning_only_not_launch_qualification",
+  "date": "2026-10-07",
+  "roster": 200,
+  "families": 18,
+  "canonical_forecasts": 200,
+  "natural_contracts": 200,
+  "natural_attempts_started": 0,
+  "natural_launch_ready": false,
+  "user_decisions_this_turn": {
+    "natural_access": "claude_code_subscription_and_api_mix",
+    "keep_existing_subscription_forecasts": true,
+    "new_api_forecasts": false,
+    "both_routes_qualified_and_recorded": true
+  },
+  "unselected": [
+    "task_route_split_and_seed",
+    "API_endpoint_account_and_subscription_handles",
+    "pilot_and_study_budget",
+    "exact_hosts_regions_and_capacity",
+    "Mac_archive_path_and_reserved_capacity",
+    "release_threshold"
+  ],
+  "inputs_sha256": {
+    "configs/canonical-results.json": "65451ff542831ada3d74852ef34c9a3fd0b4d6f22fbb0e9615555968627a7e93",
+    "benchmarks/inventory/tasks.json": "d89208992706eb0bcfaeffdcf64803079cd89e6c591eae50a49b1c91beb7aec1",
+    "runs/natural-opus-5.5-max-preparation-20261007/preparation.json": "d32fa2e6065d6d4275c6df2c937a009559a0a3d8fdfb21a47985a072a9280bc2",
+    "src/agenttime/fixture.py": "441c5cb0072ace35d7d8c12b2e581b372848c8c31712fd72bb412beb1ab72e02",
+    "src/agenttime/harbor_fixture.py": "644acd4285f58dc3abebcbf0b378b66ae8adb75c8d3d9e90049a383055ff34bb",
+    "src/agenttime/ledger.py": "dda0be347bf128c329d1118095966a2b9b0c6e3d4c3a38942841387894cf97a8",
+    "src/agenttime/measurement.py": "bcd2cf0a894fbc35fa4e38c9e9ebfa29135def77081d75105a6940012d421c88",
+    "src/agenttime/evidence.py": "b85a9ae618664d2829199e163db839378c38fc125b8c8bf88872c0daee4a693f",
+    "configs/protocol.json": "739b47ca1276f792df0e8904ab2a7160c510a60b3f9e63ee5b1a182dcf25246d"
+  },
+  "public_document_checks": [
+    {
+      "url": "https://code.claude.com/docs/en/authentication",
+      "finding": "Claude Code has subscription and API authentication; effective credential precedence must be verified on pinned build."
+    },
+    {
+      "url": "https://docs.hetzner.com/cloud/servers/faq/",
+      "finding": "Hetzner Cloud does not support nested virtualization; qualify a dedicated physical desktop host."
+    },
+    {
+      "url": "https://docs.runpod.io/pods/overview",
+      "finding": "GPU Pod docs disallow inner Docker daemon/Compose; qualify the direct container/provider path."
+    }
+  ],
+  "this_turn_actions": {
+    "provider_account_calls": 0,
+    "cloud_resources": 0,
+    "native_task_attempts": 0,
+    "runtime_tests": 0,
+    "evaluated_model_requests": 0
+  },
+  "review": {
+    "codex_companion": "failed_to_start_local_sqlite_permissions",
+    "fallback": "independent_read_only_review",
+    "initial_verdict": "REVISE",
+    "finding": "P2 recovery qualification must precede release",
+    "resolution": "Gate 2 now requires typed failure and stop evidence, fenced same-session continuation without replay, preserved interruption time, and durable single replacement bound to frozen route across claims and restarts.",
+    "rereview_verdict": "APPROVED",
+    "approval_scope": "plan_only_not_runtime_or_launch",
+    "revision_rounds": 1
+  },
+  "source_fixtures_reexecuted": false
+}

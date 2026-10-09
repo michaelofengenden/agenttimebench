@@ -1,0 +1,30 @@
+{
+  "variant": "retry_zero",
+  "case": "/private/tmp/agenttime-forecast-context-probe-20261006-_67q7h_v/retry_zero-9g7t_m4y",
+  "exit_code": 1,
+  "message_requests": 1,
+  "request_paths": [
+    "/v1/messages?beta=true"
+  ],
+  "tools": [],
+  "effort": {
+    "effort": "max"
+  },
+  "model": "claude-opus-5-5",
+  "version": "2.1.280",
+  "images_received": 1,
+  "image_bytes_identical": true,
+  "native_transcripts_saved": 1,
+  "raw_body_files": [
+    "87d1b6f4-b015-4585-89ca-fd3edb8e2017.request.json"
+  ],
+  "socket_listening_lines": [
+    "2026-10-06T11:31:31.197Z [INFO] [uds-messaging] Listening: /private/tmp/afq-lkwspxun/xdg/cc-socks/55822.sock"
+  ],
+  "result_subtype": "success",
+  "result_is_error": true,
+  "result_errors": null,
+  "stderr_tail": "",
+  "environment_note_present": true,
+  "token_budget_reminder_present": false
+}

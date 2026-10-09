@@ -1,0 +1,792 @@
+{
+  "cache_root": "/Users/michaelofengenden/Developer/TimeResearch/AgentTime-v1.1/benchmarks/cache/code-assets-20261002",
+  "counts": {
+    "deepswe_checkouts": 14,
+    "deepswe_pinned_submodules": 1,
+    "payload_bytes": 484234393,
+    "payload_files_and_symlinks": 13309,
+    "programbench_cleanroom_packages": 10,
+    "programbench_documentation_asset_files": 448,
+    "programbench_reference_executables": 10
+  },
+  "receipt_path": "/Users/michaelofengenden/Developer/TimeResearch/AgentTime-v1.1/benchmarks/cache/code-assets-20261002/receipt.json",
+  "receipt_sha256": "2cc8ce3823d05869908f780f4c7cc5867abcd9c10d654fc4422aa3568e7fb4c3",
+  "rows": [
+    {
+      "assets": [
+        {
+          "bytes": 369816,
+          "commit": "dd05eebc8ed9e30fc6c223088a5a450cb54c1cab",
+          "file_count": 80,
+          "files_manifest_path": "/Users/michaelofengenden/Developer/TimeResearch/AgentTime-v1.1/benchmarks/cache/code-assets-20261002/deepswe/tomlkit-toml-table-converters/files.json",
+          "files_manifest_sha256": "3bc94ca6f168c9625c6d4474da7a6f1451a2c8d893f93dc66b118166029e0bec",
+          "git_tree_sha1": "0e4f4fc48c4484707016adc940b19537d76ffdb8",
+          "kind": "pinned_repository_checkout",
+          "path": "/Users/michaelofengenden/Developer/TimeResearch/AgentTime-v1.1/benchmarks/cache/code-assets-20261002/deepswe/tomlkit-toml-table-converters/repository"
+        }
+      ],
+      "candidate_id": "tomlkit-toml-table-converters",
+      "family_id": "deepswe",
+      "gaps": [
+        "Native image digests and installed system/language dependencies remain unverified; no Docker environments or builds were started.",
+        "The source-only checkout has one shallow pinned commit on source-base. Native default-branch and ancestor-history behavior require environment preparation.",
+        "Native grader controls, agent isolation, effective timer policy and runtime qualification remain pending."
+      ],
+      "receipt_path": "/Users/michaelofengenden/Developer/TimeResearch/AgentTime-v1.1/benchmarks/cache/code-assets-20261002/deepswe/tomlkit-toml-table-converters/receipt.json",
+      "receipt_sha256": "4964151a408bb50565b9e4df4840bc12b3fe712a35ea4fbeea43d36bc56ec74e",
+      "runtime_qualified": false,
+      "slot_id": "deepswe-01",
+      "status": "source_checkout_acquired",
+      "submodules": [
+        {
+          "acquired": true,
+          "commit": "08ed8697864548b3cdb4b8decbf496bef47e1c82",
+          "path": "tests/toml-test",
+          "receipt_path": "/Users/michaelofengenden/Developer/TimeResearch/AgentTime-v1.1/benchmarks/cache/code-assets-20261002/deepswe/tomlkit-toml-table-converters/submodule-receipt.json",
+          "receipt_sha256": "a306eef17ef6062804b43035525b041ef579a2afb9354d88aec2bcf2e8f58ebf"
+        }
+      ]
+    },
+    {
+      "assets": [
+        {
+          "bytes": 27742074,
+          "commit": "8b25b26a7653d9c7444f217a7f2ae9b327bda921",
+          "file_count": 1576,
+          "files_manifest_path": "/Users/michaelofengenden/Developer/TimeResearch/AgentTime-v1.1/benchmarks/cache/code-assets-20261002/deepswe/prometheus-typed-label-sorting/files.json",
+          "files_manifest_sha256": "5320e77afa145e167a7728e38eabffb9c30ff66b69cf87ce652e8f9dbd1dbd75",
+          "git_tree_sha1": "154313293f60314039477510aec9bc7075c3ce65",
+          "kind": "pinned_repository_checkout",
+          "path": "/Users/michaelofengenden/Developer/TimeResearch/AgentTime-v1.1/benchmarks/cache/code-assets-20261002/deepswe/prometheus-typed-label-sorting/repository"
+        }
+      ],
+      "candidate_id": "prometheus-typed-label-sorting",
+      "family_id": "deepswe",
+      "gaps": [
+        "Native image digests and installed system/language dependencies remain unverified; no Docker environments or builds were started.",
+        "The source-only checkout has one shallow pinned commit on source-base. Native default-branch and ancestor-history behavior require environment preparation.",
+        "Native grader controls, agent isolation, effective timer policy and runtime qualification remain pending."
+      ],
+      "receipt_path": "/Users/michaelofengenden/Developer/TimeResearch/AgentTime-v1.1/benchmarks/cache/code-assets-20261002/deepswe/prometheus-typed-label-sorting/receipt.json",
+      "receipt_sha256": "88f333a8691f5ec1f2670b3d566d9614f3839114c94a634750def8678f8d99e5",
+      "runtime_qualified": false,
+      "slot_id": "deepswe-02",
+      "status": "source_checkout_acquired",
+      "submodules": []
+    },
+    {
+      "assets": [
+        {
+          "bytes": 882783,
+          "commit": "3cad0da7a51b1206c6f01e3f4fbb44b976d5275c",
+          "file_count": 119,
+          "files_manifest_path": "/Users/michaelofengenden/Developer/TimeResearch/AgentTime-v1.1/benchmarks/cache/code-assets-20261002/deepswe/tengo-callable-instance-isolation/files.json",
+          "files_manifest_sha256": "51df3fc188d68b56f1339a2c7531527b73942db7a25534aced61ff47017d0dd1",
+          "git_tree_sha1": "a8c6a82ceb4186b06c83b26a3a505bc5488c8063",
+          "kind": "pinned_repository_checkout",
+          "path": "/Users/michaelofengenden/Developer/TimeResearch/AgentTime-v1.1/benchmarks/cache/code-assets-20261002/deepswe/tengo-callable-instance-isolation/repository"
+        }
+      ],
+      "candidate_id": "tengo-callable-instance-isolation",
+      "family_id": "deepswe",
+      "gaps": [
+        "Native image digests and installed system/language dependencies remain unverified; no Docker environments or builds were started.",
+        "The source-only checkout has one shallow pinned commit on source-base. Native default-branch and ancestor-history behavior require environment preparation.",
+        "Native grader controls, agent isolation, effective timer policy and runtime qualification remain pending."
+      ],
+      "receipt_path": "/Users/michaelofengenden/Developer/TimeResearch/AgentTime-v1.1/benchmarks/cache/code-assets-20261002/deepswe/tengo-callable-instance-isolation/receipt.json",
+      "receipt_sha256": "1e9e24ba47ccb5fdfbbce868f3515cc3e7c726a9556cb16d3cf47e56b5f7b896",
+      "runtime_qualified": false,
+      "slot_id": "deepswe-03",
+      "status": "source_checkout_acquired",
+      "submodules": []
+    },
+    {
+      "assets": [
+        {
+          "bytes": 900939,
+          "commit": "c981f9c7aa91b83cc9bd33a09ecee9e751b06e8d",
+          "file_count": 92,
+          "files_manifest_path": "/Users/michaelofengenden/Developer/TimeResearch/AgentTime-v1.1/benchmarks/cache/code-assets-20261002/deepswe/dateutil-rfc5545-timezone-interop/files.json",
+          "files_manifest_sha256": "2d59a3107e63de51fd0248e8e848f806aa01cdb503625941ad4b61e3f5ecb7a7",
+          "git_tree_sha1": "392eba1d2f7e0c6238d3d9246a6b48da7268cf24",
+          "kind": "pinned_repository_checkout",
+          "path": "/Users/michaelofengenden/Developer/TimeResearch/AgentTime-v1.1/benchmarks/cache/code-assets-20261002/deepswe/dateutil-rfc5545-timezone-interop/repository"
+        }
+      ],
+      "candidate_id": "dateutil-rfc5545-timezone-interop",
+      "family_id": "deepswe",
+      "gaps": [
+        "Native image digests and installed system/language dependencies remain unverified; no Docker environments or builds were started.",
+        "The source-only checkout has one shallow pinned commit on source-base. Native default-branch and ancestor-history behavior require environment preparation.",
+        "Native grader controls, agent isolation, effective timer policy and runtime qualification remain pending.",
+        "Dockerfile obtains dateutil-zoneinfo.tar.gz using an unversioned PyPI download. That extra zoneinfo tarball is absent and its exact upstream version/hash must be resolved before native environment equivalence can be claimed."
+      ],
+      "receipt_path": "/Users/michaelofengenden/Developer/TimeResearch/AgentTime-v1.1/benchmarks/cache/code-assets-20261002/deepswe/dateutil-rfc5545-timezone-interop/receipt.json",
+      "receipt_sha256": "27049455fde9aa1cf75ef227df339a3e60d42ee9f33bb1ef281551be4a9d989a",
+      "runtime_qualified": false,
+      "slot_id": "deepswe-04",
+      "status": "source_checkout_acquired",
+      "submodules": []
+    },
+    {
+      "assets": [
+        {
+          "bytes": 7481778,
+          "commit": "0bb317d10fdcb3aa13beb1031d5f10e5b821203b",
+          "file_count": 473,
+          "files_manifest_path": "/Users/michaelofengenden/Developer/TimeResearch/AgentTime-v1.1/benchmarks/cache/code-assets-20261002/deepswe/ipython-session-bundle-replay/files.json",
+          "files_manifest_sha256": "e411a2ad4abd294e15ac4ba9b984f71be63eacf8b8d4c15a1ac071be1f81f444",
+          "git_tree_sha1": "e7eb957d4cf91a7dca8519c76a74e89bd7f1aa8b",
+          "kind": "pinned_repository_checkout",
+          "path": "/Users/michaelofengenden/Developer/TimeResearch/AgentTime-v1.1/benchmarks/cache/code-assets-20261002/deepswe/ipython-session-bundle-replay/repository"
+        }
+      ],
+      "candidate_id": "ipython-session-bundle-replay",
+      "family_id": "deepswe",
+      "gaps": [
+        "Native image digests and installed system/language dependencies remain unverified; no Docker environments or builds were started.",
+        "The source-only checkout has one shallow pinned commit on source-base. Native default-branch and ancestor-history behavior require environment preparation.",
+        "Native grader controls, agent isolation, effective timer policy and runtime qualification remain pending."
+      ],
+      "receipt_path": "/Users/michaelofengenden/Developer/TimeResearch/AgentTime-v1.1/benchmarks/cache/code-assets-20261002/deepswe/ipython-session-bundle-replay/receipt.json",
+      "receipt_sha256": "665eb66742df8a738bccc3c889a9371e3693bf65f684fb202618401c0d307407",
+      "runtime_qualified": false,
+      "slot_id": "deepswe-05",
+      "status": "source_checkout_acquired",
+      "submodules": []
+    },
+    {
+      "assets": [
+        {
+          "bytes": 2164700,
+          "commit": "8d17ba9f6ba8420cf05fddb94013bc221ed9a222",
+          "file_count": 527,
+          "files_manifest_path": "/Users/michaelofengenden/Developer/TimeResearch/AgentTime-v1.1/benchmarks/cache/code-assets-20261002/deepswe/python-statemachine-state-data-scoping/files.json",
+          "files_manifest_sha256": "0429ef055e761dac7a3cb7f7ccc6bc8d5cffe74e1bff682846009823db73d736",
+          "git_tree_sha1": "754e1a52f3fe28c83eb4f2b3d1b1734786de9a56",
+          "kind": "pinned_repository_checkout",
+          "path": "/Users/michaelofengenden/Developer/TimeResearch/AgentTime-v1.1/benchmarks/cache/code-assets-20261002/deepswe/python-statemachine-state-data-scoping/repository"
+        }
+      ],
+      "candidate_id": "python-statemachine-state-data-scoping",
+      "family_id": "deepswe",
+      "gaps": [
+        "Native image digests and installed system/language dependencies remain unverified; no Docker environments or builds were started.",
+        "The source-only checkout has one shallow pinned commit on source-base. Native default-branch and ancestor-history behavior require environment preparation.",
+        "Native grader controls, agent isolation, effective timer policy and runtime qualification remain pending."
+      ],
+      "receipt_path": "/Users/michaelofengenden/Developer/TimeResearch/AgentTime-v1.1/benchmarks/cache/code-assets-20261002/deepswe/python-statemachine-state-data-scoping/receipt.json",
+      "receipt_sha256": "4dc8c13d08095223297c7a4e6698098b4f77c6748d5550ad9ec72d6f385c91b0",
+      "runtime_qualified": false,
+      "slot_id": "deepswe-06",
+      "status": "source_checkout_acquired",
+      "submodules": []
+    },
+    {
+      "assets": [
+        {
+          "bytes": 2062506,
+          "commit": "1fd7fab851ecc975e008be0e3e279568ce4e2b51",
+          "file_count": 604,
+          "files_manifest_path": "/Users/michaelofengenden/Developer/TimeResearch/AgentTime-v1.1/benchmarks/cache/code-assets-20261002/deepswe/oxvg-structural-selector-preservation/files.json",
+          "files_manifest_sha256": "5aa5a2ee542c24c27d7f1927208bd358f27641293d81c875d5d1cd3123f34fab",
+          "git_tree_sha1": "575fa4f3ff89639d6a331d0dd4ea0c35f9ff9550",
+          "kind": "pinned_repository_checkout",
+          "path": "/Users/michaelofengenden/Developer/TimeResearch/AgentTime-v1.1/benchmarks/cache/code-assets-20261002/deepswe/oxvg-structural-selector-preservation/repository"
+        }
+      ],
+      "candidate_id": "oxvg-structural-selector-preservation",
+      "family_id": "deepswe",
+      "gaps": [
+        "Native image digests and installed system/language dependencies remain unverified; no Docker environments or builds were started.",
+        "The source-only checkout has one shallow pinned commit on source-base. Native default-branch and ancestor-history behavior require environment preparation.",
+        "Native grader controls, agent isolation, effective timer policy and runtime qualification remain pending."
+      ],
+      "receipt_path": "/Users/michaelofengenden/Developer/TimeResearch/AgentTime-v1.1/benchmarks/cache/code-assets-20261002/deepswe/oxvg-structural-selector-preservation/receipt.json",
+      "receipt_sha256": "0bf3a91464a8eeed61970a228e290380d155fe62f8bfde6fff0e596fc0daf8c4",
+      "runtime_qualified": false,
+      "slot_id": "deepswe-07",
+      "status": "source_checkout_acquired",
+      "submodules": []
+    },
+    {
+      "assets": [
+        {
+          "bytes": 26046508,
+          "commit": "70409a5052984325dccfdc5f6520818568a81f39",
+          "file_count": 951,
+          "files_manifest_path": "/Users/michaelofengenden/Developer/TimeResearch/AgentTime-v1.1/benchmarks/cache/code-assets-20261002/deepswe/boa-hierarchical-evaluation-cancellation/files.json",
+          "files_manifest_sha256": "0e9c45d4e79796c18bc8e60b782aeb4236a1d9696cbe98728effcc4cc98c4639",
+          "git_tree_sha1": "81f0b656f63a09bf00db62a3c711b20c29f367e4",
+          "kind": "pinned_repository_checkout",
+          "path": "/Users/michaelofengenden/Developer/TimeResearch/AgentTime-v1.1/benchmarks/cache/code-assets-20261002/deepswe/boa-hierarchical-evaluation-cancellation/repository"
+        }
+      ],
+      "candidate_id": "boa-hierarchical-evaluation-cancellation",
+      "family_id": "deepswe",
+      "gaps": [
+        "Native image digests and installed system/language dependencies remain unverified; no Docker environments or builds were started.",
+        "The source-only checkout has one shallow pinned commit on source-base. Native default-branch and ancestor-history behavior require environment preparation.",
+        "Native grader controls, agent isolation, effective timer policy and runtime qualification remain pending."
+      ],
+      "receipt_path": "/Users/michaelofengenden/Developer/TimeResearch/AgentTime-v1.1/benchmarks/cache/code-assets-20261002/deepswe/boa-hierarchical-evaluation-cancellation/receipt.json",
+      "receipt_sha256": "e30fa2cbed4369916648fe7520de1656fa088f41ce1ff93bf5c89b56e8a88fa1",
+      "runtime_qualified": false,
+      "slot_id": "deepswe-08",
+      "status": "source_checkout_acquired",
+      "submodules": []
+    },
+    {
+      "assets": [
+        {
+          "bytes": 32595247,
+          "commit": "647e6ade3b99523e3a0387a65fccfe918c331236",
+          "file_count": 2838,
+          "files_manifest_path": "/Users/michaelofengenden/Developer/TimeResearch/AgentTime-v1.1/benchmarks/cache/code-assets-20261002/deepswe/vitest-duration-sharding/files.json",
+          "files_manifest_sha256": "c09cf42b2eff41919f04525545427e18e5ae2524cd5bd5897fea0be392890bd7",
+          "git_tree_sha1": "82df44ff37a84f98f52ab9efb3a15596829588a8",
+          "kind": "pinned_repository_checkout",
+          "path": "/Users/michaelofengenden/Developer/TimeResearch/AgentTime-v1.1/benchmarks/cache/code-assets-20261002/deepswe/vitest-duration-sharding/repository"
+        }
+      ],
+      "candidate_id": "vitest-duration-sharding",
+      "family_id": "deepswe",
+      "gaps": [
+        "Native image digests and installed system/language dependencies remain unverified; no Docker environments or builds were started.",
+        "The source-only checkout has one shallow pinned commit on source-base. Native default-branch and ancestor-history behavior require environment preparation.",
+        "Native grader controls, agent isolation, effective timer policy and runtime qualification remain pending."
+      ],
+      "receipt_path": "/Users/michaelofengenden/Developer/TimeResearch/AgentTime-v1.1/benchmarks/cache/code-assets-20261002/deepswe/vitest-duration-sharding/receipt.json",
+      "receipt_sha256": "25d86cad4ffd68823cc7eea95263147d132b56c2745f0e6793a4f388b0605c74",
+      "runtime_qualified": false,
+      "slot_id": "deepswe-09",
+      "status": "source_checkout_acquired",
+      "submodules": []
+    },
+    {
+      "assets": [
+        {
+          "bytes": 4948147,
+          "commit": "04355e8b26d1ad5264ef62314a2bc46c4de58ed8",
+          "file_count": 567,
+          "files_manifest_path": "/Users/michaelofengenden/Developer/TimeResearch/AgentTime-v1.1/benchmarks/cache/code-assets-20261002/deepswe/arktype-json-schema-refs-dependencies/files.json",
+          "files_manifest_sha256": "04f462f8eb8ee3874ed630440cb61314159f09625caf7a646554b0a133171dcb",
+          "git_tree_sha1": "3bd9364f7cc3f20df10204e1f2427104dbdb6ccc",
+          "kind": "pinned_repository_checkout",
+          "path": "/Users/michaelofengenden/Developer/TimeResearch/AgentTime-v1.1/benchmarks/cache/code-assets-20261002/deepswe/arktype-json-schema-refs-dependencies/repository"
+        }
+      ],
+      "candidate_id": "arktype-json-schema-refs-dependencies",
+      "family_id": "deepswe",
+      "gaps": [
+        "Native image digests and installed system/language dependencies remain unverified; no Docker environments or builds were started.",
+        "The source-only checkout has one shallow pinned commit on source-base. Native default-branch and ancestor-history behavior require environment preparation.",
+        "Native grader controls, agent isolation, effective timer policy and runtime qualification remain pending."
+      ],
+      "receipt_path": "/Users/michaelofengenden/Developer/TimeResearch/AgentTime-v1.1/benchmarks/cache/code-assets-20261002/deepswe/arktype-json-schema-refs-dependencies/receipt.json",
+      "receipt_sha256": "076f69ec57c9f4abcbad820d99b622646f8a59f6d28ce7b21cef4c8edb07eca1",
+      "runtime_qualified": false,
+      "slot_id": "deepswe-10",
+      "status": "source_checkout_acquired",
+      "submodules": []
+    },
+    {
+      "assets": [
+        {
+          "bytes": 27648993,
+          "commit": "9245bc59ebfa688e8c92dd691296ee69d0815e59",
+          "file_count": 2213,
+          "files_manifest_path": "/Users/michaelofengenden/Developer/TimeResearch/AgentTime-v1.1/benchmarks/cache/code-assets-20261002/deepswe/effect-sse-httpapi-streaming/files.json",
+          "files_manifest_sha256": "f4e56cf5597e4512e43a79e89f75e8a14aeeba78e699cc364a587c7c5c7f9abf",
+          "git_tree_sha1": "f0370e03d1cc9a8c86670a7e917556f7d725259c",
+          "kind": "pinned_repository_checkout",
+          "path": "/Users/michaelofengenden/Developer/TimeResearch/AgentTime-v1.1/benchmarks/cache/code-assets-20261002/deepswe/effect-sse-httpapi-streaming/repository"
+        }
+      ],
+      "candidate_id": "effect-sse-httpapi-streaming",
+      "family_id": "deepswe",
+      "gaps": [
+        "Native image digests and installed system/language dependencies remain unverified; no Docker environments or builds were started.",
+        "The source-only checkout has one shallow pinned commit on source-base. Native default-branch and ancestor-history behavior require environment preparation.",
+        "Native grader controls, agent isolation, effective timer policy and runtime qualification remain pending."
+      ],
+      "receipt_path": "/Users/michaelofengenden/Developer/TimeResearch/AgentTime-v1.1/benchmarks/cache/code-assets-20261002/deepswe/effect-sse-httpapi-streaming/receipt.json",
+      "receipt_sha256": "5e734f108b55a47cd68817f49e6f9ac165fa7fde4eb3f5c4a56138d1cebe1f2f",
+      "runtime_qualified": false,
+      "slot_id": "deepswe-11",
+      "status": "source_checkout_acquired",
+      "submodules": []
+    },
+    {
+      "assets": [
+        {
+          "bytes": 28846304,
+          "commit": "89bede495dc2c85e1c57ba627a18526f71d57396",
+          "file_count": 705,
+          "files_manifest_path": "/Users/michaelofengenden/Developer/TimeResearch/AgentTime-v1.1/benchmarks/cache/code-assets-20261002/deepswe/katex-multicolumn-array-spans/files.json",
+          "files_manifest_sha256": "b6c0a2413283c66bd9e243107ab123c1d760e40a3dfedf176802af65badec299",
+          "git_tree_sha1": "9d0cb9f80bd82b695af73597e573c6ff40550b5b",
+          "kind": "pinned_repository_checkout",
+          "path": "/Users/michaelofengenden/Developer/TimeResearch/AgentTime-v1.1/benchmarks/cache/code-assets-20261002/deepswe/katex-multicolumn-array-spans/repository"
+        }
+      ],
+      "candidate_id": "katex-multicolumn-array-spans",
+      "family_id": "deepswe",
+      "gaps": [
+        "Native image digests and installed system/language dependencies remain unverified; no Docker environments or builds were started.",
+        "The source-only checkout has one shallow pinned commit on source-base. Native default-branch and ancestor-history behavior require environment preparation.",
+        "Native grader controls, agent isolation, effective timer policy and runtime qualification remain pending."
+      ],
+      "receipt_path": "/Users/michaelofengenden/Developer/TimeResearch/AgentTime-v1.1/benchmarks/cache/code-assets-20261002/deepswe/katex-multicolumn-array-spans/receipt.json",
+      "receipt_sha256": "7ab888d063c6d8c93805c5c9d7ec274a33ee3f0c020880ad34b1d7a643729411",
+      "runtime_qualified": false,
+      "slot_id": "deepswe-12",
+      "status": "source_checkout_acquired",
+      "submodules": []
+    },
+    {
+      "assets": [
+        {
+          "bytes": 2832678,
+          "commit": "424e9964d3a33c6507a77c126841f2c5897262af",
+          "file_count": 552,
+          "files_manifest_path": "/Users/michaelofengenden/Developer/TimeResearch/AgentTime-v1.1/benchmarks/cache/code-assets-20261002/deepswe/go-git-worktree-merge-conflicts/files.json",
+          "files_manifest_sha256": "94603b69e9aee593747bbf14848180e3d6c974470eaa67f43114867a02737ccc",
+          "git_tree_sha1": "1e18f6031a2287ae0be2ff523eb264b35357c341",
+          "kind": "pinned_repository_checkout",
+          "path": "/Users/michaelofengenden/Developer/TimeResearch/AgentTime-v1.1/benchmarks/cache/code-assets-20261002/deepswe/go-git-worktree-merge-conflicts/repository"
+        }
+      ],
+      "candidate_id": "go-git-worktree-merge-conflicts",
+      "family_id": "deepswe",
+      "gaps": [
+        "Native image digests and installed system/language dependencies remain unverified; no Docker environments or builds were started.",
+        "The source-only checkout has one shallow pinned commit on source-base. Native default-branch and ancestor-history behavior require environment preparation.",
+        "Native grader controls, agent isolation, effective timer policy and runtime qualification remain pending."
+      ],
+      "receipt_path": "/Users/michaelofengenden/Developer/TimeResearch/AgentTime-v1.1/benchmarks/cache/code-assets-20261002/deepswe/go-git-worktree-merge-conflicts/receipt.json",
+      "receipt_sha256": "32c3802da344ae5968b16ba7de0ea70830fab59fff3b24bae4f0691472e547ec",
+      "runtime_qualified": false,
+      "slot_id": "deepswe-13",
+      "status": "source_checkout_acquired",
+      "submodules": []
+    },
+    {
+      "assets": [
+        {
+          "bytes": 880553,
+          "commit": "7795050a749bd1111cbbdd9d0219b27226a8e710",
+          "file_count": 72,
+          "files_manifest_path": "/Users/michaelofengenden/Developer/TimeResearch/AgentTime-v1.1/benchmarks/cache/code-assets-20261002/deepswe/yjs-map-conflict-detection/files.json",
+          "files_manifest_sha256": "87de14f4e0f5ccd7664dc17f2c0917174a5c88dcfbc09b680e4726dfaeeca369",
+          "git_tree_sha1": "edc28992f496811ea3d26dce9a799dbb6e9f7ba0",
+          "kind": "pinned_repository_checkout",
+          "path": "/Users/michaelofengenden/Developer/TimeResearch/AgentTime-v1.1/benchmarks/cache/code-assets-20261002/deepswe/yjs-map-conflict-detection/repository"
+        }
+      ],
+      "candidate_id": "yjs-map-conflict-detection",
+      "family_id": "deepswe",
+      "gaps": [
+        "Native image digests and installed system/language dependencies remain unverified; no Docker environments or builds were started.",
+        "The source-only checkout has one shallow pinned commit on source-base. Native default-branch and ancestor-history behavior require environment preparation.",
+        "Native grader controls, agent isolation, effective timer policy and runtime qualification remain pending."
+      ],
+      "receipt_path": "/Users/michaelofengenden/Developer/TimeResearch/AgentTime-v1.1/benchmarks/cache/code-assets-20261002/deepswe/yjs-map-conflict-detection/receipt.json",
+      "receipt_sha256": "2f74c1b97f1596a6a0e77ac39dc330507267ba3a980037bd057cbc39fe104149",
+      "runtime_qualified": false,
+      "slot_id": "deepswe-14",
+      "status": "source_checkout_acquired",
+      "submodules": []
+    },
+    {
+      "assets": [
+        {
+          "bytes": 22286,
+          "file_count": 2,
+          "files_manifest_path": "/Users/michaelofengenden/Developer/TimeResearch/AgentTime-v1.1/benchmarks/cache/code-assets-20261002/programbench/doxygen__doxygen.966d98e/task/files.json",
+          "files_manifest_sha256": "a66b3c50bd301fc24340b459b8d25b97bff23ec427c16b750b0ef63db3b0fa0d",
+          "kind": "subject_cleanroom_documentation_and_assets",
+          "path": "/Users/michaelofengenden/Developer/TimeResearch/AgentTime-v1.1/benchmarks/cache/code-assets-20261002/programbench/doxygen__doxygen.966d98e/task/workspace"
+        },
+        {
+          "bytes": 33759328,
+          "kind": "reference_executable",
+          "path": "/Users/michaelofengenden/Developer/TimeResearch/AgentTime-v1.1/benchmarks/cache/code-assets-20261002/programbench/doxygen__doxygen.966d98e/task/reference/executable",
+          "sha256": "d780ed25c019e88081880b0439592ce27166c11cf49457dea2b47aa573c370cb"
+        },
+        {
+          "kind": "inherited_original_instruction",
+          "path": "/Users/michaelofengenden/Developer/TimeResearch/AgentTime-v1.1/benchmarks/cache/code-assets-20261002/programbench/doxygen__doxygen.966d98e/task/instruction.md",
+          "sha256": "cfe75221771816ce522ed491fdea71b6042af5afbdd33bcf171199102fb180ca",
+          "status": "inherited_identical_native_capture_needs_natural_prompt_review"
+        }
+      ],
+      "candidate_id": "doxygen__doxygen.966d98e",
+      "caveats": [],
+      "family_id": "program",
+      "gaps": [
+        "Full native image and system dependencies are not installed; ELF execution and native evaluator controls remain unqualified.",
+        "Inherited original prompt was byte-verified across the eight retained packages, but fresh native prompt rendering and untimed natural-prompt review remain pending."
+      ],
+      "image_content_id": "sha256:38231edf3f9831130cc05f09d7e0aec140a16e2a74cae591447f569a60f13e08",
+      "image_repo_digest": "programbench/doxygen_1776_doxygen.966d98e@sha256:7ec0b0c9f21162c746b6cc835faf56ec7aef1a180fc03538af517e44b2e0d3f6",
+      "receipt_path": "/Users/michaelofengenden/Developer/TimeResearch/AgentTime-v1.1/benchmarks/cache/code-assets-20261002/programbench/doxygen__doxygen.966d98e/task/materialization-receipt.json",
+      "receipt_sha256": "1e6f4c74fe71dce664968f1c0c6f29e1ea09a48e1f3b79b4ff01ea322363d147",
+      "runtime_qualified": false,
+      "slot_id": "program-09",
+      "status": "cleanroom_assets_acquired"
+    },
+    {
+      "assets": [
+        {
+          "bytes": 7856,
+          "file_count": 3,
+          "files_manifest_path": "/Users/michaelofengenden/Developer/TimeResearch/AgentTime-v1.1/benchmarks/cache/code-assets-20261002/programbench/johnkerl__miller.8d85b46/task/files.json",
+          "files_manifest_sha256": "e283c182ce54c2e6e34f7907ae925ca5c3efd67a50cf3f91f7ca7dde1791c444",
+          "kind": "subject_cleanroom_documentation_and_assets",
+          "path": "/Users/michaelofengenden/Developer/TimeResearch/AgentTime-v1.1/benchmarks/cache/code-assets-20261002/programbench/johnkerl__miller.8d85b46/task/workspace"
+        },
+        {
+          "bytes": 41488417,
+          "kind": "reference_executable",
+          "path": "/Users/michaelofengenden/Developer/TimeResearch/AgentTime-v1.1/benchmarks/cache/code-assets-20261002/programbench/johnkerl__miller.8d85b46/task/reference/executable",
+          "sha256": "7a24fde3033e335fac36179a2cda38dff6f6223e9021fc1cdde044b832a62671"
+        },
+        {
+          "kind": "inherited_original_instruction",
+          "path": "/Users/michaelofengenden/Developer/TimeResearch/AgentTime-v1.1/benchmarks/cache/code-assets-20261002/programbench/johnkerl__miller.8d85b46/task/instruction.md",
+          "sha256": "cfe75221771816ce522ed491fdea71b6042af5afbdd33bcf171199102fb180ca",
+          "status": "inherited_identical_native_capture_needs_natural_prompt_review"
+        }
+      ],
+      "candidate_id": "johnkerl__miller.8d85b46",
+      "caveats": [],
+      "family_id": "program",
+      "gaps": [
+        "Full native image and system dependencies are not installed; ELF execution and native evaluator controls remain unqualified.",
+        "Inherited original prompt was byte-verified across the eight retained packages, but fresh native prompt rendering and untimed natural-prompt review remain pending."
+      ],
+      "image_content_id": "sha256:9fce7aec4ed7e1fbad1a6a76db742b1a756e8edbb7af12931a3c55b8d2489564",
+      "image_repo_digest": "programbench/johnkerl_1776_miller.8d85b46@sha256:47c73e10ad340a2dc260b15318083aa8352ac565cc4d66740e75b53ede109484",
+      "receipt_path": "/Users/michaelofengenden/Developer/TimeResearch/AgentTime-v1.1/benchmarks/cache/code-assets-20261002/programbench/johnkerl__miller.8d85b46/task/materialization-receipt.json",
+      "receipt_sha256": "cb32180ee237969fd1b750e66ba3cd2f3cd02d59e981c4cadd24a4b6e4a18e3f",
+      "runtime_qualified": false,
+      "slot_id": "program-10",
+      "status": "cleanroom_assets_acquired"
+    },
+    {
+      "assets": [
+        {
+          "bytes": 681433,
+          "file_count": 7,
+          "files_manifest_path": "/Users/michaelofengenden/Developer/TimeResearch/AgentTime-v1.1/benchmarks/cache/code-assets-20261002/programbench/paradigmxyz__solar.5190d0e/task/files.json",
+          "files_manifest_sha256": "0b7e731709405f4f708e99d75a7ba173a29f375fb6e94890fbcbde7214f111b3",
+          "kind": "subject_cleanroom_documentation_and_assets",
+          "path": "/Users/michaelofengenden/Developer/TimeResearch/AgentTime-v1.1/benchmarks/cache/code-assets-20261002/programbench/paradigmxyz__solar.5190d0e/task/workspace"
+        },
+        {
+          "bytes": 4347504,
+          "kind": "reference_executable",
+          "path": "/Users/michaelofengenden/Developer/TimeResearch/AgentTime-v1.1/benchmarks/cache/code-assets-20261002/programbench/paradigmxyz__solar.5190d0e/task/reference/executable",
+          "sha256": "4fa65ddafe88b3b9c2b519b6702497945c2b800231d239d607ec21a861b94bb5"
+        },
+        {
+          "kind": "inherited_original_instruction",
+          "path": "/Users/michaelofengenden/Developer/TimeResearch/AgentTime-v1.1/benchmarks/cache/code-assets-20261002/programbench/paradigmxyz__solar.5190d0e/task/instruction.md",
+          "sha256": "cfe75221771816ce522ed491fdea71b6042af5afbdd33bcf171199102fb180ca",
+          "status": "inherited_identical_native_capture_needs_natural_prompt_review"
+        }
+      ],
+      "candidate_id": "paradigmxyz__solar.5190d0e",
+      "caveats": [],
+      "family_id": "program",
+      "gaps": [
+        "Full native image and system dependencies are not installed; ELF execution and native evaluator controls remain unqualified.",
+        "Inherited original prompt was byte-verified across the eight retained packages, but fresh native prompt rendering and untimed natural-prompt review remain pending."
+      ],
+      "image_content_id": "sha256:7068eb86cd413d1af72646a03f811e17ee7c0eae30aeadba8a47e50024d64985",
+      "image_repo_digest": "programbench/paradigmxyz_1776_solar.5190d0e@sha256:0cf625a5970b60358ed37385d1868ede91ff73c0c40cecf29b867db9ed7e5668",
+      "receipt_path": "/Users/michaelofengenden/Developer/TimeResearch/AgentTime-v1.1/benchmarks/cache/code-assets-20261002/programbench/paradigmxyz__solar.5190d0e/task/materialization-receipt.json",
+      "receipt_sha256": "d9a603286f53d2bb4125277ca93386c4edcb799d8878c4122b46cceb5e5da84a",
+      "runtime_qualified": false,
+      "slot_id": "program-11",
+      "status": "cleanroom_assets_acquired"
+    },
+    {
+      "assets": [
+        {
+          "bytes": 37875,
+          "file_count": 3,
+          "files_manifest_path": "/Users/michaelofengenden/Developer/TimeResearch/AgentTime-v1.1/benchmarks/cache/code-assets-20261002/programbench/typst__typst.88356d0/task/files.json",
+          "files_manifest_sha256": "2ceccac785c9c8044e9b6518cbc9ec18549d5dcd91203e2e2ba0c911f78677df",
+          "kind": "subject_cleanroom_documentation_and_assets",
+          "path": "/Users/michaelofengenden/Developer/TimeResearch/AgentTime-v1.1/benchmarks/cache/code-assets-20261002/programbench/typst__typst.88356d0/task/workspace"
+        },
+        {
+          "bytes": 45953304,
+          "kind": "reference_executable",
+          "path": "/Users/michaelofengenden/Developer/TimeResearch/AgentTime-v1.1/benchmarks/cache/code-assets-20261002/programbench/typst__typst.88356d0/task/reference/executable",
+          "sha256": "015793f5bc96ba3dcf5efec811bef9659eb81aad5d5b62bee3ed945b8bce1223"
+        },
+        {
+          "kind": "inherited_original_instruction",
+          "path": "/Users/michaelofengenden/Developer/TimeResearch/AgentTime-v1.1/benchmarks/cache/code-assets-20261002/programbench/typst__typst.88356d0/task/instruction.md",
+          "sha256": "cfe75221771816ce522ed491fdea71b6042af5afbdd33bcf171199102fb180ca",
+          "status": "inherited_identical_native_capture_needs_natural_prompt_review"
+        }
+      ],
+      "candidate_id": "typst__typst.88356d0",
+      "caveats": [],
+      "family_id": "program",
+      "gaps": [
+        "Full native image and system dependencies are not installed; ELF execution and native evaluator controls remain unqualified.",
+        "Inherited original prompt was byte-verified across the eight retained packages, but fresh native prompt rendering and untimed natural-prompt review remain pending."
+      ],
+      "image_content_id": "sha256:ec31a633a807b55e1f45dc8c24563cf68544c04fd904a5d7e57a90a867ea95b6",
+      "image_repo_digest": "programbench/typst_1776_typst.88356d0@sha256:8288f6d2f805d382018269d07db2bda74951ac936eb09bb43a0662443bca2a15",
+      "receipt_path": "/Users/michaelofengenden/Developer/TimeResearch/AgentTime-v1.1/benchmarks/cache/code-assets-20261002/programbench/typst__typst.88356d0/task/materialization-receipt.json",
+      "receipt_sha256": "3c733ec529145769f8336c9e464d1e6d53b68b7e4698f7728a20623e5e13e77f",
+      "runtime_qualified": false,
+      "slot_id": "program-12",
+      "status": "cleanroom_assets_acquired"
+    },
+    {
+      "assets": [
+        {
+          "bytes": 1648,
+          "file_count": 2,
+          "files_manifest_path": "/Users/michaelofengenden/Developer/TimeResearch/AgentTime-v1.1/benchmarks/cache/code-assets-20261002/programbench/stranger6667__jsonschema.d52e881/task/files.json",
+          "files_manifest_sha256": "05e37839dfde45c9b3bf9b741ec0e5d2e4a69acbcc592ab5ba84cf96d978ade5",
+          "kind": "subject_cleanroom_documentation_and_assets",
+          "path": "/Users/michaelofengenden/Developer/TimeResearch/AgentTime-v1.1/benchmarks/cache/code-assets-20261002/programbench/stranger6667__jsonschema.d52e881/task/workspace"
+        },
+        {
+          "bytes": 8232808,
+          "kind": "reference_executable",
+          "path": "/Users/michaelofengenden/Developer/TimeResearch/AgentTime-v1.1/benchmarks/cache/code-assets-20261002/programbench/stranger6667__jsonschema.d52e881/task/reference/executable",
+          "sha256": "c931ff9773a93632bdd053af8e560972128e37818a49f8e7cff6b905007678ce"
+        },
+        {
+          "kind": "inherited_original_instruction",
+          "path": "/Users/michaelofengenden/Developer/TimeResearch/AgentTime-v1.1/benchmarks/cache/code-assets-20261002/programbench/stranger6667__jsonschema.d52e881/task/instruction.md",
+          "sha256": "cfe75221771816ce522ed491fdea71b6042af5afbdd33bcf171199102fb180ca",
+          "status": "inherited_identical_native_capture_needs_natural_prompt_review"
+        }
+      ],
+      "candidate_id": "stranger6667__jsonschema.d52e881",
+      "caveats": [],
+      "family_id": "program",
+      "gaps": [
+        "Full native image and system dependencies are not installed; ELF execution and native evaluator controls remain unqualified.",
+        "Inherited original prompt was byte-verified across the eight retained packages, but fresh native prompt rendering and untimed natural-prompt review remain pending."
+      ],
+      "image_content_id": "sha256:fe29fb866ef3b7577e87156e328e64dfcdf89718fd1133914fe42047e0f19f5f",
+      "image_repo_digest": "programbench/stranger6667_1776_jsonschema.d52e881@sha256:d6052476c1d55960e6b1e68a429b7dff38ae97f3b21c65038c49fdbf4c2f07d3",
+      "receipt_path": "/Users/michaelofengenden/Developer/TimeResearch/AgentTime-v1.1/benchmarks/cache/code-assets-20261002/programbench/stranger6667__jsonschema.d52e881/task/materialization-receipt.json",
+      "receipt_sha256": "94224ce38c6e17dfb56ee9e72751f9aef58046d65099459ccc2374183bbb570d",
+      "runtime_qualified": false,
+      "slot_id": "program-13",
+      "status": "cleanroom_assets_acquired"
+    },
+    {
+      "assets": [
+        {
+          "bytes": 416112,
+          "file_count": 95,
+          "files_manifest_path": "/Users/michaelofengenden/Developer/TimeResearch/AgentTime-v1.1/benchmarks/cache/code-assets-20261002/programbench/rvben__rumdl.2d75c4d/task/files.json",
+          "files_manifest_sha256": "6dd0d370ced5384a6b13502a0c79cb891a695fe02b9e98c14e33ec8f4890d3c4",
+          "kind": "subject_cleanroom_documentation_and_assets",
+          "path": "/Users/michaelofengenden/Developer/TimeResearch/AgentTime-v1.1/benchmarks/cache/code-assets-20261002/programbench/rvben__rumdl.2d75c4d/task/workspace"
+        },
+        {
+          "bytes": 8713872,
+          "kind": "reference_executable",
+          "path": "/Users/michaelofengenden/Developer/TimeResearch/AgentTime-v1.1/benchmarks/cache/code-assets-20261002/programbench/rvben__rumdl.2d75c4d/task/reference/executable",
+          "sha256": "62ef73faaa4bfe50e38ab8e55111a803e4618e21fe6ea290d0dba305cd37c534"
+        },
+        {
+          "kind": "inherited_original_instruction",
+          "path": "/Users/michaelofengenden/Developer/TimeResearch/AgentTime-v1.1/benchmarks/cache/code-assets-20261002/programbench/rvben__rumdl.2d75c4d/task/instruction.md",
+          "sha256": "cfe75221771816ce522ed491fdea71b6042af5afbdd33bcf171199102fb180ca",
+          "status": "inherited_identical_native_capture_needs_natural_prompt_review"
+        }
+      ],
+      "candidate_id": "rvben__rumdl.2d75c4d",
+      "caveats": [],
+      "family_id": "program",
+      "gaps": [
+        "Full native image and system dependencies are not installed; ELF execution and native evaluator controls remain unqualified.",
+        "Inherited original prompt was byte-verified across the eight retained packages, but fresh native prompt rendering and untimed natural-prompt review remain pending."
+      ],
+      "image_content_id": "sha256:ea8bd4f3b64b45cd234323eabaa871362d93511bbd55250a08415f0b3c3e0117",
+      "image_repo_digest": "programbench/rvben_1776_rumdl.2d75c4d@sha256:4d4ebac3cb0cc32e27c5f3227e572f852bcbbc87880369888161b8c5dacf5ec3",
+      "receipt_path": "/Users/michaelofengenden/Developer/TimeResearch/AgentTime-v1.1/benchmarks/cache/code-assets-20261002/programbench/rvben__rumdl.2d75c4d/task/materialization-receipt.json",
+      "receipt_sha256": "20d56e749f2492489eb92a4d03d86911548e504e4caa39a59bdba165c27aeb73",
+      "runtime_qualified": false,
+      "slot_id": "program-14",
+      "status": "cleanroom_assets_acquired"
+    },
+    {
+      "assets": [
+        {
+          "bytes": 337001,
+          "file_count": 21,
+          "files_manifest_path": "/Users/michaelofengenden/Developer/TimeResearch/AgentTime-v1.1/benchmarks/cache/code-assets-20261002/programbench/jesseduffield__lazygit.1d0db51/task/files.json",
+          "files_manifest_sha256": "f11a0c46bcd2772ce45c58504656978202c97a48427aa68942331b52e39e8903",
+          "kind": "subject_cleanroom_documentation_and_assets",
+          "path": "/Users/michaelofengenden/Developer/TimeResearch/AgentTime-v1.1/benchmarks/cache/code-assets-20261002/programbench/jesseduffield__lazygit.1d0db51/task/workspace"
+        },
+        {
+          "bytes": 21688504,
+          "kind": "reference_executable",
+          "path": "/Users/michaelofengenden/Developer/TimeResearch/AgentTime-v1.1/benchmarks/cache/code-assets-20261002/programbench/jesseduffield__lazygit.1d0db51/task/reference/executable",
+          "sha256": "4cb06d63467ba8abccd82c78a57e396f3e37ca23ef63c22183f6f2d9f8097e76"
+        },
+        {
+          "kind": "inherited_original_instruction",
+          "path": "/Users/michaelofengenden/Developer/TimeResearch/AgentTime-v1.1/benchmarks/cache/code-assets-20261002/programbench/jesseduffield__lazygit.1d0db51/task/instruction.md",
+          "sha256": "cfe75221771816ce522ed491fdea71b6042af5afbdd33bcf171199102fb180ca",
+          "status": "inherited_identical_native_capture_needs_natural_prompt_review"
+        }
+      ],
+      "candidate_id": "jesseduffield__lazygit.1d0db51",
+      "caveats": [],
+      "family_id": "program",
+      "gaps": [
+        "Full native image and system dependencies are not installed; ELF execution and native evaluator controls remain unqualified.",
+        "Inherited original prompt was byte-verified across the eight retained packages, but fresh native prompt rendering and untimed natural-prompt review remain pending."
+      ],
+      "image_content_id": "sha256:d222c18f1f364fdb19f01846f820e18758aea126e4be1b7be228b64aeeabab99",
+      "image_repo_digest": "programbench/jesseduffield_1776_lazygit.1d0db51@sha256:f5a83b0a499dc111d900d59784b17de7819b205e2c6fe708a6cdc8309b338a68",
+      "receipt_path": "/Users/michaelofengenden/Developer/TimeResearch/AgentTime-v1.1/benchmarks/cache/code-assets-20261002/programbench/jesseduffield__lazygit.1d0db51/task/materialization-receipt.json",
+      "receipt_sha256": "4e034d741b258cc0d60ee256b556ace5a52b5ea6e2f413d554b4ca8546136877",
+      "runtime_qualified": false,
+      "slot_id": "program-15",
+      "status": "cleanroom_assets_acquired"
+    },
+    {
+      "assets": [
+        {
+          "bytes": 388755,
+          "file_count": 78,
+          "files_manifest_path": "/Users/michaelofengenden/Developer/TimeResearch/AgentTime-v1.1/benchmarks/cache/code-assets-20261002/programbench/dandavison__delta.acd758f/task/files.json",
+          "files_manifest_sha256": "59cc08ded4b7bf00fcb7a03ffa8b60df39a9de44175f1f0a4412b6ed5490ef16",
+          "kind": "subject_cleanroom_documentation_and_assets",
+          "path": "/Users/michaelofengenden/Developer/TimeResearch/AgentTime-v1.1/benchmarks/cache/code-assets-20261002/programbench/dandavison__delta.acd758f/task/workspace"
+        },
+        {
+          "bytes": 8600368,
+          "kind": "reference_executable",
+          "path": "/Users/michaelofengenden/Developer/TimeResearch/AgentTime-v1.1/benchmarks/cache/code-assets-20261002/programbench/dandavison__delta.acd758f/task/reference/executable",
+          "sha256": "e77497b77449426a891150a9bdd8bfaa7ae45a24ca179a33866200f6c6ef5ffb"
+        },
+        {
+          "kind": "inherited_original_instruction",
+          "path": "/Users/michaelofengenden/Developer/TimeResearch/AgentTime-v1.1/benchmarks/cache/code-assets-20261002/programbench/dandavison__delta.acd758f/task/instruction.md",
+          "sha256": "cfe75221771816ce522ed491fdea71b6042af5afbdd33bcf171199102fb180ca",
+          "status": "inherited_identical_native_capture_needs_natural_prompt_review"
+        }
+      ],
+      "candidate_id": "dandavison__delta.acd758f",
+      "caveats": [
+        "Official etc/examples/styles.py is a 131-byte comment-only diff fixture. Legacy suffix-only validation would reject it; no implementation code is present in this fixture."
+      ],
+      "family_id": "program",
+      "gaps": [
+        "Full native image and system dependencies are not installed; ELF execution and native evaluator controls remain unqualified.",
+        "Inherited original prompt was byte-verified across the eight retained packages, but fresh native prompt rendering and untimed natural-prompt review remain pending."
+      ],
+      "image_content_id": "sha256:49cd693738d54ae56026d119087bd5cd9130736dddf8236642a71de436bb8d23",
+      "image_repo_digest": "programbench/dandavison_1776_delta.acd758f@sha256:8da35816c6ce5f2394735a4607e5cf8f4d43a2ed392236736846d75f55f5b244",
+      "receipt_path": "/Users/michaelofengenden/Developer/TimeResearch/AgentTime-v1.1/benchmarks/cache/code-assets-20261002/programbench/dandavison__delta.acd758f/task/materialization-receipt.json",
+      "receipt_sha256": "dfebd6162528f367f6235300b07731cac206677ae0c135becdb3ad4eff309e87",
+      "runtime_qualified": false,
+      "slot_id": "program-16",
+      "status": "cleanroom_assets_acquired"
+    },
+    {
+      "assets": [
+        {
+          "bytes": 13040765,
+          "file_count": 227,
+          "files_manifest_path": "/Users/michaelofengenden/Developer/TimeResearch/AgentTime-v1.1/benchmarks/cache/code-assets-20261002/programbench/canop__broot.d6c798e/task/files.json",
+          "files_manifest_sha256": "a1ade3af13db32682c0ea8a0a2e1d5f73dce77afe57bdec28b7b81575afad25f",
+          "kind": "subject_cleanroom_documentation_and_assets",
+          "path": "/Users/michaelofengenden/Developer/TimeResearch/AgentTime-v1.1/benchmarks/cache/code-assets-20261002/programbench/canop__broot.d6c798e/task/workspace"
+        },
+        {
+          "bytes": 12991840,
+          "kind": "reference_executable",
+          "path": "/Users/michaelofengenden/Developer/TimeResearch/AgentTime-v1.1/benchmarks/cache/code-assets-20261002/programbench/canop__broot.d6c798e/task/reference/executable",
+          "sha256": "207b2ba667579d73739f61871d353bcdd840b0984db78925c4418e15104239c2"
+        },
+        {
+          "kind": "inherited_original_instruction",
+          "path": "/Users/michaelofengenden/Developer/TimeResearch/AgentTime-v1.1/benchmarks/cache/code-assets-20261002/programbench/canop__broot.d6c798e/task/instruction.md",
+          "sha256": "cfe75221771816ce522ed491fdea71b6042af5afbdd33bcf171199102fb180ca",
+          "status": "inherited_identical_native_capture_needs_natural_prompt_review"
+        }
+      ],
+      "candidate_id": "canop__broot.d6c798e",
+      "caveats": [
+        "Official target.sh and version.sh are retained as cleanroom support files and were not executed."
+      ],
+      "family_id": "program",
+      "gaps": [
+        "Full native image and system dependencies are not installed; ELF execution and native evaluator controls remain unqualified.",
+        "Inherited original prompt was byte-verified across the eight retained packages, but fresh native prompt rendering and untimed natural-prompt review remain pending."
+      ],
+      "image_content_id": "sha256:399a50e8860ee2858654f655c16dec3eec477a3af2df1c784c570280d2bbb2d1",
+      "image_repo_digest": "programbench/canop_1776_broot.d6c798e@sha256:42e0a407cff6c68cd2322e8cc72c509b4279116bec3a910c5d716ab2391881ee",
+      "receipt_path": "/Users/michaelofengenden/Developer/TimeResearch/AgentTime-v1.1/benchmarks/cache/code-assets-20261002/programbench/canop__broot.d6c798e/task/materialization-receipt.json",
+      "receipt_sha256": "ee5259bbf86c9ed54563e04534c6e334bd83e223d9af6b6b9b7c3098b5d9dfd1",
+      "runtime_qualified": false,
+      "slot_id": "program-17",
+      "status": "cleanroom_assets_acquired"
+    },
+    {
+      "assets": [
+        {
+          "bytes": 22777,
+          "file_count": 10,
+          "files_manifest_path": "/Users/michaelofengenden/Developer/TimeResearch/AgentTime-v1.1/benchmarks/cache/code-assets-20261002/programbench/ariga__atlas.6d81150/task/files.json",
+          "files_manifest_sha256": "ce094c7574945d93bd0db76fe8554ca5829f40dfe15f9b47845eeb2b7fb92c92",
+          "kind": "subject_cleanroom_documentation_and_assets",
+          "path": "/Users/michaelofengenden/Developer/TimeResearch/AgentTime-v1.1/benchmarks/cache/code-assets-20261002/programbench/ariga__atlas.6d81150/task/workspace"
+        },
+        {
+          "bytes": 40199120,
+          "kind": "reference_executable",
+          "path": "/Users/michaelofengenden/Developer/TimeResearch/AgentTime-v1.1/benchmarks/cache/code-assets-20261002/programbench/ariga__atlas.6d81150/task/reference/executable",
+          "sha256": "194eb5b982cbfea32de91152c855124fe2381c4867c5e45f89d6118c5d520812"
+        },
+        {
+          "kind": "inherited_original_instruction",
+          "path": "/Users/michaelofengenden/Developer/TimeResearch/AgentTime-v1.1/benchmarks/cache/code-assets-20261002/programbench/ariga__atlas.6d81150/task/instruction.md",
+          "sha256": "cfe75221771816ce522ed491fdea71b6042af5afbdd33bcf171199102fb180ca",
+          "status": "inherited_identical_native_capture_needs_natural_prompt_review"
+        }
+      ],
+      "candidate_id": "ariga__atlas.6d81150",
+      "caveats": [],
+      "family_id": "program",
+      "gaps": [
+        "Full native image and system dependencies are not installed; ELF execution and native evaluator controls remain unqualified.",
+        "Inherited original prompt was byte-verified across the eight retained packages, but fresh native prompt rendering and untimed natural-prompt review remain pending."
+      ],
+      "image_content_id": "sha256:78578dd5a48a5cdb7b4505d3be53366f37fda4fdf87ee14ec3084a1fec60d397",
+      "image_repo_digest": "programbench/ariga_1776_atlas.6d81150@sha256:ee510d67c37ddf643e693ff9dfeb5f8842e4c29d8f69ad770b4a9367f183afec",
+      "receipt_path": "/Users/michaelofengenden/Developer/TimeResearch/AgentTime-v1.1/benchmarks/cache/code-assets-20261002/programbench/ariga__atlas.6d81150/task/materialization-receipt.json",
+      "receipt_sha256": "73e45ed711aaf00d1ab6dda2367db3a6161430a6bd8a15b5fc489f8184867495",
+      "runtime_qualified": false,
+      "slot_id": "program-18",
+      "status": "cleanroom_assets_acquired"
+    }
+  ],
+  "runtime_qualified": false,
+  "schema_version": "agenttime.code-assets-acquisition-result.v1",
+  "status": "source_acquisition_complete_runtime_unqualified",
+  "verification_receipt_path": "/private/tmp/agenttime-assets-20261002/code/verification-receipt.json",
+  "verification_receipt_sha256": "ffc7cf60f47723709ef2ecf0a32994ea201797f9731264d649240f405ad8e2d8"
+}

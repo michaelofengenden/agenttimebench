@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "decision_date": "2026-10-06",
+  "scope": "forecasts_only",
+  "host_strategy": "matching_benchmark_software_independent_fresh_copy",
+  "route": "claude_code_subscription",
+  "natural_ordinary_code_and_browser_baseline": {
+    "cpus": 4,
+    "memory_gib": 16,
+    "only_when_no_native_subject_allocation": true
+  },
+  "native_allocations_take_precedence": true,
+  "special_natural_profiles": [
+    "gpu",
+    "desktop",
+    "research"
+  ],
+  "natural_subagents": "allow_harness_native_when_benchmark_permits",
+  "forecast_tools_and_subagents": false,
+  "forecast_hardware_recorded_separately": true,
+  "gpu_provisioning_for_forecasts": false,
+  "natural_gpu_provider_candidates": [
+    "RunPod",
+    "Modal"
+  ],
+  "corrected_study_attempts_dispatched": 0,
+  "natural_attempts_dispatched": 0,
+  "profiles_qualified": 0,
+  "local_probe_path": "clone-isolation-8f93f1268e/report.json"
+}

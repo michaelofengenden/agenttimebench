@@ -1,0 +1,1 @@
+Error parsing streaming input line (type=unknown, 1 chars): SyntaxError

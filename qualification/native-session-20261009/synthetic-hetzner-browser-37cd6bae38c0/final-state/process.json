@@ -1,0 +1,8 @@
+{
+  "linux_child_subreaper_enabled": true,
+  "not_a_study_duration": true,
+  "owner_pid": 13,
+  "pgid": 20,
+  "pid": 20,
+  "synthetic_test_watchdog_seconds": 300
+}

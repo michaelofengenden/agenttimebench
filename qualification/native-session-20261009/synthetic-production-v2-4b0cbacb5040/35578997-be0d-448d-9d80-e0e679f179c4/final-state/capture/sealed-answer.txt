@@ -1,0 +1,12 @@
+The check worked. The subagent found and read the page using only WebSearch and WebFetch, and none of its three calls failed.
+
+- **Page title:** Overview
+- **URL:** https://code.claude.com/docs/en/overview
+
+The search result listed the title as "Overview - Claude Code Docs." That's probably the browser-tab title with the site name added, but it couldn't be confirmed because the page content returned by the fetch only showed the "Overview" heading.
+
+The search's top result was the old address on docs.anthropic.com. That address permanently redirects to the code.claude.com URL above, so the subagent fetched that one. The page describes Claude Code as "an agentic coding tool that reads your codebase, edits files, runs commands, and integrates with your development tools."
+
+Sources:
+- [Overview - Claude Code Docs](https://code.claude.com/docs/en/overview)
+- [Old docs.anthropic.com address (redirects)](https://docs.anthropic.com/en/docs/claude-code/overview)

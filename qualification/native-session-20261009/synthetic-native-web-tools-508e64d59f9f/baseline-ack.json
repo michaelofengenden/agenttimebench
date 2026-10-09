@@ -1,0 +1,10 @@
+{
+  "schema_version": "agenttime.native-baseline-ack.v1",
+  "session_id": "a3690611-d86a-4d8d-a4db-c6861bc72f0f",
+  "contract_sha256": "7a815d50a0d76b7ce195b16492ab50ce42451412e933a9bd1c32216979cf055a",
+  "input_sha256": "7769a93e79682fb3c0f80c40fed5d25026d4db5174e48c323e0087f0d08317d0",
+  "baseline_sha256": "aa4e5ecb012302d090c8a4fb0fdb5a6541d2de9ccd6b9ad80db667cb1b7c05a2",
+  "inventory_sha256": "08b8acc04e1c2612c64cf44222311f6989a295bf8da9429a9b87af5b6eca43d2",
+  "archive_verified": true,
+  "archive_location": "/Users/michaelofengenden/Developer/TimeResearch/AgentTime-v1.1/qualification/native-session-20261009/synthetic-native-web-tools-508e64d59f9f/initial-state"
+}

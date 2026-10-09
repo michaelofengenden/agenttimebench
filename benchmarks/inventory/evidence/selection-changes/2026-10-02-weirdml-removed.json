@@ -1,0 +1,273 @@
+{
+  "date": "2026-10-02",
+  "selected_by": "user",
+  "decision": "exclude_weirdml_without_replacements",
+  "reason": "No complete public runnable v2/v3 package or Hugging Face access-request repository was located. User confirmed no forced replacements.",
+  "before": {
+    "task_places": 220,
+    "included_families": 20,
+    "nominal_runs_per_agent": 660
+  },
+  "after": {
+    "task_places": 212,
+    "included_families": 19,
+    "nominal_runs_per_agent": 636
+  },
+  "previous_slot_identity_sha256": "0cba366fee277d37022e001e2ac1aba0fa7c237abdd847d53a03d03fa407042d",
+  "removed_slots": [
+    {
+      "slot_id": "weirdml-01",
+      "family_id": "weirdml",
+      "candidate_id": "shapes_generalize"
+    },
+    {
+      "slot_id": "weirdml-02",
+      "family_id": "weirdml",
+      "candidate_id": "ship_detect"
+    },
+    {
+      "slot_id": "weirdml-03",
+      "family_id": "weirdml",
+      "candidate_id": "tod_pipeline"
+    },
+    {
+      "slot_id": "weirdml-04",
+      "family_id": "weirdml",
+      "candidate_id": "weirdml_bonanza"
+    },
+    {
+      "slot_id": "weirdml-05",
+      "family_id": "weirdml",
+      "candidate_id": "scan_stitch"
+    },
+    {
+      "slot_id": "weirdml-06",
+      "family_id": "weirdml",
+      "candidate_id": "ship_tune"
+    },
+    {
+      "slot_id": "weirdml-07",
+      "family_id": "weirdml",
+      "candidate_id": "night_school"
+    },
+    {
+      "slot_id": "weirdml-08",
+      "family_id": "weirdml",
+      "candidate_id": "reaction_rates"
+    }
+  ],
+  "removed_acquisition_updates": [
+    {
+      "slot_id": "weirdml-01",
+      "candidate_id": "shapes_generalize",
+      "component_updates": {
+        "prompt": {
+          "status": "missing",
+          "evidence": [],
+          "remaining_gap": "No full public v3 task/data/scorer package was located. The v2 fallback exposes four active prompts and tiny sample illustrations, plus two removed historical tasks; it does not supply eight runnable tasks. These eight v3 places remain reserved pending a complete official package."
+        },
+        "assets": {
+          "status": "missing",
+          "evidence": [],
+          "remaining_gap": "No full public v3 task/data/scorer package was located. The v2 fallback exposes four active prompts and tiny sample illustrations, plus two removed historical tasks; it does not supply eight runnable tasks. These eight v3 places remain reserved pending a complete official package."
+        },
+        "environment": {
+          "status": "missing",
+          "evidence": [],
+          "remaining_gap": "No full public v3 task/data/scorer package was located. The v2 fallback exposes four active prompts and tiny sample illustrations, plus two removed historical tasks; it does not supply eight runnable tasks. These eight v3 places remain reserved pending a complete official package."
+        },
+        "grader": {
+          "status": "missing",
+          "evidence": [],
+          "remaining_gap": "No full public v3 task/data/scorer package was located. The v2 fallback exposes four active prompts and tiny sample illustrations, plus two removed historical tasks; it does not supply eight runnable tasks. These eight v3 places remain reserved pending a complete official package."
+        }
+      }
+    },
+    {
+      "slot_id": "weirdml-02",
+      "candidate_id": "ship_detect",
+      "component_updates": {
+        "prompt": {
+          "status": "missing",
+          "evidence": [],
+          "remaining_gap": "No full public v3 task/data/scorer package was located. The v2 fallback exposes four active prompts and tiny sample illustrations, plus two removed historical tasks; it does not supply eight runnable tasks. These eight v3 places remain reserved pending a complete official package."
+        },
+        "assets": {
+          "status": "missing",
+          "evidence": [],
+          "remaining_gap": "No full public v3 task/data/scorer package was located. The v2 fallback exposes four active prompts and tiny sample illustrations, plus two removed historical tasks; it does not supply eight runnable tasks. These eight v3 places remain reserved pending a complete official package."
+        },
+        "environment": {
+          "status": "missing",
+          "evidence": [],
+          "remaining_gap": "No full public v3 task/data/scorer package was located. The v2 fallback exposes four active prompts and tiny sample illustrations, plus two removed historical tasks; it does not supply eight runnable tasks. These eight v3 places remain reserved pending a complete official package."
+        },
+        "grader": {
+          "status": "missing",
+          "evidence": [],
+          "remaining_gap": "No full public v3 task/data/scorer package was located. The v2 fallback exposes four active prompts and tiny sample illustrations, plus two removed historical tasks; it does not supply eight runnable tasks. These eight v3 places remain reserved pending a complete official package."
+        }
+      }
+    },
+    {
+      "slot_id": "weirdml-03",
+      "candidate_id": "tod_pipeline",
+      "component_updates": {
+        "prompt": {
+          "status": "missing",
+          "evidence": [],
+          "remaining_gap": "No full public v3 task/data/scorer package was located. The v2 fallback exposes four active prompts and tiny sample illustrations, plus two removed historical tasks; it does not supply eight runnable tasks. These eight v3 places remain reserved pending a complete official package."
+        },
+        "assets": {
+          "status": "missing",
+          "evidence": [],
+          "remaining_gap": "No full public v3 task/data/scorer package was located. The v2 fallback exposes four active prompts and tiny sample illustrations, plus two removed historical tasks; it does not supply eight runnable tasks. These eight v3 places remain reserved pending a complete official package."
+        },
+        "environment": {
+          "status": "missing",
+          "evidence": [],
+          "remaining_gap": "No full public v3 task/data/scorer package was located. The v2 fallback exposes four active prompts and tiny sample illustrations, plus two removed historical tasks; it does not supply eight runnable tasks. These eight v3 places remain reserved pending a complete official package."
+        },
+        "grader": {
+          "status": "missing",
+          "evidence": [],
+          "remaining_gap": "No full public v3 task/data/scorer package was located. The v2 fallback exposes four active prompts and tiny sample illustrations, plus two removed historical tasks; it does not supply eight runnable tasks. These eight v3 places remain reserved pending a complete official package."
+        }
+      }
+    },
+    {
+      "slot_id": "weirdml-04",
+      "candidate_id": "weirdml_bonanza",
+      "component_updates": {
+        "prompt": {
+          "status": "missing",
+          "evidence": [],
+          "remaining_gap": "No full public v3 task/data/scorer package was located. The v2 fallback exposes four active prompts and tiny sample illustrations, plus two removed historical tasks; it does not supply eight runnable tasks. These eight v3 places remain reserved pending a complete official package."
+        },
+        "assets": {
+          "status": "missing",
+          "evidence": [],
+          "remaining_gap": "No full public v3 task/data/scorer package was located. The v2 fallback exposes four active prompts and tiny sample illustrations, plus two removed historical tasks; it does not supply eight runnable tasks. These eight v3 places remain reserved pending a complete official package."
+        },
+        "environment": {
+          "status": "missing",
+          "evidence": [],
+          "remaining_gap": "No full public v3 task/data/scorer package was located. The v2 fallback exposes four active prompts and tiny sample illustrations, plus two removed historical tasks; it does not supply eight runnable tasks. These eight v3 places remain reserved pending a complete official package."
+        },
+        "grader": {
+          "status": "missing",
+          "evidence": [],
+          "remaining_gap": "No full public v3 task/data/scorer package was located. The v2 fallback exposes four active prompts and tiny sample illustrations, plus two removed historical tasks; it does not supply eight runnable tasks. These eight v3 places remain reserved pending a complete official package."
+        }
+      }
+    },
+    {
+      "slot_id": "weirdml-05",
+      "candidate_id": "scan_stitch",
+      "component_updates": {
+        "prompt": {
+          "status": "missing",
+          "evidence": [],
+          "remaining_gap": "No full public v3 task/data/scorer package was located. The v2 fallback exposes four active prompts and tiny sample illustrations, plus two removed historical tasks; it does not supply eight runnable tasks. These eight v3 places remain reserved pending a complete official package."
+        },
+        "assets": {
+          "status": "missing",
+          "evidence": [],
+          "remaining_gap": "No full public v3 task/data/scorer package was located. The v2 fallback exposes four active prompts and tiny sample illustrations, plus two removed historical tasks; it does not supply eight runnable tasks. These eight v3 places remain reserved pending a complete official package."
+        },
+        "environment": {
+          "status": "missing",
+          "evidence": [],
+          "remaining_gap": "No full public v3 task/data/scorer package was located. The v2 fallback exposes four active prompts and tiny sample illustrations, plus two removed historical tasks; it does not supply eight runnable tasks. These eight v3 places remain reserved pending a complete official package."
+        },
+        "grader": {
+          "status": "missing",
+          "evidence": [],
+          "remaining_gap": "No full public v3 task/data/scorer package was located. The v2 fallback exposes four active prompts and tiny sample illustrations, plus two removed historical tasks; it does not supply eight runnable tasks. These eight v3 places remain reserved pending a complete official package."
+        }
+      }
+    },
+    {
+      "slot_id": "weirdml-06",
+      "candidate_id": "ship_tune",
+      "component_updates": {
+        "prompt": {
+          "status": "missing",
+          "evidence": [],
+          "remaining_gap": "No full public v3 task/data/scorer package was located. The v2 fallback exposes four active prompts and tiny sample illustrations, plus two removed historical tasks; it does not supply eight runnable tasks. These eight v3 places remain reserved pending a complete official package."
+        },
+        "assets": {
+          "status": "missing",
+          "evidence": [],
+          "remaining_gap": "No full public v3 task/data/scorer package was located. The v2 fallback exposes four active prompts and tiny sample illustrations, plus two removed historical tasks; it does not supply eight runnable tasks. These eight v3 places remain reserved pending a complete official package."
+        },
+        "environment": {
+          "status": "missing",
+          "evidence": [],
+          "remaining_gap": "No full public v3 task/data/scorer package was located. The v2 fallback exposes four active prompts and tiny sample illustrations, plus two removed historical tasks; it does not supply eight runnable tasks. These eight v3 places remain reserved pending a complete official package."
+        },
+        "grader": {
+          "status": "missing",
+          "evidence": [],
+          "remaining_gap": "No full public v3 task/data/scorer package was located. The v2 fallback exposes four active prompts and tiny sample illustrations, plus two removed historical tasks; it does not supply eight runnable tasks. These eight v3 places remain reserved pending a complete official package."
+        }
+      }
+    },
+    {
+      "slot_id": "weirdml-07",
+      "candidate_id": "night_school",
+      "component_updates": {
+        "prompt": {
+          "status": "missing",
+          "evidence": [],
+          "remaining_gap": "No full public v3 task/data/scorer package was located. The v2 fallback exposes four active prompts and tiny sample illustrations, plus two removed historical tasks; it does not supply eight runnable tasks. These eight v3 places remain reserved pending a complete official package."
+        },
+        "assets": {
+          "status": "missing",
+          "evidence": [],
+          "remaining_gap": "No full public v3 task/data/scorer package was located. The v2 fallback exposes four active prompts and tiny sample illustrations, plus two removed historical tasks; it does not supply eight runnable tasks. These eight v3 places remain reserved pending a complete official package."
+        },
+        "environment": {
+          "status": "missing",
+          "evidence": [],
+          "remaining_gap": "No full public v3 task/data/scorer package was located. The v2 fallback exposes four active prompts and tiny sample illustrations, plus two removed historical tasks; it does not supply eight runnable tasks. These eight v3 places remain reserved pending a complete official package."
+        },
+        "grader": {
+          "status": "missing",
+          "evidence": [],
+          "remaining_gap": "No full public v3 task/data/scorer package was located. The v2 fallback exposes four active prompts and tiny sample illustrations, plus two removed historical tasks; it does not supply eight runnable tasks. These eight v3 places remain reserved pending a complete official package."
+        }
+      }
+    },
+    {
+      "slot_id": "weirdml-08",
+      "candidate_id": "reaction_rates",
+      "component_updates": {
+        "prompt": {
+          "status": "missing",
+          "evidence": [],
+          "remaining_gap": "No full public v3 task/data/scorer package was located. The v2 fallback exposes four active prompts and tiny sample illustrations, plus two removed historical tasks; it does not supply eight runnable tasks. These eight v3 places remain reserved pending a complete official package."
+        },
+        "assets": {
+          "status": "missing",
+          "evidence": [],
+          "remaining_gap": "No full public v3 task/data/scorer package was located. The v2 fallback exposes four active prompts and tiny sample illustrations, plus two removed historical tasks; it does not supply eight runnable tasks. These eight v3 places remain reserved pending a complete official package."
+        },
+        "environment": {
+          "status": "missing",
+          "evidence": [],
+          "remaining_gap": "No full public v3 task/data/scorer package was located. The v2 fallback exposes four active prompts and tiny sample illustrations, plus two removed historical tasks; it does not supply eight runnable tasks. These eight v3 places remain reserved pending a complete official package."
+        },
+        "grader": {
+          "status": "missing",
+          "evidence": [],
+          "remaining_gap": "No full public v3 task/data/scorer package was located. The v2 fallback exposes four active prompts and tiny sample illustrations, plus two removed historical tasks; it does not supply eight runnable tasks. These eight v3 places remain reserved pending a complete official package."
+        }
+      }
+    }
+  ],
+  "remaining_identity_policy": "Keep all 212 remaining slot IDs and candidate IDs unchanged.",
+  "replacement_tasks": [],
+  "cached_sources_retained": true,
+  "capacity_ceiling_unchanged": 220
+}

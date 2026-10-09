@@ -1,0 +1,49 @@
+test_action_string_injection_stays_a_literal_argument (test_assistantbench_bridge.BridgeTests.test_action_string_injection_stays_a_literal_argument) ... ok
+test_arbitrary_python_uploads_and_unknown_arguments_are_rejected (test_assistantbench_bridge.BridgeTests.test_arbitrary_python_uploads_and_unknown_arguments_are_rejected) ... ok
+test_claimed_directory_cannot_be_reused_and_attempts_are_independent (test_assistantbench_bridge.BridgeTests.test_claimed_directory_cannot_be_reused_and_attempts_are_independent) ... ok
+test_close_preserves_private_browser_snapshot_and_restoration_hash (test_assistantbench_bridge.BridgeTests.test_close_preserves_private_browser_snapshot_and_restoration_hash) ... ok
+test_concurrent_calls_are_serialized_without_losing_actions (test_assistantbench_bridge.BridgeTests.test_concurrent_calls_are_serialized_without_losing_actions) ... ok
+test_mcp_errors_never_expose_exception_details_or_host_paths (test_assistantbench_bridge.BridgeTests.test_mcp_errors_never_expose_exception_details_or_host_paths) ... ok
+test_mcp_handshake_tool_listing_and_calls_are_standard_json_rpc (test_assistantbench_bridge.BridgeTests.test_mcp_handshake_tool_listing_and_calls_are_standard_json_rpc) ... ok
+test_native_submission_is_sealed_once_and_not_regraded (test_assistantbench_bridge.BridgeTests.test_native_submission_is_sealed_once_and_not_regraded) ... ok
+test_no_task_work_cap_is_exposed_in_tool_schema (test_assistantbench_bridge.BridgeTests.test_no_task_work_cap_is_exposed_in_tool_schema) ... ok
+test_observation_has_only_public_ax_tabs_and_image (test_assistantbench_bridge.BridgeTests.test_observation_has_only_public_ax_tabs_and_image) ... ok
+test_restore_rejects_tampered_state_and_different_task (test_assistantbench_bridge.BridgeTests.test_restore_rejects_tampered_state_and_different_task) ... ok
+test_step_reward_and_info_never_enter_tool_response (test_assistantbench_bridge.BridgeTests.test_step_reward_and_info_never_enter_tool_response) ... ok
+test_submission_must_come_from_expected_native_callback (test_assistantbench_bridge.BridgeTests.test_submission_must_come_from_expected_native_callback) ... ok
+test_tools_match_native_assistantbench_subset_and_click_options (test_assistantbench_bridge.BridgeTests.test_tools_match_native_assistantbench_subset_and_click_options) ... ok
+test_canary_requires_actual_browser_change_and_verified_transport_response (test_assistantbench_bridge.SyntheticCanaryTests.test_canary_requires_actual_browser_change_and_verified_transport_response) ... ok
+test_canary_retains_validated_input_bytes_before_delivery (test_assistantbench_bridge.SyntheticCanaryTests.test_canary_retains_validated_input_bytes_before_delivery) ... FAIL
+test_empty_optional_otel_response_uses_only_matching_complete_native_stream (test_assistantbench_bridge.SyntheticCanaryTests.test_empty_optional_otel_response_uses_only_matching_complete_native_stream) ... FAIL
+test_prepare_refuses_attempt_reuse_and_manifest_tampering (test_assistantbench_bridge.SyntheticCanaryTests.test_prepare_refuses_attempt_reuse_and_manifest_tampering) ... ok
+test_prepare_uses_fixed_synthetic_input_and_never_stores_auth (test_assistantbench_bridge.SyntheticCanaryTests.test_prepare_uses_fixed_synthetic_input_and_never_stores_auth) ... ok
+
+======================================================================
+FAIL: test_canary_retains_validated_input_bytes_before_delivery (test_assistantbench_bridge.SyntheticCanaryTests.test_canary_retains_validated_input_bytes_before_delivery)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/private/tmp/agenttime-assistantbench-linux-20261009/test_assistantbench_bridge.py", line 307, in test_canary_retains_validated_input_bytes_before_delivery
+    self.assertIsInstance(verified, tuple, 'Verification must freeze the exact input bytes')
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: {'cli_sha256': '1e08503dbdf3c2cb0d706d32f3408277388d1c76ef108673e8fe42c1b322925b', 'cli_version': '2.1.280', 'effort': 'max', 'files': {'goal.txt': 'b09194413d730c78ec77ffffbfc7371f0ae2efada33ccf80a64db9e7ccafaebe', 'input.json': '63294effd18524aee0f0185cba66b13139928c39eb225a1af3c491f7dfac477f', 'mcp.json': '6691827e860f7a871486ef6517d51ec3b53f5b210cf9a13c4f534642b72cb185', 'settings.json': '17618ab94d0c2fa5917a3ffdacc21ca371ff8cfeb216693464cdc31618288328'}, 'model': 'claude-opus-5-5[1m]', 'purpose': 'synthetic_only', 'schema_version': 'agenttime.synthetic-assistantbench-canary.v1', 'session_id': '8194814a-9d66-45b6-93f2-8b80e6bf3389', 'source_pins': {'assistantbench_bridge.py': '9bb6ccdd1bd1b39301167c9a1e537be144478e0d19e5cefa319abe5d65f39742', 'claude_canary.py': 'eb45fa9dc5b67b340e4d027098d74aee5e987e690071a9ba4abea1f932f3e935', 'evidence.py': 'b85a9ae618664d2829199e163db839378c38fc125b8c8bf88872c0daee4a693f', 'jsonio.py': 'f624a642ed571b1721fb971cf160f75ec813f91e3c9f612ac74c245350bd9cad', 'synthetic.html': '21eae3f05351fde21560c009d5b368c38f43d61f79ebf373f96fcb07802b28be'}, 'study_inputs': 0, 'tools': ['mcp__assistantbench__observe', 'mcp__assistantbench__noop', 'mcp__assistantbench__scroll', 'mcp__assistantbench__fill', 'mcp__assistantbench__select_option', 'mcp__assistantbench__click', 'mcp__assistantbench__press', 'mcp__assistantbench__go_back', 'mcp__assistantbench__goto', 'mcp__assistantbench__send_msg_to_user']} is not an instance of <class 'tuple'> : Verification must freeze the exact input bytes
+
+======================================================================
+FAIL: test_empty_optional_otel_response_uses_only_matching_complete_native_stream (test_assistantbench_bridge.SyntheticCanaryTests.test_empty_optional_otel_response_uses_only_matching_complete_native_stream)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/private/tmp/agenttime-assistantbench-linux-20261009/test_assistantbench_bridge.py", line 320, in test_empty_optional_otel_response_uses_only_matching_complete_native_stream
+    self.assertEqual(result['issues'], [])
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: Lists differ: ['transport_unavailable'] != []
+
+First list contains 1 additional elements.
+First extra element 0:
+'transport_unavailable'
+
+- ['transport_unavailable']
++ []
+
+----------------------------------------------------------------------
+Ran 19 tests in 0.228s
+
+FAILED (failures=2)

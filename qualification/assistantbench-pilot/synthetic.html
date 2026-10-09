@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><title>Browser bridge qualification</title></head>
+<body>
+  <h1>Browser bridge qualification</h1>
+  <p>This page contains synthetic development data only.</p>
+  <p id="isolation"></p>
+  <label for="value">Synthetic value</label><input id="value" type="text">
+  <button id="store" type="button">Store value</button>
+  <p id="result" role="status">No value submitted</p>
+  <script>
+    document.getElementById('isolation').textContent = localStorage.getItem('bridge-probe') ? 'Prior browser state found' : 'Fresh browser state';
+    document.getElementById('store').onclick = () => {
+      const value = document.getElementById('value').value;
+      localStorage.setItem('bridge-probe', value);
+      document.getElementById('result').textContent = 'Observed: ' + value;
+    };
+  </script>
+</body></html>

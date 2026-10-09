@@ -1,0 +1,95 @@
+{
+  "repository": "https://github.com/michaelofengenden/PPTArena",
+  "commit": "ea99cc42e7d8f1423e270b425d84d8211d50c494",
+  "local_git_source": "/Users/michaelofengenden/AgentTimeSources/benchmarks/pptarena/source-body/repository.git",
+  "source_path": "/Users/michaelofengenden/Developer/TimeResearch/AgentTime-v1.1/benchmarks/cache/pptarena-grader-20261002",
+  "files": [
+    {
+      "path": "agent_bench/README.md",
+      "bytes": 4789,
+      "sha256": "9bbe8da37c267da379be83c91c0119d922402c5ee1d35910f80661ed6d082209",
+      "git_blob_sha1": "54d331ee3396e3d326a70760d0439bd5c335849e"
+    },
+    {
+      "path": "agent_bench/judge_predictions.py",
+      "bytes": 16100,
+      "sha256": "3e939afc5d14fdd2e2e0da43063314f1c94f31ac134e77e133e38b9ec1585308",
+      "git_blob_sha1": "c0e88e212596d72eb17f7eb6dd6dd5510266106c"
+    },
+    {
+      "path": "src/llm/judge.py",
+      "bytes": 40829,
+      "sha256": "82fa63bcc3206b6c83f34d15d5e49921b9413fa818052d474fa8174d74a3c6a2",
+      "git_blob_sha1": "5bca09a0948db0643053f3f6a6df5beb9d289446"
+    },
+    {
+      "path": "src/llm/prompt.py",
+      "bytes": 18206,
+      "sha256": "a0829cbdfc7cab9cf2a023311a1af477ae33c4e55d13d180d4ee218f26d93317",
+      "git_blob_sha1": "46c54ac8347789cadaff9a49722f4bc85a63073e"
+    },
+    {
+      "path": "src/llm/utils.py",
+      "bytes": 14539,
+      "sha256": "bb0b6a77712a5d396a448c2b5099f2f65ab4df81bc28df80acf4a3dcf24bbb93",
+      "git_blob_sha1": "ffd4602baac5235c810c3b6614fab8b667b5ead7"
+    },
+    {
+      "path": "src/ppt/__init__.py",
+      "bytes": 373,
+      "sha256": "bb27f145fc98863e514571f8ac0c2dd8a69414d995d3a1544c772e672c092e67",
+      "git_blob_sha1": "c4584e426188d671d25eb5e8ce1b276055a3b84d"
+    },
+    {
+      "path": "src/ppt/analysis.py",
+      "bytes": 35016,
+      "sha256": "6d007f85152d3ffa01e81c2f47e3ea484c066d6227ef76c02e0ebc09c34f8171",
+      "git_blob_sha1": "a462e130e7d22ce773f1607a77e12c340404a1de"
+    },
+    {
+      "path": "src/ppt/export.py",
+      "bytes": 7512,
+      "sha256": "fed1b33b142408c23bb8fbd1528c233315e8543a62ade72f4e5bf4d386b6ba5b",
+      "git_blob_sha1": "059598b2393a005722c6b1048602c2f26186cd72"
+    },
+    {
+      "path": "src/ppt/ppt_processor.py",
+      "bytes": 42677,
+      "sha256": "edfc663767b8c149e3c9b9ce0a4449208633a4ba2db74274dede086e5c3fc6f6",
+      "git_blob_sha1": "f32e33a06fd14d1ac8bf3a8e043754f45738b5be"
+    },
+    {
+      "path": "src/ppt/utils.py",
+      "bytes": 1738,
+      "sha256": "1d38b87e65b1e641931faacc9fb2c8356bf274729cd5fbbf4685dc8163aff3eb",
+      "git_blob_sha1": "75a63eabf4f33c882dd29772add8fdf8bca43c2e"
+    },
+    {
+      "path": "src/ppt/validation.py",
+      "bytes": 966,
+      "sha256": "23cc9d569967cb19648432c29f0664269d4d0c4fc01c702bdac31a9b4e781a45",
+      "git_blob_sha1": "5cab2bdc28fa1d7bee83a8061cd732e214a1e17b"
+    },
+    {
+      "path": "src/ppt/xml_handler.py",
+      "bytes": 4357,
+      "sha256": "854fa3189a4dd918014971918e3bf6af330b30af4871e1646729a4221e25062f",
+      "git_blob_sha1": "4230f62dbcc220d7019e804b2b7ccfed49325178"
+    },
+    {
+      "path": "src/requirements.txt",
+      "bytes": 267,
+      "sha256": "f7d706c640af5af02df3a4f5822ba7d2edc152b8990b325061b970185ed5cc55",
+      "git_blob_sha1": "236fc4c03be8e3496a88f3dda3a175394061adba"
+    },
+    {
+      "path": "src/utils/image_utils.py",
+      "bytes": 3424,
+      "sha256": "5f5ab225a18db039ecab3da5459de27c4881e3540642599482e30c3c5070629f",
+      "git_blob_sha1": "c29d3c7ea6aa18e10b42535c90379942d2ade94e"
+    }
+  ],
+  "recorded_at_utc": "2026-10-02T12:32:53.037520+00:00",
+  "runtime_validated": false,
+  "note": "Selected native grading source only; dependencies and judging configuration require qualification."
+}

@@ -1,0 +1,152 @@
+{
+  "source_path": "/Users/michaelofengenden/Developer/TimeResearch/AgentTime-v1.1/benchmarks/cache/extra-inputs-20261002",
+  "origin_receipt_sha256": "3d1d011ea5e93c7a05c2f704eb0db63c570793a9665519ec9e4f2fcdfb007131",
+  "recorded_at_utc": "2026-10-02T12:35:48.125494+00:00",
+  "files": [
+    {
+      "path": "pinn/paper.md",
+      "bytes": 124207,
+      "sha256": "19a1ad906356e3efaa6bf82be11668c27af9ea376b5fbfa5945283fa188f4741",
+      "source_revision": "51052cede8cc608f95bb00346635e03759013e5a",
+      "source_url": "https://media.githubusercontent.com/media/openai/frontier-evals/51052cede8cc608f95bb00346635e03759013e5a/project/paperbench/data/papers/pinn/paper.md"
+    },
+    {
+      "path": "pinn/paper.pdf",
+      "bytes": 1580711,
+      "sha256": "9c4d6741961f9fd97d92c9a20fbcb34a853a08776cfffc19f05da31520c5611b",
+      "source_revision": "51052cede8cc608f95bb00346635e03759013e5a",
+      "source_url": "https://media.githubusercontent.com/media/openai/frontier-evals/51052cede8cc608f95bb00346635e03759013e5a/project/paperbench/data/papers/pinn/paper.pdf"
+    },
+    {
+      "path": "pinn/addendum.md",
+      "bytes": 1481,
+      "sha256": "76fcd5372f61bf1bb038d8d944119d1817a416d6579ebfc27a64626d6b628d96",
+      "source_revision": "51052cede8cc608f95bb00346635e03759013e5a",
+      "source_url": "https://media.githubusercontent.com/media/openai/frontier-evals/51052cede8cc608f95bb00346635e03759013e5a/project/paperbench/data/papers/pinn/addendum.md"
+    },
+    {
+      "path": "posttrain/humaneval/raw/test-00000-of-00001.parquet",
+      "bytes": 83920,
+      "sha256": "2f2871a15fbc95b6c683043359f4ed8e144c5a1c4f24f25f66bc51f598dfcfb6",
+      "source_revision": "7dce6050a7d6d172f3cc5c32aa97f52fa1a2e544",
+      "source_url": "https://huggingface.co/datasets/openai/openai_humaneval/resolve/7dce6050a7d6d172f3cc5c32aa97f52fa1a2e544/openai_humaneval/test-00000-of-00001.parquet"
+    },
+    {
+      "path": "posttrain/gsm8k/raw/test-00000-of-00001.parquet",
+      "bytes": 419088,
+      "sha256": "ee7b8da9e381df27b9e3f7758a159ab2bdaa4dbaa910546cbbc47e0cb44e4f59",
+      "source_revision": "740312add88f781978c0658806c59bc2815b9866",
+      "source_url": "https://huggingface.co/datasets/openai/gsm8k/resolve/740312add88f781978c0658806c59bc2815b9866/main/test-00000-of-00001.parquet"
+    },
+    {
+      "path": "posttrain/aime2025/raw/test.jsonl",
+      "bytes": 15813,
+      "sha256": "b4e273c02d3e7fe1b74b59eae768fc8230bfb0f79539890cb56f4361caac0331",
+      "source_revision": "563bb8404243c5f09de6ec262f2db674fe5bce9b",
+      "source_url": "https://huggingface.co/datasets/math-ai/aime25/resolve/563bb8404243c5f09de6ec262f2db674fe5bce9b/test.jsonl"
+    },
+    {
+      "path": "posttrain/arenahardwriting/raw/question-v0.1.jsonl",
+      "bytes": 272075,
+      "sha256": "2650242d2883f22b2abd498f273b6a7e02253cce533f5c91a858e1d44aa3002f",
+      "source_revision": "196f6b826783b3da7310e361a805fa36f0be83f3",
+      "source_url": "https://raw.githubusercontent.com/lmarena/arena-hard-auto/196f6b826783b3da7310e361a805fa36f0be83f3/data/arena-hard-v0.1/question.jsonl"
+    },
+    {
+      "path": "posttrain/arenahardwriting/raw/question-v2.0.jsonl",
+      "bytes": 947596,
+      "sha256": "a75cef6623db6b27aec810497b059f0659705d7ff48dcbccc5bd5b130728ac73",
+      "source_revision": "196f6b826783b3da7310e361a805fa36f0be83f3",
+      "source_url": "https://raw.githubusercontent.com/lmarena/arena-hard-auto/196f6b826783b3da7310e361a805fa36f0be83f3/data/arena-hard-v2.0/question.jsonl"
+    },
+    {
+      "path": "posttrain/humaneval/test_data.json",
+      "bytes": 116163,
+      "sha256": "85d6c3ab3a76590160695424d75d79e90049d5ceaaa809c9771d292054ad68a5",
+      "rows": 164,
+      "mapping": {
+        "question": "prompt",
+        "answer": "canonical_solution"
+      },
+      "source_sha256": "2f2871a15fbc95b6c683043359f4ed8e144c5a1c4f24f25f66bc51f598dfcfb6",
+      "reader": "pyarrow==21.0.0",
+      "order": "preserved source order"
+    },
+    {
+      "path": "posttrain/gsm8k/test_data.json",
+      "bytes": 768720,
+      "sha256": "bd5f0d3b71607e5c47d66720c229b7d32128b137a8ac8e94f7ef51c118664be1",
+      "rows": 1319,
+      "mapping": {
+        "question": "question",
+        "answer": "answer"
+      },
+      "source_sha256": "ee7b8da9e381df27b9e3f7758a159ab2bdaa4dbaa910546cbbc47e0cb44e4f59",
+      "reader": "pyarrow==21.0.0",
+      "order": "preserved source order"
+    },
+    {
+      "path": "posttrain/aime2025/test_data.json",
+      "sha256": "7fcbe32d19bb35467b61869db732f375a76519a16177cdcb94f35acce0cc81c1",
+      "bytes": 15945,
+      "rows": 30,
+      "normalization_receipt": "origin receipt"
+    },
+    {
+      "path": "posttrain/arenahardwriting/test_data.json",
+      "sha256": "6ea0b432a9a070dc0065464c991b15fb139bf0a7a915c32e8ce2271aabc151ff",
+      "bytes": 1143894,
+      "rows": 1250,
+      "normalization_receipt": "origin receipt"
+    }
+  ],
+  "normalizations": [
+    {
+      "path": "posttrain/humaneval/test_data.json",
+      "bytes": 116163,
+      "sha256": "85d6c3ab3a76590160695424d75d79e90049d5ceaaa809c9771d292054ad68a5",
+      "rows": 164,
+      "mapping": {
+        "question": "prompt",
+        "answer": "canonical_solution"
+      },
+      "source_sha256": "2f2871a15fbc95b6c683043359f4ed8e144c5a1c4f24f25f66bc51f598dfcfb6",
+      "reader": "pyarrow==21.0.0",
+      "order": "preserved source order"
+    },
+    {
+      "path": "posttrain/gsm8k/test_data.json",
+      "bytes": 768720,
+      "sha256": "bd5f0d3b71607e5c47d66720c229b7d32128b137a8ac8e94f7ef51c118664be1",
+      "rows": 1319,
+      "mapping": {
+        "question": "question",
+        "answer": "answer"
+      },
+      "source_sha256": "ee7b8da9e381df27b9e3f7758a159ab2bdaa4dbaa910546cbbc47e0cb44e4f59",
+      "reader": "pyarrow==21.0.0",
+      "order": "preserved source order"
+    },
+    {
+      "path": "posttrain/aime2025/test_data.json",
+      "sha256": "7fcbe32d19bb35467b61869db732f375a76519a16177cdcb94f35acce0cc81c1",
+      "bytes": 15945,
+      "rows": 30,
+      "normalization_receipt": "origin receipt"
+    },
+    {
+      "path": "posttrain/arenahardwriting/test_data.json",
+      "sha256": "6ea0b432a9a070dc0065464c991b15fb139bf0a7a915c32e8ce2271aabc151ff",
+      "bytes": 1143894,
+      "rows": 1250,
+      "normalization_receipt": "origin receipt"
+    }
+  ],
+  "runtime_validated": false,
+  "role": "Private grading inputs. PostTrainBench test_data.json is for contamination checks; this is not the full evaluation or training dataset inventory.",
+  "remaining": [
+    "Pin and provision Qwen base weights and all native evaluation dependencies.",
+    "Freeze final judging models and repeated evaluation protocol.",
+    "Overlay normalized test_data.json into generated verifier tasks without exposing it to the subject."
+  ]
+}

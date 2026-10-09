@@ -1,0 +1,15 @@
+The subagent found and read the page. Here's what it reported:
+
+- **Page title:** "Overview - Claude Code Docs". The heading on the page is just "Overview". The full title came from the search result, not from the fetched page.
+- **URL:** https://code.claude.com/docs/en/overview
+
+**Tool behavior:**
+- **WebSearch** found the page on the first query.
+- **WebFetch:** the old address (`https://docs.anthropic.com/en/docs/claude-code/overview`) returned a 301 redirect to the URL above. WebFetch returned the redirect without following it, which is the expected behavior. Fetching the new URL then worked.
+- **One quirk:** WebFetch returned the page's raw markdown instead of an answer to the subagent's prompt. The page content was all there, so it didn't affect the result.
+
+The subagent made 3 tool calls (1 search, 2 fetches), which fits using only WebSearch and WebFetch. The only tool I used was the Agent tool.
+
+Sources:
+- [Overview - Claude Code Docs](https://code.claude.com/docs/en/overview)
+- [Old docs.anthropic.com URL (301 redirect)](https://docs.anthropic.com/en/docs/claude-code/overview)

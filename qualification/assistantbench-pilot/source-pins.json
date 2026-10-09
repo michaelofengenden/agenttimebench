@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "scope": "synthetic_macos_and_linux_browser_mcp_only",
+  "source_pins": [
+    {
+      "cached_source": "benchmarks/cache/v1-inputs-20261002/assistantbench/code/browsergym/core/src/browsergym/core/env.py",
+      "sha256": "867cc6efdfead356839fef8a26b492502b8b5e3d165d1b3c17d24aaeec268d63",
+      "installed_source_matches": true,
+      "linux_installed_source_matches": true
+    },
+    {
+      "cached_source": "benchmarks/cache/v1-inputs-20261002/assistantbench/code/browsergym/core/src/browsergym/core/task.py",
+      "sha256": "d88602de809c3b808c8adc5ca17d6d0d13a065109673e37326a0a75c5ab78e17",
+      "installed_source_matches": true,
+      "linux_installed_source_matches": true
+    },
+    {
+      "cached_source": "benchmarks/cache/v1-inputs-20261002/assistantbench/code/browsergym/core/src/browsergym/core/action/highlevel.py",
+      "sha256": "190444d28705255149dfd7e0a34deb527c5e6df2def925c2847f08bc41c3302b",
+      "installed_source_matches": true,
+      "linux_installed_source_matches": true
+    },
+    {
+      "cached_source": "benchmarks/cache/v1-inputs-20261002/assistantbench/code/browsergym/core/src/browsergym/core/action/functions.py",
+      "sha256": "9e6073e150b3a95ceddddf329feb451b760b6706891c43f6c0c426df44ee05a4",
+      "installed_source_matches": true,
+      "linux_installed_source_matches": true
+    }
+  ],
+  "native_assistantbench_behavior_reference": {
+    "path": "benchmarks/cache/v1-inputs-20261002/assistantbench/code/browsergym/assistantbench/src/browsergym/assistantbench/task.py",
+    "sha256": "bcd8e16e1d8357f968d88caa30ae7f721ca520fab1077a21b273a898963bbef7"
+  },
+  "owned_files": {
+    "src/agenttime/assistantbench_bridge.py": "9bb6ccdd1bd1b39301167c9a1e537be144478e0d19e5cefa319abe5d65f39742",
+    "tests/test_assistantbench_bridge.py": "9e8a2da433737f4cf3f75eb8c2b3ce18437c71ea84e60afa0bf44976ad4fa912",
+    "qualification/assistantbench-pilot/qualify.py": "4b48a86d37c0ef9155968aa318f99cdfce3b54e224365d711cd97214f47d356e",
+    "qualification/assistantbench-pilot/qualify_mcp.py": "98cc7cb41c05c27a9157e959467fcc3480e09d1c5046797483f0c4f2460412dd",
+    "qualification/assistantbench-pilot/synthetic.html": "21eae3f05351fde21560c009d5b368c38f43d61f79ebf373f96fcb07802b28be",
+    "qualification/assistantbench-pilot/requirements.lock": "44dbe8797a35d5929520e9c074eaf8ce380ad5a431c082f25aaf74a802aa7c54",
+    "qualification/assistantbench-pilot/claude_canary.py": "847b765d16c85d42ebb35dce4dd4a32685b7625e1673cfd9c4869af66f7bc8e9",
+    "qualification/assistantbench-pilot/Dockerfile": "e40c29340172ee5164e5e6e2dd3a2a53e653002c2d67a97d847565b134b624b5",
+    "qualification/assistantbench-pilot/README.md": "ed43d153367eaf3bbd3b857ac1d00bedcbc33a5600ecfb6366014ba4a2801b9f"
+  },
+  "study_ready": false,
+  "model_calls": 0,
+  "linux_image": {
+    "id": "sha256:148e5ecfdd7d47fb01785f1f7b06471ec72fe939881eae6a4cb8d4282f59259d",
+    "architecture": "amd64",
+    "os": "linux",
+    "created": "2026-10-09T14:36:02.47655738Z"
+  },
+  "base_image_manifest": "python@sha256:54c85f3c47607a77f32adec749d3c81d1348bf25833671f512b26a9b6d778cb3",
+  "native_action_subset": "assistantbench",
+  "native_actions": [
+    "noop",
+    "scroll",
+    "fill",
+    "select_option",
+    "click",
+    "press",
+    "go_back",
+    "goto",
+    "send_msg_to_user"
+  ],
+  "imported_local_dependencies": {
+    "src/agenttime/jsonio.py": "f624a642ed571b1721fb971cf160f75ec813f91e3c9f612ac74c245350bd9cad",
+    "src/agenttime/evidence.py": "b85a9ae618664d2829199e163db839378c38fc125b8c8bf88872c0daee4a693f"
+  },
+  "claude_binary_sha256": "1e08503dbdf3c2cb0d706d32f3408277388d1c76ef108673e8fe42c1b322925b",
+  "claude_canary_run_by_implementer": false
+}

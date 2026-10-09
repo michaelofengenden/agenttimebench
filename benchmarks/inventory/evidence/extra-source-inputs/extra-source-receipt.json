@@ -1,0 +1,421 @@
+{
+  "schema_version": "agenttime.v1.1.extra-source-preparation.v1",
+  "prepared_at_utc": "2026-10-02T12:34:12.149278+00:00",
+  "status": "all_requested_raw_files_verified_two_normalizations_complete_two_parquet_normalizations_pending",
+  "authorization_scope": "Public source preparation only for draft additions and existing PostTrainBench targets. No roster selection or benchmark execution.",
+  "cache_root": "/private/tmp/agenttime-inventory-20261002/extra-source-inputs",
+  "visibility": "Private temporary source cache only. No questions, answers or solutions printed to chat or published to model workspaces.",
+  "limits": {
+    "maximum_raw_bytes": 100000000,
+    "downloaded_verified_raw_bytes": 3444891,
+    "within_limit": true,
+    "raw_files": 8,
+    "model_weights_downloaded": false,
+    "large_training_corpora_downloaded": false,
+    "credentials_accessed": false,
+    "upstream_loaders_executed": false,
+    "evaluation_launched": false
+  },
+  "pins_resolved_before_data_download": [
+    {
+      "key": "hf-humaneval",
+      "url": "https://huggingface.co/api/datasets/openai/openai_humaneval",
+      "path": "/private/tmp/agenttime-inventory-20261002/extra-source-inputs/metadata/hf-humaneval.json",
+      "sha256": "2734fd629b2b8762518ec9eb8f8a09e699936e05ea571fa7e94e3ae7159ee273",
+      "bytes": 2372,
+      "resolved_commit": "7dce6050a7d6d172f3cc5c32aa97f52fa1a2e544",
+      "fetched_at_utc": "2026-10-02T12:29:39.684679+00:00"
+    },
+    {
+      "key": "hf-gsm8k",
+      "url": "https://huggingface.co/api/datasets/openai/gsm8k",
+      "path": "/private/tmp/agenttime-inventory-20261002/extra-source-inputs/metadata/hf-gsm8k.json",
+      "sha256": "8f0f6d3b7710880c9f59154bded95089dfe7871fd462bc974ac4c430fd3f9922",
+      "bytes": 2912,
+      "resolved_commit": "740312add88f781978c0658806c59bc2815b9866",
+      "fetched_at_utc": "2026-10-02T12:29:39.797414+00:00"
+    },
+    {
+      "key": "hf-aime2025",
+      "url": "https://huggingface.co/api/datasets/math-ai/aime25",
+      "path": "/private/tmp/agenttime-inventory-20261002/extra-source-inputs/metadata/hf-aime2025.json",
+      "sha256": "d47850d1db2c6f41d0c246c09fd753ebd25eb6925cb0b9b5c87ffab5d161b975",
+      "bytes": 1336,
+      "resolved_commit": "563bb8404243c5f09de6ec262f2db674fe5bce9b",
+      "fetched_at_utc": "2026-10-02T12:29:39.919218+00:00"
+    },
+    {
+      "key": "github-arena",
+      "url": "https://api.github.com/repos/lmarena/arena-hard-auto/commits/main",
+      "path": "/private/tmp/agenttime-inventory-20261002/extra-source-inputs/metadata/github-arena.json",
+      "sha256": "145ed2f73e1a4905775d8bde5770d909ed2db9bb0c5c43f3c935d4026abf98c9",
+      "bytes": 37451,
+      "resolved_commit": "196f6b826783b3da7310e361a805fa36f0be83f3",
+      "fetched_at_utc": "2026-10-02T12:29:40.289587+00:00"
+    }
+  ],
+  "pinned_tree_metadata": [
+    {
+      "key": "tree-humaneval",
+      "url": "https://huggingface.co/api/datasets/openai/openai_humaneval/tree/7dce6050a7d6d172f3cc5c32aa97f52fa1a2e544?recursive=true",
+      "path": "/private/tmp/agenttime-inventory-20261002/extra-source-inputs/metadata/tree-humaneval.json",
+      "sha256": "5e42110c98e607748819dbb29a47f5132cd8dbd632fe1c51cb1242f023f66100",
+      "bytes": 624,
+      "fetched_at_utc": "2026-10-02T12:30:26.848827+00:00"
+    },
+    {
+      "key": "tree-gsm8k",
+      "url": "https://huggingface.co/api/datasets/openai/gsm8k/tree/740312add88f781978c0658806c59bc2815b9866?recursive=true",
+      "path": "/private/tmp/agenttime-inventory-20261002/extra-source-inputs/metadata/tree-gsm8k.json",
+      "sha256": "06f832cf989e880a1102be9880f36d37f8ea7f39135094f69611ef06265d9c5f",
+      "bytes": 1741,
+      "fetched_at_utc": "2026-10-02T12:30:26.973265+00:00"
+    },
+    {
+      "key": "tree-aime2025",
+      "url": "https://huggingface.co/api/datasets/math-ai/aime25/tree/563bb8404243c5f09de6ec262f2db674fe5bce9b?recursive=true",
+      "path": "/private/tmp/agenttime-inventory-20261002/extra-source-inputs/metadata/tree-aime2025.json",
+      "sha256": "c2ccf201adc297ae68956331b0ce9ab13d8812fe2633932b0c2d69774c804618",
+      "bytes": 390,
+      "fetched_at_utc": "2026-10-02T12:30:27.100535+00:00"
+    },
+    {
+      "key": "tree-arena",
+      "url": "https://api.github.com/repos/lmarena/arena-hard-auto/git/trees/196f6b826783b3da7310e361a805fa36f0be83f3?recursive=1",
+      "path": "/private/tmp/agenttime-inventory-20261002/extra-source-inputs/metadata/tree-arena.json",
+      "sha256": "1ab92b3745e2d9ed48ac2bfa6049523ad47d45518298ab8f6ad703b52c524df7",
+      "bytes": 15298,
+      "fetched_at_utc": "2026-10-02T12:30:27.447441+00:00"
+    }
+  ],
+  "paperbench_repository_redirect": {
+    "requested_url": "https://api.github.com/repos/openai/preparedness",
+    "resolved_url": "https://api.github.com/repositories/956639757",
+    "canonical_repository": "openai/frontier-evals",
+    "metadata_path": "/private/tmp/agenttime-inventory-20261002/extra-source-inputs/metadata/paperbench-repository.json",
+    "metadata_sha256": "45fcfd60dd7aed6347a7f0e551aab74d8e9b8309b8eb92020a7f3eeda80c8401"
+  },
+  "upstream_downloader_mapping": {
+    "source_commit": "c5b4e9795e3aa0e16a51b4382e27b59338fbd2bd",
+    "path": "/private/tmp/agenttime-inventory-20261002/acquired/posttrain12-code-c5b4e9795e3a/source/src/judges/test_data_download/download_test_data.py",
+    "sha256": "d3144443731592decfe436cbf7f085f4533b3c26474dc65480dfe25545743fe3",
+    "inspected_not_imported_or_executed": true
+  },
+  "raw_files": [
+    {
+      "family": "paper",
+      "task": "pinn",
+      "source_repository": "openai/preparedness",
+      "source_revision": "51052cede8cc608f95bb00346635e03759013e5a",
+      "source_path": "project/paperbench/data/papers/pinn/paper.md",
+      "url": "https://media.githubusercontent.com/media/openai/frontier-evals/51052cede8cc608f95bb00346635e03759013e5a/project/paperbench/data/papers/pinn/paper.md",
+      "output_path": "/private/tmp/agenttime-inventory-20261002/extra-source-inputs/pinn/paper.md",
+      "expected_sha256": "19a1ad906356e3efaa6bf82be11668c27af9ea376b5fbfa5945283fa188f4741",
+      "expected_bytes": 124207,
+      "status": "downloaded_verified",
+      "bytes": 124207,
+      "sha256": "19a1ad906356e3efaa6bf82be11668c27af9ea376b5fbfa5945283fa188f4741",
+      "fetched_at_utc": "2026-10-02T12:32:11.445938+00:00",
+      "download_url": "https://media.githubusercontent.com/media/openai/frontier-evals/51052cede8cc608f95bb00346635e03759013e5a/project/paperbench/data/papers/pinn/paper.md",
+      "canonical_repository": "openai/frontier-evals",
+      "initial_attempt": {
+        "url": "https://media.githubusercontent.com/media/openai/preparedness/51052cede8cc608f95bb00346635e03759013e5a/project/paperbench/data/papers/pinn/paper.md",
+        "http_status": 404,
+        "status": "not_found_at_previous_repository_name"
+      },
+      "verification": "Exact byte length and SHA-256 match pinned Git LFS pointer.",
+      "file_mode_octal": "0o600"
+    },
+    {
+      "family": "paper",
+      "task": "pinn",
+      "source_repository": "openai/preparedness",
+      "source_revision": "51052cede8cc608f95bb00346635e03759013e5a",
+      "source_path": "project/paperbench/data/papers/pinn/paper.pdf",
+      "url": "https://media.githubusercontent.com/media/openai/frontier-evals/51052cede8cc608f95bb00346635e03759013e5a/project/paperbench/data/papers/pinn/paper.pdf",
+      "output_path": "/private/tmp/agenttime-inventory-20261002/extra-source-inputs/pinn/paper.pdf",
+      "expected_sha256": "9c4d6741961f9fd97d92c9a20fbcb34a853a08776cfffc19f05da31520c5611b",
+      "expected_bytes": 1580711,
+      "status": "downloaded_verified",
+      "bytes": 1580711,
+      "sha256": "9c4d6741961f9fd97d92c9a20fbcb34a853a08776cfffc19f05da31520c5611b",
+      "fetched_at_utc": "2026-10-02T12:32:11.907756+00:00",
+      "download_url": "https://media.githubusercontent.com/media/openai/frontier-evals/51052cede8cc608f95bb00346635e03759013e5a/project/paperbench/data/papers/pinn/paper.pdf",
+      "canonical_repository": "openai/frontier-evals",
+      "initial_attempt": {
+        "url": "https://media.githubusercontent.com/media/openai/preparedness/51052cede8cc608f95bb00346635e03759013e5a/project/paperbench/data/papers/pinn/paper.pdf",
+        "http_status": 404,
+        "status": "not_found_at_previous_repository_name"
+      },
+      "verification": "Exact byte length and SHA-256 match pinned Git LFS pointer.",
+      "file_mode_octal": "0o600"
+    },
+    {
+      "family": "paper",
+      "task": "pinn",
+      "source_repository": "openai/preparedness",
+      "source_revision": "51052cede8cc608f95bb00346635e03759013e5a",
+      "source_path": "project/paperbench/data/papers/pinn/addendum.md",
+      "url": "https://media.githubusercontent.com/media/openai/frontier-evals/51052cede8cc608f95bb00346635e03759013e5a/project/paperbench/data/papers/pinn/addendum.md",
+      "output_path": "/private/tmp/agenttime-inventory-20261002/extra-source-inputs/pinn/addendum.md",
+      "expected_sha256": "76fcd5372f61bf1bb038d8d944119d1817a416d6579ebfc27a64626d6b628d96",
+      "expected_bytes": 1481,
+      "status": "downloaded_verified",
+      "bytes": 1481,
+      "sha256": "76fcd5372f61bf1bb038d8d944119d1817a416d6579ebfc27a64626d6b628d96",
+      "fetched_at_utc": "2026-10-02T12:32:12.289836+00:00",
+      "download_url": "https://media.githubusercontent.com/media/openai/frontier-evals/51052cede8cc608f95bb00346635e03759013e5a/project/paperbench/data/papers/pinn/addendum.md",
+      "canonical_repository": "openai/frontier-evals",
+      "initial_attempt": {
+        "url": "https://media.githubusercontent.com/media/openai/preparedness/51052cede8cc608f95bb00346635e03759013e5a/project/paperbench/data/papers/pinn/addendum.md",
+        "http_status": 404,
+        "status": "not_found_at_previous_repository_name"
+      },
+      "verification": "Exact byte length and SHA-256 match pinned Git LFS pointer.",
+      "file_mode_octal": "0o600"
+    },
+    {
+      "family": "posttrain",
+      "task": "humaneval",
+      "source_repository": "openai/openai_humaneval",
+      "source_revision": "7dce6050a7d6d172f3cc5c32aa97f52fa1a2e544",
+      "source_path": "openai_humaneval/test-00000-of-00001.parquet",
+      "url": "https://huggingface.co/datasets/openai/openai_humaneval/resolve/7dce6050a7d6d172f3cc5c32aa97f52fa1a2e544/openai_humaneval/test-00000-of-00001.parquet",
+      "output_path": "/private/tmp/agenttime-inventory-20261002/extra-source-inputs/posttrain/humaneval/raw/test-00000-of-00001.parquet",
+      "expected_bytes": 83920,
+      "expected_sha256": "2f2871a15fbc95b6c683043359f4ed8e144c5a1c4f24f25f66bc51f598dfcfb6",
+      "status": "downloaded_verified",
+      "bytes": 83920,
+      "sha256": "2f2871a15fbc95b6c683043359f4ed8e144c5a1c4f24f25f66bc51f598dfcfb6",
+      "git_blob_sha1": "da4270e33f311b524a336a06e09ff17a944d9ba9",
+      "fetched_at_utc": "2026-10-02T12:31:12.980653+00:00",
+      "verification": "Exact byte length and pinned LFS SHA-256 or pinned Git blob SHA-1 match; independent SHA-256 recorded.",
+      "file_mode_octal": "0o600",
+      "parquet_container_checks": {
+        "leading_magic_valid": true,
+        "trailing_magic_valid": true,
+        "footer_length_valid": true,
+        "footer_bytes": 4645,
+        "rows_decoded": false
+      }
+    },
+    {
+      "family": "posttrain",
+      "task": "gsm8k",
+      "source_repository": "openai/gsm8k",
+      "source_revision": "740312add88f781978c0658806c59bc2815b9866",
+      "source_path": "main/test-00000-of-00001.parquet",
+      "url": "https://huggingface.co/datasets/openai/gsm8k/resolve/740312add88f781978c0658806c59bc2815b9866/main/test-00000-of-00001.parquet",
+      "output_path": "/private/tmp/agenttime-inventory-20261002/extra-source-inputs/posttrain/gsm8k/raw/test-00000-of-00001.parquet",
+      "expected_bytes": 419088,
+      "expected_sha256": "ee7b8da9e381df27b9e3f7758a159ab2bdaa4dbaa910546cbbc47e0cb44e4f59",
+      "status": "downloaded_verified",
+      "bytes": 419088,
+      "sha256": "ee7b8da9e381df27b9e3f7758a159ab2bdaa4dbaa910546cbbc47e0cb44e4f59",
+      "git_blob_sha1": "9f8c0207cb6e0ed25a33dac01bf53438744802aa",
+      "fetched_at_utc": "2026-10-02T12:31:13.402125+00:00",
+      "verification": "Exact byte length and pinned LFS SHA-256 or pinned Git blob SHA-1 match; independent SHA-256 recorded.",
+      "file_mode_octal": "0o600",
+      "parquet_container_checks": {
+        "leading_magic_valid": true,
+        "trailing_magic_valid": true,
+        "footer_length_valid": true,
+        "footer_bytes": 3164,
+        "rows_decoded": false
+      }
+    },
+    {
+      "family": "posttrain",
+      "task": "aime2025",
+      "source_repository": "math-ai/aime25",
+      "source_revision": "563bb8404243c5f09de6ec262f2db674fe5bce9b",
+      "source_path": "test.jsonl",
+      "url": "https://huggingface.co/datasets/math-ai/aime25/resolve/563bb8404243c5f09de6ec262f2db674fe5bce9b/test.jsonl",
+      "output_path": "/private/tmp/agenttime-inventory-20261002/extra-source-inputs/posttrain/aime2025/raw/test.jsonl",
+      "expected_bytes": 15813,
+      "expected_git_blob_sha1": "236626dd7679a0671562f76a0b6e21314529a348",
+      "status": "downloaded_verified",
+      "bytes": 15813,
+      "sha256": "b4e273c02d3e7fe1b74b59eae768fc8230bfb0f79539890cb56f4361caac0331",
+      "git_blob_sha1": "236626dd7679a0671562f76a0b6e21314529a348",
+      "fetched_at_utc": "2026-10-02T12:31:13.552376+00:00",
+      "verification": "Exact byte length and pinned LFS SHA-256 or pinned Git blob SHA-1 match; independent SHA-256 recorded.",
+      "file_mode_octal": "0o600"
+    },
+    {
+      "family": "posttrain",
+      "task": "arenahardwriting",
+      "source_repository": "lmarena/arena-hard-auto",
+      "source_revision": "196f6b826783b3da7310e361a805fa36f0be83f3",
+      "source_path": "data/arena-hard-v0.1/question.jsonl",
+      "url": "https://raw.githubusercontent.com/lmarena/arena-hard-auto/196f6b826783b3da7310e361a805fa36f0be83f3/data/arena-hard-v0.1/question.jsonl",
+      "output_path": "/private/tmp/agenttime-inventory-20261002/extra-source-inputs/posttrain/arenahardwriting/raw/question-v0.1.jsonl",
+      "expected_bytes": 272075,
+      "expected_git_blob_sha1": "a0ab23b91e2d66b07e300f111a319ec4fbcbc0d3",
+      "status": "downloaded_verified",
+      "bytes": 272075,
+      "sha256": "2650242d2883f22b2abd498f273b6a7e02253cce533f5c91a858e1d44aa3002f",
+      "git_blob_sha1": "a0ab23b91e2d66b07e300f111a319ec4fbcbc0d3",
+      "fetched_at_utc": "2026-10-02T12:31:13.822439+00:00",
+      "verification": "Exact byte length and pinned LFS SHA-256 or pinned Git blob SHA-1 match; independent SHA-256 recorded.",
+      "file_mode_octal": "0o600"
+    },
+    {
+      "family": "posttrain",
+      "task": "arenahardwriting",
+      "source_repository": "lmarena/arena-hard-auto",
+      "source_revision": "196f6b826783b3da7310e361a805fa36f0be83f3",
+      "source_path": "data/arena-hard-v2.0/question.jsonl",
+      "url": "https://raw.githubusercontent.com/lmarena/arena-hard-auto/196f6b826783b3da7310e361a805fa36f0be83f3/data/arena-hard-v2.0/question.jsonl",
+      "output_path": "/private/tmp/agenttime-inventory-20261002/extra-source-inputs/posttrain/arenahardwriting/raw/question-v2.0.jsonl",
+      "expected_bytes": 947596,
+      "expected_git_blob_sha1": "d0f2eaa1f57865106498af9b45187618c1b9d404",
+      "status": "downloaded_verified",
+      "bytes": 947596,
+      "sha256": "a75cef6623db6b27aec810497b059f0659705d7ff48dcbccc5bd5b130728ac73",
+      "git_blob_sha1": "d0f2eaa1f57865106498af9b45187618c1b9d404",
+      "fetched_at_utc": "2026-10-02T12:31:14.134714+00:00",
+      "verification": "Exact byte length and pinned LFS SHA-256 or pinned Git blob SHA-1 match; independent SHA-256 recorded.",
+      "file_mode_octal": "0o600"
+    }
+  ],
+  "pinn": {
+    "status": "three_requested_lfs_objects_hydrated_and_verified",
+    "task_id": "pinn",
+    "source_commit": "51052cede8cc608f95bb00346635e03759013e5a",
+    "files": [
+      "/private/tmp/agenttime-inventory-20261002/extra-source-inputs/pinn/paper.md",
+      "/private/tmp/agenttime-inventory-20261002/extra-source-inputs/pinn/paper.pdf",
+      "/private/tmp/agenttime-inventory-20261002/extra-source-inputs/pinn/addendum.md"
+    ],
+    "all_expected_lfs_hashes_match": true,
+    "additional_assets_and_native_qualification": "Not established by this bounded three-object acquisition."
+  },
+  "posttrain": [
+    {
+      "task": "humaneval",
+      "status": "pinned_raw_parquet_verified_normalization_pending",
+      "source_repository": "openai/openai_humaneval",
+      "source_revision": "7dce6050a7d6d172f3cc5c32aa97f52fa1a2e544",
+      "config": "openai_humaneval",
+      "split": "test",
+      "raw_files": [
+        "/private/tmp/agenttime-inventory-20261002/extra-source-inputs/posttrain/humaneval/raw/test-00000-of-00001.parquet"
+      ],
+      "raw_sha256": "2f2871a15fbc95b6c683043359f4ed8e144c5a1c4f24f25f66bc51f598dfcfb6",
+      "declared_test_rows": 164,
+      "row_count_basis": "Pinned source metadata captured from Hugging Face dataset card; not independently decoded.",
+      "normalized_test_data": null,
+      "normalization_gap": "The canonical test split is Parquet. Standard-library JSON/gzip processing cannot decode this container. No external Parquet reader or upstream dataset loader was run.",
+      "next_step": {
+        "action": "Use an explicitly approved safe Parquet reader against this verified local file; preserve source row order and project the declared columns.",
+        "column_mapping": {
+          "question": "prompt",
+          "answer": "canonical_solution"
+        },
+        "serialization": "json.dumps(rows, indent=2, ensure_ascii=False), UTF-8, no appended newline",
+        "required_checks": [
+          "Exact row count and nonempty question strings",
+          "One answer value for every row",
+          "Normalized artifact SHA-256",
+          "Round-trip equality with the declared source columns"
+        ]
+      }
+    },
+    {
+      "task": "gsm8k",
+      "status": "pinned_raw_parquet_verified_normalization_pending",
+      "source_repository": "openai/gsm8k",
+      "source_revision": "740312add88f781978c0658806c59bc2815b9866",
+      "config": "main",
+      "split": "test",
+      "raw_files": [
+        "/private/tmp/agenttime-inventory-20261002/extra-source-inputs/posttrain/gsm8k/raw/test-00000-of-00001.parquet"
+      ],
+      "raw_sha256": "ee7b8da9e381df27b9e3f7758a159ab2bdaa4dbaa910546cbbc47e0cb44e4f59",
+      "declared_test_rows": 1319,
+      "row_count_basis": "Pinned source metadata captured from Hugging Face dataset card; not independently decoded.",
+      "normalized_test_data": null,
+      "normalization_gap": "The canonical test split is Parquet. Standard-library JSON/gzip processing cannot decode this container. No external Parquet reader or upstream dataset loader was run.",
+      "next_step": {
+        "action": "Use an explicitly approved safe Parquet reader against this verified local file; preserve source row order and project the declared columns.",
+        "column_mapping": {
+          "question": "question",
+          "answer": "answer"
+        },
+        "serialization": "json.dumps(rows, indent=2, ensure_ascii=False), UTF-8, no appended newline",
+        "required_checks": [
+          "Exact row count and nonempty question strings",
+          "One answer value for every row",
+          "Normalized artifact SHA-256",
+          "Round-trip equality with the declared source columns"
+        ]
+      }
+    },
+    {
+      "task": "aime2025",
+      "status": "normalized_test_data_ready_for_source_review",
+      "raw_files": [
+        "/private/tmp/agenttime-inventory-20261002/extra-source-inputs/posttrain/aime2025/raw/test.jsonl"
+      ],
+      "normalized_test_data": {
+        "task": "aime2025",
+        "status": "normalized_from_pinned_raw_sources",
+        "path": "/private/tmp/agenttime-inventory-20261002/extra-source-inputs/posttrain/aime2025/test_data.json",
+        "rows": 30,
+        "bytes": 15945,
+        "sha256": "7fcbe32d19bb35467b61869db732f375a76519a16177cdcb94f35acce0cc81c1",
+        "details": {
+          "mapping": "problem -> question; answer unchanged",
+          "input_rows": 30
+        }
+      },
+      "upstream_loader_executed": false,
+      "semantic_mapping_checked_independently": true
+    },
+    {
+      "task": "arenahardwriting",
+      "status": "normalized_test_data_ready_for_source_review",
+      "raw_files": [
+        "/private/tmp/agenttime-inventory-20261002/extra-source-inputs/posttrain/arenahardwriting/raw/question-v0.1.jsonl",
+        "/private/tmp/agenttime-inventory-20261002/extra-source-inputs/posttrain/arenahardwriting/raw/question-v2.0.jsonl"
+      ],
+      "normalized_test_data": {
+        "task": "arenahardwriting",
+        "status": "normalized_from_pinned_raw_sources",
+        "path": "/private/tmp/agenttime-inventory-20261002/extra-source-inputs/posttrain/arenahardwriting/test_data.json",
+        "rows": 1250,
+        "bytes": 1143894,
+        "sha256": "6ea0b432a9a070dc0065464c991b15fb139bf0a7a915c32e8ce2271aabc151ff",
+        "details": {
+          "mapping": "v0.1 then v2.0; first occurrence per uid; prompt -> question; empty answer",
+          "input_rows": {
+            "v0.1": 500,
+            "v2.0": 750
+          },
+          "duplicate_uid_count": 0,
+          "duplicate_uid_changed_prompt_count": 0,
+          "all_upstream_prompts_present_and_nonempty": true
+        }
+      },
+      "upstream_loader_executed": false,
+      "semantic_mapping_checked_independently": true
+    }
+  ],
+  "normalizer": {
+    "path": "/private/tmp/agenttime-inventory-20261002/extra-source-inputs/normalize-json.py",
+    "sha256": "b2415732e15673452d73273be7bceb5c98ad94049cd25810266beb08db90ab93",
+    "implementation": "Self-authored inspected Python standard library only",
+    "supported_tasks": [
+      "aime2025",
+      "arenahardwriting"
+    ],
+    "independent_mapping_verification_passed": true
+  },
+  "qualification": {
+    "draft_ids_still_unselected": true,
+    "scientific_admitted": false,
+    "native_run_performed": false,
+    "note": "test_data.json files here are contamination-reference inputs from the official downloader mappings. This preparation does not establish full native evaluation-source, environment or grading qualification."
+  }
+}

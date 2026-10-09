@@ -1,0 +1,988 @@
+{
+  "schema_version": "agenttime.v1.1.weirdml-source-acquisition.v1",
+  "created_at_utc": "2026-10-02T13:50:05.313030+00:00",
+  "family_id": "weirdml",
+  "status": "blocked_upstream_distribution_not_located",
+  "scope": "WeirdML v3 source/data acquisition for the eight existing draft slots. No inventory changes, task substitution, native execution, model/provider calls, paid compute, access requests, or license acceptance.",
+  "working_directory": "/private/tmp/agenttime-assets-20261002/weirdml",
+  "repository_cache_directory": null,
+  "baseline_inventory": {
+    "path": "/Users/michaelofengenden/Developer/TimeResearch/AgentTime-v1.1/benchmarks/inventory/tasks.json",
+    "sha256_at_read": "a47564e82539a85a4439030f1643711095d981ab88037179240270947d37cc99",
+    "selected_rows_snapshot": {
+      "path": "/private/tmp/agenttime-assets-20261002/weirdml/selected-slots-before.json",
+      "relative_path": "selected-slots-before.json",
+      "bytes": 21636,
+      "sha256": "39a6059cdeafed813b67a3a92d68187ea915806fda158e8930cc9ef2269223a2",
+      "role": "existing_inventory_selected_rows",
+      "eligible_as_task_input": false
+    }
+  },
+  "summary": {
+    "selected_slots": 8,
+    "full_runnable_packages_acquired": 0,
+    "native_task_data_files_acquired": 0,
+    "native_task_data_bytes_acquired": 0,
+    "public_download_files_acquired": 27,
+    "public_download_bytes_acquired": 5906273,
+    "http_error_bodies_preserved": 1,
+    "runtime_qualified": 0,
+    "admitted": 0
+  },
+  "source_discovery": [
+    {
+      "finding": "Current official website head still matches the previously inventoried pin.",
+      "evidence": {
+        "path": "/private/tmp/agenttime-assets-20261002/weirdml/discovery/website-current-head.json",
+        "relative_path": "discovery/website-current-head.json",
+        "bytes": 5351,
+        "sha256": "20cd581dc3a81b619add048045b22339ddbd8d6d296de8b428ef7276b87cf76d",
+        "role": "official_github_current_head",
+        "eligible_as_task_input": false
+      }
+    },
+    {
+      "finding": "The complete official website tree has 192 entries and no native task data archives or WeirdML v3 task harness. Its Python preparation script processes leaderboard results.",
+      "evidence": {
+        "path": "/private/tmp/agenttime-assets-20261002/weirdml/discovery/website-pinned-tree.json",
+        "relative_path": "discovery/website-pinned-tree.json",
+        "bytes": 47268,
+        "sha256": "c6da9ef8291f7f83f52956de0c53532e280c3cbf379bfc1316c3339c6b77b056",
+        "role": "official_complete_website_tree",
+        "eligible_as_task_input": false
+      }
+    },
+    {
+      "finding": "The author has 18 public repositories in the saved current listing; no WeirdML v3 runnable source repository appears.",
+      "evidence": {
+        "path": "/private/tmp/agenttime-assets-20261002/weirdml/discovery/htihle-public-repositories.json",
+        "relative_path": "discovery/htihle-public-repositories.json",
+        "bytes": 90622,
+        "sha256": "5e48160b676f00ddf296520905234d21d5d9aa3b414ab38719a0cf802f65adab",
+        "role": "official_github_public_repo_listing",
+        "eligible_as_task_input": false
+      }
+    },
+    {
+      "finding": "GitHub repository search across names, descriptions and READMEs returned 14 results. The owner-linked WeirdML project is the separate time-horizon analysis; no full v3 benchmark repository was identified.",
+      "evidence": {
+        "path": "/private/tmp/agenttime-assets-20261002/weirdml/discovery/github-weirdml-readme-repositories.json",
+        "relative_path": "discovery/github-weirdml-readme-repositories.json",
+        "bytes": 79546,
+        "sha256": "6890b6d708469a0e8baf73edf532522db98001fddf6858c345fa908ef4ca0947",
+        "role": "public_repository_search",
+        "eligible_as_task_input": false
+      }
+    },
+    {
+      "finding": "The Hugging Face dataset search for WeirdML returned an empty list.",
+      "evidence": {
+        "path": "/private/tmp/agenttime-assets-20261002/weirdml/discovery/huggingface-weirdml-datasets.json",
+        "relative_path": "discovery/huggingface-weirdml-datasets.json",
+        "bytes": 2,
+        "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "role": "public_dataset_search",
+        "eligible_as_task_input": false
+      }
+    },
+    {
+      "finding": "The official website repository release listing is empty.",
+      "evidence": {
+        "path": "/private/tmp/agenttime-assets-20261002/weirdml/discovery/website-releases.json",
+        "relative_path": "discovery/website-releases.json",
+        "bytes": 2,
+        "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "role": "official_github_releases_listing",
+        "eligible_as_task_input": false
+      }
+    },
+    {
+      "finding": "The similarly named official time-horizon repository is an analysis of benchmark scores and estimates, not a WeirdML v3 task distribution.",
+      "source_commit": "965c7f11d843eac3c81a22a62c3cef2a9c0be7f8",
+      "evidence": {
+        "path": "/private/tmp/agenttime-assets-20261002/weirdml/adjacent/weirdml-time-horizons/965c7f11d843eac3c81a22a62c3cef2a9c0be7f8/README.md",
+        "relative_path": "adjacent/weirdml-time-horizons/965c7f11d843eac3c81a22a62c3cef2a9c0be7f8/README.md",
+        "bytes": 4934,
+        "sha256": "144cd2492dab239acc9ff7a97713b03e8606e7d9e1dbd77c52946b53fdae2dc2",
+        "role": "adjacent_project_readme",
+        "eligible_as_task_input": false
+      }
+    },
+    {
+      "finding": "The author also has a five-file tod_sim repository. Its connection to the exact v3 TOD Pipeline task is unverified, so it was not substituted for the missing benchmark source/data.",
+      "source_commit": "2dbefcf08ce5b2024659a1af2af77d3dd938f23e",
+      "evidence": {
+        "path": "/private/tmp/agenttime-assets-20261002/weirdml/discovery/tod-sim-tree.json",
+        "relative_path": "discovery/tod-sim-tree.json",
+        "bytes": 1259,
+        "sha256": "ddeb2d92f219dc467d5a8cb7435cd05002907a9e5d5908e49e6681986243c759",
+        "role": "adjacent_project_tree",
+        "eligible_as_task_input": false
+      }
+    },
+    {
+      "finding": "The website build notes say the selected-task page was adapted from an owner-supplied presentation ZIP. The ZIP is absent from the inspected source tree; published WebP illustrations are not native task datasets.",
+      "source_locator": "scripts/README.md:64-67",
+      "evidence": {
+        "path": "/private/tmp/agenttime-assets-20261002/weirdml/website/398be8e15888515412b714b61b4f28af229627d3/scripts/README.md",
+        "relative_path": "website/398be8e15888515412b714b61b4f28af229627d3/scripts/README.md",
+        "bytes": 9646,
+        "sha256": "bbffbc92ccc7c7302882c276e2d4e5fe793c224310229cc480da6420ade7b2b6",
+        "role": "official_website_build_notes",
+        "eligible_as_task_input": false
+      }
+    }
+  ],
+  "available_pinned_code": [
+    {
+      "path": "/private/tmp/agenttime-assets-20261002/weirdml/website/398be8e15888515412b714b61b4f28af229627d3/scripts/prepare_weirdml_v3.py",
+      "source_commit": "398be8e15888515412b714b61b4f28af229627d3",
+      "sha256": "0e3755be2206b8c2e728cbf97fbe7416e8657cfbf1125de6ed4cc933784b87b9",
+      "role": "website_leaderboard_preparation_code_only",
+      "executed": false,
+      "native_task_harness": false
+    }
+  ],
+  "slots": [
+    {
+      "slot_id": "weirdml-01",
+      "family_id": "weirdml",
+      "candidate_id": "shapes_generalize",
+      "selection_status": "draft_for_review",
+      "identity_kind": "published_results_key_only",
+      "proposed_configuration_id": "shapes_generalize",
+      "runnable_task_id": null,
+      "acquisition_status": "blocked_upstream_distribution_not_located",
+      "source_pins": {
+        "website_repository": "https://github.com/htihle/htihle.github.io",
+        "website_commit": "398be8e15888515412b714b61b4f28af229627d3",
+        "benchmark_source_commit_prefix": "fd5d5d5",
+        "benchmark_registry_commit_prefix": "fd5d5d5",
+        "benchmark_full_commit": null,
+        "prompt_version_from_published_metadata": "v1.3",
+        "score_era_from_published_metadata": "2026-09-08"
+      },
+      "assets": [
+        {
+          "path": "/private/tmp/agenttime-assets-20261002/weirdml/website/398be8e15888515412b714b61b4f28af229627d3/data/weirdml_v3_results.json",
+          "relative_path": "website/398be8e15888515412b714b61b4f28af229627d3/data/weirdml_v3_results.json",
+          "bytes": 4181915,
+          "sha256": "7c13332f090158ac7ca376d8e221c142a53c3977b09eea39c3c7ec4d2dc56298",
+          "role": "published_task_metadata_and_results_only",
+          "eligible_as_task_input": false,
+          "json_pointer": "/tasks/shapes_generalize"
+        },
+        {
+          "path": "/private/tmp/agenttime-assets-20261002/weirdml/website/398be8e15888515412b714b61b4f28af229627d3/weirdml_scoring.md",
+          "relative_path": "website/398be8e15888515412b714b61b4f28af229627d3/weirdml_scoring.md",
+          "bytes": 5145,
+          "sha256": "4bc665e4e6149ef9834f1e6ad64db1e7127947e017904913cedebc9b78c1fcf5",
+          "role": "public_scoring_description_only",
+          "eligible_as_task_input": false
+        },
+        {
+          "path": "/private/tmp/agenttime-assets-20261002/weirdml/website/398be8e15888515412b714b61b4f28af229627d3/weirdml_tasks.md",
+          "relative_path": "website/398be8e15888515412b714b61b4f28af229627d3/weirdml_tasks.md",
+          "bytes": 22128,
+          "sha256": "4be0dcce6bcd934bd37ef6e0302aed5cb01948c9dfcab8852eb34a8b343886af",
+          "role": "public_example_description_only",
+          "eligible_as_task_input": false
+        }
+      ],
+      "native_task_assets": [],
+      "native_task_asset_bytes": 0,
+      "published_data_description": {
+        "source_anchor": "#shapes_generalize",
+        "known_required_assets": [
+          "1000 unlabeled training point clouds with 512 points each",
+          "withheld test point clouds and protected labels"
+        ],
+        "data_location": null
+      },
+      "components": {
+        "prompt": {
+          "status": "missing",
+          "native_package_acquired": false
+        },
+        "assets": {
+          "status": "missing",
+          "native_package_acquired": false
+        },
+        "environment": {
+          "status": "missing",
+          "native_package_acquired": false
+        },
+        "grader": {
+          "status": "missing",
+          "native_package_acquired": false
+        }
+      },
+      "remaining_gaps": [
+        {
+          "code": "full_benchmark_source_not_located",
+          "detail": "No official public WeirdML v3 runnable repository or release was located in the inspected author repositories, official website tree, website releases, repository search, or dataset search. A source repository or owner-supplied release is required."
+        },
+        {
+          "code": "full_source_pin_unresolved",
+          "detail": "Published benchmark source and registry revision fd5d5d5 remain short prefixes. The official website resolves separately to 398be8e15888515412b714b61b4f28af229627d3. Prefix search returned unrelated collisions and did not establish a benchmark commit."
+        },
+        {
+          "code": "native_prompt_missing",
+          "detail": "Public descriptions and result keys are not the exact runnable prompt and task registry."
+        },
+        {
+          "code": "task_data_distribution_not_located",
+          "detail": "No download URL or exact native data manifest was located for the selected task. No task training or protected evaluation bytes were acquired."
+        },
+        {
+          "code": "environment_definition_missing",
+          "detail": "No selected-task container, dependency lock or native environment package was acquired."
+        },
+        {
+          "code": "native_grader_missing",
+          "detail": "No native selected-task scorer, protected reference assets or full feedback/hint protocol implementation was acquired."
+        }
+      ],
+      "full_runnable_package_verified": false,
+      "runtime_qualified": false,
+      "admitted": false
+    },
+    {
+      "slot_id": "weirdml-02",
+      "family_id": "weirdml",
+      "candidate_id": "ship_detect",
+      "selection_status": "draft_for_review",
+      "identity_kind": "published_results_key_only",
+      "proposed_configuration_id": "ship_detect",
+      "runnable_task_id": null,
+      "acquisition_status": "blocked_upstream_distribution_not_located",
+      "source_pins": {
+        "website_repository": "https://github.com/htihle/htihle.github.io",
+        "website_commit": "398be8e15888515412b714b61b4f28af229627d3",
+        "benchmark_source_commit_prefix": "fd5d5d5",
+        "benchmark_registry_commit_prefix": "fd5d5d5",
+        "benchmark_full_commit": null,
+        "prompt_version_from_published_metadata": "v2.3",
+        "score_era_from_published_metadata": "2026-09-12"
+      },
+      "assets": [
+        {
+          "path": "/private/tmp/agenttime-assets-20261002/weirdml/website/398be8e15888515412b714b61b4f28af229627d3/data/weirdml_v3_results.json",
+          "relative_path": "website/398be8e15888515412b714b61b4f28af229627d3/data/weirdml_v3_results.json",
+          "bytes": 4181915,
+          "sha256": "7c13332f090158ac7ca376d8e221c142a53c3977b09eea39c3c7ec4d2dc56298",
+          "role": "published_task_metadata_and_results_only",
+          "eligible_as_task_input": false,
+          "json_pointer": "/tasks/ship_detect"
+        },
+        {
+          "path": "/private/tmp/agenttime-assets-20261002/weirdml/website/398be8e15888515412b714b61b4f28af229627d3/weirdml_scoring.md",
+          "relative_path": "website/398be8e15888515412b714b61b4f28af229627d3/weirdml_scoring.md",
+          "bytes": 5145,
+          "sha256": "4bc665e4e6149ef9834f1e6ad64db1e7127947e017904913cedebc9b78c1fcf5",
+          "role": "public_scoring_description_only",
+          "eligible_as_task_input": false
+        },
+        {
+          "path": "/private/tmp/agenttime-assets-20261002/weirdml/website/398be8e15888515412b714b61b4f28af229627d3/weirdml_tasks.md",
+          "relative_path": "website/398be8e15888515412b714b61b4f28af229627d3/weirdml_tasks.md",
+          "bytes": 22128,
+          "sha256": "4be0dcce6bcd934bd37ef6e0302aed5cb01948c9dfcab8852eb34a8b343886af",
+          "role": "public_example_description_only",
+          "eligible_as_task_input": false
+        }
+      ],
+      "native_task_assets": [],
+      "native_task_asset_bytes": 0,
+      "published_data_description": {
+        "source_anchor": "#ship_detect",
+        "known_required_assets": [
+          "5000 degraded rendered images",
+          "8386 additional clean renders",
+          "protected reference bounding boxes and categories"
+        ],
+        "data_location": null
+      },
+      "components": {
+        "prompt": {
+          "status": "missing",
+          "native_package_acquired": false
+        },
+        "assets": {
+          "status": "missing",
+          "native_package_acquired": false
+        },
+        "environment": {
+          "status": "missing",
+          "native_package_acquired": false
+        },
+        "grader": {
+          "status": "missing",
+          "native_package_acquired": false
+        }
+      },
+      "remaining_gaps": [
+        {
+          "code": "full_benchmark_source_not_located",
+          "detail": "No official public WeirdML v3 runnable repository or release was located in the inspected author repositories, official website tree, website releases, repository search, or dataset search. A source repository or owner-supplied release is required."
+        },
+        {
+          "code": "full_source_pin_unresolved",
+          "detail": "Published benchmark source and registry revision fd5d5d5 remain short prefixes. The official website resolves separately to 398be8e15888515412b714b61b4f28af229627d3. Prefix search returned unrelated collisions and did not establish a benchmark commit."
+        },
+        {
+          "code": "native_prompt_missing",
+          "detail": "Public descriptions and result keys are not the exact runnable prompt and task registry."
+        },
+        {
+          "code": "task_data_distribution_not_located",
+          "detail": "No download URL or exact native data manifest was located for the selected task. No task training or protected evaluation bytes were acquired."
+        },
+        {
+          "code": "environment_definition_missing",
+          "detail": "No selected-task container, dependency lock or native environment package was acquired."
+        },
+        {
+          "code": "native_grader_missing",
+          "detail": "No native selected-task scorer, protected reference assets or full feedback/hint protocol implementation was acquired."
+        }
+      ],
+      "full_runnable_package_verified": false,
+      "runtime_qualified": false,
+      "admitted": false
+    },
+    {
+      "slot_id": "weirdml-03",
+      "family_id": "weirdml",
+      "candidate_id": "tod_pipeline",
+      "selection_status": "draft_for_review",
+      "identity_kind": "published_results_key_only",
+      "proposed_configuration_id": "tod_pipeline--nohints",
+      "runnable_task_id": null,
+      "acquisition_status": "blocked_upstream_distribution_not_located",
+      "source_pins": {
+        "website_repository": "https://github.com/htihle/htihle.github.io",
+        "website_commit": "398be8e15888515412b714b61b4f28af229627d3",
+        "benchmark_source_commit_prefix": "fd5d5d5",
+        "benchmark_registry_commit_prefix": "fd5d5d5",
+        "benchmark_full_commit": null,
+        "prompt_version_from_published_metadata": "v1.8",
+        "score_era_from_published_metadata": "2026-09-12"
+      },
+      "assets": [
+        {
+          "path": "/private/tmp/agenttime-assets-20261002/weirdml/website/398be8e15888515412b714b61b4f28af229627d3/data/weirdml_v3_results.json",
+          "relative_path": "website/398be8e15888515412b714b61b4f28af229627d3/data/weirdml_v3_results.json",
+          "bytes": 4181915,
+          "sha256": "7c13332f090158ac7ca376d8e221c142a53c3977b09eea39c3c7ec4d2dc56298",
+          "role": "published_task_metadata_and_results_only",
+          "eligible_as_task_input": false,
+          "json_pointer": "/tasks/tod_pipeline"
+        },
+        {
+          "path": "/private/tmp/agenttime-assets-20261002/weirdml/website/398be8e15888515412b714b61b4f28af229627d3/weirdml_scoring.md",
+          "relative_path": "website/398be8e15888515412b714b61b4f28af229627d3/weirdml_scoring.md",
+          "bytes": 5145,
+          "sha256": "4bc665e4e6149ef9834f1e6ad64db1e7127947e017904913cedebc9b78c1fcf5",
+          "role": "public_scoring_description_only",
+          "eligible_as_task_input": false
+        },
+        {
+          "path": "/private/tmp/agenttime-assets-20261002/weirdml/website/398be8e15888515412b714b61b4f28af229627d3/weirdml_tasks.md",
+          "relative_path": "website/398be8e15888515412b714b61b4f28af229627d3/weirdml_tasks.md",
+          "bytes": 22128,
+          "sha256": "4be0dcce6bcd934bd37ef6e0302aed5cb01948c9dfcab8852eb34a8b343886af",
+          "role": "public_example_description_only",
+          "eligible_as_task_input": false
+        }
+      ],
+      "native_task_assets": [],
+      "native_task_asset_bytes": 0,
+      "published_data_description": {
+        "source_anchor": "#tod_pipeline",
+        "known_required_assets": [
+          "three delivered telescope scans with pointing, timestamps, weather and vane data",
+          "instrument and beam assets, planet information and fixed map binner",
+          "eleven withheld scans and protected sky map"
+        ],
+        "data_location": null
+      },
+      "components": {
+        "prompt": {
+          "status": "missing",
+          "native_package_acquired": false
+        },
+        "assets": {
+          "status": "missing",
+          "native_package_acquired": false
+        },
+        "environment": {
+          "status": "missing",
+          "native_package_acquired": false
+        },
+        "grader": {
+          "status": "missing",
+          "native_package_acquired": false
+        }
+      },
+      "remaining_gaps": [
+        {
+          "code": "full_benchmark_source_not_located",
+          "detail": "No official public WeirdML v3 runnable repository or release was located in the inspected author repositories, official website tree, website releases, repository search, or dataset search. A source repository or owner-supplied release is required."
+        },
+        {
+          "code": "full_source_pin_unresolved",
+          "detail": "Published benchmark source and registry revision fd5d5d5 remain short prefixes. The official website resolves separately to 398be8e15888515412b714b61b4f28af229627d3. Prefix search returned unrelated collisions and did not establish a benchmark commit."
+        },
+        {
+          "code": "native_prompt_missing",
+          "detail": "Public descriptions and result keys are not the exact runnable prompt and task registry."
+        },
+        {
+          "code": "task_data_distribution_not_located",
+          "detail": "No download URL or exact native data manifest was located for the selected task. No task training or protected evaluation bytes were acquired."
+        },
+        {
+          "code": "environment_definition_missing",
+          "detail": "No selected-task container, dependency lock or native environment package was acquired."
+        },
+        {
+          "code": "native_grader_missing",
+          "detail": "No native selected-task scorer, protected reference assets or full feedback/hint protocol implementation was acquired."
+        }
+      ],
+      "full_runnable_package_verified": false,
+      "runtime_qualified": false,
+      "admitted": false
+    },
+    {
+      "slot_id": "weirdml-04",
+      "family_id": "weirdml",
+      "candidate_id": "weirdml_bonanza",
+      "selection_status": "draft_for_review",
+      "identity_kind": "published_results_key_only",
+      "proposed_configuration_id": "weirdml_bonanza",
+      "runnable_task_id": null,
+      "acquisition_status": "blocked_upstream_distribution_not_located",
+      "source_pins": {
+        "website_repository": "https://github.com/htihle/htihle.github.io",
+        "website_commit": "398be8e15888515412b714b61b4f28af229627d3",
+        "benchmark_source_commit_prefix": "fd5d5d5",
+        "benchmark_registry_commit_prefix": "fd5d5d5",
+        "benchmark_full_commit": null,
+        "prompt_version_from_published_metadata": "v1.1",
+        "score_era_from_published_metadata": "2026-09-10"
+      },
+      "assets": [
+        {
+          "path": "/private/tmp/agenttime-assets-20261002/weirdml/website/398be8e15888515412b714b61b4f28af229627d3/data/weirdml_v3_results.json",
+          "relative_path": "website/398be8e15888515412b714b61b4f28af229627d3/data/weirdml_v3_results.json",
+          "bytes": 4181915,
+          "sha256": "7c13332f090158ac7ca376d8e221c142a53c3977b09eea39c3c7ec4d2dc56298",
+          "role": "published_task_metadata_and_results_only",
+          "eligible_as_task_input": false,
+          "json_pointer": "/tasks/weirdml_bonanza"
+        },
+        {
+          "path": "/private/tmp/agenttime-assets-20261002/weirdml/website/398be8e15888515412b714b61b4f28af229627d3/weirdml_scoring.md",
+          "relative_path": "website/398be8e15888515412b714b61b4f28af229627d3/weirdml_scoring.md",
+          "bytes": 5145,
+          "sha256": "4bc665e4e6149ef9834f1e6ad64db1e7127947e017904913cedebc9b78c1fcf5",
+          "role": "public_scoring_description_only",
+          "eligible_as_task_input": false
+        },
+        {
+          "path": "/private/tmp/agenttime-assets-20261002/weirdml/website/398be8e15888515412b714b61b4f28af229627d3/weirdml_tasks.md",
+          "relative_path": "website/398be8e15888515412b714b61b4f28af229627d3/weirdml_tasks.md",
+          "bytes": 22128,
+          "sha256": "4be0dcce6bcd934bd37ef6e0302aed5cb01948c9dfcab8852eb34a8b343886af",
+          "role": "public_example_description_only",
+          "eligible_as_task_input": false
+        }
+      ],
+      "native_task_assets": [],
+      "native_task_asset_bytes": 0,
+      "published_data_description": {
+        "source_anchor": "#weirdml_bonanza",
+        "known_required_assets": [
+          "17 anonymous task folders with native descriptions and training files, approximately 440 MB according to the official page",
+          "withheld test inputs, protected labels and exact mapping of the 17 task folders"
+        ],
+        "data_location": null
+      },
+      "components": {
+        "prompt": {
+          "status": "missing",
+          "native_package_acquired": false
+        },
+        "assets": {
+          "status": "missing",
+          "native_package_acquired": false
+        },
+        "environment": {
+          "status": "missing",
+          "native_package_acquired": false
+        },
+        "grader": {
+          "status": "missing",
+          "native_package_acquired": false
+        }
+      },
+      "remaining_gaps": [
+        {
+          "code": "full_benchmark_source_not_located",
+          "detail": "No official public WeirdML v3 runnable repository or release was located in the inspected author repositories, official website tree, website releases, repository search, or dataset search. A source repository or owner-supplied release is required."
+        },
+        {
+          "code": "full_source_pin_unresolved",
+          "detail": "Published benchmark source and registry revision fd5d5d5 remain short prefixes. The official website resolves separately to 398be8e15888515412b714b61b4f28af229627d3. Prefix search returned unrelated collisions and did not establish a benchmark commit."
+        },
+        {
+          "code": "native_prompt_missing",
+          "detail": "Public descriptions and result keys are not the exact runnable prompt and task registry."
+        },
+        {
+          "code": "task_data_distribution_not_located",
+          "detail": "No download URL or exact native data manifest was located for the selected task. No task training or protected evaluation bytes were acquired."
+        },
+        {
+          "code": "environment_definition_missing",
+          "detail": "No selected-task container, dependency lock or native environment package was acquired."
+        },
+        {
+          "code": "native_grader_missing",
+          "detail": "No native selected-task scorer, protected reference assets or full feedback/hint protocol implementation was acquired."
+        }
+      ],
+      "full_runnable_package_verified": false,
+      "runtime_qualified": false,
+      "admitted": false
+    },
+    {
+      "slot_id": "weirdml-05",
+      "family_id": "weirdml",
+      "candidate_id": "scan_stitch",
+      "selection_status": "draft_for_review",
+      "identity_kind": "published_results_key_only",
+      "proposed_configuration_id": "scan_stitch",
+      "runnable_task_id": null,
+      "acquisition_status": "blocked_upstream_distribution_not_located",
+      "source_pins": {
+        "website_repository": "https://github.com/htihle/htihle.github.io",
+        "website_commit": "398be8e15888515412b714b61b4f28af229627d3",
+        "benchmark_source_commit_prefix": "fd5d5d5",
+        "benchmark_registry_commit_prefix": "fd5d5d5",
+        "benchmark_full_commit": null,
+        "prompt_version_from_published_metadata": "v1.1",
+        "score_era_from_published_metadata": "2026-09-07"
+      },
+      "assets": [
+        {
+          "path": "/private/tmp/agenttime-assets-20261002/weirdml/website/398be8e15888515412b714b61b4f28af229627d3/data/weirdml_v3_results.json",
+          "relative_path": "website/398be8e15888515412b714b61b4f28af229627d3/data/weirdml_v3_results.json",
+          "bytes": 4181915,
+          "sha256": "7c13332f090158ac7ca376d8e221c142a53c3977b09eea39c3c7ec4d2dc56298",
+          "role": "published_task_metadata_and_results_only",
+          "eligible_as_task_input": false,
+          "json_pointer": "/tasks/scan_stitch"
+        },
+        {
+          "path": "/private/tmp/agenttime-assets-20261002/weirdml/website/398be8e15888515412b714b61b4f28af229627d3/weirdml_scoring.md",
+          "relative_path": "website/398be8e15888515412b714b61b4f28af229627d3/weirdml_scoring.md",
+          "bytes": 5145,
+          "sha256": "4bc665e4e6149ef9834f1e6ad64db1e7127947e017904913cedebc9b78c1fcf5",
+          "role": "public_scoring_description_only",
+          "eligible_as_task_input": false
+        }
+      ],
+      "native_task_assets": [],
+      "native_task_asset_bytes": 0,
+      "published_data_description": {
+        "known_required_assets": [],
+        "data_location": null,
+        "detail": "Only result metadata was located for this selected key; exact assets remain unknown."
+      },
+      "components": {
+        "prompt": {
+          "status": "missing",
+          "native_package_acquired": false
+        },
+        "assets": {
+          "status": "missing",
+          "native_package_acquired": false
+        },
+        "environment": {
+          "status": "missing",
+          "native_package_acquired": false
+        },
+        "grader": {
+          "status": "missing",
+          "native_package_acquired": false
+        }
+      },
+      "remaining_gaps": [
+        {
+          "code": "full_benchmark_source_not_located",
+          "detail": "No official public WeirdML v3 runnable repository or release was located in the inspected author repositories, official website tree, website releases, repository search, or dataset search. A source repository or owner-supplied release is required."
+        },
+        {
+          "code": "full_source_pin_unresolved",
+          "detail": "Published benchmark source and registry revision fd5d5d5 remain short prefixes. The official website resolves separately to 398be8e15888515412b714b61b4f28af229627d3. Prefix search returned unrelated collisions and did not establish a benchmark commit."
+        },
+        {
+          "code": "native_prompt_missing",
+          "detail": "Public descriptions and result keys are not the exact runnable prompt and task registry."
+        },
+        {
+          "code": "task_data_distribution_not_located",
+          "detail": "No download URL or exact native data manifest was located for the selected task. No task training or protected evaluation bytes were acquired."
+        },
+        {
+          "code": "environment_definition_missing",
+          "detail": "No selected-task container, dependency lock or native environment package was acquired."
+        },
+        {
+          "code": "native_grader_missing",
+          "detail": "No native selected-task scorer, protected reference assets or full feedback/hint protocol implementation was acquired."
+        }
+      ],
+      "full_runnable_package_verified": false,
+      "runtime_qualified": false,
+      "admitted": false
+    },
+    {
+      "slot_id": "weirdml-06",
+      "family_id": "weirdml",
+      "candidate_id": "ship_tune",
+      "selection_status": "draft_for_review",
+      "identity_kind": "published_results_key_only",
+      "proposed_configuration_id": "ship_tune",
+      "runnable_task_id": null,
+      "acquisition_status": "blocked_upstream_distribution_not_located",
+      "source_pins": {
+        "website_repository": "https://github.com/htihle/htihle.github.io",
+        "website_commit": "398be8e15888515412b714b61b4f28af229627d3",
+        "benchmark_source_commit_prefix": "fd5d5d5",
+        "benchmark_registry_commit_prefix": "fd5d5d5",
+        "benchmark_full_commit": null,
+        "prompt_version_from_published_metadata": "v1.4",
+        "score_era_from_published_metadata": "2026-09-07"
+      },
+      "assets": [
+        {
+          "path": "/private/tmp/agenttime-assets-20261002/weirdml/website/398be8e15888515412b714b61b4f28af229627d3/data/weirdml_v3_results.json",
+          "relative_path": "website/398be8e15888515412b714b61b4f28af229627d3/data/weirdml_v3_results.json",
+          "bytes": 4181915,
+          "sha256": "7c13332f090158ac7ca376d8e221c142a53c3977b09eea39c3c7ec4d2dc56298",
+          "role": "published_task_metadata_and_results_only",
+          "eligible_as_task_input": false,
+          "json_pointer": "/tasks/ship_tune"
+        },
+        {
+          "path": "/private/tmp/agenttime-assets-20261002/weirdml/website/398be8e15888515412b714b61b4f28af229627d3/weirdml_scoring.md",
+          "relative_path": "website/398be8e15888515412b714b61b4f28af229627d3/weirdml_scoring.md",
+          "bytes": 5145,
+          "sha256": "4bc665e4e6149ef9834f1e6ad64db1e7127947e017904913cedebc9b78c1fcf5",
+          "role": "public_scoring_description_only",
+          "eligible_as_task_input": false
+        }
+      ],
+      "native_task_assets": [],
+      "native_task_asset_bytes": 0,
+      "published_data_description": {
+        "known_required_assets": [],
+        "data_location": null,
+        "detail": "Only result metadata was located for this selected key; exact assets remain unknown."
+      },
+      "components": {
+        "prompt": {
+          "status": "missing",
+          "native_package_acquired": false
+        },
+        "assets": {
+          "status": "missing",
+          "native_package_acquired": false
+        },
+        "environment": {
+          "status": "missing",
+          "native_package_acquired": false
+        },
+        "grader": {
+          "status": "missing",
+          "native_package_acquired": false
+        }
+      },
+      "remaining_gaps": [
+        {
+          "code": "full_benchmark_source_not_located",
+          "detail": "No official public WeirdML v3 runnable repository or release was located in the inspected author repositories, official website tree, website releases, repository search, or dataset search. A source repository or owner-supplied release is required."
+        },
+        {
+          "code": "full_source_pin_unresolved",
+          "detail": "Published benchmark source and registry revision fd5d5d5 remain short prefixes. The official website resolves separately to 398be8e15888515412b714b61b4f28af229627d3. Prefix search returned unrelated collisions and did not establish a benchmark commit."
+        },
+        {
+          "code": "native_prompt_missing",
+          "detail": "Public descriptions and result keys are not the exact runnable prompt and task registry."
+        },
+        {
+          "code": "task_data_distribution_not_located",
+          "detail": "No download URL or exact native data manifest was located for the selected task. No task training or protected evaluation bytes were acquired."
+        },
+        {
+          "code": "environment_definition_missing",
+          "detail": "No selected-task container, dependency lock or native environment package was acquired."
+        },
+        {
+          "code": "native_grader_missing",
+          "detail": "No native selected-task scorer, protected reference assets or full feedback/hint protocol implementation was acquired."
+        }
+      ],
+      "full_runnable_package_verified": false,
+      "runtime_qualified": false,
+      "admitted": false
+    },
+    {
+      "slot_id": "weirdml-07",
+      "family_id": "weirdml",
+      "candidate_id": "night_school",
+      "selection_status": "draft_for_review",
+      "identity_kind": "published_results_key_only",
+      "proposed_configuration_id": "night_school",
+      "runnable_task_id": null,
+      "acquisition_status": "blocked_upstream_distribution_not_located",
+      "source_pins": {
+        "website_repository": "https://github.com/htihle/htihle.github.io",
+        "website_commit": "398be8e15888515412b714b61b4f28af229627d3",
+        "benchmark_source_commit_prefix": "fd5d5d5",
+        "benchmark_registry_commit_prefix": "fd5d5d5",
+        "benchmark_full_commit": null,
+        "prompt_version_from_published_metadata": "v2.5",
+        "score_era_from_published_metadata": "2026-09-07"
+      },
+      "assets": [
+        {
+          "path": "/private/tmp/agenttime-assets-20261002/weirdml/website/398be8e15888515412b714b61b4f28af229627d3/data/weirdml_v3_results.json",
+          "relative_path": "website/398be8e15888515412b714b61b4f28af229627d3/data/weirdml_v3_results.json",
+          "bytes": 4181915,
+          "sha256": "7c13332f090158ac7ca376d8e221c142a53c3977b09eea39c3c7ec4d2dc56298",
+          "role": "published_task_metadata_and_results_only",
+          "eligible_as_task_input": false,
+          "json_pointer": "/tasks/night_school"
+        },
+        {
+          "path": "/private/tmp/agenttime-assets-20261002/weirdml/website/398be8e15888515412b714b61b4f28af229627d3/weirdml_scoring.md",
+          "relative_path": "website/398be8e15888515412b714b61b4f28af229627d3/weirdml_scoring.md",
+          "bytes": 5145,
+          "sha256": "4bc665e4e6149ef9834f1e6ad64db1e7127947e017904913cedebc9b78c1fcf5",
+          "role": "public_scoring_description_only",
+          "eligible_as_task_input": false
+        }
+      ],
+      "native_task_assets": [],
+      "native_task_asset_bytes": 0,
+      "published_data_description": {
+        "known_required_assets": [],
+        "data_location": null,
+        "detail": "Only result metadata was located for this selected key; exact assets remain unknown."
+      },
+      "components": {
+        "prompt": {
+          "status": "missing",
+          "native_package_acquired": false
+        },
+        "assets": {
+          "status": "missing",
+          "native_package_acquired": false
+        },
+        "environment": {
+          "status": "missing",
+          "native_package_acquired": false
+        },
+        "grader": {
+          "status": "missing",
+          "native_package_acquired": false
+        }
+      },
+      "remaining_gaps": [
+        {
+          "code": "full_benchmark_source_not_located",
+          "detail": "No official public WeirdML v3 runnable repository or release was located in the inspected author repositories, official website tree, website releases, repository search, or dataset search. A source repository or owner-supplied release is required."
+        },
+        {
+          "code": "full_source_pin_unresolved",
+          "detail": "Published benchmark source and registry revision fd5d5d5 remain short prefixes. The official website resolves separately to 398be8e15888515412b714b61b4f28af229627d3. Prefix search returned unrelated collisions and did not establish a benchmark commit."
+        },
+        {
+          "code": "native_prompt_missing",
+          "detail": "Public descriptions and result keys are not the exact runnable prompt and task registry."
+        },
+        {
+          "code": "task_data_distribution_not_located",
+          "detail": "No download URL or exact native data manifest was located for the selected task. No task training or protected evaluation bytes were acquired."
+        },
+        {
+          "code": "environment_definition_missing",
+          "detail": "No selected-task container, dependency lock or native environment package was acquired."
+        },
+        {
+          "code": "native_grader_missing",
+          "detail": "No native selected-task scorer, protected reference assets or full feedback/hint protocol implementation was acquired."
+        }
+      ],
+      "full_runnable_package_verified": false,
+      "runtime_qualified": false,
+      "admitted": false
+    },
+    {
+      "slot_id": "weirdml-08",
+      "family_id": "weirdml",
+      "candidate_id": "reaction_rates",
+      "selection_status": "draft_for_review",
+      "identity_kind": "published_results_key_only",
+      "proposed_configuration_id": "reaction_rates",
+      "runnable_task_id": null,
+      "acquisition_status": "blocked_upstream_distribution_not_located",
+      "source_pins": {
+        "website_repository": "https://github.com/htihle/htihle.github.io",
+        "website_commit": "398be8e15888515412b714b61b4f28af229627d3",
+        "benchmark_source_commit_prefix": "fd5d5d5",
+        "benchmark_registry_commit_prefix": "fd5d5d5",
+        "benchmark_full_commit": null,
+        "prompt_version_from_published_metadata": "v1.5",
+        "score_era_from_published_metadata": "2026-09-07"
+      },
+      "assets": [
+        {
+          "path": "/private/tmp/agenttime-assets-20261002/weirdml/website/398be8e15888515412b714b61b4f28af229627d3/data/weirdml_v3_results.json",
+          "relative_path": "website/398be8e15888515412b714b61b4f28af229627d3/data/weirdml_v3_results.json",
+          "bytes": 4181915,
+          "sha256": "7c13332f090158ac7ca376d8e221c142a53c3977b09eea39c3c7ec4d2dc56298",
+          "role": "published_task_metadata_and_results_only",
+          "eligible_as_task_input": false,
+          "json_pointer": "/tasks/reaction_rates"
+        },
+        {
+          "path": "/private/tmp/agenttime-assets-20261002/weirdml/website/398be8e15888515412b714b61b4f28af229627d3/weirdml_scoring.md",
+          "relative_path": "website/398be8e15888515412b714b61b4f28af229627d3/weirdml_scoring.md",
+          "bytes": 5145,
+          "sha256": "4bc665e4e6149ef9834f1e6ad64db1e7127947e017904913cedebc9b78c1fcf5",
+          "role": "public_scoring_description_only",
+          "eligible_as_task_input": false
+        }
+      ],
+      "native_task_assets": [],
+      "native_task_asset_bytes": 0,
+      "published_data_description": {
+        "known_required_assets": [],
+        "data_location": null,
+        "detail": "Only result metadata was located for this selected key; exact assets remain unknown."
+      },
+      "components": {
+        "prompt": {
+          "status": "missing",
+          "native_package_acquired": false
+        },
+        "assets": {
+          "status": "missing",
+          "native_package_acquired": false
+        },
+        "environment": {
+          "status": "missing",
+          "native_package_acquired": false
+        },
+        "grader": {
+          "status": "missing",
+          "native_package_acquired": false
+        }
+      },
+      "remaining_gaps": [
+        {
+          "code": "full_benchmark_source_not_located",
+          "detail": "No official public WeirdML v3 runnable repository or release was located in the inspected author repositories, official website tree, website releases, repository search, or dataset search. A source repository or owner-supplied release is required."
+        },
+        {
+          "code": "full_source_pin_unresolved",
+          "detail": "Published benchmark source and registry revision fd5d5d5 remain short prefixes. The official website resolves separately to 398be8e15888515412b714b61b4f28af229627d3. Prefix search returned unrelated collisions and did not establish a benchmark commit."
+        },
+        {
+          "code": "native_prompt_missing",
+          "detail": "Public descriptions and result keys are not the exact runnable prompt and task registry."
+        },
+        {
+          "code": "task_data_distribution_not_located",
+          "detail": "No download URL or exact native data manifest was located for the selected task. No task training or protected evaluation bytes were acquired."
+        },
+        {
+          "code": "environment_definition_missing",
+          "detail": "No selected-task container, dependency lock or native environment package was acquired."
+        },
+        {
+          "code": "native_grader_missing",
+          "detail": "No native selected-task scorer, protected reference assets or full feedback/hint protocol implementation was acquired."
+        }
+      ],
+      "full_runnable_package_verified": false,
+      "runtime_qualified": false,
+      "admitted": false
+    }
+  ],
+  "remaining_gaps": [
+    {
+      "code": "full_benchmark_source_not_located",
+      "detail": "No official public WeirdML v3 runnable repository or release was located in the inspected author repositories, official website tree, website releases, repository search, or dataset search. A source repository or owner-supplied release is required."
+    },
+    {
+      "code": "full_source_pin_unresolved",
+      "detail": "Published benchmark source and registry revision fd5d5d5 remain short prefixes. The official website resolves separately to 398be8e15888515412b714b61b4f28af229627d3. Prefix search returned unrelated collisions and did not establish a benchmark commit."
+    },
+    {
+      "code": "native_prompt_missing",
+      "detail": "Public descriptions and result keys are not the exact runnable prompt and task registry."
+    },
+    {
+      "code": "task_data_distribution_not_located",
+      "detail": "No download URL or exact native data manifest was located for the selected task. No task training or protected evaluation bytes were acquired."
+    },
+    {
+      "code": "environment_definition_missing",
+      "detail": "No selected-task container, dependency lock or native environment package was acquired."
+    },
+    {
+      "code": "native_grader_missing",
+      "detail": "No native selected-task scorer, protected reference assets or full feedback/hint protocol implementation was acquired."
+    }
+  ],
+  "unblock_requirement": "Obtain the official WeirdML v3 repository/release URL or an owner-supplied source and data package, including a full source revision, exact selected-task assets, prompts, environment definition and native graders. No author contact or access-grant request was made.",
+  "discovery_limit": "This is an observed public-distribution blocker, not a claim that the benchmark code/data do not exist or that private access has been tested.",
+  "receipt": {
+    "path": "/private/tmp/agenttime-assets-20261002/weirdml/download-receipts.json",
+    "relative_path": "download-receipts.json",
+    "bytes": 24547,
+    "sha256": "59ff2383cda6da765267392375474ddf481bac80645f75e1bc0534f78d98f217",
+    "role": "download_sha256_receipts",
+    "eligible_as_task_input": false
+  },
+  "file_manifest": {
+    "path": "/private/tmp/agenttime-assets-20261002/weirdml/file-manifest.json",
+    "relative_path": "file-manifest.json",
+    "bytes": 18911,
+    "sha256": "edeb9031df9a3799aca0f3aa6f3623a1c99256691191065d3e8a59cb42936394",
+    "role": "all_downloaded_file_hashes",
+    "eligible_as_task_input": false
+  },
+  "verification": {
+    "path": "/private/tmp/agenttime-assets-20261002/weirdml/verification.json",
+    "relative_path": "verification.json",
+    "bytes": 8770,
+    "sha256": "afa0100c33d869b07ea6ee9a4ee1e8e7ec26e170a83e5e894d80ad799a2c2cce",
+    "role": "fresh_integrity_verification",
+    "eligible_as_task_input": false
+  },
+  "source_links": [
+    "https://htihle.github.io/weirdml.html",
+    "https://htihle.github.io/weirdml_tasks.html",
+    "https://github.com/htihle/htihle.github.io/tree/398be8e15888515412b714b61b4f28af229627d3",
+    "https://github.com/htihle/weirdml-time-horizons/tree/965c7f11d843eac3c81a22a62c3cef2a9c0be7f8"
+  ]
+}

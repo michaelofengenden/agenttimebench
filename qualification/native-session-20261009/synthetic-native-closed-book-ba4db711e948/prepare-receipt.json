@@ -1,0 +1,14 @@
+{
+  "baseline_sha256": "13557eb687e935b7bbc6114669ec1831b641a15f6c7378991fec3e6ea2a57b2a",
+  "baseline_path": "/tmp/at-native/baseline.json",
+  "session_id": "f8138d80-db36-407e-abaa-4972f26e9c79",
+  "readiness": {
+    "study_ready": false,
+    "native_tools_qualified": false,
+    "native_restore_qualified": false,
+    "native_fork_qualified": false,
+    "recovery_qualified": false,
+    "initial_native_state_qualified": false,
+    "descendant_capabilities_qualified": false
+  }
+}

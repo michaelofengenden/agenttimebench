@@ -1,0 +1,12 @@
+{
+  "schema_version": "agenttime.natural-release-authorization.v1",
+  "attempt_id": "5c831bf8-b1d5-4d42-99ae-8aa9270dbf6a",
+  "identity_sha256": "5785c959daa316fa02484cfe8b1a0a483a45cffc649d21dd1bdebee47c25c7c7",
+  "spec_sha256": "f44ebcd33d2c2466858ecff3d036120fd6dc040498f76050e66bd38163807df2",
+  "input_sha256": "3530a98a4b7faf094f6a3d8eb30f2e9361deedab3020486970569342e98e89e4",
+  "baseline_ack_sha256": "d7f1fdfcbefa44b2e3fe20d9607a9db10442394886ed8a84140d110d26b4e9e6",
+  "authorization_id": "a3d73ad8-b737-4a33-a5c0-5f481684b222",
+  "campaign_id": "synthetic-production-f7ae9f834feb",
+  "manifest_sha256": "b2eb0427453f6a77d24c3d59e7edcd180f53052072e550c491a639f505ed6c8e",
+  "ledger_authorized": true
+}

@@ -1,0 +1,1 @@
+This is a synthetic browser infrastructure check. Navigate to https://example.com/, observe its main heading, submit that heading with send_msg_to_user, then finish. Do not use other websites.

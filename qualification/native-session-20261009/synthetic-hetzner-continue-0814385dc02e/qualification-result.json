@@ -1,0 +1,80 @@
+{
+  "archive_inventory_sha256": "5384b6d91edd30624b19a784ed8e0a87cbfdd100b3e4716f4b2bb3123834478f",
+  "archive_verified": true,
+  "automatic_retry": false,
+  "configured_authentication": "stdin_to_child_environment_only",
+  "execution": {
+    "cancelled": false,
+    "issues": [],
+    "native_terminal_monotonic_ns": 1557063111949,
+    "observed_native_init": {
+      "claude_code_version": "2.1.280",
+      "mcp_servers": [],
+      "model": "claude-opus-5-5[1m]",
+      "plugins": [],
+      "skills": [],
+      "tools": []
+    },
+    "owned_work_drained_monotonic_ns": 1557063111949,
+    "prompt_released_monotonic_ns": 1555153158590,
+    "readiness": {
+      "descendant_capabilities_qualified": false,
+      "initial_native_state_qualified": false,
+      "native_fork_qualified": false,
+      "native_restore_qualified": false,
+      "native_tools_qualified": false,
+      "recovery_qualified": false,
+      "study_ready": false
+    },
+    "result_monotonic_ns": 1557039456604,
+    "root_exit_code": 0,
+    "root_exit_monotonic_ns": 1557062454729,
+    "runtime_seconds": 1.909953359,
+    "sealed_answer_sha256": "047021250a26da3865c78420edc35203ce5e09bc52a4317a5c3e86a685bad4c5",
+    "session_id": "f8138d80-db36-407e-abaa-4972f26e9c79",
+    "timing_valid": true,
+    "usage_evidence": [
+      {
+        "isUsingOverage": false,
+        "overageDisabledReason": "group_zero_credit_limit",
+        "overageStatus": "rejected",
+        "rateLimitType": "five_hour",
+        "resetsAt": 1791575400,
+        "status": "allowed"
+      }
+    ]
+  },
+  "expected_session_id": "f8138d80-db36-407e-abaa-4972f26e9c79",
+  "helper_sha256": "efb9d8718312c1229a5f54e335443da19fbf65ef2d152197d2a4f7e66512c363",
+  "historical_source_sha256": "5a49c9a87cc763fc898849c304fa5fa9e13757a2e9e5da0f70c5670e2fa4b377",
+  "included_subscription_allowance_verified": true,
+  "independent_archive_acknowledged": false,
+  "inherited_context_verified": true,
+  "native_environment_evidence": "original_archived_request",
+  "native_environment_sha256": "e8a1718e75e9901cc22ff3386097b02dcd040923ef652a4030cefa7931b85bdf",
+  "native_fork_verified": false,
+  "native_restore_verified": true,
+  "native_target_environment_sha256": "16811c268b7826a6e4ed0ee132bc588e2c5a84ef6e84bd787de5e1514f598a4c",
+  "native_transcript_sha256": "2f95cfba85a5ed5c8521817fbcaa12adfa71f39d04fdeacf7f368f441099e75b",
+  "observed_session_id": "f8138d80-db36-407e-abaa-4972f26e9c79",
+  "operation": "continue",
+  "original_session_id": "f8138d80-db36-407e-abaa-4972f26e9c79",
+  "original_transcript_preserved": true,
+  "qualification_id": "synthetic-continue-437032a5cd9f471d",
+  "qualified": true,
+  "schema_version": "agenttime.synthetic-native-restore.v1",
+  "source_tree_sha256": "57831ddf7987cd91f2c0d7473767bae88c98e5d2ef74a324c814e92e3251f6d5",
+  "source_unchanged": true,
+  "study_ready": false,
+  "transport": {
+    "descendant_capabilities_qualified": false,
+    "issues": [],
+    "native_stream_response_ids": [
+      "msg_011CfrtEopgiTFGT3FKri46S"
+    ],
+    "request_count": 1,
+    "session_ids": [
+      "f8138d80-db36-407e-abaa-4972f26e9c79"
+    ]
+  }
+}

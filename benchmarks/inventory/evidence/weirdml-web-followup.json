@@ -1,0 +1,33 @@
+{
+  "checked_on": "2026-10-02",
+  "scope": "Broader public web search after user confirmed they do not have a private source link",
+  "queries": [
+    "WeirdML v3 benchmark github tasks dataset download",
+    "WeirdML fd5d5d5",
+    "WeirdML v3 code release",
+    "weirdml_bonanza shapes_generalize benchmark",
+    "WeirdML v3 download",
+    "WeirdML code and data",
+    "WeirdML not public private contact",
+    "WeirdML v3 site:x.com/htihle"
+  ],
+  "primary_sources": [
+    {
+      "url": "https://htihle.github.io/weirdml.html",
+      "finding": "Official v3 site provides results and links to descriptions/scoring; no runnable distribution found."
+    },
+    {
+      "url": "https://htihle.github.io/weirdml_tasks.html",
+      "finding": "Selected task descriptions, no full datasets/harness release link."
+    },
+    {
+      "url": "https://github.com/htihle",
+      "finding": "Public repository list inspected by acquisition lane; no relevant full v3 benchmark source found."
+    },
+    {
+      "url": "https://epoch.ai/benchmarks/weirdml-v3",
+      "finding": "Funder describes the v3 benchmark as creator administered and sources its public leaderboard."
+    }
+  ],
+  "conclusion": "No public runnable v3 release located in these searches. This is an access/discovery blocker, not evidence of permission to reconstruct or replace native tasks. Eight slots remain reserved pending owner source access or explicit replacement selection."
+}

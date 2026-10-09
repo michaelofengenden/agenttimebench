@@ -1,0 +1,847 @@
+{
+  "family_id": "hle",
+  "benchmark": "HLE Diamond",
+  "status": "draft_for_michael_review",
+  "source": {
+    "dataset": "cais/hle-diamond",
+    "revision": "04eeb7efa7e3e4f83a00cbd5ce436a38fd5dda23",
+    "split": "test",
+    "source_path": "/private/tmp/agenttime-inventory-20261002/gated-sources/hle-diamond/data/test-00000-of-00001.parquet",
+    "source_sha256": "2b3421909ac47580d8373d4e7e5a23f0f08365d2cfb54a13100ddfac4a961e87",
+    "source_bytes": 224204778,
+    "v11_cache_path": "/Users/michaelofengenden/Developer/TimeResearch/AgentTime-v1.1/benchmarks/cache/gated-inputs-20261002/hle-diamond/data/test-00000-of-00001.parquet",
+    "v11_cache_sha256": "2b3421909ac47580d8373d4e7e5a23f0f08365d2cfb54a13100ddfac4a961e87",
+    "download_receipt_path": "/private/tmp/agenttime-inventory-20261002/gated-sources/hle-diamond/download-receipt.json",
+    "download_receipt_sha256": "93dfe20443fa8b1a9180a8a0019ec7fd9e931c971837245b9dcf97b184278aa3",
+    "v11_import_receipt_path": "/Users/michaelofengenden/Developer/TimeResearch/AgentTime-v1.1/benchmarks/cache/gated-inputs-20261002/hle-diamond/import-receipt.json",
+    "download_and_cache_hashes_independently_verified": true,
+    "projected_columns_read": [
+      "id",
+      "partition",
+      "question",
+      "raw_subject",
+      "category",
+      "image"
+    ],
+    "excluded_from_projection": [
+      "answer",
+      "rationale",
+      "rationale_image",
+      "image_preview",
+      "author_name",
+      "canary",
+      "answer_type"
+    ]
+  },
+  "method": {
+    "seed": "agenttime-v1.1-review-20261002",
+    "rank_expression": "SHA256(UTF8(seed + NUL + \"hle-diamond\" + NUL + partition + NUL + exact_id))",
+    "sort": [
+      "rank_sha256 ascending",
+      "exact_id ascending"
+    ],
+    "selection": "Hash-rank all 500 rows in each partition; classify the prefix in order and stop after ten eligible rows. Excluded or pending rows are not selected.",
+    "conditional_equivalence": "For a fixed itemwise eligibility rule, scanning ranked candidates to the tenth eligible item gives the same selected IDs as screening the complete pool before ranking. The unreviewed suffix contributes no eligibility-count claim.",
+    "domain_policy": {
+      "exclude": [
+        "core_biology",
+        "core_clinical",
+        "core_cybersecurity"
+      ],
+      "basis": "Classify the knowledge or action required for full credit, not isolated vocabulary.",
+      "definitions": {
+        "core_biology": "Molecular, cellular, organismal, ecological, or wet-lab reasoning required for the answer.",
+        "core_clinical": "Diagnosis, treatment, medical triage, patient-specific advice, or health evidence synthesis required for the answer.",
+        "core_cybersecurity": "Vulnerability discovery, exploitation, malware, credential access, security controls, incident response, offensive or defensive network work, or analysis of a cryptographic security property."
+      },
+      "borderline_or_disagreement": "Keep a separate pending disposition and the evidence span. Existing policy assigns adjudication to Michael before final selection.",
+      "ordinary_math_cryptography": "Not automatically excluded unless a security property is required.",
+      "evidence": [
+        {
+          "role": "domain_rubric",
+          "path": "/Users/michaelofengenden/Developer/TimeResearch/AgentTimeExperiment/AGENTTIME_V4_SUITE_SELECTION_DESIGN.md",
+          "sha256": "c888543382ae6eee84c16fd5e75d1f424d0ea28574ff2c4f34c40aff53d0d36d",
+          "line_spans": [
+            [
+              18,
+              23
+            ],
+            [
+              74,
+              96
+            ]
+          ]
+        },
+        {
+          "role": "old_hle_roster",
+          "path": "/Users/michaelofengenden/Developer/TimeResearch/AgentTimeExperiment/lib/current-suite-roster.ts",
+          "sha256": "186c4631f9f4721ff9c07a9c30d8d44030cd1e15ff19621f136db536d84508f1",
+          "line_spans": [
+            [
+              376,
+              384
+            ]
+          ]
+        },
+        {
+          "role": "selected_v11_mix",
+          "path": "/Users/michaelofengenden/Developer/TimeResearch/AgentTime-v1.1/docs/TASK_MIX.md",
+          "sha256": "9cdb26cc37853dd755165f189d69283df57e62f2e26d00900317f5fbc1b90d9a",
+          "line_spans": [
+            [
+              24,
+              24
+            ]
+          ]
+        }
+      ],
+      "do_not_invent_filters": "Text-only, multiple-choice, and an HLE-Verified join were also properties of the old HLE roster. They are not subject exclusions and have not been silently imposed on the Diamond 10+10 plan."
+    },
+    "classification_scope": "Only the 21 rows in the classified prefixes have recorded domain decisions. All other rows remain unreviewed for eligibility.",
+    "inspection_scope_disclosure": "A private question preview included ranks 1 through 18 of each partition before the stopping prefixes were determined. The additional 15 previewed rows were not adjudicated and remain eligibility-unreviewed; they were not used to choose the prefix or its domain labels.",
+    "previewed_prefix_end_rank": {
+      "reasoning": 18,
+      "knowledge": 18
+    },
+    "not_applied_as_filters": [
+      "text-only",
+      "multiple-choice-only",
+      "HLE-Verified membership",
+      "image presence",
+      "answer content",
+      "difficulty",
+      "timing",
+      "study-model outcomes"
+    ],
+    "original_plan_path": "/private/tmp/agenttime-inventory-20261002/new-candidates/hle-diamond-selection-pending.json",
+    "original_plan_sha256": "bdb9e6910270a4dd1d85261be7e2705b9b2f3ba9f59d4286a68282bd9046ca65",
+    "original_plan_status_note": "The old pending plan predates the subsequently authorized source acquisition. Its seed and domain policy are reused; its historical access blocker is resolved by the verified local parquet.",
+    "screening_decisions_sha256": "9c91809b3f35f539663d8bc7baa7b60147b64bdf5a93362494ee66e0dc70f694",
+    "manual_classification_reproducibility": "The frozen per-ID decisions and question hashes reproduce this draft. Reclassification requires a revised decision ledger and may change selected IDs."
+  },
+  "integrity": {
+    "parquet_rows": 1000,
+    "unique_nonempty_ids": 1000,
+    "partition_counts": {
+      "reasoning": 500,
+      "knowledge": 500
+    },
+    "unique_ids_per_partition": {
+      "reasoning": 500,
+      "knowledge": 500
+    },
+    "cross_partition_duplicate_ids": 0,
+    "question_fields_nonempty": 1000,
+    "full_pool_image_present_count": 272,
+    "classified_count": 21,
+    "unreviewed_eligibility_count": 979,
+    "selected_count": 20,
+    "selected_image_count": 4,
+    "question_or_answer_text_written_to_artifacts": false,
+    "answer_or_rationale_columns_read": false,
+    "models_called": 0,
+    "benchmark_runs": 0,
+    "images_decoded_or_rendered": 0
+  },
+  "counts_by_partition": {
+    "reasoning": {
+      "original_count": 500,
+      "unique_id_count": 500,
+      "unavailable_count": 0,
+      "classified_prefix_end_rank": 10,
+      "classified_count": 10,
+      "unreviewed_eligibility_count": 490,
+      "screened_prefix_domain_removals": {
+        "core_biology": 0,
+        "core_clinical": 0,
+        "core_cybersecurity": 0
+      },
+      "screened_prefix_borderline_pending": 0,
+      "screened_prefix_eligible_count": 10,
+      "selected_count": 10,
+      "full_pool_eligible_count": null,
+      "full_pool_domain_removal_counts": null,
+      "image_present_count_full_partition": 153,
+      "selected_image_count": 3
+    },
+    "knowledge": {
+      "original_count": 500,
+      "unique_id_count": 500,
+      "unavailable_count": 0,
+      "classified_prefix_end_rank": 11,
+      "classified_count": 11,
+      "unreviewed_eligibility_count": 489,
+      "screened_prefix_domain_removals": {
+        "core_biology": 1,
+        "core_clinical": 0,
+        "core_cybersecurity": 0
+      },
+      "screened_prefix_borderline_pending": 0,
+      "screened_prefix_eligible_count": 10,
+      "selected_count": 10,
+      "full_pool_eligible_count": null,
+      "full_pool_domain_removal_counts": null,
+      "image_present_count_full_partition": 119,
+      "selected_image_count": 1
+    }
+  },
+  "full_pool_eligible_count": null,
+  "full_pool_removal_counts": null,
+  "runtime_ready": false,
+  "scientific_admitted": false,
+  "remaining_gaps": [
+    "Draft only: Michael and any required final reviewer lanes have not approved domain decisions or exact IDs.",
+    "Only the selected prefixes were classified. Full-pool eligible and excluded totals are unknown, not zero.",
+    "Four selected rows have encoded image input. Image decoding, legibility, full prompt rendering and final visual domain review remain unchecked.",
+    "No text-only or multiple-choice restriction was imposed; the v1.1 runner must preserve native response contracts.",
+    "Source category labels are retained verbatim and can be inaccurate. Eligibility uses required work, not category alone.",
+    "No reference answer or rationale was inspected. Official grading implementation, reference isolation, parser/judge behavior and scorer qualification remain unchecked.",
+    "No installed environment, benchmark execution, provider/model call, timing observation, grading result, or scientific admission is established."
+  ],
+  "screened_candidates": [
+    {
+      "id": "69a738a50a19a2f7b803ca97",
+      "partition": "reasoning",
+      "rank": 1,
+      "rank_sha256": "014f224579aafa6d8a6887135f793089d8d41bfc00288c68b7b454e0cf3b618e",
+      "raw_subject": "Artificial Intelligence",
+      "category": "Computer Science/AI",
+      "image_present": false,
+      "image_metadata": {
+        "present": false,
+        "encoding": "absent"
+      },
+      "question_sha256": "0b87c573d102f6a7f8b149ca15550a73a345bceea1b34b66fbafb358d83957b4",
+      "question_hash_definition": "SHA256 of exact UTF-8 question field, no normalization",
+      "question_character_count": 1821,
+      "eligibility_status": "eligible",
+      "selected": true,
+      "domain_label": "none",
+      "eligibility_rationale": "Requires mathematical properties of an activation function and neural-network training, without biological or security analysis.",
+      "reviewed_required_domain": "mathematics and machine learning",
+      "evidence_span": {
+        "field": "question",
+        "start_character": 0,
+        "end_character_exclusive": 1821,
+        "question_sha256": "0b87c573d102f6a7f8b149ca15550a73a345bceea1b34b66fbafb358d83957b4",
+        "verbatim_text_omitted": true
+      },
+      "review_basis": "Question and source subject/category; no answer, rationale or image content inspected",
+      "review_status": "single_lane_draft_requires_final_review"
+    },
+    {
+      "id": "673b631505be2302d4445ece",
+      "partition": "reasoning",
+      "rank": 2,
+      "rank_sha256": "01f23ff73e7c0fa313e03a06070218faaef3387a641a604d16789672809de186",
+      "raw_subject": "Mathematics",
+      "category": "Math",
+      "image_present": false,
+      "image_metadata": {
+        "present": false,
+        "encoding": "absent"
+      },
+      "question_sha256": "5bcae7e29a1ab96537c855ae831c68dda2ffc799884ec18ffd6931f2ef150f59",
+      "question_hash_definition": "SHA256 of exact UTF-8 question field, no normalization",
+      "question_character_count": 618,
+      "eligibility_status": "eligible",
+      "selected": true,
+      "domain_label": "none",
+      "eligibility_rationale": "Requires elliptic-curve and analytic number-theory calculations, not analysis of a cryptographic security property.",
+      "reviewed_required_domain": "number theory",
+      "evidence_span": {
+        "field": "question",
+        "start_character": 0,
+        "end_character_exclusive": 618,
+        "question_sha256": "5bcae7e29a1ab96537c855ae831c68dda2ffc799884ec18ffd6931f2ef150f59",
+        "verbatim_text_omitted": true
+      },
+      "review_basis": "Question and source subject/category; no answer, rationale or image content inspected",
+      "review_status": "single_lane_draft_requires_final_review"
+    },
+    {
+      "id": "672ccc56010db734d4f3f109",
+      "partition": "reasoning",
+      "rank": 3,
+      "rank_sha256": "024cb784f59367d4b53c9cc5090b1a53750850dcce2d0251574aee83eeccff50",
+      "raw_subject": "Mathematics",
+      "category": "Math",
+      "image_present": true,
+      "image_metadata": {
+        "present": true,
+        "encoding": "data-url",
+        "media_type": "image/png",
+        "payload_decoded": false,
+        "rendering_verified": false
+      },
+      "question_sha256": "37d7676dc6e1c7dcb15f5dd1e62078e69c21a95f325d48f486dd01da0507aec4",
+      "question_hash_definition": "SHA256 of exact UTF-8 question field, no normalization",
+      "question_character_count": 460,
+      "eligibility_status": "eligible",
+      "selected": true,
+      "domain_label": "none",
+      "eligibility_rationale": "Requires combinatorial geometry of a pictured polyhedron; the question specifies no excluded domain.",
+      "reviewed_required_domain": "geometry",
+      "evidence_span": {
+        "field": "question",
+        "start_character": 0,
+        "end_character_exclusive": 460,
+        "question_sha256": "37d7676dc6e1c7dcb15f5dd1e62078e69c21a95f325d48f486dd01da0507aec4",
+        "verbatim_text_omitted": true
+      },
+      "review_basis": "Question and source subject/category; no answer, rationale or image content inspected",
+      "review_status": "single_lane_draft_requires_final_review"
+    },
+    {
+      "id": "672bb9be168a1a30f1f92fcc",
+      "partition": "reasoning",
+      "rank": 4,
+      "rank_sha256": "0251d73d12f4ed958576874ded9f6ed57a8719fb20ea7bd9601ddab6a366a206",
+      "raw_subject": "Foremost Classical: Period Functions",
+      "category": "Humanities/Social Science",
+      "image_present": false,
+      "image_metadata": {
+        "present": false,
+        "encoding": "absent"
+      },
+      "question_sha256": "619b7a111b8919228d55e854e3ec303432cd1bd0c44dd15a9b4f465e69168b3b",
+      "question_hash_definition": "SHA256 of exact UTF-8 question field, no normalization",
+      "question_character_count": 547,
+      "eligibility_status": "eligible",
+      "selected": true,
+      "domain_label": "none",
+      "eligibility_rationale": "Requires differential-equation and special-function reasoning despite the source humanities category.",
+      "reviewed_required_domain": "mathematics",
+      "evidence_span": {
+        "field": "question",
+        "start_character": 0,
+        "end_character_exclusive": 547,
+        "question_sha256": "619b7a111b8919228d55e854e3ec303432cd1bd0c44dd15a9b4f465e69168b3b",
+        "verbatim_text_omitted": true
+      },
+      "review_basis": "Question and source subject/category; no answer, rationale or image content inspected",
+      "review_status": "single_lane_draft_requires_final_review"
+    },
+    {
+      "id": "67332b7198af9f49ad5d743a",
+      "partition": "reasoning",
+      "rank": 5,
+      "rank_sha256": "02625608b226dc610ebe97f1b3df822a5bd9a6018f30ec38cc7e82c0f4c8bdfc",
+      "raw_subject": "Information Systems",
+      "category": "Computer Science/AI",
+      "image_present": false,
+      "image_metadata": {
+        "present": false,
+        "encoding": "absent"
+      },
+      "question_sha256": "40c10e433fc95e805dab0b1712e10481bbee5dbfe4d35748c5dd0abadf11cc9c",
+      "question_hash_definition": "SHA256 of exact UTF-8 question field, no normalization",
+      "question_character_count": 237,
+      "eligibility_status": "eligible",
+      "selected": true,
+      "domain_label": "none",
+      "eligibility_rationale": "Requires counting transform operations in numerical convolution, without a security property or biological task.",
+      "reviewed_required_domain": "signal processing",
+      "evidence_span": {
+        "field": "question",
+        "start_character": 0,
+        "end_character_exclusive": 237,
+        "question_sha256": "40c10e433fc95e805dab0b1712e10481bbee5dbfe4d35748c5dd0abadf11cc9c",
+        "verbatim_text_omitted": true
+      },
+      "review_basis": "Question and source subject/category; no answer, rationale or image content inspected",
+      "review_status": "single_lane_draft_requires_final_review"
+    },
+    {
+      "id": "66ecd3c6e8b95a8f971fb485",
+      "partition": "reasoning",
+      "rank": 6,
+      "rank_sha256": "029c74bc32b63bd8473bb4063f80b616051ec595db8c5fd24e2ebb2c4cbcab91",
+      "raw_subject": "Mathematics",
+      "category": "Math",
+      "image_present": false,
+      "image_metadata": {
+        "present": false,
+        "encoding": "absent"
+      },
+      "question_sha256": "ac9a7d4fd9d1c21b6d4d98059d812f77935d891e9e603ce15913c8908257b69c",
+      "question_hash_definition": "SHA256 of exact UTF-8 question field, no normalization",
+      "question_character_count": 241,
+      "eligibility_status": "eligible",
+      "selected": true,
+      "domain_label": "none",
+      "eligibility_rationale": "Requires enumeration of set partitions and orders.",
+      "reviewed_required_domain": "combinatorics",
+      "evidence_span": {
+        "field": "question",
+        "start_character": 0,
+        "end_character_exclusive": 241,
+        "question_sha256": "ac9a7d4fd9d1c21b6d4d98059d812f77935d891e9e603ce15913c8908257b69c",
+        "verbatim_text_omitted": true
+      },
+      "review_basis": "Question and source subject/category; no answer, rationale or image content inspected",
+      "review_status": "single_lane_draft_requires_final_review"
+    },
+    {
+      "id": "670aa04552fd04a61d8f4fa8",
+      "partition": "reasoning",
+      "rank": 7,
+      "rank_sha256": "02c035d916127af80dfb49af26bc9fc69d72b21eab555a86275a44df6e73d018",
+      "raw_subject": "Geometric Reasoning",
+      "category": "Math",
+      "image_present": true,
+      "image_metadata": {
+        "present": true,
+        "encoding": "data-url",
+        "media_type": "image/png",
+        "payload_decoded": false,
+        "rendering_verified": false
+      },
+      "question_sha256": "6905091e06f5893f33aea029aeda2e1134cb1cf9249574646071b5a3c3045585",
+      "question_hash_definition": "SHA256 of exact UTF-8 question field, no normalization",
+      "question_character_count": 1450,
+      "eligibility_status": "eligible",
+      "selected": true,
+      "domain_label": "none",
+      "eligibility_rationale": "Requires matching mathematical cellular-automaton rules to pictured patterns; cells are abstract states, not biological organisms.",
+      "reviewed_required_domain": "discrete mathematics",
+      "evidence_span": {
+        "field": "question",
+        "start_character": 0,
+        "end_character_exclusive": 1450,
+        "question_sha256": "6905091e06f5893f33aea029aeda2e1134cb1cf9249574646071b5a3c3045585",
+        "verbatim_text_omitted": true
+      },
+      "review_basis": "Question and source subject/category; no answer, rationale or image content inspected",
+      "review_status": "single_lane_draft_requires_final_review"
+    },
+    {
+      "id": "6719f92b62a994eccd9f964b",
+      "partition": "reasoning",
+      "rank": 8,
+      "rank_sha256": "04e6e967384ad06737e37c7bf84c71c03237e94a7363f2b2a20ca76177136aed",
+      "raw_subject": "Computer Science",
+      "category": "Computer Science/AI",
+      "image_present": false,
+      "image_metadata": {
+        "present": false,
+        "encoding": "absent"
+      },
+      "question_sha256": "69edffb9bac5d5c6e9051e813de10caa065f52faa071062017c4bea5f846a278",
+      "question_hash_definition": "SHA256 of exact UTF-8 question field, no normalization",
+      "question_character_count": 1916,
+      "eligibility_status": "eligible",
+      "selected": true,
+      "domain_label": "none",
+      "eligibility_rationale": "Requires extremal reasoning about constrained metric clustering, without cybersecurity content.",
+      "reviewed_required_domain": "theoretical computer science",
+      "evidence_span": {
+        "field": "question",
+        "start_character": 0,
+        "end_character_exclusive": 1916,
+        "question_sha256": "69edffb9bac5d5c6e9051e813de10caa065f52faa071062017c4bea5f846a278",
+        "verbatim_text_omitted": true
+      },
+      "review_basis": "Question and source subject/category; no answer, rationale or image content inspected",
+      "review_status": "single_lane_draft_requires_final_review"
+    },
+    {
+      "id": "69d70a4c7c69fcd0569670c4",
+      "partition": "reasoning",
+      "rank": 9,
+      "rank_sha256": "04e961c095a82ae8689a071438f0d581a151ab752c24181b8e13f96dafd582d0",
+      "raw_subject": "Chemistry",
+      "category": "Chemistry",
+      "image_present": true,
+      "image_metadata": {
+        "present": true,
+        "encoding": "data-url",
+        "media_type": "image/png",
+        "payload_decoded": false,
+        "rendering_verified": false
+      },
+      "question_sha256": "24c178fa3361ae588b3893b3285007fe511b03fe390aa83a2e5f1c2391cce5ce",
+      "question_hash_definition": "SHA256 of exact UTF-8 question field, no normalization",
+      "question_character_count": 2751,
+      "eligibility_status": "eligible",
+      "selected": true,
+      "domain_label": "none",
+      "eligibility_rationale": "Requires spectroscopy and stereochemical nomenclature of organic structures. No biological mechanism, organism, clinical decision or biological wet-lab task is required by the question.",
+      "reviewed_required_domain": "organic chemistry",
+      "evidence_span": {
+        "field": "question",
+        "start_character": 0,
+        "end_character_exclusive": 2751,
+        "question_sha256": "24c178fa3361ae588b3893b3285007fe511b03fe390aa83a2e5f1c2391cce5ce",
+        "verbatim_text_omitted": true
+      },
+      "review_basis": "Question and source subject/category; no answer, rationale or image content inspected",
+      "review_status": "single_lane_draft_requires_final_review"
+    },
+    {
+      "id": "67418f4d1cf0c9eba73432cc",
+      "partition": "reasoning",
+      "rank": 10,
+      "rank_sha256": "055c99e5225fbf9b062176657b99bd2ddcf4fda8d8d4a0e526128bc73c2dd53c",
+      "raw_subject": "Mathematics",
+      "category": "Math",
+      "image_present": false,
+      "image_metadata": {
+        "present": false,
+        "encoding": "absent"
+      },
+      "question_sha256": "71c4afecac754ed9ec1cd9a13509440e4ceb7727d69caa7c29ee34af7fae6f11",
+      "question_hash_definition": "SHA256 of exact UTF-8 question field, no normalization",
+      "question_character_count": 989,
+      "eligibility_status": "eligible",
+      "selected": true,
+      "domain_label": "none",
+      "eligibility_rationale": "Requires an encoding of a combinatorial problem in linear logic.",
+      "reviewed_required_domain": "mathematical logic",
+      "evidence_span": {
+        "field": "question",
+        "start_character": 0,
+        "end_character_exclusive": 989,
+        "question_sha256": "71c4afecac754ed9ec1cd9a13509440e4ceb7727d69caa7c29ee34af7fae6f11",
+        "verbatim_text_omitted": true
+      },
+      "review_basis": "Question and source subject/category; no answer, rationale or image content inspected",
+      "review_status": "single_lane_draft_requires_final_review"
+    },
+    {
+      "id": "67d75590aa91ea806c1b5b23",
+      "partition": "knowledge",
+      "rank": 1,
+      "rank_sha256": "0079b06a5babc9cb25df01a715bfc403477a2e428898879b15c9a93696775814",
+      "raw_subject": "Linguistics",
+      "category": "Humanities/Social Science",
+      "image_present": false,
+      "image_metadata": {
+        "present": false,
+        "encoding": "absent"
+      },
+      "question_sha256": "12e3a96de34d388c43b9e64fcd3d200be20904cd9fead501ccd0f3b610199f83",
+      "question_hash_definition": "SHA256 of exact UTF-8 question field, no normalization",
+      "question_character_count": 138,
+      "eligibility_status": "eligible",
+      "selected": true,
+      "domain_label": "none",
+      "eligibility_rationale": "Requires conventional spelling knowledge in a natural language.",
+      "reviewed_required_domain": "linguistics",
+      "evidence_span": {
+        "field": "question",
+        "start_character": 0,
+        "end_character_exclusive": 138,
+        "question_sha256": "12e3a96de34d388c43b9e64fcd3d200be20904cd9fead501ccd0f3b610199f83",
+        "verbatim_text_omitted": true
+      },
+      "review_basis": "Question and source subject/category; no answer, rationale or image content inspected",
+      "review_status": "single_lane_draft_requires_final_review"
+    },
+    {
+      "id": "6737016cd6feab08ed98c77d",
+      "partition": "knowledge",
+      "rank": 2,
+      "rank_sha256": "00999a72bdfaca595296307e365cf4e98f412628c40ccf259d6e81d61f471166",
+      "raw_subject": "Mathematics",
+      "category": "Math",
+      "image_present": false,
+      "image_metadata": {
+        "present": false,
+        "encoding": "absent"
+      },
+      "question_sha256": "6e5b7a8e5d7da672f8fcc2433c32f589857238006b2249eea1973ed916b2be0e",
+      "question_hash_definition": "SHA256 of exact UTF-8 question field, no normalization",
+      "question_character_count": 133,
+      "eligibility_status": "eligible",
+      "selected": true,
+      "domain_label": "none",
+      "eligibility_rationale": "Requires a mathematical result about sumsets and square numbers.",
+      "reviewed_required_domain": "additive combinatorics",
+      "evidence_span": {
+        "field": "question",
+        "start_character": 0,
+        "end_character_exclusive": 133,
+        "question_sha256": "6e5b7a8e5d7da672f8fcc2433c32f589857238006b2249eea1973ed916b2be0e",
+        "verbatim_text_omitted": true
+      },
+      "review_basis": "Question and source subject/category; no answer, rationale or image content inspected",
+      "review_status": "single_lane_draft_requires_final_review"
+    },
+    {
+      "id": "69de096edf3ab381bbbb5089",
+      "partition": "knowledge",
+      "rank": 3,
+      "rank_sha256": "01480ee32936f0a5f884d08c7b299a3b3ee1186c73b123ad139856344e93dcba",
+      "raw_subject": "Comparative Literature",
+      "category": "Humanities/Social Science",
+      "image_present": false,
+      "image_metadata": {
+        "present": false,
+        "encoding": "absent"
+      },
+      "question_sha256": "dee1dfd58ae8ee38271aff518eaef6eb64fff8e41888dc9a891bb00d736cbff9",
+      "question_hash_definition": "SHA256 of exact UTF-8 question field, no normalization",
+      "question_character_count": 292,
+      "eligibility_status": "eligible",
+      "selected": true,
+      "domain_label": "none",
+      "eligibility_rationale": "Requires a literary source phrase and translation knowledge; a disease word in a book title does not make the required work clinical.",
+      "reviewed_required_domain": "comparative literature",
+      "evidence_span": {
+        "field": "question",
+        "start_character": 0,
+        "end_character_exclusive": 292,
+        "question_sha256": "dee1dfd58ae8ee38271aff518eaef6eb64fff8e41888dc9a891bb00d736cbff9",
+        "verbatim_text_omitted": true
+      },
+      "review_basis": "Question and source subject/category; no answer, rationale or image content inspected",
+      "review_status": "single_lane_draft_requires_final_review"
+    },
+    {
+      "id": "6723f1d6e01c4b28f6115ce0",
+      "partition": "knowledge",
+      "rank": 4,
+      "rank_sha256": "018ed8151e97b7cd873f6f1d85fcb76cddee6c5181bd048e0f69f6956689fc7d",
+      "raw_subject": "Trivia",
+      "category": "Other",
+      "image_present": false,
+      "image_metadata": {
+        "present": false,
+        "encoding": "absent"
+      },
+      "question_sha256": "fd86ff3284371e2ee31bd474a513ab137b26dce6fdea5638978bac3a597b5b4e",
+      "question_hash_definition": "SHA256 of exact UTF-8 question field, no normalization",
+      "question_character_count": 183,
+      "eligibility_status": "eligible",
+      "selected": true,
+      "domain_label": "none",
+      "eligibility_rationale": "Requires recalling a fictional character and dialogue context.",
+      "reviewed_required_domain": "film knowledge",
+      "evidence_span": {
+        "field": "question",
+        "start_character": 0,
+        "end_character_exclusive": 183,
+        "question_sha256": "fd86ff3284371e2ee31bd474a513ab137b26dce6fdea5638978bac3a597b5b4e",
+        "verbatim_text_omitted": true
+      },
+      "review_basis": "Question and source subject/category; no answer, rationale or image content inspected",
+      "review_status": "single_lane_draft_requires_final_review"
+    },
+    {
+      "id": "6736289810ec0a5f859365d0",
+      "partition": "knowledge",
+      "rank": 5,
+      "rank_sha256": "024b5dcf2d8475762bd1cba1700cd902d66489631d522fb7ee015859c11ad499",
+      "raw_subject": "Classical Ballet",
+      "category": "Other",
+      "image_present": false,
+      "image_metadata": {
+        "present": false,
+        "encoding": "absent"
+      },
+      "question_sha256": "d8ad43f6ece395b2da367ea98aea6ab6203ce961f9ca0b70267b6c3b3f3db0ef",
+      "question_hash_definition": "SHA256 of exact UTF-8 question field, no normalization",
+      "question_character_count": 476,
+      "eligibility_status": "eligible",
+      "selected": true,
+      "domain_label": "none",
+      "eligibility_rationale": "Requires ballet-school technique conventions, without physiology or clinical advice.",
+      "reviewed_required_domain": "performing arts",
+      "evidence_span": {
+        "field": "question",
+        "start_character": 0,
+        "end_character_exclusive": 476,
+        "question_sha256": "d8ad43f6ece395b2da367ea98aea6ab6203ce961f9ca0b70267b6c3b3f3db0ef",
+        "verbatim_text_omitted": true
+      },
+      "review_basis": "Question and source subject/category; no answer, rationale or image content inspected",
+      "review_status": "single_lane_draft_requires_final_review"
+    },
+    {
+      "id": "67252b9639b66386e0489e94",
+      "partition": "knowledge",
+      "rank": 6,
+      "rank_sha256": "02dad7207f1c7708e20491a280ef9c0f259a524f02a773ddc42630edc043d05c",
+      "raw_subject": "Linguistics",
+      "category": "Humanities/Social Science",
+      "image_present": false,
+      "image_metadata": {
+        "present": false,
+        "encoding": "absent"
+      },
+      "question_sha256": "7a48b44e5f394967849eabe49c9e3e6e514ad5feb8a4b6c3fc5ed791c3d70078",
+      "question_hash_definition": "SHA256 of exact UTF-8 question field, no normalization",
+      "question_character_count": 1205,
+      "eligibility_status": "eligible",
+      "selected": true,
+      "domain_label": "none",
+      "eligibility_rationale": "Requires an empirical language-acquisition association comparing computational models and human word learning; it does not require physiological, molecular, organismal or clinical mechanisms.",
+      "reviewed_required_domain": "linguistics and machine learning",
+      "evidence_span": {
+        "field": "question",
+        "start_character": 0,
+        "end_character_exclusive": 1205,
+        "question_sha256": "7a48b44e5f394967849eabe49c9e3e6e514ad5feb8a4b6c3fc5ed791c3d70078",
+        "verbatim_text_omitted": true
+      },
+      "review_basis": "Question and source subject/category; no answer, rationale or image content inspected",
+      "review_status": "single_lane_draft_requires_final_review"
+    },
+    {
+      "id": "67ae6422afefb0983e23a370",
+      "partition": "knowledge",
+      "rank": 7,
+      "rank_sha256": "030c9d955ea3a0a18711f79e5e4505a48ad463d65d92a3fe774c8d34cd906c54",
+      "raw_subject": "Trivia",
+      "category": "Other",
+      "image_present": false,
+      "image_metadata": {
+        "present": false,
+        "encoding": "absent"
+      },
+      "question_sha256": "db13dd8dade2dadce7128902fce1356d258e6abccdf025a3ae168eb5af24267a",
+      "question_hash_definition": "SHA256 of exact UTF-8 question field, no normalization",
+      "question_character_count": 113,
+      "eligibility_status": "eligible",
+      "selected": true,
+      "domain_label": "none",
+      "eligibility_rationale": "Requires identifying a character in a fictional television scene.",
+      "reviewed_required_domain": "television knowledge",
+      "evidence_span": {
+        "field": "question",
+        "start_character": 0,
+        "end_character_exclusive": 113,
+        "question_sha256": "db13dd8dade2dadce7128902fce1356d258e6abccdf025a3ae168eb5af24267a",
+        "verbatim_text_omitted": true
+      },
+      "review_basis": "Question and source subject/category; no answer, rationale or image content inspected",
+      "review_status": "single_lane_draft_requires_final_review"
+    },
+    {
+      "id": "679fe998c190c531593e988d",
+      "partition": "knowledge",
+      "rank": 8,
+      "rank_sha256": "036526434d51d6fe1ea7efd92a9f4319f0d4c2edbdcd11ed59c0898b4f16f90a",
+      "raw_subject": "Molecular Biology",
+      "category": "Biology/Medicine",
+      "image_present": false,
+      "image_metadata": {
+        "present": false,
+        "encoding": "absent"
+      },
+      "question_sha256": "1ab43acd5e822c852a210deba5204fcb4b772b7abaa00d5602f4aecec9b37238",
+      "question_hash_definition": "SHA256 of exact UTF-8 question field, no normalization",
+      "question_character_count": 156,
+      "eligibility_status": "excluded",
+      "selected": false,
+      "domain_label": "core_biology",
+      "eligibility_rationale": "Requires a specific amino-acid mutation distinguishing engineered fluorescent proteins.",
+      "reviewed_required_domain": "molecular biology",
+      "evidence_span": {
+        "field": "question",
+        "start_character": 0,
+        "end_character_exclusive": 156,
+        "question_sha256": "1ab43acd5e822c852a210deba5204fcb4b772b7abaa00d5602f4aecec9b37238",
+        "verbatim_text_omitted": true
+      },
+      "review_basis": "Question and source subject/category; no answer, rationale or image content inspected",
+      "review_status": "single_lane_draft_requires_final_review"
+    },
+    {
+      "id": "675aa6e703e9471764dfedd2",
+      "partition": "knowledge",
+      "rank": 9,
+      "rank_sha256": "038b00437a9a7c060c1c9732522de1614408b91de2b1dd36db5c6238e61afd26",
+      "raw_subject": "Trivia",
+      "category": "Other",
+      "image_present": false,
+      "image_metadata": {
+        "present": false,
+        "encoding": "absent"
+      },
+      "question_sha256": "4ccf14d0c83f563883e4157e2d28937bb309d39daa81e28f248bff50cba31032",
+      "question_hash_definition": "SHA256 of exact UTF-8 question field, no normalization",
+      "question_character_count": 1155,
+      "eligibility_status": "eligible",
+      "selected": true,
+      "domain_label": "none",
+      "eligibility_rationale": "Requires knowledge of a numerical phase-change simulation coefficient and its literature, without biological work.",
+      "reviewed_required_domain": "computational heat transfer",
+      "evidence_span": {
+        "field": "question",
+        "start_character": 0,
+        "end_character_exclusive": 1155,
+        "question_sha256": "4ccf14d0c83f563883e4157e2d28937bb309d39daa81e28f248bff50cba31032",
+        "verbatim_text_omitted": true
+      },
+      "review_basis": "Question and source subject/category; no answer, rationale or image content inspected",
+      "review_status": "single_lane_draft_requires_final_review"
+    },
+    {
+      "id": "6a61b9608ebbd180e11f956f",
+      "partition": "knowledge",
+      "rank": 10,
+      "rank_sha256": "04136f82ca4863dc02a316b40fcea38de53f1fda48563becf97246c907296acd",
+      "raw_subject": "Linguistics",
+      "category": "Humanities/Social Science",
+      "image_present": true,
+      "image_metadata": {
+        "present": true,
+        "encoding": "data-url",
+        "media_type": "image/png",
+        "payload_decoded": false,
+        "rendering_verified": false
+      },
+      "question_sha256": "27e5b96aa0601db07dbbcd099b6496d30d9eb49f8b26a0a8bbe9425a95b990af",
+      "question_hash_definition": "SHA256 of exact UTF-8 question field, no normalization",
+      "question_character_count": 85,
+      "eligibility_status": "eligible",
+      "selected": true,
+      "domain_label": "none",
+      "eligibility_rationale": "Requires identifying the language associated with a pictured writing-system character; visual rendering remains unchecked.",
+      "reviewed_required_domain": "writing-system history",
+      "evidence_span": {
+        "field": "question",
+        "start_character": 0,
+        "end_character_exclusive": 85,
+        "question_sha256": "27e5b96aa0601db07dbbcd099b6496d30d9eb49f8b26a0a8bbe9425a95b990af",
+        "verbatim_text_omitted": true
+      },
+      "review_basis": "Question and source subject/category; no answer, rationale or image content inspected",
+      "review_status": "single_lane_draft_requires_final_review"
+    },
+    {
+      "id": "6a9ef0b5e34811444fad5192",
+      "partition": "knowledge",
+      "rank": 11,
+      "rank_sha256": "047296cf61ee711f4eea46c635dafa81a3d2d7adf2eed9ddb5662e3105d78c9c",
+      "raw_subject": "Law",
+      "category": "Humanities/Social Science",
+      "image_present": false,
+      "image_metadata": {
+        "present": false,
+        "encoding": "absent"
+      },
+      "question_sha256": "a7d693304a0ce38060fd5fdde87e5df4f522dd195d92e7f9a2b9269a22a80567",
+      "question_hash_definition": "SHA256 of exact UTF-8 question field, no normalization",
+      "question_character_count": 681,
+      "eligibility_status": "eligible",
+      "selected": true,
+      "domain_label": "none",
+      "eligibility_rationale": "Requires a statutory rule for property-sale defects, without an excluded scientific or security domain.",
+      "reviewed_required_domain": "property law",
+      "evidence_span": {
+        "field": "question",
+        "start_character": 0,
+        "end_character_exclusive": 681,
+        "question_sha256": "a7d693304a0ce38060fd5fdde87e5df4f522dd195d92e7f9a2b9269a22a80567",
+        "verbatim_text_omitted": true
+      },
+      "review_basis": "Question and source subject/category; no answer, rationale or image content inspected",
+      "review_status": "single_lane_draft_requires_final_review"
+    }
+  ],
+  "selected_manifest_sha256": "1d39926c34bdc934cf454b866f9259c88de05800ede86f518fc997af6a83948a",
+  "ranked_pool_manifest_sha256": "231a6400bb6a68f7a44888a6a7b9d73af2f560147902b2561192631724ad6b14"
+}

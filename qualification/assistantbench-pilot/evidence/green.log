@@ -1,0 +1,16 @@
+test_action_string_injection_stays_a_literal_argument (test_assistantbench_bridge.BridgeTests.test_action_string_injection_stays_a_literal_argument) ... ok
+test_arbitrary_python_uploads_and_unknown_arguments_are_rejected (test_assistantbench_bridge.BridgeTests.test_arbitrary_python_uploads_and_unknown_arguments_are_rejected) ... ok
+test_claimed_directory_cannot_be_reused_and_attempts_are_independent (test_assistantbench_bridge.BridgeTests.test_claimed_directory_cannot_be_reused_and_attempts_are_independent) ... ok
+test_concurrent_calls_are_serialized_without_losing_actions (test_assistantbench_bridge.BridgeTests.test_concurrent_calls_are_serialized_without_losing_actions) ... ok
+test_mcp_errors_never_expose_exception_details_or_host_paths (test_assistantbench_bridge.BridgeTests.test_mcp_errors_never_expose_exception_details_or_host_paths) ... ok
+test_mcp_handshake_tool_listing_and_calls_are_standard_json_rpc (test_assistantbench_bridge.BridgeTests.test_mcp_handshake_tool_listing_and_calls_are_standard_json_rpc) ... ok
+test_native_submission_is_sealed_once_and_not_regraded (test_assistantbench_bridge.BridgeTests.test_native_submission_is_sealed_once_and_not_regraded) ... ok
+test_no_task_work_cap_is_exposed_in_tool_schema (test_assistantbench_bridge.BridgeTests.test_no_task_work_cap_is_exposed_in_tool_schema) ... ok
+test_observation_has_only_public_ax_tabs_and_image (test_assistantbench_bridge.BridgeTests.test_observation_has_only_public_ax_tabs_and_image) ... ok
+test_step_reward_and_info_never_enter_tool_response (test_assistantbench_bridge.BridgeTests.test_step_reward_and_info_never_enter_tool_response) ... ok
+test_submission_must_come_from_expected_native_callback (test_assistantbench_bridge.BridgeTests.test_submission_must_come_from_expected_native_callback) ... ok
+
+----------------------------------------------------------------------
+Ran 11 tests in 0.104s
+
+OK

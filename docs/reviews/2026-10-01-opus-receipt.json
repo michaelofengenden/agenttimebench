@@ -1,0 +1,21 @@
+{
+  "started_at": "2026-10-01T13:43:10.004526+00:00",
+  "finished_at": "2026-10-01T13:54:51.325805+00:00",
+  "model_requested": "claude-opus-5-5",
+  "effort_requested": "max",
+  "observed_models": [
+    "claude-opus-5-5"
+  ],
+  "packet_sha256": "b1c034f967aef06385b5affa5ef68c2d09f3f4f5f184938bafd65d19f8e49824",
+  "cli_sha256": "4241eb34a941f9e7ca960ed845714b40f381a0365fe36d06077a1296bc6f97b2",
+  "profile_label": "thephotojournalistorg",
+  "subscription_type": "max",
+  "tools": [],
+  "fallback_model": null,
+  "exit_code": 0,
+  "result_subtype": "success",
+  "is_error": false,
+  "num_turns": 1,
+  "review_scope": "Approved first-build spec, protocol, v1 lessons and existing offline planner; not the subsequently implemented runtime",
+  "benchmark_execution": false
+}

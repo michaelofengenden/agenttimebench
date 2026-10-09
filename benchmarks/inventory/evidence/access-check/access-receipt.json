@@ -1,0 +1,22 @@
+{
+  "checked_at_utc": "2026-10-02T12:29:37.696245+00:00",
+  "used_existing_local_hf_login": true,
+  "terms_accepted": false,
+  "permissions_changed": false,
+  "checks": [
+    {
+      "family": "osworld",
+      "url": "https://huggingface.co/datasets/xlangai/osworld_v2_tasks/resolve/0a1aadad95aa79b00b3783e717d865089ab06e26/README.md",
+      "status": 200,
+      "bytes": 793,
+      "existing_grant_works": true
+    },
+    {
+      "family": "hle",
+      "url": "https://huggingface.co/datasets/cais/hle-diamond/resolve/04eeb7efa7e3e4f83a00cbd5ce436a38fd5dda23/README.md",
+      "status": 200,
+      "bytes": 2192,
+      "existing_grant_works": true
+    }
+  ]
+}

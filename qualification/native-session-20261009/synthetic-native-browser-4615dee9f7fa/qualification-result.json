@@ -1,0 +1,32 @@
+{
+  "issues": [
+    "mcp_startup_unverified",
+    "owned_process_group_drain_unproven"
+  ],
+  "observed_tools": [
+    "mcp__assistantbench__click",
+    "mcp__assistantbench__fill",
+    "mcp__assistantbench__observe",
+    "mcp__assistantbench__send_msg_to_user"
+  ],
+  "native_session_files": 1,
+  "transport_request_count": 5,
+  "native_stream_response_ids": [],
+  "included_subscription_allowance_verified": true,
+  "schema_version": 1,
+  "qualification": "synthetic_claude_mcp_only",
+  "study_attempts": 0,
+  "study_ready": false,
+  "full_browser_restore_qualified": false,
+  "synthetic_tool_path_passed": false,
+  "cli_exit_code": 0,
+  "process_group_drained": false,
+  "source_pins": {
+    "claude_canary.py": "afd7a4faa991381f99071c6055bf559b99cd3efc9646fe14391bb16f596c4194",
+    "synthetic.html": "21eae3f05351fde21560c009d5b368c38f43d61f79ebf373f96fcb07802b28be",
+    "assistantbench_bridge.py": "9bb6ccdd1bd1b39301167c9a1e537be144478e0d19e5cefa319abe5d65f39742",
+    "jsonio.py": "f624a642ed571b1721fb971cf160f75ec813f91e3c9f612ac74c245350bd9cad",
+    "evidence.py": "b85a9ae618664d2829199e163db839378c38fc125b8c8bf88872c0daee4a693f"
+  },
+  "requires_independent_final_archive_and_container_stop_proof": true
+}

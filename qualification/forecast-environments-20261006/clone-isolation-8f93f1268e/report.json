@@ -1,0 +1,74 @@
+{
+  "created_at_utc": "2026-10-06T11:56:21.183500+00:00",
+  "nonce": "8f93f1268e6747f89acd0cae545fb688",
+  "purpose": "model_free_local_diagnostic",
+  "study_requests": 0,
+  "real_credentials_used": false,
+  "pinned_image": "sha256:245ec38fb91de703a186403531046260c171c82ca6511ae1fc2eeb18af43eb16",
+  "native_worker_qualified": false,
+  "resource_override": {
+    "cpus": 1,
+    "memory_bytes": 2147483648,
+    "network": "none",
+    "user": "10001:10001"
+  },
+  "resource_override_is_fixture_only": true,
+  "containers": {
+    "forecast": {
+      "id": "3be6b9eb6f22ded7604dafdae52803e905795d61d9ccadd719fd864bffc445e7",
+      "image": "sha256:245ec38fb91de703a186403531046260c171c82ca6511ae1fc2eeb18af43eb16",
+      "mounts": [],
+      "network_mode": "none",
+      "user": "10001:10001",
+      "nano_cpus": 1000000000,
+      "memory_bytes": 2147483648,
+      "platform": "{\"system\": \"Linux\", \"machine\": \"x86_64\"}"
+    },
+    "natural": {
+      "id": "ca51ec7bf4eedf86b308962cc6707bc62523698557d58f51bcdfd86418c0e8cf",
+      "image": "sha256:245ec38fb91de703a186403531046260c171c82ca6511ae1fc2eeb18af43eb16",
+      "mounts": [],
+      "network_mode": "none",
+      "user": "10001:10001",
+      "nano_cpus": 1000000000,
+      "memory_bytes": 2147483648,
+      "platform": "{\"system\": \"Linux\", \"machine\": \"x86_64\"}"
+    }
+  },
+  "checks": {
+    "forecast_markers_present": {
+      "/tmp/qualification-home/.claude": true,
+      "/tmp/qualification-config": true,
+      "/tmp/qualification-workspace": true,
+      "/tmp/qualification-memory": true,
+      "/tmp/qualification-archive": true
+    },
+    "natural_markers_absent": {
+      "/tmp/qualification-home/.claude": true,
+      "/tmp/qualification-config": true,
+      "/tmp/qualification-workspace": true,
+      "/tmp/qualification-memory": true,
+      "/tmp/qualification-archive": true
+    },
+    "deliberate_contamination_detected": true,
+    "linux_environment_note_delivered": true,
+    "mac_host_note_absent": true,
+    "synthetic_image_bytes_received": true,
+    "one_fake_model_request": true,
+    "native_transcript_and_request_saved": true
+  },
+  "cli": {
+    "version": "2.1.280",
+    "sha256": "1e08503dbdf3c2cb0d706d32f3408277388d1c76ef108673e8fe42c1b322925b",
+    "observed_model_in_fake_request": "claude-opus-5-5",
+    "effort": {
+      "effort": "max"
+    }
+  },
+  "probe_passed": true,
+  "cleanup": {
+    "forecast": true,
+    "natural": true
+  },
+  "all_owned_containers_removed": true
+}

@@ -1,0 +1,12 @@
+{
+  "task_id": "assistant-02",
+  "attempt_id": "5c831bf8-b1d5-4d42-99ae-8aa9270dbf6a",
+  "complete": true,
+  "qualified": false,
+  "issues": [
+    "archive_held_preserve_original_state"
+  ],
+  "independent_raw_state_preserved": true,
+  "stop_verified": true,
+  "study_attempts": 0
+}

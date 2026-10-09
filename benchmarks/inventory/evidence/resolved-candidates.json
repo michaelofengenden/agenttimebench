@@ -1,0 +1,4089 @@
+{
+  "status": "inventory_evidence_not_qualification",
+  "rows": [
+    {
+      "family": "hle",
+      "candidate": "69a738a50a19a2f7b803ca97",
+      "decision": "draft_for_review",
+      "label": "Reasoning · Artificial Intelligence",
+      "comps": {
+        "prompt": {
+          "status": "present",
+          "evidence": [
+            {
+              "root": "repository",
+              "path": "benchmarks/cache/gated-inputs-20261002/hle-diamond/data/test-00000-of-00001.parquet",
+              "exists": true,
+              "bytes": 224204778,
+              "sha256": "2b3421909ac47580d8373d4e7e5a23f0f08365d2cfb54a13100ddfac4a961e87",
+              "record_id": "69a738a50a19a2f7b803ca97",
+              "question_sha256": "0b87c573d102f6a7f8b149ca15550a73a345bceea1b34b66fbafb358d83957b4"
+            }
+          ],
+          "remaining_gap": null
+        },
+        "assets": {
+          "status": "present",
+          "evidence": [
+            {
+              "root": "repository",
+              "path": "benchmarks/cache/gated-inputs-20261002/hle-diamond/data/test-00000-of-00001.parquet",
+              "exists": true,
+              "bytes": 224204778,
+              "sha256": "2b3421909ac47580d8373d4e7e5a23f0f08365d2cfb54a13100ddfac4a961e87",
+              "record_id": "69a738a50a19a2f7b803ca97",
+              "question_sha256": "0b87c573d102f6a7f8b149ca15550a73a345bceea1b34b66fbafb358d83957b4"
+            }
+          ],
+          "remaining_gap": "Verify text and answer-choice formatting in the final prompt."
+        },
+        "environment": {
+          "status": "needs_checking",
+          "evidence": [],
+          "remaining_gap": "Qualify the HLE model input route, dependencies and image handling where required."
+        },
+        "grader": {
+          "status": "needs_checking",
+          "evidence": [
+            {
+              "root": "repository",
+              "path": "benchmarks/cache/gated-inputs-20261002/hle-diamond/data/test-00000-of-00001.parquet",
+              "exists": true,
+              "bytes": 224204778,
+              "sha256": "2b3421909ac47580d8373d4e7e5a23f0f08365d2cfb54a13100ddfac4a961e87",
+              "record_id": "69a738a50a19a2f7b803ca97",
+              "question_sha256": "0b87c573d102f6a7f8b149ca15550a73a345bceea1b34b66fbafb358d83957b4"
+            }
+          ],
+          "remaining_gap": "Pin the official grading policy and validate answer parsing/judging; keep references outside subject input."
+        }
+      },
+      "pin": "04eeb7efa7e3e4f83a00cbd5ce436a38fd5dda23",
+      "reason": "Requires mathematical properties of an activation function and neural-network training, without biological or security analysis.",
+      "source_locator": {
+        "path_relative_to_repository": "benchmarks/cache/gated-inputs-20261002/hle-diamond/data/test-00000-of-00001.parquet",
+        "id_column": "id",
+        "id": "69a738a50a19a2f7b803ca97",
+        "question_column": "question",
+        "image_column": "image"
+      },
+      "hle_partition": "reasoning",
+      "image_present": false,
+      "screening_status": "draft_screened_prefix_only",
+      "evidence_file": "evidence/hle-diamond-draft/draft-selection.json"
+    },
+    {
+      "family": "hle",
+      "candidate": "673b631505be2302d4445ece",
+      "decision": "draft_for_review",
+      "label": "Reasoning · Mathematics",
+      "comps": {
+        "prompt": {
+          "status": "present",
+          "evidence": [
+            {
+              "root": "repository",
+              "path": "benchmarks/cache/gated-inputs-20261002/hle-diamond/data/test-00000-of-00001.parquet",
+              "exists": true,
+              "bytes": 224204778,
+              "sha256": "2b3421909ac47580d8373d4e7e5a23f0f08365d2cfb54a13100ddfac4a961e87",
+              "record_id": "673b631505be2302d4445ece",
+              "question_sha256": "5bcae7e29a1ab96537c855ae831c68dda2ffc799884ec18ffd6931f2ef150f59"
+            }
+          ],
+          "remaining_gap": null
+        },
+        "assets": {
+          "status": "present",
+          "evidence": [
+            {
+              "root": "repository",
+              "path": "benchmarks/cache/gated-inputs-20261002/hle-diamond/data/test-00000-of-00001.parquet",
+              "exists": true,
+              "bytes": 224204778,
+              "sha256": "2b3421909ac47580d8373d4e7e5a23f0f08365d2cfb54a13100ddfac4a961e87",
+              "record_id": "673b631505be2302d4445ece",
+              "question_sha256": "5bcae7e29a1ab96537c855ae831c68dda2ffc799884ec18ffd6931f2ef150f59"
+            }
+          ],
+          "remaining_gap": "Verify text and answer-choice formatting in the final prompt."
+        },
+        "environment": {
+          "status": "needs_checking",
+          "evidence": [],
+          "remaining_gap": "Qualify the HLE model input route, dependencies and image handling where required."
+        },
+        "grader": {
+          "status": "needs_checking",
+          "evidence": [
+            {
+              "root": "repository",
+              "path": "benchmarks/cache/gated-inputs-20261002/hle-diamond/data/test-00000-of-00001.parquet",
+              "exists": true,
+              "bytes": 224204778,
+              "sha256": "2b3421909ac47580d8373d4e7e5a23f0f08365d2cfb54a13100ddfac4a961e87",
+              "record_id": "673b631505be2302d4445ece",
+              "question_sha256": "5bcae7e29a1ab96537c855ae831c68dda2ffc799884ec18ffd6931f2ef150f59"
+            }
+          ],
+          "remaining_gap": "Pin the official grading policy and validate answer parsing/judging; keep references outside subject input."
+        }
+      },
+      "pin": "04eeb7efa7e3e4f83a00cbd5ce436a38fd5dda23",
+      "reason": "Requires elliptic-curve and analytic number-theory calculations, not analysis of a cryptographic security property.",
+      "source_locator": {
+        "path_relative_to_repository": "benchmarks/cache/gated-inputs-20261002/hle-diamond/data/test-00000-of-00001.parquet",
+        "id_column": "id",
+        "id": "673b631505be2302d4445ece",
+        "question_column": "question",
+        "image_column": "image"
+      },
+      "hle_partition": "reasoning",
+      "image_present": false,
+      "screening_status": "draft_screened_prefix_only",
+      "evidence_file": "evidence/hle-diamond-draft/draft-selection.json"
+    },
+    {
+      "family": "hle",
+      "candidate": "672ccc56010db734d4f3f109",
+      "decision": "draft_for_review",
+      "label": "Reasoning · Mathematics",
+      "comps": {
+        "prompt": {
+          "status": "present",
+          "evidence": [
+            {
+              "root": "repository",
+              "path": "benchmarks/cache/gated-inputs-20261002/hle-diamond/data/test-00000-of-00001.parquet",
+              "exists": true,
+              "bytes": 224204778,
+              "sha256": "2b3421909ac47580d8373d4e7e5a23f0f08365d2cfb54a13100ddfac4a961e87",
+              "record_id": "672ccc56010db734d4f3f109",
+              "question_sha256": "37d7676dc6e1c7dcb15f5dd1e62078e69c21a95f325d48f486dd01da0507aec4"
+            }
+          ],
+          "remaining_gap": null
+        },
+        "assets": {
+          "status": "present",
+          "evidence": [
+            {
+              "root": "repository",
+              "path": "benchmarks/cache/gated-inputs-20261002/hle-diamond/data/test-00000-of-00001.parquet",
+              "exists": true,
+              "bytes": 224204778,
+              "sha256": "2b3421909ac47580d8373d4e7e5a23f0f08365d2cfb54a13100ddfac4a961e87",
+              "record_id": "672ccc56010db734d4f3f109",
+              "question_sha256": "37d7676dc6e1c7dcb15f5dd1e62078e69c21a95f325d48f486dd01da0507aec4"
+            }
+          ],
+          "remaining_gap": "Image content is present in the dataset; image decoding and rendering need checking."
+        },
+        "environment": {
+          "status": "needs_checking",
+          "evidence": [],
+          "remaining_gap": "Qualify the HLE model input route, dependencies and image handling where required."
+        },
+        "grader": {
+          "status": "needs_checking",
+          "evidence": [
+            {
+              "root": "repository",
+              "path": "benchmarks/cache/gated-inputs-20261002/hle-diamond/data/test-00000-of-00001.parquet",
+              "exists": true,
+              "bytes": 224204778,
+              "sha256": "2b3421909ac47580d8373d4e7e5a23f0f08365d2cfb54a13100ddfac4a961e87",
+              "record_id": "672ccc56010db734d4f3f109",
+              "question_sha256": "37d7676dc6e1c7dcb15f5dd1e62078e69c21a95f325d48f486dd01da0507aec4"
+            }
+          ],
+          "remaining_gap": "Pin the official grading policy and validate answer parsing/judging; keep references outside subject input."
+        }
+      },
+      "pin": "04eeb7efa7e3e4f83a00cbd5ce436a38fd5dda23",
+      "reason": "Requires combinatorial geometry of a pictured polyhedron; the question specifies no excluded domain.",
+      "source_locator": {
+        "path_relative_to_repository": "benchmarks/cache/gated-inputs-20261002/hle-diamond/data/test-00000-of-00001.parquet",
+        "id_column": "id",
+        "id": "672ccc56010db734d4f3f109",
+        "question_column": "question",
+        "image_column": "image"
+      },
+      "hle_partition": "reasoning",
+      "image_present": true,
+      "screening_status": "draft_screened_prefix_only",
+      "evidence_file": "evidence/hle-diamond-draft/draft-selection.json"
+    },
+    {
+      "family": "hle",
+      "candidate": "672bb9be168a1a30f1f92fcc",
+      "decision": "draft_for_review",
+      "label": "Reasoning · Foremost Classical: Period Functions",
+      "comps": {
+        "prompt": {
+          "status": "present",
+          "evidence": [
+            {
+              "root": "repository",
+              "path": "benchmarks/cache/gated-inputs-20261002/hle-diamond/data/test-00000-of-00001.parquet",
+              "exists": true,
+              "bytes": 224204778,
+              "sha256": "2b3421909ac47580d8373d4e7e5a23f0f08365d2cfb54a13100ddfac4a961e87",
+              "record_id": "672bb9be168a1a30f1f92fcc",
+              "question_sha256": "619b7a111b8919228d55e854e3ec303432cd1bd0c44dd15a9b4f465e69168b3b"
+            }
+          ],
+          "remaining_gap": null
+        },
+        "assets": {
+          "status": "present",
+          "evidence": [
+            {
+              "root": "repository",
+              "path": "benchmarks/cache/gated-inputs-20261002/hle-diamond/data/test-00000-of-00001.parquet",
+              "exists": true,
+              "bytes": 224204778,
+              "sha256": "2b3421909ac47580d8373d4e7e5a23f0f08365d2cfb54a13100ddfac4a961e87",
+              "record_id": "672bb9be168a1a30f1f92fcc",
+              "question_sha256": "619b7a111b8919228d55e854e3ec303432cd1bd0c44dd15a9b4f465e69168b3b"
+            }
+          ],
+          "remaining_gap": "Verify text and answer-choice formatting in the final prompt."
+        },
+        "environment": {
+          "status": "needs_checking",
+          "evidence": [],
+          "remaining_gap": "Qualify the HLE model input route, dependencies and image handling where required."
+        },
+        "grader": {
+          "status": "needs_checking",
+          "evidence": [
+            {
+              "root": "repository",
+              "path": "benchmarks/cache/gated-inputs-20261002/hle-diamond/data/test-00000-of-00001.parquet",
+              "exists": true,
+              "bytes": 224204778,
+              "sha256": "2b3421909ac47580d8373d4e7e5a23f0f08365d2cfb54a13100ddfac4a961e87",
+              "record_id": "672bb9be168a1a30f1f92fcc",
+              "question_sha256": "619b7a111b8919228d55e854e3ec303432cd1bd0c44dd15a9b4f465e69168b3b"
+            }
+          ],
+          "remaining_gap": "Pin the official grading policy and validate answer parsing/judging; keep references outside subject input."
+        }
+      },
+      "pin": "04eeb7efa7e3e4f83a00cbd5ce436a38fd5dda23",
+      "reason": "Requires differential-equation and special-function reasoning despite the source humanities category.",
+      "source_locator": {
+        "path_relative_to_repository": "benchmarks/cache/gated-inputs-20261002/hle-diamond/data/test-00000-of-00001.parquet",
+        "id_column": "id",
+        "id": "672bb9be168a1a30f1f92fcc",
+        "question_column": "question",
+        "image_column": "image"
+      },
+      "hle_partition": "reasoning",
+      "image_present": false,
+      "screening_status": "draft_screened_prefix_only",
+      "evidence_file": "evidence/hle-diamond-draft/draft-selection.json"
+    },
+    {
+      "family": "hle",
+      "candidate": "67332b7198af9f49ad5d743a",
+      "decision": "draft_for_review",
+      "label": "Reasoning · Information Systems",
+      "comps": {
+        "prompt": {
+          "status": "present",
+          "evidence": [
+            {
+              "root": "repository",
+              "path": "benchmarks/cache/gated-inputs-20261002/hle-diamond/data/test-00000-of-00001.parquet",
+              "exists": true,
+              "bytes": 224204778,
+              "sha256": "2b3421909ac47580d8373d4e7e5a23f0f08365d2cfb54a13100ddfac4a961e87",
+              "record_id": "67332b7198af9f49ad5d743a",
+              "question_sha256": "40c10e433fc95e805dab0b1712e10481bbee5dbfe4d35748c5dd0abadf11cc9c"
+            }
+          ],
+          "remaining_gap": null
+        },
+        "assets": {
+          "status": "present",
+          "evidence": [
+            {
+              "root": "repository",
+              "path": "benchmarks/cache/gated-inputs-20261002/hle-diamond/data/test-00000-of-00001.parquet",
+              "exists": true,
+              "bytes": 224204778,
+              "sha256": "2b3421909ac47580d8373d4e7e5a23f0f08365d2cfb54a13100ddfac4a961e87",
+              "record_id": "67332b7198af9f49ad5d743a",
+              "question_sha256": "40c10e433fc95e805dab0b1712e10481bbee5dbfe4d35748c5dd0abadf11cc9c"
+            }
+          ],
+          "remaining_gap": "Verify text and answer-choice formatting in the final prompt."
+        },
+        "environment": {
+          "status": "needs_checking",
+          "evidence": [],
+          "remaining_gap": "Qualify the HLE model input route, dependencies and image handling where required."
+        },
+        "grader": {
+          "status": "needs_checking",
+          "evidence": [
+            {
+              "root": "repository",
+              "path": "benchmarks/cache/gated-inputs-20261002/hle-diamond/data/test-00000-of-00001.parquet",
+              "exists": true,
+              "bytes": 224204778,
+              "sha256": "2b3421909ac47580d8373d4e7e5a23f0f08365d2cfb54a13100ddfac4a961e87",
+              "record_id": "67332b7198af9f49ad5d743a",
+              "question_sha256": "40c10e433fc95e805dab0b1712e10481bbee5dbfe4d35748c5dd0abadf11cc9c"
+            }
+          ],
+          "remaining_gap": "Pin the official grading policy and validate answer parsing/judging; keep references outside subject input."
+        }
+      },
+      "pin": "04eeb7efa7e3e4f83a00cbd5ce436a38fd5dda23",
+      "reason": "Requires counting transform operations in numerical convolution, without a security property or biological task.",
+      "source_locator": {
+        "path_relative_to_repository": "benchmarks/cache/gated-inputs-20261002/hle-diamond/data/test-00000-of-00001.parquet",
+        "id_column": "id",
+        "id": "67332b7198af9f49ad5d743a",
+        "question_column": "question",
+        "image_column": "image"
+      },
+      "hle_partition": "reasoning",
+      "image_present": false,
+      "screening_status": "draft_screened_prefix_only",
+      "evidence_file": "evidence/hle-diamond-draft/draft-selection.json"
+    },
+    {
+      "family": "hle",
+      "candidate": "66ecd3c6e8b95a8f971fb485",
+      "decision": "draft_for_review",
+      "label": "Reasoning · Mathematics",
+      "comps": {
+        "prompt": {
+          "status": "present",
+          "evidence": [
+            {
+              "root": "repository",
+              "path": "benchmarks/cache/gated-inputs-20261002/hle-diamond/data/test-00000-of-00001.parquet",
+              "exists": true,
+              "bytes": 224204778,
+              "sha256": "2b3421909ac47580d8373d4e7e5a23f0f08365d2cfb54a13100ddfac4a961e87",
+              "record_id": "66ecd3c6e8b95a8f971fb485",
+              "question_sha256": "ac9a7d4fd9d1c21b6d4d98059d812f77935d891e9e603ce15913c8908257b69c"
+            }
+          ],
+          "remaining_gap": null
+        },
+        "assets": {
+          "status": "present",
+          "evidence": [
+            {
+              "root": "repository",
+              "path": "benchmarks/cache/gated-inputs-20261002/hle-diamond/data/test-00000-of-00001.parquet",
+              "exists": true,
+              "bytes": 224204778,
+              "sha256": "2b3421909ac47580d8373d4e7e5a23f0f08365d2cfb54a13100ddfac4a961e87",
+              "record_id": "66ecd3c6e8b95a8f971fb485",
+              "question_sha256": "ac9a7d4fd9d1c21b6d4d98059d812f77935d891e9e603ce15913c8908257b69c"
+            }
+          ],
+          "remaining_gap": "Verify text and answer-choice formatting in the final prompt."
+        },
+        "environment": {
+          "status": "needs_checking",
+          "evidence": [],
+          "remaining_gap": "Qualify the HLE model input route, dependencies and image handling where required."
+        },
+        "grader": {
+          "status": "needs_checking",
+          "evidence": [
+            {
+              "root": "repository",
+              "path": "benchmarks/cache/gated-inputs-20261002/hle-diamond/data/test-00000-of-00001.parquet",
+              "exists": true,
+              "bytes": 224204778,
+              "sha256": "2b3421909ac47580d8373d4e7e5a23f0f08365d2cfb54a13100ddfac4a961e87",
+              "record_id": "66ecd3c6e8b95a8f971fb485",
+              "question_sha256": "ac9a7d4fd9d1c21b6d4d98059d812f77935d891e9e603ce15913c8908257b69c"
+            }
+          ],
+          "remaining_gap": "Pin the official grading policy and validate answer parsing/judging; keep references outside subject input."
+        }
+      },
+      "pin": "04eeb7efa7e3e4f83a00cbd5ce436a38fd5dda23",
+      "reason": "Requires enumeration of set partitions and orders.",
+      "source_locator": {
+        "path_relative_to_repository": "benchmarks/cache/gated-inputs-20261002/hle-diamond/data/test-00000-of-00001.parquet",
+        "id_column": "id",
+        "id": "66ecd3c6e8b95a8f971fb485",
+        "question_column": "question",
+        "image_column": "image"
+      },
+      "hle_partition": "reasoning",
+      "image_present": false,
+      "screening_status": "draft_screened_prefix_only",
+      "evidence_file": "evidence/hle-diamond-draft/draft-selection.json"
+    },
+    {
+      "family": "hle",
+      "candidate": "670aa04552fd04a61d8f4fa8",
+      "decision": "draft_for_review",
+      "label": "Reasoning · Geometric Reasoning",
+      "comps": {
+        "prompt": {
+          "status": "present",
+          "evidence": [
+            {
+              "root": "repository",
+              "path": "benchmarks/cache/gated-inputs-20261002/hle-diamond/data/test-00000-of-00001.parquet",
+              "exists": true,
+              "bytes": 224204778,
+              "sha256": "2b3421909ac47580d8373d4e7e5a23f0f08365d2cfb54a13100ddfac4a961e87",
+              "record_id": "670aa04552fd04a61d8f4fa8",
+              "question_sha256": "6905091e06f5893f33aea029aeda2e1134cb1cf9249574646071b5a3c3045585"
+            }
+          ],
+          "remaining_gap": null
+        },
+        "assets": {
+          "status": "present",
+          "evidence": [
+            {
+              "root": "repository",
+              "path": "benchmarks/cache/gated-inputs-20261002/hle-diamond/data/test-00000-of-00001.parquet",
+              "exists": true,
+              "bytes": 224204778,
+              "sha256": "2b3421909ac47580d8373d4e7e5a23f0f08365d2cfb54a13100ddfac4a961e87",
+              "record_id": "670aa04552fd04a61d8f4fa8",
+              "question_sha256": "6905091e06f5893f33aea029aeda2e1134cb1cf9249574646071b5a3c3045585"
+            }
+          ],
+          "remaining_gap": "Image content is present in the dataset; image decoding and rendering need checking."
+        },
+        "environment": {
+          "status": "needs_checking",
+          "evidence": [],
+          "remaining_gap": "Qualify the HLE model input route, dependencies and image handling where required."
+        },
+        "grader": {
+          "status": "needs_checking",
+          "evidence": [
+            {
+              "root": "repository",
+              "path": "benchmarks/cache/gated-inputs-20261002/hle-diamond/data/test-00000-of-00001.parquet",
+              "exists": true,
+              "bytes": 224204778,
+              "sha256": "2b3421909ac47580d8373d4e7e5a23f0f08365d2cfb54a13100ddfac4a961e87",
+              "record_id": "670aa04552fd04a61d8f4fa8",
+              "question_sha256": "6905091e06f5893f33aea029aeda2e1134cb1cf9249574646071b5a3c3045585"
+            }
+          ],
+          "remaining_gap": "Pin the official grading policy and validate answer parsing/judging; keep references outside subject input."
+        }
+      },
+      "pin": "04eeb7efa7e3e4f83a00cbd5ce436a38fd5dda23",
+      "reason": "Requires matching mathematical cellular-automaton rules to pictured patterns; cells are abstract states, not biological organisms.",
+      "source_locator": {
+        "path_relative_to_repository": "benchmarks/cache/gated-inputs-20261002/hle-diamond/data/test-00000-of-00001.parquet",
+        "id_column": "id",
+        "id": "670aa04552fd04a61d8f4fa8",
+        "question_column": "question",
+        "image_column": "image"
+      },
+      "hle_partition": "reasoning",
+      "image_present": true,
+      "screening_status": "draft_screened_prefix_only",
+      "evidence_file": "evidence/hle-diamond-draft/draft-selection.json"
+    },
+    {
+      "family": "hle",
+      "candidate": "6719f92b62a994eccd9f964b",
+      "decision": "draft_for_review",
+      "label": "Reasoning · Computer Science",
+      "comps": {
+        "prompt": {
+          "status": "present",
+          "evidence": [
+            {
+              "root": "repository",
+              "path": "benchmarks/cache/gated-inputs-20261002/hle-diamond/data/test-00000-of-00001.parquet",
+              "exists": true,
+              "bytes": 224204778,
+              "sha256": "2b3421909ac47580d8373d4e7e5a23f0f08365d2cfb54a13100ddfac4a961e87",
+              "record_id": "6719f92b62a994eccd9f964b",
+              "question_sha256": "69edffb9bac5d5c6e9051e813de10caa065f52faa071062017c4bea5f846a278"
+            }
+          ],
+          "remaining_gap": null
+        },
+        "assets": {
+          "status": "present",
+          "evidence": [
+            {
+              "root": "repository",
+              "path": "benchmarks/cache/gated-inputs-20261002/hle-diamond/data/test-00000-of-00001.parquet",
+              "exists": true,
+              "bytes": 224204778,
+              "sha256": "2b3421909ac47580d8373d4e7e5a23f0f08365d2cfb54a13100ddfac4a961e87",
+              "record_id": "6719f92b62a994eccd9f964b",
+              "question_sha256": "69edffb9bac5d5c6e9051e813de10caa065f52faa071062017c4bea5f846a278"
+            }
+          ],
+          "remaining_gap": "Verify text and answer-choice formatting in the final prompt."
+        },
+        "environment": {
+          "status": "needs_checking",
+          "evidence": [],
+          "remaining_gap": "Qualify the HLE model input route, dependencies and image handling where required."
+        },
+        "grader": {
+          "status": "needs_checking",
+          "evidence": [
+            {
+              "root": "repository",
+              "path": "benchmarks/cache/gated-inputs-20261002/hle-diamond/data/test-00000-of-00001.parquet",
+              "exists": true,
+              "bytes": 224204778,
+              "sha256": "2b3421909ac47580d8373d4e7e5a23f0f08365d2cfb54a13100ddfac4a961e87",
+              "record_id": "6719f92b62a994eccd9f964b",
+              "question_sha256": "69edffb9bac5d5c6e9051e813de10caa065f52faa071062017c4bea5f846a278"
+            }
+          ],
+          "remaining_gap": "Pin the official grading policy and validate answer parsing/judging; keep references outside subject input."
+        }
+      },
+      "pin": "04eeb7efa7e3e4f83a00cbd5ce436a38fd5dda23",
+      "reason": "Requires extremal reasoning about constrained metric clustering, without cybersecurity content.",
+      "source_locator": {
+        "path_relative_to_repository": "benchmarks/cache/gated-inputs-20261002/hle-diamond/data/test-00000-of-00001.parquet",
+        "id_column": "id",
+        "id": "6719f92b62a994eccd9f964b",
+        "question_column": "question",
+        "image_column": "image"
+      },
+      "hle_partition": "reasoning",
+      "image_present": false,
+      "screening_status": "draft_screened_prefix_only",
+      "evidence_file": "evidence/hle-diamond-draft/draft-selection.json"
+    },
+    {
+      "family": "hle",
+      "candidate": "69d70a4c7c69fcd0569670c4",
+      "decision": "draft_for_review",
+      "label": "Reasoning · Chemistry",
+      "comps": {
+        "prompt": {
+          "status": "present",
+          "evidence": [
+            {
+              "root": "repository",
+              "path": "benchmarks/cache/gated-inputs-20261002/hle-diamond/data/test-00000-of-00001.parquet",
+              "exists": true,
+              "bytes": 224204778,
+              "sha256": "2b3421909ac47580d8373d4e7e5a23f0f08365d2cfb54a13100ddfac4a961e87",
+              "record_id": "69d70a4c7c69fcd0569670c4",
+              "question_sha256": "24c178fa3361ae588b3893b3285007fe511b03fe390aa83a2e5f1c2391cce5ce"
+            }
+          ],
+          "remaining_gap": null
+        },
+        "assets": {
+          "status": "present",
+          "evidence": [
+            {
+              "root": "repository",
+              "path": "benchmarks/cache/gated-inputs-20261002/hle-diamond/data/test-00000-of-00001.parquet",
+              "exists": true,
+              "bytes": 224204778,
+              "sha256": "2b3421909ac47580d8373d4e7e5a23f0f08365d2cfb54a13100ddfac4a961e87",
+              "record_id": "69d70a4c7c69fcd0569670c4",
+              "question_sha256": "24c178fa3361ae588b3893b3285007fe511b03fe390aa83a2e5f1c2391cce5ce"
+            }
+          ],
+          "remaining_gap": "Image content is present in the dataset; image decoding and rendering need checking."
+        },
+        "environment": {
+          "status": "needs_checking",
+          "evidence": [],
+          "remaining_gap": "Qualify the HLE model input route, dependencies and image handling where required."
+        },
+        "grader": {
+          "status": "needs_checking",
+          "evidence": [
+            {
+              "root": "repository",
+              "path": "benchmarks/cache/gated-inputs-20261002/hle-diamond/data/test-00000-of-00001.parquet",
+              "exists": true,
+              "bytes": 224204778,
+              "sha256": "2b3421909ac47580d8373d4e7e5a23f0f08365d2cfb54a13100ddfac4a961e87",
+              "record_id": "69d70a4c7c69fcd0569670c4",
+              "question_sha256": "24c178fa3361ae588b3893b3285007fe511b03fe390aa83a2e5f1c2391cce5ce"
+            }
+          ],
+          "remaining_gap": "Pin the official grading policy and validate answer parsing/judging; keep references outside subject input."
+        }
+      },
+      "pin": "04eeb7efa7e3e4f83a00cbd5ce436a38fd5dda23",
+      "reason": "Requires spectroscopy and stereochemical nomenclature of organic structures. No biological mechanism, organism, clinical decision or biological wet-lab task is required by the question.",
+      "source_locator": {
+        "path_relative_to_repository": "benchmarks/cache/gated-inputs-20261002/hle-diamond/data/test-00000-of-00001.parquet",
+        "id_column": "id",
+        "id": "69d70a4c7c69fcd0569670c4",
+        "question_column": "question",
+        "image_column": "image"
+      },
+      "hle_partition": "reasoning",
+      "image_present": true,
+      "screening_status": "draft_screened_prefix_only",
+      "evidence_file": "evidence/hle-diamond-draft/draft-selection.json"
+    },
+    {
+      "family": "hle",
+      "candidate": "67418f4d1cf0c9eba73432cc",
+      "decision": "draft_for_review",
+      "label": "Reasoning · Mathematics",
+      "comps": {
+        "prompt": {
+          "status": "present",
+          "evidence": [
+            {
+              "root": "repository",
+              "path": "benchmarks/cache/gated-inputs-20261002/hle-diamond/data/test-00000-of-00001.parquet",
+              "exists": true,
+              "bytes": 224204778,
+              "sha256": "2b3421909ac47580d8373d4e7e5a23f0f08365d2cfb54a13100ddfac4a961e87",
+              "record_id": "67418f4d1cf0c9eba73432cc",
+              "question_sha256": "71c4afecac754ed9ec1cd9a13509440e4ceb7727d69caa7c29ee34af7fae6f11"
+            }
+          ],
+          "remaining_gap": null
+        },
+        "assets": {
+          "status": "present",
+          "evidence": [
+            {
+              "root": "repository",
+              "path": "benchmarks/cache/gated-inputs-20261002/hle-diamond/data/test-00000-of-00001.parquet",
+              "exists": true,
+              "bytes": 224204778,
+              "sha256": "2b3421909ac47580d8373d4e7e5a23f0f08365d2cfb54a13100ddfac4a961e87",
+              "record_id": "67418f4d1cf0c9eba73432cc",
+              "question_sha256": "71c4afecac754ed9ec1cd9a13509440e4ceb7727d69caa7c29ee34af7fae6f11"
+            }
+          ],
+          "remaining_gap": "Verify text and answer-choice formatting in the final prompt."
+        },
+        "environment": {
+          "status": "needs_checking",
+          "evidence": [],
+          "remaining_gap": "Qualify the HLE model input route, dependencies and image handling where required."
+        },
+        "grader": {
+          "status": "needs_checking",
+          "evidence": [
+            {
+              "root": "repository",
+              "path": "benchmarks/cache/gated-inputs-20261002/hle-diamond/data/test-00000-of-00001.parquet",
+              "exists": true,
+              "bytes": 224204778,
+              "sha256": "2b3421909ac47580d8373d4e7e5a23f0f08365d2cfb54a13100ddfac4a961e87",
+              "record_id": "67418f4d1cf0c9eba73432cc",
+              "question_sha256": "71c4afecac754ed9ec1cd9a13509440e4ceb7727d69caa7c29ee34af7fae6f11"
+            }
+          ],
+          "remaining_gap": "Pin the official grading policy and validate answer parsing/judging; keep references outside subject input."
+        }
+      },
+      "pin": "04eeb7efa7e3e4f83a00cbd5ce436a38fd5dda23",
+      "reason": "Requires an encoding of a combinatorial problem in linear logic.",
+      "source_locator": {
+        "path_relative_to_repository": "benchmarks/cache/gated-inputs-20261002/hle-diamond/data/test-00000-of-00001.parquet",
+        "id_column": "id",
+        "id": "67418f4d1cf0c9eba73432cc",
+        "question_column": "question",
+        "image_column": "image"
+      },
+      "hle_partition": "reasoning",
+      "image_present": false,
+      "screening_status": "draft_screened_prefix_only",
+      "evidence_file": "evidence/hle-diamond-draft/draft-selection.json"
+    },
+    {
+      "family": "hle",
+      "candidate": "67d75590aa91ea806c1b5b23",
+      "decision": "draft_for_review",
+      "label": "Knowledge · Linguistics",
+      "comps": {
+        "prompt": {
+          "status": "present",
+          "evidence": [
+            {
+              "root": "repository",
+              "path": "benchmarks/cache/gated-inputs-20261002/hle-diamond/data/test-00000-of-00001.parquet",
+              "exists": true,
+              "bytes": 224204778,
+              "sha256": "2b3421909ac47580d8373d4e7e5a23f0f08365d2cfb54a13100ddfac4a961e87",
+              "record_id": "67d75590aa91ea806c1b5b23",
+              "question_sha256": "12e3a96de34d388c43b9e64fcd3d200be20904cd9fead501ccd0f3b610199f83"
+            }
+          ],
+          "remaining_gap": null
+        },
+        "assets": {
+          "status": "present",
+          "evidence": [
+            {
+              "root": "repository",
+              "path": "benchmarks/cache/gated-inputs-20261002/hle-diamond/data/test-00000-of-00001.parquet",
+              "exists": true,
+              "bytes": 224204778,
+              "sha256": "2b3421909ac47580d8373d4e7e5a23f0f08365d2cfb54a13100ddfac4a961e87",
+              "record_id": "67d75590aa91ea806c1b5b23",
+              "question_sha256": "12e3a96de34d388c43b9e64fcd3d200be20904cd9fead501ccd0f3b610199f83"
+            }
+          ],
+          "remaining_gap": "Verify text and answer-choice formatting in the final prompt."
+        },
+        "environment": {
+          "status": "needs_checking",
+          "evidence": [],
+          "remaining_gap": "Qualify the HLE model input route, dependencies and image handling where required."
+        },
+        "grader": {
+          "status": "needs_checking",
+          "evidence": [
+            {
+              "root": "repository",
+              "path": "benchmarks/cache/gated-inputs-20261002/hle-diamond/data/test-00000-of-00001.parquet",
+              "exists": true,
+              "bytes": 224204778,
+              "sha256": "2b3421909ac47580d8373d4e7e5a23f0f08365d2cfb54a13100ddfac4a961e87",
+              "record_id": "67d75590aa91ea806c1b5b23",
+              "question_sha256": "12e3a96de34d388c43b9e64fcd3d200be20904cd9fead501ccd0f3b610199f83"
+            }
+          ],
+          "remaining_gap": "Pin the official grading policy and validate answer parsing/judging; keep references outside subject input."
+        }
+      },
+      "pin": "04eeb7efa7e3e4f83a00cbd5ce436a38fd5dda23",
+      "reason": "Requires conventional spelling knowledge in a natural language.",
+      "source_locator": {
+        "path_relative_to_repository": "benchmarks/cache/gated-inputs-20261002/hle-diamond/data/test-00000-of-00001.parquet",
+        "id_column": "id",
+        "id": "67d75590aa91ea806c1b5b23",
+        "question_column": "question",
+        "image_column": "image"
+      },
+      "hle_partition": "knowledge",
+      "image_present": false,
+      "screening_status": "draft_screened_prefix_only",
+      "evidence_file": "evidence/hle-diamond-draft/draft-selection.json"
+    },
+    {
+      "family": "hle",
+      "candidate": "6737016cd6feab08ed98c77d",
+      "decision": "draft_for_review",
+      "label": "Knowledge · Mathematics",
+      "comps": {
+        "prompt": {
+          "status": "present",
+          "evidence": [
+            {
+              "root": "repository",
+              "path": "benchmarks/cache/gated-inputs-20261002/hle-diamond/data/test-00000-of-00001.parquet",
+              "exists": true,
+              "bytes": 224204778,
+              "sha256": "2b3421909ac47580d8373d4e7e5a23f0f08365d2cfb54a13100ddfac4a961e87",
+              "record_id": "6737016cd6feab08ed98c77d",
+              "question_sha256": "6e5b7a8e5d7da672f8fcc2433c32f589857238006b2249eea1973ed916b2be0e"
+            }
+          ],
+          "remaining_gap": null
+        },
+        "assets": {
+          "status": "present",
+          "evidence": [
+            {
+              "root": "repository",
+              "path": "benchmarks/cache/gated-inputs-20261002/hle-diamond/data/test-00000-of-00001.parquet",
+              "exists": true,
+              "bytes": 224204778,
+              "sha256": "2b3421909ac47580d8373d4e7e5a23f0f08365d2cfb54a13100ddfac4a961e87",
+              "record_id": "6737016cd6feab08ed98c77d",
+              "question_sha256": "6e5b7a8e5d7da672f8fcc2433c32f589857238006b2249eea1973ed916b2be0e"
+            }
+          ],
+          "remaining_gap": "Verify text and answer-choice formatting in the final prompt."
+        },
+        "environment": {
+          "status": "needs_checking",
+          "evidence": [],
+          "remaining_gap": "Qualify the HLE model input route, dependencies and image handling where required."
+        },
+        "grader": {
+          "status": "needs_checking",
+          "evidence": [
+            {
+              "root": "repository",
+              "path": "benchmarks/cache/gated-inputs-20261002/hle-diamond/data/test-00000-of-00001.parquet",
+              "exists": true,
+              "bytes": 224204778,
+              "sha256": "2b3421909ac47580d8373d4e7e5a23f0f08365d2cfb54a13100ddfac4a961e87",
+              "record_id": "6737016cd6feab08ed98c77d",
+              "question_sha256": "6e5b7a8e5d7da672f8fcc2433c32f589857238006b2249eea1973ed916b2be0e"
+            }
+          ],
+          "remaining_gap": "Pin the official grading policy and validate answer parsing/judging; keep references outside subject input."
+        }
+      },
+      "pin": "04eeb7efa7e3e4f83a00cbd5ce436a38fd5dda23",
+      "reason": "Requires a mathematical result about sumsets and square numbers.",
+      "source_locator": {
+        "path_relative_to_repository": "benchmarks/cache/gated-inputs-20261002/hle-diamond/data/test-00000-of-00001.parquet",
+        "id_column": "id",
+        "id": "6737016cd6feab08ed98c77d",
+        "question_column": "question",
+        "image_column": "image"
+      },
+      "hle_partition": "knowledge",
+      "image_present": false,
+      "screening_status": "draft_screened_prefix_only",
+      "evidence_file": "evidence/hle-diamond-draft/draft-selection.json"
+    },
+    {
+      "family": "hle",
+      "candidate": "69de096edf3ab381bbbb5089",
+      "decision": "draft_for_review",
+      "label": "Knowledge · Comparative Literature",
+      "comps": {
+        "prompt": {
+          "status": "present",
+          "evidence": [
+            {
+              "root": "repository",
+              "path": "benchmarks/cache/gated-inputs-20261002/hle-diamond/data/test-00000-of-00001.parquet",
+              "exists": true,
+              "bytes": 224204778,
+              "sha256": "2b3421909ac47580d8373d4e7e5a23f0f08365d2cfb54a13100ddfac4a961e87",
+              "record_id": "69de096edf3ab381bbbb5089",
+              "question_sha256": "dee1dfd58ae8ee38271aff518eaef6eb64fff8e41888dc9a891bb00d736cbff9"
+            }
+          ],
+          "remaining_gap": null
+        },
+        "assets": {
+          "status": "present",
+          "evidence": [
+            {
+              "root": "repository",
+              "path": "benchmarks/cache/gated-inputs-20261002/hle-diamond/data/test-00000-of-00001.parquet",
+              "exists": true,
+              "bytes": 224204778,
+              "sha256": "2b3421909ac47580d8373d4e7e5a23f0f08365d2cfb54a13100ddfac4a961e87",
+              "record_id": "69de096edf3ab381bbbb5089",
+              "question_sha256": "dee1dfd58ae8ee38271aff518eaef6eb64fff8e41888dc9a891bb00d736cbff9"
+            }
+          ],
+          "remaining_gap": "Verify text and answer-choice formatting in the final prompt."
+        },
+        "environment": {
+          "status": "needs_checking",
+          "evidence": [],
+          "remaining_gap": "Qualify the HLE model input route, dependencies and image handling where required."
+        },
+        "grader": {
+          "status": "needs_checking",
+          "evidence": [
+            {
+              "root": "repository",
+              "path": "benchmarks/cache/gated-inputs-20261002/hle-diamond/data/test-00000-of-00001.parquet",
+              "exists": true,
+              "bytes": 224204778,
+              "sha256": "2b3421909ac47580d8373d4e7e5a23f0f08365d2cfb54a13100ddfac4a961e87",
+              "record_id": "69de096edf3ab381bbbb5089",
+              "question_sha256": "dee1dfd58ae8ee38271aff518eaef6eb64fff8e41888dc9a891bb00d736cbff9"
+            }
+          ],
+          "remaining_gap": "Pin the official grading policy and validate answer parsing/judging; keep references outside subject input."
+        }
+      },
+      "pin": "04eeb7efa7e3e4f83a00cbd5ce436a38fd5dda23",
+      "reason": "Requires a literary source phrase and translation knowledge; a disease word in a book title does not make the required work clinical.",
+      "source_locator": {
+        "path_relative_to_repository": "benchmarks/cache/gated-inputs-20261002/hle-diamond/data/test-00000-of-00001.parquet",
+        "id_column": "id",
+        "id": "69de096edf3ab381bbbb5089",
+        "question_column": "question",
+        "image_column": "image"
+      },
+      "hle_partition": "knowledge",
+      "image_present": false,
+      "screening_status": "draft_screened_prefix_only",
+      "evidence_file": "evidence/hle-diamond-draft/draft-selection.json"
+    },
+    {
+      "family": "hle",
+      "candidate": "6723f1d6e01c4b28f6115ce0",
+      "decision": "draft_for_review",
+      "label": "Knowledge · Trivia",
+      "comps": {
+        "prompt": {
+          "status": "present",
+          "evidence": [
+            {
+              "root": "repository",
+              "path": "benchmarks/cache/gated-inputs-20261002/hle-diamond/data/test-00000-of-00001.parquet",
+              "exists": true,
+              "bytes": 224204778,
+              "sha256": "2b3421909ac47580d8373d4e7e5a23f0f08365d2cfb54a13100ddfac4a961e87",
+              "record_id": "6723f1d6e01c4b28f6115ce0",
+              "question_sha256": "fd86ff3284371e2ee31bd474a513ab137b26dce6fdea5638978bac3a597b5b4e"
+            }
+          ],
+          "remaining_gap": null
+        },
+        "assets": {
+          "status": "present",
+          "evidence": [
+            {
+              "root": "repository",
+              "path": "benchmarks/cache/gated-inputs-20261002/hle-diamond/data/test-00000-of-00001.parquet",
+              "exists": true,
+              "bytes": 224204778,
+              "sha256": "2b3421909ac47580d8373d4e7e5a23f0f08365d2cfb54a13100ddfac4a961e87",
+              "record_id": "6723f1d6e01c4b28f6115ce0",
+              "question_sha256": "fd86ff3284371e2ee31bd474a513ab137b26dce6fdea5638978bac3a597b5b4e"
+            }
+          ],
+          "remaining_gap": "Verify text and answer-choice formatting in the final prompt."
+        },
+        "environment": {
+          "status": "needs_checking",
+          "evidence": [],
+          "remaining_gap": "Qualify the HLE model input route, dependencies and image handling where required."
+        },
+        "grader": {
+          "status": "needs_checking",
+          "evidence": [
+            {
+              "root": "repository",
+              "path": "benchmarks/cache/gated-inputs-20261002/hle-diamond/data/test-00000-of-00001.parquet",
+              "exists": true,
+              "bytes": 224204778,
+              "sha256": "2b3421909ac47580d8373d4e7e5a23f0f08365d2cfb54a13100ddfac4a961e87",
+              "record_id": "6723f1d6e01c4b28f6115ce0",
+              "question_sha256": "fd86ff3284371e2ee31bd474a513ab137b26dce6fdea5638978bac3a597b5b4e"
+            }
+          ],
+          "remaining_gap": "Pin the official grading policy and validate answer parsing/judging; keep references outside subject input."
+        }
+      },
+      "pin": "04eeb7efa7e3e4f83a00cbd5ce436a38fd5dda23",
+      "reason": "Requires recalling a fictional character and dialogue context.",
+      "source_locator": {
+        "path_relative_to_repository": "benchmarks/cache/gated-inputs-20261002/hle-diamond/data/test-00000-of-00001.parquet",
+        "id_column": "id",
+        "id": "6723f1d6e01c4b28f6115ce0",
+        "question_column": "question",
+        "image_column": "image"
+      },
+      "hle_partition": "knowledge",
+      "image_present": false,
+      "screening_status": "draft_screened_prefix_only",
+      "evidence_file": "evidence/hle-diamond-draft/draft-selection.json"
+    },
+    {
+      "family": "hle",
+      "candidate": "6736289810ec0a5f859365d0",
+      "decision": "draft_for_review",
+      "label": "Knowledge · Classical Ballet",
+      "comps": {
+        "prompt": {
+          "status": "present",
+          "evidence": [
+            {
+              "root": "repository",
+              "path": "benchmarks/cache/gated-inputs-20261002/hle-diamond/data/test-00000-of-00001.parquet",
+              "exists": true,
+              "bytes": 224204778,
+              "sha256": "2b3421909ac47580d8373d4e7e5a23f0f08365d2cfb54a13100ddfac4a961e87",
+              "record_id": "6736289810ec0a5f859365d0",
+              "question_sha256": "d8ad43f6ece395b2da367ea98aea6ab6203ce961f9ca0b70267b6c3b3f3db0ef"
+            }
+          ],
+          "remaining_gap": null
+        },
+        "assets": {
+          "status": "present",
+          "evidence": [
+            {
+              "root": "repository",
+              "path": "benchmarks/cache/gated-inputs-20261002/hle-diamond/data/test-00000-of-00001.parquet",
+              "exists": true,
+              "bytes": 224204778,
+              "sha256": "2b3421909ac47580d8373d4e7e5a23f0f08365d2cfb54a13100ddfac4a961e87",
+              "record_id": "6736289810ec0a5f859365d0",
+              "question_sha256": "d8ad43f6ece395b2da367ea98aea6ab6203ce961f9ca0b70267b6c3b3f3db0ef"
+            }
+          ],
+          "remaining_gap": "Verify text and answer-choice formatting in the final prompt."
+        },
+        "environment": {
+          "status": "needs_checking",
+          "evidence": [],
+          "remaining_gap": "Qualify the HLE model input route, dependencies and image handling where required."
+        },
+        "grader": {
+          "status": "needs_checking",
+          "evidence": [
+            {
+              "root": "repository",
+              "path": "benchmarks/cache/gated-inputs-20261002/hle-diamond/data/test-00000-of-00001.parquet",
+              "exists": true,
+              "bytes": 224204778,
+              "sha256": "2b3421909ac47580d8373d4e7e5a23f0f08365d2cfb54a13100ddfac4a961e87",
+              "record_id": "6736289810ec0a5f859365d0",
+              "question_sha256": "d8ad43f6ece395b2da367ea98aea6ab6203ce961f9ca0b70267b6c3b3f3db0ef"
+            }
+          ],
+          "remaining_gap": "Pin the official grading policy and validate answer parsing/judging; keep references outside subject input."
+        }
+      },
+      "pin": "04eeb7efa7e3e4f83a00cbd5ce436a38fd5dda23",
+      "reason": "Requires ballet-school technique conventions, without physiology or clinical advice.",
+      "source_locator": {
+        "path_relative_to_repository": "benchmarks/cache/gated-inputs-20261002/hle-diamond/data/test-00000-of-00001.parquet",
+        "id_column": "id",
+        "id": "6736289810ec0a5f859365d0",
+        "question_column": "question",
+        "image_column": "image"
+      },
+      "hle_partition": "knowledge",
+      "image_present": false,
+      "screening_status": "draft_screened_prefix_only",
+      "evidence_file": "evidence/hle-diamond-draft/draft-selection.json"
+    },
+    {
+      "family": "hle",
+      "candidate": "67252b9639b66386e0489e94",
+      "decision": "draft_for_review",
+      "label": "Knowledge · Linguistics",
+      "comps": {
+        "prompt": {
+          "status": "present",
+          "evidence": [
+            {
+              "root": "repository",
+              "path": "benchmarks/cache/gated-inputs-20261002/hle-diamond/data/test-00000-of-00001.parquet",
+              "exists": true,
+              "bytes": 224204778,
+              "sha256": "2b3421909ac47580d8373d4e7e5a23f0f08365d2cfb54a13100ddfac4a961e87",
+              "record_id": "67252b9639b66386e0489e94",
+              "question_sha256": "7a48b44e5f394967849eabe49c9e3e6e514ad5feb8a4b6c3fc5ed791c3d70078"
+            }
+          ],
+          "remaining_gap": null
+        },
+        "assets": {
+          "status": "present",
+          "evidence": [
+            {
+              "root": "repository",
+              "path": "benchmarks/cache/gated-inputs-20261002/hle-diamond/data/test-00000-of-00001.parquet",
+              "exists": true,
+              "bytes": 224204778,
+              "sha256": "2b3421909ac47580d8373d4e7e5a23f0f08365d2cfb54a13100ddfac4a961e87",
+              "record_id": "67252b9639b66386e0489e94",
+              "question_sha256": "7a48b44e5f394967849eabe49c9e3e6e514ad5feb8a4b6c3fc5ed791c3d70078"
+            }
+          ],
+          "remaining_gap": "Verify text and answer-choice formatting in the final prompt."
+        },
+        "environment": {
+          "status": "needs_checking",
+          "evidence": [],
+          "remaining_gap": "Qualify the HLE model input route, dependencies and image handling where required."
+        },
+        "grader": {
+          "status": "needs_checking",
+          "evidence": [
+            {
+              "root": "repository",
+              "path": "benchmarks/cache/gated-inputs-20261002/hle-diamond/data/test-00000-of-00001.parquet",
+              "exists": true,
+              "bytes": 224204778,
+              "sha256": "2b3421909ac47580d8373d4e7e5a23f0f08365d2cfb54a13100ddfac4a961e87",
+              "record_id": "67252b9639b66386e0489e94",
+              "question_sha256": "7a48b44e5f394967849eabe49c9e3e6e514ad5feb8a4b6c3fc5ed791c3d70078"
+            }
+          ],
+          "remaining_gap": "Pin the official grading policy and validate answer parsing/judging; keep references outside subject input."
+        }
+      },
+      "pin": "04eeb7efa7e3e4f83a00cbd5ce436a38fd5dda23",
+      "reason": "Requires an empirical language-acquisition association comparing computational models and human word learning; it does not require physiological, molecular, organismal or clinical mechanisms.",
+      "source_locator": {
+        "path_relative_to_repository": "benchmarks/cache/gated-inputs-20261002/hle-diamond/data/test-00000-of-00001.parquet",
+        "id_column": "id",
+        "id": "67252b9639b66386e0489e94",
+        "question_column": "question",
+        "image_column": "image"
+      },
+      "hle_partition": "knowledge",
+      "image_present": false,
+      "screening_status": "draft_screened_prefix_only",
+      "evidence_file": "evidence/hle-diamond-draft/draft-selection.json"
+    },
+    {
+      "family": "hle",
+      "candidate": "67ae6422afefb0983e23a370",
+      "decision": "draft_for_review",
+      "label": "Knowledge · Trivia",
+      "comps": {
+        "prompt": {
+          "status": "present",
+          "evidence": [
+            {
+              "root": "repository",
+              "path": "benchmarks/cache/gated-inputs-20261002/hle-diamond/data/test-00000-of-00001.parquet",
+              "exists": true,
+              "bytes": 224204778,
+              "sha256": "2b3421909ac47580d8373d4e7e5a23f0f08365d2cfb54a13100ddfac4a961e87",
+              "record_id": "67ae6422afefb0983e23a370",
+              "question_sha256": "db13dd8dade2dadce7128902fce1356d258e6abccdf025a3ae168eb5af24267a"
+            }
+          ],
+          "remaining_gap": null
+        },
+        "assets": {
+          "status": "present",
+          "evidence": [
+            {
+              "root": "repository",
+              "path": "benchmarks/cache/gated-inputs-20261002/hle-diamond/data/test-00000-of-00001.parquet",
+              "exists": true,
+              "bytes": 224204778,
+              "sha256": "2b3421909ac47580d8373d4e7e5a23f0f08365d2cfb54a13100ddfac4a961e87",
+              "record_id": "67ae6422afefb0983e23a370",
+              "question_sha256": "db13dd8dade2dadce7128902fce1356d258e6abccdf025a3ae168eb5af24267a"
+            }
+          ],
+          "remaining_gap": "Verify text and answer-choice formatting in the final prompt."
+        },
+        "environment": {
+          "status": "needs_checking",
+          "evidence": [],
+          "remaining_gap": "Qualify the HLE model input route, dependencies and image handling where required."
+        },
+        "grader": {
+          "status": "needs_checking",
+          "evidence": [
+            {
+              "root": "repository",
+              "path": "benchmarks/cache/gated-inputs-20261002/hle-diamond/data/test-00000-of-00001.parquet",
+              "exists": true,
+              "bytes": 224204778,
+              "sha256": "2b3421909ac47580d8373d4e7e5a23f0f08365d2cfb54a13100ddfac4a961e87",
+              "record_id": "67ae6422afefb0983e23a370",
+              "question_sha256": "db13dd8dade2dadce7128902fce1356d258e6abccdf025a3ae168eb5af24267a"
+            }
+          ],
+          "remaining_gap": "Pin the official grading policy and validate answer parsing/judging; keep references outside subject input."
+        }
+      },
+      "pin": "04eeb7efa7e3e4f83a00cbd5ce436a38fd5dda23",
+      "reason": "Requires identifying a character in a fictional television scene.",
+      "source_locator": {
+        "path_relative_to_repository": "benchmarks/cache/gated-inputs-20261002/hle-diamond/data/test-00000-of-00001.parquet",
+        "id_column": "id",
+        "id": "67ae6422afefb0983e23a370",
+        "question_column": "question",
+        "image_column": "image"
+      },
+      "hle_partition": "knowledge",
+      "image_present": false,
+      "screening_status": "draft_screened_prefix_only",
+      "evidence_file": "evidence/hle-diamond-draft/draft-selection.json"
+    },
+    {
+      "family": "hle",
+      "candidate": "675aa6e703e9471764dfedd2",
+      "decision": "draft_for_review",
+      "label": "Knowledge · Trivia",
+      "comps": {
+        "prompt": {
+          "status": "present",
+          "evidence": [
+            {
+              "root": "repository",
+              "path": "benchmarks/cache/gated-inputs-20261002/hle-diamond/data/test-00000-of-00001.parquet",
+              "exists": true,
+              "bytes": 224204778,
+              "sha256": "2b3421909ac47580d8373d4e7e5a23f0f08365d2cfb54a13100ddfac4a961e87",
+              "record_id": "675aa6e703e9471764dfedd2",
+              "question_sha256": "4ccf14d0c83f563883e4157e2d28937bb309d39daa81e28f248bff50cba31032"
+            }
+          ],
+          "remaining_gap": null
+        },
+        "assets": {
+          "status": "present",
+          "evidence": [
+            {
+              "root": "repository",
+              "path": "benchmarks/cache/gated-inputs-20261002/hle-diamond/data/test-00000-of-00001.parquet",
+              "exists": true,
+              "bytes": 224204778,
+              "sha256": "2b3421909ac47580d8373d4e7e5a23f0f08365d2cfb54a13100ddfac4a961e87",
+              "record_id": "675aa6e703e9471764dfedd2",
+              "question_sha256": "4ccf14d0c83f563883e4157e2d28937bb309d39daa81e28f248bff50cba31032"
+            }
+          ],
+          "remaining_gap": "Verify text and answer-choice formatting in the final prompt."
+        },
+        "environment": {
+          "status": "needs_checking",
+          "evidence": [],
+          "remaining_gap": "Qualify the HLE model input route, dependencies and image handling where required."
+        },
+        "grader": {
+          "status": "needs_checking",
+          "evidence": [
+            {
+              "root": "repository",
+              "path": "benchmarks/cache/gated-inputs-20261002/hle-diamond/data/test-00000-of-00001.parquet",
+              "exists": true,
+              "bytes": 224204778,
+              "sha256": "2b3421909ac47580d8373d4e7e5a23f0f08365d2cfb54a13100ddfac4a961e87",
+              "record_id": "675aa6e703e9471764dfedd2",
+              "question_sha256": "4ccf14d0c83f563883e4157e2d28937bb309d39daa81e28f248bff50cba31032"
+            }
+          ],
+          "remaining_gap": "Pin the official grading policy and validate answer parsing/judging; keep references outside subject input."
+        }
+      },
+      "pin": "04eeb7efa7e3e4f83a00cbd5ce436a38fd5dda23",
+      "reason": "Requires knowledge of a numerical phase-change simulation coefficient and its literature, without biological work.",
+      "source_locator": {
+        "path_relative_to_repository": "benchmarks/cache/gated-inputs-20261002/hle-diamond/data/test-00000-of-00001.parquet",
+        "id_column": "id",
+        "id": "675aa6e703e9471764dfedd2",
+        "question_column": "question",
+        "image_column": "image"
+      },
+      "hle_partition": "knowledge",
+      "image_present": false,
+      "screening_status": "draft_screened_prefix_only",
+      "evidence_file": "evidence/hle-diamond-draft/draft-selection.json"
+    },
+    {
+      "family": "hle",
+      "candidate": "6a61b9608ebbd180e11f956f",
+      "decision": "draft_for_review",
+      "label": "Knowledge · Linguistics",
+      "comps": {
+        "prompt": {
+          "status": "present",
+          "evidence": [
+            {
+              "root": "repository",
+              "path": "benchmarks/cache/gated-inputs-20261002/hle-diamond/data/test-00000-of-00001.parquet",
+              "exists": true,
+              "bytes": 224204778,
+              "sha256": "2b3421909ac47580d8373d4e7e5a23f0f08365d2cfb54a13100ddfac4a961e87",
+              "record_id": "6a61b9608ebbd180e11f956f",
+              "question_sha256": "27e5b96aa0601db07dbbcd099b6496d30d9eb49f8b26a0a8bbe9425a95b990af"
+            }
+          ],
+          "remaining_gap": null
+        },
+        "assets": {
+          "status": "present",
+          "evidence": [
+            {
+              "root": "repository",
+              "path": "benchmarks/cache/gated-inputs-20261002/hle-diamond/data/test-00000-of-00001.parquet",
+              "exists": true,
+              "bytes": 224204778,
+              "sha256": "2b3421909ac47580d8373d4e7e5a23f0f08365d2cfb54a13100ddfac4a961e87",
+              "record_id": "6a61b9608ebbd180e11f956f",
+              "question_sha256": "27e5b96aa0601db07dbbcd099b6496d30d9eb49f8b26a0a8bbe9425a95b990af"
+            }
+          ],
+          "remaining_gap": "Image content is present in the dataset; image decoding and rendering need checking."
+        },
+        "environment": {
+          "status": "needs_checking",
+          "evidence": [],
+          "remaining_gap": "Qualify the HLE model input route, dependencies and image handling where required."
+        },
+        "grader": {
+          "status": "needs_checking",
+          "evidence": [
+            {
+              "root": "repository",
+              "path": "benchmarks/cache/gated-inputs-20261002/hle-diamond/data/test-00000-of-00001.parquet",
+              "exists": true,
+              "bytes": 224204778,
+              "sha256": "2b3421909ac47580d8373d4e7e5a23f0f08365d2cfb54a13100ddfac4a961e87",
+              "record_id": "6a61b9608ebbd180e11f956f",
+              "question_sha256": "27e5b96aa0601db07dbbcd099b6496d30d9eb49f8b26a0a8bbe9425a95b990af"
+            }
+          ],
+          "remaining_gap": "Pin the official grading policy and validate answer parsing/judging; keep references outside subject input."
+        }
+      },
+      "pin": "04eeb7efa7e3e4f83a00cbd5ce436a38fd5dda23",
+      "reason": "Requires identifying the language associated with a pictured writing-system character; visual rendering remains unchecked.",
+      "source_locator": {
+        "path_relative_to_repository": "benchmarks/cache/gated-inputs-20261002/hle-diamond/data/test-00000-of-00001.parquet",
+        "id_column": "id",
+        "id": "6a61b9608ebbd180e11f956f",
+        "question_column": "question",
+        "image_column": "image"
+      },
+      "hle_partition": "knowledge",
+      "image_present": true,
+      "screening_status": "draft_screened_prefix_only",
+      "evidence_file": "evidence/hle-diamond-draft/draft-selection.json"
+    },
+    {
+      "family": "hle",
+      "candidate": "6a9ef0b5e34811444fad5192",
+      "decision": "draft_for_review",
+      "label": "Knowledge · Law",
+      "comps": {
+        "prompt": {
+          "status": "present",
+          "evidence": [
+            {
+              "root": "repository",
+              "path": "benchmarks/cache/gated-inputs-20261002/hle-diamond/data/test-00000-of-00001.parquet",
+              "exists": true,
+              "bytes": 224204778,
+              "sha256": "2b3421909ac47580d8373d4e7e5a23f0f08365d2cfb54a13100ddfac4a961e87",
+              "record_id": "6a9ef0b5e34811444fad5192",
+              "question_sha256": "a7d693304a0ce38060fd5fdde87e5df4f522dd195d92e7f9a2b9269a22a80567"
+            }
+          ],
+          "remaining_gap": null
+        },
+        "assets": {
+          "status": "present",
+          "evidence": [
+            {
+              "root": "repository",
+              "path": "benchmarks/cache/gated-inputs-20261002/hle-diamond/data/test-00000-of-00001.parquet",
+              "exists": true,
+              "bytes": 224204778,
+              "sha256": "2b3421909ac47580d8373d4e7e5a23f0f08365d2cfb54a13100ddfac4a961e87",
+              "record_id": "6a9ef0b5e34811444fad5192",
+              "question_sha256": "a7d693304a0ce38060fd5fdde87e5df4f522dd195d92e7f9a2b9269a22a80567"
+            }
+          ],
+          "remaining_gap": "Verify text and answer-choice formatting in the final prompt."
+        },
+        "environment": {
+          "status": "needs_checking",
+          "evidence": [],
+          "remaining_gap": "Qualify the HLE model input route, dependencies and image handling where required."
+        },
+        "grader": {
+          "status": "needs_checking",
+          "evidence": [
+            {
+              "root": "repository",
+              "path": "benchmarks/cache/gated-inputs-20261002/hle-diamond/data/test-00000-of-00001.parquet",
+              "exists": true,
+              "bytes": 224204778,
+              "sha256": "2b3421909ac47580d8373d4e7e5a23f0f08365d2cfb54a13100ddfac4a961e87",
+              "record_id": "6a9ef0b5e34811444fad5192",
+              "question_sha256": "a7d693304a0ce38060fd5fdde87e5df4f522dd195d92e7f9a2b9269a22a80567"
+            }
+          ],
+          "remaining_gap": "Pin the official grading policy and validate answer parsing/judging; keep references outside subject input."
+        }
+      },
+      "pin": "04eeb7efa7e3e4f83a00cbd5ce436a38fd5dda23",
+      "reason": "Requires a statutory rule for property-sale defects, without an excluded scientific or security domain.",
+      "source_locator": {
+        "path_relative_to_repository": "benchmarks/cache/gated-inputs-20261002/hle-diamond/data/test-00000-of-00001.parquet",
+        "id_column": "id",
+        "id": "6a9ef0b5e34811444fad5192",
+        "question_column": "question",
+        "image_column": "image"
+      },
+      "hle_partition": "knowledge",
+      "image_present": false,
+      "screening_status": "draft_screened_prefix_only",
+      "evidence_file": "evidence/hle-diamond-draft/draft-selection.json"
+    },
+    {
+      "family": "osworld",
+      "candidate": "001",
+      "decision": "retained_version_mapping",
+      "label": "Defense schedule",
+      "comps": {
+        "prompt": {
+          "status": "present",
+          "evidence": [
+            {
+              "root": "repository",
+              "path": "benchmarks/cache/gated-inputs-20261002/osworld21-tasks/task_001.py",
+              "exists": true,
+              "bytes": 8611,
+              "sha256": "9f8731d02aacb37f6eed0e6e4c7738758c3d7c9fb1b1fa83a9ea08751af19839",
+              "source_components": {
+                "instruction": {
+                  "start_line": 174,
+                  "end_line": 180,
+                  "source_lines_sha256": "fde4f6047dcdf45185981bdc8f04755461c6f50dc439ba0a34b2e7eb344f14ba",
+                  "ast_sha256": "ec5bd10d4f5a5455fb6c6dcd4ec9f65d7469c2c676b30e14d67be99d19f570e9"
+                },
+                "setup": {
+                  "start_line": 186,
+                  "end_line": 214,
+                  "source_lines_sha256": "a64b1dd83a19df9f17db9616f5b1e405dc58697f906890a96ae0b7fe5e9ac5aa",
+                  "ast_sha256": "e83ceeef5ad0402b9498a09d4bf488ec7de5ea2d14e254918a2800c29116614a"
+                },
+                "evaluate": {
+                  "start_line": 216,
+                  "end_line": 234,
+                  "source_lines_sha256": "b191ab77a008205738793ea4b333fc16414a38aa0536896846b2646a5a41e6e3",
+                  "ast_sha256": "bd36f5eb164f4b88ba8e55300adf8a5da5b4ab9572c082bdf7bed77a2560acbd"
+                }
+              }
+            }
+          ],
+          "remaining_gap": null
+        },
+        "assets": {
+          "status": "missing",
+          "evidence": [
+            {
+              "root": "repository",
+              "path": "benchmarks/cache/gated-inputs-20261002/osworld21-tasks/task_001.py",
+              "exists": true,
+              "bytes": 8611,
+              "sha256": "9f8731d02aacb37f6eed0e6e4c7738758c3d7c9fb1b1fa83a9ea08751af19839",
+              "source_components": {
+                "instruction": {
+                  "start_line": 174,
+                  "end_line": 180,
+                  "source_lines_sha256": "fde4f6047dcdf45185981bdc8f04755461c6f50dc439ba0a34b2e7eb344f14ba",
+                  "ast_sha256": "ec5bd10d4f5a5455fb6c6dcd4ec9f65d7469c2c676b30e14d67be99d19f570e9"
+                },
+                "setup": {
+                  "start_line": 186,
+                  "end_line": 214,
+                  "source_lines_sha256": "a64b1dd83a19df9f17db9616f5b1e405dc58697f906890a96ae0b7fe5e9ac5aa",
+                  "ast_sha256": "e83ceeef5ad0402b9498a09d4bf488ec7de5ea2d14e254918a2800c29116614a"
+                },
+                "evaluate": {
+                  "start_line": 216,
+                  "end_line": 234,
+                  "source_lines_sha256": "b191ab77a008205738793ea4b333fc16414a38aa0536896846b2646a5a41e6e3",
+                  "ast_sha256": "bd36f5eb164f4b88ba8e55300adf8a5da5b4ab9572c082bdf7bed77a2560acbd"
+                }
+              }
+            }
+          ],
+          "remaining_gap": "The source defines setup and asset references, but matching task assets and desktop initial state are not yet materialized."
+        },
+        "environment": {
+          "status": "needs_checking",
+          "evidence": [
+            {
+              "root": "repository",
+              "path": "benchmarks/cache/gated-inputs-20261002/osworld21-tasks/task_001.py",
+              "exists": true,
+              "bytes": 8611,
+              "sha256": "9f8731d02aacb37f6eed0e6e4c7738758c3d7c9fb1b1fa83a9ea08751af19839",
+              "source_components": {
+                "instruction": {
+                  "start_line": 174,
+                  "end_line": 180,
+                  "source_lines_sha256": "fde4f6047dcdf45185981bdc8f04755461c6f50dc439ba0a34b2e7eb344f14ba",
+                  "ast_sha256": "ec5bd10d4f5a5455fb6c6dcd4ec9f65d7469c2c676b30e14d67be99d19f570e9"
+                },
+                "setup": {
+                  "start_line": 186,
+                  "end_line": 214,
+                  "source_lines_sha256": "a64b1dd83a19df9f17db9616f5b1e405dc58697f906890a96ae0b7fe5e9ac5aa",
+                  "ast_sha256": "e83ceeef5ad0402b9498a09d4bf488ec7de5ea2d14e254918a2800c29116614a"
+                },
+                "evaluate": {
+                  "start_line": 216,
+                  "end_line": 234,
+                  "source_lines_sha256": "b191ab77a008205738793ea4b333fc16414a38aa0536896846b2646a5a41e6e3",
+                  "ast_sha256": "bd36f5eb164f4b88ba8e55300adf8a5da5b4ab9572c082bdf7bed77a2560acbd"
+                }
+              }
+            }
+          ],
+          "remaining_gap": "Acquire the matching OSWorld2.1 VM, prepare task state and qualify setup. Calendar, mailbox and frozen initial/target assets remain environment dependencies."
+        },
+        "grader": {
+          "status": "present",
+          "evidence": [
+            {
+              "root": "repository",
+              "path": "benchmarks/cache/gated-inputs-20261002/osworld21-tasks/task_001.py",
+              "exists": true,
+              "bytes": 8611,
+              "sha256": "9f8731d02aacb37f6eed0e6e4c7738758c3d7c9fb1b1fa83a9ea08751af19839",
+              "source_components": {
+                "instruction": {
+                  "start_line": 174,
+                  "end_line": 180,
+                  "source_lines_sha256": "fde4f6047dcdf45185981bdc8f04755461c6f50dc439ba0a34b2e7eb344f14ba",
+                  "ast_sha256": "ec5bd10d4f5a5455fb6c6dcd4ec9f65d7469c2c676b30e14d67be99d19f570e9"
+                },
+                "setup": {
+                  "start_line": 186,
+                  "end_line": 214,
+                  "source_lines_sha256": "a64b1dd83a19df9f17db9616f5b1e405dc58697f906890a96ae0b7fe5e9ac5aa",
+                  "ast_sha256": "e83ceeef5ad0402b9498a09d4bf488ec7de5ea2d14e254918a2800c29116614a"
+                },
+                "evaluate": {
+                  "start_line": 216,
+                  "end_line": 234,
+                  "source_lines_sha256": "b191ab77a008205738793ea4b333fc16414a38aa0536896846b2646a5a41e6e3",
+                  "ast_sha256": "bd36f5eb164f4b88ba8e55300adf8a5da5b4ab9572c082bdf7bed77a2560acbd"
+                }
+              }
+            }
+          ],
+          "remaining_gap": "Run full native evaluation including visual and judge-dependent components where required. Calendar, mailbox and frozen initial/target assets remain environment dependencies."
+        }
+      },
+      "pin": "0a1aadad95aa79b00b3783e717d865089ab06e26",
+      "reason": "Transfer defense-schedule details from email to a calendar and remove conflicting personal holds.",
+      "identity": "verified_upstream_class_id",
+      "evidence_file": "evidence/osworld21-check/authenticated-mapping.json"
+    },
+    {
+      "family": "osworld",
+      "candidate": "010",
+      "decision": "retained_version_mapping",
+      "label": "Reimbursement package",
+      "comps": {
+        "prompt": {
+          "status": "present",
+          "evidence": [
+            {
+              "root": "repository",
+              "path": "benchmarks/cache/gated-inputs-20261002/osworld21-tasks/task_010.py",
+              "exists": true,
+              "bytes": 9157,
+              "sha256": "ab779f636a802dfe245ad954699f65e2792dee300404a1d7c2a38fd27f443ff6",
+              "source_components": {
+                "instruction": {
+                  "start_line": 86,
+                  "end_line": 94,
+                  "source_lines_sha256": "8603a0f011b890e1b164b71d5d02d0070ae873c90b66c9dbed28bd21f4e50b57",
+                  "ast_sha256": "2ee6b95df6eb3fd0ad0927698fef59da8f9c19d6360ef07b85b6e90fa4b69527"
+                },
+                "setup": {
+                  "start_line": 102,
+                  "end_line": 168,
+                  "source_lines_sha256": "5baaf0910d1d207db912339f1098a1c39e4a8ed2779a97e107c94e3973b298d3",
+                  "ast_sha256": "c2fa4b1d94dad00492d551d8b335d45467dc7b47b1ebb47eeec7587cb4ce6189"
+                },
+                "evaluate": {
+                  "start_line": 170,
+                  "end_line": 207,
+                  "source_lines_sha256": "b02d99b29d4b700721f0b366d3760da444d0bcecce44e64205befdbd80aeded3",
+                  "ast_sha256": "38582ae371b4d19ee08ae64f7d9ba13522bcc09bd2893e57ee6b26973945664d"
+                }
+              }
+            }
+          ],
+          "remaining_gap": null
+        },
+        "assets": {
+          "status": "missing",
+          "evidence": [
+            {
+              "root": "repository",
+              "path": "benchmarks/cache/gated-inputs-20261002/osworld21-tasks/task_010.py",
+              "exists": true,
+              "bytes": 9157,
+              "sha256": "ab779f636a802dfe245ad954699f65e2792dee300404a1d7c2a38fd27f443ff6",
+              "source_components": {
+                "instruction": {
+                  "start_line": 86,
+                  "end_line": 94,
+                  "source_lines_sha256": "8603a0f011b890e1b164b71d5d02d0070ae873c90b66c9dbed28bd21f4e50b57",
+                  "ast_sha256": "2ee6b95df6eb3fd0ad0927698fef59da8f9c19d6360ef07b85b6e90fa4b69527"
+                },
+                "setup": {
+                  "start_line": 102,
+                  "end_line": 168,
+                  "source_lines_sha256": "5baaf0910d1d207db912339f1098a1c39e4a8ed2779a97e107c94e3973b298d3",
+                  "ast_sha256": "c2fa4b1d94dad00492d551d8b335d45467dc7b47b1ebb47eeec7587cb4ce6189"
+                },
+                "evaluate": {
+                  "start_line": 170,
+                  "end_line": 207,
+                  "source_lines_sha256": "b02d99b29d4b700721f0b366d3760da444d0bcecce44e64205befdbd80aeded3",
+                  "ast_sha256": "38582ae371b4d19ee08ae64f7d9ba13522bcc09bd2893e57ee6b26973945664d"
+                }
+              }
+            }
+          ],
+          "remaining_gap": "The source defines setup and asset references, but matching task assets and desktop initial state are not yet materialized."
+        },
+        "environment": {
+          "status": "needs_checking",
+          "evidence": [
+            {
+              "root": "repository",
+              "path": "benchmarks/cache/gated-inputs-20261002/osworld21-tasks/task_010.py",
+              "exists": true,
+              "bytes": 9157,
+              "sha256": "ab779f636a802dfe245ad954699f65e2792dee300404a1d7c2a38fd27f443ff6",
+              "source_components": {
+                "instruction": {
+                  "start_line": 86,
+                  "end_line": 94,
+                  "source_lines_sha256": "8603a0f011b890e1b164b71d5d02d0070ae873c90b66c9dbed28bd21f4e50b57",
+                  "ast_sha256": "2ee6b95df6eb3fd0ad0927698fef59da8f9c19d6360ef07b85b6e90fa4b69527"
+                },
+                "setup": {
+                  "start_line": 102,
+                  "end_line": 168,
+                  "source_lines_sha256": "5baaf0910d1d207db912339f1098a1c39e4a8ed2779a97e107c94e3973b298d3",
+                  "ast_sha256": "c2fa4b1d94dad00492d551d8b335d45467dc7b47b1ebb47eeec7587cb4ce6189"
+                },
+                "evaluate": {
+                  "start_line": 170,
+                  "end_line": 207,
+                  "source_lines_sha256": "b02d99b29d4b700721f0b366d3760da444d0bcecce44e64205befdbd80aeded3",
+                  "ast_sha256": "38582ae371b4d19ee08ae64f7d9ba13522bcc09bd2893e57ee6b26973945664d"
+                }
+              }
+            }
+          ],
+          "remaining_gap": "Acquire the matching OSWorld2.1 VM, prepare task state and qualify setup. Template documents, expected checklist, mailbox state and office versions require materialization and qualification."
+        },
+        "grader": {
+          "status": "present",
+          "evidence": [
+            {
+              "root": "repository",
+              "path": "benchmarks/cache/gated-inputs-20261002/osworld21-tasks/task_010.py",
+              "exists": true,
+              "bytes": 9157,
+              "sha256": "ab779f636a802dfe245ad954699f65e2792dee300404a1d7c2a38fd27f443ff6",
+              "source_components": {
+                "instruction": {
+                  "start_line": 86,
+                  "end_line": 94,
+                  "source_lines_sha256": "8603a0f011b890e1b164b71d5d02d0070ae873c90b66c9dbed28bd21f4e50b57",
+                  "ast_sha256": "2ee6b95df6eb3fd0ad0927698fef59da8f9c19d6360ef07b85b6e90fa4b69527"
+                },
+                "setup": {
+                  "start_line": 102,
+                  "end_line": 168,
+                  "source_lines_sha256": "5baaf0910d1d207db912339f1098a1c39e4a8ed2779a97e107c94e3973b298d3",
+                  "ast_sha256": "c2fa4b1d94dad00492d551d8b335d45467dc7b47b1ebb47eeec7587cb4ce6189"
+                },
+                "evaluate": {
+                  "start_line": 170,
+                  "end_line": 207,
+                  "source_lines_sha256": "b02d99b29d4b700721f0b366d3760da444d0bcecce44e64205befdbd80aeded3",
+                  "ast_sha256": "38582ae371b4d19ee08ae64f7d9ba13522bcc09bd2893e57ee6b26973945664d"
+                }
+              }
+            }
+          ],
+          "remaining_gap": "Run full native evaluation including visual and judge-dependent components where required. Template documents, expected checklist, mailbox state and office versions require materialization and qualification."
+        }
+      },
+      "pin": "0a1aadad95aa79b00b3783e717d865089ab06e26",
+      "reason": "Complete a reimbursement template from email and approval documents.",
+      "identity": "verified_upstream_class_id",
+      "evidence_file": "evidence/osworld21-check/authenticated-mapping.json"
+    },
+    {
+      "family": "osworld",
+      "candidate": "029",
+      "decision": "retained_version_mapping",
+      "label": "Local event booking QA",
+      "comps": {
+        "prompt": {
+          "status": "present",
+          "evidence": [
+            {
+              "root": "repository",
+              "path": "benchmarks/cache/gated-inputs-20261002/osworld21-tasks/task_029.py",
+              "exists": true,
+              "bytes": 5683,
+              "sha256": "70047c4722d56c1400ffdd633d5e68e5c0722c579fa0f991b660f5aa95e02566",
+              "source_components": {
+                "instruction": {
+                  "start_line": 19,
+                  "end_line": 19,
+                  "source_lines_sha256": "e8efbd56bf6b2d1019d6909af92f7a6fcff887cfca84f334a6144f8d688ee6ad",
+                  "ast_sha256": "9224f640722d4b3a9c9f7c958ff9b979ebe5801f584b0dd2e34eec4defc1a938"
+                },
+                "setup": {
+                  "start_line": 27,
+                  "end_line": 71,
+                  "source_lines_sha256": "d091414ba51267f6687812408fe664639f4ccdfcae1a3c71189e705f469c4bda",
+                  "ast_sha256": "bc46f4d3fe55e5c46b7b91c35bf1da5405a16e14d15c1203c6b2a41b09bc2723"
+                },
+                "evaluate": {
+                  "start_line": 73,
+                  "end_line": 145,
+                  "source_lines_sha256": "eddc68161756db6d54cab64d3ef8b0d0d3987aa4374c15a5f955048432e17846",
+                  "ast_sha256": "d1be4134f13ea90913f4045afb20444cb8a134b459daf64202472edfde54c975"
+                }
+              }
+            }
+          ],
+          "remaining_gap": null
+        },
+        "assets": {
+          "status": "missing",
+          "evidence": [
+            {
+              "root": "repository",
+              "path": "benchmarks/cache/gated-inputs-20261002/osworld21-tasks/task_029.py",
+              "exists": true,
+              "bytes": 5683,
+              "sha256": "70047c4722d56c1400ffdd633d5e68e5c0722c579fa0f991b660f5aa95e02566",
+              "source_components": {
+                "instruction": {
+                  "start_line": 19,
+                  "end_line": 19,
+                  "source_lines_sha256": "e8efbd56bf6b2d1019d6909af92f7a6fcff887cfca84f334a6144f8d688ee6ad",
+                  "ast_sha256": "9224f640722d4b3a9c9f7c958ff9b979ebe5801f584b0dd2e34eec4defc1a938"
+                },
+                "setup": {
+                  "start_line": 27,
+                  "end_line": 71,
+                  "source_lines_sha256": "d091414ba51267f6687812408fe664639f4ccdfcae1a3c71189e705f469c4bda",
+                  "ast_sha256": "bc46f4d3fe55e5c46b7b91c35bf1da5405a16e14d15c1203c6b2a41b09bc2723"
+                },
+                "evaluate": {
+                  "start_line": 73,
+                  "end_line": 145,
+                  "source_lines_sha256": "eddc68161756db6d54cab64d3ef8b0d0d3987aa4374c15a5f955048432e17846",
+                  "ast_sha256": "d1be4134f13ea90913f4045afb20444cb8a134b459daf64202472edfde54c975"
+                }
+              }
+            }
+          ],
+          "remaining_gap": "The source defines setup and asset references, but matching task assets and desktop initial state are not yet materialized."
+        },
+        "environment": {
+          "status": "needs_checking",
+          "evidence": [
+            {
+              "root": "repository",
+              "path": "benchmarks/cache/gated-inputs-20261002/osworld21-tasks/task_029.py",
+              "exists": true,
+              "bytes": 5683,
+              "sha256": "70047c4722d56c1400ffdd633d5e68e5c0722c579fa0f991b660f5aa95e02566",
+              "source_components": {
+                "instruction": {
+                  "start_line": 19,
+                  "end_line": 19,
+                  "source_lines_sha256": "e8efbd56bf6b2d1019d6909af92f7a6fcff887cfca84f334a6144f8d688ee6ad",
+                  "ast_sha256": "9224f640722d4b3a9c9f7c958ff9b979ebe5801f584b0dd2e34eec4defc1a938"
+                },
+                "setup": {
+                  "start_line": 27,
+                  "end_line": 71,
+                  "source_lines_sha256": "d091414ba51267f6687812408fe664639f4ccdfcae1a3c71189e705f469c4bda",
+                  "ast_sha256": "bc46f4d3fe55e5c46b7b91c35bf1da5405a16e14d15c1203c6b2a41b09bc2723"
+                },
+                "evaluate": {
+                  "start_line": 73,
+                  "end_line": 145,
+                  "source_lines_sha256": "eddc68161756db6d54cab64d3ef8b0d0d3987aa4374c15a5f955048432e17846",
+                  "ast_sha256": "d1be4134f13ea90913f4045afb20444cb8a134b459daf64202472edfde54c975"
+                }
+              }
+            }
+          ],
+          "remaining_gap": "Acquire the matching OSWorld2.1 VM, prepare task state and qualify setup. Admission remains blocked until unmodified task setup is demonstrated clean or the task is replaced. The separately tested upstream repair is excluded from v2.1. No timeout repair or runtime check was performed by this lane."
+        },
+        "grader": {
+          "status": "present",
+          "evidence": [
+            {
+              "root": "repository",
+              "path": "benchmarks/cache/gated-inputs-20261002/osworld21-tasks/task_029.py",
+              "exists": true,
+              "bytes": 5683,
+              "sha256": "70047c4722d56c1400ffdd633d5e68e5c0722c579fa0f991b660f5aa95e02566",
+              "source_components": {
+                "instruction": {
+                  "start_line": 19,
+                  "end_line": 19,
+                  "source_lines_sha256": "e8efbd56bf6b2d1019d6909af92f7a6fcff887cfca84f334a6144f8d688ee6ad",
+                  "ast_sha256": "9224f640722d4b3a9c9f7c958ff9b979ebe5801f584b0dd2e34eec4defc1a938"
+                },
+                "setup": {
+                  "start_line": 27,
+                  "end_line": 71,
+                  "source_lines_sha256": "d091414ba51267f6687812408fe664639f4ccdfcae1a3c71189e705f469c4bda",
+                  "ast_sha256": "bc46f4d3fe55e5c46b7b91c35bf1da5405a16e14d15c1203c6b2a41b09bc2723"
+                },
+                "evaluate": {
+                  "start_line": 73,
+                  "end_line": 145,
+                  "source_lines_sha256": "eddc68161756db6d54cab64d3ef8b0d0d3987aa4374c15a5f955048432e17846",
+                  "ast_sha256": "d1be4134f13ea90913f4045afb20444cb8a134b459daf64202472edfde54c975"
+                }
+              }
+            }
+          ],
+          "remaining_gap": "Run full native evaluation including visual and judge-dependent components where required. Admission remains blocked until unmodified task setup is demonstrated clean or the task is replaced. The separately tested upstream repair is excluded from v2.1. No timeout repair or runtime check was performed by this lane."
+        }
+      },
+      "pin": "0a1aadad95aa79b00b3783e717d865089ab06e26",
+      "reason": "Test a local event-booking application and complete its QA checklist in VS Code.",
+      "identity": "verified_upstream_class_id",
+      "evidence_file": "evidence/osworld21-check/authenticated-mapping.json"
+    },
+    {
+      "family": "osworld",
+      "candidate": "038",
+      "decision": "retained_version_mapping",
+      "label": "CRM leads",
+      "comps": {
+        "prompt": {
+          "status": "present",
+          "evidence": [
+            {
+              "root": "repository",
+              "path": "benchmarks/cache/gated-inputs-20261002/osworld21-tasks/task_038.py",
+              "exists": true,
+              "bytes": 24716,
+              "sha256": "13f9dfcd20575f8fb4ef72157fd0e06bd21e98bf28c69140c98f6460ec418dca",
+              "source_components": {
+                "instruction": {
+                  "start_line": 348,
+                  "end_line": 355,
+                  "source_lines_sha256": "e7f8869cb87a12b3818793f2135722556bf99446204aeb50404770aec35754a8",
+                  "ast_sha256": "ca714967314209cb443bb10b83d752cc2830ffce37b1d909255af352128eb88f"
+                },
+                "setup": {
+                  "start_line": 364,
+                  "end_line": 378,
+                  "source_lines_sha256": "36c0c01e842f018aa34e93c634e04a0426d6b42c470b66edeab8b36b200c53e1",
+                  "ast_sha256": "d989d204675d62eb35048865235f9d245980b238e281bab70b42d1a5b94559e5"
+                },
+                "evaluate": {
+                  "start_line": 380,
+                  "end_line": 407,
+                  "source_lines_sha256": "7f793afcfe746829d274694b4dce876a75579926828d4fc18e07324269a5a81f",
+                  "ast_sha256": "97d1e8e58209367e56b49792ecd059f6f0774be4e74796f54f7b2dedaa317051"
+                }
+              }
+            }
+          ],
+          "remaining_gap": null
+        },
+        "assets": {
+          "status": "missing",
+          "evidence": [
+            {
+              "root": "repository",
+              "path": "benchmarks/cache/gated-inputs-20261002/osworld21-tasks/task_038.py",
+              "exists": true,
+              "bytes": 24716,
+              "sha256": "13f9dfcd20575f8fb4ef72157fd0e06bd21e98bf28c69140c98f6460ec418dca",
+              "source_components": {
+                "instruction": {
+                  "start_line": 348,
+                  "end_line": 355,
+                  "source_lines_sha256": "e7f8869cb87a12b3818793f2135722556bf99446204aeb50404770aec35754a8",
+                  "ast_sha256": "ca714967314209cb443bb10b83d752cc2830ffce37b1d909255af352128eb88f"
+                },
+                "setup": {
+                  "start_line": 364,
+                  "end_line": 378,
+                  "source_lines_sha256": "36c0c01e842f018aa34e93c634e04a0426d6b42c470b66edeab8b36b200c53e1",
+                  "ast_sha256": "d989d204675d62eb35048865235f9d245980b238e281bab70b42d1a5b94559e5"
+                },
+                "evaluate": {
+                  "start_line": 380,
+                  "end_line": 407,
+                  "source_lines_sha256": "7f793afcfe746829d274694b4dce876a75579926828d4fc18e07324269a5a81f",
+                  "ast_sha256": "97d1e8e58209367e56b49792ecd059f6f0774be4e74796f54f7b2dedaa317051"
+                }
+              }
+            }
+          ],
+          "remaining_gap": "The source defines setup and asset references, but matching task assets and desktop initial state are not yet materialized."
+        },
+        "environment": {
+          "status": "needs_checking",
+          "evidence": [
+            {
+              "root": "repository",
+              "path": "benchmarks/cache/gated-inputs-20261002/osworld21-tasks/task_038.py",
+              "exists": true,
+              "bytes": 24716,
+              "sha256": "13f9dfcd20575f8fb4ef72157fd0e06bd21e98bf28c69140c98f6460ec418dca",
+              "source_components": {
+                "instruction": {
+                  "start_line": 348,
+                  "end_line": 355,
+                  "source_lines_sha256": "e7f8869cb87a12b3818793f2135722556bf99446204aeb50404770aec35754a8",
+                  "ast_sha256": "ca714967314209cb443bb10b83d752cc2830ffce37b1d909255af352128eb88f"
+                },
+                "setup": {
+                  "start_line": 364,
+                  "end_line": 378,
+                  "source_lines_sha256": "36c0c01e842f018aa34e93c634e04a0426d6b42c470b66edeab8b36b200c53e1",
+                  "ast_sha256": "d989d204675d62eb35048865235f9d245980b238e281bab70b42d1a5b94559e5"
+                },
+                "evaluate": {
+                  "start_line": 380,
+                  "end_line": 407,
+                  "source_lines_sha256": "7f793afcfe746829d274694b4dce876a75579926828d4fc18e07324269a5a81f",
+                  "ast_sha256": "97d1e8e58209367e56b49792ecd059f6f0774be4e74796f54f7b2dedaa317051"
+                }
+              }
+            }
+          ],
+          "remaining_gap": "Acquire the matching OSWorld2.1 VM, prepare task state and qualify setup. Pinned CRM and chat state, deployed website code and policy-dependent assets still need runtime qualification."
+        },
+        "grader": {
+          "status": "present",
+          "evidence": [
+            {
+              "root": "repository",
+              "path": "benchmarks/cache/gated-inputs-20261002/osworld21-tasks/task_038.py",
+              "exists": true,
+              "bytes": 24716,
+              "sha256": "13f9dfcd20575f8fb4ef72157fd0e06bd21e98bf28c69140c98f6460ec418dca",
+              "source_components": {
+                "instruction": {
+                  "start_line": 348,
+                  "end_line": 355,
+                  "source_lines_sha256": "e7f8869cb87a12b3818793f2135722556bf99446204aeb50404770aec35754a8",
+                  "ast_sha256": "ca714967314209cb443bb10b83d752cc2830ffce37b1d909255af352128eb88f"
+                },
+                "setup": {
+                  "start_line": 364,
+                  "end_line": 378,
+                  "source_lines_sha256": "36c0c01e842f018aa34e93c634e04a0426d6b42c470b66edeab8b36b200c53e1",
+                  "ast_sha256": "d989d204675d62eb35048865235f9d245980b238e281bab70b42d1a5b94559e5"
+                },
+                "evaluate": {
+                  "start_line": 380,
+                  "end_line": 407,
+                  "source_lines_sha256": "7f793afcfe746829d274694b4dce876a75579926828d4fc18e07324269a5a81f",
+                  "ast_sha256": "97d1e8e58209367e56b49792ecd059f6f0774be4e74796f54f7b2dedaa317051"
+                }
+              }
+            }
+          ],
+          "remaining_gap": "Run full native evaluation including visual and judge-dependent components where required. Pinned CRM and chat state, deployed website code and policy-dependent assets still need runtime qualification."
+        }
+      },
+      "pin": "0a1aadad95aa79b00b3783e717d865089ab06e26",
+      "reason": "Screen CRM leads using manager guidance, update statuses and complete manager-approved conversions.",
+      "identity": "verified_upstream_class_id",
+      "evidence_file": "evidence/osworld21-check/authenticated-mapping.json"
+    },
+    {
+      "family": "osworld",
+      "candidate": "043",
+      "decision": "retained_version_mapping",
+      "label": "Twenty sprint meetings",
+      "comps": {
+        "prompt": {
+          "status": "present",
+          "evidence": [
+            {
+              "root": "repository",
+              "path": "benchmarks/cache/gated-inputs-20261002/osworld21-tasks/task_043.py",
+              "exists": true,
+              "bytes": 28570,
+              "sha256": "e2e5a4a3fec7477a93b3f1af6306d16689ba202cae29ab2393196f05d6a20bd7",
+              "source_components": {
+                "instruction": {
+                  "start_line": 562,
+                  "end_line": 586,
+                  "source_lines_sha256": "f6d2a64d0c71b0db0c59ff728cdbc1646aac0fe798c6abf77c7be497510493db",
+                  "ast_sha256": "dc680c151b1123155f693f1611e9f435a463a893fd6e98a6dc5b391585e8e23b"
+                },
+                "setup": {
+                  "start_line": 598,
+                  "end_line": 638,
+                  "source_lines_sha256": "a8675e5909a907e5fbf5e73bb8ac20c70b979f1a99a38ac065e024534dd2ccc5",
+                  "ast_sha256": "0b97c4f0005e0763f5960b82cad35ab8d2fa350a686b584555cf3fe5e49f9eaf"
+                },
+                "evaluate": {
+                  "start_line": 642,
+                  "end_line": 681,
+                  "source_lines_sha256": "f84c43170aab87bc009d025bb8bc1650a8d6d223a97e72165bd075a2904170b4",
+                  "ast_sha256": "47a7e1562593af8348e7c428cdc9565bde4f9d6d6032ce7942b516beb94c6493"
+                }
+              }
+            }
+          ],
+          "remaining_gap": null
+        },
+        "assets": {
+          "status": "missing",
+          "evidence": [
+            {
+              "root": "repository",
+              "path": "benchmarks/cache/gated-inputs-20261002/osworld21-tasks/task_043.py",
+              "exists": true,
+              "bytes": 28570,
+              "sha256": "e2e5a4a3fec7477a93b3f1af6306d16689ba202cae29ab2393196f05d6a20bd7",
+              "source_components": {
+                "instruction": {
+                  "start_line": 562,
+                  "end_line": 586,
+                  "source_lines_sha256": "f6d2a64d0c71b0db0c59ff728cdbc1646aac0fe798c6abf77c7be497510493db",
+                  "ast_sha256": "dc680c151b1123155f693f1611e9f435a463a893fd6e98a6dc5b391585e8e23b"
+                },
+                "setup": {
+                  "start_line": 598,
+                  "end_line": 638,
+                  "source_lines_sha256": "a8675e5909a907e5fbf5e73bb8ac20c70b979f1a99a38ac065e024534dd2ccc5",
+                  "ast_sha256": "0b97c4f0005e0763f5960b82cad35ab8d2fa350a686b584555cf3fe5e49f9eaf"
+                },
+                "evaluate": {
+                  "start_line": 642,
+                  "end_line": 681,
+                  "source_lines_sha256": "f84c43170aab87bc009d025bb8bc1650a8d6d223a97e72165bd075a2904170b4",
+                  "ast_sha256": "47a7e1562593af8348e7c428cdc9565bde4f9d6d6032ce7942b516beb94c6493"
+                }
+              }
+            }
+          ],
+          "remaining_gap": "The source defines setup and asset references, but matching task assets and desktop initial state are not yet materialized."
+        },
+        "environment": {
+          "status": "needs_checking",
+          "evidence": [
+            {
+              "root": "repository",
+              "path": "benchmarks/cache/gated-inputs-20261002/osworld21-tasks/task_043.py",
+              "exists": true,
+              "bytes": 28570,
+              "sha256": "e2e5a4a3fec7477a93b3f1af6306d16689ba202cae29ab2393196f05d6a20bd7",
+              "source_components": {
+                "instruction": {
+                  "start_line": 562,
+                  "end_line": 586,
+                  "source_lines_sha256": "f6d2a64d0c71b0db0c59ff728cdbc1646aac0fe798c6abf77c7be497510493db",
+                  "ast_sha256": "dc680c151b1123155f693f1611e9f435a463a893fd6e98a6dc5b391585e8e23b"
+                },
+                "setup": {
+                  "start_line": 598,
+                  "end_line": 638,
+                  "source_lines_sha256": "a8675e5909a907e5fbf5e73bb8ac20c70b979f1a99a38ac065e024534dd2ccc5",
+                  "ast_sha256": "0b97c4f0005e0763f5960b82cad35ab8d2fa350a686b584555cf3fe5e49f9eaf"
+                },
+                "evaluate": {
+                  "start_line": 642,
+                  "end_line": 681,
+                  "source_lines_sha256": "f84c43170aab87bc009d025bb8bc1650a8d6d223a97e72165bd075a2904170b4",
+                  "ast_sha256": "47a7e1562593af8348e7c428cdc9565bde4f9d6d6032ce7942b516beb94c6493"
+                }
+              }
+            }
+          ],
+          "remaining_gap": "Acquire the matching OSWorld2.1 VM, prepare task state and qualify setup. The historical label says recurring meetings, but the v2.1 contract specifies non-recurring occurrences. Use the v2.1 label/instruction when preparing prompts. Frozen calendar, chat, reference documents, host suffix and time-zone environment remain required."
+        },
+        "grader": {
+          "status": "present",
+          "evidence": [
+            {
+              "root": "repository",
+              "path": "benchmarks/cache/gated-inputs-20261002/osworld21-tasks/task_043.py",
+              "exists": true,
+              "bytes": 28570,
+              "sha256": "e2e5a4a3fec7477a93b3f1af6306d16689ba202cae29ab2393196f05d6a20bd7",
+              "source_components": {
+                "instruction": {
+                  "start_line": 562,
+                  "end_line": 586,
+                  "source_lines_sha256": "f6d2a64d0c71b0db0c59ff728cdbc1646aac0fe798c6abf77c7be497510493db",
+                  "ast_sha256": "dc680c151b1123155f693f1611e9f435a463a893fd6e98a6dc5b391585e8e23b"
+                },
+                "setup": {
+                  "start_line": 598,
+                  "end_line": 638,
+                  "source_lines_sha256": "a8675e5909a907e5fbf5e73bb8ac20c70b979f1a99a38ac065e024534dd2ccc5",
+                  "ast_sha256": "0b97c4f0005e0763f5960b82cad35ab8d2fa350a686b584555cf3fe5e49f9eaf"
+                },
+                "evaluate": {
+                  "start_line": 642,
+                  "end_line": 681,
+                  "source_lines_sha256": "f84c43170aab87bc009d025bb8bc1650a8d6d223a97e72165bd075a2904170b4",
+                  "ast_sha256": "47a7e1562593af8348e7c428cdc9565bde4f9d6d6032ce7942b516beb94c6493"
+                }
+              }
+            }
+          ],
+          "remaining_gap": "Run full native evaluation including visual and judge-dependent components where required. The historical label says recurring meetings, but the v2.1 contract specifies non-recurring occurrences. Use the v2.1 label/instruction when preparing prompts. Frozen calendar, chat, reference documents, host suffix and time-zone environment remain required."
+        }
+      },
+      "pin": "0a1aadad95aa79b00b3783e717d865089ab06e26",
+      "reason": "Schedule a collection of sprint meetings with title, guest, availability and time-zone constraints.",
+      "identity": "verified_upstream_class_id",
+      "evidence_file": "evidence/osworld21-check/authenticated-mapping.json"
+    },
+    {
+      "family": "osworld",
+      "candidate": "046",
+      "decision": "retained_version_mapping",
+      "label": "Invoices, photos, and email",
+      "comps": {
+        "prompt": {
+          "status": "present",
+          "evidence": [
+            {
+              "root": "repository",
+              "path": "benchmarks/cache/gated-inputs-20261002/osworld21-tasks/task_046.py",
+              "exists": true,
+              "bytes": 23214,
+              "sha256": "ffbdc073fa003069882add775ba06d35feef25ec85a2b8f72f51b00083041ac6",
+              "source_components": {
+                "instruction": {
+                  "start_line": 44,
+                  "end_line": 48,
+                  "source_lines_sha256": "0b280854d39f64eeee121d4f0221faff4776a5d1ca7218177b71c9afec2a0eae",
+                  "ast_sha256": "c2aa7ec04e39e91d02fd6a8967cf346df2837e6335a37285c8f642dc8989da4f"
+                },
+                "setup": {
+                  "start_line": 56,
+                  "end_line": 116,
+                  "source_lines_sha256": "11e7da4204e598a58aef5300c68153fbef2fcaf63ac211843bcb41bb009d5ea0",
+                  "ast_sha256": "189fe37c1816b1f00dc0cc48d05a075a8ea28efa25958b031e16ea4e4aa0fb89"
+                },
+                "evaluate": {
+                  "start_line": 121,
+                  "end_line": 149,
+                  "source_lines_sha256": "890245b579b74caffe7ca9add58ce1298993af06f0259d7c8a149bed1fbdac17",
+                  "ast_sha256": "af1c9ed95f47eca69ae57ca189f65effe238a38602ba2fdd8e45ba1c103bb030"
+                }
+              }
+            }
+          ],
+          "remaining_gap": null
+        },
+        "assets": {
+          "status": "missing",
+          "evidence": [
+            {
+              "root": "repository",
+              "path": "benchmarks/cache/gated-inputs-20261002/osworld21-tasks/task_046.py",
+              "exists": true,
+              "bytes": 23214,
+              "sha256": "ffbdc073fa003069882add775ba06d35feef25ec85a2b8f72f51b00083041ac6",
+              "source_components": {
+                "instruction": {
+                  "start_line": 44,
+                  "end_line": 48,
+                  "source_lines_sha256": "0b280854d39f64eeee121d4f0221faff4776a5d1ca7218177b71c9afec2a0eae",
+                  "ast_sha256": "c2aa7ec04e39e91d02fd6a8967cf346df2837e6335a37285c8f642dc8989da4f"
+                },
+                "setup": {
+                  "start_line": 56,
+                  "end_line": 116,
+                  "source_lines_sha256": "11e7da4204e598a58aef5300c68153fbef2fcaf63ac211843bcb41bb009d5ea0",
+                  "ast_sha256": "189fe37c1816b1f00dc0cc48d05a075a8ea28efa25958b031e16ea4e4aa0fb89"
+                },
+                "evaluate": {
+                  "start_line": 121,
+                  "end_line": 149,
+                  "source_lines_sha256": "890245b579b74caffe7ca9add58ce1298993af06f0259d7c8a149bed1fbdac17",
+                  "ast_sha256": "af1c9ed95f47eca69ae57ca189f65effe238a38602ba2fdd8e45ba1c103bb030"
+                }
+              }
+            }
+          ],
+          "remaining_gap": "The source defines setup and asset references, but matching task assets and desktop initial state are not yet materialized."
+        },
+        "environment": {
+          "status": "needs_checking",
+          "evidence": [
+            {
+              "root": "repository",
+              "path": "benchmarks/cache/gated-inputs-20261002/osworld21-tasks/task_046.py",
+              "exists": true,
+              "bytes": 23214,
+              "sha256": "ffbdc073fa003069882add775ba06d35feef25ec85a2b8f72f51b00083041ac6",
+              "source_components": {
+                "instruction": {
+                  "start_line": 44,
+                  "end_line": 48,
+                  "source_lines_sha256": "0b280854d39f64eeee121d4f0221faff4776a5d1ca7218177b71c9afec2a0eae",
+                  "ast_sha256": "c2aa7ec04e39e91d02fd6a8967cf346df2837e6335a37285c8f642dc8989da4f"
+                },
+                "setup": {
+                  "start_line": 56,
+                  "end_line": 116,
+                  "source_lines_sha256": "11e7da4204e598a58aef5300c68153fbef2fcaf63ac211843bcb41bb009d5ea0",
+                  "ast_sha256": "189fe37c1816b1f00dc0cc48d05a075a8ea28efa25958b031e16ea4e4aa0fb89"
+                },
+                "evaluate": {
+                  "start_line": 121,
+                  "end_line": 149,
+                  "source_lines_sha256": "890245b579b74caffe7ca9add58ce1298993af06f0259d7c8a149bed1fbdac17",
+                  "ast_sha256": "af1c9ed95f47eca69ae57ca189f65effe238a38602ba2fdd8e45ba1c103bb030"
+                }
+              }
+            }
+          ],
+          "remaining_gap": "Acquire the matching OSWorld2.1 VM, prepare task state and qualify setup. Matching task bytes do not establish matching website deployment, assets or shared scorer dependencies."
+        },
+        "grader": {
+          "status": "present",
+          "evidence": [
+            {
+              "root": "repository",
+              "path": "benchmarks/cache/gated-inputs-20261002/osworld21-tasks/task_046.py",
+              "exists": true,
+              "bytes": 23214,
+              "sha256": "ffbdc073fa003069882add775ba06d35feef25ec85a2b8f72f51b00083041ac6",
+              "source_components": {
+                "instruction": {
+                  "start_line": 44,
+                  "end_line": 48,
+                  "source_lines_sha256": "0b280854d39f64eeee121d4f0221faff4776a5d1ca7218177b71c9afec2a0eae",
+                  "ast_sha256": "c2aa7ec04e39e91d02fd6a8967cf346df2837e6335a37285c8f642dc8989da4f"
+                },
+                "setup": {
+                  "start_line": 56,
+                  "end_line": 116,
+                  "source_lines_sha256": "11e7da4204e598a58aef5300c68153fbef2fcaf63ac211843bcb41bb009d5ea0",
+                  "ast_sha256": "189fe37c1816b1f00dc0cc48d05a075a8ea28efa25958b031e16ea4e4aa0fb89"
+                },
+                "evaluate": {
+                  "start_line": 121,
+                  "end_line": 149,
+                  "source_lines_sha256": "890245b579b74caffe7ca9add58ce1298993af06f0259d7c8a149bed1fbdac17",
+                  "ast_sha256": "af1c9ed95f47eca69ae57ca189f65effe238a38602ba2fdd8e45ba1c103bb030"
+                }
+              }
+            }
+          ],
+          "remaining_gap": "Run full native evaluation including visual and judge-dependent components where required. Matching task bytes do not establish matching website deployment, assets or shared scorer dependencies."
+        }
+      },
+      "pin": "0a1aadad95aa79b00b3783e717d865089ab06e26",
+      "reason": "Use invoice/payment records to prepare photo deliverables and send the appropriate email packages.",
+      "identity": "verified_upstream_class_id",
+      "evidence_file": "evidence/osworld21-check/authenticated-mapping.json"
+    },
+    {
+      "family": "osworld",
+      "candidate": "051",
+      "decision": "retained_version_mapping",
+      "label": "GIMP composite",
+      "comps": {
+        "prompt": {
+          "status": "present",
+          "evidence": [
+            {
+              "root": "repository",
+              "path": "benchmarks/cache/gated-inputs-20261002/osworld21-tasks/task_051.py",
+              "exists": true,
+              "bytes": 36325,
+              "sha256": "f4f74166a854ebf730e4a9f9124e641b3689a091b5ffc76966f801c5a8de61c5",
+              "source_components": {
+                "instruction": {
+                  "start_line": 33,
+                  "end_line": 42,
+                  "source_lines_sha256": "bc80873a558539a7267c59580ed14a22b46ce85d7969e903f8d5bf8296c1cda4",
+                  "ast_sha256": "3e5acd5c6d6ea621b99b580e819d521a53f6d55d06aebe92db282a1f7d22e317"
+                },
+                "setup": {
+                  "start_line": 51,
+                  "end_line": 68,
+                  "source_lines_sha256": "6f8a4d6c1068fc85d71abbd2244685c7eaffed2c428ab07f0e87b6bfa61cd100",
+                  "ast_sha256": "11a84f0484d8ae3bf450d800d300c2ed5d562e6bd6c3ea43611e4292b9b7d893"
+                },
+                "evaluate": {
+                  "start_line": 73,
+                  "end_line": 292,
+                  "source_lines_sha256": "e1df4ed07322fb515db79e88ff0c2c6e7f43a89b453cf5edabb32757975e926e",
+                  "ast_sha256": "8044753f395f9a1740d8a981064daa63ab7ead3948a2e3a768735a76cdeb70d3"
+                }
+              }
+            }
+          ],
+          "remaining_gap": null
+        },
+        "assets": {
+          "status": "missing",
+          "evidence": [
+            {
+              "root": "repository",
+              "path": "benchmarks/cache/gated-inputs-20261002/osworld21-tasks/task_051.py",
+              "exists": true,
+              "bytes": 36325,
+              "sha256": "f4f74166a854ebf730e4a9f9124e641b3689a091b5ffc76966f801c5a8de61c5",
+              "source_components": {
+                "instruction": {
+                  "start_line": 33,
+                  "end_line": 42,
+                  "source_lines_sha256": "bc80873a558539a7267c59580ed14a22b46ce85d7969e903f8d5bf8296c1cda4",
+                  "ast_sha256": "3e5acd5c6d6ea621b99b580e819d521a53f6d55d06aebe92db282a1f7d22e317"
+                },
+                "setup": {
+                  "start_line": 51,
+                  "end_line": 68,
+                  "source_lines_sha256": "6f8a4d6c1068fc85d71abbd2244685c7eaffed2c428ab07f0e87b6bfa61cd100",
+                  "ast_sha256": "11a84f0484d8ae3bf450d800d300c2ed5d562e6bd6c3ea43611e4292b9b7d893"
+                },
+                "evaluate": {
+                  "start_line": 73,
+                  "end_line": 292,
+                  "source_lines_sha256": "e1df4ed07322fb515db79e88ff0c2c6e7f43a89b453cf5edabb32757975e926e",
+                  "ast_sha256": "8044753f395f9a1740d8a981064daa63ab7ead3948a2e3a768735a76cdeb70d3"
+                }
+              }
+            }
+          ],
+          "remaining_gap": "The source defines setup and asset references, but matching task assets and desktop initial state are not yet materialized."
+        },
+        "environment": {
+          "status": "needs_checking",
+          "evidence": [
+            {
+              "root": "repository",
+              "path": "benchmarks/cache/gated-inputs-20261002/osworld21-tasks/task_051.py",
+              "exists": true,
+              "bytes": 36325,
+              "sha256": "f4f74166a854ebf730e4a9f9124e641b3689a091b5ffc76966f801c5a8de61c5",
+              "source_components": {
+                "instruction": {
+                  "start_line": 33,
+                  "end_line": 42,
+                  "source_lines_sha256": "bc80873a558539a7267c59580ed14a22b46ce85d7969e903f8d5bf8296c1cda4",
+                  "ast_sha256": "3e5acd5c6d6ea621b99b580e819d521a53f6d55d06aebe92db282a1f7d22e317"
+                },
+                "setup": {
+                  "start_line": 51,
+                  "end_line": 68,
+                  "source_lines_sha256": "6f8a4d6c1068fc85d71abbd2244685c7eaffed2c428ab07f0e87b6bfa61cd100",
+                  "ast_sha256": "11a84f0484d8ae3bf450d800d300c2ed5d562e6bd6c3ea43611e4292b9b7d893"
+                },
+                "evaluate": {
+                  "start_line": 73,
+                  "end_line": 292,
+                  "source_lines_sha256": "e1df4ed07322fb515db79e88ff0c2c6e7f43a89b453cf5edabb32757975e926e",
+                  "ast_sha256": "8044753f395f9a1740d8a981064daa63ab7ead3948a2e3a768735a76cdeb70d3"
+                }
+              }
+            }
+          ],
+          "remaining_gap": "Acquire the matching OSWorld2.1 VM, prepare task state and qualify setup. Source images, XCF compatibility and headless GIMP/evaluator behavior need qualification."
+        },
+        "grader": {
+          "status": "present",
+          "evidence": [
+            {
+              "root": "repository",
+              "path": "benchmarks/cache/gated-inputs-20261002/osworld21-tasks/task_051.py",
+              "exists": true,
+              "bytes": 36325,
+              "sha256": "f4f74166a854ebf730e4a9f9124e641b3689a091b5ffc76966f801c5a8de61c5",
+              "source_components": {
+                "instruction": {
+                  "start_line": 33,
+                  "end_line": 42,
+                  "source_lines_sha256": "bc80873a558539a7267c59580ed14a22b46ce85d7969e903f8d5bf8296c1cda4",
+                  "ast_sha256": "3e5acd5c6d6ea621b99b580e819d521a53f6d55d06aebe92db282a1f7d22e317"
+                },
+                "setup": {
+                  "start_line": 51,
+                  "end_line": 68,
+                  "source_lines_sha256": "6f8a4d6c1068fc85d71abbd2244685c7eaffed2c428ab07f0e87b6bfa61cd100",
+                  "ast_sha256": "11a84f0484d8ae3bf450d800d300c2ed5d562e6bd6c3ea43611e4292b9b7d893"
+                },
+                "evaluate": {
+                  "start_line": 73,
+                  "end_line": 292,
+                  "source_lines_sha256": "e1df4ed07322fb515db79e88ff0c2c6e7f43a89b453cf5edabb32757975e926e",
+                  "ast_sha256": "8044753f395f9a1740d8a981064daa63ab7ead3948a2e3a768735a76cdeb70d3"
+                }
+              }
+            }
+          ],
+          "remaining_gap": "Run full native evaluation including visual and judge-dependent components where required. Source images, XCF compatibility and headless GIMP/evaluator behavior need qualification."
+        }
+      },
+      "pin": "0a1aadad95aa79b00b3783e717d865089ab06e26",
+      "reason": "Compose source characters in GIMP while preserving complete source content and allowed transforms.",
+      "identity": "verified_upstream_class_id",
+      "evidence_file": "evidence/osworld21-check/authenticated-mapping.json"
+    },
+    {
+      "family": "osworld",
+      "candidate": "059",
+      "decision": "retained_version_mapping",
+      "label": "GeoGebra vase and volume",
+      "comps": {
+        "prompt": {
+          "status": "present",
+          "evidence": [
+            {
+              "root": "repository",
+              "path": "benchmarks/cache/gated-inputs-20261002/osworld21-tasks/task_059.py",
+              "exists": true,
+              "bytes": 33206,
+              "sha256": "209ae975acc044c654df3000d190222c1e5cae43195f1b17308d051d0aa6059d",
+              "source_components": {
+                "instruction": {
+                  "start_line": 156,
+                  "end_line": 169,
+                  "source_lines_sha256": "59fa769c5f88b6c8a11bcb4652b4d71e1626e275994ed72bdf58f99ed0cd49c1",
+                  "ast_sha256": "c9801694ffb257033f6f8ac9a18405a50e9dadefc8f5fd640dbf430f20db1ba3"
+                },
+                "setup": {
+                  "start_line": 180,
+                  "end_line": 233,
+                  "source_lines_sha256": "9cbd827b5e956a744ebfe0a978109eb55f3bcf47ad03ca08dea8bf7e51e4897d",
+                  "ast_sha256": "7f1302a30a48324247142600de455cf8f0a0ff100a1e1bd65aad6ec048c02179"
+                },
+                "evaluate": {
+                  "start_line": 235,
+                  "end_line": 239,
+                  "source_lines_sha256": "cfcb3e9535b335ecbbb407cda206eb7e1ad437616f7cdd7b3d3bb390b17c11d3",
+                  "ast_sha256": "6c4421b7bedbbf85c22e508247685d09cf0f7f9110f9a7e72bd509c90f58c588"
+                }
+              }
+            }
+          ],
+          "remaining_gap": null
+        },
+        "assets": {
+          "status": "missing",
+          "evidence": [
+            {
+              "root": "repository",
+              "path": "benchmarks/cache/gated-inputs-20261002/osworld21-tasks/task_059.py",
+              "exists": true,
+              "bytes": 33206,
+              "sha256": "209ae975acc044c654df3000d190222c1e5cae43195f1b17308d051d0aa6059d",
+              "source_components": {
+                "instruction": {
+                  "start_line": 156,
+                  "end_line": 169,
+                  "source_lines_sha256": "59fa769c5f88b6c8a11bcb4652b4d71e1626e275994ed72bdf58f99ed0cd49c1",
+                  "ast_sha256": "c9801694ffb257033f6f8ac9a18405a50e9dadefc8f5fd640dbf430f20db1ba3"
+                },
+                "setup": {
+                  "start_line": 180,
+                  "end_line": 233,
+                  "source_lines_sha256": "9cbd827b5e956a744ebfe0a978109eb55f3bcf47ad03ca08dea8bf7e51e4897d",
+                  "ast_sha256": "7f1302a30a48324247142600de455cf8f0a0ff100a1e1bd65aad6ec048c02179"
+                },
+                "evaluate": {
+                  "start_line": 235,
+                  "end_line": 239,
+                  "source_lines_sha256": "cfcb3e9535b335ecbbb407cda206eb7e1ad437616f7cdd7b3d3bb390b17c11d3",
+                  "ast_sha256": "6c4421b7bedbbf85c22e508247685d09cf0f7f9110f9a7e72bd509c90f58c588"
+                }
+              }
+            }
+          ],
+          "remaining_gap": "The source defines setup and asset references, but matching task assets and desktop initial state are not yet materialized."
+        },
+        "environment": {
+          "status": "needs_checking",
+          "evidence": [
+            {
+              "root": "repository",
+              "path": "benchmarks/cache/gated-inputs-20261002/osworld21-tasks/task_059.py",
+              "exists": true,
+              "bytes": 33206,
+              "sha256": "209ae975acc044c654df3000d190222c1e5cae43195f1b17308d051d0aa6059d",
+              "source_components": {
+                "instruction": {
+                  "start_line": 156,
+                  "end_line": 169,
+                  "source_lines_sha256": "59fa769c5f88b6c8a11bcb4652b4d71e1626e275994ed72bdf58f99ed0cd49c1",
+                  "ast_sha256": "c9801694ffb257033f6f8ac9a18405a50e9dadefc8f5fd640dbf430f20db1ba3"
+                },
+                "setup": {
+                  "start_line": 180,
+                  "end_line": 233,
+                  "source_lines_sha256": "9cbd827b5e956a744ebfe0a978109eb55f3bcf47ad03ca08dea8bf7e51e4897d",
+                  "ast_sha256": "7f1302a30a48324247142600de455cf8f0a0ff100a1e1bd65aad6ec048c02179"
+                },
+                "evaluate": {
+                  "start_line": 235,
+                  "end_line": 239,
+                  "source_lines_sha256": "cfcb3e9535b335ecbbb407cda206eb7e1ad437616f7cdd7b3d3bb390b17c11d3",
+                  "ast_sha256": "6c4421b7bedbbf85c22e508247685d09cf0f7f9110f9a7e72bd509c90f58c588"
+                }
+              }
+            }
+          ],
+          "remaining_gap": "Acquire the matching OSWorld2.1 VM, prepare task state and qualify setup. Implementation note distinguishes coordinate representation parsing from scale/orientation policy. GeoGebra files and dependencies remain unqualified."
+        },
+        "grader": {
+          "status": "present",
+          "evidence": [
+            {
+              "root": "repository",
+              "path": "benchmarks/cache/gated-inputs-20261002/osworld21-tasks/task_059.py",
+              "exists": true,
+              "bytes": 33206,
+              "sha256": "209ae975acc044c654df3000d190222c1e5cae43195f1b17308d051d0aa6059d",
+              "source_components": {
+                "instruction": {
+                  "start_line": 156,
+                  "end_line": 169,
+                  "source_lines_sha256": "59fa769c5f88b6c8a11bcb4652b4d71e1626e275994ed72bdf58f99ed0cd49c1",
+                  "ast_sha256": "c9801694ffb257033f6f8ac9a18405a50e9dadefc8f5fd640dbf430f20db1ba3"
+                },
+                "setup": {
+                  "start_line": 180,
+                  "end_line": 233,
+                  "source_lines_sha256": "9cbd827b5e956a744ebfe0a978109eb55f3bcf47ad03ca08dea8bf7e51e4897d",
+                  "ast_sha256": "7f1302a30a48324247142600de455cf8f0a0ff100a1e1bd65aad6ec048c02179"
+                },
+                "evaluate": {
+                  "start_line": 235,
+                  "end_line": 239,
+                  "source_lines_sha256": "cfcb3e9535b335ecbbb407cda206eb7e1ad437616f7cdd7b3d3bb390b17c11d3",
+                  "ast_sha256": "6c4421b7bedbbf85c22e508247685d09cf0f7f9110f9a7e72bd509c90f58c588"
+                }
+              }
+            }
+          ],
+          "remaining_gap": "Run full native evaluation including visual and judge-dependent components where required. Implementation note distinguishes coordinate representation parsing from scale/orientation policy. GeoGebra files and dependencies remain unqualified."
+        }
+      },
+      "pin": "0a1aadad95aa79b00b3783e717d865089ab06e26",
+      "reason": "Trace a vase profile in GeoGebra and calculate its volume with a documented derivation.",
+      "identity": "verified_upstream_class_id",
+      "evidence_file": "evidence/osworld21-check/authenticated-mapping.json"
+    },
+    {
+      "family": "osworld",
+      "candidate": "067",
+      "decision": "retained_version_mapping",
+      "label": "MuseScore transcription",
+      "comps": {
+        "prompt": {
+          "status": "present",
+          "evidence": [
+            {
+              "root": "repository",
+              "path": "benchmarks/cache/gated-inputs-20261002/osworld21-tasks/task_067.py",
+              "exists": true,
+              "bytes": 11645,
+              "sha256": "35eb0384e24bbaf734eae05f28657420302ec5d5524b1e9fe662ecbe24859443",
+              "source_components": {
+                "instruction": {
+                  "start_line": 212,
+                  "end_line": 221,
+                  "source_lines_sha256": "eda2d18b7b449f8d513061ef4ac41bdb16a56cb8284db840dff8565d6a152573",
+                  "ast_sha256": "b6f199e11400114be96e1de4b56103da51d78d8beb76c24019d29837288fe5ea"
+                },
+                "setup": {
+                  "start_line": 229,
+                  "end_line": 249,
+                  "source_lines_sha256": "d6a8bd145102ffb51c350d45087f8fd32664b382f2f4efbceb4118c29e058d91",
+                  "ast_sha256": "1fd5ca305928df6a5625b25d0be58f7ea7c29c3fbf4cb97a442ca1d774d37550"
+                },
+                "evaluate": {
+                  "start_line": 251,
+                  "end_line": 305,
+                  "source_lines_sha256": "1695f20bb3f39ed4fea717716f8523606c7a6b697191a4cadba8c836ded48bf2",
+                  "ast_sha256": "a02496906fb94627432fce0b5fdc91ed0016f18ff8e093593eb7102125df4f7d"
+                }
+              }
+            }
+          ],
+          "remaining_gap": null
+        },
+        "assets": {
+          "status": "missing",
+          "evidence": [
+            {
+              "root": "repository",
+              "path": "benchmarks/cache/gated-inputs-20261002/osworld21-tasks/task_067.py",
+              "exists": true,
+              "bytes": 11645,
+              "sha256": "35eb0384e24bbaf734eae05f28657420302ec5d5524b1e9fe662ecbe24859443",
+              "source_components": {
+                "instruction": {
+                  "start_line": 212,
+                  "end_line": 221,
+                  "source_lines_sha256": "eda2d18b7b449f8d513061ef4ac41bdb16a56cb8284db840dff8565d6a152573",
+                  "ast_sha256": "b6f199e11400114be96e1de4b56103da51d78d8beb76c24019d29837288fe5ea"
+                },
+                "setup": {
+                  "start_line": 229,
+                  "end_line": 249,
+                  "source_lines_sha256": "d6a8bd145102ffb51c350d45087f8fd32664b382f2f4efbceb4118c29e058d91",
+                  "ast_sha256": "1fd5ca305928df6a5625b25d0be58f7ea7c29c3fbf4cb97a442ca1d774d37550"
+                },
+                "evaluate": {
+                  "start_line": 251,
+                  "end_line": 305,
+                  "source_lines_sha256": "1695f20bb3f39ed4fea717716f8523606c7a6b697191a4cadba8c836ded48bf2",
+                  "ast_sha256": "a02496906fb94627432fce0b5fdc91ed0016f18ff8e093593eb7102125df4f7d"
+                }
+              }
+            }
+          ],
+          "remaining_gap": "The source defines setup and asset references, but matching task assets and desktop initial state are not yet materialized."
+        },
+        "environment": {
+          "status": "needs_checking",
+          "evidence": [
+            {
+              "root": "repository",
+              "path": "benchmarks/cache/gated-inputs-20261002/osworld21-tasks/task_067.py",
+              "exists": true,
+              "bytes": 11645,
+              "sha256": "35eb0384e24bbaf734eae05f28657420302ec5d5524b1e9fe662ecbe24859443",
+              "source_components": {
+                "instruction": {
+                  "start_line": 212,
+                  "end_line": 221,
+                  "source_lines_sha256": "eda2d18b7b449f8d513061ef4ac41bdb16a56cb8284db840dff8565d6a152573",
+                  "ast_sha256": "b6f199e11400114be96e1de4b56103da51d78d8beb76c24019d29837288fe5ea"
+                },
+                "setup": {
+                  "start_line": 229,
+                  "end_line": 249,
+                  "source_lines_sha256": "d6a8bd145102ffb51c350d45087f8fd32664b382f2f4efbceb4118c29e058d91",
+                  "ast_sha256": "1fd5ca305928df6a5625b25d0be58f7ea7c29c3fbf4cb97a442ca1d774d37550"
+                },
+                "evaluate": {
+                  "start_line": 251,
+                  "end_line": 305,
+                  "source_lines_sha256": "1695f20bb3f39ed4fea717716f8523606c7a6b697191a4cadba8c836ded48bf2",
+                  "ast_sha256": "a02496906fb94627432fce0b5fdc91ed0016f18ff8e093593eb7102125df4f7d"
+                }
+              }
+            }
+          ],
+          "remaining_gap": "Acquire the matching OSWorld2.1 VM, prepare task state and qualify setup. Audio, initial/reference scores and MuseScore version must be materialized and qualified."
+        },
+        "grader": {
+          "status": "present",
+          "evidence": [
+            {
+              "root": "repository",
+              "path": "benchmarks/cache/gated-inputs-20261002/osworld21-tasks/task_067.py",
+              "exists": true,
+              "bytes": 11645,
+              "sha256": "35eb0384e24bbaf734eae05f28657420302ec5d5524b1e9fe662ecbe24859443",
+              "source_components": {
+                "instruction": {
+                  "start_line": 212,
+                  "end_line": 221,
+                  "source_lines_sha256": "eda2d18b7b449f8d513061ef4ac41bdb16a56cb8284db840dff8565d6a152573",
+                  "ast_sha256": "b6f199e11400114be96e1de4b56103da51d78d8beb76c24019d29837288fe5ea"
+                },
+                "setup": {
+                  "start_line": 229,
+                  "end_line": 249,
+                  "source_lines_sha256": "d6a8bd145102ffb51c350d45087f8fd32664b382f2f4efbceb4118c29e058d91",
+                  "ast_sha256": "1fd5ca305928df6a5625b25d0be58f7ea7c29c3fbf4cb97a442ca1d774d37550"
+                },
+                "evaluate": {
+                  "start_line": 251,
+                  "end_line": 305,
+                  "source_lines_sha256": "1695f20bb3f39ed4fea717716f8523606c7a6b697191a4cadba8c836ded48bf2",
+                  "ast_sha256": "a02496906fb94627432fce0b5fdc91ed0016f18ff8e093593eb7102125df4f7d"
+                }
+              }
+            }
+          ],
+          "remaining_gap": "Run full native evaluation including visual and judge-dependent components where required. Audio, initial/reference scores and MuseScore version must be materialized and qualified."
+        }
+      },
+      "pin": "0a1aadad95aa79b00b3783e717d865089ab06e26",
+      "reason": "Complete missing piano measures in a score from an audio recording.",
+      "identity": "verified_upstream_class_id",
+      "evidence_file": "evidence/osworld21-check/authenticated-mapping.json"
+    },
+    {
+      "family": "osworld",
+      "candidate": "083",
+      "decision": "retained_version_mapping",
+      "label": "Zotero, Obsidian, and BibTeX",
+      "comps": {
+        "prompt": {
+          "status": "present",
+          "evidence": [
+            {
+              "root": "repository",
+              "path": "benchmarks/cache/gated-inputs-20261002/osworld21-tasks/task_083.py",
+              "exists": true,
+              "bytes": 34046,
+              "sha256": "814d272fb3a108de231486017d126c948073157405e8a15d90d7468d9f9ae13e",
+              "source_components": {
+                "instruction": {
+                  "start_line": 35,
+                  "end_line": 45,
+                  "source_lines_sha256": "908d58b725a810e98a9da43b92e6311246808651cb6f0f39c760a6f9d0db8e60",
+                  "ast_sha256": "dd6e38ba0e10b2761bdf31e8b3bf34662568be5160cb3840057a7a1e4ddbb9af"
+                },
+                "setup": {
+                  "start_line": 158,
+                  "end_line": 177,
+                  "source_lines_sha256": "02442ab260b07e4d0ac308048219461778a58db6b93804c32ae8391124bc1bff",
+                  "ast_sha256": "e9dd952f10ca2061eee9008cb5aeb142f5294be1a9b8c7f23ccec3ebbc133e10"
+                },
+                "evaluate": {
+                  "start_line": 786,
+                  "end_line": 871,
+                  "source_lines_sha256": "422e10b6b98cc900f73a2efa2026e8ada31eff21bbf0fd1a50f218959e58149f",
+                  "ast_sha256": "864143bb0da20e90a6698da019eea03d65a3daf2cf91e7352f3dca784e0a25f9"
+                }
+              }
+            }
+          ],
+          "remaining_gap": null
+        },
+        "assets": {
+          "status": "missing",
+          "evidence": [
+            {
+              "root": "repository",
+              "path": "benchmarks/cache/gated-inputs-20261002/osworld21-tasks/task_083.py",
+              "exists": true,
+              "bytes": 34046,
+              "sha256": "814d272fb3a108de231486017d126c948073157405e8a15d90d7468d9f9ae13e",
+              "source_components": {
+                "instruction": {
+                  "start_line": 35,
+                  "end_line": 45,
+                  "source_lines_sha256": "908d58b725a810e98a9da43b92e6311246808651cb6f0f39c760a6f9d0db8e60",
+                  "ast_sha256": "dd6e38ba0e10b2761bdf31e8b3bf34662568be5160cb3840057a7a1e4ddbb9af"
+                },
+                "setup": {
+                  "start_line": 158,
+                  "end_line": 177,
+                  "source_lines_sha256": "02442ab260b07e4d0ac308048219461778a58db6b93804c32ae8391124bc1bff",
+                  "ast_sha256": "e9dd952f10ca2061eee9008cb5aeb142f5294be1a9b8c7f23ccec3ebbc133e10"
+                },
+                "evaluate": {
+                  "start_line": 786,
+                  "end_line": 871,
+                  "source_lines_sha256": "422e10b6b98cc900f73a2efa2026e8ada31eff21bbf0fd1a50f218959e58149f",
+                  "ast_sha256": "864143bb0da20e90a6698da019eea03d65a3daf2cf91e7352f3dca784e0a25f9"
+                }
+              }
+            }
+          ],
+          "remaining_gap": "The source defines setup and asset references, but matching task assets and desktop initial state are not yet materialized."
+        },
+        "environment": {
+          "status": "needs_checking",
+          "evidence": [
+            {
+              "root": "repository",
+              "path": "benchmarks/cache/gated-inputs-20261002/osworld21-tasks/task_083.py",
+              "exists": true,
+              "bytes": 34046,
+              "sha256": "814d272fb3a108de231486017d126c948073157405e8a15d90d7468d9f9ae13e",
+              "source_components": {
+                "instruction": {
+                  "start_line": 35,
+                  "end_line": 45,
+                  "source_lines_sha256": "908d58b725a810e98a9da43b92e6311246808651cb6f0f39c760a6f9d0db8e60",
+                  "ast_sha256": "dd6e38ba0e10b2761bdf31e8b3bf34662568be5160cb3840057a7a1e4ddbb9af"
+                },
+                "setup": {
+                  "start_line": 158,
+                  "end_line": 177,
+                  "source_lines_sha256": "02442ab260b07e4d0ac308048219461778a58db6b93804c32ae8391124bc1bff",
+                  "ast_sha256": "e9dd952f10ca2061eee9008cb5aeb142f5294be1a9b8c7f23ccec3ebbc133e10"
+                },
+                "evaluate": {
+                  "start_line": 786,
+                  "end_line": 871,
+                  "source_lines_sha256": "422e10b6b98cc900f73a2efa2026e8ada31eff21bbf0fd1a50f218959e58149f",
+                  "ast_sha256": "864143bb0da20e90a6698da019eea03d65a3daf2cf91e7352f3dca784e0a25f9"
+                }
+              }
+            }
+          ],
+          "remaining_gap": "Acquire the matching OSWorld2.1 VM, prepare task state and qualify setup. Plugins, paper PDFs, bibliographic assets and external website dependencies still need qualification."
+        },
+        "grader": {
+          "status": "present",
+          "evidence": [
+            {
+              "root": "repository",
+              "path": "benchmarks/cache/gated-inputs-20261002/osworld21-tasks/task_083.py",
+              "exists": true,
+              "bytes": 34046,
+              "sha256": "814d272fb3a108de231486017d126c948073157405e8a15d90d7468d9f9ae13e",
+              "source_components": {
+                "instruction": {
+                  "start_line": 35,
+                  "end_line": 45,
+                  "source_lines_sha256": "908d58b725a810e98a9da43b92e6311246808651cb6f0f39c760a6f9d0db8e60",
+                  "ast_sha256": "dd6e38ba0e10b2761bdf31e8b3bf34662568be5160cb3840057a7a1e4ddbb9af"
+                },
+                "setup": {
+                  "start_line": 158,
+                  "end_line": 177,
+                  "source_lines_sha256": "02442ab260b07e4d0ac308048219461778a58db6b93804c32ae8391124bc1bff",
+                  "ast_sha256": "e9dd952f10ca2061eee9008cb5aeb142f5294be1a9b8c7f23ccec3ebbc133e10"
+                },
+                "evaluate": {
+                  "start_line": 786,
+                  "end_line": 871,
+                  "source_lines_sha256": "422e10b6b98cc900f73a2efa2026e8ada31eff21bbf0fd1a50f218959e58149f",
+                  "ast_sha256": "864143bb0da20e90a6698da019eea03d65a3daf2cf91e7352f3dca784e0a25f9"
+                }
+              }
+            }
+          ],
+          "remaining_gap": "Run full native evaluation including visual and judge-dependent components where required. Plugins, paper PDFs, bibliographic assets and external website dependencies still need qualification."
+        }
+      },
+      "pin": "0a1aadad95aa79b00b3783e717d865089ab06e26",
+      "reason": "Build a paper library, structured notes and bibliography across Zotero and Obsidian.",
+      "identity": "verified_upstream_class_id",
+      "evidence_file": "evidence/osworld21-check/authenticated-mapping.json"
+    },
+    {
+      "family": "osworld",
+      "candidate": "084",
+      "decision": "retained_version_mapping",
+      "label": "JSFX and REAPER render",
+      "comps": {
+        "prompt": {
+          "status": "present",
+          "evidence": [
+            {
+              "root": "repository",
+              "path": "benchmarks/cache/gated-inputs-20261002/osworld21-tasks/task_084.py",
+              "exists": true,
+              "bytes": 54778,
+              "sha256": "025c1256047bde7d0e9a9af852a11acf2089e9fc750dfa9aae2b98f94bddf0fd",
+              "source_components": {
+                "instruction": {
+                  "start_line": 21,
+                  "end_line": 40,
+                  "source_lines_sha256": "1fb4e82b3293b9e9985dc979f9dd42e133acf1b02d3685c87c82d579643c7756",
+                  "ast_sha256": "9d43d5010213f1002db18821d7d9a6cd8108162908aa731d2312ce6be19196b9"
+                },
+                "setup": {
+                  "start_line": 82,
+                  "end_line": 109,
+                  "source_lines_sha256": "4dd8ade9abfb53d394bb02b7cbb694eb77700afd83547eb510ab33e6ca0e7800",
+                  "ast_sha256": "09ce640eba403788846a119089db55c8720efe1efa08f65fbf675aa7d3dbbac7"
+                },
+                "evaluate": {
+                  "start_line": 1268,
+                  "end_line": 1301,
+                  "source_lines_sha256": "d34e5cfb6fb7efedee0684b376888f3d9112f6feb868601ff1795da29866cdef",
+                  "ast_sha256": "6f6f3571c6fa2da3407f1b0fad83d124094e6149162c7edcabf78fa86903e2a5"
+                }
+              }
+            }
+          ],
+          "remaining_gap": null
+        },
+        "assets": {
+          "status": "missing",
+          "evidence": [
+            {
+              "root": "repository",
+              "path": "benchmarks/cache/gated-inputs-20261002/osworld21-tasks/task_084.py",
+              "exists": true,
+              "bytes": 54778,
+              "sha256": "025c1256047bde7d0e9a9af852a11acf2089e9fc750dfa9aae2b98f94bddf0fd",
+              "source_components": {
+                "instruction": {
+                  "start_line": 21,
+                  "end_line": 40,
+                  "source_lines_sha256": "1fb4e82b3293b9e9985dc979f9dd42e133acf1b02d3685c87c82d579643c7756",
+                  "ast_sha256": "9d43d5010213f1002db18821d7d9a6cd8108162908aa731d2312ce6be19196b9"
+                },
+                "setup": {
+                  "start_line": 82,
+                  "end_line": 109,
+                  "source_lines_sha256": "4dd8ade9abfb53d394bb02b7cbb694eb77700afd83547eb510ab33e6ca0e7800",
+                  "ast_sha256": "09ce640eba403788846a119089db55c8720efe1efa08f65fbf675aa7d3dbbac7"
+                },
+                "evaluate": {
+                  "start_line": 1268,
+                  "end_line": 1301,
+                  "source_lines_sha256": "d34e5cfb6fb7efedee0684b376888f3d9112f6feb868601ff1795da29866cdef",
+                  "ast_sha256": "6f6f3571c6fa2da3407f1b0fad83d124094e6149162c7edcabf78fa86903e2a5"
+                }
+              }
+            }
+          ],
+          "remaining_gap": "The source defines setup and asset references, but matching task assets and desktop initial state are not yet materialized."
+        },
+        "environment": {
+          "status": "needs_checking",
+          "evidence": [
+            {
+              "root": "repository",
+              "path": "benchmarks/cache/gated-inputs-20261002/osworld21-tasks/task_084.py",
+              "exists": true,
+              "bytes": 54778,
+              "sha256": "025c1256047bde7d0e9a9af852a11acf2089e9fc750dfa9aae2b98f94bddf0fd",
+              "source_components": {
+                "instruction": {
+                  "start_line": 21,
+                  "end_line": 40,
+                  "source_lines_sha256": "1fb4e82b3293b9e9985dc979f9dd42e133acf1b02d3685c87c82d579643c7756",
+                  "ast_sha256": "9d43d5010213f1002db18821d7d9a6cd8108162908aa731d2312ce6be19196b9"
+                },
+                "setup": {
+                  "start_line": 82,
+                  "end_line": 109,
+                  "source_lines_sha256": "4dd8ade9abfb53d394bb02b7cbb694eb77700afd83547eb510ab33e6ca0e7800",
+                  "ast_sha256": "09ce640eba403788846a119089db55c8720efe1efa08f65fbf675aa7d3dbbac7"
+                },
+                "evaluate": {
+                  "start_line": 1268,
+                  "end_line": 1301,
+                  "source_lines_sha256": "d34e5cfb6fb7efedee0684b376888f3d9112f6feb868601ff1795da29866cdef",
+                  "ast_sha256": "6f6f3571c6fa2da3407f1b0fad83d124094e6149162c7edcabf78fa86903e2a5"
+                }
+              }
+            }
+          ],
+          "remaining_gap": "Acquire the matching OSWorld2.1 VM, prepare task state and qualify setup. REAPER, JSFX, source audio and report/reference assets require qualification."
+        },
+        "grader": {
+          "status": "present",
+          "evidence": [
+            {
+              "root": "repository",
+              "path": "benchmarks/cache/gated-inputs-20261002/osworld21-tasks/task_084.py",
+              "exists": true,
+              "bytes": 54778,
+              "sha256": "025c1256047bde7d0e9a9af852a11acf2089e9fc750dfa9aae2b98f94bddf0fd",
+              "source_components": {
+                "instruction": {
+                  "start_line": 21,
+                  "end_line": 40,
+                  "source_lines_sha256": "1fb4e82b3293b9e9985dc979f9dd42e133acf1b02d3685c87c82d579643c7756",
+                  "ast_sha256": "9d43d5010213f1002db18821d7d9a6cd8108162908aa731d2312ce6be19196b9"
+                },
+                "setup": {
+                  "start_line": 82,
+                  "end_line": 109,
+                  "source_lines_sha256": "4dd8ade9abfb53d394bb02b7cbb694eb77700afd83547eb510ab33e6ca0e7800",
+                  "ast_sha256": "09ce640eba403788846a119089db55c8720efe1efa08f65fbf675aa7d3dbbac7"
+                },
+                "evaluate": {
+                  "start_line": 1268,
+                  "end_line": 1301,
+                  "source_lines_sha256": "d34e5cfb6fb7efedee0684b376888f3d9112f6feb868601ff1795da29866cdef",
+                  "ast_sha256": "6f6f3571c6fa2da3407f1b0fad83d124094e6149162c7edcabf78fa86903e2a5"
+                }
+              }
+            }
+          ],
+          "remaining_gap": "Run full native evaluation including visual and judge-dependent components where required. REAPER, JSFX, source audio and report/reference assets require qualification."
+        }
+      },
+      "pin": "0a1aadad95aa79b00b3783e717d865089ab06e26",
+      "reason": "Repair a JSFX effect, render a processed teaser and prepare its statistics report.",
+      "identity": "verified_upstream_class_id",
+      "evidence_file": "evidence/osworld21-check/authenticated-mapping.json"
+    },
+    {
+      "family": "osworld",
+      "candidate": "085",
+      "decision": "retained_version_mapping",
+      "label": "Radio bumper",
+      "comps": {
+        "prompt": {
+          "status": "present",
+          "evidence": [
+            {
+              "root": "repository",
+              "path": "benchmarks/cache/gated-inputs-20261002/osworld21-tasks/task_085.py",
+              "exists": true,
+              "bytes": 63965,
+              "sha256": "a56b8c3c93f86322dc59ddfa179dd4bfb6cb671d77333e1f9f01c43d9e5011ff",
+              "source_components": {
+                "instruction": {
+                  "start_line": 21,
+                  "end_line": 38,
+                  "source_lines_sha256": "c1b2863500c3e326e959a5d737e5fbf1b76440354afc6e04e07fd02bd2a1cea2",
+                  "ast_sha256": "b5e0b6d52d0fa6c2e49f59b66c233699229329990befc76d1890e91e2ca630a8"
+                },
+                "setup": {
+                  "start_line": 105,
+                  "end_line": 136,
+                  "source_lines_sha256": "ee172ec5f1a648a023b0d0c76e970240a945c1ab4ddf21ba0f1bf266750742a6",
+                  "ast_sha256": "3001a19e4e14195a16048f19c6aa2f499d7381505524014729ef569f094d37ab"
+                },
+                "evaluate": {
+                  "start_line": 1346,
+                  "end_line": 1461,
+                  "source_lines_sha256": "147c94ca11136ad5b26fc95c8adc2b9d3671c313b04465180c470c148eb9f815",
+                  "ast_sha256": "37ab5d09b264ce99283a7080ba5c71be981586e3575cd7d682145fba620f33fe"
+                }
+              }
+            }
+          ],
+          "remaining_gap": null
+        },
+        "assets": {
+          "status": "missing",
+          "evidence": [
+            {
+              "root": "repository",
+              "path": "benchmarks/cache/gated-inputs-20261002/osworld21-tasks/task_085.py",
+              "exists": true,
+              "bytes": 63965,
+              "sha256": "a56b8c3c93f86322dc59ddfa179dd4bfb6cb671d77333e1f9f01c43d9e5011ff",
+              "source_components": {
+                "instruction": {
+                  "start_line": 21,
+                  "end_line": 38,
+                  "source_lines_sha256": "c1b2863500c3e326e959a5d737e5fbf1b76440354afc6e04e07fd02bd2a1cea2",
+                  "ast_sha256": "b5e0b6d52d0fa6c2e49f59b66c233699229329990befc76d1890e91e2ca630a8"
+                },
+                "setup": {
+                  "start_line": 105,
+                  "end_line": 136,
+                  "source_lines_sha256": "ee172ec5f1a648a023b0d0c76e970240a945c1ab4ddf21ba0f1bf266750742a6",
+                  "ast_sha256": "3001a19e4e14195a16048f19c6aa2f499d7381505524014729ef569f094d37ab"
+                },
+                "evaluate": {
+                  "start_line": 1346,
+                  "end_line": 1461,
+                  "source_lines_sha256": "147c94ca11136ad5b26fc95c8adc2b9d3671c313b04465180c470c148eb9f815",
+                  "ast_sha256": "37ab5d09b264ce99283a7080ba5c71be981586e3575cd7d682145fba620f33fe"
+                }
+              }
+            }
+          ],
+          "remaining_gap": "The source defines setup and asset references, but matching task assets and desktop initial state are not yet materialized."
+        },
+        "environment": {
+          "status": "needs_checking",
+          "evidence": [
+            {
+              "root": "repository",
+              "path": "benchmarks/cache/gated-inputs-20261002/osworld21-tasks/task_085.py",
+              "exists": true,
+              "bytes": 63965,
+              "sha256": "a56b8c3c93f86322dc59ddfa179dd4bfb6cb671d77333e1f9f01c43d9e5011ff",
+              "source_components": {
+                "instruction": {
+                  "start_line": 21,
+                  "end_line": 38,
+                  "source_lines_sha256": "c1b2863500c3e326e959a5d737e5fbf1b76440354afc6e04e07fd02bd2a1cea2",
+                  "ast_sha256": "b5e0b6d52d0fa6c2e49f59b66c233699229329990befc76d1890e91e2ca630a8"
+                },
+                "setup": {
+                  "start_line": 105,
+                  "end_line": 136,
+                  "source_lines_sha256": "ee172ec5f1a648a023b0d0c76e970240a945c1ab4ddf21ba0f1bf266750742a6",
+                  "ast_sha256": "3001a19e4e14195a16048f19c6aa2f499d7381505524014729ef569f094d37ab"
+                },
+                "evaluate": {
+                  "start_line": 1346,
+                  "end_line": 1461,
+                  "source_lines_sha256": "147c94ca11136ad5b26fc95c8adc2b9d3671c313b04465180c470c148eb9f815",
+                  "ast_sha256": "37ab5d09b264ce99283a7080ba5c71be981586e3575cd7d682145fba620f33fe"
+                }
+              }
+            }
+          ],
+          "remaining_gap": "Acquire the matching OSWorld2.1 VM, prepare task state and qualify setup. Audio identity, REAPER project structure and rendering dependencies remain unqualified."
+        },
+        "grader": {
+          "status": "present",
+          "evidence": [
+            {
+              "root": "repository",
+              "path": "benchmarks/cache/gated-inputs-20261002/osworld21-tasks/task_085.py",
+              "exists": true,
+              "bytes": 63965,
+              "sha256": "a56b8c3c93f86322dc59ddfa179dd4bfb6cb671d77333e1f9f01c43d9e5011ff",
+              "source_components": {
+                "instruction": {
+                  "start_line": 21,
+                  "end_line": 38,
+                  "source_lines_sha256": "c1b2863500c3e326e959a5d737e5fbf1b76440354afc6e04e07fd02bd2a1cea2",
+                  "ast_sha256": "b5e0b6d52d0fa6c2e49f59b66c233699229329990befc76d1890e91e2ca630a8"
+                },
+                "setup": {
+                  "start_line": 105,
+                  "end_line": 136,
+                  "source_lines_sha256": "ee172ec5f1a648a023b0d0c76e970240a945c1ab4ddf21ba0f1bf266750742a6",
+                  "ast_sha256": "3001a19e4e14195a16048f19c6aa2f499d7381505524014729ef569f094d37ab"
+                },
+                "evaluate": {
+                  "start_line": 1346,
+                  "end_line": 1461,
+                  "source_lines_sha256": "147c94ca11136ad5b26fc95c8adc2b9d3671c313b04465180c470c148eb9f815",
+                  "ast_sha256": "37ab5d09b264ce99283a7080ba5c71be981586e3575cd7d682145fba620f33fe"
+                }
+              }
+            }
+          ],
+          "remaining_gap": "Run full native evaluation including visual and judge-dependent components where required. Audio identity, REAPER project structure and rendering dependencies remain unqualified."
+        }
+      },
+      "pin": "0a1aadad95aa79b00b3783e717d865089ab06e26",
+      "reason": "Produce a radio bumper and transform a final spoken sentence while retaining an editable audio project.",
+      "identity": "verified_upstream_class_id",
+      "evidence_file": "evidence/osworld21-check/authenticated-mapping.json"
+    },
+    {
+      "family": "osworld",
+      "candidate": "088",
+      "decision": "retained_version_mapping",
+      "label": "Calc macros, contracts, and emails",
+      "comps": {
+        "prompt": {
+          "status": "present",
+          "evidence": [
+            {
+              "root": "repository",
+              "path": "benchmarks/cache/gated-inputs-20261002/osworld21-tasks/task_088.py",
+              "exists": true,
+              "bytes": 17318,
+              "sha256": "b2bb6df144e452c0b193922c786317ad96eaf52a61fc3f164d98d3e684ac62b0",
+              "source_components": {
+                "instruction": {
+                  "start_line": 40,
+                  "end_line": 55,
+                  "source_lines_sha256": "b001284902ea5a55d7667827b37357449a5bd6f1bb2aad9565be34dbb535d847",
+                  "ast_sha256": "c04e672e5cb082c138722bb2df0385e6c8e6c5ff4469c8f3f9e965abaebebd53"
+                },
+                "setup": {
+                  "start_line": 71,
+                  "end_line": 91,
+                  "source_lines_sha256": "8ecb9207c3e27a66e123beee22e99ff5addbc9bf6a8bd94c9c2b458e0238aa04",
+                  "ast_sha256": "19af05ddf8ed26302cdf3ef011ad1c28c120266539d637356894513f595b5ac0"
+                },
+                "evaluate": {
+                  "start_line": 93,
+                  "end_line": 133,
+                  "source_lines_sha256": "4065132e1ef95684366e8f68ef888f4ec91f1671ff81eb337b32079e9affb450",
+                  "ast_sha256": "f79c59413fd6c0a87040904b03b05ea460c2b0be1d8b4c93681ed25b2e705ef4"
+                }
+              }
+            }
+          ],
+          "remaining_gap": null
+        },
+        "assets": {
+          "status": "missing",
+          "evidence": [
+            {
+              "root": "repository",
+              "path": "benchmarks/cache/gated-inputs-20261002/osworld21-tasks/task_088.py",
+              "exists": true,
+              "bytes": 17318,
+              "sha256": "b2bb6df144e452c0b193922c786317ad96eaf52a61fc3f164d98d3e684ac62b0",
+              "source_components": {
+                "instruction": {
+                  "start_line": 40,
+                  "end_line": 55,
+                  "source_lines_sha256": "b001284902ea5a55d7667827b37357449a5bd6f1bb2aad9565be34dbb535d847",
+                  "ast_sha256": "c04e672e5cb082c138722bb2df0385e6c8e6c5ff4469c8f3f9e965abaebebd53"
+                },
+                "setup": {
+                  "start_line": 71,
+                  "end_line": 91,
+                  "source_lines_sha256": "8ecb9207c3e27a66e123beee22e99ff5addbc9bf6a8bd94c9c2b458e0238aa04",
+                  "ast_sha256": "19af05ddf8ed26302cdf3ef011ad1c28c120266539d637356894513f595b5ac0"
+                },
+                "evaluate": {
+                  "start_line": 93,
+                  "end_line": 133,
+                  "source_lines_sha256": "4065132e1ef95684366e8f68ef888f4ec91f1671ff81eb337b32079e9affb450",
+                  "ast_sha256": "f79c59413fd6c0a87040904b03b05ea460c2b0be1d8b4c93681ed25b2e705ef4"
+                }
+              }
+            }
+          ],
+          "remaining_gap": "The source defines setup and asset references, but matching task assets and desktop initial state are not yet materialized."
+        },
+        "environment": {
+          "status": "needs_checking",
+          "evidence": [
+            {
+              "root": "repository",
+              "path": "benchmarks/cache/gated-inputs-20261002/osworld21-tasks/task_088.py",
+              "exists": true,
+              "bytes": 17318,
+              "sha256": "b2bb6df144e452c0b193922c786317ad96eaf52a61fc3f164d98d3e684ac62b0",
+              "source_components": {
+                "instruction": {
+                  "start_line": 40,
+                  "end_line": 55,
+                  "source_lines_sha256": "b001284902ea5a55d7667827b37357449a5bd6f1bb2aad9565be34dbb535d847",
+                  "ast_sha256": "c04e672e5cb082c138722bb2df0385e6c8e6c5ff4469c8f3f9e965abaebebd53"
+                },
+                "setup": {
+                  "start_line": 71,
+                  "end_line": 91,
+                  "source_lines_sha256": "8ecb9207c3e27a66e123beee22e99ff5addbc9bf6a8bd94c9c2b458e0238aa04",
+                  "ast_sha256": "19af05ddf8ed26302cdf3ef011ad1c28c120266539d637356894513f595b5ac0"
+                },
+                "evaluate": {
+                  "start_line": 93,
+                  "end_line": 133,
+                  "source_lines_sha256": "4065132e1ef95684366e8f68ef888f4ec91f1671ff81eb337b32079e9affb450",
+                  "ast_sha256": "f79c59413fd6c0a87040904b03b05ea460c2b0be1d8b4c93681ed25b2e705ef4"
+                }
+              }
+            }
+          ],
+          "remaining_gap": "Acquire the matching OSWorld2.1 VM, prepare task state and qualify setup. The instruction depends on today’s date, so the experiment must freeze and record the VM date/time zone. Spreadsheet/template/mail assets and office macro behavior remain unqualified."
+        },
+        "grader": {
+          "status": "present",
+          "evidence": [
+            {
+              "root": "repository",
+              "path": "benchmarks/cache/gated-inputs-20261002/osworld21-tasks/task_088.py",
+              "exists": true,
+              "bytes": 17318,
+              "sha256": "b2bb6df144e452c0b193922c786317ad96eaf52a61fc3f164d98d3e684ac62b0",
+              "source_components": {
+                "instruction": {
+                  "start_line": 40,
+                  "end_line": 55,
+                  "source_lines_sha256": "b001284902ea5a55d7667827b37357449a5bd6f1bb2aad9565be34dbb535d847",
+                  "ast_sha256": "c04e672e5cb082c138722bb2df0385e6c8e6c5ff4469c8f3f9e965abaebebd53"
+                },
+                "setup": {
+                  "start_line": 71,
+                  "end_line": 91,
+                  "source_lines_sha256": "8ecb9207c3e27a66e123beee22e99ff5addbc9bf6a8bd94c9c2b458e0238aa04",
+                  "ast_sha256": "19af05ddf8ed26302cdf3ef011ad1c28c120266539d637356894513f595b5ac0"
+                },
+                "evaluate": {
+                  "start_line": 93,
+                  "end_line": 133,
+                  "source_lines_sha256": "4065132e1ef95684366e8f68ef888f4ec91f1671ff81eb337b32079e9affb450",
+                  "ast_sha256": "f79c59413fd6c0a87040904b03b05ea460c2b0be1d8b4c93681ed25b2e705ef4"
+                }
+              }
+            }
+          ],
+          "remaining_gap": "Run full native evaluation including visual and judge-dependent components where required. The instruction depends on today’s date, so the experiment must freeze and record the VM date/time zone. Spreadsheet/template/mail assets and office macro behavior remain unqualified."
+        }
+      },
+      "pin": "0a1aadad95aa79b00b3783e717d865089ab06e26",
+      "reason": "Create reusable Calc controls to generate contracts and email drafts from a table of records.",
+      "identity": "verified_upstream_class_id",
+      "evidence_file": "evidence/osworld21-check/authenticated-mapping.json"
+    },
+    {
+      "family": "osworld",
+      "candidate": "092",
+      "decision": "retained_version_mapping",
+      "label": "Blender logo and Impress",
+      "comps": {
+        "prompt": {
+          "status": "present",
+          "evidence": [
+            {
+              "root": "repository",
+              "path": "benchmarks/cache/gated-inputs-20261002/osworld21-tasks/task_092.py",
+              "exists": true,
+              "bytes": 25653,
+              "sha256": "2bf85eb76976a038e0d5c6ec0047d34f2e1fea49f9215d44c74c80765854cea9",
+              "source_components": {
+                "instruction": {
+                  "start_line": 52,
+                  "end_line": 71,
+                  "source_lines_sha256": "4f09c90b574a00d4be195712b374ac6adcd9cbc3715adbd2f527d8c071d04cc8",
+                  "ast_sha256": "7206686036c215830aa5096a81bb4b11b0646e7ebbf2e00036f66c93716de7ce"
+                },
+                "setup": {
+                  "start_line": 83,
+                  "end_line": 90,
+                  "source_lines_sha256": "911bc5e5b5c1000c0ab74c27dd4cf229632ac2f6eaf5f68f86ce3c9f503a4341",
+                  "ast_sha256": "4f89e5bd4deba2d0e3725614f4b1ef15fd7b094da1153ada1966a5e09a085701"
+                },
+                "evaluate": {
+                  "start_line": 92,
+                  "end_line": 98,
+                  "source_lines_sha256": "015fca99bd851960a0c7cee8a239f2fb5e0621209eb4f0748a16a00ce8a5bf29",
+                  "ast_sha256": "5e55780845c5edeb67bb880cb744d8154cce27addb1bcb38936350a4d3a68aaa"
+                },
+                "_evaluate_impl": {
+                  "start_line": 100,
+                  "end_line": 183,
+                  "source_lines_sha256": "f78a551bf3f7f738fb6fc188a65681b835bdf42a57e57f5901a90a8e234c69ef",
+                  "ast_sha256": "09d8fd780d78a0df7f0ccc7dc346709a53af91531485c94bd0139e111aad05c6"
+                },
+                "_evaluate_video_frame_llm": {
+                  "start_line": 395,
+                  "end_line": 443,
+                  "source_lines_sha256": "21b80f7c945cf0335aabcd604ff5849aee9927c5c0b0566dd68c6cb78b587e0d",
+                  "ast_sha256": "45fe4a0ab56795b5e9b5c6b381f53ca7c49fd104dd72238fd33d362fb35037ec"
+                },
+                "_llm_judge": {
+                  "start_line": 562,
+                  "end_line": 576,
+                  "source_lines_sha256": "6e5a1f21437e0db8efb122d929397d986f4564635a31e59fa8b72b406855b820",
+                  "ast_sha256": "92122d18613b2779bcd6d22aed481aa0722c7d0defd08f02a06735f451e3a8b5"
+                }
+              }
+            }
+          ],
+          "remaining_gap": null
+        },
+        "assets": {
+          "status": "missing",
+          "evidence": [
+            {
+              "root": "repository",
+              "path": "benchmarks/cache/gated-inputs-20261002/osworld21-tasks/task_092.py",
+              "exists": true,
+              "bytes": 25653,
+              "sha256": "2bf85eb76976a038e0d5c6ec0047d34f2e1fea49f9215d44c74c80765854cea9",
+              "source_components": {
+                "instruction": {
+                  "start_line": 52,
+                  "end_line": 71,
+                  "source_lines_sha256": "4f09c90b574a00d4be195712b374ac6adcd9cbc3715adbd2f527d8c071d04cc8",
+                  "ast_sha256": "7206686036c215830aa5096a81bb4b11b0646e7ebbf2e00036f66c93716de7ce"
+                },
+                "setup": {
+                  "start_line": 83,
+                  "end_line": 90,
+                  "source_lines_sha256": "911bc5e5b5c1000c0ab74c27dd4cf229632ac2f6eaf5f68f86ce3c9f503a4341",
+                  "ast_sha256": "4f89e5bd4deba2d0e3725614f4b1ef15fd7b094da1153ada1966a5e09a085701"
+                },
+                "evaluate": {
+                  "start_line": 92,
+                  "end_line": 98,
+                  "source_lines_sha256": "015fca99bd851960a0c7cee8a239f2fb5e0621209eb4f0748a16a00ce8a5bf29",
+                  "ast_sha256": "5e55780845c5edeb67bb880cb744d8154cce27addb1bcb38936350a4d3a68aaa"
+                },
+                "_evaluate_impl": {
+                  "start_line": 100,
+                  "end_line": 183,
+                  "source_lines_sha256": "f78a551bf3f7f738fb6fc188a65681b835bdf42a57e57f5901a90a8e234c69ef",
+                  "ast_sha256": "09d8fd780d78a0df7f0ccc7dc346709a53af91531485c94bd0139e111aad05c6"
+                },
+                "_evaluate_video_frame_llm": {
+                  "start_line": 395,
+                  "end_line": 443,
+                  "source_lines_sha256": "21b80f7c945cf0335aabcd604ff5849aee9927c5c0b0566dd68c6cb78b587e0d",
+                  "ast_sha256": "45fe4a0ab56795b5e9b5c6b381f53ca7c49fd104dd72238fd33d362fb35037ec"
+                },
+                "_llm_judge": {
+                  "start_line": 562,
+                  "end_line": 576,
+                  "source_lines_sha256": "6e5a1f21437e0db8efb122d929397d986f4564635a31e59fa8b72b406855b820",
+                  "ast_sha256": "92122d18613b2779bcd6d22aed481aa0722c7d0defd08f02a06735f451e3a8b5"
+                }
+              }
+            }
+          ],
+          "remaining_gap": "The source defines setup and asset references, but matching task assets and desktop initial state are not yet materialized."
+        },
+        "environment": {
+          "status": "needs_checking",
+          "evidence": [
+            {
+              "root": "repository",
+              "path": "benchmarks/cache/gated-inputs-20261002/osworld21-tasks/task_092.py",
+              "exists": true,
+              "bytes": 25653,
+              "sha256": "2bf85eb76976a038e0d5c6ec0047d34f2e1fea49f9215d44c74c80765854cea9",
+              "source_components": {
+                "instruction": {
+                  "start_line": 52,
+                  "end_line": 71,
+                  "source_lines_sha256": "4f09c90b574a00d4be195712b374ac6adcd9cbc3715adbd2f527d8c071d04cc8",
+                  "ast_sha256": "7206686036c215830aa5096a81bb4b11b0646e7ebbf2e00036f66c93716de7ce"
+                },
+                "setup": {
+                  "start_line": 83,
+                  "end_line": 90,
+                  "source_lines_sha256": "911bc5e5b5c1000c0ab74c27dd4cf229632ac2f6eaf5f68f86ce3c9f503a4341",
+                  "ast_sha256": "4f89e5bd4deba2d0e3725614f4b1ef15fd7b094da1153ada1966a5e09a085701"
+                },
+                "evaluate": {
+                  "start_line": 92,
+                  "end_line": 98,
+                  "source_lines_sha256": "015fca99bd851960a0c7cee8a239f2fb5e0621209eb4f0748a16a00ce8a5bf29",
+                  "ast_sha256": "5e55780845c5edeb67bb880cb744d8154cce27addb1bcb38936350a4d3a68aaa"
+                },
+                "_evaluate_impl": {
+                  "start_line": 100,
+                  "end_line": 183,
+                  "source_lines_sha256": "f78a551bf3f7f738fb6fc188a65681b835bdf42a57e57f5901a90a8e234c69ef",
+                  "ast_sha256": "09d8fd780d78a0df7f0ccc7dc346709a53af91531485c94bd0139e111aad05c6"
+                },
+                "_evaluate_video_frame_llm": {
+                  "start_line": 395,
+                  "end_line": 443,
+                  "source_lines_sha256": "21b80f7c945cf0335aabcd604ff5849aee9927c5c0b0566dd68c6cb78b587e0d",
+                  "ast_sha256": "45fe4a0ab56795b5e9b5c6b381f53ca7c49fd104dd72238fd33d362fb35037ec"
+                },
+                "_llm_judge": {
+                  "start_line": 562,
+                  "end_line": 576,
+                  "source_lines_sha256": "6e5a1f21437e0db8efb122d929397d986f4564635a31e59fa8b72b406855b820",
+                  "ast_sha256": "92122d18613b2779bcd6d22aed481aa0722c7d0defd08f02a06735f451e3a8b5"
+                }
+              }
+            }
+          ],
+          "remaining_gap": "Acquire the matching OSWorld2.1 VM, prepare task state and qualify setup. Full visual-judge qualification is still required. Merely possessing this source does not repair or regrade the historical omitted component. Historical audit records omitted judging for nine selected runs; the amount any would gain is unknown. Pin the judge model/backend/configuration and prove failures are reported as infrastructure failures rather than silently accepted task failures before scientific admission."
+        },
+        "grader": {
+          "status": "present",
+          "evidence": [
+            {
+              "root": "repository",
+              "path": "benchmarks/cache/gated-inputs-20261002/osworld21-tasks/task_092.py",
+              "exists": true,
+              "bytes": 25653,
+              "sha256": "2bf85eb76976a038e0d5c6ec0047d34f2e1fea49f9215d44c74c80765854cea9",
+              "source_components": {
+                "instruction": {
+                  "start_line": 52,
+                  "end_line": 71,
+                  "source_lines_sha256": "4f09c90b574a00d4be195712b374ac6adcd9cbc3715adbd2f527d8c071d04cc8",
+                  "ast_sha256": "7206686036c215830aa5096a81bb4b11b0646e7ebbf2e00036f66c93716de7ce"
+                },
+                "setup": {
+                  "start_line": 83,
+                  "end_line": 90,
+                  "source_lines_sha256": "911bc5e5b5c1000c0ab74c27dd4cf229632ac2f6eaf5f68f86ce3c9f503a4341",
+                  "ast_sha256": "4f89e5bd4deba2d0e3725614f4b1ef15fd7b094da1153ada1966a5e09a085701"
+                },
+                "evaluate": {
+                  "start_line": 92,
+                  "end_line": 98,
+                  "source_lines_sha256": "015fca99bd851960a0c7cee8a239f2fb5e0621209eb4f0748a16a00ce8a5bf29",
+                  "ast_sha256": "5e55780845c5edeb67bb880cb744d8154cce27addb1bcb38936350a4d3a68aaa"
+                },
+                "_evaluate_impl": {
+                  "start_line": 100,
+                  "end_line": 183,
+                  "source_lines_sha256": "f78a551bf3f7f738fb6fc188a65681b835bdf42a57e57f5901a90a8e234c69ef",
+                  "ast_sha256": "09d8fd780d78a0df7f0ccc7dc346709a53af91531485c94bd0139e111aad05c6"
+                },
+                "_evaluate_video_frame_llm": {
+                  "start_line": 395,
+                  "end_line": 443,
+                  "source_lines_sha256": "21b80f7c945cf0335aabcd604ff5849aee9927c5c0b0566dd68c6cb78b587e0d",
+                  "ast_sha256": "45fe4a0ab56795b5e9b5c6b381f53ca7c49fd104dd72238fd33d362fb35037ec"
+                },
+                "_llm_judge": {
+                  "start_line": 562,
+                  "end_line": 576,
+                  "source_lines_sha256": "6e5a1f21437e0db8efb122d929397d986f4564635a31e59fa8b72b406855b820",
+                  "ast_sha256": "92122d18613b2779bcd6d22aed481aa0722c7d0defd08f02a06735f451e3a8b5"
+                }
+              }
+            }
+          ],
+          "remaining_gap": "Run full native evaluation including visual and judge-dependent components where required. Full visual-judge qualification is still required. Merely possessing this source does not repair or regrade the historical omitted component. Historical audit records omitted judging for nine selected runs; the amount any would gain is unknown. Pin the judge model/backend/configuration and prove failures are reported as infrastructure failures rather than silently accepted task failures before scientific admission."
+        }
+      },
+      "pin": "0a1aadad95aa79b00b3783e717d865089ab06e26",
+      "reason": "Create a spinning 3D logo video in Blender and embed it in an Impress slide.",
+      "identity": "verified_upstream_class_id",
+      "evidence_file": "evidence/osworld21-check/authenticated-mapping.json"
+    },
+    {
+      "family": "osworld",
+      "candidate": "103",
+      "decision": "retained_version_mapping",
+      "label": "FreeCAD bracket",
+      "comps": {
+        "prompt": {
+          "status": "present",
+          "evidence": [
+            {
+              "root": "repository",
+              "path": "benchmarks/cache/gated-inputs-20261002/osworld21-tasks/task_103.py",
+              "exists": true,
+              "bytes": 16375,
+              "sha256": "026db41453d43dc248c577644eab1fa582dac26c608aff88fbe047a42f83e318",
+              "source_components": {
+                "instruction": {
+                  "start_line": 267,
+                  "end_line": 279,
+                  "source_lines_sha256": "855418761e23b6baa4c0c13e218e9306164fbf1be2cc4c523da7f0914255dc10",
+                  "ast_sha256": "f05fbb39312f2487da47d1c5a52e59bb9cfbdc9a830f39025cdda0ef7e58ab05"
+                },
+                "setup": {
+                  "start_line": 287,
+                  "end_line": 306,
+                  "source_lines_sha256": "f19044e93eb7b89e6411b1351c4182beb4ff4f54e3a300a45969e131f7481d97",
+                  "ast_sha256": "adcf27f0c62bfcbedc7bcfe0de969d8e9872ebe811aadf2a95738b11ad09c1fd"
+                },
+                "evaluate": {
+                  "start_line": 308,
+                  "end_line": 309,
+                  "source_lines_sha256": "27f0cda345de62115eec7a1df2025b6d3125b2dd1a3bdfb41f98f1460d91c9db",
+                  "ast_sha256": "91bf8a2d2f692098f68849c2daa2ba6d61c020b8d2086cd1eb4ea4f062645d7b"
+                }
+              }
+            }
+          ],
+          "remaining_gap": null
+        },
+        "assets": {
+          "status": "missing",
+          "evidence": [
+            {
+              "root": "repository",
+              "path": "benchmarks/cache/gated-inputs-20261002/osworld21-tasks/task_103.py",
+              "exists": true,
+              "bytes": 16375,
+              "sha256": "026db41453d43dc248c577644eab1fa582dac26c608aff88fbe047a42f83e318",
+              "source_components": {
+                "instruction": {
+                  "start_line": 267,
+                  "end_line": 279,
+                  "source_lines_sha256": "855418761e23b6baa4c0c13e218e9306164fbf1be2cc4c523da7f0914255dc10",
+                  "ast_sha256": "f05fbb39312f2487da47d1c5a52e59bb9cfbdc9a830f39025cdda0ef7e58ab05"
+                },
+                "setup": {
+                  "start_line": 287,
+                  "end_line": 306,
+                  "source_lines_sha256": "f19044e93eb7b89e6411b1351c4182beb4ff4f54e3a300a45969e131f7481d97",
+                  "ast_sha256": "adcf27f0c62bfcbedc7bcfe0de969d8e9872ebe811aadf2a95738b11ad09c1fd"
+                },
+                "evaluate": {
+                  "start_line": 308,
+                  "end_line": 309,
+                  "source_lines_sha256": "27f0cda345de62115eec7a1df2025b6d3125b2dd1a3bdfb41f98f1460d91c9db",
+                  "ast_sha256": "91bf8a2d2f692098f68849c2daa2ba6d61c020b8d2086cd1eb4ea4f062645d7b"
+                }
+              }
+            }
+          ],
+          "remaining_gap": "The source defines setup and asset references, but matching task assets and desktop initial state are not yet materialized."
+        },
+        "environment": {
+          "status": "needs_checking",
+          "evidence": [
+            {
+              "root": "repository",
+              "path": "benchmarks/cache/gated-inputs-20261002/osworld21-tasks/task_103.py",
+              "exists": true,
+              "bytes": 16375,
+              "sha256": "026db41453d43dc248c577644eab1fa582dac26c608aff88fbe047a42f83e318",
+              "source_components": {
+                "instruction": {
+                  "start_line": 267,
+                  "end_line": 279,
+                  "source_lines_sha256": "855418761e23b6baa4c0c13e218e9306164fbf1be2cc4c523da7f0914255dc10",
+                  "ast_sha256": "f05fbb39312f2487da47d1c5a52e59bb9cfbdc9a830f39025cdda0ef7e58ab05"
+                },
+                "setup": {
+                  "start_line": 287,
+                  "end_line": 306,
+                  "source_lines_sha256": "f19044e93eb7b89e6411b1351c4182beb4ff4f54e3a300a45969e131f7481d97",
+                  "ast_sha256": "adcf27f0c62bfcbedc7bcfe0de969d8e9872ebe811aadf2a95738b11ad09c1fd"
+                },
+                "evaluate": {
+                  "start_line": 308,
+                  "end_line": 309,
+                  "source_lines_sha256": "27f0cda345de62115eec7a1df2025b6d3125b2dd1a3bdfb41f98f1460d91c9db",
+                  "ast_sha256": "91bf8a2d2f692098f68849c2daa2ba6d61c020b8d2086cd1eb4ea4f062645d7b"
+                }
+              }
+            }
+          ],
+          "remaining_gap": "Acquire the matching OSWorld2.1 VM, prepare task state and qualify setup. Drawing, amendment, protected scorer assets and native CAD/import dependencies require qualification."
+        },
+        "grader": {
+          "status": "present",
+          "evidence": [
+            {
+              "root": "repository",
+              "path": "benchmarks/cache/gated-inputs-20261002/osworld21-tasks/task_103.py",
+              "exists": true,
+              "bytes": 16375,
+              "sha256": "026db41453d43dc248c577644eab1fa582dac26c608aff88fbe047a42f83e318",
+              "source_components": {
+                "instruction": {
+                  "start_line": 267,
+                  "end_line": 279,
+                  "source_lines_sha256": "855418761e23b6baa4c0c13e218e9306164fbf1be2cc4c523da7f0914255dc10",
+                  "ast_sha256": "f05fbb39312f2487da47d1c5a52e59bb9cfbdc9a830f39025cdda0ef7e58ab05"
+                },
+                "setup": {
+                  "start_line": 287,
+                  "end_line": 306,
+                  "source_lines_sha256": "f19044e93eb7b89e6411b1351c4182beb4ff4f54e3a300a45969e131f7481d97",
+                  "ast_sha256": "adcf27f0c62bfcbedc7bcfe0de969d8e9872ebe811aadf2a95738b11ad09c1fd"
+                },
+                "evaluate": {
+                  "start_line": 308,
+                  "end_line": 309,
+                  "source_lines_sha256": "27f0cda345de62115eec7a1df2025b6d3125b2dd1a3bdfb41f98f1460d91c9db",
+                  "ast_sha256": "91bf8a2d2f692098f68849c2daa2ba6d61c020b8d2086cd1eb4ea4f062645d7b"
+                }
+              }
+            }
+          ],
+          "remaining_gap": "Run full native evaluation including visual and judge-dependent components where required. Drawing, amendment, protected scorer assets and native CAD/import dependencies require qualification."
+        }
+      },
+      "pin": "0a1aadad95aa79b00b3783e717d865089ab06e26",
+      "reason": "Model a bracket in FreeCAD under a supplied drawing/amendment and export one valid STEP solid.",
+      "identity": "verified_upstream_class_id",
+      "evidence_file": "evidence/osworld21-check/authenticated-mapping.json"
+    },
+    {
+      "family": "osworld",
+      "candidate": "108",
+      "decision": "retained_version_mapping",
+      "label": "KiCad schematic and PCB",
+      "comps": {
+        "prompt": {
+          "status": "present",
+          "evidence": [
+            {
+              "root": "repository",
+              "path": "benchmarks/cache/gated-inputs-20261002/osworld21-tasks/task_108.py",
+              "exists": true,
+              "bytes": 95439,
+              "sha256": "9b9a0758a70eedb8a248f80846242e1ac5a14cc08117f61ac87a1c1febc3a944",
+              "source_components": {
+                "instruction": {
+                  "start_line": 2268,
+                  "end_line": 2268,
+                  "source_lines_sha256": "d6035b6b871dd72b575ba773fe8c63a152d0bb31b582872e92edbb1af960e9ac",
+                  "ast_sha256": "1e8e14c0d15f3e39b2df5123d066c49e56f6eb686dae618262a75d00da638756"
+                },
+                "setup": {
+                  "start_line": 2279,
+                  "end_line": 2302,
+                  "source_lines_sha256": "21a7d788094eb6f9b27041fa62152b39c86d6d8b5c7b6c5f77ea7301927e32dc",
+                  "ast_sha256": "a99cec0ed2b8718fd1f086805cd9fa6501377ab054e8e744b280bd0d8a2c8918"
+                },
+                "evaluate": {
+                  "start_line": 2304,
+                  "end_line": 2350,
+                  "source_lines_sha256": "5ec353e687ca3d0337842459d8754511ab62992f99027727f1a71833229d27bb",
+                  "ast_sha256": "a27bce2d52e44f85a0cfa5fe2704dcbcf21a4f095bd0deb2e6d58c169ee9b058"
+                }
+              }
+            }
+          ],
+          "remaining_gap": null
+        },
+        "assets": {
+          "status": "missing",
+          "evidence": [
+            {
+              "root": "repository",
+              "path": "benchmarks/cache/gated-inputs-20261002/osworld21-tasks/task_108.py",
+              "exists": true,
+              "bytes": 95439,
+              "sha256": "9b9a0758a70eedb8a248f80846242e1ac5a14cc08117f61ac87a1c1febc3a944",
+              "source_components": {
+                "instruction": {
+                  "start_line": 2268,
+                  "end_line": 2268,
+                  "source_lines_sha256": "d6035b6b871dd72b575ba773fe8c63a152d0bb31b582872e92edbb1af960e9ac",
+                  "ast_sha256": "1e8e14c0d15f3e39b2df5123d066c49e56f6eb686dae618262a75d00da638756"
+                },
+                "setup": {
+                  "start_line": 2279,
+                  "end_line": 2302,
+                  "source_lines_sha256": "21a7d788094eb6f9b27041fa62152b39c86d6d8b5c7b6c5f77ea7301927e32dc",
+                  "ast_sha256": "a99cec0ed2b8718fd1f086805cd9fa6501377ab054e8e744b280bd0d8a2c8918"
+                },
+                "evaluate": {
+                  "start_line": 2304,
+                  "end_line": 2350,
+                  "source_lines_sha256": "5ec353e687ca3d0337842459d8754511ab62992f99027727f1a71833229d27bb",
+                  "ast_sha256": "a27bce2d52e44f85a0cfa5fe2704dcbcf21a4f095bd0deb2e6d58c169ee9b058"
+                }
+              }
+            }
+          ],
+          "remaining_gap": "The source defines setup and asset references, but matching task assets and desktop initial state are not yet materialized."
+        },
+        "environment": {
+          "status": "needs_checking",
+          "evidence": [
+            {
+              "root": "repository",
+              "path": "benchmarks/cache/gated-inputs-20261002/osworld21-tasks/task_108.py",
+              "exists": true,
+              "bytes": 95439,
+              "sha256": "9b9a0758a70eedb8a248f80846242e1ac5a14cc08117f61ac87a1c1febc3a944",
+              "source_components": {
+                "instruction": {
+                  "start_line": 2268,
+                  "end_line": 2268,
+                  "source_lines_sha256": "d6035b6b871dd72b575ba773fe8c63a152d0bb31b582872e92edbb1af960e9ac",
+                  "ast_sha256": "1e8e14c0d15f3e39b2df5123d066c49e56f6eb686dae618262a75d00da638756"
+                },
+                "setup": {
+                  "start_line": 2279,
+                  "end_line": 2302,
+                  "source_lines_sha256": "21a7d788094eb6f9b27041fa62152b39c86d6d8b5c7b6c5f77ea7301927e32dc",
+                  "ast_sha256": "a99cec0ed2b8718fd1f086805cd9fa6501377ab054e8e744b280bd0d8a2c8918"
+                },
+                "evaluate": {
+                  "start_line": 2304,
+                  "end_line": 2350,
+                  "source_lines_sha256": "5ec353e687ca3d0337842459d8754511ab62992f99027727f1a71833229d27bb",
+                  "ast_sha256": "a27bce2d52e44f85a0cfa5fe2704dcbcf21a4f095bd0deb2e6d58c169ee9b058"
+                }
+              }
+            }
+          ],
+          "remaining_gap": "Acquire the matching OSWorld2.1 VM, prepare task state and qualify setup. KiCad package bundle, project archive, shared dependencies and routing evaluator need native qualification."
+        },
+        "grader": {
+          "status": "present",
+          "evidence": [
+            {
+              "root": "repository",
+              "path": "benchmarks/cache/gated-inputs-20261002/osworld21-tasks/task_108.py",
+              "exists": true,
+              "bytes": 95439,
+              "sha256": "9b9a0758a70eedb8a248f80846242e1ac5a14cc08117f61ac87a1c1febc3a944",
+              "source_components": {
+                "instruction": {
+                  "start_line": 2268,
+                  "end_line": 2268,
+                  "source_lines_sha256": "d6035b6b871dd72b575ba773fe8c63a152d0bb31b582872e92edbb1af960e9ac",
+                  "ast_sha256": "1e8e14c0d15f3e39b2df5123d066c49e56f6eb686dae618262a75d00da638756"
+                },
+                "setup": {
+                  "start_line": 2279,
+                  "end_line": 2302,
+                  "source_lines_sha256": "21a7d788094eb6f9b27041fa62152b39c86d6d8b5c7b6c5f77ea7301927e32dc",
+                  "ast_sha256": "a99cec0ed2b8718fd1f086805cd9fa6501377ab054e8e744b280bd0d8a2c8918"
+                },
+                "evaluate": {
+                  "start_line": 2304,
+                  "end_line": 2350,
+                  "source_lines_sha256": "5ec353e687ca3d0337842459d8754511ab62992f99027727f1a71833229d27bb",
+                  "ast_sha256": "a27bce2d52e44f85a0cfa5fe2704dcbcf21a4f095bd0deb2e6d58c169ee9b058"
+                }
+              }
+            }
+          ],
+          "remaining_gap": "Run full native evaluation including visual and judge-dependent components where required. KiCad package bundle, project archive, shared dependencies and routing evaluator need native qualification."
+        }
+      },
+      "pin": "0a1aadad95aa79b00b3783e717d865089ab06e26",
+      "reason": "Repair a localized MCU schematic/PCB block while preserving the rest of a KiCad project.",
+      "identity": "verified_upstream_class_id",
+      "evidence_file": "evidence/osworld21-check/authenticated-mapping.json"
+    },
+    {
+      "family": "osworld",
+      "candidate": "015",
+      "decision": "draft_for_review",
+      "label": "Young’s modulus report and fitted graph",
+      "comps": {
+        "prompt": {
+          "status": "present",
+          "evidence": [
+            {
+              "root": "repository",
+              "path": "benchmarks/cache/gated-inputs-20261002/osworld21-tasks/task_015.py",
+              "exists": true,
+              "bytes": 9271,
+              "sha256": "a087369cc4ca4d4ea343afbc1a0e2aeea0f6fc47e3cf135051cf39f730bd7a84",
+              "source_components": {
+                "instruction": {
+                  "start_line": 41,
+                  "end_line": 49,
+                  "source_lines_sha256": "b77d5f6ef55239ffc9bb3f85edebfed852b6e224c06db6b2047ccabc0e9ba1d6",
+                  "ast_sha256": "f2699b7c81db96ecaba84661474dea7de8bf0495d5279de4560e2c09328869f3"
+                },
+                "setup": {
+                  "start_line": 85,
+                  "end_line": 125,
+                  "source_lines_sha256": "5eced7c45bc6bedce032e61814e007c3f2d56660e8add5938a8a6c69f7433ab6",
+                  "ast_sha256": "0eef84b558e1735d3ce3866b114a1c6a5adf07d675929305d925e06805397313"
+                },
+                "evaluate": {
+                  "start_line": 127,
+                  "end_line": 203,
+                  "source_lines_sha256": "2e4f5118ab0b894b3cc1dff820412976f9ed70fa4444cccd9b7fffc253a3b5e3",
+                  "ast_sha256": "c0aa45d6e430205362d937b12cb661b0bffea5a75fe92181aff9e7be611a3357"
+                }
+              }
+            }
+          ],
+          "remaining_gap": null
+        },
+        "assets": {
+          "status": "missing",
+          "evidence": [
+            {
+              "root": "repository",
+              "path": "benchmarks/cache/gated-inputs-20261002/osworld21-tasks/task_015.py",
+              "exists": true,
+              "bytes": 9271,
+              "sha256": "a087369cc4ca4d4ea343afbc1a0e2aeea0f6fc47e3cf135051cf39f730bd7a84",
+              "source_components": {
+                "instruction": {
+                  "start_line": 41,
+                  "end_line": 49,
+                  "source_lines_sha256": "b77d5f6ef55239ffc9bb3f85edebfed852b6e224c06db6b2047ccabc0e9ba1d6",
+                  "ast_sha256": "f2699b7c81db96ecaba84661474dea7de8bf0495d5279de4560e2c09328869f3"
+                },
+                "setup": {
+                  "start_line": 85,
+                  "end_line": 125,
+                  "source_lines_sha256": "5eced7c45bc6bedce032e61814e007c3f2d56660e8add5938a8a6c69f7433ab6",
+                  "ast_sha256": "0eef84b558e1735d3ce3866b114a1c6a5adf07d675929305d925e06805397313"
+                },
+                "evaluate": {
+                  "start_line": 127,
+                  "end_line": 203,
+                  "source_lines_sha256": "2e4f5118ab0b894b3cc1dff820412976f9ed70fa4444cccd9b7fffc253a3b5e3",
+                  "ast_sha256": "c0aa45d6e430205362d937b12cb661b0bffea5a75fe92181aff9e7be611a3357"
+                }
+              }
+            }
+          ],
+          "remaining_gap": "The source defines setup and asset references, but matching task assets and desktop initial state are not yet materialized."
+        },
+        "environment": {
+          "status": "needs_checking",
+          "evidence": [
+            {
+              "root": "repository",
+              "path": "benchmarks/cache/gated-inputs-20261002/osworld21-tasks/task_015.py",
+              "exists": true,
+              "bytes": 9271,
+              "sha256": "a087369cc4ca4d4ea343afbc1a0e2aeea0f6fc47e3cf135051cf39f730bd7a84",
+              "source_components": {
+                "instruction": {
+                  "start_line": 41,
+                  "end_line": 49,
+                  "source_lines_sha256": "b77d5f6ef55239ffc9bb3f85edebfed852b6e224c06db6b2047ccabc0e9ba1d6",
+                  "ast_sha256": "f2699b7c81db96ecaba84661474dea7de8bf0495d5279de4560e2c09328869f3"
+                },
+                "setup": {
+                  "start_line": 85,
+                  "end_line": 125,
+                  "source_lines_sha256": "5eced7c45bc6bedce032e61814e007c3f2d56660e8add5938a8a6c69f7433ab6",
+                  "ast_sha256": "0eef84b558e1735d3ce3866b114a1c6a5adf07d675929305d925e06805397313"
+                },
+                "evaluate": {
+                  "start_line": 127,
+                  "end_line": 203,
+                  "source_lines_sha256": "2e4f5118ab0b894b3cc1dff820412976f9ed70fa4444cccd9b7fffc253a3b5e3",
+                  "ast_sha256": "c0aa45d6e430205362d937b12cb661b0bffea5a75fe92181aff9e7be611a3357"
+                }
+              }
+            }
+          ],
+          "remaining_gap": "Acquire the matching OSWorld2.1 VM, prepare task state and qualify setup. Keep grader/reference material outside the subject view during solving; run grading only after the subject phase. Intermediate evaluation is explicitly unsafe. Measurement documents, tutorial state, office/LabPlot tools and shared metric dependencies remain unqualified."
+        },
+        "grader": {
+          "status": "present",
+          "evidence": [
+            {
+              "root": "repository",
+              "path": "benchmarks/cache/gated-inputs-20261002/osworld21-tasks/task_015.py",
+              "exists": true,
+              "bytes": 9271,
+              "sha256": "a087369cc4ca4d4ea343afbc1a0e2aeea0f6fc47e3cf135051cf39f730bd7a84",
+              "source_components": {
+                "instruction": {
+                  "start_line": 41,
+                  "end_line": 49,
+                  "source_lines_sha256": "b77d5f6ef55239ffc9bb3f85edebfed852b6e224c06db6b2047ccabc0e9ba1d6",
+                  "ast_sha256": "f2699b7c81db96ecaba84661474dea7de8bf0495d5279de4560e2c09328869f3"
+                },
+                "setup": {
+                  "start_line": 85,
+                  "end_line": 125,
+                  "source_lines_sha256": "5eced7c45bc6bedce032e61814e007c3f2d56660e8add5938a8a6c69f7433ab6",
+                  "ast_sha256": "0eef84b558e1735d3ce3866b114a1c6a5adf07d675929305d925e06805397313"
+                },
+                "evaluate": {
+                  "start_line": 127,
+                  "end_line": 203,
+                  "source_lines_sha256": "2e4f5118ab0b894b3cc1dff820412976f9ed70fa4444cccd9b7fffc253a3b5e3",
+                  "ast_sha256": "c0aa45d6e430205362d937b12cb661b0bffea5a75fe92181aff9e7be611a3357"
+                }
+              }
+            }
+          ],
+          "remaining_gap": "Run full native evaluation including visual and judge-dependent components where required. Keep grader/reference material outside the subject view during solving; run grading only after the subject phase. Intermediate evaluation is explicitly unsafe. Measurement documents, tutorial state, office/LabPlot tools and shared metric dependencies remain unqualified."
+        }
+      },
+      "pin": "0a1aadad95aa79b00b3783e717d865089ab06e26",
+      "reason": "Complete an experimental physics report from measurement records, preserve its table structure and include a fitted graph.",
+      "identity": "verified_upstream_class_id",
+      "evidence_file": "evidence/osworld21-check/authenticated-mapping.json"
+    },
+    {
+      "family": "osworld",
+      "candidate": "042",
+      "decision": "draft_for_review",
+      "label": "Shotcut montage project",
+      "comps": {
+        "prompt": {
+          "status": "present",
+          "evidence": [
+            {
+              "root": "repository",
+              "path": "benchmarks/cache/gated-inputs-20261002/osworld21-tasks/task_042.py",
+              "exists": true,
+              "bytes": 29995,
+              "sha256": "f7e2f1cc9b8c63f7fec19b2895416979ed9f9c29794414b5d3f7e0a841cbb6de",
+              "source_components": {
+                "instruction": {
+                  "start_line": 370,
+                  "end_line": 403,
+                  "source_lines_sha256": "e943f6c486641f1c94248959116a6ea6d0217b79a4d7a1c1b553257114e68cd0",
+                  "ast_sha256": "df07afe7d3628b296687911ee29b23cf18901b2038225fd107a02c9ca451cc86"
+                },
+                "setup": {
+                  "start_line": 411,
+                  "end_line": 435,
+                  "source_lines_sha256": "a474cdf0bbefae7cd876008f748121e21d93dc1ed4a5d7db3aa418d6c0952116",
+                  "ast_sha256": "1395ae5f50e5b2d84f08f50d663908d13bc9699f525a6f5841e44190a6c31414"
+                },
+                "evaluate": {
+                  "start_line": 437,
+                  "end_line": 738,
+                  "source_lines_sha256": "9920bb12bf8ea930d623af5a6ad8cdb17bcda23d005da91a29efe97afea4cf22",
+                  "ast_sha256": "85a1a21eb19c218539345f797d563fd68edad0ed33942e49bb0b614861bc68de"
+                }
+              }
+            }
+          ],
+          "remaining_gap": null
+        },
+        "assets": {
+          "status": "missing",
+          "evidence": [
+            {
+              "root": "repository",
+              "path": "benchmarks/cache/gated-inputs-20261002/osworld21-tasks/task_042.py",
+              "exists": true,
+              "bytes": 29995,
+              "sha256": "f7e2f1cc9b8c63f7fec19b2895416979ed9f9c29794414b5d3f7e0a841cbb6de",
+              "source_components": {
+                "instruction": {
+                  "start_line": 370,
+                  "end_line": 403,
+                  "source_lines_sha256": "e943f6c486641f1c94248959116a6ea6d0217b79a4d7a1c1b553257114e68cd0",
+                  "ast_sha256": "df07afe7d3628b296687911ee29b23cf18901b2038225fd107a02c9ca451cc86"
+                },
+                "setup": {
+                  "start_line": 411,
+                  "end_line": 435,
+                  "source_lines_sha256": "a474cdf0bbefae7cd876008f748121e21d93dc1ed4a5d7db3aa418d6c0952116",
+                  "ast_sha256": "1395ae5f50e5b2d84f08f50d663908d13bc9699f525a6f5841e44190a6c31414"
+                },
+                "evaluate": {
+                  "start_line": 437,
+                  "end_line": 738,
+                  "source_lines_sha256": "9920bb12bf8ea930d623af5a6ad8cdb17bcda23d005da91a29efe97afea4cf22",
+                  "ast_sha256": "85a1a21eb19c218539345f797d563fd68edad0ed33942e49bb0b614861bc68de"
+                }
+              }
+            }
+          ],
+          "remaining_gap": "The source defines setup and asset references, but matching task assets and desktop initial state are not yet materialized."
+        },
+        "environment": {
+          "status": "needs_checking",
+          "evidence": [
+            {
+              "root": "repository",
+              "path": "benchmarks/cache/gated-inputs-20261002/osworld21-tasks/task_042.py",
+              "exists": true,
+              "bytes": 29995,
+              "sha256": "f7e2f1cc9b8c63f7fec19b2895416979ed9f9c29794414b5d3f7e0a841cbb6de",
+              "source_components": {
+                "instruction": {
+                  "start_line": 370,
+                  "end_line": 403,
+                  "source_lines_sha256": "e943f6c486641f1c94248959116a6ea6d0217b79a4d7a1c1b553257114e68cd0",
+                  "ast_sha256": "df07afe7d3628b296687911ee29b23cf18901b2038225fd107a02c9ca451cc86"
+                },
+                "setup": {
+                  "start_line": 411,
+                  "end_line": 435,
+                  "source_lines_sha256": "a474cdf0bbefae7cd876008f748121e21d93dc1ed4a5d7db3aa418d6c0952116",
+                  "ast_sha256": "1395ae5f50e5b2d84f08f50d663908d13bc9699f525a6f5841e44190a6c31414"
+                },
+                "evaluate": {
+                  "start_line": 437,
+                  "end_line": 738,
+                  "source_lines_sha256": "9920bb12bf8ea930d623af5a6ad8cdb17bcda23d005da91a29efe97afea4cf22",
+                  "ast_sha256": "85a1a21eb19c218539345f797d563fd68edad0ed33942e49bb0b614861bc68de"
+                }
+              }
+            }
+          ],
+          "remaining_gap": "Acquire the matching OSWorld2.1 VM, prepare task state and qualify setup. Video/audio/logo assets and Shotcut/MLT compatibility remain unqualified. The task does not declare intermediate_eval_safe; inherited behavior has not been inferred or exercised."
+        },
+        "grader": {
+          "status": "present",
+          "evidence": [
+            {
+              "root": "repository",
+              "path": "benchmarks/cache/gated-inputs-20261002/osworld21-tasks/task_042.py",
+              "exists": true,
+              "bytes": 29995,
+              "sha256": "f7e2f1cc9b8c63f7fec19b2895416979ed9f9c29794414b5d3f7e0a841cbb6de",
+              "source_components": {
+                "instruction": {
+                  "start_line": 370,
+                  "end_line": 403,
+                  "source_lines_sha256": "e943f6c486641f1c94248959116a6ea6d0217b79a4d7a1c1b553257114e68cd0",
+                  "ast_sha256": "df07afe7d3628b296687911ee29b23cf18901b2038225fd107a02c9ca451cc86"
+                },
+                "setup": {
+                  "start_line": 411,
+                  "end_line": 435,
+                  "source_lines_sha256": "a474cdf0bbefae7cd876008f748121e21d93dc1ed4a5d7db3aa418d6c0952116",
+                  "ast_sha256": "1395ae5f50e5b2d84f08f50d663908d13bc9699f525a6f5841e44190a6c31414"
+                },
+                "evaluate": {
+                  "start_line": 437,
+                  "end_line": 738,
+                  "source_lines_sha256": "9920bb12bf8ea930d623af5a6ad8cdb17bcda23d005da91a29efe97afea4cf22",
+                  "ast_sha256": "85a1a21eb19c218539345f797d563fd68edad0ed33942e49bb0b614861bc68de"
+                }
+              }
+            }
+          ],
+          "remaining_gap": "Run full native evaluation including visual and judge-dependent components where required. Video/audio/logo assets and Shotcut/MLT compatibility remain unqualified. The task does not declare intermediate_eval_safe; inherited behavior has not been inferred or exercised."
+        }
+      },
+      "pin": "0a1aadad95aa79b00b3783e717d865089ab06e26",
+      "reason": "Create a video montage with timeline edits, speed changes, replay, filters, branding and audio, then save the editable Shotcut project.",
+      "identity": "verified_upstream_class_id",
+      "evidence_file": "evidence/osworld21-check/authenticated-mapping.json"
+    }
+  ]
+}

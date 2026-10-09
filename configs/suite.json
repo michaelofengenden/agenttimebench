@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "suite_id": "agenttime-1.1-allocation-20260930",
+  "suite_id": "agenttime-1.1-allocation-20261007",
   "status": "selected_allocation_qualification_pending",
   "families": [
     {
@@ -29,11 +29,16 @@
     },
     {
       "id": "osworld",
-      "name": "OSWorld",
+      "name": "OSWorld 2.1",
       "count": 18,
       "sector": "Tools and apps",
       "coverage": "Desktop work",
-      "action": "Select two additions; restore the missing video check."
+      "action": "Use OSWorld 2.1; select two additions, verify the full task 092 evaluator, and qualify or replace task 029.",
+      "benchmark_release": "osworld-v2.1",
+      "source_repository": "https://github.com/xlang-ai/OSWorld-V2",
+      "resolved_code_commit": "3d778a3c9a34a079316f70df023b166700445792",
+      "upstream_manifest_url": "https://github.com/xlang-ai/OSWorld-V2/blob/3d778a3c9a34a079316f70df023b166700445792/benchmark_releases/osworld-v2.1.json",
+      "upstream_manifest_sha256": "978686683bdf9f946703c1d316cbbd29c0e3ea97396e48d940ee92c597806ecf"
     },
     {
       "id": "appworld",
@@ -57,7 +62,7 @@
       "count": 12,
       "sector": "Reasoning",
       "coverage": "Difficult exam and tool tasks",
-      "action": "Retain and qualify the task contracts."
+      "action": "Qualify nine retained tasks and the approved finance, Chisel and molecular-geometry replacements. Retain native partial credit; enforce Chisel input immutability and network restrictions."
     },
     {
       "id": "tua",
@@ -85,11 +90,32 @@
     },
     {
       "id": "tau",
-      "name": "τ-bench, text",
-      "count": 12,
+      "name": "τ³-bench, text",
+      "count": 0,
       "sector": "Tools and apps",
       "coverage": "Stateful service workflows",
-      "action": "New text-only family; select and audit all 12 task IDs."
+      "action": "Removed by user on 5 October. The proposed AutomationBench replacement was subsequently removed too; prior task and source receipts remain as history.",
+      "benchmark_release": "v1.0.1",
+      "source_repository": "https://github.com/sierra-research/tau2-bench",
+      "resolved_code_commit": "fc0055dc4e0a316c3f83133267fbd6faaa770992",
+      "selection_status": "excluded_by_user",
+      "decision_date": "2026-10-05"
+    },
+    {
+      "id": "automation",
+      "name": "AutomationBench 1.0.6",
+      "count": 0,
+      "sector": "Tools and apps",
+      "coverage": "Business workflow automation",
+      "action": "Removed by user after reviewing the nine-task adapted option. No replacements requested. Source material, audit evidence and the experimental adapter remain archived.",
+      "benchmark_release": "1.0.6",
+      "source_repository": "https://github.com/zapier/AutomationBench",
+      "resolved_code_commit": "4a8e1061254004d9dac807054eed33fad7d1ff14",
+      "agenttime_variant": "agenttime-automationbench-api-uncapped-v1",
+      "selection_manifest": "benchmarks/releases/automationbench-1.0.6/selection.json",
+      "selection_status": "excluded_by_user",
+      "decision_date": "2026-10-05",
+      "removal_record": "benchmarks/inventory/evidence/selection-changes/2026-10-05-remove-automationbench.json"
     },
     {
       "id": "core",
@@ -97,7 +123,7 @@
       "count": 12,
       "sector": "Research and ML",
       "coverage": "Scientific reproducibility",
-      "action": "Keep Hard: 4 mainline + 8 out-of-distribution; audit still open."
+      "action": "Keep Hard: four mainline and eight OOD capsules after two approved CPU replacements. Preserve native Hard material filtering; qualification remains open."
     },
     {
       "id": "paper",
@@ -105,7 +131,7 @@
       "count": 4,
       "sector": "Research and ML",
       "coverage": "Research implementation",
-      "action": "Add one task; remove competing work-duration wording."
+      "action": "Keep four task identities and the unchanged private rubric. Fresh reproduction uses a separate H100 80 GB GPU, 16 CPU units, 128 GiB RAM, 400 GB storage and the native seven-day reproduction maximum; native qualification remains pending."
     },
     {
       "id": "posttrain",
@@ -113,15 +139,19 @@
       "count": 4,
       "sector": "Research and ML",
       "coverage": "Model training",
-      "action": "Add two tasks; leave the untimed objective open-ended."
+      "action": "Prefer the v1.2 Harbor adapter and corrected grading; add two tasks and preserve the uncapped natural objective. Source and native qualification remain pending.",
+      "upstream_release_candidate": "1.2",
+      "release_assessment": "benchmarks/releases/posttrainbench-1.2/assessment.json"
     },
     {
       "id": "weirdml",
       "name": "WeirdML v3",
-      "count": 8,
+      "count": 0,
       "sector": "Research and ML",
       "coverage": "Unusual ML problems",
-      "action": "New family; choose eight tasks from v3."
+      "action": "Excluded from v1.1 on 2026-10-02: no complete public runnable package located; no replacement tasks requested.",
+      "selection_status": "excluded_by_user",
+      "decision_date": "2026-10-02"
     },
     {
       "id": "sakana",
@@ -179,5 +209,30 @@
       "coverage": "Public long-task anchors",
       "action": "Keep Payments and Cowthello; recalibrate on the new models."
     }
-  ]
+  ],
+  "previous_suite_id": "agenttime-1.1-allocation-20260930",
+  "roster_revision": {
+    "decision_date": "2026-10-07",
+    "selected_by": "user",
+    "record": "docs/revisions/2026-10-07-hetzner-runpod.md",
+    "selection_change": "benchmarks/inventory/evidence/selection-changes/2026-10-07-hetzner-runpod.json",
+    "retained_task_identities": 195,
+    "approved_replacements": 5,
+    "retired_slots": [
+      "ale-02",
+      "ale-08",
+      "ale-11",
+      "core-04",
+      "core-11"
+    ],
+    "replacement_slots": [
+      "ale-13",
+      "ale-14",
+      "ale-15",
+      "core-13",
+      "core-14"
+    ],
+    "runtime_qualified": false,
+    "admitted": false
+  }
 }

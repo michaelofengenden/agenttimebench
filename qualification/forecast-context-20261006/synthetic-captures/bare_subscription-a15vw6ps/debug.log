@@ -1,0 +1,121 @@
+2026-10-06T11:31:31.463Z [DEBUG] MDM settings load completed in 0ms
+2026-10-06T11:31:31.478Z [DEBUG] Broken symlink or missing file encountered for settings.json at path: /Library/Application Support/ClaudeCode/managed-settings.json
+2026-10-06T11:31:31.479Z [DEBUG] CA certs: Config fallback - globalEnv keys: , settingsEnv keys: none
+2026-10-06T11:31:31.496Z [DEBUG] [init] configureGlobalMTLS starting
+2026-10-06T11:31:31.496Z [DEBUG] [init] configureGlobalMTLS complete
+2026-10-06T11:31:31.496Z [DEBUG] [init] configureGlobalAgents starting
+2026-10-06T11:31:31.496Z [DEBUG] CA certs: stores=bundled,system, extraCertsPath=undefined
+2026-10-06T11:31:31.496Z [DEBUG] CA certs: Loaded 121 bundled root certificates
+2026-10-06T11:31:31.507Z [DEBUG] CA certs: system store returned empty
+2026-10-06T11:31:31.507Z [DEBUG] mTLS: Creating HTTPS agent with custom certificates
+2026-10-06T11:31:31.507Z [DEBUG] [init] configureGlobalAgents complete
+2026-10-06T11:31:31.508Z [DEBUG] Git remote URL: null
+2026-10-06T11:31:31.508Z [DEBUG] No git remote URL found
+2026-10-06T11:31:31.508Z [DEBUG] Error log sink initialized
+2026-10-06T11:31:31.509Z [DEBUG] Broken symlink or missing file encountered for settings.json at path: /private/tmp/afq-2w2auyl4/config/settings.json
+2026-10-06T11:31:31.510Z [ERROR] Failed to save config with lock: Error: ENOENT: no such file or directory, lstat '/private/tmp/afq-2w2auyl4/config/.claude.json'
+2026-10-06T11:31:31.511Z [DEBUG] Setting permissions for new file: 600
+2026-10-06T11:31:31.511Z [DEBUG] Writing to temp file: /private/tmp/afq-2w2auyl4/config/.claude.json.tmp.55837.e6b62a0e84a4
+2026-10-06T11:31:31.511Z [DEBUG] Temp file written successfully, size: 84 bytes
+2026-10-06T11:31:31.511Z [DEBUG] Renaming /private/tmp/afq-2w2auyl4/config/.claude.json.tmp.55837.e6b62a0e84a4 to /private/tmp/afq-2w2auyl4/config/.claude.json
+2026-10-06T11:31:31.511Z [DEBUG] File /private/tmp/afq-2w2auyl4/config/.claude.json written atomically
+2026-10-06T11:31:31.512Z [DEBUG] Preserving file permissions: 100600
+2026-10-06T11:31:31.512Z [DEBUG] Writing to temp file: /private/tmp/afq-2w2auyl4/config/.claude.json.tmp.55837.45b6e89eae81
+2026-10-06T11:31:31.513Z [DEBUG] Applied original permissions to temp file
+2026-10-06T11:31:31.513Z [DEBUG] Temp file written successfully, size: 167 bytes
+2026-10-06T11:31:31.513Z [DEBUG] Renaming /private/tmp/afq-2w2auyl4/config/.claude.json.tmp.55837.45b6e89eae81 to /private/tmp/afq-2w2auyl4/config/.claude.json
+2026-10-06T11:31:31.513Z [DEBUG] File /private/tmp/afq-2w2auyl4/config/.claude.json written atomically
+2026-10-06T11:31:31.514Z [DEBUG] Preserving file permissions: 100600
+2026-10-06T11:31:31.514Z [DEBUG] Writing to temp file: /private/tmp/afq-2w2auyl4/config/.claude.json.tmp.55837.4863543c4279
+2026-10-06T11:31:31.514Z [DEBUG] Applied original permissions to temp file
+2026-10-06T11:31:31.514Z [DEBUG] Temp file written successfully, size: 203 bytes
+2026-10-06T11:31:31.514Z [DEBUG] Renaming /private/tmp/afq-2w2auyl4/config/.claude.json.tmp.55837.4863543c4279 to /private/tmp/afq-2w2auyl4/config/.claude.json
+2026-10-06T11:31:31.514Z [DEBUG] File /private/tmp/afq-2w2auyl4/config/.claude.json written atomically
+2026-10-06T11:31:31.515Z [DEBUG] Preserving file permissions: 100600
+2026-10-06T11:31:31.515Z [DEBUG] Writing to temp file: /private/tmp/afq-2w2auyl4/config/.claude.json.tmp.55837.18f82c7d616f
+2026-10-06T11:31:31.515Z [DEBUG] Applied original permissions to temp file
+2026-10-06T11:31:31.515Z [DEBUG] Temp file written successfully, size: 242 bytes
+2026-10-06T11:31:31.515Z [DEBUG] Renaming /private/tmp/afq-2w2auyl4/config/.claude.json.tmp.55837.18f82c7d616f to /private/tmp/afq-2w2auyl4/config/.claude.json
+2026-10-06T11:31:31.515Z [DEBUG] File /private/tmp/afq-2w2auyl4/config/.claude.json written atomically
+2026-10-06T11:31:31.516Z [DEBUG] Preserving file permissions: 100600
+2026-10-06T11:31:31.516Z [DEBUG] Writing to temp file: /private/tmp/afq-2w2auyl4/config/.claude.json.tmp.55837.b4ad255fe5c9
+2026-10-06T11:31:31.516Z [DEBUG] Applied original permissions to temp file
+2026-10-06T11:31:31.516Z [DEBUG] Temp file written successfully, size: 269 bytes
+2026-10-06T11:31:31.516Z [DEBUG] Renaming /private/tmp/afq-2w2auyl4/config/.claude.json.tmp.55837.b4ad255fe5c9 to /private/tmp/afq-2w2auyl4/config/.claude.json
+2026-10-06T11:31:31.516Z [DEBUG] File /private/tmp/afq-2w2auyl4/config/.claude.json written atomically
+2026-10-06T11:31:31.517Z [DEBUG] Preserving file permissions: 100600
+2026-10-06T11:31:31.517Z [DEBUG] Writing to temp file: /private/tmp/afq-2w2auyl4/config/.claude.json.tmp.55837.3e25d6662f17
+2026-10-06T11:31:31.517Z [DEBUG] Applied original permissions to temp file
+2026-10-06T11:31:31.517Z [DEBUG] Temp file written successfully, size: 317 bytes
+2026-10-06T11:31:31.517Z [DEBUG] Renaming /private/tmp/afq-2w2auyl4/config/.claude.json.tmp.55837.3e25d6662f17 to /private/tmp/afq-2w2auyl4/config/.claude.json
+2026-10-06T11:31:31.517Z [DEBUG] File /private/tmp/afq-2w2auyl4/config/.claude.json written atomically
+2026-10-06T11:31:31.517Z [DEBUG] Preserving file permissions: 100600
+2026-10-06T11:31:31.517Z [DEBUG] Writing to temp file: /private/tmp/afq-2w2auyl4/config/.claude.json.tmp.55837.c70122c0d6b7
+2026-10-06T11:31:31.518Z [DEBUG] Applied original permissions to temp file
+2026-10-06T11:31:31.518Z [DEBUG] Temp file written successfully, size: 343 bytes
+2026-10-06T11:31:31.518Z [DEBUG] Renaming /private/tmp/afq-2w2auyl4/config/.claude.json.tmp.55837.c70122c0d6b7 to /private/tmp/afq-2w2auyl4/config/.claude.json
+2026-10-06T11:31:31.518Z [DEBUG] File /private/tmp/afq-2w2auyl4/config/.claude.json written atomically
+2026-10-06T11:31:31.522Z [DEBUG] [Claude in Chrome] Disabled: OAuth token has no scope accepted by /api/oauth/validate (needs user:profile, user:office, or user:ccr_inference; env-var and setup-token sessions default to user:inference only)
+2026-10-06T11:31:31.523Z [DEBUG] [ToolSearch:optimistic] disabled: ANTHROPIC_BASE_URL=http://127.0.0.1:57509 is not a first-party Anthropic host. Set ENABLE_TOOL_SEARCH=true (or auto / auto:N) if your proxy forwards tool_reference blocks.
+2026-10-06T11:31:31.611Z [DEBUG] Broken symlink or missing file encountered for settings.json at path: /private/tmp/afq-2w2auyl4/work/.claude/settings.json
+2026-10-06T11:31:31.612Z [DEBUG] Broken symlink or missing file encountered for settings.json at path: /private/tmp/afq-2w2auyl4/work/.claude/settings.local.json
+2026-10-06T11:31:31.612Z [DEBUG] [STARTUP] Loading MCP configs...
+2026-10-06T11:31:31.612Z [DEBUG] [STARTUP] Running setup()...
+2026-10-06T11:31:31.616Z [DEBUG] Broken symlink or missing file encountered for settings.json at path: /Library/Application Support/ClaudeCode/managed-settings.json
+2026-10-06T11:31:31.616Z [DEBUG] Error log sink initialized
+2026-10-06T11:31:31.617Z [DEBUG] Broken symlink or missing file encountered for settings.json at path: /private/tmp/afq-2w2auyl4/work/.claude/settings.json
+2026-10-06T11:31:31.617Z [DEBUG] Broken symlink or missing file encountered for settings.json at path: /private/tmp/afq-2w2auyl4/config/settings.json
+2026-10-06T11:31:31.617Z [DEBUG] installed_plugins.json doesn't exist, returning empty V2 object
+2026-10-06T11:31:31.618Z [DEBUG] Found 0 plugins (0 enabled, 0 disabled)
+2026-10-06T11:31:31.618Z [DEBUG] Total plugin workflows loaded: 0
+2026-10-06T11:31:31.618Z [DEBUG] installed plugins' hooks modules not loaded: rollout flag (tengu_plugin_hooks_modules) is off, from the default (GrowthBook is off for this session: a third-party provider, or telemetry opted out); built-in plugins load regardless
+2026-10-06T11:31:31.618Z [DEBUG] sec-default@builtin not seated: installed plugins' hooks modules are off in this process
+2026-10-06T11:31:31.619Z [DEBUG] Registered 0 hooks from 0 plugins
+2026-10-06T11:31:31.619Z [DEBUG] Loading skills from: managed=/Library/Application Support/ClaudeCode/.claude/skills, user=/private/tmp/afq-2w2auyl4/config/skills, project=[]
+2026-10-06T11:31:31.619Z [DEBUG] [reduced mode] Skipping skill dir discovery
+2026-10-06T11:31:31.619Z [DEBUG] [STARTUP] setup() completed in 7ms
+2026-10-06T11:31:31.619Z [DEBUG] Cleared mTLS configuration cache
+2026-10-06T11:31:31.619Z [DEBUG] Cleared proxy agent cache
+2026-10-06T11:31:31.619Z [DEBUG] mTLS: Creating HTTPS agent with custom certificates
+2026-10-06T11:31:31.621Z [DEBUG] Broken symlink or missing file encountered for settings.json at path: /private/tmp/afq-2w2auyl4/work/.claude/settings.local.json
+2026-10-06T11:31:31.622Z [DEBUG] [STARTUP] Loading commands and agents...
+2026-10-06T11:31:31.623Z [DEBUG] getSkills returning: 0 skill dir commands, 0 plugin skills, 40 bundled skills, 0 builtin plugin skills
+2026-10-06T11:31:31.625Z [DEBUG] [STARTUP] Commands and agents loaded in 3ms
+2026-10-06T11:31:31.626Z [DEBUG] Skipping startup prefetches, last ran 1791286292s ago
+2026-10-06T11:31:31.656Z [DEBUG] [STARTUP] MCP configs resolved in 0ms (awaited at +44ms)
+2026-10-06T11:31:31.658Z [DEBUG] Cleared mTLS configuration cache
+2026-10-06T11:31:31.658Z [DEBUG] Cleared proxy agent cache
+2026-10-06T11:31:31.658Z [DEBUG] mTLS: Creating HTTPS agent with custom certificates
+2026-10-06T11:31:31.659Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+2026-10-06T11:31:31.659Z [DEBUG] [MCP] --mcp-config servers running fully async (nonblocking)
+2026-10-06T11:31:31.659Z [DEBUG] [MCP] claude.ai connectors running fully async (nonblocking)
+2026-10-06T11:31:31.660Z [DEBUG] [auto-mode] verifyAutoModeGateAccess: enabledState=enabled disabledBySettings=false model=claude-opus-5-5 modelSupported=true disableFastModeBreakerFires=false carouselAvailable=true canEnterAuto=true
+2026-10-06T11:31:31.662Z [DEBUG] [Perfetto] initializePerfettoTracing called, env value: undefined
+2026-10-06T11:31:31.662Z [DEBUG] [3P telemetry] isTelemetryEnabled=false (CLAUDE_CODE_ENABLE_TELEMETRY=undefined)
+2026-10-06T11:31:31.673Z [DEBUG] [ScheduledTasks] scheduler start() — enabled=false, hasTasks=false
+2026-10-06T11:31:31.674Z [DEBUG] session.start: raised (surface none, not interactive)
+2026-10-06T11:31:31.682Z [DEBUG] Preserving file permissions: 100600
+2026-10-06T11:31:31.682Z [DEBUG] Writing to temp file: /private/tmp/afq-2w2auyl4/config/.claude.json.tmp.55837.90f27d69e598
+2026-10-06T11:31:31.682Z [DEBUG] [sessionRegistry] sweep permitted (domain darwin)
+2026-10-06T11:31:31.682Z [DEBUG] Applied original permissions to temp file
+2026-10-06T11:31:31.682Z [DEBUG] Temp file written successfully, size: 423 bytes
+2026-10-06T11:31:31.682Z [DEBUG] Renaming /private/tmp/afq-2w2auyl4/config/.claude.json.tmp.55837.90f27d69e598 to /private/tmp/afq-2w2auyl4/config/.claude.json
+2026-10-06T11:31:31.682Z [DEBUG] File /private/tmp/afq-2w2auyl4/config/.claude.json written atomically
+2026-10-06T11:31:31.683Z [DEBUG] Stored image 1 to /private/tmp/claude-501/-private-tmp-afq-2w2auyl4-work/eafdd6f4-e7ba-4a7f-b192-3d7631c640cd/images/1.png
+2026-10-06T11:31:31.684Z [WARN] [3P telemetry] Event dropped (no event logger initialized): user_prompt
+2026-10-06T11:31:31.686Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+2026-10-06T11:31:31.686Z [DEBUG] [session-notices] advertise=false mode=default flag=false(disabled) pollChannel=false remote=false remoteEnv=false nonInteractive=true
+2026-10-06T11:31:31.687Z [DEBUG] [engine] turn 1 start
+2026-10-06T11:31:31.689Z [DEBUG] autocompact: tokens=[REDACTED] level=ok effectiveWindow=180000
+2026-10-06T11:31:31.693Z [DEBUG] attribution header x-anthropic-billing-header: cc_version=2.1.280.6af; cc_entrypoint=sdk-cli;
+2026-10-06T11:31:31.693Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+2026-10-06T11:31:31.694Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+2026-10-06T11:31:31.697Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+2026-10-06T11:31:31.697Z [DEBUG] [API:timing] dispatching to firstParty model=claude-opus-5-5
+2026-10-06T11:31:31.698Z [ERROR] API error (attempt 1/1): Could not resolve authentication method. Expected one of apiKey, authToken, credentials, config, or profile to be set. Or for one of the "X-Api-Key" or "Authorization" headers to be explicitly omitted
+2026-10-06T11:31:31.698Z [ERROR] Error in API request: Could not resolve authentication method. Expected one of apiKey, authToken, credentials, config, or profile to be set. Or for one of the "X-Api-Key" or "Authorization" headers to be explicitly omitted
+2026-10-06T11:31:31.698Z [ERROR] API invalid_api_key: [REDACTED] not resolve authentication method. Expected one of apiKey, authToken, credentials, config, or profile to be set. Or for one of the "X-Api-Key" or "Authorization" headers to be explicitly omitted
+2026-10-06T11:31:31.700Z [DEBUG] [engine] turn 1 end (turns=1 usage in=0 out=0 cost=$0.0000 api=0ms stop=stop_sequence resultLen=0)
+2026-10-06T11:31:31.701Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+2026-10-06T11:31:31.701Z [DEBUG] Git remote URL: null
+2026-10-06T11:31:31.701Z [DEBUG] No git remote URL found

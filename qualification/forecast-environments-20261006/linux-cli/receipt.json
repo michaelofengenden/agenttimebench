@@ -1,0 +1,8 @@
+{
+  "package": "@anthropic-ai/claude-code-linux-x64",
+  "version": "2.1.280",
+  "tarball": "https://registry.npmjs.org/@anthropic-ai/claude-code-linux-x64/-/claude-code-linux-x64-2.1.280.tgz",
+  "integrity_verified": true,
+  "sha256": "1e08503dbdf3c2cb0d706d32f3408277388d1c76ef108673e8fe42c1b322925b",
+  "bytes": 233709640
+}

@@ -1,0 +1,149 @@
+{
+  "schema_version": 1,
+  "recorded_at": "2026-10-01T14:24:20.966384+00:00",
+  "scope": "first_model_free_core_and_standalone_harbor_boundary_probe",
+  "git_baseline": "9fadc7749087b4d56c5e2b360351962d51b6d3f3",
+  "implementation_uncommitted": true,
+  "python": "3.12.11 | packaged by conda-forge | (main, Jun  4 2025, 14:38:53) [Clang 18.1.8 ]",
+  "platform": "macOS-27.0.1-arm64-arm-64bit",
+  "dependencies": {
+    "harbor": "0.23.0",
+    "psycopg": "3.3.6",
+    "psutil": "7.2.2",
+    "pgserver": "0.1.4"
+  },
+  "docker_server_version": "29.6.2",
+  "checks": {
+    "core": {
+      "command": "PYTHONDONTWRITEBYTECODE=1 .venv/bin/python -W error::ResourceWarning -m unittest discover -s tests -v",
+      "passed": 96,
+      "skipped_opt_in_native": 2,
+      "elapsed_seconds": 14.41,
+      "log": "runs/verification-20261001/core-tests.txt"
+    },
+    "harbor": {
+      "command": "AGENTTIME_NATIVE_DOCKER=1 AGENTTIME_NATIVE_OUTPUT=runs/harbor-qualification-20261001-04 LITELLM_LOCAL_MODEL_COST_MAP=True PYTHONDONTWRITEBYTECODE=1 .venv/bin/python -m unittest discover -s tests -p test_harbor_native.py -v",
+      "passed": 2,
+      "elapsed_seconds": 25.745,
+      "log": "runs/verification-20261001/harbor-tests.txt",
+      "qualification": "runs/harbor-qualification-20261001-04/qualification.json"
+    },
+    "demo": {
+      "finished": 3,
+      "total": 3,
+      "database_removed": true,
+      "report": "runs/local-fixture-20261001/report.json"
+    },
+    "plan": {
+      "task_places": 220,
+      "nominal_runs_per_agent": 660,
+      "short_duration": null,
+      "long_duration": null,
+      "launch_ready": false
+    }
+  },
+  "review": {
+    "opus": "claude-opus-5-5, requested max effort, design packet only; receipt retained separately",
+    "core_implementation": "independent scoped re-review approved",
+    "harbor_probe": "two findings repaired; independent scoped re-review approved"
+  },
+  "native_probe": {
+    "cases": {
+      "complete": {
+        "admission": "excluded_fixture",
+        "attempt_id": "60e8564d-757d-4a7e-b8a1-6572b879632b",
+        "container_id": "949a2e1439d5cb281a28e09b060524445ec9c1d286ed0ba347912ec354f779ca",
+        "container_removal_verified": true,
+        "effective_agent_timeout_seconds": null,
+        "event_sha256_after_harbor_finalization": "4948594812f9269be24ef1fba0c59769f6505852ca705ec60f02458737d0ef49",
+        "exception_type": null,
+        "harbor_agent_seconds": 0.628029,
+        "invocations": 1,
+        "late_write_observed": true,
+        "network_enforcement": "docker_compose_network_none",
+        "network_mode": "none",
+        "runtime_seconds": 0.15395625,
+        "score": 1.0,
+        "timing_reason": null,
+        "timing_status": "valid",
+        "trial_name": "at11-complete-60e8564d"
+      },
+      "crash": {
+        "admission": "excluded_fixture",
+        "attempt_id": "f72b3609-5c6f-49be-a0a8-982360e399ea",
+        "container_id": "0a4bcb3e9e9d2c7de10fa99f04f96bde6c418d1e83b20f1aba41ff8ab3cfd009",
+        "container_removal_verified": true,
+        "effective_agent_timeout_seconds": null,
+        "event_sha256_after_harbor_finalization": "63c6a600552b5fabee3ed543fdd01ba36b6e51a260c7e61176b30464f7c4c97d",
+        "exception_type": "RuntimeError",
+        "harbor_agent_seconds": 0.179916,
+        "invocations": 1,
+        "late_write_observed": false,
+        "network_enforcement": "docker_compose_network_none",
+        "network_mode": "none",
+        "runtime_seconds": null,
+        "score": null,
+        "timing_reason": "journal_open",
+        "timing_status": "pending",
+        "trial_name": "at11-crash-f72b3609"
+      }
+    },
+    "harbor_version": "0.23.0",
+    "image": "python@sha256:78387bc3881b8273120a12ebe6c1ab22b018ccc2c9adf565ae1ac9b536e184ea",
+    "postgres_worker_integration_qualified": false,
+    "schema_version": 1,
+    "scope": "standalone_model_free_harbor_boundary_probe",
+    "source_hashes": {
+      "docker-compose.yaml": "17ceef0a82e7dfb63d9f5ce974350f392dd8a323eac174ec69d28a90c7de8388",
+      "harbor_fixture.py": "644acd4285f58dc3abebcbf0b378b66ae8adb75c8d3d9e90049a383055ff34bb",
+      "subject.py": "773e4f3f40dfea0bb572e87c2c26397dbd7a61b3f4fc0af2c6709546eec09b4f",
+      "test.sh": "afacbabd7ae92ec8fd68b5286f222aec8c2fe79e48a443153e29d663073f53a9"
+    },
+    "study_launch_ready": false
+  },
+  "source_sha256": {
+    "pyproject.toml": "4b3a1d2625b37295b415bb597f069b580fba9e77e59862fed0c25513fb32dfe1",
+    "uv.lock": "67af69c6b2d61028011897e4012134b56b797cd7ac403e60c48cf45a192e0845",
+    ".python-version": "7b55f8e67b5623c4bef3fa691288da9437d79d3aba156de48d481db32ac7d16d",
+    "src/agenttime/__init__.py": "f1ebee190c2219fa86a2783cc42b47a018f5701651c5136bb56d9c7cfaf70bd5",
+    "src/agenttime/__main__.py": "2b3a240e8725cedf7506b29c817cb3fb2b525718f3ad28c7d1258977e345f12d",
+    "src/agenttime/demo.py": "67395393928835ab989d0a2f49b746901044e88e5a829362693e0e1532d122b3",
+    "src/agenttime/evidence.py": "b85a9ae618664d2829199e163db839378c38fc125b8c8bf88872c0daee4a693f",
+    "src/agenttime/fixture.py": "441c5cb0072ace35d7d8c12b2e581b372848c8c31712fd72bb412beb1ab72e02",
+    "src/agenttime/harbor_fixture.py": "644acd4285f58dc3abebcbf0b378b66ae8adb75c8d3d9e90049a383055ff34bb",
+    "src/agenttime/jsonio.py": "37cc8db99da9f0ec43c135a66ee9df384ba878ae28e947eb72a81fb1b5d872cc",
+    "src/agenttime/ledger.py": "dda0be347bf128c329d1118095966a2b9b0c6e3d4c3a38942841387894cf97a8",
+    "src/agenttime/measurement.py": "bcd2cf0a894fbc35fa4e38c9e9ebfa29135def77081d75105a6940012d421c88",
+    "src/agenttime/plan.py": "da3d22a55845632efad6452c5ecbe18e25e078062c97e29c399e3cad51c6d87b",
+    "tests/db_support.py": "ffad81ea76f00b1d0810a55a95d4505d9869db63f459ac47a36de6c1d3064843",
+    "tests/test_demo.py": "1070e75b1cd2114c52207bad4507528c76e4f23d2920f0860e92098a36aaa6d0",
+    "tests/test_evidence.py": "f765b1b4ec7df7fd33f9fff88350c685292ab0ab18683fe954284767d426755c",
+    "tests/test_fixture.py": "382ae46682b536cfd3a367a879156b778d2c8e25ba06691be9e1d6450b2bc33c",
+    "tests/test_harbor_native.py": "720c05d5d9697b641a3bfe275a72c39147a6ef32a97b693d2041305adc9145e0",
+    "tests/test_jsonio.py": "b460bff7d6e6dfb8fd61201487738d070d5bb7f1c865727da178e4e0c7048566",
+    "tests/test_ledger.py": "393b994f6b8e9705fb2dab1032d9f4a89d3f7b8b6a3336c8f71c273dc0ba063f",
+    "tests/test_measurement.py": "7c9f6ae649f437e1edfab77c2f3091a2d4732197cbc0597c2ddcf2675750d33a",
+    "tests/test_plan.py": "4cf716705f7453ddbb6492065c3f9955e8b1b579557d1fec288ccff01a288305",
+    "qualification/harbor/docker-compose.yaml": "17ceef0a82e7dfb63d9f5ce974350f392dd8a323eac174ec69d28a90c7de8388",
+    "qualification/harbor/subject.py": "773e4f3f40dfea0bb572e87c2c26397dbd7a61b3f4fc0af2c6709546eec09b4f",
+    "qualification/harbor/test.sh": "afacbabd7ae92ec8fd68b5286f222aec8c2fe79e48a443153e29d663073f53a9",
+    "configs/agents.json": "859ebfc4af1aff9ffa6dae70a06094682753ec3d865eb8cc56f02773e2f62599",
+    "configs/calibration.json": "7803acc7f872e8f94a430fe822b645a984a6f255166fc42728d43064816133d8",
+    "configs/protocol.json": "669d5282a074574f264b1b17ed9e3fcced601d0d3d3d0e2989637e1033c03ce3",
+    "configs/suite.json": "e1479d38b0d2fcd0c0601697ecbf4f3557f8315bbf1b7cba99112e89acc4ac03"
+  },
+  "log_sha256": {
+    "core-tests.txt": "b76901fa28ee8616063d448f13f591aa43f346ef275090ddea2c688f6c253bc4",
+    "harbor-tests.txt": "15238ebc46f38ad5bac3c4f2e3291e6505380b2d5d81f52680bd3bc98904f801",
+    "harbor-regression-red.txt": "1e2d14a1d3f68cd8a891c2faa96f646e124b538cdb4bd9125d668a78908156bb"
+  },
+  "limitations": [
+    "No evaluated model trials",
+    "Harbor probe is not connected to PostgreSQL worker",
+    "No qualified lost-worker continuation or infrastructure replacement",
+    "No production evidence store or restore qualification",
+    "No host-sleep/cross-boot clock qualification",
+    "No 220-way capacity qualification"
+  ],
+  "study_launch_ready": false
+}

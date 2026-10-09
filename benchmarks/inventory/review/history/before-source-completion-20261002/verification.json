@@ -1,0 +1,14 @@
+{
+  "status": "passed_for_inventory_only",
+  "slots": 212,
+  "families": 19,
+  "unchanged_earlier_candidates": 100,
+  "drafts": 96,
+  "verified_files": 32627,
+  "verified_bytes": 27403279956,
+  "content_hashes_checked": true,
+  "present_component_references_checked": 2053,
+  "slot_identities_checked": true,
+  "runtime_qualified": 0,
+  "benchmark_runs": 0
+}

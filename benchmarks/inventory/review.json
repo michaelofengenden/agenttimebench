@@ -1,0 +1,50 @@
+{
+  "reviewed_at_utc": "2026-10-02T12:50:45.014340+00:00",
+  "scope": "Inventory, source evidence, recommendations and local report only. No benchmark runtime qualification.",
+  "codex_companion_review": {
+    "status": "could_not_start",
+    "reason": "Local sqlite state initialization under the Codex state directory was denied; no content verdict was produced."
+  },
+  "independent_inventory_review": {
+    "reviewer": "inventory_local_sources",
+    "findings": [
+      {
+        "severity": "P2",
+        "issue": "Seed4 YC draft inherited seed1 asset metadata.",
+        "resolution": "Set the asset seed to4 and added an identity/seed consistency check."
+      },
+      {
+        "severity": "P3",
+        "issue": "PINN and PostTrainBench draft notes retained already completed acquisition steps.",
+        "resolution": "Updated current notes to acknowledge acquired bytes and preserve packaging/evaluation gaps."
+      }
+    ],
+    "otherwise_checked": [
+      "220slots/20families",
+      "100earlierIDs preserved",
+      "16OSWorldversionmappings",
+      "104drafts",
+      "No admitted/runtimequalified rows",
+      "2234 source/component references",
+      "HLErecordbindings",
+      "No gatedquestion/answer content in reviewed user-facingJSON/HTML"
+    ]
+  },
+  "root_review": {
+    "additional_fix": "Mark both added DeepSWE repository checkouts missing, consistently with retained tasks; keep downloaded definitions distinct.",
+    "verification": "verification.json",
+    "planner": "220 task places, 660 planned runs per agent, timed durations unset and launch_ready=false"
+  },
+  "browser_checks": [
+    "Page rendered with220taskrows",
+    "Draft filter104",
+    "Tau family12",
+    "Tau banking search3",
+    "WeirdML missingfiles8",
+    "Task details disclose published-key-only limitation",
+    "Expanded task shows rationale, ID, gaps and source pin",
+    "Narrow-panel layout exposes all4component statuses"
+  ],
+  "benchmark_runs": 0,
+  "model_subject_runs": 0
+}

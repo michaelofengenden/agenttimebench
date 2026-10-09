@@ -53,5 +53,195 @@
     "continuation_clock": "preserve_elapsed_time_including_interruption",
     "replacement_counting": "separate_from_nominal_study_slots",
     "qualification_status": "pending"
+  },
+  "failure_policy": {
+    "decision_date": "2026-10-01",
+    "isolated_unresolved_failure": "quarantine_attempt_continue_unaffected",
+    "shared_integrity_failure": "stop_new_admissions_preserve_and_reconcile_owned_work",
+    "ambiguous_attempt": "retain_accounting_until_stop_proven_or_owned_work_reconciled",
+    "selected_by": "user",
+    "unreachable_original": "retain_reservation_block_next_agent_until_stop_proven"
+  },
+  "session_preservation": {
+    "required": true,
+    "decision_date": "2026-10-01",
+    "scope": "every_attempt_and_available_native_subagent_session",
+    "archive_destination_kind": "private_filesystem_on_user_mac_independent_of_workers",
+    "archive_path": null,
+    "capacity_bytes": null,
+    "user_indicated_possible_capacity_tb": [
+      4,
+      5
+    ],
+    "native_state_workspace_and_environment_required": true,
+    "checkpoint_frequency_seconds": null,
+    "no_automatic_expiry": true,
+    "forks_preserve_original_and_link_exact_checkpoint": true,
+    "follow_up_forks_in_nominal_study_slots": false,
+    "implementation_status": "planned",
+    "native_restore_and_fork_qualification": "pending",
+    "subject_release_requires_verified_independent_baseline": true,
+    "missing_prerelease_native_checkpoint": "block_qualification_until_explicit_user_acceptance_of_specific_loss_window",
+    "subject_stop_does_not_require_archive_receipt": true,
+    "compute_removal_requires": [
+      "execution_proven_stopped",
+      "required_state_verified_on_storage_that_survives_removal"
+    ],
+    "worker_spool_deletion_requires": "complete_archive_verified_and_acknowledged_on_mac"
+  },
+  "forecasting": {
+    "required": true,
+    "decision_date": "2026-10-06",
+    "scope": "one_forecast_per_agent_configuration_and_natural_task_slot",
+    "variant": "complete_input_described_target_linux_controller_v1",
+    "provider_routes_qualified": false,
+    "reasoning_policy": "qualified_maximum_for_underlying_model_no_silent_downgrade",
+    "sequence": "forecast_before_fresh_natural_execution",
+    "prefer_forecast_pass_before_natural_cohort": true,
+    "fresh_natural_session_memory_and_workspace": true,
+    "forecast_evidence_accessible_to_natural_agent": false,
+    "forecast_controls_natural_request_or_duration": false,
+    "forecast_used_for_timed_calibration": false,
+    "forecast_time_in_natural_M": false,
+    "forecasts_in_nominal_study_execution_slots": false,
+    "forecast_subject_requests_per_task": 1,
+    "parser_model_calls": 0,
+    "automatic_provider_retries": 0,
+    "implementation_status": "revised_200_forecast_selection_verified_historical_batches_preserved",
+    "isolation_qualification": "verified_for_the_two_recorded_opus_forecast_batches_only",
+    "design": "docs/superpowers/specs/2026-10-06-matched-forecast-design.md",
+    "prompt_template_file": "configs/forecast-prompt.txt",
+    "prompt_template_status": "both_source_generations_frozen_and_reverified",
+    "provider_route_policy": "qualified_per_agent_configuration_no_fallback",
+    "provider_route_candidates": {
+      "opus-5.5-max": "claude_code_subscription"
+    },
+    "host_strategy": "isolated_linux_controller_with_complete_inputs_and_described_target",
+    "common_task_record_required": true,
+    "natural_copy_source": "pristine_pinned_task_state_never_forecast_state",
+    "harness_policy": "pinned_native_cli_in_clean_linux_forecast_controller",
+    "forecast_tools_enabled": false,
+    "required_images_included": true,
+    "input_policy": "complete_native_objective_and_allowlisted_initial_materials",
+    "interpretation_errors_preserved": true,
+    "historical_design": "docs/superpowers/specs/2026-10-01-forecast-design.md",
+    "forecast_software_profile_verification_required": false,
+    "intended_natural_hardware_described": true,
+    "actual_forecast_hardware_recorded_separately": true,
+    "gpu_provisioning_during_forecast": false,
+    "natural_worker_profile_verification_before_natural_run": true,
+    "natural_gpu_provider_candidates": [
+      "RunPod"
+    ],
+    "scope_of_current_work": "approved_roster_revision_and_nine_forecast_refreshes_natural_preparation_no_natural_launch_or_provisioning",
+    "forecast_controller_and_delivered_input_verification_required": true,
+    "design_amendment": "docs/results/OPUS_5_5_FORECASTS.md",
+    "canonical_results_registry": "configs/canonical-results.json",
+    "qualified_forecast_agent_ids": [
+      "opus-5.5-max"
+    ],
+    "revision_date": "2026-10-07",
+    "revision_record": "docs/revisions/2026-10-07-hetzner-runpod.md",
+    "revised_canonical_selection": {
+      "status": "verified_and_canonical",
+      "retained_sessions": 191,
+      "new_sessions": 9,
+      "total_rows": 200,
+      "new_slots": [
+        "ale-13",
+        "ale-14",
+        "ale-15",
+        "core-13",
+        "core-14",
+        "paper-01",
+        "paper-02",
+        "paper-03",
+        "paper-04"
+      ],
+      "historical_batches_immutable": true,
+      "selection_manifest": "runs/canonical-opus-5.5-max-20261007/selection-manifest.json",
+      "source_archives_reverified": 200
+    }
+  },
+  "execution_environment_policy": {
+    "decision_date": "2026-10-06",
+    "precedence": "published_subject_requirements_then_applicable_user_selected_baseline",
+    "ordinary_code_and_browser_baseline": {
+      "cpus": 4,
+      "memory_gib": 16,
+      "applies_only_when_native_allocation_absent": true
+    },
+    "separate_review_required": [
+      "gpu",
+      "desktop",
+      "research"
+    ],
+    "missing_storage_host_architecture_network_or_dependency_profiles": "remain_unqualified",
+    "actual_worker_verification_required": true,
+    "qualification_status": "pending",
+    "revision_date": "2026-10-07",
+    "paperbench_reproduction_grader": {
+      "status": "approved_contract_native_qualification_pending",
+      "variant": "agenttime_paperbench_h100_reproduction_20261007",
+      "gpu": "H100",
+      "gpu_count": 1,
+      "gpu_memory_gb": 80,
+      "cpu_units": 16,
+      "memory_gib": 128,
+      "storage_gb": 400,
+      "external_reproduction_maximum_days": 7,
+      "subject_experiment_time_cap_seconds": null,
+      "native_reproduction_rules_retained": true,
+      "native_rubric_unchanged": true,
+      "rubric_visibility": "grader_only_never_subject_or_forecaster",
+      "original_paperbench_comparability_qualified": false,
+      "runpod_reproduction_qualified": false
+    }
+  },
+  "natural_subagents": {
+    "decision_date": "2026-10-06",
+    "policy": "allow_harness_native_subagents_when_benchmark_permits",
+    "preserve_benchmark_restrictions": true,
+    "unspecified_benchmark_permission": "review_before_dispatch",
+    "elapsed_time_counts_owned_work_and_waits_once": true,
+    "sum_child_durations_into_primary_runtime": false,
+    "pin_actual_tool_and_subagent_configuration": true,
+    "qualification_status": "pending"
+  },
+  "natural_provider_plan": {
+    "decision_date": "2026-10-07",
+    "selected_by": "user",
+    "status": "intended_allocation_native_qualification_pending",
+    "Hetzner": {
+      "candidate_slots": 192,
+      "closed_book_controller_slots_included": 32
+    },
+    "RunPod": {
+      "research_subject_slots": 8,
+      "gpu": "H100",
+      "paperbench_slots": 4,
+      "posttrainbench_slots": 4
+    },
+    "paperbench_reproduction_grading": "separate_from_subject_slots",
+    "windows_t4_l4_required": false,
+    "native_resource_allocations_preserved": true,
+    "provider_capacity_qualified": false,
+    "cloud_provisioned": false,
+    "natural_launch_authorized": false,
+    "preparation": "runs/natural-opus-5.5-max-preparation-20261007/README.md",
+    "provider_plan": "docs/NATURAL_RUN_PROVIDERS.md",
+    "full_overlap_subject_requirements": {
+      "compute_task_slots": 168,
+      "declared_cpu_units": 695,
+      "memory_gib": 3088,
+      "h100_gpus": 8,
+      "interpretation": "intended_subject_allocations_not_provisioned_physical_cores",
+      "excluded": [
+        "separate_h100_reproduction_grading",
+        "controllers",
+        "hypervisors",
+        "spares"
+      ]
+    }
   }
 }

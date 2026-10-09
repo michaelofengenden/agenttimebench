@@ -1,0 +1,2643 @@
+{
+  "schema_version": "agenttime.v1.1.selection-map-audit.v1",
+  "created_at_utc": "2026-10-02T12:14:46.944204+00:00",
+  "status": "candidate_identity_inventory_not_qualified_roster",
+  "scope": "Read-only local selection audit. No repositories, source selections, benchmark runs, credentials or network changed. Only this temporary audit result was written.",
+  "ordering_note": "Array order follows the saved v1 roster or explicit candidate list for traceability. It is not a new selection or priority order. Null slots have no implied upstream task identity.",
+  "sources": {
+    "suite": {
+      "path": "/Users/michaelofengenden/Developer/TimeResearch/AgentTime-v1.1/configs/suite.json",
+      "sha256": "a8e44a0854eaa201da557c6d300c4ba0f44c804a2ff17555c3acb3f1d089f51a",
+      "bytes": 5865
+    },
+    "selected_candidates": {
+      "path": "/Users/michaelofengenden/Developer/TimeResearch/AgentTime-v1.1/benchmarks/candidates.json",
+      "sha256": "e6466431527a891fb62c64bde5a870ca42c4d8372e282b86489bed4008f15502",
+      "bytes": 7010
+    },
+    "v1_roster": {
+      "path": "/Users/michaelofengenden/Developer/TimeResearch/AgentTimeExperiment/benchmarks/roster.snapshot.json",
+      "sha256": "f86106ec33270db3042289f7d52f354b42ab2c6ce528b7c450fef8662794e4c6",
+      "bytes": 211698
+    },
+    "selected_plan": {
+      "path": "/Users/michaelofengenden/Developer/TimeResearch/AgentTimeExperiment/local-artifacts/v2-selected-plan-20260930/selected-plan.json",
+      "sha256": "247483afb4bbf98b5b9e71aa3622673d3e9ae8055914f375e1a636a7dd25aa29",
+      "bytes": 27723
+    },
+    "selected_preferences": {
+      "path": "/Users/michaelofengenden/Developer/TimeResearch/AgentTimeExperiment/local-artifacts/v2-selected-plan-20260930/selected-preferences.json",
+      "sha256": "43aaeb3a9f626f04b89bdb8ddfa5bd03ce75dbf8364042fc62a33f161b72b434",
+      "bytes": 3925
+    },
+    "osworld_release_selection": {
+      "path": "/Users/michaelofengenden/Developer/TimeResearch/AgentTime-v1.1/benchmarks/releases/osworld-2.1/selection.json",
+      "sha256": "f8c69fbf017e5130667b351f98241ce2a258a23fb94f1e6de5fd0ec78d9752d2",
+      "bytes": 4134
+    },
+    "osworld_release_task_hashes": {
+      "path": "/Users/michaelofengenden/Developer/TimeResearch/AgentTime-v1.1/benchmarks/releases/osworld-2.1/osworld-v2.1.task_hashes.json",
+      "sha256": "c54d428329be5ca72742a6becd49ee83cf739df5dea429bba182e1f3f21badfb",
+      "bytes": 14519
+    },
+    "posttrain_release_assessment": {
+      "path": "/Users/michaelofengenden/Developer/TimeResearch/AgentTime-v1.1/benchmarks/releases/posttrainbench-1.2/assessment.json",
+      "sha256": "0a9fb1c176c9b934a020651664f2031cd07e20efd1d8863676d117e3e516ff96",
+      "bytes": 5402
+    },
+    "v1_core_split_evidence": {
+      "path": "/Users/michaelofengenden/Developer/TimeResearch/AgentTimeExperiment/lib/current-suite-roster.ts",
+      "sha256": "186c4631f9f4721ff9c07a9c30d8d44030cd1e15ff19621f136db536d84508f1",
+      "bytes": 208921
+    }
+  },
+  "totals": {
+    "allocated_task_slots": 220,
+    "included_families": 20,
+    "mapped_candidate_task_slots": 100,
+    "null_task_slots": 120,
+    "unresolved_selection_slots": 104,
+    "legacy_identity_mapping_pending_slots": 16,
+    "qualified_tasks": 0
+  },
+  "families": [
+    {
+      "family_id": "terminal",
+      "family_name": "Terminal-Bench 4.0",
+      "allocation": 16,
+      "action": "Replace the two flagged tasks.",
+      "v1_family_slug": "terminal-bench-4-0",
+      "v1_count": 16,
+      "qualification_status": "pending",
+      "scientific_admitted": false,
+      "provenance": [
+        "suite#/families/0",
+        "selected_plan#/families/0",
+        "v1_roster#/families/14"
+      ],
+      "known_candidates": [
+        {
+          "task_id": "mp-checkpoint-consolidation",
+          "selection_status": "explicit_replacement_candidate_qualification_pending",
+          "label": null,
+          "provenance": [
+            "v1_roster#/families/14/tasks/0",
+            "selected_candidates#/replacements/0"
+          ],
+          "replaces_task_id": "batched-eval-parity"
+        },
+        {
+          "task_id": "biped-contact-dynamics",
+          "selection_status": "inherited_v1_candidate_qualification_pending",
+          "label": "Generate physically valid walking, jumping, and running trajectories",
+          "provenance": [
+            "v1_roster#/families/14/tasks/1"
+          ],
+          "replaces_task_id": null
+        },
+        {
+          "task_id": "cad-model",
+          "selection_status": "inherited_v1_candidate_qualification_pending",
+          "label": "Reconstruct a 3D corner tie from a 2D schematic",
+          "provenance": [
+            "v1_roster#/families/14/tasks/2"
+          ],
+          "replaces_task_id": null
+        },
+        {
+          "task_id": "fin-saccr-rwa",
+          "selection_status": "inherited_v1_candidate_qualification_pending",
+          "label": "Recalculate SA-CCR exposure, RWA, capital, and workbook evidence",
+          "provenance": [
+            "v1_roster#/families/14/tasks/3"
+          ],
+          "replaces_task_id": null
+        },
+        {
+          "task_id": "heat-pump-warranty",
+          "selection_status": "inherited_v1_candidate_qualification_pending",
+          "label": "Resolve a 20-claim heat-pump warranty exception queue",
+          "provenance": [
+            "v1_roster#/families/14/tasks/4"
+          ],
+          "replaces_task_id": null
+        },
+        {
+          "task_id": "intrastat-meldung",
+          "selection_status": "inherited_v1_candidate_qualification_pending",
+          "label": "Complete a German month-end Intrastat filing across services",
+          "provenance": [
+            "v1_roster#/families/14/tasks/5"
+          ],
+          "replaces_task_id": null
+        },
+        {
+          "task_id": "lake-temp-glm",
+          "selection_status": "inherited_v1_candidate_qualification_pending",
+          "label": "Train a lake-temperature profile model from sparse observations",
+          "provenance": [
+            "v1_roster#/families/14/tasks/6"
+          ],
+          "replaces_task_id": null
+        },
+        {
+          "task_id": "hof-topology-interpenetration",
+          "selection_status": "explicit_replacement_candidate_qualification_pending",
+          "label": null,
+          "provenance": [
+            "v1_roster#/families/14/tasks/7",
+            "selected_candidates#/replacements/1"
+          ],
+          "replaces_task_id": "nextjs-performance"
+        },
+        {
+          "task_id": "payments-pipeline-fix",
+          "selection_status": "inherited_v1_candidate_qualification_pending",
+          "label": "Make a Kafka payments worker recover quickly without losing notifications",
+          "provenance": [
+            "v1_roster#/families/14/tasks/8"
+          ],
+          "replaces_task_id": null
+        },
+        {
+          "task_id": "pretrain-shard-corruption",
+          "selection_status": "inherited_v1_candidate_qualification_pending",
+          "label": "Repair corrupted pretraining shards and reproduce the intended checkpoint",
+          "provenance": [
+            "v1_roster#/families/14/tasks/9"
+          ],
+          "replaces_task_id": null
+        },
+        {
+          "task_id": "production-planning",
+          "selection_status": "inherited_v1_candidate_qualification_pending",
+          "label": "Build and apply a five-day ERP/MES/WMS production plan",
+          "provenance": [
+            "v1_roster#/families/14/tasks/10"
+          ],
+          "replaces_task_id": null
+        },
+        {
+          "task_id": "react-lead-form",
+          "selection_status": "inherited_v1_candidate_qualification_pending",
+          "label": "Repair a React lead form and its auditable CRM submission pipeline",
+          "provenance": [
+            "v1_roster#/families/14/tasks/11"
+          ],
+          "replaces_task_id": null
+        },
+        {
+          "task_id": "retro-console-soc",
+          "selection_status": "inherited_v1_candidate_qualification_pending",
+          "label": "Implement a synthesizable 8-bit retro console system-on-chip",
+          "provenance": [
+            "v1_roster#/families/14/tasks/12"
+          ],
+          "replaces_task_id": null
+        },
+        {
+          "task_id": "risk-scorer-replay",
+          "selection_status": "inherited_v1_candidate_qualification_pending",
+          "label": "Rebuild a retired production risk scorer from black-box behavior",
+          "provenance": [
+            "v1_roster#/families/14/tasks/13"
+          ],
+          "replaces_task_id": null
+        },
+        {
+          "task_id": "sound-change-cascade",
+          "selection_status": "inherited_v1_candidate_qualification_pending",
+          "label": "Recover an ordered cascade of historical sound changes",
+          "provenance": [
+            "v1_roster#/families/14/tasks/14"
+          ],
+          "replaces_task_id": null
+        },
+        {
+          "task_id": "vba-userform-port",
+          "selection_status": "inherited_v1_candidate_qualification_pending",
+          "label": "Port an Excel/VBA service-desk app to React, FastAPI, and SQLite",
+          "provenance": [
+            "v1_roster#/families/14/tasks/15"
+          ],
+          "replaces_task_id": null
+        }
+      ],
+      "legacy_candidate_pool": [],
+      "historical_only_ids": [],
+      "null_task_slots": 0,
+      "unresolved_selection_slots": 0,
+      "identity_mapping_pending_slots": 0,
+      "ambiguities": [],
+      "selection_status": "inherited_cohort_with_explicit_replacements_qualification_pending",
+      "mapped_task_ids": [
+        "mp-checkpoint-consolidation",
+        "biped-contact-dynamics",
+        "cad-model",
+        "fin-saccr-rwa",
+        "heat-pump-warranty",
+        "intrastat-meldung",
+        "lake-temp-glm",
+        "hof-topology-interpenetration",
+        "payments-pipeline-fix",
+        "pretrain-shard-corruption",
+        "production-planning",
+        "react-lead-form",
+        "retro-console-soc",
+        "risk-scorer-replay",
+        "sound-change-cascade",
+        "vba-userform-port"
+      ],
+      "task_id_slots": [
+        "mp-checkpoint-consolidation",
+        "biped-contact-dynamics",
+        "cad-model",
+        "fin-saccr-rwa",
+        "heat-pump-warranty",
+        "intrastat-meldung",
+        "lake-temp-glm",
+        "hof-topology-interpenetration",
+        "payments-pipeline-fix",
+        "pretrain-shard-corruption",
+        "production-planning",
+        "react-lead-form",
+        "retro-console-soc",
+        "risk-scorer-replay",
+        "sound-change-cascade",
+        "vba-userform-port"
+      ]
+    },
+    {
+      "family_id": "deepswe",
+      "family_name": "DeepSWE",
+      "allocation": 14,
+      "action": "Replace OPA; select two additional hard tasks.",
+      "v1_family_slug": "deepswe-v1-1-current-task-schema-1-3",
+      "v1_count": 12,
+      "qualification_status": "pending",
+      "scientific_admitted": false,
+      "provenance": [
+        "suite#/families/1",
+        "selected_plan#/families/1",
+        "v1_roster#/families/13"
+      ],
+      "known_candidates": [
+        {
+          "task_id": "tomlkit-toml-table-converters",
+          "selection_status": "explicit_replacement_candidate_qualification_pending",
+          "label": null,
+          "provenance": [
+            "v1_roster#/families/13/tasks/0",
+            "selected_candidates#/replacements/2"
+          ],
+          "replaces_task_id": "opa-template-string-reconstruction"
+        },
+        {
+          "task_id": "prometheus-typed-label-sorting",
+          "selection_status": "inherited_v1_candidate_qualification_pending",
+          "label": "Fix PromQL label sorting across typed and untyped values",
+          "provenance": [
+            "v1_roster#/families/13/tasks/1"
+          ],
+          "replaces_task_id": null
+        },
+        {
+          "task_id": "tengo-callable-instance-isolation",
+          "selection_status": "inherited_v1_candidate_qualification_pending",
+          "label": "Fix isolated Go-side calls for Tengo callables and closures",
+          "provenance": [
+            "v1_roster#/families/13/tasks/2"
+          ],
+          "replaces_task_id": null
+        },
+        {
+          "task_id": "dateutil-rfc5545-timezone-interop",
+          "selection_status": "inherited_v1_candidate_qualification_pending",
+          "label": "Add RFC 5545 timezone interoperability to dateutil recurrence parsing",
+          "provenance": [
+            "v1_roster#/families/13/tasks/3"
+          ],
+          "replaces_task_id": null
+        },
+        {
+          "task_id": "ipython-session-bundle-replay",
+          "selection_status": "inherited_v1_candidate_qualification_pending",
+          "label": "Add session bundle recording and replay to IPython",
+          "provenance": [
+            "v1_roster#/families/13/tasks/4"
+          ],
+          "replaces_task_id": null
+        },
+        {
+          "task_id": "python-statemachine-state-data-scoping",
+          "selection_status": "inherited_v1_candidate_qualification_pending",
+          "label": "Add scoped state data to state-machine callbacks and history",
+          "provenance": [
+            "v1_roster#/families/13/tasks/5"
+          ],
+          "replaces_task_id": null
+        },
+        {
+          "task_id": "oxvg-structural-selector-preservation",
+          "selection_status": "inherited_v1_candidate_qualification_pending",
+          "label": "Preserve structure needed by stylesheet selectors in OXVG",
+          "provenance": [
+            "v1_roster#/families/13/tasks/6"
+          ],
+          "replaces_task_id": null
+        },
+        {
+          "task_id": "boa-hierarchical-evaluation-cancellation",
+          "selection_status": "inherited_v1_candidate_qualification_pending",
+          "label": "Add hierarchical evaluation cancellation to Boa",
+          "provenance": [
+            "v1_roster#/families/13/tasks/7"
+          ],
+          "replaces_task_id": null
+        },
+        {
+          "task_id": "vitest-duration-sharding",
+          "selection_status": "inherited_v1_candidate_qualification_pending",
+          "label": "Add duration-aware sharding to Vitest",
+          "provenance": [
+            "v1_roster#/families/13/tasks/8"
+          ],
+          "replaces_task_id": null
+        },
+        {
+          "task_id": "arktype-json-schema-refs-dependencies",
+          "selection_status": "inherited_v1_candidate_qualification_pending",
+          "label": "Add JSON Schema references and dependency keywords to ArkType",
+          "provenance": [
+            "v1_roster#/families/13/tasks/9"
+          ],
+          "replaces_task_id": null
+        },
+        {
+          "task_id": "effect-sse-httpapi-streaming",
+          "selection_status": "inherited_v1_candidate_qualification_pending",
+          "label": "Add server-sent-event streaming endpoints to Effect HttpApi",
+          "provenance": [
+            "v1_roster#/families/13/tasks/10"
+          ],
+          "replaces_task_id": null
+        },
+        {
+          "task_id": "katex-multicolumn-array-spans",
+          "selection_status": "inherited_v1_candidate_qualification_pending",
+          "label": "Add multicolumn spans to KaTeX array-like environments",
+          "provenance": [
+            "v1_roster#/families/13/tasks/11"
+          ],
+          "replaces_task_id": null
+        }
+      ],
+      "legacy_candidate_pool": [],
+      "historical_only_ids": [],
+      "null_task_slots": 2,
+      "unresolved_selection_slots": 2,
+      "identity_mapping_pending_slots": 0,
+      "ambiguities": [
+        "The 2 additional place(s) have no selected exact IDs. Do not fill from reserves or first-N source ordering."
+      ],
+      "selection_status": "inherited_candidates_plus_unselected_additions",
+      "mapped_task_ids": [
+        "tomlkit-toml-table-converters",
+        "prometheus-typed-label-sorting",
+        "tengo-callable-instance-isolation",
+        "dateutil-rfc5545-timezone-interop",
+        "ipython-session-bundle-replay",
+        "python-statemachine-state-data-scoping",
+        "oxvg-structural-selector-preservation",
+        "boa-hierarchical-evaluation-cancellation",
+        "vitest-duration-sharding",
+        "arktype-json-schema-refs-dependencies",
+        "effect-sse-httpapi-streaming",
+        "katex-multicolumn-array-spans"
+      ],
+      "task_id_slots": [
+        "tomlkit-toml-table-converters",
+        "prometheus-typed-label-sorting",
+        "tengo-callable-instance-isolation",
+        "dateutil-rfc5545-timezone-interop",
+        "ipython-session-bundle-replay",
+        "python-statemachine-state-data-scoping",
+        "oxvg-structural-selector-preservation",
+        "boa-hierarchical-evaluation-cancellation",
+        "vitest-duration-sharding",
+        "arktype-json-schema-refs-dependencies",
+        "effect-sse-httpapi-streaming",
+        "katex-multicolumn-array-spans",
+        null,
+        null
+      ]
+    },
+    {
+      "family_id": "program",
+      "family_name": "ProgramBench",
+      "allocation": 18,
+      "action": "8 retained tasks + 10 Hard candidates.",
+      "v1_family_slug": "programbench",
+      "v1_count": 14,
+      "qualification_status": "pending",
+      "scientific_admitted": false,
+      "provenance": [
+        "suite#/families/2",
+        "selected_plan#/families/2",
+        "v1_roster#/families/6"
+      ],
+      "known_candidates": [
+        {
+          "task_id": "cweill__gotests.2a672c5",
+          "selection_status": "explicit_retained_candidate_qualification_pending",
+          "label": null,
+          "provenance": [
+            "selected_candidates#/programbench/programbench_roster/0",
+            "selected_plan#/programbench/programbench_roster/0"
+          ],
+          "replaces_task_id": null
+        },
+        {
+          "task_id": "nuta__nsh.bdd0702",
+          "selection_status": "explicit_retained_candidate_qualification_pending",
+          "label": null,
+          "provenance": [
+            "selected_candidates#/programbench/programbench_roster/1",
+            "selected_plan#/programbench/programbench_roster/1"
+          ],
+          "replaces_task_id": null
+        },
+        {
+          "task_id": "mookid__diffr.2152742",
+          "selection_status": "explicit_retained_candidate_qualification_pending",
+          "label": null,
+          "provenance": [
+            "selected_candidates#/programbench/programbench_roster/2",
+            "selected_plan#/programbench/programbench_roster/2"
+          ],
+          "replaces_task_id": null
+        },
+        {
+          "task_id": "ninja-build__ninja.cc60300",
+          "selection_status": "explicit_retained_candidate_qualification_pending",
+          "label": null,
+          "provenance": [
+            "selected_candidates#/programbench/programbench_roster/3",
+            "selected_plan#/programbench/programbench_roster/3"
+          ],
+          "replaces_task_id": null
+        },
+        {
+          "task_id": "luajit__luajit.a553b3d",
+          "selection_status": "explicit_retained_candidate_qualification_pending",
+          "label": null,
+          "provenance": [
+            "selected_candidates#/programbench/programbench_roster/4",
+            "selected_plan#/programbench/programbench_roster/4"
+          ],
+          "replaces_task_id": null
+        },
+        {
+          "task_id": "facebook__zstd.1168da0",
+          "selection_status": "explicit_retained_candidate_qualification_pending",
+          "label": null,
+          "provenance": [
+            "selected_candidates#/programbench/programbench_roster/5",
+            "selected_plan#/programbench/programbench_roster/5"
+          ],
+          "replaces_task_id": null
+        },
+        {
+          "task_id": "lfos__calcurse.49180d5",
+          "selection_status": "explicit_retained_candidate_qualification_pending",
+          "label": null,
+          "provenance": [
+            "selected_candidates#/programbench/programbench_roster/6",
+            "selected_plan#/programbench/programbench_roster/6"
+          ],
+          "replaces_task_id": null
+        },
+        {
+          "task_id": "tomarrell__wrapcheck.c058da1",
+          "selection_status": "explicit_retained_candidate_qualification_pending",
+          "label": null,
+          "provenance": [
+            "selected_candidates#/programbench/programbench_roster/7",
+            "selected_plan#/programbench/programbench_roster/7"
+          ],
+          "replaces_task_id": null
+        },
+        {
+          "task_id": "doxygen__doxygen.966d98e",
+          "selection_status": "explicit_hard_addition_candidate_qualification_pending",
+          "label": null,
+          "provenance": [
+            "selected_candidates#/programbench/programbench_roster/8",
+            "selected_plan#/programbench/programbench_roster/8"
+          ],
+          "replaces_task_id": null
+        },
+        {
+          "task_id": "johnkerl__miller.8d85b46",
+          "selection_status": "explicit_hard_addition_candidate_qualification_pending",
+          "label": null,
+          "provenance": [
+            "selected_candidates#/programbench/programbench_roster/9",
+            "selected_plan#/programbench/programbench_roster/9"
+          ],
+          "replaces_task_id": null
+        },
+        {
+          "task_id": "paradigmxyz__solar.5190d0e",
+          "selection_status": "explicit_hard_addition_candidate_qualification_pending",
+          "label": null,
+          "provenance": [
+            "selected_candidates#/programbench/programbench_roster/10",
+            "selected_plan#/programbench/programbench_roster/10"
+          ],
+          "replaces_task_id": null
+        },
+        {
+          "task_id": "typst__typst.88356d0",
+          "selection_status": "explicit_hard_addition_candidate_qualification_pending",
+          "label": null,
+          "provenance": [
+            "selected_candidates#/programbench/programbench_roster/11",
+            "selected_plan#/programbench/programbench_roster/11"
+          ],
+          "replaces_task_id": null
+        },
+        {
+          "task_id": "stranger6667__jsonschema.d52e881",
+          "selection_status": "explicit_hard_addition_candidate_qualification_pending",
+          "label": null,
+          "provenance": [
+            "selected_candidates#/programbench/programbench_roster/12",
+            "selected_plan#/programbench/programbench_roster/12"
+          ],
+          "replaces_task_id": null
+        },
+        {
+          "task_id": "rvben__rumdl.2d75c4d",
+          "selection_status": "explicit_hard_addition_candidate_qualification_pending",
+          "label": null,
+          "provenance": [
+            "selected_candidates#/programbench/programbench_roster/13",
+            "selected_plan#/programbench/programbench_roster/13"
+          ],
+          "replaces_task_id": null
+        },
+        {
+          "task_id": "jesseduffield__lazygit.1d0db51",
+          "selection_status": "explicit_hard_addition_candidate_qualification_pending",
+          "label": null,
+          "provenance": [
+            "selected_candidates#/programbench/programbench_roster/14",
+            "selected_plan#/programbench/programbench_roster/14"
+          ],
+          "replaces_task_id": null
+        },
+        {
+          "task_id": "dandavison__delta.acd758f",
+          "selection_status": "explicit_hard_addition_candidate_qualification_pending",
+          "label": null,
+          "provenance": [
+            "selected_candidates#/programbench/programbench_roster/15",
+            "selected_plan#/programbench/programbench_roster/15"
+          ],
+          "replaces_task_id": null
+        },
+        {
+          "task_id": "canop__broot.d6c798e",
+          "selection_status": "explicit_hard_addition_candidate_qualification_pending",
+          "label": null,
+          "provenance": [
+            "selected_candidates#/programbench/programbench_roster/16",
+            "selected_plan#/programbench/programbench_roster/16"
+          ],
+          "replaces_task_id": null
+        },
+        {
+          "task_id": "ariga__atlas.6d81150",
+          "selection_status": "explicit_hard_addition_candidate_qualification_pending",
+          "label": null,
+          "provenance": [
+            "selected_candidates#/programbench/programbench_roster/17",
+            "selected_plan#/programbench/programbench_roster/17"
+          ],
+          "replaces_task_id": null
+        }
+      ],
+      "legacy_candidate_pool": [],
+      "historical_only_ids": [],
+      "null_task_slots": 0,
+      "unresolved_selection_slots": 0,
+      "identity_mapping_pending_slots": 0,
+      "ambiguities": [
+        "All 18 IDs are explicit selected candidates. Native qualification is pending. FFmpeg and PHP are pilot-only and excluded from these 18."
+      ],
+      "selection_status": "explicit_18_candidate_roster_qualification_pending",
+      "removed_v1_ids": [
+        "noborus__trdsql.d8c5ff6",
+        "rcoh__angle-grinder.9c2fc88",
+        "stathissideris__ditaa.f2286c4",
+        "parcel-bundler__lightningcss.aa2ed1e",
+        "kaushiksrini__parqeye.8072121",
+        "o2sh__onefetch.e5958ce"
+      ],
+      "pilot_only_ids": [
+        "ffmpeg__ffmpeg.360a402",
+        "php__php-src.c891263"
+      ],
+      "metadata_commit": "963063c9271cc40fa179977356782ea4582e0b0c",
+      "mapped_task_ids": [
+        "cweill__gotests.2a672c5",
+        "nuta__nsh.bdd0702",
+        "mookid__diffr.2152742",
+        "ninja-build__ninja.cc60300",
+        "luajit__luajit.a553b3d",
+        "facebook__zstd.1168da0",
+        "lfos__calcurse.49180d5",
+        "tomarrell__wrapcheck.c058da1",
+        "doxygen__doxygen.966d98e",
+        "johnkerl__miller.8d85b46",
+        "paradigmxyz__solar.5190d0e",
+        "typst__typst.88356d0",
+        "stranger6667__jsonschema.d52e881",
+        "rvben__rumdl.2d75c4d",
+        "jesseduffield__lazygit.1d0db51",
+        "dandavison__delta.acd758f",
+        "canop__broot.d6c798e",
+        "ariga__atlas.6d81150"
+      ],
+      "task_id_slots": [
+        "cweill__gotests.2a672c5",
+        "nuta__nsh.bdd0702",
+        "mookid__diffr.2152742",
+        "ninja-build__ninja.cc60300",
+        "luajit__luajit.a553b3d",
+        "facebook__zstd.1168da0",
+        "lfos__calcurse.49180d5",
+        "tomarrell__wrapcheck.c058da1",
+        "doxygen__doxygen.966d98e",
+        "johnkerl__miller.8d85b46",
+        "paradigmxyz__solar.5190d0e",
+        "typst__typst.88356d0",
+        "stranger6667__jsonschema.d52e881",
+        "rvben__rumdl.2d75c4d",
+        "jesseduffield__lazygit.1d0db51",
+        "dandavison__delta.acd758f",
+        "canop__broot.d6c798e",
+        "ariga__atlas.6d81150"
+      ]
+    },
+    {
+      "family_id": "osworld",
+      "family_name": "OSWorld 2.1",
+      "allocation": 18,
+      "action": "Use OSWorld 2.1; select two additions, verify the full task 092 evaluator, and qualify or replace task 029.",
+      "v1_family_slug": "osworld-2-0",
+      "v1_count": 16,
+      "qualification_status": "pending",
+      "scientific_admitted": false,
+      "provenance": [
+        "suite#/families/3",
+        "selected_plan#/families/3",
+        "v1_roster#/families/3",
+        "osworld_release_selection#",
+        "osworld_release_task_hashes#"
+      ],
+      "known_candidates": [],
+      "legacy_candidate_pool": [
+        {
+          "task_id": "001",
+          "label": "Defense schedule",
+          "provenance": [
+            "v1_roster#/families/3/tasks/0"
+          ],
+          "matching_release_filename": "task_001.py",
+          "pinned_2_1_task_file_sha256": "9f8731d02aacb37f6eed0e6e4c7738758c3d7c9fb1b1fa83a9ea08751af19839",
+          "semantic_identity_verified": false
+        },
+        {
+          "task_id": "010",
+          "label": "Reimbursement package",
+          "provenance": [
+            "v1_roster#/families/3/tasks/1"
+          ],
+          "matching_release_filename": "task_010.py",
+          "pinned_2_1_task_file_sha256": "ab779f636a802dfe245ad954699f65e2792dee300404a1d7c2a38fd27f443ff6",
+          "semantic_identity_verified": false
+        },
+        {
+          "task_id": "029",
+          "label": "Local event booking QA",
+          "provenance": [
+            "v1_roster#/families/3/tasks/2"
+          ],
+          "matching_release_filename": "task_029.py",
+          "pinned_2_1_task_file_sha256": "70047c4722d56c1400ffdd633d5e68e5c0722c579fa0f991b660f5aa95e02566",
+          "semantic_identity_verified": false
+        },
+        {
+          "task_id": "038",
+          "label": "CRM leads",
+          "provenance": [
+            "v1_roster#/families/3/tasks/3"
+          ],
+          "matching_release_filename": "task_038.py",
+          "pinned_2_1_task_file_sha256": "13f9dfcd20575f8fb4ef72157fd0e06bd21e98bf28c69140c98f6460ec418dca",
+          "semantic_identity_verified": false
+        },
+        {
+          "task_id": "043",
+          "label": "Twenty recurring meetings",
+          "provenance": [
+            "v1_roster#/families/3/tasks/4"
+          ],
+          "matching_release_filename": "task_043.py",
+          "pinned_2_1_task_file_sha256": "e2e5a4a3fec7477a93b3f1af6306d16689ba202cae29ab2393196f05d6a20bd7",
+          "semantic_identity_verified": false
+        },
+        {
+          "task_id": "046",
+          "label": "Invoices, photos, and email",
+          "provenance": [
+            "v1_roster#/families/3/tasks/5"
+          ],
+          "matching_release_filename": "task_046.py",
+          "pinned_2_1_task_file_sha256": "ffbdc073fa003069882add775ba06d35feef25ec85a2b8f72f51b00083041ac6",
+          "semantic_identity_verified": false
+        },
+        {
+          "task_id": "051",
+          "label": "GIMP composite",
+          "provenance": [
+            "v1_roster#/families/3/tasks/6"
+          ],
+          "matching_release_filename": "task_051.py",
+          "pinned_2_1_task_file_sha256": "f4f74166a854ebf730e4a9f9124e641b3689a091b5ffc76966f801c5a8de61c5",
+          "semantic_identity_verified": false
+        },
+        {
+          "task_id": "059",
+          "label": "GeoGebra vase and volume",
+          "provenance": [
+            "v1_roster#/families/3/tasks/7"
+          ],
+          "matching_release_filename": "task_059.py",
+          "pinned_2_1_task_file_sha256": "209ae975acc044c654df3000d190222c1e5cae43195f1b17308d051d0aa6059d",
+          "semantic_identity_verified": false
+        },
+        {
+          "task_id": "067",
+          "label": "MuseScore transcription",
+          "provenance": [
+            "v1_roster#/families/3/tasks/8"
+          ],
+          "matching_release_filename": "task_067.py",
+          "pinned_2_1_task_file_sha256": "35eb0384e24bbaf734eae05f28657420302ec5d5524b1e9fe662ecbe24859443",
+          "semantic_identity_verified": false
+        },
+        {
+          "task_id": "083",
+          "label": "Zotero, Obsidian, and BibTeX",
+          "provenance": [
+            "v1_roster#/families/3/tasks/9"
+          ],
+          "matching_release_filename": "task_083.py",
+          "pinned_2_1_task_file_sha256": "814d272fb3a108de231486017d126c948073157405e8a15d90d7468d9f9ae13e",
+          "semantic_identity_verified": false
+        },
+        {
+          "task_id": "084",
+          "label": "JSFX and REAPER render",
+          "provenance": [
+            "v1_roster#/families/3/tasks/10"
+          ],
+          "matching_release_filename": "task_084.py",
+          "pinned_2_1_task_file_sha256": "025c1256047bde7d0e9a9af852a11acf2089e9fc750dfa9aae2b98f94bddf0fd",
+          "semantic_identity_verified": false
+        },
+        {
+          "task_id": "085",
+          "label": "Radio bumper",
+          "provenance": [
+            "v1_roster#/families/3/tasks/11"
+          ],
+          "matching_release_filename": "task_085.py",
+          "pinned_2_1_task_file_sha256": "a56b8c3c93f86322dc59ddfa179dd4bfb6cb671d77333e1f9f01c43d9e5011ff",
+          "semantic_identity_verified": false
+        },
+        {
+          "task_id": "088",
+          "label": "Calc macros, contracts, and emails",
+          "provenance": [
+            "v1_roster#/families/3/tasks/12"
+          ],
+          "matching_release_filename": "task_088.py",
+          "pinned_2_1_task_file_sha256": "b2bb6df144e452c0b193922c786317ad96eaf52a61fc3f164d98d3e684ac62b0",
+          "semantic_identity_verified": false
+        },
+        {
+          "task_id": "092",
+          "label": "Blender logo and Impress",
+          "provenance": [
+            "v1_roster#/families/3/tasks/13"
+          ],
+          "matching_release_filename": "task_092.py",
+          "pinned_2_1_task_file_sha256": "2bf85eb76976a038e0d5c6ec0047d34f2e1fea49f9215d44c74c80765854cea9",
+          "semantic_identity_verified": false
+        },
+        {
+          "task_id": "103",
+          "label": "FreeCAD bracket",
+          "provenance": [
+            "v1_roster#/families/3/tasks/14"
+          ],
+          "matching_release_filename": "task_103.py",
+          "pinned_2_1_task_file_sha256": "026db41453d43dc248c577644eab1fa582dac26c608aff88fbe047a42f83e318",
+          "semantic_identity_verified": false
+        },
+        {
+          "task_id": "108",
+          "label": "KiCad schematic and PCB",
+          "provenance": [
+            "v1_roster#/families/3/tasks/15"
+          ],
+          "matching_release_filename": "task_108.py",
+          "pinned_2_1_task_file_sha256": "9b9a0758a70eedb8a248f80846242e1ac5a14cc08117f61ac87a1c1febc3a944",
+          "semantic_identity_verified": false
+        }
+      ],
+      "historical_only_ids": [],
+      "null_task_slots": 18,
+      "unresolved_selection_slots": 2,
+      "identity_mapping_pending_slots": 16,
+      "ambiguities": [
+        "The 16 old IDs have matching numbered filenames in the 2.1 hash manifest. Filenames and hashes alone do not verify matching task identity. Keep all 18 slots null until instructions/task identity are checked against the pinned 2.1 source.",
+        "Two additions remain unselected. Task 029 must be qualified or replaced; task 092 requires the full evaluator. No replacement ID has been authorized for 029."
+      ],
+      "selection_status": "release_identity_mapping_pending",
+      "mapped_task_ids": [],
+      "task_id_slots": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "family_id": "appworld",
+      "family_name": "AppWorld",
+      "allocation": 14,
+      "action": "Reduce the sample while retaining app diversity.",
+      "v1_family_slug": "appworld",
+      "v1_count": 18,
+      "qualification_status": "pending",
+      "scientific_admitted": false,
+      "provenance": [
+        "suite#/families/4",
+        "selected_plan#/families/4",
+        "v1_roster#/families/11"
+      ],
+      "known_candidates": [],
+      "legacy_candidate_pool": [
+        {
+          "task_id": "988af8e_1",
+          "label": "Execute every task in a camping project across shopping, expenses, payments, invitations, and task closeout",
+          "provenance": [
+            "v1_roster#/families/11/tasks/0"
+          ]
+        },
+        {
+          "task_id": "a1d3dfd_1",
+          "label": "Export every playlist song to a CSV and email the backup",
+          "provenance": [
+            "v1_roster#/families/11/tasks/1"
+          ]
+        },
+        {
+          "task_id": "3fcc458_1",
+          "label": "Reconcile an emailed road-trip song list with a Spotify playlist and download it",
+          "provenance": [
+            "v1_roster#/families/11/tasks/2"
+          ]
+        },
+        {
+          "task_id": "8d42650_1",
+          "label": "Turn this year’s emailed electricity bills into monthly Splitwise expenses",
+          "provenance": [
+            "v1_roster#/families/11/tasks/3"
+          ]
+        },
+        {
+          "task_id": "f86d850_1",
+          "label": "Buy a requested item, forward its receipt, and recover the cost through Venmo",
+          "provenance": [
+            "v1_roster#/families/11/tasks/4"
+          ]
+        },
+        {
+          "task_id": "9a16324_1",
+          "label": "Collect artist recommendations from email and text conversations, then follow them",
+          "provenance": [
+            "v1_roster#/families/11/tasks/5"
+          ]
+        },
+        {
+          "task_id": "1b988ac_1",
+          "label": "Rebuild and send a drafted recommendation email from the user’s Spotify history",
+          "provenance": [
+            "v1_roster#/families/11/tasks/6"
+          ]
+        },
+        {
+          "task_id": "f6f2e67_1",
+          "label": "Merge two photo collections into a ZIP and send it to both parents",
+          "provenance": [
+            "v1_roster#/families/11/tasks/7"
+          ]
+        },
+        {
+          "task_id": "f3a6713_1",
+          "label": "Reconcile a camping checklist with commitments and buy the remaining supplies",
+          "provenance": [
+            "v1_roster#/families/11/tasks/8"
+          ]
+        },
+        {
+          "task_id": "36705ae_1",
+          "label": "Collect every cable bill, normalize filenames, ZIP them, and reply to the request",
+          "provenance": [
+            "v1_roster#/families/11/tasks/9"
+          ]
+        },
+        {
+          "task_id": "a676f2a_1",
+          "label": "Calculate and send individualized lunch-cost requests with shared tip and delivery",
+          "provenance": [
+            "v1_roster#/families/11/tasks/10"
+          ]
+        },
+        {
+          "task_id": "18670a5_1",
+          "label": "Turn a note-based meeting schedule into correctly timed reminder emails",
+          "provenance": [
+            "v1_roster#/families/11/tasks/11"
+          ]
+        },
+        {
+          "task_id": "e70b117_1",
+          "label": "Build scheduled speaker reminders from an email schedule and file template",
+          "provenance": [
+            "v1_roster#/families/11/tasks/12"
+          ]
+        },
+        {
+          "task_id": "33e202d_1",
+          "label": "Build a recruiting CSV and archive each candidate’s attachments",
+          "provenance": [
+            "v1_roster#/families/11/tasks/13"
+          ]
+        },
+        {
+          "task_id": "a97e35d_1",
+          "label": "Send individualized acceptance or rejection replies using local decision templates",
+          "provenance": [
+            "v1_roster#/families/11/tasks/14"
+          ]
+        },
+        {
+          "task_id": "bde252e_1",
+          "label": "Repack tonight’s Todoist plan around the available work schedule",
+          "provenance": [
+            "v1_roster#/families/11/tasks/15"
+          ]
+        },
+        {
+          "task_id": "986aa4e_1",
+          "label": "Apply collaborator feedback to a shared road-trip playlist and close the task",
+          "provenance": [
+            "v1_roster#/families/11/tasks/16"
+          ]
+        },
+        {
+          "task_id": "83a7951_1",
+          "label": "Reconcile Venmo payments into Splitwise with attached receipts",
+          "provenance": [
+            "v1_roster#/families/11/tasks/17"
+          ]
+        }
+      ],
+      "historical_only_ids": [],
+      "null_task_slots": 14,
+      "unresolved_selection_slots": 14,
+      "identity_mapping_pending_slots": 0,
+      "ambiguities": [
+        "The allocation shrank from 18 to 14; no exact retained subset is selected. All 14 task slots remain null. The earlier cohort is a candidate pool only."
+      ],
+      "selection_status": "unresolved_reduced_subset_selection",
+      "mapped_task_ids": [],
+      "task_id_slots": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "family_id": "pptarena",
+      "family_name": "PPTArena",
+      "allocation": 10,
+      "action": "Keep a fixed judging protocol.",
+      "v1_family_slug": "pptarena",
+      "v1_count": 10,
+      "qualification_status": "pending",
+      "scientific_admitted": false,
+      "provenance": [
+        "suite#/families/5",
+        "selected_plan#/families/5",
+        "v1_roster#/families/4"
+      ],
+      "known_candidates": [
+        {
+          "task_id": "17",
+          "selection_status": "inherited_v1_candidate_qualification_pending",
+          "label": "Coordinated category boards",
+          "provenance": [
+            "v1_roster#/families/4/tasks/0"
+          ],
+          "replaces_task_id": null
+        },
+        {
+          "task_id": "67",
+          "selection_status": "inherited_v1_candidate_qualification_pending",
+          "label": "Accessibility and master cleanup",
+          "provenance": [
+            "v1_roster#/families/4/tasks/1"
+          ],
+          "replaces_task_id": null
+        },
+        {
+          "task_id": "68",
+          "selection_status": "inherited_v1_candidate_qualification_pending",
+          "label": "Swimlane process diagram",
+          "provenance": [
+            "v1_roster#/families/4/tasks/2"
+          ],
+          "replaces_task_id": null
+        },
+        {
+          "task_id": "75",
+          "selection_status": "inherited_v1_candidate_qualification_pending",
+          "label": "Grid and baseline rhythm",
+          "provenance": [
+            "v1_roster#/families/4/tasks/3"
+          ],
+          "replaces_task_id": null
+        },
+        {
+          "task_id": "80",
+          "selection_status": "inherited_v1_candidate_qualification_pending",
+          "label": "Theme and backgrounds across 28 slides",
+          "provenance": [
+            "v1_roster#/families/4/tasks/4"
+          ],
+          "replaces_task_id": null
+        },
+        {
+          "task_id": "85",
+          "selection_status": "inherited_v1_candidate_qualification_pending",
+          "label": "Arabic translation and layout",
+          "provenance": [
+            "v1_roster#/families/4/tasks/5"
+          ],
+          "replaces_task_id": null
+        },
+        {
+          "task_id": "89",
+          "selection_status": "inherited_v1_candidate_qualification_pending",
+          "label": "Animal Research poster",
+          "provenance": [
+            "v1_roster#/families/4/tasks/6"
+          ],
+          "replaces_task_id": null
+        },
+        {
+          "task_id": "93",
+          "selection_status": "inherited_v1_candidate_qualification_pending",
+          "label": "Copernicus climate multi-edit cascade",
+          "provenance": [
+            "v1_roster#/families/4/tasks/7"
+          ],
+          "replaces_task_id": null
+        },
+        {
+          "task_id": "97",
+          "selection_status": "inherited_v1_candidate_qualification_pending",
+          "label": "LaTeX to editable Office Math",
+          "provenance": [
+            "v1_roster#/families/4/tasks/8"
+          ],
+          "replaces_task_id": null
+        },
+        {
+          "task_id": "100",
+          "selection_status": "inherited_v1_candidate_qualification_pending",
+          "label": "Animation and bullet sequencing",
+          "provenance": [
+            "v1_roster#/families/4/tasks/9"
+          ],
+          "replaces_task_id": null
+        }
+      ],
+      "legacy_candidate_pool": [],
+      "historical_only_ids": [],
+      "null_task_slots": 0,
+      "unresolved_selection_slots": 0,
+      "identity_mapping_pending_slots": 0,
+      "ambiguities": [
+        "Task 89 carries the existing named animal-research poster exception; retain that exception in source and subject-filter records."
+      ],
+      "selection_status": "inherited_cohort_qualification_pending",
+      "mapped_task_ids": [
+        "17",
+        "67",
+        "68",
+        "75",
+        "80",
+        "85",
+        "89",
+        "93",
+        "97",
+        "100"
+      ],
+      "task_id_slots": [
+        "17",
+        "67",
+        "68",
+        "75",
+        "80",
+        "85",
+        "89",
+        "93",
+        "97",
+        "100"
+      ]
+    },
+    {
+      "family_id": "ale",
+      "family_name": "Agents’ Last Exam",
+      "allocation": 12,
+      "action": "Retain and qualify the task contracts.",
+      "v1_family_slug": "agents-last-exam",
+      "v1_count": 12,
+      "qualification_status": "pending",
+      "scientific_admitted": false,
+      "provenance": [
+        "suite#/families/6",
+        "selected_plan#/families/6",
+        "v1_roster#/families/10"
+      ],
+      "known_candidates": [
+        {
+          "task_id": "business_finance/bpmn_supply_disruption_l3",
+          "selection_status": "inherited_v1_candidate_qualification_pending",
+          "label": "Redesign and validate a Flowable supply-disruption workflow",
+          "provenance": [
+            "v1_roster#/families/10/tasks/0"
+          ],
+          "replaces_task_id": null
+        },
+        {
+          "task_id": "business_finance/odoo",
+          "selection_status": "inherited_v1_candidate_qualification_pending",
+          "label": "Complete an end-to-end Odoo supply-chain workflow",
+          "provenance": [
+            "v1_roster#/families/10/tasks/1"
+          ],
+          "replaces_task_id": null
+        },
+        {
+          "task_id": "business_finance/sec_10k_financial_parsing",
+          "selection_status": "inherited_v1_candidate_qualification_pending",
+          "label": "Parse a fixed 100-filing SEC 10-K corpus",
+          "provenance": [
+            "v1_roster#/families/10/tasks/2"
+          ],
+          "replaces_task_id": null
+        },
+        {
+          "task_id": "business_finance/legal_ma_consistency_audit_01",
+          "selection_status": "inherited_v1_candidate_qualification_pending",
+          "label": "Audit four Chinese M&A filings for inconsistencies",
+          "provenance": [
+            "v1_roster#/families/10/tasks/3"
+          ],
+          "replaces_task_id": null
+        },
+        {
+          "task_id": "education_info/moodle_gradebook_closeout_reconciliation",
+          "selection_status": "inherited_v1_candidate_qualification_pending",
+          "label": "Repair a Moodle backup and rebuild registrar exports",
+          "provenance": [
+            "v1_roster#/families/10/tasks/4"
+          ],
+          "replaces_task_id": null
+        },
+        {
+          "task_id": "education_info/marc_remediation_folio_overlay",
+          "selection_status": "inherited_v1_candidate_qualification_pending",
+          "label": "Remediate MARC records and prepare a FOLIO overlay",
+          "provenance": [
+            "v1_roster#/families/10/tasks/5"
+          ],
+          "replaces_task_id": null
+        },
+        {
+          "task_id": "computing_math/data_pipeline_etl_instance_1",
+          "selection_status": "inherited_v1_candidate_qualification_pending",
+          "label": "Build a clean retail SQLite warehouse from messy inputs",
+          "provenance": [
+            "v1_roster#/families/10/tasks/6"
+          ],
+          "replaces_task_id": null
+        },
+        {
+          "task_id": "engineering/pcb_layout_kicad_1",
+          "selection_status": "inherited_v1_candidate_qualification_pending",
+          "label": "Route a KiCad PCB from the staged schematic",
+          "provenance": [
+            "v1_roster#/families/10/tasks/7"
+          ],
+          "replaces_task_id": null
+        },
+        {
+          "task_id": "engineering/sumo_urban_am_peak_calibration",
+          "selection_status": "inherited_v1_candidate_qualification_pending",
+          "label": "Repair and calibrate an urban SUMO traffic simulation",
+          "provenance": [
+            "v1_roster#/families/10/tasks/8"
+          ],
+          "replaces_task_id": null
+        },
+        {
+          "task_id": "physical_sciences/hst_acs_wfc_visit_reduction",
+          "selection_status": "inherited_v1_candidate_qualification_pending",
+          "label": "Build a reusable HST ACS/WFC visit-reduction pipeline",
+          "provenance": [
+            "v1_roster#/families/10/tasks/9"
+          ],
+          "replaces_task_id": null
+        },
+        {
+          "task_id": "visual_media/compress_3dgs_scene_ply",
+          "selection_status": "inherited_v1_candidate_qualification_pending",
+          "label": "Compress a 3D Gaussian Splatting scene without losing quality",
+          "provenance": [
+            "v1_roster#/families/10/tasks/10"
+          ],
+          "replaces_task_id": null
+        },
+        {
+          "task_id": "transport_safety/capacitated_vehicle_routing_problems",
+          "selection_status": "inherited_v1_candidate_qualification_pending",
+          "label": "Find near-best-known routes for three CVRP instances",
+          "provenance": [
+            "v1_roster#/families/10/tasks/11"
+          ],
+          "replaces_task_id": null
+        }
+      ],
+      "legacy_candidate_pool": [],
+      "historical_only_ids": [],
+      "null_task_slots": 0,
+      "unresolved_selection_slots": 0,
+      "identity_mapping_pending_slots": 0,
+      "ambiguities": [],
+      "selection_status": "inherited_cohort_qualification_pending",
+      "mapped_task_ids": [
+        "business_finance/bpmn_supply_disruption_l3",
+        "business_finance/odoo",
+        "business_finance/sec_10k_financial_parsing",
+        "business_finance/legal_ma_consistency_audit_01",
+        "education_info/moodle_gradebook_closeout_reconciliation",
+        "education_info/marc_remediation_folio_overlay",
+        "computing_math/data_pipeline_etl_instance_1",
+        "engineering/pcb_layout_kicad_1",
+        "engineering/sumo_urban_am_peak_calibration",
+        "physical_sciences/hst_acs_wfc_visit_reduction",
+        "visual_media/compress_3dgs_scene_ply",
+        "transport_safety/capacitated_vehicle_routing_problems"
+      ],
+      "task_id_slots": [
+        "business_finance/bpmn_supply_disruption_l3",
+        "business_finance/odoo",
+        "business_finance/sec_10k_financial_parsing",
+        "business_finance/legal_ma_consistency_audit_01",
+        "education_info/moodle_gradebook_closeout_reconciliation",
+        "education_info/marc_remediation_folio_overlay",
+        "computing_math/data_pipeline_etl_instance_1",
+        "engineering/pcb_layout_kicad_1",
+        "engineering/sumo_urban_am_peak_calibration",
+        "physical_sciences/hst_acs_wfc_visit_reduction",
+        "visual_media/compress_3dgs_scene_ply",
+        "transport_safety/capacitated_vehicle_routing_problems"
+      ]
+    },
+    {
+      "family_id": "tua",
+      "family_name": "TUA-Bench",
+      "allocation": 10,
+      "action": "Choose the retained ten task IDs.",
+      "v1_family_slug": "tua-bench",
+      "v1_count": 12,
+      "qualification_status": "pending",
+      "scientific_admitted": false,
+      "provenance": [
+        "suite#/families/7",
+        "selected_plan#/families/7",
+        "v1_roster#/families/8"
+      ],
+      "known_candidates": [],
+      "legacy_candidate_pool": [
+        {
+          "task_id": "074-apa-references-review",
+          "label": "APA references review",
+          "provenance": [
+            "v1_roster#/families/8/tasks/0"
+          ]
+        },
+        {
+          "task_id": "096-first-author-table",
+          "label": "First-author table",
+          "provenance": [
+            "v1_roster#/families/8/tasks/1"
+          ]
+        },
+        {
+          "task_id": "102-daily-email-report",
+          "label": "Daily email report",
+          "provenance": [
+            "v1_roster#/families/8/tasks/2"
+          ]
+        },
+        {
+          "task_id": "094-author-homepage-bookmarks",
+          "label": "Author homepage bookmarks",
+          "provenance": [
+            "v1_roster#/families/8/tasks/3"
+          ]
+        },
+        {
+          "task_id": "100-name-mountain-photos",
+          "label": "Name mountain photos",
+          "provenance": [
+            "v1_roster#/families/8/tasks/4"
+          ]
+        },
+        {
+          "task_id": "093-merge-txt-document",
+          "label": "Merge text document",
+          "provenance": [
+            "v1_roster#/families/8/tasks/5"
+          ]
+        },
+        {
+          "task_id": "004-place-heater-for-sensors",
+          "label": "Place heater for sensors",
+          "provenance": [
+            "v1_roster#/families/8/tasks/6"
+          ]
+        },
+        {
+          "task_id": "005-optimize-cold-plate",
+          "label": "Optimize cold plate",
+          "provenance": [
+            "v1_roster#/families/8/tasks/7"
+          ]
+        },
+        {
+          "task_id": "006-extract-gym-auditorium",
+          "label": "Extract gym auditorium",
+          "provenance": [
+            "v1_roster#/families/8/tasks/8"
+          ]
+        },
+        {
+          "task_id": "011-epw-parquet-check",
+          "label": "EPW parquet check",
+          "provenance": [
+            "v1_roster#/families/8/tasks/9"
+          ]
+        },
+        {
+          "task_id": "079-fix-mp3-metadata",
+          "label": "Fix MP3 metadata",
+          "provenance": [
+            "v1_roster#/families/8/tasks/10"
+          ]
+        },
+        {
+          "task_id": "088-extract-presenter-photos",
+          "label": "Extract presenter photos",
+          "provenance": [
+            "v1_roster#/families/8/tasks/11"
+          ]
+        }
+      ],
+      "historical_only_ids": [],
+      "null_task_slots": 10,
+      "unresolved_selection_slots": 10,
+      "identity_mapping_pending_slots": 0,
+      "ambiguities": [
+        "The allocation shrank from 12 to 10; no exact retained subset is selected. All 10 task slots remain null. The earlier cohort is a candidate pool only."
+      ],
+      "selection_status": "unresolved_reduced_subset_selection",
+      "mapped_task_ids": [],
+      "task_id_slots": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "family_id": "assistant",
+      "family_name": "AssistantBench",
+      "allocation": 8,
+      "action": "8 places selected; the qualification decision is still open.",
+      "v1_family_slug": "assistantbench",
+      "v1_count": 18,
+      "qualification_status": "pending",
+      "scientific_admitted": false,
+      "provenance": [
+        "suite#/families/8",
+        "selected_plan#/families/8",
+        "v1_roster#/families/0"
+      ],
+      "known_candidates": [],
+      "legacy_candidate_pool": [
+        {
+          "task_id": "validation:0",
+          "label": null,
+          "provenance": [
+            "v1_roster#/families/0/tasks/0"
+          ]
+        },
+        {
+          "task_id": "validation:1",
+          "label": null,
+          "provenance": [
+            "v1_roster#/families/0/tasks/1"
+          ]
+        },
+        {
+          "task_id": "validation:2",
+          "label": null,
+          "provenance": [
+            "v1_roster#/families/0/tasks/2"
+          ]
+        },
+        {
+          "task_id": "validation:3",
+          "label": null,
+          "provenance": [
+            "v1_roster#/families/0/tasks/3"
+          ]
+        },
+        {
+          "task_id": "validation:4",
+          "label": null,
+          "provenance": [
+            "v1_roster#/families/0/tasks/4"
+          ]
+        },
+        {
+          "task_id": "validation:5",
+          "label": null,
+          "provenance": [
+            "v1_roster#/families/0/tasks/5"
+          ]
+        },
+        {
+          "task_id": "validation:6",
+          "label": null,
+          "provenance": [
+            "v1_roster#/families/0/tasks/6"
+          ]
+        },
+        {
+          "task_id": "validation:9",
+          "label": null,
+          "provenance": [
+            "v1_roster#/families/0/tasks/7"
+          ]
+        },
+        {
+          "task_id": "validation:13",
+          "label": null,
+          "provenance": [
+            "v1_roster#/families/0/tasks/8"
+          ]
+        },
+        {
+          "task_id": "validation:15",
+          "label": null,
+          "provenance": [
+            "v1_roster#/families/0/tasks/9"
+          ]
+        },
+        {
+          "task_id": "validation:22",
+          "label": null,
+          "provenance": [
+            "v1_roster#/families/0/tasks/10"
+          ]
+        },
+        {
+          "task_id": "validation:25",
+          "label": null,
+          "provenance": [
+            "v1_roster#/families/0/tasks/11"
+          ]
+        },
+        {
+          "task_id": "validation:26",
+          "label": null,
+          "provenance": [
+            "v1_roster#/families/0/tasks/12"
+          ]
+        },
+        {
+          "task_id": "validation:27",
+          "label": null,
+          "provenance": [
+            "v1_roster#/families/0/tasks/13"
+          ]
+        },
+        {
+          "task_id": "validation:28",
+          "label": null,
+          "provenance": [
+            "v1_roster#/families/0/tasks/14"
+          ]
+        },
+        {
+          "task_id": "validation:29",
+          "label": null,
+          "provenance": [
+            "v1_roster#/families/0/tasks/15"
+          ]
+        },
+        {
+          "task_id": "validation:31",
+          "label": null,
+          "provenance": [
+            "v1_roster#/families/0/tasks/16"
+          ]
+        },
+        {
+          "task_id": "validation:32",
+          "label": null,
+          "provenance": [
+            "v1_roster#/families/0/tasks/17"
+          ]
+        }
+      ],
+      "historical_only_ids": [],
+      "null_task_slots": 8,
+      "unresolved_selection_slots": 8,
+      "identity_mapping_pending_slots": 0,
+      "ambiguities": [
+        "The allocation shrank from 18 to 8; no exact retained subset is selected. All 8 task slots remain null. The earlier cohort is a candidate pool only.",
+        "The user also left AssistantBench qualification undecided; the reduced eight-place allocation does not resolve that decision."
+      ],
+      "selection_status": "unresolved_reduced_subset_selection",
+      "mapped_task_ids": [],
+      "task_id_slots": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "family_id": "browsecomp",
+      "family_name": "BrowseComp",
+      "allocation": 12,
+      "action": "New family; select and audit all 12 task IDs.",
+      "v1_family_slug": null,
+      "v1_count": 0,
+      "qualification_status": "pending",
+      "scientific_admitted": false,
+      "provenance": [
+        "suite#/families/9",
+        "selected_plan#/families/9"
+      ],
+      "known_candidates": [],
+      "legacy_candidate_pool": [],
+      "historical_only_ids": [],
+      "null_task_slots": 12,
+      "unresolved_selection_slots": 12,
+      "identity_mapping_pending_slots": 0,
+      "ambiguities": [
+        "New family. No exact task IDs are selected by the saved plan; all slots remain null."
+      ],
+      "selection_status": "unresolved_new_family_selection",
+      "mapped_task_ids": [],
+      "task_id_slots": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "family_id": "tau",
+      "family_name": "τ-bench, text",
+      "allocation": 12,
+      "action": "New text-only family; select and audit all 12 task IDs.",
+      "v1_family_slug": null,
+      "v1_count": 0,
+      "qualification_status": "pending",
+      "scientific_admitted": false,
+      "provenance": [
+        "suite#/families/10",
+        "selected_plan#/families/10"
+      ],
+      "known_candidates": [],
+      "legacy_candidate_pool": [],
+      "historical_only_ids": [],
+      "null_task_slots": 12,
+      "unresolved_selection_slots": 12,
+      "identity_mapping_pending_slots": 0,
+      "ambiguities": [
+        "New family. No exact task IDs are selected by the saved plan; all slots remain null."
+      ],
+      "selection_status": "unresolved_new_family_selection",
+      "mapped_task_ids": [],
+      "task_id_slots": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "family_id": "core",
+      "family_name": "CORE-Bench Hard",
+      "allocation": 12,
+      "action": "Keep Hard: 4 mainline + 8 out-of-distribution; audit still open.",
+      "v1_family_slug": "core-bench-v1-1",
+      "v1_count": 12,
+      "qualification_status": "pending",
+      "scientific_admitted": false,
+      "provenance": [
+        "suite#/families/11",
+        "selected_plan#/families/11",
+        "v1_roster#/families/12",
+        "v1_core_split_evidence:2791-2977"
+      ],
+      "known_candidates": [
+        {
+          "task_id": "capsule-3821950",
+          "selection_status": "inherited_v1_candidate_qualification_pending",
+          "label": "Reproduce a rockshelter chronology and archaeological materials analysis",
+          "provenance": [
+            "v1_roster#/families/12/tasks/0"
+          ],
+          "replaces_task_id": null
+        },
+        {
+          "task_id": "capsule-9832712",
+          "selection_status": "inherited_v1_candidate_qualification_pending",
+          "label": "Reproduce article and script-availability results across linguistics",
+          "provenance": [
+            "v1_roster#/families/12/tasks/1"
+          ],
+          "replaces_task_id": null
+        },
+        {
+          "task_id": "capsule-5136217",
+          "selection_status": "inherited_v1_candidate_qualification_pending",
+          "label": "Rebuild the figures for selective exposure to partisan online news",
+          "provenance": [
+            "v1_roster#/families/12/tasks/2"
+          ],
+          "replaces_task_id": null
+        },
+        {
+          "task_id": "capsule-3449234",
+          "selection_status": "inherited_v1_candidate_qualification_pending",
+          "label": "Run and render CNN short-term temperature forecasting results",
+          "provenance": [
+            "v1_roster#/families/12/tasks/3"
+          ],
+          "replaces_task_id": null
+        },
+        {
+          "task_id": "capsule-9026204",
+          "selection_status": "inherited_v1_candidate_qualification_pending",
+          "label": "Execute the fibrous-media notebook and reproduce its pore-size result",
+          "provenance": [
+            "v1_roster#/families/12/tasks/4"
+          ],
+          "replaces_task_id": null
+        },
+        {
+          "task_id": "capsule-2151475",
+          "selection_status": "inherited_v1_candidate_qualification_pending",
+          "label": "Reproduce journal and university ranking figures",
+          "provenance": [
+            "v1_roster#/families/12/tasks/5"
+          ],
+          "replaces_task_id": null
+        },
+        {
+          "task_id": "capsule-0571975",
+          "selection_status": "inherited_v1_candidate_qualification_pending",
+          "label": "Run a continuous-time intelligent-reflecting-surface propagation model",
+          "provenance": [
+            "v1_roster#/families/12/tasks/6"
+          ],
+          "replaces_task_id": null
+        },
+        {
+          "task_id": "capsule-8185407",
+          "selection_status": "inherited_v1_candidate_qualification_pending",
+          "label": "Reproduce a 20 mm transducer-array characterization",
+          "provenance": [
+            "v1_roster#/families/12/tasks/7"
+          ],
+          "replaces_task_id": null
+        },
+        {
+          "task_id": "capsule-3990498",
+          "selection_status": "inherited_v1_candidate_qualification_pending",
+          "label": "Run a quantum measurement and tomography toolbox",
+          "provenance": [
+            "v1_roster#/families/12/tasks/8"
+          ],
+          "replaces_task_id": null
+        },
+        {
+          "task_id": "capsule-8353473",
+          "selection_status": "inherited_v1_candidate_qualification_pending",
+          "label": "Execute relative-entropy causal-influence notebooks in parallel",
+          "provenance": [
+            "v1_roster#/families/12/tasks/9"
+          ],
+          "replaces_task_id": null
+        },
+        {
+          "task_id": "capsule-7350043",
+          "selection_status": "inherited_v1_candidate_qualification_pending",
+          "label": "Train and evaluate end-to-end neural-network feature selection on MNIST",
+          "provenance": [
+            "v1_roster#/families/12/tasks/10"
+          ],
+          "replaces_task_id": null
+        },
+        {
+          "task_id": "capsule-5172670",
+          "selection_status": "inherited_v1_candidate_qualification_pending",
+          "label": "Run product-review sentiment mining and reproduce its metrics",
+          "provenance": [
+            "v1_roster#/families/12/tasks/11"
+          ],
+          "replaces_task_id": null
+        }
+      ],
+      "legacy_candidate_pool": [],
+      "historical_only_ids": [],
+      "null_task_slots": 0,
+      "unresolved_selection_slots": 0,
+      "identity_mapping_pending_slots": 0,
+      "ambiguities": [
+        "The same 12-task Hard cohort satisfies the saved 4 mainline + 8 OOD mix. The user left the qualification check undecided, so candidate inheritance is not admission."
+      ],
+      "selection_status": "inherited_cohort_qualification_pending",
+      "mapped_task_ids": [
+        "capsule-3821950",
+        "capsule-9832712",
+        "capsule-5136217",
+        "capsule-3449234",
+        "capsule-9026204",
+        "capsule-2151475",
+        "capsule-0571975",
+        "capsule-8185407",
+        "capsule-3990498",
+        "capsule-8353473",
+        "capsule-7350043",
+        "capsule-5172670"
+      ],
+      "task_id_slots": [
+        "capsule-3821950",
+        "capsule-9832712",
+        "capsule-5136217",
+        "capsule-3449234",
+        "capsule-9026204",
+        "capsule-2151475",
+        "capsule-0571975",
+        "capsule-8185407",
+        "capsule-3990498",
+        "capsule-8353473",
+        "capsule-7350043",
+        "capsule-5172670"
+      ],
+      "split_by_task_id": {
+        "capsule-3821950": "mainline",
+        "capsule-9832712": "mainline",
+        "capsule-5136217": "mainline",
+        "capsule-3449234": "mainline",
+        "capsule-9026204": "ood",
+        "capsule-2151475": "ood",
+        "capsule-0571975": "ood",
+        "capsule-8185407": "ood",
+        "capsule-3990498": "ood",
+        "capsule-8353473": "ood",
+        "capsule-7350043": "ood",
+        "capsule-5172670": "ood"
+      }
+    },
+    {
+      "family_id": "paper",
+      "family_name": "PaperBench",
+      "allocation": 4,
+      "action": "Add one task; remove competing work-duration wording.",
+      "v1_family_slug": "paperbench",
+      "v1_count": 3,
+      "qualification_status": "pending",
+      "scientific_admitted": false,
+      "provenance": [
+        "suite#/families/12",
+        "selected_plan#/families/12",
+        "v1_roster#/families/5"
+      ],
+      "known_candidates": [
+        {
+          "task_id": "bridging-data-gaps",
+          "selection_status": "inherited_v1_candidate_qualification_pending",
+          "label": "Bridging Data Gaps",
+          "provenance": [
+            "v1_roster#/families/5/tasks/0"
+          ],
+          "replaces_task_id": null
+        },
+        {
+          "task_id": "fre",
+          "selection_status": "inherited_v1_candidate_qualification_pending",
+          "label": "FRE",
+          "provenance": [
+            "v1_roster#/families/5/tasks/1"
+          ],
+          "replaces_task_id": null
+        },
+        {
+          "task_id": "bam",
+          "selection_status": "inherited_v1_candidate_qualification_pending",
+          "label": "BAM",
+          "provenance": [
+            "v1_roster#/families/5/tasks/2"
+          ],
+          "replaces_task_id": null
+        }
+      ],
+      "legacy_candidate_pool": [],
+      "historical_only_ids": [],
+      "null_task_slots": 1,
+      "unresolved_selection_slots": 1,
+      "identity_mapping_pending_slots": 0,
+      "ambiguities": [
+        "The 1 additional place(s) have no selected exact IDs. Do not fill from reserves or first-N source ordering."
+      ],
+      "selection_status": "inherited_candidates_plus_unselected_additions",
+      "mapped_task_ids": [
+        "bridging-data-gaps",
+        "fre",
+        "bam"
+      ],
+      "task_id_slots": [
+        "bridging-data-gaps",
+        "fre",
+        "bam",
+        null
+      ]
+    },
+    {
+      "family_id": "posttrain",
+      "family_name": "PostTrainBench",
+      "allocation": 4,
+      "action": "Prefer the v1.2 Harbor adapter and corrected grading; add two tasks and preserve the uncapped natural objective. Source and native qualification remain pending.",
+      "v1_family_slug": "posttrainbench-v1-1",
+      "v1_count": 2,
+      "qualification_status": "pending",
+      "scientific_admitted": false,
+      "provenance": [
+        "suite#/families/13",
+        "selected_plan#/families/13",
+        "v1_roster#/families/15",
+        "posttrain_release_assessment#/historical_candidates_still_supported"
+      ],
+      "known_candidates": [
+        {
+          "task_id": "qwen3-1.7b-base__humaneval",
+          "selection_status": "inherited_v1_candidate_qualification_pending",
+          "label": "Post-train Qwen3-1.7B-Base for HumanEval",
+          "provenance": [
+            "v1_roster#/families/15/tasks/0"
+          ],
+          "replaces_task_id": null
+        },
+        {
+          "task_id": "qwen3-1.7b-base__gsm8k",
+          "selection_status": "inherited_v1_candidate_qualification_pending",
+          "label": "Post-train Qwen3-1.7B-Base for GSM8K",
+          "provenance": [
+            "v1_roster#/families/15/tasks/1"
+          ],
+          "replaces_task_id": null
+        }
+      ],
+      "legacy_candidate_pool": [],
+      "historical_only_ids": [],
+      "null_task_slots": 2,
+      "unresolved_selection_slots": 2,
+      "identity_mapping_pending_slots": 0,
+      "ambiguities": [
+        "The 2 additional place(s) have no selected exact IDs. Do not fill from reserves or first-N source ordering.",
+        "The v1.2 assessment explicitly supports the older HumanEval/GSM8K candidates. It leaves two additions unselected. BFCL is not retained. Exact source/runtime qualification remains pending."
+      ],
+      "selection_status": "inherited_candidates_plus_unselected_additions",
+      "mapped_task_ids": [
+        "qwen3-1.7b-base__humaneval",
+        "qwen3-1.7b-base__gsm8k"
+      ],
+      "task_id_slots": [
+        "qwen3-1.7b-base__humaneval",
+        "qwen3-1.7b-base__gsm8k",
+        null,
+        null
+      ]
+    },
+    {
+      "family_id": "weirdml",
+      "family_name": "WeirdML v3",
+      "allocation": 8,
+      "action": "New family; choose eight tasks from v3.",
+      "v1_family_slug": null,
+      "v1_count": 0,
+      "qualification_status": "pending",
+      "scientific_admitted": false,
+      "provenance": [
+        "suite#/families/14",
+        "selected_plan#/families/14"
+      ],
+      "known_candidates": [],
+      "legacy_candidate_pool": [],
+      "historical_only_ids": [],
+      "null_task_slots": 8,
+      "unresolved_selection_slots": 8,
+      "identity_mapping_pending_slots": 0,
+      "ambiguities": [
+        "New family. No exact task IDs are selected by the saved plan; all slots remain null."
+      ],
+      "selection_status": "unresolved_new_family_selection",
+      "mapped_task_ids": [],
+      "task_id_slots": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "family_id": "sakana",
+      "family_name": "Sakana ALE-Bench",
+      "allocation": 10,
+      "action": "Keep ten; verify effective limits and compute quotas.",
+      "v1_family_slug": "sakana-ale-bench",
+      "v1_count": 10,
+      "qualification_status": "pending",
+      "scientific_admitted": false,
+      "provenance": [
+        "suite#/families/15",
+        "selected_plan#/families/15",
+        "v1_roster#/families/7"
+      ],
+      "known_candidates": [
+        {
+          "task_id": "ahc007",
+          "selection_status": "inherited_v1_candidate_qualification_pending",
+          "label": null,
+          "provenance": [
+            "v1_roster#/families/7/tasks/0"
+          ],
+          "replaces_task_id": null
+        },
+        {
+          "task_id": "ahc008",
+          "selection_status": "inherited_v1_candidate_qualification_pending",
+          "label": null,
+          "provenance": [
+            "v1_roster#/families/7/tasks/1"
+          ],
+          "replaces_task_id": null
+        },
+        {
+          "task_id": "ahc009",
+          "selection_status": "inherited_v1_candidate_qualification_pending",
+          "label": null,
+          "provenance": [
+            "v1_roster#/families/7/tasks/2"
+          ],
+          "replaces_task_id": null
+        },
+        {
+          "task_id": "ahc011",
+          "selection_status": "inherited_v1_candidate_qualification_pending",
+          "label": null,
+          "provenance": [
+            "v1_roster#/families/7/tasks/3"
+          ],
+          "replaces_task_id": null
+        },
+        {
+          "task_id": "future-contest-2022-qual",
+          "selection_status": "inherited_v1_candidate_qualification_pending",
+          "label": null,
+          "provenance": [
+            "v1_roster#/families/7/tasks/4"
+          ],
+          "replaces_task_id": null
+        },
+        {
+          "task_id": "ahc016",
+          "selection_status": "inherited_v1_candidate_qualification_pending",
+          "label": null,
+          "provenance": [
+            "v1_roster#/families/7/tasks/5"
+          ],
+          "replaces_task_id": null
+        },
+        {
+          "task_id": "ahc026",
+          "selection_status": "inherited_v1_candidate_qualification_pending",
+          "label": null,
+          "provenance": [
+            "v1_roster#/families/7/tasks/6"
+          ],
+          "replaces_task_id": null
+        },
+        {
+          "task_id": "ahc031",
+          "selection_status": "inherited_v1_candidate_qualification_pending",
+          "label": null,
+          "provenance": [
+            "v1_roster#/families/7/tasks/7"
+          ],
+          "replaces_task_id": null
+        },
+        {
+          "task_id": "ahc039",
+          "selection_status": "inherited_v1_candidate_qualification_pending",
+          "label": null,
+          "provenance": [
+            "v1_roster#/families/7/tasks/8"
+          ],
+          "replaces_task_id": null
+        },
+        {
+          "task_id": "ahc046",
+          "selection_status": "inherited_v1_candidate_qualification_pending",
+          "label": null,
+          "provenance": [
+            "v1_roster#/families/7/tasks/9"
+          ],
+          "replaces_task_id": null
+        }
+      ],
+      "legacy_candidate_pool": [],
+      "historical_only_ids": [],
+      "null_task_slots": 0,
+      "unresolved_selection_slots": 0,
+      "identity_mapping_pending_slots": 0,
+      "ambiguities": [],
+      "selection_status": "inherited_cohort_qualification_pending",
+      "mapped_task_ids": [
+        "ahc007",
+        "ahc008",
+        "ahc009",
+        "ahc011",
+        "future-contest-2022-qual",
+        "ahc016",
+        "ahc026",
+        "ahc031",
+        "ahc039",
+        "ahc046"
+      ],
+      "task_id_slots": [
+        "ahc007",
+        "ahc008",
+        "ahc009",
+        "ahc011",
+        "future-contest-2022-qual",
+        "ahc016",
+        "ahc026",
+        "ahc031",
+        "ahc039",
+        "ahc046"
+      ]
+    },
+    {
+      "family_id": "yc",
+      "family_name": "YC-Bench",
+      "allocation": 4,
+      "action": "Add one task; preserve the one-year or bankruptcy endpoint.",
+      "v1_family_slug": "yc-bench",
+      "v1_count": 3,
+      "qualification_status": "pending",
+      "scientific_admitted": false,
+      "provenance": [
+        "suite#/families/16",
+        "selected_plan#/families/16",
+        "v1_roster#/families/17"
+      ],
+      "known_candidates": [
+        {
+          "task_id": "yc-bench.default.seed1",
+          "selection_status": "inherited_v1_candidate_qualification_pending",
+          "label": "Run the current one-year startup simulation, official seed 1",
+          "provenance": [
+            "v1_roster#/families/17/tasks/0"
+          ],
+          "replaces_task_id": null
+        },
+        {
+          "task_id": "yc-bench.default.seed2",
+          "selection_status": "inherited_v1_candidate_qualification_pending",
+          "label": "Run the current one-year startup simulation, official seed 2",
+          "provenance": [
+            "v1_roster#/families/17/tasks/1"
+          ],
+          "replaces_task_id": null
+        },
+        {
+          "task_id": "yc-bench.default.seed3",
+          "selection_status": "inherited_v1_candidate_qualification_pending",
+          "label": "Run the current one-year startup simulation, official seed 3",
+          "provenance": [
+            "v1_roster#/families/17/tasks/2"
+          ],
+          "replaces_task_id": null
+        }
+      ],
+      "legacy_candidate_pool": [],
+      "historical_only_ids": [],
+      "null_task_slots": 1,
+      "unresolved_selection_slots": 1,
+      "identity_mapping_pending_slots": 0,
+      "ambiguities": [
+        "The 1 additional place(s) have no selected exact IDs. Do not fill from reserves or first-N source ordering.",
+        "The three inherited tasks are the official default scenario at seeds 1, 2 and 3. Do not infer seed 4 for the fourth place."
+      ],
+      "selection_status": "inherited_candidates_plus_unselected_additions",
+      "mapped_task_ids": [
+        "yc-bench.default.seed1",
+        "yc-bench.default.seed2",
+        "yc-bench.default.seed3"
+      ],
+      "task_id_slots": [
+        "yc-bench.default.seed1",
+        "yc-bench.default.seed2",
+        "yc-bench.default.seed3",
+        null
+      ]
+    },
+    {
+      "family_id": "hle",
+      "family_name": "HLE Diamond",
+      "allocation": 20,
+      "action": "Diamond: random 10 reasoning + 10 knowledge, with existing subject exclusions.",
+      "v1_family_slug": "humanitys-last-exam",
+      "v1_count": 24,
+      "qualification_status": "pending",
+      "scientific_admitted": false,
+      "provenance": [
+        "suite#/families/17",
+        "selected_plan#/families/17",
+        "v1_roster#/families/2"
+      ],
+      "known_candidates": [],
+      "legacy_candidate_pool": [],
+      "historical_only_ids": [
+        "6724a047d917564737255345",
+        "6716afcdb8bcd4d88c34cd1d",
+        "6724f79792419e4380b5686a",
+        "67191b3025b51504c14dd870",
+        "66ffaae1068d942d32104650",
+        "670e92583011a5b80bfb6c60",
+        "66fcf48f6da31bbbe3d17e72",
+        "67169906187dc7ac4a7ae1a8",
+        "673818e39b3842b34824240d",
+        "67225b0a9e5897be2aec5257",
+        "677da0a433769e54d305f23c",
+        "671567cd87cd585dc9f613db",
+        "67249d57d91756473725533a",
+        "66eb894e6feeaea27b557782",
+        "6717dd24e8666ff79cdd82b0",
+        "671ef4bd6edc2afd6995897b",
+        "671eeb53c1a668a6c81e5993",
+        "671bc0c855449c636f4bbd36",
+        "670edc9dbddc0cfe673272c8",
+        "67364d570965d02f400bb6d2",
+        "66e9b2899cf8fcf41599246f",
+        "670fb58f2ca6bea76e9354a7",
+        "674761ffca5b554156dc9037",
+        "6721ad631648dda151c2a7ec"
+      ],
+      "null_task_slots": 20,
+      "unresolved_selection_slots": 20,
+      "identity_mapping_pending_slots": 0,
+      "ambiguities": [
+        "The old 24 HLE IDs are historical only. They are not automatically HLE Diamond candidates or members. Freeze eligible Diamond source, exclusions, random seed and exact 10 reasoning + 10 knowledge IDs before mapping."
+      ],
+      "selection_status": "unresolved_diamond_selection",
+      "sampling_policy": {
+        "reasoning": 10,
+        "knowledge": 10,
+        "method": "random",
+        "subject_exclusions": "existing subject exclusions retained",
+        "seed": null,
+        "selected_id_list": null
+      },
+      "mapped_task_ids": [],
+      "task_id_slots": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "family_id": "gpqa",
+      "family_name": "GPQA Diamond",
+      "allocation": 12,
+      "action": "Keep 12 Diamond controls; select exact IDs.",
+      "v1_family_slug": "gpqa-diamond",
+      "v1_count": 28,
+      "qualification_status": "pending",
+      "scientific_admitted": false,
+      "provenance": [
+        "suite#/families/18",
+        "selected_plan#/families/18",
+        "v1_roster#/families/1"
+      ],
+      "known_candidates": [],
+      "legacy_candidate_pool": [
+        {
+          "task_id": "recuyeuT5rQ6qDt8F",
+          "label": "Chemistry",
+          "provenance": [
+            "v1_roster#/families/1/tasks/0"
+          ]
+        },
+        {
+          "task_id": "rec7C06XOB2h298ue",
+          "label": "Chemistry",
+          "provenance": [
+            "v1_roster#/families/1/tasks/1"
+          ]
+        },
+        {
+          "task_id": "recOkA2zsy4GSMD9R",
+          "label": "Chemistry",
+          "provenance": [
+            "v1_roster#/families/1/tasks/2"
+          ]
+        },
+        {
+          "task_id": "recZ13cwgDQf9jRd9",
+          "label": "Chemistry",
+          "provenance": [
+            "v1_roster#/families/1/tasks/3"
+          ]
+        },
+        {
+          "task_id": "recJJcOHhFeSaRpl4",
+          "label": "Chemistry",
+          "provenance": [
+            "v1_roster#/families/1/tasks/4"
+          ]
+        },
+        {
+          "task_id": "rec5rjeLsEq5Fg7Oj",
+          "label": "Chemistry",
+          "provenance": [
+            "v1_roster#/families/1/tasks/5"
+          ]
+        },
+        {
+          "task_id": "recFaL6j8UMhutXrc",
+          "label": "Chemistry",
+          "provenance": [
+            "v1_roster#/families/1/tasks/6"
+          ]
+        },
+        {
+          "task_id": "reca44yABeO2fx7UB",
+          "label": "Chemistry",
+          "provenance": [
+            "v1_roster#/families/1/tasks/7"
+          ]
+        },
+        {
+          "task_id": "rec2fsnzUuvNtUYK8",
+          "label": "Chemistry",
+          "provenance": [
+            "v1_roster#/families/1/tasks/8"
+          ]
+        },
+        {
+          "task_id": "receo3UUzRvWCqyfA",
+          "label": "Chemistry",
+          "provenance": [
+            "v1_roster#/families/1/tasks/9"
+          ]
+        },
+        {
+          "task_id": "rec8nshandHARTkrg",
+          "label": "Chemistry",
+          "provenance": [
+            "v1_roster#/families/1/tasks/10"
+          ]
+        },
+        {
+          "task_id": "recVEXvhYxAhELVqB",
+          "label": "Chemistry",
+          "provenance": [
+            "v1_roster#/families/1/tasks/11"
+          ]
+        },
+        {
+          "task_id": "recK9F5aqdaybl8bb",
+          "label": "Chemistry",
+          "provenance": [
+            "v1_roster#/families/1/tasks/12"
+          ]
+        },
+        {
+          "task_id": "recAAJoHMW45Lv5je",
+          "label": "Chemistry",
+          "provenance": [
+            "v1_roster#/families/1/tasks/13"
+          ]
+        },
+        {
+          "task_id": "recKv4hFyNpViUXnL",
+          "label": "Physics",
+          "provenance": [
+            "v1_roster#/families/1/tasks/14"
+          ]
+        },
+        {
+          "task_id": "recGFKDUd8qgz81Zl",
+          "label": "Physics",
+          "provenance": [
+            "v1_roster#/families/1/tasks/15"
+          ]
+        },
+        {
+          "task_id": "rec0yTRmO1o1xCA6H",
+          "label": "Physics",
+          "provenance": [
+            "v1_roster#/families/1/tasks/16"
+          ]
+        },
+        {
+          "task_id": "recV1nqYQvpII94oC",
+          "label": "Physics",
+          "provenance": [
+            "v1_roster#/families/1/tasks/17"
+          ]
+        },
+        {
+          "task_id": "recPL4ZPpVYxgMu57",
+          "label": "Physics",
+          "provenance": [
+            "v1_roster#/families/1/tasks/18"
+          ]
+        },
+        {
+          "task_id": "recpki12iG9RUGrz9",
+          "label": "Physics",
+          "provenance": [
+            "v1_roster#/families/1/tasks/19"
+          ]
+        },
+        {
+          "task_id": "reczjcMtrB1YGS2fO",
+          "label": "Physics",
+          "provenance": [
+            "v1_roster#/families/1/tasks/20"
+          ]
+        },
+        {
+          "task_id": "recnjViFrqlZNL3fY",
+          "label": "Physics",
+          "provenance": [
+            "v1_roster#/families/1/tasks/21"
+          ]
+        },
+        {
+          "task_id": "rec5eA17Qr1ucNLUf",
+          "label": "Physics",
+          "provenance": [
+            "v1_roster#/families/1/tasks/22"
+          ]
+        },
+        {
+          "task_id": "recPzW1WqRnPs57D6",
+          "label": "Physics",
+          "provenance": [
+            "v1_roster#/families/1/tasks/23"
+          ]
+        },
+        {
+          "task_id": "recIj8lR4tuDgrHou",
+          "label": "Physics",
+          "provenance": [
+            "v1_roster#/families/1/tasks/24"
+          ]
+        },
+        {
+          "task_id": "rec8y3ZrBOcLgNEkE",
+          "label": "Physics",
+          "provenance": [
+            "v1_roster#/families/1/tasks/25"
+          ]
+        },
+        {
+          "task_id": "rec260hNUCEj109Dj",
+          "label": "Physics",
+          "provenance": [
+            "v1_roster#/families/1/tasks/26"
+          ]
+        },
+        {
+          "task_id": "recS48OsU6kVadBPW",
+          "label": "Physics",
+          "provenance": [
+            "v1_roster#/families/1/tasks/27"
+          ]
+        }
+      ],
+      "historical_only_ids": [],
+      "null_task_slots": 12,
+      "unresolved_selection_slots": 12,
+      "identity_mapping_pending_slots": 0,
+      "ambiguities": [
+        "The allocation shrank from 28 to 12; no exact retained subset is selected. All 12 task slots remain null. The earlier cohort is a candidate pool only.",
+        "The old pool is 14 chemistry + 14 physics. No 12-ID subset or randomization rule is recorded; preserving the domain mix still requires a selection decision."
+      ],
+      "selection_status": "unresolved_reduced_subset_selection",
+      "mapped_task_ids": [],
+      "task_id_slots": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "family_id": "metr",
+      "family_name": "METR public tasks",
+      "allocation": 2,
+      "action": "Keep Payments and Cowthello; recalibrate on the new models.",
+      "v1_family_slug": "metr-public-tasks",
+      "v1_count": 2,
+      "qualification_status": "pending",
+      "scientific_admitted": false,
+      "provenance": [
+        "suite#/families/21",
+        "selected_plan#/families/21",
+        "v1_roster#/families/16"
+      ],
+      "known_candidates": [
+        {
+          "task_id": "cowthello/main",
+          "selection_status": "inherited_v1_candidate_qualification_pending",
+          "label": "Build an efficient AI for the novel Cowthello board game",
+          "provenance": [
+            "v1_roster#/families/16/tasks/0"
+          ],
+          "replaces_task_id": null
+        },
+        {
+          "task_id": "complex_payments/payment_logic_only",
+          "selection_status": "inherited_v1_candidate_qualification_pending",
+          "label": "Implement duplicate-payment detection across currencies and time zones",
+          "provenance": [
+            "v1_roster#/families/16/tasks/1"
+          ],
+          "replaces_task_id": null
+        }
+      ],
+      "legacy_candidate_pool": [],
+      "historical_only_ids": [],
+      "null_task_slots": 0,
+      "unresolved_selection_slots": 0,
+      "identity_mapping_pending_slots": 0,
+      "ambiguities": [],
+      "selection_status": "inherited_cohort_qualification_pending",
+      "mapped_task_ids": [
+        "cowthello/main",
+        "complex_payments/payment_logic_only"
+      ],
+      "task_id_slots": [
+        "cowthello/main",
+        "complex_payments/payment_logic_only"
+      ]
+    }
+  ]
+}

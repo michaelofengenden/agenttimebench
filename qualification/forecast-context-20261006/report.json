@@ -1,0 +1,45 @@
+{
+  "created_at": "2026-10-06T11:29:24.261497+00:00",
+  "offline": true,
+  "binary_sha256": "387a5c5dcdbb815085edf0baf79591f9d8894efe922bceaf3d75b1b08055229d",
+  "variants": [
+    {
+      "variant": "baseline",
+      "case": "/private/tmp/agenttime-forecast-context-probe-20261006-_67q7h_v/baseline-ar4w2hvo",
+      "exit_code": 0,
+      "message_requests": 1,
+      "roles": [
+        "user",
+        "system"
+      ],
+      "environment_note_present": true,
+      "macos_present": true,
+      "tools": [],
+      "effort": {
+        "effort": "max"
+      },
+      "model": "claude-opus-5-5",
+      "version": "2.1.280",
+      "stderr_tail": ""
+    },
+    {
+      "variant": "attachments_disabled",
+      "case": "/private/tmp/agenttime-forecast-context-probe-20261006-_67q7h_v/attachments_disabled-wwatfhrn",
+      "exit_code": 0,
+      "message_requests": 1,
+      "roles": [
+        "user",
+        "system"
+      ],
+      "environment_note_present": true,
+      "macos_present": true,
+      "tools": [],
+      "effort": {
+        "effort": "max"
+      },
+      "model": "claude-opus-5-5",
+      "version": "2.1.280",
+      "stderr_tail": ""
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+[
+  {
+    "original_capture": "/private/tmp/agenttime-forecast-context-probe-20261006-_67q7h_v/baseline-ar4w2hvo",
+    "archived_capture": "synthetic-captures/baseline-ar4w2hvo"
+  },
+  {
+    "original_capture": "/private/tmp/agenttime-forecast-context-probe-20261006-_67q7h_v/attachments_disabled-wwatfhrn",
+    "archived_capture": "synthetic-captures/attachments_disabled-wwatfhrn"
+  },
+  {
+    "original_capture": "/private/tmp/agenttime-forecast-context-probe-20261006-_67q7h_v/image_archive_capture-fureizmq",
+    "archived_capture": "synthetic-captures/image_archive_capture-fureizmq"
+  },
+  {
+    "original_capture": "/private/tmp/agenttime-forecast-context-probe-20261006-_67q7h_v/retry_zero-9g7t_m4y",
+    "archived_capture": "synthetic-captures/retry_zero-9g7t_m4y"
+  },
+  {
+    "original_capture": "/private/tmp/agenttime-forecast-context-probe-20261006-_67q7h_v/bare_subscription-a15vw6ps",
+    "archived_capture": "synthetic-captures/bare_subscription-a15vw6ps"
+  }
+]

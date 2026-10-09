@@ -1,0 +1,1 @@
+{"message": {"content": [{"text": "Return only the exact synthetic marker requested in the previous user message, without using any tools.", "type": "text"}], "role": "user"}, "type": "user"}

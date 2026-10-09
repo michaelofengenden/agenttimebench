@@ -1,0 +1,548 @@
+{
+  "date": "2026-09-30",
+  "status": "Selected direction; qualification pending",
+  "tasks": 220,
+  "included_families": 20,
+  "families": [
+    {
+      "id": "terminal",
+      "name": "Terminal-Bench 4.0",
+      "v1": 16,
+      "count": 16,
+      "sector": "Engineering",
+      "coverage": "Broad terminal work",
+      "action": "Replace the two flagged tasks."
+    },
+    {
+      "id": "deepswe",
+      "name": "DeepSWE",
+      "v1": 12,
+      "count": 14,
+      "sector": "Engineering",
+      "coverage": "Repository fixes",
+      "action": "Replace OPA; select two additional hard tasks."
+    },
+    {
+      "id": "program",
+      "name": "ProgramBench",
+      "v1": 14,
+      "count": 18,
+      "sector": "Engineering",
+      "coverage": "Software reimplementation",
+      "action": "8 retained tasks + 10 Hard candidates."
+    },
+    {
+      "id": "osworld",
+      "name": "OSWorld",
+      "v1": 16,
+      "count": 18,
+      "sector": "Tools and apps",
+      "coverage": "Desktop work",
+      "action": "Select two additions; restore the missing video check."
+    },
+    {
+      "id": "appworld",
+      "name": "AppWorld",
+      "v1": 18,
+      "count": 14,
+      "sector": "Tools and apps",
+      "coverage": "Work across apps",
+      "action": "Reduce the sample while retaining app diversity."
+    },
+    {
+      "id": "pptarena",
+      "name": "PPTArena",
+      "v1": 10,
+      "count": 10,
+      "sector": "Tools and apps",
+      "coverage": "Presentation production",
+      "action": "Keep a fixed judging protocol."
+    },
+    {
+      "id": "ale",
+      "name": "Agents’ Last Exam",
+      "v1": 12,
+      "count": 12,
+      "sector": "Reasoning",
+      "coverage": "Difficult exam and tool tasks",
+      "action": "Retain and qualify the task contracts."
+    },
+    {
+      "id": "tua",
+      "name": "TUA-Bench",
+      "v1": 12,
+      "count": 10,
+      "sector": "Tools and apps",
+      "coverage": "Tool use",
+      "action": "Choose the retained ten task IDs."
+    },
+    {
+      "id": "assistant",
+      "name": "AssistantBench",
+      "v1": 18,
+      "count": 8,
+      "sector": "Tools and apps",
+      "coverage": "Practical web research",
+      "action": "8 places selected; the qualification decision is still open."
+    },
+    {
+      "id": "browsecomp",
+      "name": "BrowseComp",
+      "v1": 0,
+      "count": 12,
+      "sector": "Tools and apps",
+      "coverage": "Difficult web research",
+      "action": "New family; select and audit all 12 task IDs."
+    },
+    {
+      "id": "tau",
+      "name": "τ-bench, text",
+      "v1": 0,
+      "count": 12,
+      "sector": "Tools and apps",
+      "coverage": "Stateful service workflows",
+      "action": "New text-only family; select and audit all 12 task IDs."
+    },
+    {
+      "id": "core",
+      "name": "CORE-Bench Hard",
+      "v1": 12,
+      "count": 12,
+      "sector": "Research and ML",
+      "coverage": "Scientific reproducibility",
+      "action": "Keep Hard: 4 mainline + 8 out-of-distribution; audit still open."
+    },
+    {
+      "id": "paper",
+      "name": "PaperBench",
+      "v1": 3,
+      "count": 4,
+      "sector": "Research and ML",
+      "coverage": "Research implementation",
+      "action": "Add one task; remove competing work-duration wording."
+    },
+    {
+      "id": "posttrain",
+      "name": "PostTrainBench",
+      "v1": 2,
+      "count": 4,
+      "sector": "Research and ML",
+      "coverage": "Model training",
+      "action": "Add two tasks; leave the untimed objective open-ended."
+    },
+    {
+      "id": "weirdml",
+      "name": "WeirdML v3",
+      "v1": 0,
+      "count": 8,
+      "sector": "Research and ML",
+      "coverage": "Unusual ML problems",
+      "action": "New family; choose eight tasks from v3."
+    },
+    {
+      "id": "sakana",
+      "name": "Sakana ALE-Bench",
+      "v1": 10,
+      "count": 10,
+      "sector": "Research and ML",
+      "coverage": "Algorithm optimisation",
+      "action": "Keep ten; verify effective limits and compute quotas."
+    },
+    {
+      "id": "yc",
+      "name": "YC-Bench",
+      "v1": 3,
+      "count": 4,
+      "sector": "Business simulation",
+      "coverage": "Startup decisions",
+      "action": "Add one task; preserve the one-year or bankruptcy endpoint."
+    },
+    {
+      "id": "hle",
+      "name": "HLE Diamond",
+      "v1": 24,
+      "count": 20,
+      "sector": "Reasoning",
+      "coverage": "Hard closed-book questions",
+      "action": "Diamond: random 10 reasoning + 10 knowledge, with existing subject exclusions."
+    },
+    {
+      "id": "gpqa",
+      "name": "GPQA Diamond",
+      "v1": 28,
+      "count": 12,
+      "sector": "Reasoning",
+      "coverage": "Scientific question answering",
+      "action": "Keep 12 Diamond controls; select exact IDs."
+    },
+    {
+      "id": "wild",
+      "name": "WildClawBench",
+      "v1": 10,
+      "count": 0,
+      "sector": "Outside this mix",
+      "coverage": "Cybersecurity",
+      "action": "Hold outside the main study."
+    },
+    {
+      "id": "simpleqa",
+      "name": "SimpleQA Verified",
+      "v1": 0,
+      "count": 0,
+      "sector": "Outside this mix",
+      "coverage": "Short factuality checks",
+      "action": "Your selected count is zero."
+    },
+    {
+      "id": "metr",
+      "name": "METR public tasks",
+      "v1": 2,
+      "count": 2,
+      "sector": "Engineering",
+      "coverage": "Public long-task anchors",
+      "action": "Keep Payments and Cowthello; recalibrate on the new models."
+    }
+  ],
+  "quality": {
+    "assistant-check": "undecided",
+    "atlas": "include",
+    "broot": "include",
+    "core-check": "undecided",
+    "delta": "include",
+    "doxygen": "include",
+    "ffmpeg": "pilot",
+    "hle-sampling": "balanced",
+    "jsonschema": "include",
+    "lazygit": "include",
+    "miller": "include",
+    "nextjs": "replace",
+    "opa": "replace",
+    "parity": "replace",
+    "php": "pilot",
+    "program-strategy": "swap",
+    "rumdl": "include",
+    "solar": "include",
+    "typst": "include",
+    "verifier-fixes": "qualify",
+    "wild-hold": "hold"
+  },
+  "user_notes": {
+    "calibration": "we run each one once, and run middle one time and first!",
+    "limits": "we should remove agent-work deadlines, countdown resources and any cielinings that include. it seems we're already dropping wildclaw though",
+    "quality": "",
+    "runner": "let's use harbor but we must be diligent in how we measure tasks.",
+    "suite": "",
+    "wording": "keep my duration prompt. we want to see if it can work for the entire duration."
+  },
+  "models": [
+    {
+      "id": "claude-opus-5-5",
+      "name": "Claude Opus 5.5",
+      "setting": "Max effort proposed",
+      "route": "Claude Code / Harbor adapter",
+      "source": "https://platform.claude.com/docs/en/models/opus-5-5/overview",
+      "source_label": "Official model docs",
+      "note": "The prior review used Opus 5.5. Qualify the benchmark adapter, image tools and completion timing separately."
+    },
+    {
+      "id": "gpt-6.1-sol",
+      "name": "GPT-6.1 Sol",
+      "setting": "Max effort proposed",
+      "route": "Codex / Harbor adapter",
+      "source": "https://developers.openai.com/api/docs/models/gpt-6.1-sol",
+      "source_label": "Official model docs",
+      "note": "Available in the local Codex model catalog. Qualify the selected runner; a direct API tool route requires Responses."
+    },
+    {
+      "id": "mimo-v2.6-pro",
+      "name": "MiMo-V2.6-Pro",
+      "setting": "Thinking configuration to pin",
+      "route": "MiMo API / Harbor-compatible adapter",
+      "source": "https://mimo.xiaomi.com/zh/blog/mimo-v2-6-tool-call-repetition",
+      "source_label": "Official revision notice",
+      "note": "Use the current MOPD revision. Xiaomi updated the API behind the same model ID; record revision evidence and run dates."
+    }
+  ],
+  "programbench": {
+    "status": "Candidate proposal, not a qualified or launched roster",
+    "user_direction": "Keep 18; find six more hard tasks; FFmpeg and PHP remain pilot-only.",
+    "metadata_commit": "963063c9271cc40fa179977356782ea4582e0b0c",
+    "source_table": "https://programbench.com/tasks/",
+    "public_scores_checked": "2026-09-30",
+    "method": "Use the explicitly Hard-labelled pool; exclude all v1 tasks, four already-proposed additions and two pilot-only tasks. Prefer low best public scores and distinct behavior. The first five choices follow ascending best public score; choose Atlas instead of Gittype for database-schema coverage.",
+    "score_caveat": "Best public score is the best displayed benchmark score across published runs. It is a screening signal, not an AgentTime v1 measurement or an estimate of natural runtime. Lower scores alone do not establish grader validity.",
+    "pool_check": {
+      "metadata_files": 201,
+      "public_task_rows": 200,
+      "unpublished_fixture": "testorg__calculator.abc1234",
+      "hard_labelled": 18,
+      "eligible_additions": 11
+    },
+    "retained_v1": [
+      "cweill__gotests.2a672c5",
+      "nuta__nsh.bdd0702",
+      "mookid__diffr.2152742",
+      "ninja-build__ninja.cc60300",
+      "luajit__luajit.a553b3d",
+      "facebook__zstd.1168da0",
+      "lfos__calcurse.49180d5",
+      "tomarrell__wrapcheck.c058da1"
+    ],
+    "removed_v1": [
+      "noborus__trdsql.d8c5ff6",
+      "rcoh__angle-grinder.9c2fc88",
+      "stathissideris__ditaa.f2286c4",
+      "parcel-bundler__lightningcss.aa2ed1e",
+      "kaushiksrini__parqeye.8072121",
+      "o2sh__onefetch.e5958ce"
+    ],
+    "already_proposed_additions": [
+      "doxygen__doxygen.966d98e",
+      "johnkerl__miller.8d85b46",
+      "paradigmxyz__solar.5190d0e",
+      "typst__typst.88356d0"
+    ],
+    "new_additions": [
+      {
+        "id": "stranger6667__jsonschema.d52e881",
+        "repository": "Stranger6667/jsonschema",
+        "commit": "d52e88173e471d4b15404e18e4dbd815ba4b1540",
+        "language": "rs",
+        "difficulty": "hard",
+        "public_tests": 2932,
+        "best_public_score": 57.1,
+        "choice_id": "jsonschema",
+        "name": "JSONSchema",
+        "coverage": "Schema validation",
+        "reason": "Adds nested validation, references and error handling for structured data.",
+        "metadata_url": "https://github.com/facebookresearch/ProgramBench/blob/963063c9271cc40fa179977356782ea4582e0b0c/src/programbench/data/tasks/stranger6667__jsonschema.d52e881/task.yaml",
+        "task_url": "https://programbench.com/task/stranger6667__jsonschema.d52e881/",
+        "qualification_status": "pending",
+        "agenttime_v1_attempts": 0
+      },
+      {
+        "id": "rvben__rumdl.2d75c4d",
+        "repository": "rvben/rumdl",
+        "commit": "2d75c4d3569bd4061e4621c25e527f106ba65905",
+        "language": "rs",
+        "difficulty": "hard",
+        "public_tests": 3322,
+        "best_public_score": 64.7,
+        "choice_id": "rumdl",
+        "name": "rumdl",
+        "coverage": "Markdown linting and formatting",
+        "reason": "Adds interactions between document rules, diagnostics and formatting.",
+        "metadata_url": "https://github.com/facebookresearch/ProgramBench/blob/963063c9271cc40fa179977356782ea4582e0b0c/src/programbench/data/tasks/rvben__rumdl.2d75c4d/task.yaml",
+        "task_url": "https://programbench.com/task/rvben__rumdl.2d75c4d/",
+        "qualification_status": "pending",
+        "agenttime_v1_attempts": 0
+      },
+      {
+        "id": "jesseduffield__lazygit.1d0db51",
+        "repository": "jesseduffield/lazygit",
+        "commit": "1d0db51caf3d280a53f027ef049355fc9e0c57e8",
+        "language": "go",
+        "difficulty": "hard",
+        "public_tests": 855,
+        "best_public_score": 66.2,
+        "choice_id": "lazygit",
+        "name": "LazyGit",
+        "coverage": "Interactive Git workflows",
+        "reason": "Adds repository state and terminal-interface behavior.",
+        "metadata_url": "https://github.com/facebookresearch/ProgramBench/blob/963063c9271cc40fa179977356782ea4582e0b0c/src/programbench/data/tasks/jesseduffield__lazygit.1d0db51/task.yaml",
+        "task_url": "https://programbench.com/task/jesseduffield__lazygit.1d0db51/",
+        "qualification_status": "pending",
+        "agenttime_v1_attempts": 0
+      },
+      {
+        "id": "dandavison__delta.acd758f",
+        "repository": "dandavison/delta",
+        "commit": "acd758f7a08df6c2ac5542a2c5a4034c664a9ed8",
+        "language": "rs",
+        "difficulty": "hard",
+        "public_tests": 949,
+        "best_public_score": 66.5,
+        "choice_id": "delta",
+        "name": "Delta",
+        "coverage": "Diff rendering and syntax highlighting",
+        "reason": "Adds display-sensitive handling of source changes and terminal output.",
+        "metadata_url": "https://github.com/facebookresearch/ProgramBench/blob/963063c9271cc40fa179977356782ea4582e0b0c/src/programbench/data/tasks/dandavison__delta.acd758f/task.yaml",
+        "task_url": "https://programbench.com/task/dandavison__delta.acd758f/",
+        "qualification_status": "pending",
+        "agenttime_v1_attempts": 0
+      },
+      {
+        "id": "canop__broot.d6c798e",
+        "repository": "Canop/broot",
+        "commit": "d6c798edbd136dbe5b67566ad74a7daa97e8ae49",
+        "language": "rs",
+        "difficulty": "hard",
+        "public_tests": 538,
+        "best_public_score": 74.3,
+        "choice_id": "broot",
+        "name": "Broot",
+        "coverage": "Filesystem navigation and search",
+        "reason": "Adds directory traversal, search and terminal navigation.",
+        "metadata_url": "https://github.com/facebookresearch/ProgramBench/blob/963063c9271cc40fa179977356782ea4582e0b0c/src/programbench/data/tasks/canop__broot.d6c798e/task.yaml",
+        "task_url": "https://programbench.com/task/canop__broot.d6c798e/",
+        "qualification_status": "pending",
+        "agenttime_v1_attempts": 0
+      },
+      {
+        "id": "ariga__atlas.6d81150",
+        "repository": "ariga/atlas",
+        "commit": "6d81150f68d8477721af321ac3c70a4011ee2d64",
+        "language": "go",
+        "difficulty": "hard",
+        "public_tests": 1318,
+        "best_public_score": 82.5,
+        "choice_id": "atlas",
+        "name": "Atlas",
+        "coverage": "Database schemas and migrations",
+        "reason": "Adds database-schema behavior, broadening the existing tool and compiler sample.",
+        "metadata_url": "https://github.com/facebookresearch/ProgramBench/blob/963063c9271cc40fa179977356782ea4582e0b0c/src/programbench/data/tasks/ariga__atlas.6d81150/task.yaml",
+        "task_url": "https://programbench.com/task/ariga__atlas.6d81150/",
+        "qualification_status": "pending",
+        "agenttime_v1_attempts": 0
+      }
+    ],
+    "pilot_only": [
+      "ffmpeg__ffmpeg.360a402",
+      "php__php-src.c891263"
+    ],
+    "programbench_roster": [
+      "cweill__gotests.2a672c5",
+      "nuta__nsh.bdd0702",
+      "mookid__diffr.2152742",
+      "ninja-build__ninja.cc60300",
+      "luajit__luajit.a553b3d",
+      "facebook__zstd.1168da0",
+      "lfos__calcurse.49180d5",
+      "tomarrell__wrapcheck.c058da1",
+      "doxygen__doxygen.966d98e",
+      "johnkerl__miller.8d85b46",
+      "paradigmxyz__solar.5190d0e",
+      "typst__typst.88356d0",
+      "stranger6667__jsonschema.d52e881",
+      "rvben__rumdl.2d75c4d",
+      "jesseduffield__lazygit.1d0db51",
+      "dandavison__delta.acd758f",
+      "canop__broot.d6c798e",
+      "ariga__atlas.6d81150"
+    ],
+    "programbench_count": 18,
+    "suite_count": 220,
+    "suite_families": 20,
+    "remaining_eligible": [
+      {
+        "id": "unhappychoice__gittype.34b72d0",
+        "repository": "unhappychoice/gittype",
+        "commit": "34b72d0ede7b1398c982523ab5f4b542cc8fe2f9",
+        "language": "rs",
+        "difficulty": "hard",
+        "public_tests": 724,
+        "best_public_score": 81.1
+      },
+      {
+        "id": "stacked-git__stgit.430027d",
+        "repository": "stacked-git/stgit",
+        "commit": "430027d67dda84b21fb892660cdbcdaed3bf2a08",
+        "language": "rs",
+        "difficulty": "hard",
+        "public_tests": 1488,
+        "best_public_score": 82.8
+      },
+      {
+        "id": "quinn-rs__quinn.bb359cc",
+        "repository": "quinn-rs/quinn",
+        "commit": "bb359ccd7dfbc18b472bcb61e6800be6dc886264",
+        "language": "rs",
+        "difficulty": "hard",
+        "public_tests": 522,
+        "best_public_score": 88.1
+      },
+      {
+        "id": "skeema__skeema.6a76243",
+        "repository": "skeema/skeema",
+        "commit": "6a76243273486259e7add52bc9f6dce236a2f98a",
+        "language": "go",
+        "difficulty": "hard",
+        "public_tests": 1708,
+        "best_public_score": 88.3
+      },
+      {
+        "id": "hairyhenderson__gomplate.05eb3aa",
+        "repository": "hairyhenderson/gomplate",
+        "commit": "05eb3aa726779c2b00abca9cae8d0300d318e566",
+        "language": "go",
+        "difficulty": "hard",
+        "public_tests": 2926,
+        "best_public_score": 91.2
+      }
+    ],
+    "timing_user_clarification": "the M run is the calibrated untimed run",
+    "timing_design": {
+      "attempts_per_agent_task": 3,
+      "first_attempt": "One untimed attempt; serves as both calibration and control.",
+      "M": "Per-task arithmetic mean of valid voluntary submission times, one per agent and equal agent weights; shared by all agents.",
+      "additional_attempts": [
+        "Fresh full-duration request at M/4",
+        "Fresh full-duration request at 4M"
+      ],
+      "separate_timed_M_attempt": false,
+      "illustrative_agents": 3,
+      "illustrative_study_runs": 1980,
+      "illustrative_untimed_controls": 660,
+      "illustrative_timed_runs": 1320,
+      "display_rule": "Plot each control at its observed duration; do not label it as an enforced M-duration attempt.",
+      "analysis_limit": "The control also determines the timed budgets, so calibration is not independent of the evaluated control. There is no timed-M comparison; baseline-versus-timed differences also change the prompt.",
+      "still_open": [
+        "Hidden cutoff and censored/invalid control handling",
+        "Order of the two timed attempts",
+        "Short-control timing",
+        "Model versions and subagent policy"
+      ]
+    }
+  },
+  "timing": {
+    "attempts_per_agent_task": 3,
+    "first_attempt": "One untimed attempt; serves as both calibration and control.",
+    "M": "Per-task arithmetic mean of valid voluntary submission times, one per agent and equal agent weights; shared by all agents.",
+    "additional_attempts": [
+      "Fresh full-duration request at M/4",
+      "Fresh full-duration request at 4M"
+    ],
+    "separate_timed_M_attempt": false,
+    "illustrative_agents": 3,
+    "illustrative_study_runs": 1980,
+    "illustrative_untimed_controls": 660,
+    "illustrative_timed_runs": 1320,
+    "display_rule": "Plot each control at its observed duration; do not label it as an enforced M-duration attempt.",
+    "analysis_limit": "The control also determines the timed budgets, so calibration is not independent of the evaluated control. There is no timed-M comparison; baseline-versus-timed differences also change the prompt.",
+    "still_open": [
+      "Hidden cutoff and censored/invalid control handling",
+      "Order of the two timed attempts",
+      "Short-control timing",
+      "Model versions and subagent policy"
+    ]
+  },
+  "pending": [
+    "Finish task IDs and verifier checks, including AssistantBench and CORE. The 220 places are an allocation, not a fully qualified roster.",
+    "Freeze the hidden backstop, invalid or censored control handling, and timing for very short controls before collecting M.",
+    "Pin model settings, provider routes, tool access and subagent policy. Qualify image tasks and background-work completion for every model.",
+    "Choose the timed-run order and the relation between the duration request and enforced stopping. Counterbalancing short/long order is recommended, not yet selected."
+  ],
+  "source": "Verified browser preferences plus explicit chat clarifications; model docs checked 2026-09-30.",
+  "runs": {
+    "controls": 660,
+    "timed": 1320,
+    "total": 1980,
+    "condition": "All 220 tasks qualify for all three models."
+  },
+  "prompt": {
+    "untimed": "Original task objective without any duration-following request.",
+    "timed": "Please work on this task for a full {duration}. Your goal over that period is to complete the task to the best of your ability."
+  },
+  "operations": "Page and plan only. No benchmark runs launched by this update.",
+  "markdown": "# AgentTime v2: selected plan\n\n30 September 2026. Qualification pending.\n\n220 tasks across 20 families. These are selected allocations; exact IDs and qualification remain incomplete.\n\n## Task mix\n\n| Benchmark | v1 | v2 | Next step |\n| --- | ---: | ---: | --- |\n| Terminal-Bench 4.0 | 16 | 16 | Replace the two flagged tasks. |\n| DeepSWE | 12 | 14 | Replace OPA; select two additional hard tasks. |\n| ProgramBench | 14 | 18 | 8 retained tasks + 10 Hard candidates. |\n| OSWorld | 16 | 18 | Select two additions; restore the missing video check. |\n| AppWorld | 18 | 14 | Reduce the sample while retaining app diversity. |\n| PPTArena | 10 | 10 | Keep a fixed judging protocol. |\n| Agents’ Last Exam | 12 | 12 | Retain and qualify the task contracts. |\n| TUA-Bench | 12 | 10 | Choose the retained ten task IDs. |\n| AssistantBench | 18 | 8 | 8 places selected; the qualification decision is still open. |\n| BrowseComp | 0 | 12 | New family; select and audit all 12 task IDs. |\n| τ-bench, text | 0 | 12 | New text-only family; select and audit all 12 task IDs. |\n| CORE-Bench Hard | 12 | 12 | Keep Hard: 4 mainline + 8 out-of-distribution; audit still open. |\n| PaperBench | 3 | 4 | Add one task; remove competing work-duration wording. |\n| PostTrainBench | 2 | 4 | Add two tasks; leave the untimed objective open-ended. |\n| WeirdML v3 | 0 | 8 | New family; choose eight tasks from v3. |\n| Sakana ALE-Bench | 10 | 10 | Keep ten; verify effective limits and compute quotas. |\n| YC-Bench | 3 | 4 | Add one task; preserve the one-year or bankruptcy endpoint. |\n| HLE Diamond | 24 | 20 | Diamond: random 10 reasoning + 10 knowledge, with existing subject exclusions. |\n| GPQA Diamond | 28 | 12 | Keep 12 Diamond controls; select exact IDs. |\n| WildClawBench | 10 | 0 | Hold outside the main study. |\n| SimpleQA Verified | 0 | 0 | Your selected count is zero. |\n| METR public tasks | 2 | 2 | Keep Payments and Cowthello; recalibrate on the new models. |\n\n## Task quality\n\n- batched-eval-parity → mp-checkpoint-consolidation\n- nextjs-performance → hof-topology-interpenetration\n- opa-template-string-reconstruction → tomlkit-toml-table-converters\n- Fix and qualify retained-task verifiers. New candidates are not yet natively qualified.\n\nProgramBench: 8 retained Medium tasks and 10 proposed Hard additions. FFmpeg and PHP are pilot-only.\n\nSelected ProgramBench IDs:\n\n- cweill__gotests.2a672c5\n- nuta__nsh.bdd0702\n- mookid__diffr.2152742\n- ninja-build__ninja.cc60300\n- luajit__luajit.a553b3d\n- facebook__zstd.1168da0\n- lfos__calcurse.49180d5\n- tomarrell__wrapcheck.c058da1\n- doxygen__doxygen.966d98e\n- johnkerl__miller.8d85b46\n- paradigmxyz__solar.5190d0e\n- typst__typst.88356d0\n- stranger6667__jsonschema.d52e881\n- rvben__rumdl.2d75c4d\n- jesseduffield__lazygit.1d0db51\n- dandavison__delta.acd758f\n- canop__broot.d6c798e\n- ariga__atlas.6d81150\n\nRemoved from the v2 ProgramBench sample (preserve v1 outcomes):\n\n- noborus__trdsql.d8c5ff6\n- rcoh__angle-grinder.9c2fc88\n- stathissideris__ditaa.f2286c4\n- parcel-bundler__lightningcss.aa2ed1e\n- kaushiksrini__parqeye.8072121\n- o2sh__onefetch.e5958ce\n\n## Three attempts per model and task\n\n1. Run the untimed control first. This same attempt supplies calibration; it is the M/control run.\n2. Freeze task-specific M: Per-task arithmetic mean of valid voluntary submission times, one per agent and equal agent weights; shared by all agents.\n3. Run two fresh sessions at M/4 and 4M. Keep the full-duration wording. No separate timed M attempt.\n\nPlot each control at its actual duration. Do not condition calibration on a perfect score. A final full score does not identify first success.\n\nControl reuse makes calibration non-independent. Comparing control to timed arms changes both duration request and budget.\n\nTimed wording: Please work on this task for a full {duration}. Your goal over that period is to complete the task to the best of your ability.\n\nLeave PostTrainBench open-ended without a duration request during calibration. Retain YC’s simulation endpoint.\nRemove competing agent-work deadlines, countdowns and turn/inactivity ceilings; retain task-defining horizons, evaluation limits and declared resources.\nUse Harbor for execution where qualified. Use agent_execution as the proposed timing starting point; validate adapter startup/cleanup and detached-work boundaries. Whole-job duration includes other work.\n\n## Next models\n\n- Claude Opus 5.5 (`claude-opus-5-5`): Max effort proposed. Proposed route: Claude Code / Harbor adapter. Qualification pending. The prior review used Opus 5.5. Qualify the benchmark adapter, image tools and completion timing separately. Source: https://platform.claude.com/docs/en/models/opus-5-5/overview\n- GPT-6.1 Sol (`gpt-6.1-sol`): Max effort proposed. Proposed route: Codex / Harbor adapter. Qualification pending. Available in the local Codex model catalog. Qualify the selected runner; a direct API tool route requires Responses. Source: https://developers.openai.com/api/docs/models/gpt-6.1-sol\n- MiMo-V2.6-Pro (`mimo-v2.6-pro`): Thinking configuration to pin. Proposed route: MiMo API / Harbor-compatible adapter. Qualification pending. Use the current MOPD revision. Xiaomi updated the API behind the same model ID; record revision evidence and run dates. Source: https://mimo.xiaomi.com/zh/blog/mimo-v2-6-tool-call-repetition\n\nModel names are selected; settings and routes are proposed. Keep each model’s settings fixed across all three arms.\nThe v1 Astra / Sol 5.6 / Fable results are historical context, not fresh controls for these models.\n\n## Execution sequence\n\n1. Pin task IDs, qualify verifiers and environments, remove competing time instructions.\n2. Run adapter smoke checks on disposable fixtures outside the study. Check tools, images, waits, subagents and completion.\n3. Collect all three untimed controls for a task before freezing M. Hold unresolved/censored tasks rather than inventing M.\n4. Run the two timed sessions from clean task state. Keep prior answers and artifacts out of each session.\n\nPlanned size if all tasks qualify: 660 controls + 1,320 timed attempts = 1,980 runs. Qualification checks and FFmpeg/PHP pilots are additional.\n\n## Still to settle\n\n- Finish task IDs and verifier checks, including AssistantBench and CORE. The 220 places are an allocation, not a fully qualified roster.\n- Freeze the hidden backstop, invalid or censored control handling, and timing for very short controls before collecting M.\n- Pin model settings, provider routes, tool access and subagent policy. Qualify image tasks and background-work completion for every model.\n- Choose the timed-run order and the relation between the duration request and enforced stopping. Counterbalancing short/long order is recommended, not yet selected.\n\n## Evidence\n\n- ProgramBench metadata commit: 963063c9271cc40fa179977356782ea4582e0b0c\n- Public ProgramBench task list, checked 2026-09-30: https://programbench.com/tasks/\n- Official Claude effort settings: https://platform.claude.com/docs/en/build-with-claude/effort\n- MiMo MOPD model card: https://huggingface.co/XiaomiMiMo/MiMo-V2.6-Pro-MOPD\n\nPage and plan only. No benchmark runs launched by this update.\n"
+}

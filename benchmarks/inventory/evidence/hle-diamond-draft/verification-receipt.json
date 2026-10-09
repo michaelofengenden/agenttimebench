@@ -1,0 +1,45 @@
+{
+  "status": "passed",
+  "checks": [
+    "Pinned original and imported-cache parquet sizes and SHA256 match",
+    "1000 unique nonempty IDs; 500 unique reasoning and 500 unique knowledge IDs",
+    "Deterministic regeneration matches all three saved artifacts",
+    "21 classified prefix records; 20 draft selected IDs; 979 eligibility-unreviewed",
+    "20 unique selections split 10 reasoning and 10 knowledge",
+    "4 encoded-image selections retain rendering gap",
+    "No full question strings in recommendation, selection ledger or ranked metadata artifact",
+    "No answer/rationale columns projected",
+    "All selected rows runtime_ready=false and scientific_admitted=false"
+  ],
+  "python_executable": "/Users/michaelofengenden/Developer/TimeResearch/AgentTime-v1.1/.venv/bin/python",
+  "dependency_path": "/private/tmp/agenttime-inventory-20261002/python-deps",
+  "pyarrow_version": "21.0.0",
+  "reproduction_command": "PYTHONPATH=/private/tmp/agenttime-inventory-20261002/python-deps /Users/michaelofengenden/Developer/TimeResearch/AgentTime-v1.1/.venv/bin/python /private/tmp/agenttime-inventory-20261002/hle-diamond-draft/select_hle_diamond.py --check",
+  "files": [
+    {
+      "name": "draft-selection.json",
+      "bytes": 74135,
+      "sha256": "ce9906ba48374a3d81ea5d132b52d56a123dbd3d53c8099f83a21b3cf69157bf"
+    },
+    {
+      "name": "ranked-pools.json",
+      "bytes": 717244,
+      "sha256": "c8796c4f8e504be8d8ef308f74a155ef4c6f97ea9ff5a0f2e001005d7bd147f2"
+    },
+    {
+      "name": "screening-decisions.json",
+      "bytes": 10000,
+      "sha256": "9c91809b3f35f539663d8bc7baa7b60147b64bdf5a93362494ee66e0dc70f694"
+    },
+    {
+      "name": "select_hle_diamond.py",
+      "bytes": 16044,
+      "sha256": "f68b61820f473589982be93ea250dc38bb97b2adfaf91c85ae2db2f386b51d26"
+    },
+    {
+      "name": "selection-ledger.json",
+      "bytes": 38094,
+      "sha256": "ad27d838431d19c31d6ebb0b1e9c1b0afda60d448bd04091b29d32c3c56cf244"
+    }
+  ]
+}

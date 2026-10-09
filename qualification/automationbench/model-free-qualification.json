@@ -1,0 +1,107 @@
+{
+  "scope": "standalone_model_free_adapter",
+  "source_commit": "4a8e1061254004d9dac807054eed33fad7d1ff14",
+  "owner_state_schema": 2,
+  "verification": {
+    "native_python313": {
+      "tests_run": 27,
+      "passed": 26,
+      "skipped": 1,
+      "log": "/private/tmp/agenttime-automationbench-20261005/adapter-tests/native-final.log"
+    },
+    "harbor_python312": {
+      "version": "0.23.0",
+      "tests_run": 2,
+      "passed": 2,
+      "log": "/private/tmp/agenttime-automationbench-20261005/adapter-tests/harbor-final.log"
+    },
+    "unique_tests_exercised_across_runtimes": 27,
+    "ruff": "passed",
+    "python312_lazy_imports": "passed",
+    "model_free_service_help": "passed"
+  },
+  "covered": [
+    "native_tools_and_result_parity",
+    "real_mcp_protocol_ids",
+    "streamable_http_mutation_deduplication",
+    "private_field_rejection",
+    "private_controller_methods_absent",
+    "serialized_seal",
+    "partial_mutation_fencing",
+    "constructed_initial_baseline",
+    "native_exclusions_and_grades",
+    "sheets_markers_restore",
+    "ads_jobs_restore",
+    "checkpoint_integrity_and_schema",
+    "receipt_revision_chain",
+    "owner_clock_domains",
+    "harbor_codex_claude_config_rendering",
+    "cold_and_warm_source_pin_equivalence",
+    "corrupt_search_index_rejection",
+    "captured_state_seal_race"
+  ],
+  "study_launch_ready": false,
+  "native_harness_qualified": false,
+  "native_timing_qualified": false,
+  "production_controller_qualified": false,
+  "archive_qualified": false,
+  "limitations": [
+    "No evaluated agents or paid model calls were launched.",
+    "No global MCP or real account configuration was changed.",
+    "MCP transport tests use real protocol/session code with in-memory streams and ASGI HTTP, not a deployed isolated sidecar network.",
+    "Backend checkpoints and in-memory receipts do not qualify durable recovery between checkpoints.",
+    "Harbor package has no private verifier wiring; controller lifecycle, native terminal capture, model/CLI pinning, full session archives and sidecar deployment remain pending."
+  ],
+  "files": [
+    {
+      "path": "qualification/automationbench/README.md",
+      "sha256": "831cbb3a3aaabe03f6080252be70a509b975f6aff1a63aa1e3dc2c2091a96163"
+    },
+    {
+      "path": "qualification/automationbench/serve.py",
+      "sha256": "9d7abc8f33ed7e6c1f51d57f8f0938200a1cdfd4f5833d9ce8ae15d84c5f54f8"
+    },
+    {
+      "path": "src/agenttime/automationbench/__init__.py",
+      "sha256": "e5ab6c69b97a559a81c10e6337c4a59d2cf6e269baf2f9f97eb3db8a374ff010"
+    },
+    {
+      "path": "src/agenttime/automationbench/_pin.py",
+      "sha256": "14716cdba7d190e0c4b5d6cbb53c401ccf2c8f568791bcc99b8734c8fa1bf6bf"
+    },
+    {
+      "path": "src/agenttime/automationbench/backend.py",
+      "sha256": "6aea8f3dccc6c5c2c6f3ef383057f59f32a848bdf6e4aedea81f2e130638da36"
+    },
+    {
+      "path": "src/agenttime/automationbench/harbor.py",
+      "sha256": "ce5da2643eb76ba860345fcfbf5d43c0e39985e67c9511111ee03483ea8ac0a4"
+    },
+    {
+      "path": "src/agenttime/automationbench/native.py",
+      "sha256": "9250b2a9275812e1a641ebfa85a52d537f20690d8d4d65d07a3f9af3537b0517"
+    },
+    {
+      "path": "src/agenttime/automationbench/prompts.py",
+      "sha256": "ccdf535aa711fa4fe16a3ca21e68faff40738091a730fb9c6b2d1545b7357a00"
+    },
+    {
+      "path": "src/agenttime/automationbench/service.py",
+      "sha256": "ff05af5c7ea126b5e39f1536548695d269dc11ae30b669b5225c954acf07a89c"
+    },
+    {
+      "path": "tests/test_automationbench.py",
+      "sha256": "d23696dacb21981ab05d5da12e8b4a303e737ab6c57a90a773b7086193a19d14"
+    },
+    {
+      "path": "tests/test_automationbench_harbor.py",
+      "sha256": "5e6b6e64e8945fa5c56ef24842ffce9bc4de0577c250879ed9efec56d2ca6993"
+    },
+    {
+      "path": "tests/test_automationbench_transport.py",
+      "sha256": "cad449e8150a268e4820a88d4768b844a69af376e81431d1200a1bf436ec969e"
+    }
+  ],
+  "source_runtime_tree_sha256": "58b189a8c2a37c9ff085c2ec268cadca846665468e32cbca3e3c98bd1ff914f8",
+  "optional_search_index_sha256": "8c6b364b1dc5ede439aa92b928156c44679e632857e3df930fd9ee21f3fc5069"
+}

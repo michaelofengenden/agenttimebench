@@ -1,0 +1,6 @@
+{
+  "container_id": "2aefb7a165aaf805d6e99e258e8dd76dbadc93c2dacc95b3e579ffe2d4a76895",
+  "image": "sha256:245ec38fb91de703a186403531046260c171c82ca6511ae1fc2eeb18af43eb16",
+  "label": "synthetic-native-image-a37fa2e37d4c",
+  "purpose": "synthetic_qualification_only"
+}

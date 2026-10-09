@@ -1,0 +1,8 @@
+{
+  "container_id": "b9b1cc950ec39cddefaeabb19cabfb5f6db0f8c08f120deb8f29c1a36d843fa8",
+  "daemon_id": "9c0d75e9-2357-4913-aada-75e743da1e67",
+  "docker_endpoint": "unix:///var/run/docker.sock",
+  "host_id": "169539583",
+  "session_id": "86252432-0fcf-48b8-8267-495e26042c51",
+  "worker_id": "5cb59d43-bd44-403c-9cb7-e13d951cb3e9"
+}

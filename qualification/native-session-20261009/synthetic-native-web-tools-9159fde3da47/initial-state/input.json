@@ -1,0 +1,1 @@
+{"message": {"content": [{"text": "Use WebSearch to find Anthropic's official Claude Code documentation, then WebFetch to read its overview. Return its page title and URL, then finish. This is a synthetic infrastructure check.", "type": "text"}], "role": "user"}, "type": "user"}

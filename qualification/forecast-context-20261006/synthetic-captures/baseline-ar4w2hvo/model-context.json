@@ -1,0 +1,38 @@
+{
+  "system": [
+    {
+      "type": "text",
+      "text": "x-anthropic-billing-header: cc_version=2.1.280.4da; cc_entrypoint=sdk-cli;"
+    },
+    {
+      "type": "text",
+      "text": "You are a Claude agent, built on Anthropic's Claude Agent SDK.",
+      "cache_control": {
+        "type": "ephemeral",
+        "ttl": "1h"
+      }
+    }
+  ],
+  "messages": [
+    {
+      "role": "user",
+      "content": "How long will it take you to complete this task:\n\"Write a haiku about the sea.\"\nreturn minutes = <Number of minutes>"
+    },
+    {
+      "role": "system",
+      "content": [
+        {
+          "type": "text",
+          "text": "# Environment\nYou have been invoked in the following environment: \n - Primary working directory: /private/tmp/agenttime-forecast-context-probe-20261006-_67q7h_v/baseline-ar4w2hvo/session-_61wz1cg/work\n - Is a git repository: false\n - Platform: darwin\n - Shell: zsh\n - OS Version: Darwin 27.0.0\n\nYou are powered by the model named Opus 5.5. The exact model ID is claude-opus-5-5. Assistant knowledge cutoff is June 2026.\n\n<total_tokens>15000000 tokens left</total_tokens>\n\nToday's date is 2026-10-06.",
+          "cache_control": {
+            "type": "ephemeral",
+            "ttl": "1h"
+          }
+        }
+      ],
+      "output_config": {
+        "effort": "max"
+      }
+    }
+  ]
+}

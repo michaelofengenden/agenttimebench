@@ -1,11 +1,11 @@
 """Offline allocation accounting. This module does not dispatch attempts."""
 
-import json
+from .jsonio import loads_strict
 from pathlib import Path
 
 
 def read_config(directory: Path, name: str) -> dict:
-    value = json.loads((directory / f"{name}.json").read_text())
+    value = loads_strict((directory / f"{name}.json").read_text())
     if not isinstance(value, dict):
         raise ValueError(f"{name}.json must contain an object")
     return value
