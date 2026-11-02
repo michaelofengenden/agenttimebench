@@ -22,7 +22,7 @@ spokenVerdict(r.worked_s/r.requested_s)+'. '+ending(r)+'. '+grade(r)+'. '+(x.len
 function splitOf(r,cls){var S=AT.shared.split;return S?S.splitMark({value:r.worked_s===null?null:r.worked_s/r.requested_s,scale:'ratio',className:cls||''}):'';}
 function tipHTML(r,t){needSplit();var q=r.worked_s/r.requested_s,RL=fmt.REQUEST_LABELS;var v=fmt.verdictOf(q);return'<div class="tip-head"><span class="tip-agent">'+shape(r)+'<span>'+esc(agentOf(r).name)+'</span></span><span class="tip-status is-'+v+'">'+(v==='on_time'?'Within 5%':v==='early'?'Shorter':'Longer')+'</span></div>'+
 '<div class="tip-body"><p class="tip-task">'+esc(title(r))+'</p>'+
-'<p class="tip-bench">'+esc(benchName(r))+', '+r.request+' request</p>'+
+'<p class="tip-bench">'+esc(benchName(r))+', '+esc(fmt.requestPhrase(r))+'</p>'+
 (AT.shared.split?'<div class="tip-split">'+splitOf(r)+'<span class="split-key" aria-hidden="true"><span>Shorter</span><span class="is-target">Asked</span><span>Longer</span></span></div>':'')+
 '<p class="tip-times"><span class="is-asked">Asked <b>'+esc(U.askShort(r.requested_s))+'</b></span><span>Worked <b>'+esc(fmt.duration(r.worked_s,'long'))+'</b></span></p>'+
 '<p class="tip-verdict">'+esc(fmt.verdict(q))+'</p><p class="tip-grade"><b>'+esc(grade(r))+'.</b> '+esc(ending(r))+'.</p>'+
