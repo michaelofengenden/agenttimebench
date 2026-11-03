@@ -5,7 +5,7 @@ var LONGEST_BUCKETS=[{id:'15m-1h',test:function(s){return s>=900&&s<3600;}},{id:
 function longestOf(t){return t.q[t.q.length-1];}
 var rows=pd.tasks.map(function(t){var longestS=longestOf(t);var bucket=LONGEST_BUCKETS.filter(function(b){return b.test(longestS);})[0];return{t:t,search:norm(t.ti+' '+t.r+' '+benchOf(t)),bucket:bucket?bucket.id:''};});function inSet(r){return!setSel||setSel.value==='all'||(setSel.value==='earlier')===!!r.t.e;}
 var page=0,sortKey=null,sortDir=1;var LO=Math.log(0.1),SPAN=Math.log(10)-LO;function pct(r){var v=(Math.log(Math.max(0.1,Math.min(10,r)))-LO)/SPAN*100;return Math.round(Math.max(0,Math.min(100,v))*100)/100+'%';}
-function stripCell(ratios,hollow,shape){if(!ratios.length)return'<span class="small muted">No runs</span>';var marks='';for(var i=0;i<ratios.length;i++){marks+='<use href="#tm-'+shape+'" x="'+pct(ratios[i])+'" y="10"'+(hollow&&hollow[i]?' class="is-hollow"':'')+'/>';}
+function stripCell(ratios,hollow,shape){if(!ratios.length)return'<span class="small muted task-none" aria-hidden="true">–</span><span class="visually-hidden">No runs</span>';var marks='';for(var i=0;i<ratios.length;i++){marks+='<use href="#tm-'+shape+'" x="'+pct(ratios[i])+'" y="10"'+(hollow&&hollow[i]?' class="is-hollow"':'')+'/>';}
 return'<svg class="task-strip" height="20" aria-hidden="true" focusable="false"><use href="#task-axis"/>'+marks+'</svg>';}
 function keepWords(s){return s.split(' ').map(function(w){return'<span class="nowrap">'+escText(w)+'</span>';}).join(' ');}
 function rowHTML(r){var t=r.t;var href=AT.href('benchmarks/'+t.b+'/'+t.s+'/');var out='<tr><td class="m-title" data-label="Task"><a class="row-link" href="'+href+'">'+escText(t.ti)+'</a></td>'+
