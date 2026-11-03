@@ -63,16 +63,16 @@ window.AT_FILE_FIX=fix;})();</script>
 </header>
 <section class="bench-by-agent" aria-labelledby="by-agent"><h2 id="by-agent" class="visually-hidden">By agent</h2>
 <div class="board-wrap">
-<table class="board is-compact lead-on has-logos" id="bench-board">
+<table class="board no-score is-compact lead-on has-logos" id="bench-board">
 <caption class="visually-hidden">Agents on PaperBench ranked by the share of their runs within 5% of the time asked, with timing error, where the runs ended and score</caption>
-<thead><tr><th scope="col" class="bd-rank"><span class="visually-hidden">Rank</span></th><th scope="col" class="bd-agent"><span class="bd-h">Agent</span></th><th scope="col" class="bd-te"><span class="bd-h">Within 5%</span><span class="bd-hint">0.95× to 1.05× of the request</span></th><th scope="col" class="bd-vis"><span class="bd-h">Where runs ended</span><span class="st-axis bd-axis" aria-hidden="true"><span style="left:3.87%">0.1×</span><span class="st-one" style="left:50%">1×</span><span style="left:96.13%">10×</span></span><span class="visually-hidden">, from a tenth of the time asked to ten times it</span></th><th scope="col" class="bd-on"><span class="bd-h">Timing error</span><span class="bd-hint">on this benchmark</span></th><th scope="col" class="bd-score"><span class="bd-h">Score</span><span class="bd-hint">out of 100</span></th></tr></thead>
+<thead><tr><th scope="col" class="bd-rank"><span class="visually-hidden">Rank</span></th><th scope="col" class="bd-agent"><span class="bd-h">Agent</span></th><th scope="col" class="bd-te"><span class="bd-h">Within 5%</span><span class="bd-hint">0.95× to 1.05× of the request</span></th><th scope="col" class="bd-vis"><span class="bd-h">Where runs ended</span><span class="st-axis bd-axis" aria-hidden="true"><span style="left:3.87%">0.1×</span><span class="st-one" style="left:50%">1×</span><span style="left:96.13%">10×</span></span><span class="visually-hidden">, from a tenth of the time asked to ten times it</span></th><th scope="col" class="bd-on"><span class="bd-h">Timing error</span><span class="bd-hint">on this benchmark</span></th></tr></thead>
 <tbody><tr class="is-few" id="agent-gpt-6-astra">
 <td class="bd-rank">1</td>
 <td class="bd-agent"><a class="bd-name row-link" href="../../agents/gpt-6-astra/"><svg class="mk-logo mk-openai" width="18" height="18" aria-hidden="true" focusable="false"><use href="#mk-openai"/></svg><span class="agent-name">GPT 6 Astra</span></a><span class="bd-sub">Codex</span></td>
 <td class="bd-te" data-sort="1"><span class="bd-value">100%</span><span class="bd-sub">6 of 6 runs</span></td>
 <td class="bd-vis"><span class="st-axis bd-axis-m" aria-hidden="true"><span style="left:3.87%">0.1×</span><span class="st-one" style="left:50%">1×</span><span style="left:96.13%">10×</span></span><svg class="strip" role="img" aria-label="GPT 6 Astra: 100% within 5% of the time asked, 0% stopped earlier, 0% ran longer; timing error 1.01×." viewBox="0 0 400 40" preserveAspectRatio="none" width="100%" height="40" style="--sc:var(--astra)"><rect class="strip-band" x="195.9" y="0" width="8" height="34"/><path class="strip-bars" d="M197.1 34v-33h5.6v33z"/><path class="strip-cut" d="M196.6 5h6.6"/><path class="strip-base" d="M15.5 34.5H384.5"/><path class="strip-one" d="M200 32V40"/></svg></td>
 <td class="bd-on" data-sort="1.011412812368732"><span class="bd-num">1.01×</span></td>
-<td class="bd-score" data-label="Score" data-sort=""><span class="bd-none"><span aria-hidden="true">–</span><span class="visually-hidden">Being graded</span></span><span class="bd-sub" aria-hidden="true">Being graded</span></td>
+
 
 </tr><tr class="is-few" id="agent-gpt-6-1-sol">
 <td class="bd-rank">2</td>
@@ -80,7 +80,7 @@ window.AT_FILE_FIX=fix;})();</script>
 <td class="bd-te" data-sort="0.75"><span class="bd-value">75%</span><span class="bd-sub">6 of 8 runs</span></td>
 <td class="bd-vis"><span class="st-axis bd-axis-m" aria-hidden="true"><span style="left:3.87%">0.1×</span><span class="st-one" style="left:50%">1×</span><span style="left:96.13%">10×</span></span><svg class="strip" role="img" aria-label="GPT 6.1 Sol: 75% within 5% of the time asked, 13% stopped earlier, 13% ran longer; timing error 1.13×." viewBox="0 0 400 40" preserveAspectRatio="none" width="100%" height="40" style="--sc:var(--sol61)"><rect class="strip-band" x="195.9" y="0" width="8" height="34"/><path class="strip-bars" d="M187.8 34v-23.3h6.6v23.3zM197.1 34v-33h5.6v33zM252.9 34v-23.3h6.7v23.3z"/><path class="strip-cut" d="M196.6 5h6.6"/><path class="strip-base" d="M15.5 34.5H384.5"/><path class="strip-one" d="M200 32V40"/></svg></td>
 <td class="bd-on" data-sort="1.1258161680676546"><span class="bd-num">1.13×</span></td>
-<td class="bd-score" data-label="Score" data-sort=""><span class="bd-none"><span aria-hidden="true">–</span><span class="visually-hidden">Being graded</span></span><span class="bd-sub" aria-hidden="true">Being graded</span></td>
+
 
 </tr><tr class="is-few" id="agent-gpt-5-6-sol">
 <td class="bd-rank">3</td>
@@ -88,7 +88,7 @@ window.AT_FILE_FIX=fix;})();</script>
 <td class="bd-te" data-sort="0.3333333333333333"><span class="bd-value">33%</span><span class="bd-sub">2 of 6 runs</span></td>
 <td class="bd-vis"><span class="st-axis bd-axis-m" aria-hidden="true"><span style="left:3.87%">0.1×</span><span class="st-one" style="left:50%">1×</span><span style="left:96.13%">10×</span></span><svg class="strip" role="img" aria-label="GPT 5.6 Sol: 33% within 5% of the time asked, 33% stopped earlier, 33% ran longer; timing error 1.36×." viewBox="0 0 400 40" preserveAspectRatio="none" width="100%" height="40" style="--sc:var(--sol)"><rect class="strip-band" x="195.9" y="0" width="8" height="34"/><path class="strip-bars" d="M140.3 34v-26.9h6.6v26.9zM159.3 34v-26.9h6.6v26.9zM197.1 34v-33h5.6v33zM205.3 34v-26.9h6.7v26.9zM243.4 34v-26.9h6.7v26.9z"/><path class="strip-cut" d="M196.6 5h6.6"/><path class="strip-base" d="M15.5 34.5H384.5"/><path class="strip-one" d="M200 32V40"/></svg></td>
 <td class="bd-on" data-sort="1.3563438536603603"><span class="bd-num">1.36×</span></td>
-<td class="bd-score" data-label="Score" data-sort=""><span class="bd-none"><span aria-hidden="true">–</span><span class="visually-hidden">Being graded</span></span><span class="bd-sub" aria-hidden="true">Being graded</span></td>
+
 
 </tr><tr class="is-few" id="agent-mimo-v2-6-pro">
 <td class="bd-rank">4</td>
@@ -96,7 +96,7 @@ window.AT_FILE_FIX=fix;})();</script>
 <td class="bd-te" data-sort="0.14285714285714285"><span class="bd-value">14%</span><span class="bd-sub">1 of 7 runs</span></td>
 <td class="bd-vis"><span class="st-axis bd-axis-m" aria-hidden="true"><span style="left:3.87%">0.1×</span><span class="st-one" style="left:50%">1×</span><span style="left:96.13%">10×</span></span><svg class="strip" role="img" aria-label="MiMo V2.6 Pro: 14% within 5% of the time asked, 71% stopped earlier, 14% ran longer; timing error 2.14×." viewBox="0 0 400 40" preserveAspectRatio="none" width="100%" height="40" style="--sc:var(--mimo)"><rect class="strip-band" x="195.9" y="0" width="8" height="34"/><path class="strip-bars" d="M16.9 34v-24.9h6.6v24.9zM92.9 34v-24.9h6.6v24.9zM111.9 34v-24.9h6.6v24.9zM187.8 34v-33h6.6v33zM197.1 34v-24.9h5.6v24.9zM233.9 34v-24.9h6.7v24.9z"/><path class="strip-cut" d="M187.3 5h7.6"/><path class="strip-base" d="M15.5 34.5H384.5"/><path class="strip-one" d="M200 32V40"/></svg></td>
 <td class="bd-on" data-sort="2.1439582838387197"><span class="bd-num">2.14×</span></td>
-<td class="bd-score" data-label="Score" data-sort=""><span class="bd-none"><span aria-hidden="true">–</span><span class="visually-hidden">Being graded</span></span><span class="bd-sub" aria-hidden="true">Being graded</span></td>
+
 
 </tr><tr class="is-few" id="agent-claude-opus-5-5">
 <td class="bd-rank">5</td>
@@ -104,7 +104,7 @@ window.AT_FILE_FIX=fix;})();</script>
 <td class="bd-te" data-sort="0"><span class="bd-value">0%</span><span class="bd-sub">0 of 6 runs</span></td>
 <td class="bd-vis"><span class="st-axis bd-axis-m" aria-hidden="true"><span style="left:3.87%">0.1×</span><span class="st-one" style="left:50%">1×</span><span style="left:96.13%">10×</span></span><svg class="strip" role="img" aria-label="Claude Opus 5.5: 0% within 5% of the time asked, 100% stopped earlier, 0% ran longer; timing error 2.12×." viewBox="0 0 400 40" preserveAspectRatio="none" width="100%" height="40" style="--sc:var(--opus)"><rect class="strip-band" x="195.9" y="0" width="8" height="34"/><path class="strip-bars" d="M83.4 34v-26.9h6.6v26.9zM102.4 34v-26.9h6.6v26.9zM121.4 34v-26.9h6.6v26.9zM149.8 34v-26.9h6.6v26.9zM168.8 34v-26.9h6.6v26.9zM187.8 34v-26.9h6.6v26.9z"/><path class="strip-base" d="M15.5 34.5H384.5"/><path class="strip-one" d="M200 32V40"/></svg></td>
 <td class="bd-on" data-sort="2.122266674206217"><span class="bd-num">2.12×</span></td>
-<td class="bd-score" data-label="Score" data-sort=""><span class="bd-none"><span aria-hidden="true">–</span><span class="visually-hidden">Being graded</span></span><span class="bd-sub" aria-hidden="true">Being graded</span></td>
+
 
 </tr><tr class="is-few" id="agent-gemini-4-argon">
 <td class="bd-rank">6</td>
@@ -112,7 +112,7 @@ window.AT_FILE_FIX=fix;})();</script>
 <td class="bd-te" data-sort="0"><span class="bd-value">0%</span><span class="bd-sub">0 of 8 runs</span></td>
 <td class="bd-vis"><span class="st-axis bd-axis-m" aria-hidden="true"><span style="left:3.87%">0.1×</span><span class="st-one" style="left:50%">1×</span><span style="left:96.13%">10×</span></span><svg class="strip" role="img" aria-label="Gemini 4 Argon: 0% within 5% of the time asked, 50% stopped earlier, 50% ran longer; timing error 2.22×." viewBox="0 0 400 40" preserveAspectRatio="none" width="100%" height="40" style="--sc:var(--argon)"><rect class="strip-band" x="195.9" y="0" width="8" height="34"/><path class="strip-bars" d="M73.9 34v-23.3h6.6v23.3zM121.4 34v-23.3h6.6v23.3zM149.8 34v-23.3h6.6v23.3zM168.8 34v-23.3h6.6v23.3zM233.9 34v-23.3h6.7v23.3zM243.4 34v-23.3h6.7v23.3zM252.9 34v-23.3h6.7v23.3zM300.4 34v-23.3h6.7v23.3z"/><path class="strip-base" d="M15.5 34.5H384.5"/><path class="strip-one" d="M200 32V40"/></svg></td>
 <td class="bd-on" data-sort="2.22219840577933"><span class="bd-num">2.22×</span></td>
-<td class="bd-score" data-label="Score" data-sort=""><span class="bd-none"><span aria-hidden="true">–</span><span class="visually-hidden">Being graded</span></span><span class="bd-sub" aria-hidden="true">Being graded</span></td>
+
 
 </tr><tr class="is-few" id="agent-claude-fable-5-1">
 <td class="bd-rank">7</td>
@@ -120,7 +120,7 @@ window.AT_FILE_FIX=fix;})();</script>
 <td class="bd-te" data-sort="0"><span class="bd-value">0%</span><span class="bd-sub">0 of 6 runs</span></td>
 <td class="bd-vis"><span class="st-axis bd-axis-m" aria-hidden="true"><span style="left:3.87%">0.1×</span><span class="st-one" style="left:50%">1×</span><span style="left:96.13%">10×</span></span><svg class="strip" role="img" aria-label="Claude Fable 5.1: 0% within 5% of the time asked, 83% stopped earlier, 17% ran longer; timing error 2.63×." viewBox="0 0 400 40" preserveAspectRatio="none" width="100%" height="40" style="--sc:var(--fable)"><rect class="strip-band" x="195.9" y="0" width="8" height="34"/><path class="strip-bars" d="M73.9 34v-26.9h6.6v26.9zM92.9 34v-33h6.6v33zM130.9 34v-26.9h6.6v26.9zM140.3 34v-26.9h6.6v26.9zM214.8 34v-26.9h6.7v26.9z"/><path class="strip-cut" d="M92.4 5h7.6"/><path class="strip-base" d="M15.5 34.5H384.5"/><path class="strip-one" d="M200 32V40"/></svg></td>
 <td class="bd-on" data-sort="2.633991744875162"><span class="bd-num">2.63×</span></td>
-<td class="bd-score" data-label="Score" data-sort=""><span class="bd-none"><span aria-hidden="true">–</span><span class="visually-hidden">Being graded</span></span><span class="bd-sub" aria-hidden="true">Being graded</span></td>
+
 
 </tr><tr class="is-few" id="agent-mimo-v2-6-pro-ultraspeed">
 <td class="bd-rank">8</td>
@@ -128,12 +128,12 @@ window.AT_FILE_FIX=fix;})();</script>
 <td class="bd-te" data-sort="0"><span class="bd-value">0%</span><span class="bd-sub">0 of 8 runs</span></td>
 <td class="bd-vis"><span class="st-axis bd-axis-m" aria-hidden="true"><span style="left:3.87%">0.1×</span><span class="st-one" style="left:50%">1×</span><span style="left:96.13%">10×</span></span><svg class="strip" role="img" aria-label="MiMo V2.6 Pro UltraSpeed: 0% within 5% of the time asked, 63% stopped earlier, 38% ran longer; timing error 3.67×." viewBox="0 0 400 40" preserveAspectRatio="none" width="100%" height="40" style="--sc:var(--mimofast)"><rect class="strip-band" x="195.9" y="0" width="8" height="34"/><path class="strip-bars" d="M1.4 34v-23.3h6.6v23.3zM92.9 34v-23.3h6.6v23.3zM111.9 34v-23.3h6.6v23.3zM159.3 34v-23.3h6.6v23.3zM168.8 34v-23.3h6.6v23.3zM252.9 34v-33h6.7v33zM309.9 34v-23.3h6.7v23.3z"/><path class="strip-base" d="M15.5 34.5H384.5"/><path class="strip-one" d="M200 32V40"/></svg></td>
 <td class="bd-on" data-sort="3.6738041591824246"><span class="bd-num">3.67×</span></td>
-<td class="bd-score" data-label="Score" data-sort=""><span class="bd-none"><span aria-hidden="true">–</span><span class="visually-hidden">Being graded</span></span><span class="bd-sub" aria-hidden="true">Being graded</span></td>
+
 
 </tr></tbody>
 
 </table>
-<div class="board-foot"><p>Score is the mean of each agent’s graded runs here, out of 100: a v1.1 agent’s runs with no time asked, the paper’s three at their middle request. <a href="../../method/#within-5">How it is measured</a></p></div>
+<div class="board-foot"><p>PaperBench is not in the benchmark score. <a href="../../method/#within-5">How it is measured</a></p></div>
 </div>
 </section>
 <section class="bench-chart-section" aria-labelledby="every-run"><h2 id="every-run" class="visually-hidden">Every PaperBench run</h2>
